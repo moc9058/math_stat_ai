@@ -1,0 +1,5947 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 256,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 257,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 258,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 259,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 260,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 261,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 262,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 263,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 256,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.058,
+            0.164,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "242"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.698,
+            0.055,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VIII. C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.123,
+            0.1,
+            0.864,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda a \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in \\mathcal { A } _ { + } ;"
+            },
+            {
+              "type": "text",
+              "content": " it must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " . It suffices to assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a \\| , \\| b \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   1 -   \\textstyle { \\frac { 1 } { 2 } } ( a + b )   \\| ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { 1 } { 2 } } \\| ( 1 - a ) + ( 1 - b ) \\| \\leq 1"
+            },
+            {
+              "type": "text",
+              "content": " by (3.6d). So by (3.6e), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { 1 } { 2 } } ( a + b ) \\geq 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.148,
+            0.156,
+            0.839,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { + } \\cap ( - \\mathcal { A } _ { + } )"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   =   a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) = \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a \\| = r(a)   (1.11\\mathrm{e})."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.212,
+            0.738,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now to look at one more example—a very important one."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.248,
+            0.867,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.8. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\langle A h, h \\rangle \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.293,
+            0.867,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then (3.6c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = T ^ { * } T"
+            },
+            {
+              "type": "text",
+              "content": " for some T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T h \\| ^ { 2 } \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Conversely, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " .By (II.2.12), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . It remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) \\in [ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda < 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.261,
+            0.359,
+            0.736,
+            0.403
+          ],
+          "image_path": "images/page_256_equation_7.jpg",
+          "content": "\\begin{align*}\\| (A - \\lambda) h \\|^2 &= \\| A h \\|^2 - 2 \\lambda \\langle A h, h \\rangle + \\lambda^2 \\| h \\|^2 \\\\&\\geqslant - 2 \\lambda \\langle A h, h \\rangle + \\lambda^2 \\| h \\|^2 \\geqslant \\lambda^2 \\| h \\|^2\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.122,
+            0.413,
+            0.869,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   <   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " By (VII.6.4), λ∉σa(A). But this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is left invertible (Exercise VII.6.5). Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is self-adjoint, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is also right invertible. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.123,
+            0.486,
+            0.844,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.9. Definition. If  is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ."
+            },
+            {
+              "type": "text",
+              "content": " -algebra and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a,b \\in \\mathbb{R} \\mathbb{C} \\mathcal{A}"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\leqslant b \\text { if } b - a \\in \\mathcal { A } _ { + }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.123,
+            0.523,
+            0.869,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This ordering makes a C*-algebra as well as Rea into ordered vector spaces."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.123,
+            0.559,
+            0.867,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if A and B are hermitian operators on the Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\leqslant B"
+            },
+            {
+              "type": "text",
+              "content": " if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{if} \\langle A h, h \\rangle \\leqslant \\langle B h, h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.121,
+            0.595,
+            0.871,
+            0.743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This section closes with an application of positivity to obtain the polar decomposition of an operator. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda ^ { \\bar { } } = | \\lambda | e ^ { i \\theta }"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta ;"
+            },
+            {
+              "type": "text",
+              "content": " this is the polar decomposition of λ. Can an analogue be found for operators? To answer this question we might first ask what is the analogue of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda |"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { i \\theta }"
+            },
+            {
+              "type": "text",
+              "content": " among operators. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then the proper definition for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| A |"
+            },
+            {
+              "type": "text",
+              "content": " would seem to be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| A | \\equiv ( A ^ { * } A ) ^ { 1 / 2 } \\left[ \\mathrm { s e e } ( 3 . 5 ) \\right]"
+            },
+            {
+              "type": "text",
+              "content": " . How about an analogue of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { i \\theta } ?"
+            },
+            {
+              "type": "text",
+              "content": " Should it be a unitary operator? An isometry? For an arbitrary operator neither of these is appropriate. The following new class of operators is needed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.122,
+            0.759,
+            0.871,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.10. Definition. A partial isometry is an operator W such that for h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker W ) ^ { \\perp } ,   \\| W h \\| = \\| h \\|"
+            },
+            {
+              "type": "text",
+              "content": " . The space (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " is called the initial space of W and the space ran W is called the final space of W. See Exercises 15–20 for more on partial isometries."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.851,
+            0.874,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.11. Polar Decomposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a partial isometry W with (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " as its initial space and cl(ran A) as its final space such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = W | A | ."
+            },
+            {
+              "type": "text",
+              "content": " Moreover, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = U P"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " and U is a partial isometry with ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\ker P ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P   =   | A |"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = W ,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 257,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.125,
+            0.057,
+            0.51,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§3. The Positive Elements in a C*-Algebra"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.83,
+            0.057,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "243"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.101,
+            0.867,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A h \\| ^ { 2 } = \\langle A h , A h \\rangle = \\langle A ^ { * } A h , h \\rangle = \\langle | A | h , | A | h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.129,
+            0.177,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.12"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.406,
+            0.127,
+            0.586,
+            0.147
+          ],
+          "image_path": "images/page_257_equation_4.jpg",
+          "content": "\\| A h \\| ^ { 2 } = \\| | A | h \\| ^ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.156,
+            0.869,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since (ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ) ^ { \\perp } ="
+            },
+            {
+              "type": "text",
+              "content": " ker A, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } { \\mathrm { r a n } }   A ^ { * } , f = A ^ { * } g"
+            },
+            {
+              "type": "text",
+              "content": " for g in (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ) ^ { \\perp } ="
+            },
+            {
+              "type": "text",
+              "content": " cl ran A. Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A ^ { * } A k : k \\in \\mathcal { H } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is dense in cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ \\tan A^{*} \\right] ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker A ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*} A k = |A|^{2} k = |A| h."
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { h } = | \\pmb { A } | k"
+            },
+            {
+              "type": "text",
+              "content": " That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ | A | h \\colon h \\in \\mathcal { H } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is dense in (ker A)↓. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W \\colon \\operatorname { r a n } | A | \\to"
+            },
+            {
+              "type": "text",
+              "content": " ran A is defined by"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.238,
+            0.176,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.13"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.425,
+            0.239,
+            0.572,
+            0.257
+          ],
+          "image_path": "images/page_257_equation_7.jpg",
+          "content": "W ( | A | h ) = A h ,"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.266,
+            0.869,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "then (3.12) implies that W is a well-defined isometry. Thus W extends to an isometry "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W : ( \\ker A ) ^ { \\perp } \\to \\operatorname { c l } ( \\operatorname { r a n } A )"
+            },
+            {
+              "type": "text",
+              "content": " . If Wh is defined to be 0 for h in ker A, W is a partial isometry. By (3.13) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W | A | = A ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.322,
+            0.869,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the uniqueness, note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = PU^{*}UP"
+            },
+            {
+              "type": "text",
+              "content": " . Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ^ { \\star } U = E \\equiv \\mathrm { t h } ("
+            },
+            {
+              "type": "text",
+              "content": " e projection onto the initial space of U (Exercise 16), (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ) ^ { \\perp } = ( \\ker P ) ^ { \\perp } ="
+            },
+            {
+              "type": "text",
+              "content": " cl (ran P). Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = PEP = P^{2}"
+            },
+            {
+              "type": "text",
+              "content": " . By the uniqueness of the positive square root, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P   =   | A | ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = U | A | , U | A | h = A h = W | A | h ."
+            },
+            {
+              "type": "text",
+              "content": " That is, U and W agree on a dense subset of their common initial space. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = W ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.423,
+            0.231,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.135,
+            0.442,
+            0.844,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove the uniqueness statement in Proposition 3.4 for the case that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is abelian."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.136,
+            0.468,
+            0.365,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Prove Proposition 3.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.136,
+            0.494,
+            0.851,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( L ^ { 2 } ( 0 , 1 ) )"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A f ) ( t ) = t f ( t )"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { 1 / n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.134,
+            0.52,
+            0.867,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { \\infty } ( X ,   \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " as in Theorem II.1.5. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( x ) \\geqslant 0 \\mathrm { a . e . } [ \\mu ]"
+            },
+            {
+              "type": "text",
+              "content": " . What is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } ^ { 1 / n \\gamma }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } \\in \\operatorname { R e } { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " , find the positive and negative parts of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.136,
+            0.579,
+            0.867,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Find an example of a positive operator on a Hilbert space that has a nonhermitian square root."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.136,
+            0.621,
+            0.565,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\operatorname { R e } \\mathcal { A } ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| a | \\equiv ( a ^ { 2 } ) ^ { 1 / 2 } = a _ { + } + a _ { - }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.137,
+            0.648,
+            0.6,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } a x { \\in } { \\mathcal { A } } ."
+            },
+            {
+              "type": "text",
+              "content": " for every x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\measuredangle"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.135,
+            0.673,
+            0.824,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a,b \\in \\mathcal{A}, 0 \\leqslant a \\leqslant b."
+            },
+            {
+              "type": "text",
+              "content": " and a is invertible, then b is invertible and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { - 1 } \\leqslant a ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.134,
+            0.698,
+            0.868,
+            0.732
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a,b \\in \\mathbb{R}\\mathbb{C} \\times \\mathbb{C}, a \\leqslant b."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b = b a ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) \\leqslant f ( b )"
+            },
+            {
+              "type": "text",
+              "content": " for every increasing continuous function f on IR."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.127,
+            0.74,
+            0.868,
+            0.774
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   \\mathbf { R e } .   \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , show that a is the sum of two unitaries. (Hint: First solve this for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathbb { C } . )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.127,
+            0.782,
+            0.867,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{a}:(-\\alpha^{-1},\\infty)\\to\\mathbb{R}\\quad by\\quad f_{a}(t)=t/(1+\\alpha t)=\\alpha^{-1}\\left[1-(1+\\alpha t)^{-1}\\right]"
+            },
+            {
+              "type": "text",
+              "content": " Show:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.16,
+            0.823,
+            0.581,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant a \\leqslant b"
+            },
+            {
+              "type": "text",
+              "content": " in A, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{\\alpha}(a) \\leqslant f_{\\alpha}(b)"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha > 0 ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.161,
+            0.841,
+            0.445,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x } ( t ) < \\operatorname* { m i n } \\left\\{ t , \\alpha ^ { - 1 } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t > 0 ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.161,
+            0.857,
+            0.7,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { l i m } _ { \\alpha \\to 0 } f _ { \\alpha } ( t ) = t"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on bounded intervals in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , \\infty ) ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.161,
+            0.875,
+            0.463,
+            0.891
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant \\alpha \\leqslant \\beta, f_{\\alpha} \\leqslant f_{\\beta}"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , \\infty ) ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.164,
+            0.892,
+            0.317,
+            0.909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { \\alpha } \\circ f _ { \\beta } = f _ { \\alpha + \\beta } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.162,
+            0.908,
+            0.717,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(f) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { l i m } _ { \\alpha \\to \\infty } \\alpha f _ { \\alpha } ( t ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on bounded intervals in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , \\infty )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 258,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.057,
+            0.167,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "244"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.703,
+            0.056,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VIII. C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.1,
+            0.868,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " + and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\leqslant b ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { \\pmb { \\beta } } \\leqslant b ^ { \\pmb { \\beta } }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant \\beta \\leqslant 1. \\left( a^{\\beta} = f(a) \\right."
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( t ) = t ^ { \\beta } . )"
+            },
+            {
+              "type": "text",
+              "content": " (Hint: Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " be as in Exercise 11 and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { 0 } ^ { \\infty } f _ { \\alpha } ( t ) \\alpha ^ { - \\beta } d \\alpha = \\gamma t ^ { \\beta }"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma   >   0"
+            },
+            {
+              "type": "text",
+              "content": " Use the definition of the improper integral and the functional calculus.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.16,
+            0.869,
+            0.195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Give an example of a C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and positive elements "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\leqslant b"
+            },
+            {
+              "type": "text",
+              "content": " but "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } - a ^ { 2 } \\neq \\mathcal { A } _ { + }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.203,
+            0.87,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathcal { B } ( l ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = \\mathbf { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " unilateral shift on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b   =   a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a b ) \\neq \\sigma ( b a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.246,
+            0.87,
+            0.299
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { W } \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and show that the following statements are equivalent: (a) W is a partial isometry; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is a partial isometry; (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } W"
+            },
+            {
+              "type": "text",
+              "content": " is a projection; (d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W W ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is a projection; (e) W "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } W = W ;"
+            },
+            {
+              "type": "text",
+              "content": " (f) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } W W ^ { * } = W ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.306,
+            0.87,
+            0.341
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. If W is a partial isometry, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } W"
+            },
+            {
+              "type": "text",
+              "content": " is the projection onto the initial space of Wand "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W W ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is the projection onto the final space of W."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.348,
+            0.871,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { 1 } ,   W _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are partial isometries, define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { 1 } \\lesssim W _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " to mean that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W_{1}^{*}W_{1} \\leqslant W_{2}^{*}W_{2}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W_{1}W_{1}^{*} \\leqslant W_{2}W_{2}^{*}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { 2 } h = W _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " h whenever h is in the initial space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lesssim"
+            },
+            {
+              "type": "text",
+              "content": " is a partial ordering on the set of partial isometries and that a partial isometry W is a maximal element in this ordering if and only if either W or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.441,
+            0.87,
+            0.476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. Using the terminology of Exercise 17, show that the extreme points of ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " are the maximal partial isometries. (See Exercise V.7.10.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.484,
+            0.87,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19. Find the polar decomposition of each of the following operators: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " as defined in (II.1.5); (b) the unilateral shift; (c) the weighted unilateral shift "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ A ( x _ { 1 } , x _ { 2 } , \\ldots ) = \\right."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 0 , \\alpha _ { 1 } x _ { 1 } , \\alpha _ { 2 } x _ { 2 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " for x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sup_{n} | \\alpha_{n} | < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " with nonzero weights; (d) A ⊕ α (in terms of the polar decomposition of A)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.56,
+            0.869,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and define S on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { H } } = { \\mathcal { H } } \\oplus { \\mathcal { H } } \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(h_1, h_2, \\ldots) = (0, A h_1, A h_2, \\ldots)"
+            },
+            {
+              "type": "text",
+              "content": " . Find the polar decomposition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S , S = W | S |"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S = | S |   W ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.619,
+            0.836,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21. Show that the parts of the polar decomposition of a normal operator commute."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.644,
+            0.871,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , show that there is a positive operator P and a partial isometry W such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = P W ."
+            },
+            {
+              "type": "text",
+              "content": " Discuss the uniqueness of P and W."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.687,
+            0.871,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "23. If A is normal and invertible, show that the parts of the polar decomposition of A belong to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.729,
+            0.87,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "24. Give an example of a normal operator A such that the partial isometry in the polar decomposition of A does not belong to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.772,
+            0.867,
+            0.808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "25. Show that for an arbitrary C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " it is not necessarily true that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " + whenever a and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\in \\mathcal { A } _ { + } . \\mathrm { I f } ,"
+            },
+            {
+              "type": "text",
+              "content": " however, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " + and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b = b a ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b \\in \\mathcal { A } _ { + }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 259,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.056,
+            0.491,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Ideals and Quotients of C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.832,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "245"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.097,
+            0.704,
+            0.122
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\S 4 ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Ideals and Quotients of C*-Algebras"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.139,
+            0.418,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We begin with a basic result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.175,
+            0.869,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1. Proposition. If I is a closed left or right ideal in the C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\in C(\\sigma(a))"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( 0 ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) { \\in } I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.22,
+            0.871,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Note that if I is proper, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0   \\in   \\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " since a cannot be invertible. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\subseteq \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " , the Weierstrass Theorem implies there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of polynomials such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( t )   \\to   f ( t )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\begin{array} { r l r } { t } & { { } \\mathrm { i n } } & { \\sigma ( a ) } \\end{array} } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( 0 )   \\to   f ( 0 )   = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q _ { n } ( t ) = p _ { n } ( t ) - p _ { n } ( 0 ) \\to f ( t )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on σ(a) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q _ { n } ( 0 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all n. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q _ { n } ( a )   \\in   { \\pmb I }"
+            },
+            {
+              "type": "text",
+              "content": " and by the functional calculus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| q _ { n } ( a ) - f ( a ) \\| \\to 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a )   \\in   I ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.351,
+            0.868,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.2. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f I"
+            },
+            {
+              "type": "text",
+              "content": " is a closed left or right ideal, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   =   a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { + } , a _ { - } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vert a \\vert ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| a | ^ { 1 / \\vec { 2 } }   \\in   \\vec { I } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.405,
+            0.87,
+            0.444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if I is a left ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ a ^ { * } { : }   a { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a right ideal. Therefore a left ideal I is an ideal if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { * }   \\in I"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   I ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.46,
+            0.869,
+            0.498
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.3. Theorem. If I is a closed ideal in the C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { * }   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   I ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.507,
+            0.87,
+            0.546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Fix a in I. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { * } a   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " since I is an ideal. The idea is to construct a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of continuous functions defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.229,
+            0.553,
+            0.55,
+            0.572
+          ],
+          "image_path": "images/page_259_equation_10.jpg",
+          "content": "u_{n}(0)=0   and   u_{n}(t) \\geq 0   for all   t;"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.566,
+            0.165,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.4"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.224,
+            0.576,
+            0.543,
+            0.595
+          ],
+          "image_path": "images/page_259_equation_12.jpg",
+          "content": "\\left\\| a u _ { n } ( a ^ { * } a ) - a \\right\\| \\rightarrow 0 \\text { as } n \\rightarrow \\infty."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.603,
+            0.871,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if such a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " can be constructed, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } ( a ^ { * } a ) \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } ( a ^ { * } a )   \\in I"
+            },
+            {
+              "type": "text",
+              "content": " by Proposition 4.1. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } ( a ^ { * } a ) a ^ { * } \\in I"
+            },
+            {
+              "type": "text",
+              "content": " since I is an ideal and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| u _ { n } ( a ^ { * } a ) a ^ { * } - a ^ { * } \\| = \\| a u _ { n } ( a ^ { * } a ) - a \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " by (ii). Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { * }   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   I ."
+            },
+            {
+              "type": "text",
+              "content": " It remains to construct the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { n } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.154,
+            0.676,
+            0.258,
+            0.693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.215,
+            0.703,
+            0.783,
+            0.769
+          ],
+          "image_path": "images/page_259_equation_15.jpg",
+          "content": "\\begin{align*}& \\|   a u_n(a^* a) - a \\|^2 \\\\& \\quad = \\|   [ a u_n(a^* a) - a ]^* [ a u_n(a^* a) - a ]   \\| \\\\& \\quad = \\|   u_n(a^* a) a^* a u_n(a^* a) - a^* a u_n(a^* a) - u_n(a^* a) a^* a + a^* a   \\|.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.776,
+            0.87,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = a ^ { * } a ."
+            },
+            {
+              "type": "text",
+              "content": " then the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b u _ { n } ( b ) = u _ { n } ( b ) b"
+            },
+            {
+              "type": "text",
+              "content": " implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a u _ { n } ( a ^ { * } a ) - a \\| ^ { 2 } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { n } ( b ) \\| \\leqslant \\sup \\left\\{ \\left| f _ { n } ( t ) \\right| : t \\geqslant 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( t ) = t u _ { n } ( t ) ^ { 2 } - 2 t u _ { n } ( t ) + t = t [ u _ { n } ( t ) - 1 ] ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } ( t ) = n t"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t \\leqslant n^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( t ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\geqslant n ^ { -   1 }"
+            },
+            {
+              "type": "text",
+              "content": " , then it is seen that sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ | f _ { n } ( t ) | : t \\geqslant 0 \\right\\} = 4 / 2 7 n \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\rightarrow   \\infty ;"
+            },
+            {
+              "type": "text",
+              "content": " so (4.4) is satisfied."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.127,
+            0.871,
+            0.873,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice that the construction of the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (4.4) actually proves more. It shows that there is a “local\"approximate identity. That is, the proof of the preceding theorem shows that the following holds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 260,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "246"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.704,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VIII. C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.871,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.5. Proposition. If  is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a C ^ { * } - a l g e b r a"
+            },
+            {
+              "type": "text",
+              "content": " and I is an ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then for every a in I there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of positive elements in I such that:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.145,
+            0.512,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 1 } \\leqslant e _ { 2 } \\leqslant \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| e _ { n } \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n _ { y }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.165,
+            0.402,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a e _ { n } - a \\parallel \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.2,
+            0.873,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the preceding proposition the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " depends on the element a. It is also true that there is a positive increasing net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in I such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| e _ { i } a - a \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a e _ { i } - a \\| \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " for every a in I (see p. 36 of Arveson [1976])."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.154,
+            0.257,
+            0.749,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We turn now to an important consequence of Theorem 4.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.293,
+            0.874,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.6. Theorem. If A is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } { - a l g e b r a }"
+            },
+            {
+              "type": "text",
+              "content": " and I is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + I"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / I"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + I ) ^ { * } = a ^ { * } + I ."
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / I"
+            },
+            {
+              "type": "text",
+              "content": " with its quotient norm is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } { \\text-- } a l g e b r a ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.366,
+            0.5,
+            0.386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove (4.6), a lemma is needed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.403,
+            0.872,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.7. Lemma. If I is an ideal in a C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a + I \\| = \\inf \\left\\{ \\| a - a x \\| : x \\in I,   x \\geqslant 0, \\right."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x \\| \\leqslant 1 \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.449,
+            0.871,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If (ball I)+ = {x∈ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\colon x \\geqslant 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a + I \\| \\leqslant \\inf \\left\\{ \\| a - ax \\| : \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in ( \\mathrm { b a l l }   I ) _ { + } \\}"
+            },
+            {
+              "type": "text",
+              "content": " since a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I I \\subseteq I ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence in (ball I)+ such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| y - y e _ { n } \\|   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant 1 - e_{n} \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " ,so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| ( a + y ) ( 1 - e _ { n } ) \\| \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a + y \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.303,
+            0.537,
+            0.69,
+            0.602
+          ],
+          "image_path": "images/page_260_equation_11.jpg",
+          "content": "\\begin{aligned}\\| a + y \\| & \\geqslant \\liminf \\| (a + y)(1 - e_n) \\| \\\\& = \\liminf \\| (a - ae_n) + (y - ye_n) \\| \\\\& = \\liminf \\| a - ae_n \\|\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.616,
+            0.868,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| y - y e _ { n } \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a + y \\| \\geqslant \\inf_{n} \\| a - a e_{n} \\| \\geqslant \\inf \\left\\{ \\| a - a x \\| : x \\in ( \\mathrm{ball} I )_{+} \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " Taking the infimum over all y in I gives the desired remaining inequality.■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.662,
+            0.871,
+            0.737
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF THEOREM 4.6. The only difficult part of this proof is to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a + I \\| ^ { 2 } = \\| a ^ { * } a + I \\|"
+            },
+            {
+              "type": "text",
+              "content": " for every a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " (4.3), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { a } ^ { \\star } + \\boldsymbol { I } \\| = \\| \\boldsymbol { a } + \\boldsymbol { I } \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " Thus the submultiplicativity of the norm in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / I"
+            },
+            {
+              "type": "text",
+              "content": " (VII.2.6) implies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.351,
+            0.748,
+            0.645,
+            0.814
+          ],
+          "image_path": "images/page_260_equation_14.jpg",
+          "content": "\\begin{aligned}\\| \\boldsymbol{a}^{*} \\boldsymbol{a} + \\boldsymbol{I} \\| &= \\| (\\boldsymbol{a}^{*} + \\boldsymbol{I})(\\boldsymbol{a} + \\boldsymbol{I}) \\| \\\\& \\leqslant \\| \\boldsymbol{a}^{*} + \\boldsymbol{I} \\| \\| \\boldsymbol{a} + \\boldsymbol{I} \\| \\\\&= \\| \\boldsymbol{a} + \\boldsymbol{I} \\|^2.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.152,
+            0.828,
+            0.663,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the other hand, the preceding lemma gives that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.258,
+            0.859,
+            0.735,
+            0.927
+          ],
+          "image_path": "images/page_260_equation_16.jpg",
+          "content": "\\begin{align*}\\|a + I\\|^2 = \\inf\\{\\|a - ax\\|^2: x \\in ( ball I)_+\\} \\\\= \\inf\\{\\|a(1 - x)\\|^2: x \\in ( ball I)_+\\} \\\\= \\inf\\{\\|(1 - x)a^*a(1 - x)\\|: x \\in ( ball I)_+\\}.\\end{align*}"
+        }
+      ]
+    },
+    {
+      "page_idx": 261,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.492,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Ideals and Quotients of C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "247"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.348,
+            0.1,
+            0.68,
+            0.166
+          ],
+          "image_path": "images/page_261_equation_2.jpg",
+          "content": "\\begin{aligned} &\\leqslant \\inf \\{ \\| a^{*} a(1 - x) \\| \\colon x \\in (\\mathrm{ball}   I)_{+} \\}\\\\ &= \\inf \\{ \\| a^{*} a - a^{*} a x \\| \\colon x \\in (\\mathrm{ball}   I)_{+} \\}\\\\ &= \\| a^{*} a + I \\|.\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.175,
+            0.872,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } , \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " are C*-algebras with ideals "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I , J ,"
+            },
+            {
+              "type": "text",
+              "content": " respectively, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon { \\mathcal { A } }   \\to   { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( I ) \\subseteq J ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " induces a *-homomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / I   \\to   \\mathcal { B } / J"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( a + I ) = \\rho ( a ) + J ."
+            },
+            {
+              "type": "text",
+              "content": " In particular, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = \\ker \\rho"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J = ( 0 ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ;"
+            },
+            {
+              "type": "text",
+              "content": " A/ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho   \\rightarrow   \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\pmb { \\rho } }   \\circ   \\pmb { \\pi } = \\pmb { \\rho } ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\cdot"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }   \\to   \\mathcal { A } / \\ker \\rho"
+            },
+            {
+              "type": "text",
+              "content": " is the natural map. Keep these facts in mind when reading the proof of the next result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.304,
+            0.871,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.8. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } , \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " are C*-algebras and ρ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho(a) \\| \\leqslant \\| a"
+            },
+            {
+              "type": "text",
+              "content": " ∥ for all a and ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is closed in B. If ρ is a *-monomorphism, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.368,
+            0.871,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\rho ( a ) \\| \\leqslant \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " is a restatement of (1.11d). Now assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a *-monomorphism. As in the proof of (1.11d), it suffices to assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " have identities and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho(1) = 1. (\\mathrm{Why?})"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.424,
+            0.87,
+            0.59
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   =   a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then it is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( a ) = \\rho ( a ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\rho ( a ) ) \\subseteq \\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\rho ( a ) ) \\neq \\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , there is a continuous function f on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( t ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all t in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\rho ( a ) )"
+            },
+            {
+              "type": "text",
+              "content": " but "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " is not identically zero on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( \\rho ( a ) )   =   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " but "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be polynomials such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( t )   \\rightarrow   f ( t )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( a )   \\to   f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n}(\\rho(a)) \\to f(\\rho(a)) = 0"
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( \\rho ( a ) ) = \\rho ( p _ { n } ( a ) ) \\to \\rho ( f ( a ) )"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( f ( a ) ) = f ( \\rho ( a ) ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " was assumed injective, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) = \\sigma ( \\rho ( a ) ) { \\mathrm { ~ i f ~ } } a = a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " .Thus by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(1.11\\mathrm{e}), \\| a \\| = r(a) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r ( \\rho ( a ) ) = \\| \\rho ( a ) \\| { \\mathrm { ~ i f ~ } } a = a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . But then for arbitrary "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , \\left\\| a \\right\\| ^ { 2 } = \\left\\| a ^ { * } a \\right\\| = \\left\\| \\rho ( a ^ { * } a ) \\right\\| ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\rho ( a ) ^ { \\star } \\rho ( a ) \\| = \\| \\rho ( a ) \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.589,
+            0.871,
+            0.645
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To complete the proof let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon { \\mathcal { A } }   \\to   { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " be a *-homomorphism and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / \\ker \\rho   \\to   \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " be the induced *-monomorphism. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry and hence ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is closed. But ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } = \\operatorname { r a n } \\rho"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.155,
+            0.66,
+            0.864,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We turn now to some specific examples of C*-algebras and their ideals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.696,
+            0.87,
+            0.753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.9. Proposition. If X is compact and I is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a closed subset F of X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = \\{ f \\in C ( X ) : f ( x ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F \\}"
+            },
+            {
+              "type": "text",
+              "content": " Moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) / I"
+            },
+            {
+              "type": "text",
+              "content": " is isometrically isomorphic to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( F )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.76,
+            0.871,
+            0.891
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F = \\{ x \\in X : f(x) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\}"
+            },
+            {
+              "type": "text",
+              "content": " , so F is a closed subset of X. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\in   M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\bot I ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int | f | ^ { 2 }   d \\mu = 0"
+            },
+            {
+              "type": "text",
+              "content": " for every f in I since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f | ^ { 2 } = f { \\bar { f } } \\in I"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } I ."
+            },
+            {
+              "type": "text",
+              "content": " Thus each f must vanish on the support of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( X \\setminus F ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " . Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\in   M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and the support of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is contained in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F , \\int f d \\mu   =   0"
+            },
+            {
+              "type": "text",
+              "content": " for every f in I. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ^ { \\perp } = \\{ \\mu \\in M ( X ) : | \\mu | ( X \\setminus F ) = 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Since I is closed, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = { } ^ { \\perp } ( I ^ { \\perp } ) = \\{ f \\in C ( X ) : f ( x ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F \\}"
+            },
+            {
+              "type": "text",
+              "content": " . The remainder of the proof is left to the reader. L"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.907,
+            0.857,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.10. Proposition. If I is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I   \\supseteq   \\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = ( 0 )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 262,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.057,
+            0.169,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "248"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.704,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VIII. C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.872,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " and let T be a nonzero operator in I. Thus there are vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } , f _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T f _ { 0 } = f _ { 1 } \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 0 } , g _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " be arbitrary nonzero vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Define A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = \\left\\| g _ { 0 } \\right\\| ^ { - 2 } \\left\\langle h , g _ { 0 } \\right\\rangle f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A g _ { 0 } = f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = 0"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h   \\perp   g _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Define B: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B h ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { 1 } \\| ^ { - 2 } \\langle h , f _ { 1 } \\rangle g _ { 1 } . \\mathrm { S o } B f _ { 1 } = g _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Bh = 0   if   h \\perp f_1"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BTAh = 0   if   h \\perp g_0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B T A g _ { 0 } = g _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence for any pair of nonzero vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 0 } , g _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " the rank-one operator that takes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and is zero on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ g _ { 0 } ] ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ."
+            },
+            {
+              "type": "text",
+              "content": " From here it easily follows that I contains all finite-rank operators. Since I is closed, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I   \\supseteq   \\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.284,
+            0.87,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It will be shown in (IX.4.2), after we have spectral theorem, that if I is a closed ideal in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = ( 0 ) , \\mathcal { B } _ { 0 } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.34,
+            0.233,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.359,
+            0.502,
+            0.376
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Complete the proof of Proposition 4.9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.385,
+            0.76,
+            0.402
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { n } ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " has no nontrivial ideals. Find all of the left ideals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.41,
+            0.87,
+            0.445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If α is an infinite cardinal number, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { \\alpha } = \\{ A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " dim cl(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) \\leqslant \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " is a closed ideal in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.453,
+            0.869,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let S be the unilateral shift on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( S ) \\supseteq \\mathcal { B } _ { 0 } ( l ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( S ) / \\mathcal { B } _ { 0 } ( l ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " is abelian. Show that the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( S ) / \\mathcal { B } _ { 0 } ( l ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " is homeomorphic to ∂D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.496,
+            0.835,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If V is the Volterra operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( V ) = \\mathbb { C } + \\mathcal { B } _ { 0 } ( L ^ { 2 } ( 0 , 1 ) ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.522,
+            0.869,
+            0.556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nsim"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra, I is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\mathscr { B } }"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa ,"
+            },
+            {
+              "type": "text",
+              "content": " show that the C*-algebra generated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\cup \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I + { \\mathcal { B } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.564,
+            0.871,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sphericalangle"
+            },
+            {
+              "type": "text",
+              "content": " is a C*-algebra and I and J are closed ideals in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I + J"
+            },
+            {
+              "type": "text",
+              "content": " is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nsim"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.639,
+            0.75,
+            0.687
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\S 5 ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " Representations of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } - A I"
+            },
+            {
+              "type": "text",
+              "content": " gebras and the Gelfand-Naimark-Segal Construction"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.705,
+            0.872,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1. Definition. A representation of a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } \\mathtt { - a l g e b e r a }"
+            },
+            {
+              "type": "text",
+              "content": " is a pair "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\pi , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and π: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism. If  has an identity, it is assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( 1 ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " . (The algebras considered in this book are assumed to have an identity. The reader should be aware that not all authors make this assumption and so he should be cautious when consulting the literature.) Often mention of is suppressed and we say that π is a representation. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.833,
+            0.868,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.2. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " then the inclusion map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\hookrightarrow \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.887,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3. Example. If n is any cardinal number and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " denote the direct sum of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " with itself n times. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " is the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 263,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.449,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Representations of C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "249"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "direct sum of A with itself n times; so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{(n)} \\in \\mathcal{B}(\\mathcal{H}^{(n)})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A ^ { ( n ) } \\| = \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " . The operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " is called the inflation of A. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon \\mathcal { A } \\to \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation, the inflation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi"
+            },
+            {
+              "type": "text",
+              "content": " is the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ^ { ( n ) } \\colon { \\mathcal { A } } \\to { \\mathcal { B } } ( { \\mathcal { H } } ^ { ( n ) } )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ^ { ( n ) } ( a ) = \\pi ( a ) ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " for all a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\measuredangle"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.193,
+            0.87,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.4. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a σ-finite measure space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { H } } = L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\cdot"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\phi ) = M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is a representation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.249,
+            0.871,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5. Example. If X is a compact space and μ is a positive Borel measure on X, then π: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) \\to { \\mathcal { B } } ( L ^ { 2 } ( \\mu ) )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( f )   =   M _ { f }"
+            },
+            {
+              "type": "text",
+              "content": " is a representation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.304,
+            0.871,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.6. Definition. A representation π of a C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is cyclic if there is a vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\pi ( \\mathcal { A } ) e ] = \\mathcal { H } ;"
+            },
+            {
+              "type": "text",
+              "content": " e is said to be a cyclic vector for the representation π."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.373,
+            0.871,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the representations in Examples 5.4 and 5.5 are cyclic (Exercises 2 and 3). Also, the identity representation i: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } ) \\rightarrow \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is cyclic and every nonzero vector is a cyclic vector for this representation. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathbb { C } + \\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " then the identity representation is cyclic. On the other hand, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 2 ,"
+            },
+            {
+              "type": "text",
+              "content": " then the inflation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " of a representation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is never cyclic (Exercise 4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.156,
+            0.466,
+            0.629,
+            0.484
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is another way to obtain representations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.501,
+            0.871,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.7. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ ( \\pi _ { i } , \\mathcal { H } _ { i } ) : i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a family of representations of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then the direct sum of this family is the representation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\pi , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\oplus _ { i } \\mathcal { H } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( a ) = \\{ \\pi _ { i } ( a ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " for every a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\not { x } ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.557,
+            0.871,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\pi _ { i } ( a ) \\| \\leqslant \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " for every i (4.8), π(a) is a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that π is a representation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.61,
+            0.874,
+            0.703
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.8. Example. Let X be a compact space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mu _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence of measures on X. For each n let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi _ { n } : C ( X ) \\to { \\mathcal { B } } ( L ^ { 2 } ( \\mu _ { n } ) )"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi _ { n } ( f ) = M _ { f }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " .Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi = \\oplus _ { n } \\pi _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a representation. If the measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mu _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " are pairwise mutually singular, then π is equivalent (below) to the representation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\rightarrow   M _ { f }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) \\to { \\mathcal { B } } ( L ^ { 2 } ( \\mu ) )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\sum_{n = 1}^{\\infty} \\mu_{n} / 2^{n} \\left\\| \\mu_{n} \\right\\|"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.714,
+            0.874,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The concept of equivalence for representations is that of unitary equivalence. That is, two representations of a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c * - a l"
+            },
+            {
+              "type": "text",
+              "content": " gebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ,   ( \\pi _ { 1 } , \\mathcal { H } _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\pi _ { 2 } , \\mathcal { H } _ { 2 } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " are equivalent if there is an isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon \\mathcal { H } _ { 1 }   \\to   \\mathcal { H } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\pi _ { 1 } ( a ) U ^ { - 1 } = \\pi _ { 2 } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " for every a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\prec"
+            },
+            {
+              "type": "text",
+              "content": " The importance of cyclic representations arises from the fact, given in the next result, that every representation is equivalent to the direct sum of cyclic representations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.843,
+            0.874,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.9. Theorem. If π is a representation of the C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a family of cyclic representations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\pi _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " of Asuch thatπ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textcircled{9}  { } _ { i } \\pi _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13,
+            0.889,
+            0.874,
+            0.928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } ="
+            },
+            {
+              "type": "text",
+              "content": " the collection of all subsets E of nonzero vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\mathcal { A } ) e \\perp \\pi ( \\mathcal { A } ) f"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e , f"
+            },
+            {
+              "type": "text",
+              "content": " in E with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e \\neq f"
+            },
+            {
+              "type": "text",
+              "content": " . Order "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { E }"
+            },
+            {
+              "type": "text",
+              "content": " by inclusion. An"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

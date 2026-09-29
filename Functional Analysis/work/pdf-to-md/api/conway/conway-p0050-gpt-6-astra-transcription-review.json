@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 50,
+  "model": "gpt-6-astra",
+  "seconds": 8.44,
+  "input_tokens": 3280,
+  "output_tokens": 210,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\ker A\\\\subseteq(\\\\operatorname{ran}A^*)^\\\\perp\",\n      \"correction\": \"\\\\ker A\\\\subset(\\\\operatorname{ran}A^*)^\\\\perp\",\n      \"location\": \"First inclusion in the proof of Theorem 2.19\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

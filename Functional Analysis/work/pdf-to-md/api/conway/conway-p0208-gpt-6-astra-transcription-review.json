@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 208,
+  "model": "gpt-6-astra",
+  "seconds": 11.19,
+  "input_tokens": 3269,
+  "output_tokens": 226,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\mathcal M\\\\cap G_l=\\\\varnothing\",\n      \"correction\": \"\\\\mathcal M\\\\cap G_l=\\\\square\",\n      \"note\": \"The image visibly prints a hollow square, not ∅; this may be a source glyph defect.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

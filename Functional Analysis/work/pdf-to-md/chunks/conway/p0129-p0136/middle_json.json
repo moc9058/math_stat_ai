@@ -1,0 +1,5221 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 128,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 129,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 130,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 131,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 132,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 133,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 134,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 135,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 128,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.057,
+            0.169,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "114"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.623,
+            0.056,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.102,
+            0.871,
+            0.153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Give an example of a TVS "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " that is not locally convex and a subspace @ of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that there is a continuous linear functional f on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { g }"
+            },
+            {
+              "type": "text",
+              "content": " with no continuous extension to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.16,
+            0.873,
+            0.264
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. Let ¿ be a real LCS and let A and B be disjoint compact convex subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { X } } ."
+            },
+            {
+              "type": "text",
+              "content": " Suppose Y is a subspace of X and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } : \\mathcal { Y } \\rightarrow \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous linear functional such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } ( a ) < 0"
+            },
+            {
+              "type": "text",
+              "content": " for a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } ( b ) > 0"
+            },
+            {
+              "type": "text",
+              "content": " for b in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\cap \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " Show by an example that it is not always possible to extend "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " to a continuous linear functional on X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) < 0"
+            },
+            {
+              "type": "text",
+              "content": " or a in A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( b )   >   0"
+            },
+            {
+              "type": "text",
+              "content": " for b in B. (Hint: Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   =   \\mathbb { R } ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and let @ be the plane.)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.3,
+            0.744,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ş "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Some Examples of the Dual Space of a Locally Convex Space"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.367,
+            0.872,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As with a normed space, if X is a LCS, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " denotes the space of all continuous linear functionals "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon { \\mathcal { X } }   \\to   \\mathbb { F } . ~ { \\mathcal { X } } ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " is called the dual space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.423,
+            0.874,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1. Proposition. Let X be completely regular and let C(X) be topologized as in Example 1.5. If L: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous linear functional, then there is a compact set K and a regular Borel measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " on K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( f ) = \\int _ { K } f d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every f in C(X). Conversely, each such measure defines an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathsf { ^ { * } C } } ( X ) ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.507,
+            0.872,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. It is easy to see that each measure μ supported on a compact set K defines an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { K } ( f ) = \\operatorname* { s u p } \\left\\{ | f ( x ) | \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } K \\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( f ) = \\int _ { K } f   d \\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| L ( f ) | \\leqslant \\| \\mu \\| p _ { K } ( f )"
+            },
+            {
+              "type": "text",
+              "content": " , and so L is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.56,
+            0.874,
+            0.633
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } C ( X ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . There are compact sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K _ { 1 } , \\ldots , K _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and positive numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { | L ( f ) | \\leqslant \\sum _ { j = 1 } ^ { n } \\alpha _ { j } p _ { K _ { j } } ( f ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " (3.1f). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\bigcup _ { j = 1 } ^ { n } K _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and α = max "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\alpha _ { j } : 1 \\leqslant j \\leqslant n \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| L ( \\dot { f } ) | \\leqslant \\alpha p _ { K } ( f )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } C ( { \\widetilde { X ) } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f | K \\equiv 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { L ( f ) }   =   0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.632,
+            0.873,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F \\colon C ( K ) \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " as follows. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   C ( K )"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g }"
+            },
+            {
+              "type": "text",
+              "content": " be any continuous extension of g to X and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( g ) = L ( \\tilde { g } )"
+            },
+            {
+              "type": "text",
+              "content": " . To check that F is well defined, suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are both extensions of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " to X. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g } _ { 1 } - \\tilde { g } _ { 2 } = 0"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " , and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( \\tilde { g } _ { 1 } )   =   L ( \\tilde { g } _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " Thus F is well defined. It is left as an exercise for the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F \\colon C ( K ) \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is linear. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   C ( K )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g }"
+            },
+            {
+              "type": "text",
+              "content": " is an extension in C(X). then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| F ( g ) | = | L ( \\tilde { g } ) | \\leqslant \\alpha p _ { K } ( \\tilde { g } ) = \\alpha \\| g \\|"
+            },
+            {
+              "type": "text",
+              "content": " , where the norm is the norm of C(K). By (III.5.7) there is a measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( K )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( g ) = \\int _ { K } g   d \\mu ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " 2 then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = f \\mid K \\in C ( K )"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(f) = F(g) = \\int_{K} f   d\\mu"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.796,
+            0.875,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon [ 0 , 1 ]   \\to   \\pmb { \\mathbb { C } }"
+            },
+            {
+              "type": "text",
+              "content": " is a rectifiable curve and f is a continuous function defined on the trace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ,   \\gamma ( [ 0 , 1 ] )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { \\gamma } f"
+            },
+            {
+              "type": "text",
+              "content": " is the line integral of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " over γ. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { \\gamma } f \\equiv \\int _ { 0 } ^ { 1 } f ( \\gamma ( t ) ) d \\gamma ( t )"
+            },
+            {
+              "type": "text",
+              "content": " . (See Conway [1978].) The next result generalizes to arbitrary regions in the plane, but for simplicity it is stated only for the disk ID. Recall the definition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( \\mathbb { D } )"
+            },
+            {
+              "type": "text",
+              "content": " from Example 1.6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.905,
+            0.874,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.2. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } H ( \\mathbb { D } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r < 1"
+            },
+            {
+              "type": "text",
+              "content": " and a unique function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 129,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.055,
+            0.717,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Some Examples of the Dual Space of a Locally Convex Space"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "115"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.604,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "g analytic on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\bar { C } } _ { \\infty } \\backslash \\bar { B } ( 0 ; r )"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( \\infty )   =   0"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.137,
+            0.165,
+            0.154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.3"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.42,
+            0.127,
+            0.58,
+            0.172
+          ],
+          "image_path": "images/page_129_equation_4.jpg",
+          "content": "L ( f ) = { \\frac { 1 } { 2 \\pi i } } \\int _ { \\gamma } f g"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.178,
+            0.735,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for every f in H(ID), where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(t) = \\rho e^{it}, \\; 0 \\leqslant t \\leqslant 2\\pi."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r < \\rho < 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.205,
+            0.824,
+            0.225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " be given and define L as in (4.3). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\left\\{ z \\colon | z | = \\rho \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.318,
+            0.23,
+            0.676,
+            0.324
+          ],
+          "image_path": "images/page_129_equation_7.jpg",
+          "content": "\\begin{align*}|L(f)| = & \\frac{1}{2\\pi} \\Bigg| \\int_{0}^{2\\pi} f(\\rho e^{it}) g(\\rho e^{it}) i \\rho e^{it}   dt \\Bigg| \\\\\\leqslant & \\frac{1}{2\\pi} p_K(f) p_K(g) 2\\pi \\rho.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.334,
+            0.596,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = \\rho p _ { K } ( g ) ,   | L ( f ) | \\leqslant c p _ { K } ( f ) ."
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } H ( \\mathbb { D } ) ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.353,
+            0.874,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } H ( \\mathbb { D } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . The Hahn-Banach Theorem implies there is an F in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\mathbf { D } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F | H ( \\mathbf { D } ) = L"
+            },
+            {
+              "type": "text",
+              "content": " . By Proposition 4.1 there is a compact set K contained in D and a measure μ on K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( f ) = \\int _ { K } f   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every f in H(ID). Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\colon \\mathbf { \\mathfrak { C } } _ { \\infty } \\backslash K   \\to   \\mathbf { \\mathfrak { C } }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( \\infty )   =   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( z ) = - \\int _ { K } 1 / ( w - z ) d \\mu ( w )"
+            },
+            {
+              "type": "text",
+              "content": " for z in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash K"
+            },
+            {
+              "type": "text",
+              "content": " . By Lemma III.8.2, g is analytic on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } _ { \\infty } \\backslash K"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho < 1"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\subseteq B(0;\\rho).  If  \\gamma(t) = \\rho e^{it}, 0 \\leqslant t \\leqslant 2\\pi"
+            },
+            {
+              "type": "text",
+              "content": " , then Cauchy's Integral Formula implies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.391,
+            0.479,
+            0.608,
+            0.523
+          ],
+          "image_path": "images/page_129_equation_10.jpg",
+          "content": "f(w) = \\frac{1}{2\\pi i} \\int_{\\gamma} \\frac{f(z)}{z - w} dz."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.531,
+            0.667,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| w | < \\rho ;"
+            },
+            {
+              "type": "text",
+              "content": " in particular, this is true for w in K. Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.342,
+            0.558,
+            0.787,
+            0.749
+          ],
+          "image_path": "images/page_129_equation_12.jpg",
+          "content": "\\begin{align*}L(f) = & \\int_{K} f(w)   d\\mu(w) \\\\= & \\int_{K} \\left[ \\frac{\\rho}{2\\pi} \\int_{0}^{2\\pi} \\frac{f(\\rho e^{it})}{\\rho e^{it} - w}   e^{it}   dt \\right] d\\mu(w) \\\\= & \\frac{\\rho}{2\\pi} \\int_{0}^{2\\pi} f(\\rho e^{it}) e^{it} \\left[ \\int_{K} \\frac{1}{\\rho e^{it} - w}   d\\mu(w) \\right] dt \\\\= & \\frac{1}{2\\pi i} \\int_{\\gamma} f(z) g(z) dz.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13,
+            0.756,
+            0.871,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This completes the proof except for the uniqueness of g (Exercise 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.132,
+            0.795,
+            0.237,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.132,
+            0.813,
+            0.875,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a family of LCS's and give "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = \\prod \\{ \\mathcal { X } _ { i } : i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " the product topology. (See Exercise 1.17.) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } { \\mathcal { X } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if there is a finite subset F contained in I and there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { j } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { j } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " for j in F such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { L ( x ) = \\sum _ { j \\in F } x _ { j } ^ { * } ( x ( j ) ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for each x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.131,
+            0.889,
+            0.876,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that the space s (Exercise 1.13) is linearly homeomorphic to C(IN) and describe "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 130,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.165,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "116"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.619,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.102,
+            0.718,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Show that the function g obtained in Proposition 4.2 is unique."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.127,
+            0.869,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } H ( \\mathbb { D } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if there are scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 0 } , b _ { 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " in C such that lim sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| b _ { n } | ^ { 1 / n } < 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(f) = \\sum_{n = 0}^{\\infty} 1 / (n!) f^{(n)}(0) b_n"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.17,
+            0.464,
+            0.187
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If G is an annulus, describe "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( G ) ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.196,
+            0.871,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. (Buck [1958]). Let X be locally compact and let β be the strict topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " defined in Exercise 1.21. (Also see Exercises 2.6 and 2.7.) Prove the following statements: (a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon _ { n } \\downarrow 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then there are compact sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K _ { 1 } , K _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . such that for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1, K_n \\in \\mathrm{int} K_{n+1}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( X \\backslash K _ { n } ) < \\varepsilon _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . (b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\geqslant 0 , \\quad | \\mu | ( X \\backslash \\{ x : \\phi ( x ) > 0 \\} ) = 0 , \\quad 1 / \\phi \\in L ^ { 1 } ( | \\mu | ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   1 / \\phi   d | \\mu | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . (c) Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( f ) = \\int f   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\tilde { L } } \\in ( C _ { b } ( X ) , \\beta ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . (d) Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L { \\in } ( C _ { b } ( X ) , \\beta ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { a }   \\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( f ) = \\int f   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.34,
+            0.871,
+            0.392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let X be completely regular and let M be a linear manifold in C(X). Show that if for every compact subset K of X, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } | K \\equiv \\{ f | K \\colon f \\in \\mathcal { M } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( K )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in C(X)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.439,
+            0.544,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\S 5 ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Inductive Limits and the Space of Distributions"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.505,
+            0.872,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section the most general definition of an inductive limit will not be presented. Rather one that removes certain technicalities from the arguments and yet covers the most important examples will be given. For the more general definition see Köthe [1969], Robertson and Robertson [1966], or Schaefer [1971]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.613,
+            0.872,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1. Definition. An inductive system is a pair "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ \\mathcal { X } _ { i } ; i { \\in } I \\} )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a vector space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear manifold in X that has a topology "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } _ { i } , \\mathcal { T } _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS, and, moreover:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.676,
+            0.536,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) I is a directed set and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }   \\subseteq   \\mathcal { X } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " i "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\leqslant   j ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.694,
+            0.531,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\leqslant   j"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { j } { \\in } { \\mathcal { T } } _ { j } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i } { \\cap } { \\mathcal { X } } _ { i } { \\in } { \\mathcal { T } } _ { i } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.714,
+            0.324,
+            0.732
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = \\cup \\{ \\mathcal { X } _ { i } \\colon i { \\in } I \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.75,
+            0.871,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that condition (b) is equivalent to the condition that the inclusion map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }   \\subset   \\to   \\mathcal { X } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.804,
+            0.873,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.2. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and let Ω be an open subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": " .Denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ^ { ( \\infty ) } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " all the functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon \\mathbf { \\Omega }   \\to   \\mathbf { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is infinitely differentiable and has compact support in Ω. (The support of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is defined by spt "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\equiv \\mathrm{cl} \\left\\{ x : \\phi(x) \\neq 0 \\right\\}."
+            },
+            {
+              "type": "text",
+              "content": " If K is a compact subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Omega } ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( K ) \\equiv \\{ \\phi \\in C _ { c } ^ { ( \\infty ) } ( \\Omega ) : \\mathrm { s p t } \\phi \\subseteq K \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( K )"
+            },
+            {
+              "type": "text",
+              "content": " have the topology defined by the seminorms"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.311,
+            0.904,
+            0.688,
+            0.925
+          ],
+          "image_path": "images/page_130_equation_15.jpg",
+          "content": "p _ { K , m } ( \\phi ) = \\sup \\left\\{ \\left| \\phi ^ { ( k ) } ( x ) \\right| : \\left| k \\right| \\leqslant m , x \\in K \\right\\} ,"
+        }
+      ]
+    },
+    {
+      "page_idx": 131,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.055,
+            0.593,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Inductive Limits and the Space of Distributions"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "117"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.688,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = ( k _ { 1 } , \\ldots , k _ { d } ) ,   k _ { j } \\in \\mathbb { N } \\cup \\{ 0 \\} ,   | k | = k _ { 1 } + \\cdots + k _ { d } ."
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.407,
+            0.128,
+            0.587,
+            0.174
+          ],
+          "image_path": "images/page_131_equation_3.jpg",
+          "content": "\\phi ^ { ( k ) } = \\frac { \\partial ^ { | k | } \\phi } { \\partial x _ { 1 } ^ { k _ { 1 } } \\cdots \\partial x _ { d } ^ { k _ { d } } } ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.182,
+            0.871,
+            0.22
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( C _ { c } ^ { ( \\infty ) } ( \\Omega ) ,   \\{ \\mathcal { D } ( K ) ;"
+            },
+            {
+              "type": "text",
+              "content": " K is compact in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\Omega ) )"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system. The space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ^ { ( \\infty ) } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " is often denoted in the literature by (Ω), as it will be in this book."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.22,
+            0.871,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This example of an inductive system is the most important one as it is connected with the theory of distributions (below). In fact, this example was the inspiration for the definition of an inductive limit given now."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.293,
+            0.871,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ \\mathcal { X } _ { i } , \\mathcal { T } _ { i } \\} )"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } = a l l"
+            },
+            {
+              "type": "text",
+              "content": " convex balanced sets V such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V   \\cap   \\mathcal { X } _ { i }   \\in   \\mathcal { T } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " for all i. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } = t h e"
+            },
+            {
+              "type": "text",
+              "content": " collection of all subsets U of X such that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in U there is aV in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } + V \\subseteq U"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " is a (not necessarily Hausdorff) LCS."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.385,
+            0.871,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Before proving this proposition, it seems appropriate to make the following definition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.44,
+            0.871,
+            0.496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.4. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ \\mathcal { X } _ { i } \\} )"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is the topology defined in (5.3), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is called the inductive limit topology and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " is said to be the inductive limit of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { i } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.513,
+            0.62,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5. Lemma. With the notation as in (5.3), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } \\subseteq \\mathcal { T }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.54,
+            0.871,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Fix V is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ,"
+            },
+            {
+              "type": "text",
+              "content": " It will be shown that V is absorbing at each of its points. Indeed, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }   \\in   V"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } { \\in } { \\mathcal { X } } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " . Since I is directed, there is a k in I with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geqslant i , \\dot { j } ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } , x { \\in } \\mathcal { X } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V   \\cap   \\mathcal { X } _ { \\pmb { k } }   \\in   \\mathcal { T } _ { \\pmb { k } }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } + \\alpha x \\in V \\cap \\mathcal { X } _ { k } \\subseteq V"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha | < \\varepsilon ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.632,
+            0.871,
+            0.705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since V is convex, balanced, and absorbing at each of its points, there is a seminorm p on x such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = \\{ x \\in \\mathcal { X } : p ( x ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " (1.14). So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }   \\in   V ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x _ { 0 } ) = r _ { 0 } < 1"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = \\{ x \\in \\mathcal{X} : p(x) < \\frac{1}{2}(1 - r_0) \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = \\frac { 1 } { 2 } ( 1 - r _ { 0 } ) V"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W { \\in } { \\mathcal { B } } ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } + W \\subseteq V , V \\in { \\mathcal { T } }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.722,
+            0.871,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF PROPOSITION 5.3. The proof that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a topology is left as an exercise. To see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS, note that Lemma 5.5 and Theorem 1.14 imply that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by a family of seminorms."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.795,
+            0.871,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For all we know the inductive limit topology may be trivial. However, the fact that this topology has not been shown to be Hausdorff need not concern us, since we will concentrate on a particular type of inductive limit which will be shown to be Hausdorff. But for the moment we will continue at the present level of generality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.904,
+            0.87,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.6. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ \\mathcal { X } _ { i } \\} )"
+            },
+            {
+              "type": "text",
+              "content": " be an inductive system and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " be the inductive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 132,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "118"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.622,
+            0.056,
+            0.87,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.332,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "limit topology. Then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.127,
+            0.826,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) the relative topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " induced by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } \\left( \\mathrm { v i z . } , \\mathcal { T } | \\mathcal { X } _ { i } \\right)"
+            },
+            {
+              "type": "text",
+              "content": " is smaller than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } _ { i }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.146,
+            0.871,
+            0.182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) if u is a locally convex topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that for every i, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U }   |   \\mathcal { X } _ { i }   \\subseteq   \\mathcal { T } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U } \\subseteq \\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " 9"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.183,
+            0.846,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) a seminorm p on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ p | \\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous for each i."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.21,
+            0.319,
+            0.229
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.246,
+            0.873,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.7. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " be the inductive limit of the spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ ( \\mathcal { X } _ { i } , \\mathcal { T } _ { i } ) ; i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " If Y is a LCS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear transformation, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is continuous if and only if the restriction of T to each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " -continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.311,
+            0.873,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous. By (5.6a), the inclusion map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } _ { i } , \\mathcal { T } _ { i } )   \\rightarrow   ( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " is continuous. Since the restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is the composition of the inclusion map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ,"
+            },
+            {
+              "type": "text",
+              "content": " the restriction is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.367,
+            0.873,
+            0.423
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that each restriction is continuous. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p   \\circ T | \\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " -continuous seminorm for every i. By (5.6c), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\circ T"
+            },
+            {
+              "type": "text",
+              "content": " is continuous on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . By Exercise 1.23, T is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.439,
+            0.873,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It may have occurred to the reader that the definition of the inductive limit topology depends on the choice of the spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " in more than the obvious way. That is, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = { \\bigcup } _ { j } \\mathcal { Y } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { G } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " has a topology that is \"compatible\" with that of the spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , perhaps the inductive limit topology defined by the spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { G } _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " will differ from that defined by the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " This is not the case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.566,
+            0.872,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.8. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ ( \\mathcal { X } _ { i } , \\mathcal { T } _ { i } ) \\} )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ ( \\mathcal { Y } _ { j } , \\mathcal { U } _ { j } ) \\} )"
+            },
+            {
+              "type": "text",
+              "content": " be two inductive systems and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " and u be the corresponding inductive limit topologies on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " If for every i there is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a j"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i } \\subseteq \\mathcal { Y } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U } _ { j } | \\mathcal { X } _ { i }   \\subseteq   \\mathcal { T } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U } \\subseteq \\mathcal { T }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.629,
+            0.872,
+            0.703
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Let V be a convex balanced subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\cap \\mathcal { G } _ { j } \\in \\mathcal { U } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is given, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j"
+            },
+            {
+              "type": "text",
+              "content": " be such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i } \\subseteq \\mathcal { Y } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U } _ { j } | \\mathcal { X } _ { i } \\subseteq \\mathcal { T } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\cap \\mathcal{X}_{i} = (V \\cap \\mathcal{Y}_{j}) \\cap \\mathcal{X}_{i} \\in \\mathcal{T}_{i}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V { \\in } { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " [as defined in (5.3)]. It now follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U } \\subseteq \\mathcal { T }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.72,
+            0.871,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.9. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be any vector space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " be all of the finite dimensional subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { X } } ."
+            },
+            {
+              "type": "text",
+              "content": " Give each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " the unique topology from its identification with a Euclidean space. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ \\mathcal { X } _ { i } \\} )"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " be the inductive limit topology. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS and T: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   \\rightarrow   \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear transformation, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " -continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.831,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.10. Example. Let X be a locally compact space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ K _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the collection of all compact subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }   =   a \\Pi f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that spt "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\subseteq K _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcup_{i} \\mathcal{X}_{i} = C_{c}(X)"
+            },
+            {
+              "type": "text",
+              "content": " , the continuous functions on X with compact support. Topologize each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " by giving it the supremum norm. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( C _ { c } ( X ) , \\{ \\mathcal { X } _ { i } \\} )"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 133,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.056,
+            0.59,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Inductive Limits and the Space of Distributions"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "119"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.123,
+            0.1,
+            0.867,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ U _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the open subsets of X such that cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " is compact. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( U _ { j } )"
+            },
+            {
+              "type": "text",
+              "content": " be the continuous functions on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " vanishing at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\infty"
+            },
+            {
+              "type": "text",
+              "content": " with the supremum norm. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } C _ { 0 } ( U _ { j } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " is defined on X by letting it be identically 0 on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\backslash U _ { j } ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } C _ { c } { \\dot { ( } } X { \\dot { ) } }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( C _ { c } ( X ) , \\{ C _ { 0 } ( U _ { j } ) \\} )"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system. Proposition 5.8 implies that these two inductive systems define the same inductive limit topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.227,
+            0.867,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.11. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{n}=\\left\\{x \\in \\mathbb{R}^{d}:\\|x\\| \\leqslant n\\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { D } ( \\mathbb { R } ^ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\mathcal { D } ( K _ { n } ) \\right\\} _ { n = 1 } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " is an inductive system. By (5.9), the inductive limit topology defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\mathbb { R } ^ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " by this system equals the inductive limit topology defined by the system given in Example 5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.319,
+            0.868,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If Ω is any subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then Ω can be written as the union of a sequence of compact subsets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ K _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{n} \\in \\mathrm{int} K_{n+1}"
+            },
+            {
+              "type": "text",
+              "content": " . It follows by (5.9) that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\mathcal { D } ( K _ { n } ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " defines the same topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " as was defined in Example 5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.153,
+            0.375,
+            0.708,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding example inspires the following definition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.411,
+            0.868,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.12. Definition. A strict inductive system is an inductive system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\{ \\mathcal { X } _ { n } , \\mathcal { T } _ { n } \\} _ { n = 1 } ^ { \\infty } )"
+            },
+            {
+              "type": "text",
+              "content": " such that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1, \\mathcal{X}_n \\subseteq \\mathcal{X}_{n+1}, \\mathcal{T}_{n+1} \\mid \\mathcal{X}_n = \\mathcal{T}_n,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { \\pmb { n } \\pmb { + 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " . The inductive limit topology defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " by such a system is called a strict inductive limit topology and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is said to be the strict inductive limit of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { n } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.154,
+            0.521,
+            0.861,
+            0.54
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5.11 shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\mathbb { R } ^ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " , indeed "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " , is a strict inductive limit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.54,
+            0.869,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The following lemma is useful in the study of strict inductive limits as well as in other situations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.595,
+            0.869,
+            0.633
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.13. Proposition. If X is a LCS, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } \\leqslant \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , and p is a continuous seminorm on Y, then there is a continuous seminorm p on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { p } | \\mathcal { Y } = p ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.649,
+            0.871,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\{ y \\in \\mathcal { Y } : p ( y ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So U is open in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "另 ;"
+            },
+            {
+              "type": "text",
+              "content": " hence there is an open subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " of X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { 1 } \\cap \\mathcal { B } = U"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0   \\in   { \\cal V } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS, there is an open convex balanced set V in ¿ such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\subseteq V _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q = \\mathbf { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " gauge of V. So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y \\in \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( y ) < 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( y ) < 1"
+            },
+            {
+              "type": "text",
+              "content": " . By Lemma III.1.4, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leqslant q \\mid \\mathcal { Y }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.721,
+            0.873,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = \\mathrm{co}(U \\cup V);"
+            },
+            {
+              "type": "text",
+              "content": " it is easy to see that W is convex and balanced since both U and V are. It will be shown that W is open. First observe that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = \\left\\{ t u + ( 1 - t ) v : 0 \\leqslant t \\leqslant 1 \\right."
+            },
+            {
+              "type": "text",
+              "content": " , u∈U, v∈V} (verify). Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = \\cup \\left\\{ t U + \\right."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(1 - t)V : 0 \\leqslant t \\leqslant 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { t } = t U + ( 1 - t ) V ."
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { 0 } = V ,"
+            },
+            {
+              "type": "text",
+              "content": " which is open. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < t < 1, W_t = \\cup \\{tu + (1 - t)V: u \\in U\\}"
+            },
+            {
+              "type": "text",
+              "content": " , and hence is open. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W _ { 1 } = U"
+            },
+            {
+              "type": "text",
+              "content": " , which is not open. However, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u   \\in   U"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that εu∈V. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < t < 1"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y_{t}=t^{-1}\\left[1-\\varepsilon+t\\varepsilon\\right]u\\ (\\in\\mathcal{U}). \\mathrm{As}\\ t\\to1,\\ y_{t}\\to u."
+            },
+            {
+              "type": "text",
+              "content": " Since U is open in Y, there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t , 0 < t < 1"
+            },
+            {
+              "type": "text",
+              "content": " , with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { t }"
+            },
+            {
+              "type": "text",
+              "content": " in U. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u = t y _ { t } + ( 1 - t ) ( \\varepsilon u ) \\in W _ { t }"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = \\cup \\left\\{ W_t : 0 \\leqslant t < 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and W is open."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.13,
+            0.905,
+            0.377,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.14. Claim. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W \\cap { \\mathcal { B } } = U"
+            }
+          ],
+          "level": 2
+        }
+      ]
+    },
+    {
+      "page_idx": 134,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.135,
+            0.056,
+            0.171,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "120"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.626,
+            0.056,
+            0.874,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.099,
+            0.875,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\subseteq W ,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\subset W \\cap { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w   \\in   W \\cap { \\mathcal { G } } ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w = t u + ( 1 - t ) v ,"
+            },
+            {
+              "type": "text",
+              "content": " u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ,"
+            },
+            {
+              "type": "text",
+              "content": " v in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V, 0 \\leqslant t \\leqslant 1;"
+            },
+            {
+              "type": "text",
+              "content": " it may be assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < t < 1"
+            },
+            {
+              "type": "text",
+              "content": " . (Why?) Hence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v = (1 - t)^{-1}(w - tu) \\in \\mathcal{Y}"
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v   \\in   V   \\cap   \\mathcal { Y } \\subseteq U ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w { \\in } U"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.155,
+            0.871,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { p } = \\mathrm { t h } \\mathbf { e }"
+            },
+            {
+              "type": "text",
+              "content": " gauge of W. By Claim 5.14, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ y \\in \\mathcal { Y } : \\tilde { p } ( y ) < 1 \\} = \\{ y \\in \\mathcal { Y } : p ( y ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " By the uniqueness of the gauge, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { p } | \\mathcal { Y } = p"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.21,
+            0.875,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.15. Corollary. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is the strict inductive limit of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , k is fixed, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a continuous seminorm p on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p | \\mathcal { X } _ { k } = p _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " . In particular, the inductive limit topology is Hausdorff and the topology on X when restricted to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " equals the original topology of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { k }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.303,
+            0.872,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. By (5.13) and induction, for every integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n > k ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a continuous seminorm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n}|\\mathcal{X}_{n - 1} = p_{n - 1}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { I f } x { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) = p _ { n } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n } \\subseteq \\mathcal { X } _ { n + 1 }"
+            },
+            {
+              "type": "text",
+              "content": " for all n, the properties of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " insure that p is well defined. Clearly p is a seminorm and by (5.6c) p is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.377,
+            0.873,
+            0.47
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   \\mathcal { X } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus there is a continuous seminorm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { k } ( x ) \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " . Using the first part of the corollary, we get a continuous seminorm p on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " is Hausdorff. The proof that the topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " when relativized to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " equals the original topology is an easy application of (5.13)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.485,
+            0.872,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.16. Proposition. Let X be the strict inductive limit of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . A subset B of X is bounded if and only if there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq { \\mathcal { X } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and B is bounded in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { X } } _ { n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.558,
+            0.871,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof will be accomplished only after a few preliminaries are settled. Before doing this, here are a few consequences of (5.16)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.612,
+            0.873,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.17. Corollary. If X is the strict inductive limit of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then a subset K of X is compact if and only if there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\subseteq { \\mathcal { X } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and K is compact in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.684,
+            0.871,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.18. Corollary. If X is the strict inductive limit of Fréchet spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , Y is a LCS, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear transformation, then T is continuous if and only if T is sequentially continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.758,
+            0.87,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. By Proposition 5.7, T is continuous if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T | \\mathcal { X } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous for every n. Since each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is metrizable, the result follows. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.123,
+            0.814,
+            0.869,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that using Example 5.11 it follows that for an open subset Ω of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": " D(Ω) is the strict inductive limit of Fréchet spaces [each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( K _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " is a Fréchet space by Proposition 2.1]. So (5.18) applies."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.122,
+            0.885,
+            0.87,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.19. Definition. If Ω is an open subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { R } ^ { d } ,"
+            },
+            {
+              "type": "text",
+              "content": " a distribution on Ω is a continuous linear functional on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\Omega )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 135,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.593,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Inductive Limits and the Space of Distributions"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.836,
+            0.057,
+            0.869,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "121"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Distributions are, in a certain sense, generalizations of the concept of function as the following example illustrates."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.155,
+            0.87,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.20. Example. Let f be a Lebesgue measurable function on Ω that is locally integrable (that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { K } | f |   d \\lambda < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for every compact subset K of Ω—here λ is d-dimensional Lebesgue measure). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { f } \\colon { \\mathcal { D } } ( \\Omega ) \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { f } ( \\phi ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   f \\phi   d \\lambda ,   L _ { f }"
+            },
+            {
+              "type": "text",
+              "content": " is a distribution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.155,
+            0.246,
+            0.628,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Corollary 5.18 we arrive at the following."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.283,
+            0.869,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.21. Proposition. A linear functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\colon { \\mathcal { D } } ( \\Omega )   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a distribution if and only if for every sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " such that cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ \\bigcup _ { n = 1 } ^ { \\infty } \\operatorname { s p t } \\phi _ { n } \\right] = K"
+            },
+            {
+              "type": "text",
+              "content": " is compact in Ω and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n } ^ { ( k ) } ( x )   \\rightarrow   0"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on K as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k   =   ( k _ { 1 } , \\ldots , k _ { d } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( \\phi _ { n } )   \\to   0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.374,
+            0.871,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 5.21 is usually taken as the definition of a distribution in books on differential equations. There is the advantage that (5.21) can be understood with no knowledge of locally convex spaces and inductive limits. Moreover, most theorems on distributions can be proved by using (5.21). However, the realization that a distribution is precisely a continuous linear functional on a LCS contributes more than cultural edification. This knowledge brings power as it enables you to apply the theory of LCS's (including the Hahn-Banach Theorem)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.522,
+            0.871,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The exercises contain more results on distributions, but now we must return to the proof of Proposition 5.16. To do this the idea of a topological complement is needed. We have seen this idea in Section III.13."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.594,
+            0.871,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.22. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } \\leqslant \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.648,
+            0.868,
+            0.703
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) There is a closed linear subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { I }"
+            },
+            {
+              "type": "text",
+              "content": " of X such that y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\cap \\mathcal { X } = ( 0 ) , \\mathcal { Y } + \\mathcal { X } = \\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " and the map of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } \\times \\mathcal { X }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( y , z ) { \\mapsto } y + z"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism. (b) There is a continuous linear map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P \\colon { \\mathcal { X } }   \\to   { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P \\mathcal{X} = \\mathcal{Y}   and   P^2 = P"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.721,
+            0.871,
+            0.81
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathsf { a } ) \\Rightarrow ( \\mathsf { b } )"
+            },
+            {
+              "type": "text",
+              "content": " : Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P \\colon { \\mathcal { X } }   \\to   { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( y + z ) = y ,"
+            },
+            {
+              "type": "text",
+              "content": " for y in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta"
+            },
+            {
+              "type": "text",
+              "content": " and z in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to verify that P is linear and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P } \\mathcal { X } = \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P^{2}(y + z) = PP(y + z) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P y = y = P ( y + z ) ;"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P^{2} = P.\\  If \\ \\left\\{ y_{i} + z_{i} \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i } + z _ { i }   \\rightarrow   y + z ,"
+            },
+            {
+              "type": "text",
+              "content": " then (a) implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i }   \\rightarrow   y"
+            },
+            {
+              "type": "text",
+              "content": " (and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z _ { i }   \\to   z )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P(y_i + z_i) \\to P(y + z)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.812,
+            0.871,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) ⇒ (a): If P is given, let Z = ker P. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } \\leqslant \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = P x + ( x - P x )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = P x \\in \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z = x - P x"
+            },
+            {
+              "type": "text",
+              "content": " has "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Pz = Px - P^{2}x = Px - Px = 0, \\quad \\mathrm{so} \\quad z \\in \\mathcal{X}"
+            },
+            {
+              "type": "text",
+              "content": " Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } + \\mathcal { X } = \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in \\mathcal { Y } \\cap \\mathcal { Z }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P x = 0"
+            },
+            {
+              "type": "text",
+              "content": " since x∈x; but also "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = P w"
+            },
+            {
+              "type": "text",
+              "content": " for some w in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in \\mathcal { Y } = P \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = P x = P ^ { 2 } w = P w = x ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } \\cap \\mathcal { X } = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Now suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ y _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ z _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " are nets in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { L } } . { \\mathrm { ~ I f ~ } } y _ { i }   \\to   y"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z _ { i }   \\rightarrow   z _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i } + z _ { i }   \\rightarrow   y + z"
+            },
+            {
+              "type": "text",
+              "content": " because addition is continuous. If, on the other"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

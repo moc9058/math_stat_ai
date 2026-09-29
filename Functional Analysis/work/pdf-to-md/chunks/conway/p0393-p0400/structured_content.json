@@ -1,0 +1,1533 @@
+{
+  "pages": [
+    {
+      "page_idx": 392,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.098,
+            0.31,
+            0.118
+          ],
+          "content": "APPENDIX C"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.125,
+            0.132,
+            0.465,
+            0.164
+          ],
+          "level": 1,
+          "content": "The Dual of $C _ { 0 } ( X )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.428,
+            0.871,
+            0.484
+          ],
+          "content": "The purpose of this section is to show that the dual of $C _ { 0 } ( X )$ is the space of regular Borel measures on $X$ and to put this result, and the accompanying definitions, in the context of complex-valued measures and functions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.484,
+            0.871,
+            0.557
+          ],
+          "content": "Let X be any set and let Ω be a σ-algebra of subsets of $X ;$ so $( X , \\Omega )$ is a measurable space. If $\\mu$ is a countably additive function defined on Ω such that $\\mu ( \\Box ) = 0$ and $0 \\leqslant \\mu ( \\Delta ) \\leqslant \\infty$ for all $\\pmb { \\Delta }$ in $\\mathbf { \\Omega } _ { \\mathbf { \\Omega } _ { \\mathbf { \\Omega } } }$ call $\\mu$ a positive measure on $( X , \\Omega ) ;   ( X , \\Omega , \\mu )$ is called a measure space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.556,
+            0.871,
+            0.63
+          ],
+          "content": "If (X,Ω) is a measurable space, a signed measure is a countably additive function $\\mu$ defined on Ω such that $\\mu ( \\Box ) = 0$ and $\\mu$ takes its values in $\\mathbb { R } \\cup \\{ \\pm \\infty \\}$ . (Note: $\\mu$ can assume only one of the values $\\pm \\infty . )$ It is assumed that the reader is familiar with the following result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.646,
+            0.871,
+            0.722
+          ],
+          "content": "C.1. Hahn-Jordan Decomposition. If µ is a signed measure on $( X ,   \\Omega ) ,$ then $\\mathbf { \\mu } = \\mathbf { \\mu } _ { 1 } - \\mathbf { \\mu } _ { 2 } ,$ where $\\mu _ { 1 }$ and $\\mu _ { 2 }$ are positive measures, and $X = E _ { 1 } \\cup E _ { 2 } ,$ , where $E _ { 1 } , E _ { 2 }   \\in   \\Omega , E _ { 1 }   \\cap   E _ { 2 }   =   \\square , \\mu _ { 1 } ( E _ { 2 } )   =   0   =   \\mu _ { 2 } ( E _ { 1 } ) .$ The measures $\\mu _ { 1 }$ and $\\mu _ { 2 }$ are unique and the sets $E _ { 1 }$ and $E _ { 2 }$ are unique up to sets of $\\mu _ { 1 } + \\mu _ { 2 }$ measure zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.739,
+            0.871,
+            0.833
+          ],
+          "content": "A measure (or complex-valued measure) is a complex-valued function $\\mu$ defined on $\\pmb { \\Omega }$ that is countably additive and such that $\\mu ( \\Box ) = 0$ . Note that $\\mu$ does not assume any infinite values. If $\\mu$ is a measure, then $( \\operatorname { R e } \\mu ) ( \\Delta ) \\equiv \\operatorname { R e } ( \\mu ( \\Delta ) )$ is a signed measure, as is $( \\mathrm { I m }   \\mu ) ( \\Delta ) \\equiv \\mathrm { I m } ( \\mu ( \\Delta ) )$ ; hence $\\mu = \\operatorname { R e } \\mu + i \\operatorname { I m } \\mu .$ Applying (C.1) to $\\mathbf { R e }   \\mu$ and Im $\\mu$ we get"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.84,
+            0.168,
+            0.856
+          ],
+          "level": 2,
+          "content": "C.2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.371,
+            0.841,
+            0.624,
+            0.859
+          ],
+          "content": "\\mu = ( \\mu _ { 1 } - \\mu _ { 2 } ) + i ( \\mu _ { 3 } - \\mu _ { 4 } )",
+          "image_source": "images/page_392_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.867,
+            0.87,
+            0.922
+          ],
+          "content": "where $\\mu _ { j } \\left( 1 \\leqslant j \\leqslant - 4 \\right)$ are positive measures, $\\mu _ { 1 } \\perp \\mu _ { 2 } \\left( \\mu _ { 1 } \\right.$ and $\\mu _ { 2 }$ are mutually singular) and $\\mu _ { 3 } \\perp \\mu _ { 4 }$ . (C.2) will also be called the Hahn-Jordan decomposition of $\\mu .$"
+        }
+      ]
+    },
+    {
+      "page_idx": 393,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.132,
+            0.055,
+            0.336,
+            0.072
+          ],
+          "content": "C. The Dual of C₀(X)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.836,
+            0.058,
+            0.872,
+            0.073
+          ],
+          "content": "379"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.1,
+            0.874,
+            0.139
+          ],
+          "content": "C.3. Definition. If $\\mu$ is a measure on $( X , \\Omega )$ and $\\Delta { \\in } \\Omega ,$ define the variation of $\\mu , \\left| \\mu \\right|$ , by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.183,
+            0.145,
+            0.812,
+            0.189
+          ],
+          "content": "| \\mu | ( \\Delta ) = \\sup \\left\\{ \\sum_{j = 1}^{m} | \\mu ( E_j ) | : \\{ E_j \\}_1^m   is a measurable partition of   \\Delta \\right\\}.",
+          "image_source": "images/page_393_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.206,
+            0.871,
+            0.265
+          ],
+          "content": "C.4. Proposition. If µ is a measure on $( X , \\Omega )$ , then $| \\mu |$ is a positive finite measure on (X,Ω). If µ is a signed measure, $| \\mu |$ is a positive measure. $I f ( \\mathbb { C } . 2 )$ is satisfied, then $| \\mu | ( \\Delta ) \\leqslant \\sum _ { k = 1 } ^ { 4 } \\mu _ { k } ( \\Delta ) ,$ ; if µ is a signed measure, then $| \\boldsymbol { \\mu } |   =   \\mu _ { 1 } + \\mu _ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.271,
+            0.871,
+            0.33
+          ],
+          "content": "PROOF. Clearly $| \\mu | ( \\Delta ) \\geqslant 0$ Let $\\{ \\Delta _ { n } \\}$ be pairwise disjoint measurable sets and let $\\Delta = \\bigcup _ { n = 1 } ^ { \\infty } \\Delta _ { n } . \\mathrm { I f } \\varepsilon > 0 ,$ then there is a measurable partition $\\big \\{ E _ { j } \\big \\} _ { j = 1 } ^ { m }$ of $\\Delta$ such that $\\begin{array} { r } { | \\mu | ( \\Delta ) - \\varepsilon < \\sum _ { j = 1 } ^ { m } | \\mu ( E _ { j } ) | } \\end{array}$ . Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.337,
+            0.335,
+            0.65,
+            0.427
+          ],
+          "content": "\\begin{align*}\\| \\mu \\| (\\Delta) - \\varepsilon & \\leqslant \\sum_{j=1}^{m} \\left| \\sum_{n=1}^{\\infty} \\mu(E_j \\cap \\Delta_n) \\right| \\\\& \\leqslant \\sum_{n=1}^{\\infty} \\sum_{j=1}^{m} |\\mu(E_j \\cap \\Delta_n)|.\\end{align*}",
+          "image_source": "images/page_393_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.434,
+            0.871,
+            0.529
+          ],
+          "content": "But $\\left\\{ E _ { j } \\cap \\Delta _ { n } \\right\\} _ { j = 1 } ^ { m }$ is a partition of $\\Delta _ { n } ,$ so $| \\mu | ( \\Delta ) - \\varepsilon \\leqslant \\sum _ { n = 1 } ^ { \\infty } | \\mu | ( \\Delta _ { n } ) .$ Therefore $\\| \\mu \\| ( \\Delta ) \\leqslant \\sum _ { n = 1 } ^ { \\infty } | \\mu | ( \\Delta _ { n } )$ For the reverse inequality we may assume that $| \\mu | ( \\Delta )   < \\infty$ . It follows that $| \\mu | ( \\Delta _ { n } ) < \\infty$ for every n. (Why?) Let $\\varepsilon   >   0$ and for each $n \\geqslant 1$ let $\\left\\{ E _ { 1 } ^ { ( n ) } , \\ldots , E _ { m _ { n } } ^ { ( n ) } \\right\\}$ be a partition of $\\Delta _ { n }$ such that $\\begin{array} { r } { \\sum _ { j } \\lvert \\mu ( E _ { j } ^ { ( n ) } ) \\rvert > } \\end{array}$ $| \\mu | ( \\Delta _ { n } ) - \\varepsilon / 2 ^ { n }$ . Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.322,
+            0.533,
+            0.673,
+            0.578
+          ],
+          "content": "\\sum_{n = 1}^{N} | \\mu | ( \\Delta_n ) < \\sum_{n = 1}^{N} \\left[ \\frac{\\varepsilon}{2^n} + \\sum_{j} | \\mu ( E_j^{(n)} ) | \\right]",
+          "image_source": "images/page_393_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426,
+            0.585,
+            0.629,
+            0.626
+          ],
+          "content": "\\leqslant \\varepsilon + \\sum_{n = 1}^{N} \\sum_{j} \\left| \\mu(E_{j}^{(n)}) \\right|",
+          "image_source": "images/page_393_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426,
+            0.634,
+            0.551,
+            0.653
+          ],
+          "content": "\\leqslant \\varepsilon + | \\mu | ( \\Delta ) .",
+          "image_source": "images/page_393_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.661,
+            0.668,
+            0.679
+          ],
+          "content": "Letting $N   \\to   \\infty$ and $\\varepsilon   \\to   0$ gives that $\\begin{array} { r } { \\sum _ { 1 } ^ { \\infty } | \\mu | ( \\Delta _ { n } ) \\leqslant | \\mu | ( \\Delta ) } \\end{array}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.679,
+            0.871,
+            0.735
+          ],
+          "content": "Clearly $| \\mu ( \\Delta ) | \\leqslant \\sum _ { k = 1 } ^ { 4 } \\mu _ { k } ( \\Delta )$ , so $| \\mu | \\leqslant \\sum_{k = 1}^{4} \\mu_{k}$ . It is left to the reader to show that $| \\boldsymbol { \\mu } |   =   \\boldsymbol { \\mu } _ { 1 } + \\boldsymbol { \\mu } _ { 2 }$ if $\\mu$ is a signed measure. Since $\\mu _ { 1 } ,   \\mu _ { 2 } ,   \\mu _ { 3 } ,   \\mu _ { 4 }$ are all finite, $| \\mu |$ is finite if $\\mu$ is complex-valued. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.751,
+            0.871,
+            0.809
+          ],
+          "content": "C.5. Definition. If $\\mu$ is a measure on (X,Ω) and v is a positive measure on (X,Ω), say that $\\mu$ is absolutely continuous with respect to $\\nu \\left( \\mu \\ll \\nu \\right)$ if $\\mu ( \\Delta ) = 0$ whenever $v ( \\Delta ) = 0$ . If v is complex-valued, $\\mu   \\ll   \\nu$ means $\\mu   \\ll   | \\nu | .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.825,
+            0.871,
+            0.863
+          ],
+          "content": "C.6. Proposition. Let µ be a measure and v a positive measure on (X,Ω). The following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.873,
+            0.224,
+            0.889
+          ],
+          "content": "(a) $\\mu \\ll \\nu .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.89,
+            0.238,
+            0.907
+          ],
+          "content": "(b) $| \\mu | \\ll \\nu .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.908,
+            0.5,
+            0.927
+          ],
+          "content": "(c) If (C.2) holds, $\\mu _ { k } \\ll v \\; \\mathrm { f o r } \\; 1 \\leqslant k \\leqslant 4 .$"
+        }
+      ]
+    },
+    {
+      "page_idx": 394,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.169,
+            0.072
+          ],
+          "content": "380"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.579,
+            0.055,
+            0.87,
+            0.074
+          ],
+          "content": "Appendix C. The Dual of C0(X)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.102,
+            0.295,
+            0.119
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.137,
+            0.871,
+            0.195
+          ],
+          "content": "The Radon-Nikodym Theorem can now be proved for complex-valued measures $\\mu$ by using (C.6) and applying the usual theorem to the real and imaginary parts of $\\mu .$ The details are left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.211,
+            0.871,
+            0.269
+          ],
+          "content": "C.7. Radon-Nikodym Theorem. $I f \\left( X , \\Omega , \\nu \\right)$ is a σ-finite measure space and µ is a complex-valued measure on (X,Ω) such that $\\mu \\ll \\nu ,$ then there is a unique complex-valued function f in $L ^ { 1 } ( X , \\Omega , \\nu )$ such that $\\mu ( \\Delta ) = \\int _ { \\Delta } f$ dv for every $\\pmb { \\Delta }$ inΩ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.285,
+            0.871,
+            0.324
+          ],
+          "content": "The function f obtained in (C.7) is called the Radon-Nikodym derivative of $\\mu$ with respect to v and is denoted by $f = d \\mu / d v$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.34,
+            0.872,
+            0.378
+          ],
+          "content": "C.8. Theorem. Let $( X , \\Omega , v )$ be a σ-finite measure space and let $\\mu$ be a complex-valued measure on $( X , \\Omega )$ such that $\\mu   \\ll   \\nu$ and let $f = d \\mu / d v .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.386,
+            0.713,
+            0.406
+          ],
+          "content": "(a) If $g   \\in   L ( X , \\Omega , | \\mu | )$ , then $g f   \\in   L ^ { 1 } ( X , \\Omega , v )$ and $\\int g d \\mu = \\int g f d v .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.405,
+            0.448,
+            0.425
+          ],
+          "content": "(b) For $\\pmb { \\Delta }$ in $\\Omega , \\left| \\mu \\right| \\left( \\Delta \\right) = \\int _ { \\Delta } \\left| f \\right| d v .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.432,
+            0.871,
+            0.47
+          ],
+          "content": "ProoF. Part (a) follows from the corresponding result for signed measures by using (C.2) and a similar decomposition for $f .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.469,
+            0.743,
+            0.489
+          ],
+          "content": "To prove (b), let $\\{ E _ { j } \\}$ be a measurable partition of ∆. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.495,
+            0.669,
+            0.54
+          ],
+          "content": "\\sum _ { j } | \\mu ( E _ { j } ) | \\leqslant \\sum _ { j } \\int _ { E _ { j } } | f | d v = \\int _ { \\Delta } | f | d v .",
+          "image_source": "images/page_394_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.548,
+            0.873,
+            0.679
+          ],
+          "content": "For the reverse inequality, let $g ( x ) = \\widetilde { f ( x ) } / | f ( x ) |$ if $x { \\in } \\Delta$ and $f(x) \\neq 0;$ let $g ( x ) = 0$ otherwise. Let $\\{ g _ { n } \\}$ be a sequence of Ω-measurable simple functions such that $g _ { n } ( x ) = 0$ off $\\Delta, |g_n| \\leqslant |g| \\leqslant 1$ , and $g _ { n } ( x )   \\rightarrow   g ( x )$ a.e. [v]. Thus $f g _ { n } \\to | f | \\chi _ { \\Delta } \\quad \\mathrm { a . e . } \\quad [ v ] .$ Also, $| f g _ { n } | \\leqslant | f | \\chi _ { \\Delta }$ and $f \\chi _ { \\Delta }   \\in   L ^ { 1 } ( v )$ [see (C.2)]. By the Lebesgue Dominated Convergence Theorem, $\\int f g_{n}   dv \\rightarrow \\int_{\\Delta} |f|   dv$ If $\\begin{array} { r } { \\pmb { g } _ { n } = \\sum _ { j }   \\pmb { \\alpha } _ { j } \\chi _ { E _ { j } } , } \\end{array}$ where $\\{ E _ { j } \\}$ is a partition of ∆ and $| \\alpha _ { j } | \\leqslant 1$ then $\\left| \\int f g_{n} d v \\right| = \\left| \\int g_{n} d \\mu \\right| = \\left| \\sum_{j} \\alpha_{j} \\mu(E_{j}) \\right| \\leqslant | \\mu | (\\Delta)$ . Thus $\\int _ { \\Delta } | f | d v \\leqslant | \\mu | ( \\Delta )$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.694,
+            0.872,
+            0.731
+          ],
+          "content": "One way of phrasing (C.8b) is that $| d \\mu / d v | = d | \\mu | / d v$ . The next result is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.749,
+            0.871,
+            0.806
+          ],
+          "content": "C.9. Corollary. If µ is a complex-valued measure on (X,Ω), then there is an Ω-measurable function f on $X$ such that |f| = 1 a.e. [|µ|] and $\\mu ( \\Delta ) = \\int _ { \\Delta } f d | \\mu |$ for each ∆ in Ω."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.823,
+            0.872,
+            0.935
+          ],
+          "content": "C.10. Definition. Let X be a locally compact space and let Ω be the smallest σ-algebra of subsets of X that contains the open sets. Sets in Ω are called Borel sets. A positive measure $\\mu$ on (X,Ω) is a regular Borel measure if (a) $\\mu ( K ) < \\infty$ for every compact subset K of X; (b) for any E in Ω, $\\mu ( E ) = \\operatorname* { s u p } \\left\\{ \\mu ( K ) : \\right\\}$ $K \\subseteq E$ and K is compact}; (c) for any E in Ω, $\\mu ( E ) = \\operatorname* { i n f } \\{ \\mu ( U ) : U \\supseteq E$ and U is open}. If $\\mu$ is a complex-valued measure on (X,Ω), μ is a regular Borel"
+        }
+      ]
+    },
+    {
+      "page_idx": 395,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.132,
+            0.055,
+            0.336,
+            0.072
+          ],
+          "content": "C. The Dual of C₀(X)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": "381"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "continues_prev": true,
+          "content": "measure $\\mathbf { i f }   | \\mu |   \\mathbf { i s }$ Let $M(X) = \\mathrm{all}$ of the complex-valued regular Borel measures on X. Note that $M ( X )$ is a vector space over C. For $\\mu$ in $M ( X ) _ { \\mathrm { i } }$ let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.129,
+            0.146,
+            0.567,
+            0.166
+          ],
+          "content": "\\|   \\mu   \\| \\equiv | \\mu | ( X ) .\\tag{C.11}",
+          "image_source": "images/page_395_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.183,
+            0.614,
+            0.202
+          ],
+          "content": "C.12. Proposition. (C.11) defines a norm on $M ( X )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.21,
+            0.296,
+            0.228
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.247,
+            0.869,
+            0.287
+          ],
+          "content": "C.13. Lemma. If $\\mu { \\in } M ( X ) ,$ define $F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { C }$ by $F _ { \\mu } ( f ) = \\int f   d \\mu$ Then $F _ { \\mu } \\in C _ { 0 } ( X ) ^ { * }$ and $\\| \\boldsymbol { F } _ { \\boldsymbol { \\mu } } \\| = \\| \\boldsymbol { \\mu } \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.293,
+            0.868,
+            0.331
+          ],
+          "content": "PROOF. If $f   \\in   { \\cal C } _ { 0 } ( X ) ,$ then $| F _ { \\mu } ( f ) | \\leqslant \\int | f | d | \\mu | \\leqslant \\| f \\| \\| \\mu \\|$ . Hence $F _ { \\mu } \\in C _ { 0 } ( X ) ^ { * }$ and $\\| \\boldsymbol { F } _ { \\boldsymbol { \\mu } } \\| \\leqslant \\| \\boldsymbol { \\mu } \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.331,
+            0.869,
+            0.426
+          ],
+          "content": "To show equality, let $f _ { 0 }$ be a Borel function such that $| f _ { 0 } | = 1$ a.e. $[ | \\mu | ]$ and $\\mu ( \\Delta ) = \\int _ { \\Delta } f _ { 0 } d | \\mu |$ . By Lusin's Theorem, if $\\varepsilon   >   0 ,$ there is a continuous function $\\phi$ on X with compact support such that $\\int | \\phi - \\bar { f } _ { 0 } | d | \\mu | < \\varepsilon$ and $\\| \\phi \\| \\leqslant \\sup | f_0(x) | = 1$ . Thus $\\| \\mu \\| = \\int f_{0} \\bar{f}_{0} d | \\mu | \\quad ( \\mathrm{C.8a} ) = \\int \\bar{f}_{0} d \\mu = | \\int \\bar{f}_{0} d \\mu | \\leqslant$ $\\left| \\int ( \\bar { f } _ { 0 } - \\phi ) d \\mu \\right| + \\left| \\int \\phi d \\mu \\right| \\leqslant \\varepsilon + \\left| F _ { \\mu } ( \\phi ) \\right| \\leqslant \\varepsilon + \\left\\| F _ { \\mu } \\right\\|$ . Hence $\\| \\boldsymbol { \\mu } \\| \\leqslant \\| \\boldsymbol { F } _ { \\boldsymbol { \\mu } } \\|$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.441,
+            0.868,
+            0.499
+          ],
+          "content": "C.14. Corollary. (a) If U is an open subset of X and $\\mu { \\in } M ( X ) ,$ then $| \\mu | ( U ) = \\operatorname* { s u p } \\{ | \\int \\phi d \\mu | : \\phi \\in C _ { c } ( X )$ spt $\\phi \\subseteq U ,$ and $\\| \\phi \\| \\leqslant 1 \\}$ . (b) $\\begin{array} { r } { I f \\quad \\mu \\geqslant 0 , } \\end{array}$ $\\mu ( K ) = \\operatorname* { i n f } \\left\\{ \\int \\phi ^ { \\cdot } d \\mu : \\phi \\in C _ { 0 } ( X ) \\right\\}$ and $\\phi \\geqslant \\chi _ { K } \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.506,
+            0.867,
+            0.562
+          ],
+          "content": "ProoF. (a) If U is given the relative topology from X, U is locally compact. Let v be the restriction of $\\mu$ to U. Then (a) becomes a restatement of (C.13) for the space U together with the fact that $C _ { c } ( U )$ is norm dense in $C _ { 0 } ( U )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.562,
+            0.868,
+            0.654
+          ],
+          "content": "(b) If $\\phi \\geqslant \\chi _ { K } ,$ then because μ is positive, $\\int \\phi   d \\mu \\geqslant \\mu ( K ) .$ Thus $\\mu ( K ) \\leqslant \\alpha \\equiv \\inf \\left\\{ \\int \\phi   d \\mu : \\phi \\in C _ { 0 } ( X ) \\right\\}$ and $\\phi \\geqslant \\chi _ { K } \\}$ . Using the regularity of $\\mu ,$ for every integer n there is an open set $U _ { n }$ such that $K \\subseteq U _ { n }$ and $\\mu ( U _ { n } \\backslash K ) < n ^ { - 1 }$ Let $\\psi _ { n } \\in C _ { c } ( X )$ such that $0 \\leqslant \\psi_{n} \\leqslant 1, \\psi_{n} = 1$ on K, and $\\psi _ { n } = 0$ off $U _ { n } .$ Thus $\\psi _ { n } \\geqslant \\chi _ { K }$ and so $\\alpha \\leqslant \\int \\psi _ { n } d \\mu \\leqslant \\mu ( U _ { n } ) < \\mu ( K ) + n ^ { - 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.67,
+            0.869,
+            0.746
+          ],
+          "content": "The next step in the process of representing bounded linear functionals on $C _ { 0 } ( X )$ by measures is to associate with each such functional a positive functional. If $\\mu { \\in } M ( X )$ , then the next lemma would associate with the functional $F _ { \\mu }$ the positive functional $I = F _ { | \\mu | }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.76,
+            0.871,
+            0.799
+          ],
+          "content": "C.15. Lemma. If $F \\colon C _ { 0 } ( X )   \\to   \\mathbb { C }$ is a bounded linear functional, then there is a unique linear functional $I \\colon C _ { 0 } ( X ) \\to \\mathbb { C }$ such that $\\mathit { i f } f   \\in   { \\cal C } _ { 0 } ( X )$ and $f \\geqslant 0 ,$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.129,
+            0.806,
+            0.718,
+            0.827
+          ],
+          "content": "I ( f ) = \\sup \\left\\{ | F ( g ) | : g \\in C _ { 0 } ( X ) \\text { a n d } | g | \\leqslant f \\right\\} .\\tag{C.16}",
+          "image_source": "images/page_395_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.834,
+            0.333,
+            0.853
+          ],
+          "content": "Moreover $\\| I \\| = \\| f \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.861,
+            0.868,
+            0.936
+          ],
+          "content": "PROOF. Let $C _ { 0 } ( X )$ + be the positive functions in $C _ { 0 } ( X )$ and for f in $C _ { 0 } ( X )$ + define $I ( f )$ as in (C.16). If $\\alpha   >   0 ,$ , then clearly $I ( \\alpha f ) = \\alpha I ( f )$ if $f   \\in   { \\cal C } _ { 0 } ( X ) _ { + }$ . Also, if $g   \\in   { \\cal C } _ { 0 } ( X )$ and $| g | \\leqslant f ,$ then $| F ( g ) | \\leqslant \\| F \\| \\| g \\| \\leqslant \\| F \\| \\| f \\|$ . Hence $I ( f )   \\leqslant$二 $\\boldsymbol{F} \\| \\left\\| \\boldsymbol{f} \\right\\| < \\infty$"
+        }
+      ]
+    },
+    {
+      "page_idx": 396,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.134,
+            0.057,
+            0.17,
+            0.072
+          ],
+          "content": "382"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.581,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": "Appendix C. The Dual of C0(X)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.1,
+            0.871,
+            0.175
+          ],
+          "content": "Now we will show that $I ( f _ { 1 } + f _ { 2 } ) = I ( f _ { 1 } ) + I ( f _ { 2 } )$ whenever $f_{1},f_{2} \\in C(X)_{+}$ $\\operatorname { I f } \\varepsilon   >   0 ,$ let $g _ { 1 } , g _ { 2 } \\in C _ { 0 } ( X )$ such that $| g _ { j } | \\leqslant f _ { j }$ and $| F ( g _ { j } ) | > I ( f _ { j } ) - \\frac { 1 } { 2 } \\varepsilon$ for $j   =   1 , 2$ There are complex numbers $\\beta _ { j } , j = 1 , 2 ,$ with $| \\beta _ { j } | \\stackrel { \\cdot } { = } 1$ and $F ( g _ { j } ) = \\beta _ { j } | F ( g _ { j } ) |$ Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.319,
+            0.183,
+            0.676,
+            0.26
+          ],
+          "content": "\\begin{align*}I(f_1) + I(f_2) &< \\varepsilon + |F(g_1)| + |F(g_2)| \\\\&= \\varepsilon + \\bar{\\beta}_1 F(g_1) + \\bar{\\beta}_2 F(g_2) \\\\&= \\varepsilon + |F(\\bar{\\beta}_1 g_1 + \\bar{\\beta}_2 g_2)|.\\end{align*}",
+          "image_source": "images/page_396_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.266,
+            0.869,
+            0.304
+          ],
+          "content": "But $| \\bar { \\beta } _ { 1 } g _ { 1 } + \\bar { \\beta } _ { 2 } g _ { 2 } ) | \\leqslant | g _ { 1 } | + | g _ { 2 } | \\leqslant f _ { 1 } + f _ { 2 }$ . Hence $I(f_1) + I(f_2) \\leqslant \\varepsilon + I(f_1 + f_2)$ Since ε was arbitrary, we have half of the desired equality."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.304,
+            0.872,
+            0.361
+          ],
+          "content": "For the other half of the equality, let $g   \\in   \\overline { { C _ { 0 } ( X ) } }$ such that $| g | \\leqslant f _ { 1 } + f _ { 2 }$ and $I ( f _ { 1 } + f _ { 2 } ) < | F ( g ) | + \\varepsilon .$ Let $h_{1} = \\min(|g|, f_{1})$ and $h _ { 2 } = | g | - h _ { 1 }$ Clearly $h _ { 1 } , h _ { 2 } \\in C _ { 0 } ( X ) _ { + } ,   h _ { 1 } \\leqslant f _ { 1 } ,   h _ { 2 } \\leqslant f _ { 2 }$ , and $\\boldsymbol { h } _ { 1 } + \\boldsymbol { h } _ { 2 } = | \\boldsymbol { g } |$ . Define $g _ { j } \\colon X   \\to   \\mathbb { C }$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.354,
+            0.366,
+            0.647,
+            0.44
+          ],
+          "content": "g _ { j } ( x ) = \\left\\{ \\begin{aligned} & 0 & &  if   g ( x ) = 0, \\\\ & \\frac { h _ { j } ( x ) g ( x ) } { | g ( x ) | } & &  if   g ( x ) \\neq 0. \\end{aligned} \\right.",
+          "image_source": "images/page_396_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.445,
+            0.815,
+            0.465
+          ],
+          "content": "It is left to the reader to verify that $g _ { j } { \\in } C _ { 0 } ( X )$ and $g _ { 1 } + g _ { 2 } = g$ Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34,
+            0.472,
+            0.654,
+            0.538
+          ],
+          "content": "\\begin{aligned}I(f_{1} + f_{2}) &< |F(g_{1}) + F(g_{2})| + \\varepsilon \\\\&\\leqslant |F(g_{1})| + |F(g_{2})| + \\varepsilon \\\\&\\leqslant I(f_{1}) + I(f_{2}) + \\varepsilon.\\end{aligned}",
+          "image_source": "images/page_396_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.546,
+            0.275,
+            0.562
+          ],
+          "content": "Now let $\\varepsilon   \\to   0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.562,
+            0.874,
+            0.653
+          ],
+          "content": "If f is a real-valued function in $C _ { 0 } ( X ) .$ , then $f = f _ { 1 } - f _ { 2 }$ where $f _ { 1 } f _ { 2 } \\in C _ { 0 } ( X ) _ { + }$ If also $f = g _ { 1 } - g _ { 2 }$ for some $g _ { 1 } , g _ { 2 }$ in $C _ { 0 } ( X ) _ { + }$ , then $g_{1} + f_{2} = f_{1} + g_{2}$ . By the preceding argument $I ( g _ { 1 } ) + I ( f _ { 2 } ) = I ( f _ { 1 } ) + I ( g _ { 2 } )$ Hence if we define $I ;$ $\\operatorname { R e } C _ { 0 } ( X ) \\to \\operatorname { R }$ by $I ( f ) = I ( f _ { 1 } ) - I ( f _ { 2 } )$ where $f = f _ { 1 } - f _ { 2 }$ with $f _ { 1 } , f _ { 2 }$ in $\\overline { { C _ { 0 } } } ( X ) _ { + }$ I is well defined. It is left to the reader to verify that I is R-linear."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.653,
+            0.869,
+            0.69
+          ],
+          "content": "If $f   \\in   C _ { 0 } ( X ) ,$ , then $f = f _ { 1 } + i f _ { 2 }$ , where $f _ { 1 } , f _ { 2 } \\in \\operatorname { R e } C _ { 0 } ( X )$ . Let $I ( f ) = I ( f _ { 1 } ) +$ $i I ( f _ { 2 } )$ . It is left to the reader to show that $I : C _ { 0 } ( X ) \\to \\mathbb { C }$ is a linear functional."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.69,
+            0.872,
+            0.765
+          ],
+          "content": "To prove that $\\| I \\| = \\| F \\|$ , first let $f   \\in   { \\cal C } _ { 0 } ( X )$ and put $I ( f ) = \\alpha | I ( f ) |$ where $| \\alpha | = 1$ . Hence $\\bar { \\alpha } f = f _ { 1 } + i f _ { 2 }$ , where $f_{1},f_{2} \\in \\mathrm{Re} C_{0}(X)$ Thus $| I ( f ) | = \\bar { \\alpha } I ( f ) =$ $I ( f _ { 1 } ) + i I ( f _ { 2 } )$ Since $\\{ I ( f ) \\}$ is a positive real number, $I ( f _ { 2 } ) = 0$ and $I ( f _ { 1 } ) = | I ( f ) |$ . But $f_{1} = \\mathrm{Re}(\\bar{\\alpha} f) \\leqslant |f|$ . Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.428,
+            0.773,
+            0.575,
+            0.793
+          ],
+          "content": "| I ( f ) | \\leqslant I ( | f | ) .",
+          "image_source": "images/page_396_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.8,
+            0.873,
+            0.857
+          ],
+          "content": "From here we get, as in the beginning of this proof, that $\\| I \\| \\leqslant \\| F \\|$ . For the other half, if $\\varepsilon   >   0 ,$ let $f   \\in   { \\cal C } _ { 0 } ( X )$ such that $\\| f \\| \\leqslant 1$ and $\\| F \\| < | F ( f ) | + \\varepsilon .$ Thus $\\| F \\| < I ( | f | ) + \\varepsilon \\leqslant \\| I \\| + \\varepsilon .$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.873,
+            0.874,
+            0.931
+          ],
+          "content": "C.17. Theorem. If $I \\colon C _ { 0 } ( X ) { \\to } \\mathbf { C }$ is a bounded linear functional such that $I ( f )   \\geqslant   0$ whenever $f   \\in   { \\cal C } _ { 0 } ( X ) _ { + }$ , then there is a positive measure v in $M ( X )$ such that $I ( f ) = \\int f   d v$ for every f in $C _ { 0 } ( X )$ and $\\| I \\| = { \\mathfrak { v } } ( X )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 397,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.131,
+            0.055,
+            0.335,
+            0.072
+          ],
+          "content": "C. The Dual of C0(X)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.058,
+            0.871,
+            0.073
+          ],
+          "content": "383"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.87,
+            0.138
+          ],
+          "content": "The proof of this is an involved construction. Inspired by Corollary C.14, one defines v(U) for an open set U by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.271,
+            0.146,
+            0.724,
+            0.166
+          ],
+          "content": "\\nu ( U ) = \\operatorname* { s u p } \\{ I ( \\phi ) : \\phi \\in C _ { c } ( X ) _ { + } , \\phi \\leqslant 1 , \\operatorname { s p t } \\phi \\subseteq U \\} .",
+          "image_source": "images/page_397_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.173,
+            0.417,
+            0.192
+          ],
+          "content": "Then for any Borel set E, let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.201,
+            0.688,
+            0.22
+          ],
+          "content": "v ( E ) = \\operatorname* { i n f } \\{ v ( U ) \\colon E \\subseteq U { \\mathrm { ~ a n d ~ } } U { \\mathrm { ~ i s ~ o p e n } } \\} .",
+          "image_source": "images/page_397_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.228,
+            0.871,
+            0.303
+          ],
+          "content": "It must now be shown that v is a positive measure and $I ( f ) = \\int f   d v$ For the details see (12.36) in Hewitt and Stromberg [1975] or §56 in Halmos [1974]. Indeed, Theorem C.17 is often called the Riesz Representation Theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.321,
+            0.87,
+            0.36
+          ],
+          "content": "C.18. Riesz Representation Theorem. If X is a locally compact space and $\\mu { \\in } M ( X )$ , define $F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { C }$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.428,
+            0.366,
+            0.571,
+            0.388
+          ],
+          "content": "F _ { \\mu } ( f ) = \\int f   d \\mu .",
+          "image_source": "images/page_397_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.395,
+            0.87,
+            0.433
+          ],
+          "content": "Then $F _ { \\mu } \\in C _ { 0 } ( X ) ^ { * }$ and the map $\\mu   \\mapsto   F _ { \\mu }$ is an isometric isomorphism of M(X) onto $\\dot { C _ { 0 } ( X ) ^ { * } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.44,
+            0.87,
+            0.644
+          ],
+          "content": "PROOF. The fact that $\\mu { \\mapsto } F _ { \\mu }$ is an isometry is the content of Lemma C.13. It remains to show that $\\mu { \\mapsto } F _ { \\mu }$ is surjective. Let $F   \\in   \\overline { { C _ { 0 } ( x ) ^ { * } } }$ and define I: $C _ { 0 } ( X )   \\to   \\mathbb { C }$ as in Lemma C.15. By Theorem C.17, there is a positive measure ν in $M ( X )$ such that $I ( f ) = \\int f   d v$ for all f in $C _ { 0 } ( X )$ . If $f   \\in   { \\cal C } _ { 0 } ( X ) ,$ , then the definition of I implies that $| \\dot{F}(f) | \\leqslant I( |f| ) = \\int |f|   dv$ . Thus, $f { \\mapsto } F ( f )$ defines a bounded linear functional on $C _ { 0 } ( X )$ considered as a linear manifold in $L ^ { 1 } ( \\mathfrak { v } )$ Now $C _ { 0 } ( X )$ is dense in $L ^ { 1 } ( \\mathfrak { v } )$ (Why?), so F has a unique extension to a bounded linear functional on $L ^ { 1 } ( \\mathfrak { v } )$ . By Theorem B.1 there is a function φ in $L ^ { \\infty } ( v )$ such that $F ( f ) = \\int f \\phi$ dv for every f in $C _ { 0 } ( X )$ and $\\| \\phi \\| _ { \\infty } \\leqslant 1$ . Let $\\mu ( E ) = \\int _ { E } \\phi   d \\nu$ for every Borel set E. Then $\\mu { \\in } M ( X )$ and by Theorem $C.8(a),   F(f) = \\int f   d\\mu;$ that is, $F = F _ { \\mu ^ { \\circ } }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 398,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.139,
+            0.363,
+            0.17
+          ],
+          "content": "Bibliography"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.422,
+            0.871,
+            0.454
+          ],
+          "content": "M.B. Abrahamse [1978]. Multiplication operators. In Hilbert Space Operators. New York: Springer-Verlag Notes, Vol. 693, pp. 17–36."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.453,
+            0.872,
+            0.485
+          ],
+          "content": "M.B. Abrahamse and T.L. Kriete [1973]. The spectral multiplicity function of a multiplication operator. Indiana J. Math., 22, 845–857."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.485,
+            0.871,
+            0.515
+          ],
+          "content": "T. Andô [1963]. Note on invariant subspaces of a compact normal operator. Archiv. Math., 14, 337–340."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.515,
+            0.871,
+            0.546
+          ],
+          "content": "N. Aronszajn and K.T. Smith [1954]. Invariant subspaces of completely continuous operators. Ann. Math., 60, 345–350."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.546,
+            0.824,
+            0.561
+          ],
+          "content": "W. Arveson [1956]. An Invitation to C\\*-algebras. New York: Springer-Verlag."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.56,
+            0.846,
+            0.576
+          ],
+          "content": "S. Banach [1955]. Theorie des opérations linéaires. New York: Chelsea Publ. Co."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.576,
+            0.871,
+            0.606
+          ],
+          "content": "N.K. Bari [1951]. Biorthogonal systems and bases in Hilbert space. Moskov Gos Univ Ucenye Zapinski 148, Matematika 4, 69–107. (Russian)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.605,
+            0.871,
+            0.636
+          ],
+          "content": "B. Beauzamy [1985]. Un operateur sans sous-espace invariant: simplification de l’exemple de P. Enflo. Integral Eqs. and Operator Theory, 8, 314–384."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.635,
+            0.871,
+            0.666
+          ],
+          "content": "S.K. Berberian [1959]. Note on a theorem of Fuglede and Putnam. Proc. Amer. Math. Soc., 10, 175–182."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.666,
+            0.871,
+            0.696
+          ],
+          "content": "C. Berg, J.P.R. Christensen, and P. Ressel [1984]. Harmonic Analysis on Semigroups. New York: Springer-Verlag."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.696,
+            0.871,
+            0.727
+          ],
+          "content": "A.R. Bernstein and A. Robinson [1966]. Solution of an invariant subspace problem of K.T. Smith and P.R. Halmos. Pacific J. Math., 16, 421–431."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.727,
+            0.871,
+            0.758
+          ],
+          "content": "A. Beurling [1949]. On two problems concerning linear transformations in Hilbert space. Acta. Math., 81, 239–255."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.757,
+            0.871,
+            0.788
+          ],
+          "content": "F.F. Bonsall [1986]. Decompositions of functions as sums of elementary functions. Quart J. Math. 37, 129–136."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.788,
+            0.871,
+            0.818
+          ],
+          "content": "F.F. Bonsall and J. Duncan [1973]. Complete Normed Algebras. Berlin: Springer-Verlag."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.818,
+            0.759,
+            0.835
+          ],
+          "content": "N. Bourbaki [1967]. Espaces Vectoriels Topologiques. Paris: Hermann."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.835,
+            0.871,
+            0.864
+          ],
+          "content": "L. de Branges [1959]. The Stone-Weierstrass Theorem. Proc. Amer. Math. Soc., 10, 822-824."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.864,
+            0.871,
+            0.895
+          ],
+          "content": "A Brown [1974]. A version of multiplicity theory. Topics in Operator Theory. Math. Surveys A.M.S., Vol. 13, 129–160."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.895,
+            0.871,
+            0.926
+          ],
+          "content": "R.C. Buck [1958]. Bounded continuous functions on a locally compact space. Michigan Math. J., 5, 95–104."
+        }
+      ]
+    },
+    {
+      "page_idx": 399,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.131,
+            0.056,
+            0.25,
+            0.073
+          ],
+          "content": "Bibliography"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": "385"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.102,
+            0.869,
+            0.133
+          ],
+          "content": "J.W. Calkin [1939]. Abstract symmetric boundary conditions. Trans. Amer. Math. Soc., 45, 369–442."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.127,
+            0.133,
+            0.87,
+            0.165
+          ],
+          "content": "S.R. Caradus, W.E. Pfaffenberger, and B. Yood [1974]. Calkin Algebras and Algebras of Operators of Banach Spaces. New York: Marcel Dekker."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.164,
+            0.869,
+            0.194
+          ],
+          "content": "L. Carleson [1966]. On convergence and growth of partial sums of Fourier series. Acta. Math., 116, 135–157."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.194,
+            0.869,
+            0.225
+          ],
+          "content": "P. Chernoff [1983]. A semibounded closed symmetric operator whose square has trivial domain. Proc. Amer. Math. Soc., 89, 289–290."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.225,
+            0.868,
+            0.254
+          ],
+          "content": "M.D. Choi [1983]. Tricks or treats with the Hilbert matrix. Amer. Math. Monthly, 90, 301–312."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.255,
+            0.86,
+            0.272
+          ],
+          "content": "J.A. Clarkson [1936]. Uniformly convex spaces. Trans. Amer. Math. Soc., 40, 396–414."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.271,
+            0.857,
+            0.287
+          ],
+          "content": "J.B. Conway [1978]. Functions of One Complex Variable. New York: Springer-Verlag."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.286,
+            0.658,
+            0.301
+          ],
+          "content": "J.B. Conway [1981]. Subnormal Operators. Boston: Pitman."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.301,
+            0.868,
+            0.332
+          ],
+          "content": "J.B. Conway [1985]. Arranging the disposition of the spectrum. Proc. Royal Irish Acad. 85A, 139–142."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.332,
+            0.869,
+            0.363
+          ],
+          "content": "R. Courant and D. Hilbert [1953]. Methods of Mathematical Physics. New York: Interscience."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.363,
+            0.869,
+            0.394
+          ],
+          "content": "A.M. Davie [1973]. The approximation problem for Banach spaces. Bull. London Math. Soc., 5, 261–266."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.394,
+            0.869,
+            0.424
+          ],
+          "content": "A.M. Davie [1975]. The Banach approximation problem. J. Approx. Theory, 13, 392-394."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.424,
+            0.868,
+            0.456
+          ],
+          "content": "W.J. Davis, T. Figiel, W.B. Johnson, and A. Pelczynski [1974]. Factoring weakly compact operators. J. Functional Anal., 17, 311–327."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.455,
+            0.844,
+            0.472
+          ],
+          "content": "J. Diestel [1984]. Sequences and series in Banach spaces. New York: Springer-Verlag."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.128,
+            0.471,
+            0.869,
+            0.501
+          ],
+          "content": "J. Dieudonné [1985]. The index of operators in Banach spaces. Integral Equations and Operator Theory 8, 580–589."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.501,
+            0.869,
+            0.533
+          ],
+          "content": "W.F. Donoghue [1957]. The lattice of invariant subspaces of a completely continuous quasi-nilpotent transformation. Pacific J. Math., 7, 1031–1035."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.532,
+            0.869,
+            0.562
+          ],
+          "content": "R.Ġ. Douglas [1969]. On the operator equation S\\* X T = X and related topics. Acta. Sci. Math. (Szeged), 30, 19–32."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.563,
+            0.636,
+            0.579
+          ],
+          "content": "J. Dugundji [1966]. Topology. Boston: Allyn and Bacon."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.579,
+            0.853,
+            0.594
+          ],
+          "content": "N. Dunford and J. Schwartz [1958]. Linear Operators. I. New York: Interscience."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.594,
+            0.86,
+            0.609
+          ],
+          "content": "N. Dunford and J. Schwartz [1963]. Linear Operators. II. New York: Interscience."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.609,
+            0.869,
+            0.639
+          ],
+          "content": "J. Dyer, E. Pedersen, and P. Porcelli [1972]. An equivalent formulation of the invariant subspace conjecture. Bull. Amer. Math. Soc., 78, 1020–1023."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.639,
+            0.87,
+            0.669
+          ],
+          "content": "H. Dym and H.P. Mckean [1972]. Fourier Series and Integrals. New York and London: Academic Press."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.668,
+            0.87,
+            0.698
+          ],
+          "content": "D.A. Edwards [1961]. On translates of L∞-functions. J. London Math. Soc. 36, 431-432."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.697,
+            0.869,
+            0.728
+          ],
+          "content": "D.A. Edwards [1986]. A short proof of a theorem of Machado. Math. Proc. Camb. Phil. Soc. 99, 111–114."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.728,
+            0.87,
+            0.759
+          ],
+          "content": "P. Enflo [1973]. A counterexample to the approximation problem in Banach spaces. Acta. Math., 130, 309–317."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.759,
+            0.869,
+            0.789
+          ],
+          "content": "P. Enflo [1987]. On the invariant subspace problem for Banach spaces. Acta. Math. 158, 213-313."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.789,
+            0.834,
+            0.806
+          ],
+          "content": "J. Ernest [1976]. Charting the operator terrain. Memoirs Amer. Math. Soc., Vol. 71."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13,
+            0.805,
+            0.871,
+            0.85
+          ],
+          "content": "P.A. Fillmore, J.G. Stampfli, and J.P. Williams [1972]. On the essential numerical range, the essential spectrum, and a problem of Halmos. Acta Sci. Math. (Szeged) 33, 179–192."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.85,
+            0.87,
+            0.881
+          ],
+          "content": "B. Fuglede [1950]. A commutativity theorem for normal operators. Proc. Nat. Acad. Sci., 36, 35–40."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.881,
+            0.785,
+            0.897
+          ],
+          "content": "T.W. Gamelin [1969]. Uniform Algebras. Englewood Cliffs: Prentice-Hall."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.129,
+            0.897,
+            0.871,
+            0.928
+          ],
+          "content": "L. Gillman and M. Jerison [1960]. Rings of Continuous Functions. Princeton: Van Nostrand. Reprinted by Springer-Verlag, New York."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 392,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 393,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 394,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 395,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 396,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 397,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 398,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 399,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,19 @@
+Hence (Exercise 3.7) $0\leq x^*(\|a^*a\|-a^*a)x=\|a\|^2x^*x-x^*a^*ax$; that is, $x^*a^*ax\leq\|a\|^2x^*x$. Therefore $\|ax+\mathcal L\|^2\leq\|a\|^2f(x^*x)=\|a\|^2\|x+\mathcal L\|^2$. Thus if $\pi_f(a):\mathcal A/\mathcal L\to\mathcal A/\mathcal L$ is defined by $\pi_f(a)(x+\mathcal L)=ax+\mathcal L$, $\pi_f(a)$ is a bounded linear operator with $\|\pi_f(a)\|\leq\|a\|$. Hence $\pi_f(a)$ extends to an element of $\mathcal B(\mathcal H_f)$. It is left to the reader to verify that $\pi_f:\mathcal A\to\mathcal B(\mathcal H_f)$ is a representation.
+
+Put $e=1+\mathcal L$ in $\mathcal H_f$. Then $\pi_f(\mathcal A)e=\{a+\mathcal L:a\in\mathcal A\}=\mathcal A/\mathcal L$ which, by definition, is dense in $\mathcal H_f$. Thus $e$ is a cyclic vector for $\pi_f$. [Also note that $\langle\pi_f(a)e,e\rangle=f(a)$.] This proves (a).
+
+Now let $(\pi,\mathcal H)$, $e$, and $f$ be as in (b) and let $(\pi_f,\mathcal H_f)$ be the representation constructed. Let $e_f$ be the cyclic vector for $\pi_f$ so that $f(a)=\langle\pi_f(a)e_f,e_f\rangle$ for all $a$ in $\mathcal A$. Hence $\langle\pi_f(a)e_f,e_f\rangle=\langle\pi(a)e,e\rangle$ for all $a$ in $\mathcal A$. Define $U$ on the dense manifold $\pi_f(\mathcal A)e_f$ in $\mathcal H_f$ by $U\pi_f(a)e_f=\pi(a)e$. Note that $\|\pi(a)e\|^2=\langle\pi(a)e,\pi(a)e\rangle=\langle\pi(a^*a)e,e\rangle=\langle\pi_f(a^*a)e_f,e_f\rangle=\|\pi_f(a)e_f\|^2$. This implies that $U$ is well defined and an isometry. Thus $U$ extends to an isomorphism of $\mathcal H_f$ onto $\mathcal H$. If $x,a\in\mathcal A$, then $U\pi_f(a)\pi_f(x)e_f=U\pi_f(ax)e_f=\pi(a)\pi(x)e=\pi(a)U\pi_f(x)e_f$. Thus $\pi(a)U=U\pi_f(a)$ so that $\pi$ and $\pi_f$ are equivalent. $\blacksquare$
+
+The Gelfand–Naimark–Segal construction is often called the GNS construction.
+
+It is not difficult to show that if $f$ is a positive linear functional on $\mathcal A$ and $\alpha>0$, then the representations $\pi_f$ and $\pi_{\alpha f}$ are equivalent (Exercise 8). So it is appropriate to only consider the cyclic representations corresponding to states. If $\mathcal A$ is a $C^*$-algebra, let $S_{\mathcal A}=$ the collection of all states on $\mathcal A$. Note that $S_{\mathcal A}\subseteq\operatorname{ball}\mathcal A^*$. $S_{\mathcal A}$ is called the *state space* of $\mathcal A$.
+
+**5.15. Proposition.** *If $\mathcal A$ is a $C^*$-algebra with identity, then $S_{\mathcal A}$ is a weak$^*$ compact convex subset of $\mathcal A^*$ and if $a\in\mathcal A_+$, then $\|a\|=\sup\{f(a):f\in S_{\mathcal A}\}$ and this supremum is attained.*
+
+**Proof.** Since $S_{\mathcal A}\subseteq\operatorname{ball}\mathcal A^*$, to show that $S_{\mathcal A}$ is weak$^*$ compact, it suffices to show that $S_{\mathcal A}$ is weak$^*$ closed. The reader can supply this proof using nets. Clearly $S_{\mathcal A}$ is convex.
+
+If $\mathcal A=C(X)$ with $X$ compact and $f\in C(X)_+$, then there is a point $x$ in $X$ such that $f(x)=\|f\|$. Thus $\|f\|=\int f\,d\delta_x=\sup\{\int f\,d\mu:\mu\in(\operatorname{ball}M(X))_+\}$. If $\mathcal A$ is arbitrary and $a\in\mathcal A_+$, then $\|a\|\geq\sup\{f(a):f\in S_{\mathcal A}\}$. Also, from the argument in the abelian case, there is a state $f_1$ on $C^*(a)$ such that $f_1(a)=\|a\|$. If we can show that $f_1$ extends to a state $f$ on $\mathcal A$, the proof is complete. That this can be done is a consequence of the next result. $\blacksquare$
+
+**5.16. Proposition.** *Let $\mathcal A,\mathcal B$ be $C^*$-algebras with $\mathcal B\subseteq\mathcal A$. If $f_1$ is a state on $\mathcal B$, then there is a state $f$ on $\mathcal A$ such that $f|_{\mathcal B}=f_1$.*
+
+**Proof.** Consider the real linear spaces $\operatorname{Re}\mathcal A$ and $\operatorname{Re}\mathcal B$. If $a\in\mathcal A_+$, then $a\leq\|a\|$ in $\mathcal A$. Since $1\in\operatorname{Re}\mathcal B$, $\operatorname{Re}\mathcal B$ has an order unit. By Corollary III.9.12,

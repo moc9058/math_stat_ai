@@ -1,0 +1,1218 @@
+{
+  "pages": [
+    {
+      "page_idx": 200,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.056,
+            0.167,
+            0.07
+          ],
+          "content": "186"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.497,
+            0.056,
+            0.868,
+            0.075
+          ],
+          "content": "VI. Linear Operators on a Banach Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.1,
+            0.871,
+            0.152
+          ],
+          "content": "(Davis, Figiel, Johnson, and Pelczynski, [1974]) that $\\mathcal { X }$ is WCG if and only if there is a reflexive space and an injective bounded operator $T \\colon { \\mathcal { R } } \\to { \\mathcal { X } }$ such that ran $T$ is dense. (Hint: The Krein-Smulian Theorem (V.13.4) may be useful.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.159,
+            0.869,
+            0.212
+          ],
+          "content": "5. If $( X , \\Omega , \\mu )$ is a finite measure space, ke $L ^ { \\infty } ( X \\times X , \\mathbf { \\Omega } \\times \\mathbf { \\Omega } , \\mu \\times \\mu ) ,$ and $K ;$ $L ^ { 1 } ( \\mu ) \\to L ^ { 1 } ( \\mu )$ is defined by $(Kf)(x) = \\int k(x,y)f(y)d\\mu(y)$ , show that K is weakly compact and $K ^ { 2 }$ is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.219,
+            0.87,
+            0.391
+          ],
+          "content": "6. Let $\\pmb { g }$ be a weakly sequentially complete Banach space. That is, if $\\{ y _ { n } \\}$ is a sequence in Y such that $\\{ \\langle y _ { n } , y ^ { * } \\rangle \\}$ is a Cauchy sequence in F for every $y ^ { * }$ in $\\theta ^ { * }$ , then there is a y in $\\theta$ such that $y _ { n }   \\rightarrow   y$ weakly [see (V.4.4)]. (a) If $T \\in \\mathcal { B } ( \\mathcal { X } , \\mathcal { Y } )$ and $x^{*} \\in \\mathcal{X}^{*}$ such that $x ^ { * * }$ is the $\\sigma ( \\mathcal { X } ^ { * * } , \\mathcal { X } ^ { * } )$ limit of a sequence $\\left\\{ x_{n}^{ 本本 } \\right\\}$ from $\\mathcal { X } ^ { * * }$ such that $T^{*} \\overline{{x}}_{n}^{*} \\in \\mathcal{G}$ for every n, show that $T^{\\mathrm{半半}}(x^{\\mathrm{半半}}) \\in \\mathcal{G}$ . Let X be a compact space and put $\\mathcal { F } = \\mathrm { a l l }$ subsets of X that are the union of a countable number of compact $G _ { \\delta }$ sets. Let ${ \\mathcal { L } } = \\operatorname { t h e }$ linear span of $\\{ \\chi _ { F } : F \\in { \\mathcal { F } } \\}$ considered as a subset of $M(X)^{*} = C(X)^{*}$ (b) Show that if $T \\in { \\mathcal { B } } ( C ( X ) , { \\mathcal { Y } } )$ then $T ^ { * * } ( \\mathcal { L } ) \\subseteq \\mathcal { Y }$ (c) (Grothendieck [1953].) If $T \\in \\mathcal{B}(C(X), \\mathcal{B})$ , then T is weakly compact. [Hint (Spain [1976]): Use James's Theorem V.13.3).]"
+        }
+      ]
+    },
+    {
+      "page_idx": 201,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.099,
+            0.314,
+            0.12
+          ],
+          "content": "CHAPTER VII"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.124,
+            0.132,
+            0.866,
+            0.198
+          ],
+          "level": 1,
+          "content": "Banach Algebras and Spectral Theory for Operators on a Banach Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.428,
+            0.87,
+            0.503
+          ],
+          "content": "The theory of Banach algebras is a large area in functional analysis with several subdivisions and applications to diverse areas of analysis and the rest of mathematics. Some monographs on this subject are by Bonsall and Duncan [1973] and C.E. Rickart [1960]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.502,
+            0.871,
+            0.631
+          ],
+          "content": "A significant change occurs in this chapter that will affect the remainder of this book. In order to prove that the spectrum of an element of a Banach algebra is nonvoid (Section 3), it is necessary to assume that the underlying field of scalars $\\mathbb { F }$ is the field of complex numbers C. It will be assumed from Section 3 until the end of this book that all vector spaces are over $\\mathbf { C } .$ This will also enable us to apply the theory of analytic functions to the study of Banach algebras and linear operators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.63,
+            0.872,
+            0.686
+          ],
+          "content": "In this chapter only the rudiments of this subject are discussed. Enough, however, is presented to allow a treatment of the basics of spectral theory for operators on a Banach space."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.742,
+            0.698,
+            0.768
+          ],
+          "level": 2,
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.783,
+            0.871,
+            0.84
+          ],
+          "content": "An algebra over $\\mathbb { F }$ is a vector space $\\varkappa$ over $\\mathbb { F }$ that also has a multiplication defined on it that makes $\\varkappa$ into a ring such that if $\\alpha \\in \\mathbf { F }$ and $a , b \\in \\mathcal { A } ,$ $\\alpha ( a b ) = ( \\alpha a ) b = a ( \\alpha b )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.857,
+            0.871,
+            0.895
+          ],
+          "content": "1.1. Definition. A Banach algebra is an algebra $\\alpha$ over $\\mathbb { F }$ that has a norm $\\| \\cdot \\|$ relative to which $\\varkappa$ is a Banach space and such that for all $a , b$ in $\\alpha ,$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.417,
+            0.902,
+            0.585,
+            0.923
+          ],
+          "content": "\\| a b \\| \\leqslant \\| a \\| \\| b \\|.",
+          "image_source": "images/page_201_equation_8.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 202,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.056,
+            0.167,
+            0.071
+          ],
+          "content": "188"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.482,
+            0.055,
+            0.868,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.099,
+            0.703,
+            0.117
+          ],
+          "content": "If has an identity, $e ,$ then it is assumed that $\\| e \\| = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.117,
+            0.872,
+            0.191
+          ],
+          "content": "The fact that (1.2) is satisfied is not essential. If $\\varkappa$ is an algebra and has a norm relative to which $\\varkappa$ is a Banach space and is such that the map of $\\mathcal { A } \\times \\mathcal { A } \\rightarrow \\mathcal { A }$ defined by $( a , b ) { \\mapsto } a b$ is continuous, then there is an equivalent norm on $\\varkappa$ that satisfies (1.2) (Exercise 1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.191,
+            0.871,
+            0.246
+          ],
+          "content": "If $\\varkappa$ has an identity $e ,$ then the map $\\alpha   \\mapsto   \\alpha e$ is an isomorphism of $\\mathbb { F }$ into $\\alpha$ and $\\| \\alpha e \\| = | \\alpha |$ . So it will be assumed that $\\mathbb { F } \\subseteq \\mathcal { A }$ via this identification. Thus the identity will be denoted by 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.246,
+            0.872,
+            0.303
+          ],
+          "content": "The content of the next proposition is that if $\\varkappa$ does not have an identit $\\mathbf { y } ,$ it is possible to find a Banach algebra $\\alpha _ { 1 }$ that contains $\\varkappa$ , that has an identity, and is such that dim $\\mathcal { A } _ { 1 } / \\mathcal { A } = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.32,
+            0.87,
+            0.358
+          ],
+          "content": "1.3. Proposition. If A is a Banach algebra without an identity, let $\\mathcal { A } _ { 1 } = \\mathcal { A } \\times \\mathbb { F }$ Define algebraic operations on ${ \\mathcal { A } } _ { 1 } \\; b y$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.366,
+            0.446,
+            0.385
+          ],
+          "content": "(i) $(a,\\alpha)+(b,\\beta)=(a+b,\\alpha+\\beta);$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.385,
+            0.337,
+            0.402
+          ],
+          "content": "(ii) $\\beta ( a , \\alpha ) = ( \\beta a , \\beta \\alpha ) ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.403,
+            0.467,
+            0.422
+          ],
+          "content": "(iii) $( a , \\alpha ) ( b , \\beta ) = ( a b + \\alpha b + \\beta a , \\alpha \\beta ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.43,
+            0.872,
+            0.486
+          ],
+          "content": "Define $\\| ( a , \\alpha ) \\| = \\| a \\| + | \\alpha | .$ Then $\\alpha _ { 1 }$ with this norm and the algebraic operations defined in $( \\dot { \\mathbf { i } } ) , \\; ( \\dot { \\mathbf { i } } \\dot { \\mathbf { i } } )$ , and (iii) is a Banach algebra with identity $( 0 , 1 )$ and $a { \\mapsto } ( a , 0 )$ is an isometric isomorphism of $\\alpha$ into $\\alpha _ { 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.493,
+            0.87,
+            0.552
+          ],
+          "content": "ProoF. Only (1.2) will be verified here; the remaining details are left to the reader. If $( a , \\alpha ) ,   ( b , \\beta )   \\in   \\mathcal { A } _ { 1 }$ , then $\\| ( a , \\alpha ) ( b , \\beta ) \\| = \\| ( a b + \\beta a + \\alpha b , \\alpha \\beta ) \\| = \\| a b +$ $\\beta a+\\alpha b\\parallel+\\left|\\alpha\\beta\\right|\\leqslant\\left\\| a\\right\\|\\parallel b\\parallel+\\left|\\beta\\right|\\parallel a\\parallel+\\left|\\alpha\\right|\\parallel b\\parallel+\\left|\\alpha\\right|\\left|\\beta\\right|=\\left\\|(a,\\alpha)\\right\\|\\left\\|(b,\\beta)\\right\\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.576,
+            0.87,
+            0.631
+          ],
+          "content": "1.4. Example. If X is a compact space, then $\\mathcal { A } = C ( X )$ is a Banach algebra if $( f g ) ( x ) = f ( x ) g ( x )$ whenever $f , g \\in \\mathcal { A }$ and $x   \\in   X$ . Note that $\\alpha$ is abelian and has an identity (the constantly 1 function)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.648,
+            0.868,
+            0.703
+          ],
+          "content": "If X is completely regular and ${ \\mathcal { A } } = C _ { b } ( X ) ,$ , then $\\varkappa$ is also a Banach algebra. In fact, $C _ { b } ( X ) \\cong C ( \\beta X ) ( \\mathrm { V } . 6 )$ so that this is a special case of Example 1.4. Another special case is $l ^ { \\infty }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.72,
+            0.87,
+            0.814
+          ],
+          "content": "1.5. Example. If X is a locally compact space, $\\mathcal { A } = C _ { 0 } ( X )$ is a Banach algebra when the multiplication is defined pointwise as in the preceding example. $\\alpha$ is abelian, but if X is not compact, $\\varkappa$ does not have an identity. If $X _ { \\infty }$ is the one-point compactification of $X ,$ then $C ( X _ { \\infty } ) \\supseteq C _ { 0 } ( X )$ and $C ( X _ { \\infty } )$ is a Banach algebra with identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.83,
+            0.604,
+            0.85
+          ],
+          "content": "Note that $c _ { 0 }$ is a special case of Example 1.5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.867,
+            0.87,
+            0.921
+          ],
+          "content": "1.6. Example. If $( X , \\Omega , \\mu )$ is a σ-finite measure space and $\\mathcal { A } = L ^ { \\infty } ( X , \\Omega , \\mu ) ,$ then $\\alpha$ is an abelian Banach algebra with identity if the operations are defined pointwise."
+        }
+      ]
+    },
+    {
+      "page_idx": 203,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.125,
+            0.056,
+            0.495,
+            0.073
+          ],
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.834,
+            0.057,
+            0.868,
+            0.071
+          ],
+          "content": "189"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.87,
+            0.157
+          ],
+          "content": "1.7. Example. Let $\\mathcal { X }$ be a Banach space and put $\\mathcal { A } = \\mathcal { B } ( \\mathcal { X } )$ . If multiplication is defined by composition, then $\\varkappa$ is a Banach algebra with identity, 1. If dim $\\mathcal { X } \\geqslant 2 , \\mathcal { A }$ is not abelian."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.175,
+            0.869,
+            0.231
+          ],
+          "content": "1.8. Example. If $\\mathcal { X }$ is a Banach space and $\\mathcal { A } = \\mathcal { B } _ { 0 } ( \\mathcal { X } )$ , the compact operators on $\\mathcal { X } .$ then $\\varkappa$ is a Banach algebra without identity if dim $\\mathcal { X } = \\infty$ . In fact, $\\mathcal { B } _ { 0 } ( \\mathcal { X } )$ is an ideal of $\\mathcal { B } ( \\mathcal { X } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.248,
+            0.868,
+            0.303
+          ],
+          "content": "Note that a special case of Example 1.7 occurs when $\\mathcal { A } = M _ { n } ( \\mathbb { F } )$ , the $n \\times n$ matrices, where $\\alpha$ is given the norm resulting when $M _ { n } ( \\mathbb { F } )$ is identified with $\\mathcal { B } ( \\mathbf { F } ^ { n } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.321,
+            0.868,
+            0.377
+          ],
+          "content": "1.9. Example. Let $G$ be a locally compact topological group and let $M ( G ) = a \\Pi$ finite regular Borel measures on $G .$ If $\\mu , \\nu   \\in   M ( G )$ , define $L \\colon C _ { 0 } ( G ) \\to \\mathbb { F }$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.252,
+            0.383,
+            0.738,
+            0.427
+          ],
+          "content": "L(f) = \\int \\int f(xy)   d\\mu(x)   d\\nu(y) = \\int \\int f(xy)   d\\nu(y)   d\\mu(x).",
+          "image_source": "images/page_203_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.434,
+            0.555,
+            0.454
+          ],
+          "content": "Then L is a linear functional on $C _ { 0 } ( G )$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.46,
+            0.659,
+            0.531
+          ],
+          "content": "\\begin{align*}|L(f)| & \\leqslant \\iint \\lvert f(xy) \\rvert d \\lvert \\mu \\rvert (x)   d \\lvert \\nu \\rvert (y) \\\\& \\leqslant \\| f \\| \\| \\mu \\| \\| \\nu \\|.\\end{align*}",
+          "image_source": "images/page_203_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.538,
+            0.839,
+            0.558
+          ],
+          "content": "So $L   \\in   C _ { 0 } ( G ) ^ { * } = M ( G )$ . Define $\\mu * \\nu$ by $L ( f ) = \\int f d \\mu * \\nu$ for f in $C _ { 0 } ( G )$ That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.127,
+            0.564,
+            0.653,
+            0.608
+          ],
+          "content": "\\int f   d \\mu * \\nu = \\int \\int f ( x y )   d \\mu ( x )   d \\nu ( y ) .\\tag{1.10}",
+          "image_source": "images/page_203_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.614,
+            0.868,
+            0.668
+          ],
+          "content": "Note that $\\lVert \\boldsymbol { \\mu }   \\ast   \\boldsymbol { \\nu } \\rVert = \\lVert \\boldsymbol { L } \\rVert \\leqslant \\lVert \\boldsymbol { \\mu } \\rVert \\lVert \\boldsymbol { \\nu } \\rVert$ . If follows that $M ( G )$ is a Banach algebra with this definition of multiplication. The product $\\mu * \\nu$ is called the convolution of $\\mu$ and v."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.669,
+            0.865,
+            0.705
+          ],
+          "content": "Let $e =$ the identity of $G$ and let $\\delta _ { e }   =$ the unit point mass at e. If $f \\in C _ { 0 } ( G )$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.712,
+            0.658,
+            0.853
+          ],
+          "content": "\\begin{aligned}\\int f d \\mu * \\delta_{e} &= \\int f(xy)   d \\mu(x)   d \\delta_{e}(y) \\\\&= \\int f(xe)   d \\mu(x) \\\\&= \\int f d \\mu.\\end{aligned}",
+          "image_source": "images/page_203_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.87,
+            0.785,
+            0.889
+          ],
+          "content": "So $\\mu   *   \\delta _ { e } = \\mu ;$ similarly, $\\delta _ { e }   *   \\mu = \\mu .$ Hence $\\delta _ { e }$ is the identity for $M ( G )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.888,
+            0.871,
+            0.925
+          ],
+          "content": "If $x ,   y { \\in } G ,$ then it is easy to check that $\\delta _ { x }   * \\delta _ { y } = \\delta _ { x y }$ and $M ( G )$ is abelian if and only if G is abelian."
+        }
+      ]
+    },
+    {
+      "page_idx": 204,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.134,
+            0.057,
+            0.17,
+            0.071
+          ],
+          "content": "190"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.484,
+            0.056,
+            0.87,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.101,
+            0.871,
+            0.266
+          ],
+          "content": "1.11. Example. Let G be a σ-compact locally compact group and let $m = \\mathrm{r i g h t}$ Haar measure on G. That is, m is a non-negative regular Borel measure on $G$ such that $m ( U )   >   0$ for every nonempty open subset $U$ of G and $\\int f(xy)dm(x)=\\int f(x)dm(x)$ for every $f$ in $C _ { c } ( G )$ (the continuous functions $f ;$ $\\scriptstyle { \\overleftarrow { G } } \\rightarrow \\mathbb { F }$ with compact support). If $G$ is compact, the existence of m was established in Section V.11. If $G$ is not compact, m exists but its existence must be established by nonfunctional analytic methods. If G is not assumed to be σ-compact, then a Haar measure exists but it is not regular in the sense defined in this book. (See Nachbin [1965].)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.266,
+            0.871,
+            0.34
+          ],
+          "content": "If $f , g { \\in } L ^ { 1 } ( m )$ let $\\mu = f m$ and $v = g m$ as in the proof of (V.8.1). Then $\\mu , v   \\in   M ( G )$ and $\\| \\mu \\| = \\| f \\| _ { 1 } , \\quad \\| \\nu \\| = \\| g \\| _ { 1 }$ . In fact, the Radon-Nikodym Theorem makes it possible to identify $L ^ { 1 } ( m )$ with a closed subspace of $M ( G )$ Is it a closed subalgebra?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.341,
+            0.349,
+            0.359
+          ],
+          "content": "Let $\\phi   \\in   C _ { c } ( G )$ . Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.268,
+            0.366,
+            0.717,
+            0.602
+          ],
+          "content": "\\begin{align*}\\int \\phi   d\\mu  * \\nu &= \\int \\int \\phi(xy) f(x) g(y) dm(x) dm(y) \\\\&= \\int g(y) \\Bigg[ \\int \\phi(xy) f(x) dm(x) \\Bigg] dm(y) \\\\&= \\int g(y) \\Bigg[ \\int \\phi(x) f(xy^{-1}) dm(x) \\Bigg] dm(y) \\\\&= \\int \\phi(x) \\Bigg[ \\int f(xy^{-1}) g(y) dm(y) \\Bigg] dm(x) \\\\&= \\int \\phi(x) h(x) dm(x),\\end{align*}",
+          "image_source": "images/page_204_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.61,
+            0.871,
+            0.667
+          ],
+          "content": "where $h ( x ) = \\int f ( x y ^ { - 1 } ) g ( y ) d m ( y ) ,$ x in G. It follows that $h   \\in   L ^ { 1 } ( m )$ (see Exercise 4). Thus $\\mu * v = h m ,$ so $L ^ { 1 } ( m )$ is a Banach subalgebra of $M ( G )$ . In fact, the preceding discussion enables us to define $f * g$ in $L ^ { 1 } ( m ) \\operatorname { f o r } f , g$ in $L ^ { 1 } ( m )$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.672,
+            0.641,
+            0.715
+          ],
+          "content": "f * g ( x ) = \\int f ( x y ^ { - 1 } ) g ( y ) d m ( y ) .",
+          "image_source": "images/page_204_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.722,
+            0.509,
+            0.741
+          ],
+          "content": "The algebra $L ^ { 1 } ( m )$ is denoted by $L ^ { 1 } ( G )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.741,
+            0.871,
+            0.797
+          ],
+          "content": "It can be shown that $L ^ { 1 } ( G )$ is abelian if and only if $G$ is abelian and $L ^ { 1 } ( G )$ has an identity if and only if G is discrete (in which case $L ^ { 1 } ( G ) = M ( G )$ —what is m?). This algebra is examined more closely in Section 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.797,
+            0.871,
+            0.835
+          ],
+          "content": "If $\\{ \\mathcal { A } _ { i } \\}$ is a collection of Banach algebras, let $\\oplus _ { 0 } \\mathcal { A } _ { i } \\equiv \\{ a \\in \\prod _ { i } \\mathcal { A } _ { i } \\}$ for all $\\varepsilon > 0, \\left\\{ i: \\| a(i) \\| \\geqslant \\varepsilon \\right\\}$ is finite}."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.861,
+            0.87,
+            0.896
+          ],
+          "content": "1.12. Proposition. $\\mathit { I f } \\{ \\mathcal { A } _ { i } \\}$ is a collection of Banach algebras, $\\Phi _ { 0 } \\mathcal { A } _ { i }$ and $\\bigoplus _ { \\infty } \\mathcal { A } _ { i }$ are Banach algebras."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.905,
+            0.297,
+            0.923
+          ],
+          "content": "PROOF. Exercise."
+        }
+      ]
+    },
+    {
+      "page_idx": 205,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.057,
+            0.351,
+            0.074
+          ],
+          "content": "§2. Ideals and Quotients"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.832,
+            0.056,
+            0.866,
+            0.07
+          ],
+          "content": "191"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.102,
+            0.229,
+            0.118
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.12,
+            0.868,
+            0.205
+          ],
+          "content": "1. Let  be an algebra that is also a Banach space and such that if $a \\in \\mathcal { A } ,$ the maps x→ax and x→xa of $\\mathcal { A } \\rightarrow \\mathcal { A }$ are continuous. Let $\\mathcal { A } _ { 1 } = \\mathcal { A } \\times \\mathbb { F }$ as in Proposition 1.3. If $a \\in \\mathcal { A } ,$ define $L _ { a } \\colon \\mathcal { A } _ { 1 }   \\to   \\mathcal { A } _ { 1 }$ by $L _ { a } ( x , \\xi ) = ( a x + \\xi a , 0 )$ . Show that $L _ { a }   \\in   \\mathcal { B } ( \\mathcal { A } _ { 1 } )$ and if $\\| a \\| = \\| L _ { a } \\|$ , then· is equivalent to the norm of and $\\varkappa$ with · is a Banach algebra."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.213,
+            0.498,
+            0.231
+          ],
+          "content": "2. Complete the proof of Proposition 1.3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.239,
+            0.771,
+            0.257
+          ],
+          "content": "3. Verify the statements made in Examples (1.4) through (1.9) and (1.11)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.265,
+            0.869,
+            0.383
+          ],
+          "content": "4. Let G be a locally compact group. (a) If $\\phi   \\in   C _ { c } ( G )$ and $\\varepsilon   >   0 ,$ , show that there is an open neighborhood U of e in G such that $\\| \\phi _ { x } - \\phi _ { y } \\| < \\varepsilon$ whenever $x y ^ { - 1 }   \\in   U$ [Here $\\phi _ { x } ( z ) = \\phi ( x z ) . ]$ (b) Show that if $f   \\in   L ^ { p } ( G )$ $1 \\leqslant p < \\infty$ , and $\\varepsilon   >   0 ,$ there is an open neighborhood U of e in G such that $\\| f _ { x } - f _ { y } \\| _ { p } < \\varepsilon$ whenever $x y ^ { - 1 }   \\in   U$ . (c) Show that if $f   \\in   L ^ { 1 } ( G )$ and $g { \\in } L ^ { \\infty } ( G )$ $h(x) = \\int f(xy^{-1})g(y)dm(y)$ defines a bounded continuous function h: G →F. (d) If f, $g   \\in   \\dot { L } ^ { 1 } ( G )$ and h is defined as in (c), show that $h   \\in   L ^ { 1 } ( G )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.392,
+            0.365,
+            0.41
+          ],
+          "content": "5. Prove Proposition 1.12."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.417,
+            0.869,
+            0.487
+          ],
+          "content": "6. Let $\\{ \\mathcal { A } _ { i } ;   i { \\in } I \\}$ be a collection of Banach algebras. (a) Show that $\\oplus _ { 0 } \\mathcal { A } _ { i }$ is a closed ideal of $\\oplus _ { \\infty } \\mathcal { A } _ { i } .$ (b) Show that $\\bigoplus _ { \\infty } \\mathcal { A } _ { i }$ has an identity if and only if each $\\mathcal { A } _ { i }$ has an identity. (c) Show that $\\bigoplus _ { 0 } { \\mathcal { A } } _ { i }$ has an identity if I is finite and each $\\mathcal { A } _ { i }$ has an identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.494,
+            0.869,
+            0.53
+          ],
+          "content": "7. If X, Y are completely regular, show that $C _ { b } ( X ) \\oplus _ { \\infty } C _ { b } ( Y )$ is isometrically isomorphic to $C _ { b } ( X \\oplus Y )$ , where X ⊕ Y is the disjoint union of X and Y."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.537,
+            0.87,
+            0.573
+          ],
+          "content": "8. If X and Y are locally compact, show that $C _ { 0 } ( X ) { \\oplus } _ { \\infty } C _ { 0 } ( Y )$ is isometrically isomorphic to $C _ { 0 } ( X \\oplus Y )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.58,
+            0.871,
+            0.649
+          ],
+          "content": "9. Let $\\{ X _ { i } ;   i { \\in } I \\}$ be a collection of locally compact spaces and let X = the disjoint union of these spaces furnished with the topology $\\left\\{ U \\subseteq X \\colon U \\cap X _ { i } \\right.$ is open in $X _ { i }$ for all i}. Show that X is locally compact and $\\oplus _ { 0 } C _ { 0 } ( X _ { i } )$ is isometrically isomorphic to $C _ { 0 } ( X )$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.695,
+            0.474,
+            0.719
+          ],
+          "level": 2,
+          "content": "§2. Ideals and Quotients"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.74,
+            0.871,
+            0.814
+          ],
+          "content": "If  is an algebra, a left ideal of  is a subalgebra M of such that ax∈M whenever a∈, x∈M. A right ideal of  is a subalgebra M such that xa∈M whenever $$a { \\in } { \\mathcal { A } } , \\thinspace x { \\in } { \\mathcal { M } }$$ . A (bilateral) ideal is a subalgebra of $\\varkappa$ that is both a left ideal and a right ideal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.814,
+            0.872,
+            0.905
+          ],
+          "content": "If $a \\in \\mathcal { A }$ and  has an identity 1, say that a is left invertible if there is an x in with $x a = 1$ . Similarly, define right invertible and invertible elements. If a is invertible and x, y∈ such that $x a = 1 = a y$ , then $y = 1 y = ( x a ) y = x ( a y ) =$ $x 1 = x$ . So if a is invertible, there is a unique element $a ^ { - 1 }$ such that $a a ^ { - 1 } = a ^ { - 1 } a = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.905,
+            0.873,
+            0.924
+          ],
+          "content": "If M is a left ideal in $\\mathcal { A } ,   a { \\in } \\mathcal { M } .$ , and a is left invertible, then $\\mathcal { M } = \\mathcal { A }$ In"
+        }
+      ]
+    },
+    {
+      "page_idx": 206,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.057,
+            0.166,
+            0.071
+          ],
+          "content": "192"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.481,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.867,
+            0.137
+          ],
+          "continues_prev": true,
+          "content": "fact, if $x a = 1$ , then $1 \\in \\mathcal { M }$ since M is a left ideal. Thus for y in $\\mathcal { A } ,   y = y \\mathbb { 1 } \\in \\mathcal { M } .$ This forms a link between ideals and invertibility."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.137,
+            0.872,
+            0.266
+          ],
+          "content": "In the case of a Banach algebra some bonuses occur due to the interplay of the norm and the algebra. The results of this section will be for Banach algebras with an identity. To discuss invertibility this is, of course, the only feasible setting. For Banach algebras without an identity some analogous results can be obtained, however, by a consideration of the algebra obtained by adjoining an identity (1.3). The concept of a modular ideal and a modular unit can also be employed (see Exercise 6)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.266,
+            0.631,
+            0.284
+          ],
+          "content": "The next proof is based on the geometric series."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.302,
+            0.871,
+            0.339
+          ],
+          "content": "2.1. Lemma. If A is a Banach algebra with identity and $x \\in \\mathcal { A }$ such that $\\| x - 1 \\| < 1$ , then x is invertible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.347,
+            0.871,
+            0.404
+          ],
+          "content": "PROOF. Let $y = 1 - x ;$ sO $\\| y \\| = r < 1$ . Since $\\| y ^ { n } \\| \\leqslant \\| y \\| ^ { n } = r ^ { n } \\quad \\mathrm { ( W h y ? ) } ,$ $\\begin{array} { r } { \\sum _ { n = 0 } ^ { \\infty } \\| y ^ { n } \\| < \\infty } \\end{array}$ . Hence $z = \\sum_{n = 0}^{\\infty} y^{n}$ converges in $\\mathcal { A } . \\mathrm { I f } z _ { n } = 1 + y + y ^ { 2 }$ $+ \\cdots + y ^ { n } ,$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.192,
+            0.412,
+            0.802,
+            0.432
+          ],
+          "content": "z_{n}(1 - y) = (1 + y + \\cdots + y^{n}) - (y + y^{2} + \\cdots + y^{n + 1}) = 1 - y^{n + 1}.",
+          "image_source": "images/page_206_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.439,
+            0.871,
+            0.495
+          ],
+          "content": "But $\\| y^{n + 1} \\| \\leqslant r^{n + 1}$ , so $y ^ { n + 1 }   \\to   0$ as $n   \\to   \\infty$ . Hence $z(1 - y) = \\lim_{n \\to \\infty} z_n(1 - y) = 1$ Similarly, $(1 - y)z = 1.\\ \\mathrm{So}\\ (1 - y)$ is invertible and $(1 - y)^{-1} = z = \\sum_{0}^{\\infty} y^{n}$ But $1 - y = 1 - (1 - x) = x.$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.513,
+            0.774,
+            0.532
+          ],
+          "content": "Note that completeness was used to show that $\\sum y ^ { n }$ converges."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.548,
+            0.871,
+            0.621
+          ],
+          "content": "2.2. Theorem. If A is a Banach algebra with identity, $G _ { l } = \\{ a \\in \\mathcal { A } :$ a is left invertible}, $G_{r}=\\left\\{a \\in \\mathcal{A}:\\right.$ a is right invertible}, and $G = \\{ a \\in \\mathcal { A } :$ a is invertible}, then $G _ { l } ,   G _ { r } ,$ and G are open subsets of A. Also, the map $a   \\mapsto   a ^ { - 1 }$ of $G   \\rightarrow   G$ is continuous."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.639,
+            0.869,
+            0.713
+          ],
+          "content": "PROOF. Let $a _ { 0 } { \\in } G _ { l }$ and let $b _ { 0 } \\in \\mathcal { A }$ such that $b _ { 0 } a _ { 0 } = 1$ . If $\\| a - a _ { 0 } \\| < \\| b _ { 0 } \\| ^ { - 1 }$ then $\\| b _ { 0 } a - 1 \\| = \\| b _ { 0 } ( a - a _ { 0 } ) \\| < 1$ . By the preceding lemma, $x = b _ { 0 } a$ is invertible. If $b = x ^ { - 1 } b _ { 0 } ,$ then $b a = 1$ . Hence $G _ { l } \\supseteq \\{ a \\in \\mathcal { A } : \\| a - a _ { 0 } \\| < \\| b _ { 0 } \\| ^ { - 1 } \\}$ and $G _ { t }$ must be open. Similarly, G, is open. Since $G = G _ { i } \\cap G _ { r } ( \\mathrm { W h y ? } ) ,$ G is open."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.713,
+            0.869,
+            0.789
+          ],
+          "content": "To prove that $a { \\mapsto } a ^ { - 1 }$ is a continuous map of $G   \\rightarrow   G ,$ first assume that $\\{ a _ { n } \\}$ is a sequence in G such that $a _ { n }   \\to   1$ . Let $0 < \\delta < 1$ and suppose $\\| a _ { n } - 1 \\| < \\delta$ From the preceding lemma, $a_{n}^{-1} = (1 - (1 - a_{n}))^{-1}$ $\\begin{array} { r } { \\sum _ { k = 0 } ^ { \\infty } ( 1 - a _ { n } ) ^ { k } = 1 + \\sum _ { k = 1 } ^ { \\infty } ( 1 - a _ { n } ) ^ { k } } \\end{array}$ . Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.361,
+            0.804,
+            0.635,
+            0.923
+          ],
+          "content": "\\begin{aligned}\\| a_n^{-1} - 1 \\| &= \\left\\| \\sum_{k=1}^{\\infty} (1 - a_n)^k \\right\\|^2 \\\\&\\leqslant \\sum_{k=1}^{\\infty} \\| 1 - a_n \\|^k \\\\&< \\delta / (1 - \\delta).\\end{aligned}",
+          "image_source": "images/page_206_equation_13.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 207,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.056,
+            0.351,
+            0.073
+          ],
+          "content": "§2. Ideals and Quotients"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": "193"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.1,
+            0.869,
+            0.138
+          ],
+          "content": "If $\\varepsilon   >   0$ is given, then $\\delta$ can be chosen such that $\\delta / ( 1 - \\delta ) < \\varepsilon .$ So $\\| a _ { n } - 1 \\| < \\delta$ implies $\\| a_n^{-1} - 1 \\| < \\varepsilon.$ Hence lim $a _ { n } ^ { - 1 } = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.138,
+            0.87,
+            0.193
+          ],
+          "content": "Now let $a { \\in } G$ and suppose $\\{ a _ { n } \\}$ is a sequence in G such that $a _ { n }   \\to   a .$ Hence $a ^ { - 1 } a _ { n }   \\rightarrow   1$ . By the preceding paragraph, $a_{n}^{-1}a = (a^{-1}a_{n})^{-1} \\rightarrow 1$ . Hence $a_{n}^{-1}=a_{n}^{-1}aa^{-1}\\rightarrow a^{-1}$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.214,
+            0.869,
+            0.252
+          ],
+          "content": "Two facts surfaced in the preceding proofs that are worth recording for the future."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.27,
+            0.68,
+            0.289
+          ],
+          "content": "2.3. Corollary. Let A be a Banach algebra with identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.297,
+            0.559,
+            0.317
+          ],
+          "content": "(a) If $\\| a - 1 \\| < 1$ , then $a^{-1} = \\sum_{k = 0}^{\\infty} (1 - a)^k$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.317,
+            0.727,
+            0.337
+          ],
+          "content": "(b) If $b _ { 0 } a _ { 0 } = 1$ and $\\| a - a _ { 0 } \\| < \\| b _ { 0 } \\| ^ { - 1 }$ , then a is left invertible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.343,
+            0.86,
+            0.363
+          ],
+          "content": "A maximal ideal is a proper ideal that is contained in no larger proper ideal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.38,
+            0.707,
+            0.399
+          ],
+          "content": "2.4. Corollary. If A is a Banach algebra with identity, then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.407,
+            0.868,
+            0.444
+          ],
+          "content": "(a) the closure of a proper left, right, or bilateral ideal is a proper left, right, or bilateral ideal;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.444,
+            0.629,
+            0.464
+          ],
+          "content": "(b) a maximal left, right, or bilateral ideal is closed"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.472,
+            0.871,
+            0.565
+          ],
+          "content": "PRooF. (a) Let M be a proper left ideal and let $G _ { t }$ be the set of left-invertible elements in $\\rtimes ,$ It follows that $\\mathcal { M } \\cap G _ { l } = \\square$ . (See the introduction to this section.) Thus $\\mathcal { M } \\subseteq \\mathcal { A } ( G _ { l } )$ By the preceding theorem, $\\mathcal { A } \\backslash G _ { l }$ is closed. Hence cl $\\mathcal { M } \\subseteq \\mathcal { A } \\backslash G _ { l } ;$ and thus cl $\\mathcal { A } \\neq \\mathcal { A }$ . It is easy to check that cl $\\mathcal { M }$ is an ideal. The proof of the remainder of (a) is similar."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.564,
+            0.87,
+            0.602
+          ],
+          "content": "(b) If M is a maximal left ideal, cl $\\mathcal { M }$ is a proper left ideal by (a). Hence $\\mathcal { M } = \\mathrm { c l } \\mathcal { M }$ by maximality. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.623,
+            0.873,
+            0.696
+          ],
+          "content": "If  does not have an identity, then $\\alpha$ may contain some proper, dense ideals. For example, let $\\mathcal { A } = C _ { 0 } ( \\mathbb { R } )$ . Then $C _ { c } ( \\mathbb { R } ) ,$ , the continuous functions with compact support, is a dense ideal in $C _ { 0 } ( \\mathbb { R } )$ . There is something that can be said, however (see Exercise 6)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.713,
+            0.871,
+            0.751
+          ],
+          "content": "2.5. Proposition. If A is a Banach algebra with identity, then every proper left, right, or bilateral ideal is contained in a maximal ideal of the same type."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.768,
+            0.872,
+            0.823
+          ],
+          "content": "The proof of the preceding proposition is an exercise in the application of Zorn's Lemma and is left to the reader. Actually, this is a theorem from algebra and it is not necessary to assume that  is a Banach algebra."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.823,
+            0.873,
+            0.88
+          ],
+          "content": "Let $\\varkappa$ be a Banach algebra and let M be a proper closed ideal. Note that $\\alpha / M$ becomes an algebra. Indeed, $(x + \\mathcal{M})(y + \\mathcal{M}) = xy + \\mathcal{M}$ is a well-defined multiplication on $\\sigma / d .$ (Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.887,
+            0.873,
+            0.925
+          ],
+          "content": "2.6. Theorem. If A is a Banach algebra and M is a proper closed ideal in $\\alpha ,$ then $\\sigma / M$ is a Banach algebra. If A has an identity, so does $\\sigma / M$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 200,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 201,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 202,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 203,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 204,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 205,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 206,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 207,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

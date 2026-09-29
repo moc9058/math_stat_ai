@@ -1,0 +1,31 @@
+CHAPTER V
+
+# Weak Topologies
+
+The principal objects of study in this chapter are the weak topology on a Banach space and the weak-star topology on its dual. In order to carry out this study efficiently, the first two sections are devoted to the study of the weak topology on a locally convex space.
+
+## §1. Duality
+
+As in §IV.4, for a LCS $\mathcal X$, let $\mathcal X^*$ denote the space of continuous linear functionals on $\mathcal X$. If $x^*,y^*\in\mathcal X^*$ and $\alpha\in\mathbb F$, then $(\alpha x^*+y^*)(x)\equiv\alpha x^*(x)+y^*(x)$, $x$ in $\mathcal X$, defines an element $\alpha x^*+y^*$ in $\mathcal X^*$. Thus $\mathcal X^*$ has a natural vector-space structure.
+
+It is convenient and, more importantly, helpful to introduce the notation
+
+$$
+\langle x,x^*\rangle
+$$
+
+to stand for $x^*(x)$, for $x$ in $\mathcal X$ and $x^*$ in $\mathcal X^*$. Also, because of a certain symmetry, we will use $\langle x^*,x\rangle$ to stand for $x^*(x)$. Thus
+
+$$
+x^*(x)=\langle x,x^*\rangle=\langle x^*,x\rangle.
+$$
+
+We begin by recalling two definitions (IV.1.7 and IV.1.8).
+
+**1.1. Definition.** If $\mathcal X$ is a LCS, the *weak topology* on $\mathcal X$, denoted by “wk” or $\sigma(\mathcal X,\mathcal X^*)$, is the topology defined by the family of seminorms $\{p_{x^*}:x^*\in\mathcal X^*\}$, where
+
+$$
+p_{x^*}(x)=|\langle x,x^*\rangle|.
+$$
+
+The *weak-star topology* on $\mathcal X^*$, denoted by “wk*” or $\sigma(\mathcal X^*,\mathcal X)$, is the

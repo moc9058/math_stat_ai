@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.097,
+            0.067,
+            0.849,
+            0.153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Chapter 1 The Hahn–Banach Theorems. Introduction to the Theory of Conjugate Convex Functions"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.101,
+            0.332,
+            0.894,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1 The Analytic Form of the Hahn–Banach Theorem: Extension of Linear Functionals"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.4,
+            0.899,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let E be a vector space over R. We recall that a functional is a function defined on E, or on some subspace of E, with values in R. The main result of this section concerns the extension of a linear functional defined on a linear subspace of E by a linear functional defined on all of E."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.098,
+            0.496,
+            0.898,
+            0.535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.1 (Helly, Hahn–Banach analytic form).",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p : E \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " be a function satisfying"
+            },
+            {
+              "type": "text",
+              "content": "1",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.103,
+            0.55,
+            0.137,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.103,
+            0.549,
+            0.747,
+            0.59
+          ],
+          "image_path": "images/page_15_equation_5.jpg",
+          "content": "p ( \\lambda x ) = \\lambda p ( x ) \\quad \\forall x \\in E \\quad a n d \\quad \\forall \\lambda > 0 ,\\tag{2}"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.249,
+            0.573,
+            0.627,
+            0.593
+          ],
+          "image_path": "images/page_15_equation_6.jpg",
+          "content": "p ( x + y ) \\leq p ( x ) + p ( y ) \\quad \\forall x , y \\in E ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1,
+            0.606,
+            0.898,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " be a linear subspace and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g : G \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " be a linear functional such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.102,
+            0.641,
+            0.615,
+            0.66
+          ],
+          "image_path": "images/page_15_equation_8.jpg",
+          "content": "g ( x ) \\leq p ( x ) \\quad \\forall x \\in G .\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1,
+            0.674,
+            0.898,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Under these assumptions, there exists a linear functional f defined on all of E that extends g, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( x ) = f ( x )   \\forall x \\in G ,"
+            },
+            {
+              "type": "text",
+              "content": " , and such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.102,
+            0.726,
+            0.617,
+            0.746
+          ],
+          "image_path": "images/page_15_equation_10.jpg",
+          "content": "f ( x ) \\leq p ( x ) \\quad \\forall x \\in E .\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.099,
+            0.76,
+            0.899,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of Theorem 1.1 depends on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { Z o r n ^ { \\circ } s }"
+            },
+            {
+              "type": "text",
+              "content": " lemma, which is a celebrated and very useful property of ordered sets. Before stating Zorn’s lemma we must clarify some notions. Let P be a set with a (partial) order relation ≤. We say that a subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\subset P"
+            },
+            {
+              "type": "text",
+              "content": " is totally ordered if for any pair "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a , b )"
+            },
+            {
+              "type": "text",
+              "content": " in Q either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\leq b"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\leq a"
+            },
+            {
+              "type": "text",
+              "content": " (or both!). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\subset P"
+            },
+            {
+              "type": "text",
+              "content": " be a subset of P; we say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in P"
+            },
+            {
+              "type": "text",
+              "content": " is an upper bound for Q if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\leq c"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in Q"
+            },
+            {
+              "type": "text",
+              "content": " . We say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\in P"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal element of P if there is no element"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 12,
+          "bbox": [
+            0.1,
+            0.893,
+            0.763,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 A function p satisfying (1) and (2) is sometimes called a Minkowski functional."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.098,
+            0.94,
+            0.8,
+            0.973
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "H. Brezis, Functional Analysis, Sobolev Spaces and Partial Differential Equations, DOI 10.1007/978-0-387-70914-7_1, © Springer Science+Business Media, LLC 2011"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.881,
+            0.941,
+            0.896,
+            0.954
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

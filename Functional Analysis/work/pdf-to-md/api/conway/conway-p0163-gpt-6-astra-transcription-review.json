@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 163,
+  "model": "gpt-6-astra",
+  "seconds": 8.47,
+  "input_tokens": 3744,
+  "output_tokens": 208,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"$f=\\\\alpha<1$ a.e.\",\n      \"correction\": \"$f\\\\equiv\\\\alpha<1$ a.e.\"\n    },\n    {\n      \"candidate_fragment\": \"for all $z$ in $K.\",\n      \"correction\": \"for all $z$ in $K$.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

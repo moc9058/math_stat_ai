@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 89,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 89,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.337,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Linear Functionals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "75"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.099,
+            0.871,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "it suffices, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( B )"
+            },
+            {
+              "type": "text",
+              "content": " is complete (1.6), to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\mathcal { X } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " is closed. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ f _ { n } \\right\\} \\subseteq { \\mathcal { X } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   \\bar { C } _ { b } ( B )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\rho ( f _ { n } ) - g \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\rightarrow   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta \\in \\mathbb { F } , \\alpha , \\beta \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " such that αx, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta x { \\in } B ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { - 1 } g ( \\alpha x ) ="
+            },
+            {
+              "type": "text",
+              "content": " lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha^{-1} f_n(\\alpha x) ="
+            },
+            {
+              "type": "text",
+              "content": " lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta ^ { - 1 } f _ { n } ( \\beta x ) = \\beta ^ { - 1 } g ( \\beta x )"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon { \\mathcal { X } }   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) = \\alpha^{-1} g(\\alpha x)"
+            },
+            {
+              "type": "text",
+              "content": " for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha x { \\in } B ."
+            },
+            {
+              "type": "text",
+              "content": " It is left as an exercise for the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( f )   =   g"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.227,
+            0.629,
+            0.245
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Compare the preceding result with Exercise 2.1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.246,
+            0.871,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It should be emphasized that it is not assumed in the preceding proposition that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is complete. In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " is its completion (Exercise 1.16), then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\mathcal { X } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " are isometrically isomorphic (Exercise 2.2)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.319,
+            0.874,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5. Theorem. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a measure space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 < p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / p + 1 / q = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   L ^ { q } ( X , \\Omega , \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { g } \\colon L ^ { p } ( \\mu ) \\to \\mathbb { F } \\; b y"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.416,
+            0.364,
+            0.579,
+            0.407
+          ],
+          "image_path": "images/page_89_equation_6.jpg",
+          "content": "F _ { g } ( f ) = \\int f g   d \\mu ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.413,
+            0.87,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { g } \\in L ^ { p } ( \\mu ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\mapsto   F _ { g }"
+            },
+            {
+              "type": "text",
+              "content": " defines an isometric isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\pmb { q } } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { p } ( \\mu ) ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.469,
+            0.87,
+            0.526
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since this theorem is often proved in courses in measure and integration the proof of this result, as well as the next two, is contained in the Appendix. See Appendix B for the proofs of (5.5) and (5.6)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.542,
+            0.87,
+            0.58
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.6. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a σ-finite measure space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g { \\in } L ^ { \\infty } ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { g } : L ^ { 1 } ( \\mu ) \\to \\mathbb { F } b y"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.416,
+            0.586,
+            0.578,
+            0.629
+          ],
+          "image_path": "images/page_89_equation_10.jpg",
+          "content": "F _ { g } ( f ) = \\int f g   d \\mu ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.635,
+            0.869,
+            0.673
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { g }   \\in   L ^ { 1 } ( \\mu ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\mapsto   F _ { g }"
+            },
+            {
+              "type": "text",
+              "content": " defines an isometric isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 ^ { \\circ } } ( \\mu ) ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.69,
+            0.87,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 2"
+            },
+            {
+              "type": "text",
+              "content": " in Theorem 5.5, there is a little difference between (5.5) and (I.3.5) owing to the absence of a complex conjugate in (5.5). Also, note that (5.6) is false if the measure space is not assumed to be σ-finite (Exercise 3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.763,
+            0.871,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If X is a locally compact space, M(X) denotes the space of all F-valued regular Borel measures on X with the total variation norm. See Appendix C for the definitions as well as the proof of the next theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.845,
+            0.871,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.7. Riesz Representation Theorem. If X is a locally compact space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { F } \\; b y"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.423,
+            0.889,
+            0.575,
+            0.932
+          ],
+          "image_path": "images/page_89_equation_15.jpg",
+          "content": "F _ { \\mu } ( f ) = \\int f d \\mu ."
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

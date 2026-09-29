@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 195,
+  "model": "gpt-6-astra",
+  "seconds": 10.3,
+  "input_tokens": 3484,
+  "output_tokens": 293,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"C\\\\subseteq\\\\bigcup_{i=1}^{m}B(y_i;\\\\varepsilon/4)\",\n      \"correction\": \"C\\\\subseteq\\\\bigcup_{j=1}^{m}B(y_j;\\\\varepsilon/4)\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

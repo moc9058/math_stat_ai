@@ -1,0 +1,768 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.055,
+            0.294,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Orthogonality"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.056,
+            0.87,
+            0.069
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.135,
+            0.1,
+            0.87,
+            0.169
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. (A variation on Example 1.8) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ="
+            },
+            {
+              "type": "text",
+              "content": " the collection of all function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon [ 0 , 1 ]   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(0)=0;"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n - 1, f^{(k)}(t)"
+            },
+            {
+              "type": "text",
+              "content": " exists for all t in [0,1] and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { ( k ) }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous on [0, 1]; (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { ( n - 1 ) }"
+            },
+            {
+              "type": "text",
+              "content": " is absolutely continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f^{(n)} \\in L^2(0,1)"
+            },
+            {
+              "type": "text",
+              "content": " . For f and g in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " , define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.38,
+            0.174,
+            0.649,
+            0.215
+          ],
+          "image_path": "images/page_21_equation_3.jpg",
+          "content": "\\langle f , g \\rangle = \\sum _ { k = 1 } ^ { n } \\int _ { 0 } ^ { 1 } f ^ { ( k ) } ( t ) \\overline { { g ^ { ( k ) } ( t ) } } d t."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.16,
+            0.223,
+            0.454,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.136,
+            0.249,
+            0.774,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Let u be a semi-inner product on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } = \\{ x { \\in } \\mathcal { X } : u ( x , x ) = 0 \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.156,
+            0.275,
+            0.547,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.156,
+            0.292,
+            0.309,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Show that if"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.41,
+            0.318,
+            0.645,
+            0.335
+          ],
+          "image_path": "images/page_21_equation_8.jpg",
+          "content": "\\langle x + \\mathcal { N } , y + \\mathcal { N } \\rangle \\equiv u ( x , y )"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.187,
+            0.344,
+            0.865,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y + \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " in the quotient space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } / \\mathcal { N } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle \\cdot , \\cdot \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a well-defined inner product on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } / \\mathcal { N }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.132,
+            0.386,
+            0.866,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be a Hilbert space over R and show that there is a Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " over C and a map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " such that (a) U is linear; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle U h _ { 1 } , U h _ { 2 } \\rangle = \\langle h _ { 1 } , h _ { 2 } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ; ( c )"
+            },
+            {
+              "type": "text",
+              "content": " for any k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " there are unique "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = U h _ { 1 } + i U h _ { 2 } \\cdot ( \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is called the complexification of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } . )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.132,
+            0.462,
+            0.864,
+            0.498
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\{ z \\in \\mathbb { C } : 0 < | z | < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " show that every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " has a removable singularity at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.131,
+            0.506,
+            0.432,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Which functions are in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( \\mathbb { C } ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.531,
+            0.862,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Let G be an open subset of C and show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a { \\in } G ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f \\in L _ { a } ^ { 2 } ( G ) : f ( a ) = 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.123,
+            0.574,
+            0.865,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence in a Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { n } \\| h _ { n } \\| < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , then show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum _ { n = 1 } ^ { \\infty } h _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " converges in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.634,
+            0.384,
+            0.659
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Orthogonality"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.674,
+            0.876,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The greatest advantage of a Hilbert space is its underlying concept of orthogonality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.129,
+            0.728,
+            0.878,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and f, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then f and g are orthogonal "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { i f } \\langle f , g \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " . In symbols, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\bot g ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B \\subseteq { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\bot B"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\perp g"
+            },
+            {
+              "type": "text",
+              "content": " for every f in A and g in B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.801,
+            0.875,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\mathbb { R } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , this is the correct concept. Two non-zero vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are orthogonal precisely when the angle between them is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi / 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.856,
+            0.876,
+            0.894
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2. The Pythagorean Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f f _ { 1 } , f _ { 2 } , \\ldots , f _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are pairwise orthogonal vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.246,
+            0.901,
+            0.759,
+            0.923
+          ],
+          "image_path": "images/page_21_equation_20.jpg",
+          "content": "\\| f _ { 1 } + f _ { 2 } + \\cdots + f _ { n } \\| ^ { 2 } = \\| f _ { 1 } \\| ^ { 2 } + \\| f _ { 2 } \\| ^ { 2 } + \\cdots + \\| f _ { n } \\| ^ { 2 } ."
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

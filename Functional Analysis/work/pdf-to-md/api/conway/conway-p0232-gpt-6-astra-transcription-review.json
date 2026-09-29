@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 232,
+  "model": "gpt-6-astra",
+  "seconds": 8.26,
+  "input_tokens": 3614,
+  "output_tokens": 237,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"each $A_n\\\\in\\\\mathcal{B}_0(\\\\mathcal{X}_n)$\",\n      \"correction\": \"each $A_n\\\\in\\\\mathcal{B}_0(\\\\mathcal{X})$\",\n      \"location\": \"Exercise 3, final assertion\",\n      \"note\": \"The image has no subscript n on this space; preserve the printed text even if it is a source typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

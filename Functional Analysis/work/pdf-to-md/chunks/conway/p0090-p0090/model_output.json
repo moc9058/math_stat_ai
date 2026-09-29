@@ -1,0 +1,858 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": null,
+      "authors": [],
+      "subject": null,
+      "keywords": [],
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "identifiers": [],
+      "publisher": null,
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 89,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0",
+  "schema": "docvortex.model",
+  "pages": [
+    [
+      {
+        "type": "header",
+        "bbox": [
+          0.129,
+          0.056,
+          0.337,
+          0.073
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "§5. Linear Functionals"
+          }
+        ]
+      },
+      {
+        "type": "page_number",
+        "bbox": [
+          0.844,
+          0.056,
+          0.869,
+          0.07
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "75"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.099,
+          0.871,
+          0.211
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.099,
+              0.869,
+              0.118
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.117,
+              0.87,
+              0.137
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.135,
+              0.865,
+              0.156
+            ]
+          },
+          {
+            "bbox": [
+              0.127,
+              0.154,
+              0.869,
+              0.173
+            ]
+          },
+          {
+            "bbox": [
+              0.128,
+              0.172,
+              0.87,
+              0.191
+            ]
+          },
+          {
+            "bbox": [
+              0.127,
+              0.191,
+              0.866,
+              0.209
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "it suffices, since "
+          },
+          {
+            "type": "equation_inline",
+            "content": "C _ { b } ( B )"
+          },
+          {
+            "type": "text",
+            "content": " is complete (1.6), to show that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\rho ( \\mathcal { X } ^ { * } )"
+          },
+          {
+            "type": "text",
+            "content": " is closed. Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\left\\{ f _ { n } \\right\\} \\subseteq { \\mathcal { X } } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " and suppose "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g   \\in   \\bar { C } _ { b } ( B )"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| \\rho ( f _ { n } ) - g \\| \\to 0"
+          },
+          {
+            "type": "text",
+            "content": " as "
+          },
+          {
+            "type": "equation_inline",
+            "content": "n   \\rightarrow   \\infty"
+          },
+          {
+            "type": "text",
+            "content": " . Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x { \\in } { \\mathcal { X } }"
+          },
+          {
+            "type": "text",
+            "content": " . If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha , \\beta \\in \\mathbb { F } , \\alpha , \\beta \\neq 0 ,"
+          },
+          {
+            "type": "text",
+            "content": " such that αx, "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\beta x { \\in } B ,"
+          },
+          {
+            "type": "text",
+            "content": " then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha ^ { - 1 } g ( \\alpha x ) ="
+          },
+          {
+            "type": "text",
+            "content": " lim "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha^{-1} f_n(\\alpha x) ="
+          },
+          {
+            "type": "text",
+            "content": " lim "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\beta ^ { - 1 } f _ { n } ( \\beta x ) = \\beta ^ { - 1 } g ( \\beta x )"
+          },
+          {
+            "type": "text",
+            "content": " . Define "
+          },
+          {
+            "type": "equation_inline",
+            "content": "f \\colon { \\mathcal { X } }   \\to   \\mathbb { F }"
+          },
+          {
+            "type": "text",
+            "content": " by letting "
+          },
+          {
+            "type": "equation_inline",
+            "content": "f(x) = \\alpha^{-1} g(\\alpha x)"
+          },
+          {
+            "type": "text",
+            "content": " for any "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha \\neq 0"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha x { \\in } B ."
+          },
+          {
+            "type": "text",
+            "content": " It is left as an exercise for the reader to show that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "f \\in \\mathcal { X } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\rho ( f )   =   g"
+          },
+          {
+            "type": "text",
+            "content": " ■"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.152,
+          0.227,
+          0.629,
+          0.245
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.158,
+              0.229,
+              0.624,
+              0.244
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Compare the preceding result with Exercise 2.1."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.246,
+          0.871,
+          0.303
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.155,
+              0.245,
+              0.868,
+              0.263
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.262,
+              0.867,
+              0.282
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.281,
+              0.833,
+              0.3
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "It should be emphasized that it is not assumed in the preceding proposition that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is complete. In fact, if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is a normed space and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\hat { \\mathcal { X } }"
+          },
+          {
+            "type": "text",
+            "content": " is its completion (Exercise 1.16), then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\hat { \\mathcal { X } } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " are isometrically isomorphic (Exercise 2.2)."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.319,
+          0.874,
+          0.358
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.318,
+              0.879,
+              0.34
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.338,
+              0.665,
+              0.357
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "5.5. Theorem. Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( X , \\Omega , \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " be a measure space and let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "1 < p < \\infty"
+          },
+          {
+            "type": "text",
+            "content": " . If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "1 / p + 1 / q = 1"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g   \\in   L ^ { q } ( X , \\Omega , \\mu ) ,"
+          },
+          {
+            "type": "text",
+            "content": " define "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { g } \\colon L ^ { p } ( \\mu ) \\to \\mathbb { F } \\; b y"
+          }
+        ]
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.416,
+          0.364,
+          0.579,
+          0.407
+        ],
+        "content": "F _ { g } ( f ) = \\int f g   d \\mu .",
+        "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCABRAMgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKAMvxv438HfDXwfqfxB+IXinT9E0LRbGW91fWNVu0gtrO3jUs8ssjkKiKoJJJwAK8D/Y+/4K7f8ABOL9vj4j6v8ACH9kr9qTR/F3iXQ7Vrq+0dNNvbKV4FfY00H2uCIXMasRl4S6rvUkgMpPn3/BV/Q5v2jvi9+zl/wT0vN7eG/ij8RrnXviLanPlah4d8PWv2+awmwD+7uLt7CNgRhgGUkZ55z9lf8A4IE/s6/sjf8ABUvxn/wUv+F/xD1S2/4Se0vv7P8Ah5BpsUVjpV3fEG8lWUMWeNjuKQhUEZc/MyhVAB96UUUUAFFFFABRRRQAUUUUAFFFFABRRWD8Ufif4C+Cvw81j4sfFLxLBo3hzw/YPe61q10rGKzt0GXlfaCQqjknHABJ4FAG9RXzB4V/4LN/8EzfHuh3Hib4fftS2HiPTbOAS3+oeHNA1PUIbNdpbE729s6wMFBYpIVYDkgAg16x+zB+13+zZ+2j8Prj4qfsufF3S/GWgWerS6ZeahpfmAQXkaozwOsiq6OFkRsEDhwe9AHo9FFconxt+GM3xnb9nuz8Tpc+L4fD/wDbd7pFrbySmxsTKIY5biRVKW/mvvESyMrS+TMYwwhkKgHV0UV8x/tYf8FcP2O/2OvEuveGPiXqvibVJPBn9mP8RLvwl4Xn1G18HQ6jKkVnLqc0Y2W4lLqVjBaUqdwjKkEgH05RXE6Z+0R8INU+N91+zkni1YPGdvoUetQ6JeW0kL32nOwT7Vau6hLqNHISQxFvKYqHC713dtQAUUUUAFFFFAHwp+0F4z0i9/4OEP2dfh7qUgabTPgJ411HT47WRfMSa6ubKMtOCSfKMdnKE2gEuDyQCB911+Xf7S/iKPSv+DsT9nPSkuJQ2pfs4azaukLJjh9ZnAkDKTt/c5G0q24Lzt3K36iUAFFFfMnxa/4K3/sd/B34nwfDLXdU8Uaio+I1n4C1jxNoXhK6utH0bxHdLug025u1UKZiCu5YvM8rcok2FgCAfTdFFFABRRXgXxG/4KX/ALKPws/bP8H/ALAfi/X/ABHB8S/HLyf2Bpp8F6ilnOiWz3BlW9khW2mj2oyloZJNjgo+wq2AD32iiigAooooAK+av+Cx/wAdoP2bP+CWfx4+LskoSaz+G+o2Ng52YW8vo/sNscP8p/f3MfBBz0wc4P0rX5Q/8HhPxmuvB3/BMXQ/gPoF2h1b4pfE7TNLjsPORXuLW2WS7cgNzgTxWikjAHmLkjOCAebf8G6n/BQn9hj9kD/gmJ8Gf2cdN+LOm+Jvi/8AE74nSWl38OvDtwsuqW95qGrNbLPcR4BgggsYYp5JH4Kx4Ukui1+uXwV/Z9+Fv7PsHie2+Fvh5dOTxh4yv/FGvKpGJ9SvChnlAAAGdice1eWfCT/gmf8AstfD34c/A7w7L8KtGj1j4HR2Fx4d1iw0u3guJb2DSptPaSaRIw0iuJ3lZcgNKkbnOzB+h3dI1LuwVVGSScACgDm/jL8UvDnwO+D/AIr+NfjHzP7I8H+Gr7W9V8kAv9mtLd55dueM7I2xXxf/AMG7ur+J/jh+w7qf7e/xUme68c/tA/ELWvFHiG8nIZ4beC7k06wskYH/AI94LazRY0woUO3GSSfav+Cl2p6Z8VP+CaP7Q/h74Y+K7LU79/gv4kRE0i98+Tc2mXO1MQPvy+1lAzyeMEZFeE/8Gus9nP8A8EPPgwbKBowra+sgabfuca7qG49TgE/w9vQUAfTv7f8A+1D4u/Yx/ZF8cftL+CvglqPj688I6Ddak+iWGqWlmkcUMEkr3M8tzLHiCMJlxEJJiCAkTk8fIf8AwbP6L8QviP8A8E+df/aR/aM+GFzD4s+NnxM1bxnr2u6ubeWLxIs8iCC5hiWR2ht0WIRpFIqEGMsilWVj2n/Byl8YJvhB/wAEZfjC2mzyDUvFVlYeGdMhhzvuHvr6CGWMBWUsTbmfgZzjlWGRX07+xP8ABUfs3/sdfCv4AG0WGTwZ8PNH0a5jUEfvreyiikOCzHJdWJ5PJ6mgD4+/4OOPiD41/ZX/AGbfhj/wUU+FMZTxJ8C/i/peozSxqubrRr5ZLHULByf+WVwJYEYeqo3BVWX9A/DXiHSfF3hzT/Feg3Sz2Op2UV3ZToQRJFIgdGBGQQVYHivzq/4OxNShsf8Agib8Q7WW8gia98R+HYY0mbDSsNVt5NqerYjLY/uqx7V92/s1+HtX8Jfs5+APCviDzPt+meCdKtL7zWQt50dnEj5MfyE7lOdvy+nFAHE+J/8AgpR/wTo8E+JNQ8G+M/2+/gppGr6Tey2eqaVqnxU0i3ubO4jYpJDLFJcBo5FYFWVgCCCCARVH/h6h/wAEw/8ApI78Bv8Aw7+i/wDyVXyD+0H8AviXrHxk8WazpX/BrN8A/iCl1rV/PB441r4geE4bvXf3rFbyeKbTHkSSfPmFXkZgWIZgea5iz/Zo+Jt1aRXUv/Boj+zbA0kas0E3xM8H74yRna23RiMjocEj0JoA/T/4Y/Fb4XfGzwVZ/Er4M/EnQPF3hzUDILDX/DGsQX9lc7HaN/LngZo32urKcE4ZSDyDW/Xkn7DOg+KvDH7MfhzQPGf7Ivhf4F6hafaY5Phj4M1S0vNN0lRcSbDDLZwwwkSriUhUG0yEEkgk+t0Afjd+3B4z1WP/AIPA/wBljQrGaWBbb4SXEMjrNkSxzW/iMsuMcDgZ5Oa/ZGvw6/4KP3+oab/weB/suXGmXz28jeBtLiaSOLeTG8mupImPRkZlJ7Bie1fuLQB8pf8ABaL9un4s/wDBO39gLxn+0n8HPgxf+K9V0+0FrHqMN9aQ2vh17hlt4dQuVnffMiTSx4iijkLsQG2JukXmv+CA3wm8Y/Dv/glF8MNM+Mfwz1jRvFOsi78S+IW8U3Nvc3eqXt/eSX41J2ikcqZBNGyrJtmQKFdVZa8b/wCDq3xRrGrf8E//AAV+yx4au5o7742/G7w54S2W6hnaFpZLk4XOW/fQW44B5IB6195fFbxZoP7I/wCyb4l8c6Focl1pfwx+Hd5f2emLKA8tvp1g8iQ7j0JWELk+uaAOU8e/tz+CNI+PuqfssfB74deJPiV4/wDD+gDV/FWjeE/siQeHYJEDWqX91dzwxQzXXPkwqZJWCs5RYx5lc3/wTF/4KefBr/gqp8H/ABH8bfgd8OPGnhzSPDnjCfw7PF42063t557mKCCZ2QQTzJgCdFI3ZDAjHQn87/8AgmF+3H8I/wBgv/ggt49/4Kl/Gz4jaXrHxQ+MvjLxJ4g1RGv4jd6v4le5ltbPTURXDqqCOOYxg5iilkcALivpr/g15+AVz8Df+COvw+1nV5HfVPiJqOo+MNUkkzudrucxwsSQCxNtb25JOcknnGKAPrb9qr9sL4O/sgeGdG1b4lz6hf6x4q1uHRfBXg7w9arc6x4k1KUgJa2cDOgdudzSOyRRL80jovNfnD8K/i94l/4KD/8AB0DZ32p/BrxF4Gsf2WPg7fw32i+MTaNdtqeo4i80GxnuINskGoxtHiZspAW+VjtFf4NfHXwp8UP+DiT9qP8Aar/ai8c6ZpvgX9k34UwaJ4WXWCFTRUuFilu7+NdxzIxW+QuoLstzFH2VS/8A4NnvifbftjfHr9q7/gpx4xtorHU/jB8UY9I8I2t7dD7Qml6bbCUW0ak5fy7e6sVkK5GYl4UYFAH6FeIP29vgf4c/b30D/gnJdWeuzfEDxD4An8YW09rYRvp9tp8U8kGJ5fM3xyM8T7R5ZU4xuBIBm+G/7dfwU+K37aXxF/YT8G2euT+MPhboGl6r4t1A2Cf2ZAL9PMgtlmEhYz+WVcoyKNrcMxVgvwb+wh8TvAnxU/4L/wD7cv7YPi/xNY6V4b+DfgnR/BEmp63di3XT7eFfMv5m3vtSBZ9MuGMhGNpByu5gYf8Ag3c+Mvwz/aE+Mn7X3/BRHUfEen2MXxa+NtzZ+FptYvIobibRNGtBKjKG2nZHb30DSYHyAKXJwDQB+r1Fc/8ADD4sfCz43eC7X4k/Bf4l+H/F/h2/aRbHX/C+swahZXBjdo3CTwO0blXVlOCcMpB5FFAHQV86ftZ/8Em/+Cfn7dXju2+JX7Wv7PkXjfWLG1W20+41XxJqax2cKkHy4YYrlIoVJGWCKu85LZJJr6LooAzvCPhbRvA/hXTfBfh1LhdP0mwis7Fbu+muZVhiQIgeaZnklbaBl3ZmY8kknNfAP/BxP8Ufid4a+Cnwh+DWmeE/GN38NPiT8Y9K0b416h4F0e8vtQXw6HEk1gkdoDLi7wYzt5dUaMBvM2n9D68w/aL/AGW9C/aJ1bwh4nm+KvjbwdrXgfVbm/0HWPBWsR28ge4tJbSVJoriGaCdDFK2BJExRgGQqckgH52/8G7vgj4dfFv9qr9tL9sbwB8EofAnhDxB8TLTwL4b8Ef2NHYR2FtpFsyTpJaKqiGSQTQPJEUGxy65J3V9D/8ABKn9n7xL/wAEzbT4g/sBeJ9H1W58F6Z4q1Txb8FtftbCW4gu/D12yzS6YWTeVvbS4eRWiba06TJJErjzAn0Z+yL+yJ8F/wBiT4NwfBH4G6Zfx6b/AGldanqeo6zqL3moavqNzIZLm+u7iT5p55XOWc46AABQAPTqAPzN/aK8QeG/+C+V/wDs8fDz4F+G/FNl8J/D3xDXx/8AGS98VeGpdPlshpZlhtNBkWQYa6uZpJd8cbt5UKeax+aMN+mVFFAHxt/wUs/Ze8U/8FDvjN8If2SLrw1fxfDTwl41s/iD8WdcuLcrZahDZCVbDQ4ywxcyXE7NJKoyIYYAzYaSIH7JoooAKKKKACiiigD8Yv8Agqd4ZYf8HV37GGuW/htWF54PiV7owbRM0FzrDN8+07mjV1bHbcvTcDX68/GP4o6D8EfhL4m+MnijS9UvdN8KaDd6tqFnoenvd3k0NvC0rpBCnzSyFUIVB1OBX54f8FHvAdzef8HEX7BHjDS1lnmm0fxzFdQjG2KC10xpPM9f+Xls/wC6Md6/TOgD88rjTNB/4LE/tzfs6ftP+APDOqD4K/A3RrjxpJqniDS57NtT8VX8Ua2Wmxo+Ekl0/wAkTzyJvSOVlhDlt4X7b/aL13xr4X+APjbxJ8N/hVD468QWHhTUJ9F8FXFwsUevXSW7tHYs7qyqJmAjJII+fpXZUUAfhC/7D/7L/wAWP2BR8F/+Cc3/AATe1fwH+0R+0MbPSPiSuu6Hq81t8K7JrpX1dpbzU1CWNuEhliSCJlmmEqgJJ5eB+2HwB+Dfhf8AZ2+Bfgz4A+CS50fwT4WsNC0x5QA7wWlukCM2ABuKoCT3JNddRQB8zePv+CPf/BOz4nftfj9unxv+zpZX3xGke2lv9Rk1S7FnqE9v5Jtp7iyEv2aaSIwRFWaM/Mis25lUrF+zh/wTW/YK/wCCYi/EX9oX9mj9nuTTtY1i0vtV12e0uLnUb2SFd1y9nZJK7+SjMi4hhC7ykQbdsTb9PUUAfkj/AMEOv+CSX7OP7QX7PGk/8FK/2wfg/rN/8U/i54o1jxX4l0bWdfv49MumfW7qeye50zdHBcbVCyIkySR4dXC5II+2Pgx/wSD/AOCeP7P/AMQfiT8SfhX+znpunX/xXsbyy8Wwfa55Lb7LeDF7b2sLOUso7jCmRIQgby4xwI0C/S1FAHmn7JX7H37OX7C/wVsf2ef2WPhrD4V8I6fdT3NvpcV7cXLGaZ98kjzXEkksjMe7uSAABgAAFel0UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFfmx/wAHHv8AwT9/4KQftxfCP4e6t/wTw+LV7p+o+BNZu9Q1jwbZeKDo8usSOkQtrmKcskZmgKShUlkRcXDEHcMMAerftJz6V45/4LhfsyeDdO8Px3+oeBfhZ478TatdxQuZNKt70WGnW0sjgbQkrrcxqCTllbjgGvtGvjX/AIJYfssftieFvEPiz9tL/go7NoC/Gfx7oGjeHm0Pw7P59t4e0XS45BHAJt7q81zcTT3c2wlA8igH5cD7KoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//9k="
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.413,
+          0.87,
+          0.452
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.415,
+              0.868,
+              0.433
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.433,
+              0.238,
+              0.45
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { g } \\in L ^ { p } ( \\mu ) ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " and the map "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g   \\mapsto   F _ { g }"
+          },
+          {
+            "type": "text",
+            "content": " defines an isometric isomorphism of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "L ^ { \\pmb { q } } ( \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " onto "
+          },
+          {
+            "type": "equation_inline",
+            "content": "L ^ { p } ( \\mu ) ^ { * }"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.469,
+          0.87,
+          0.526
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.156,
+              0.47,
+              0.865,
+              0.486
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.488,
+              0.865,
+              0.505
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.507,
+              0.599,
+              0.524
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Since this theorem is often proved in courses in measure and integration the proof of this result, as well as the next two, is contained in the Appendix. See Appendix B for the proofs of (5.5) and (5.6)"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.542,
+          0.87,
+          0.58
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.543,
+              0.87,
+              0.562
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.56,
+              0.288,
+              0.579
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "5.6. Theorem. "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I f ( X , \\Omega , \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " is a σ-finite measure space and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g { \\in } L ^ { \\infty } ( X , \\Omega , \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " , define "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { g } : L ^ { 1 } ( \\mu ) \\to \\mathbb { F } b y"
+          }
+        ]
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.416,
+          0.586,
+          0.578,
+          0.629
+        ],
+        "content": "F _ { g } ( f ) = \\int f g   d \\mu .",
+        "image_base64": "data:image/jpeg;base64,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"
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.635,
+          0.869,
+          0.673
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.636,
+              0.867,
+              0.656
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.653,
+              0.239,
+              0.671
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { g }   \\in   L ^ { 1 } ( \\mu ) ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " and the map "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g   \\mapsto   F _ { g }"
+          },
+          {
+            "type": "text",
+            "content": " defines an isometric isomorphism of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "L ^ { \\infty } ( \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " onto "
+          },
+          {
+            "type": "equation_inline",
+            "content": "L ^ { 1 ^ { \\circ } } ( \\mu ) ^ { * }"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.69,
+          0.87,
+          0.764
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.156,
+              0.692,
+              0.866,
+              0.708
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.711,
+              0.865,
+              0.726
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.729,
+              0.866,
+              0.744
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.747,
+              0.247,
+              0.763
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Note that when "
+          },
+          {
+            "type": "equation_inline",
+            "content": "p = 2"
+          },
+          {
+            "type": "text",
+            "content": " in Theorem 5.5, there is a little difference between (5.5) and (I.3.5) owing to the absence of a complex conjugate in (5.5). Also, note that (5.6) is false if the measure space is not assumed to be σ-finite (Exercise 3)."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.763,
+          0.871,
+          0.82
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.154,
+              0.764,
+              0.867,
+              0.781
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.785,
+              0.865,
+              0.798
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.801,
+              0.735,
+              0.818
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "If X is a locally compact space, M(X) denotes the space of all F-valued regular Borel measures on X with the total variation norm. See Appendix C for the definitions as well as the proof of the next theorem."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.845,
+          0.871,
+          0.883
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.845,
+              0.869,
+              0.864
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.863,
+              0.46,
+              0.883
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "5.7. Riesz Representation Theorem. If X is a locally compact space and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mu { \\in } M ( X ) ,"
+          },
+          {
+            "type": "text",
+            "content": " , define "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { F } \\; b y"
+          }
+        ]
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.423,
+          0.889,
+          0.575,
+          0.932
+        ],
+        "content": "F _ { \\mu } ( f ) = \\int f d \\mu .",
+        "image_base64": "data:image/jpeg;base64,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"
+      }
+    ]
+  ],
+  "page_index_map": [
+    89
+  ]
+}

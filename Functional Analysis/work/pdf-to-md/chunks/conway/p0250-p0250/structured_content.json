@@ -1,0 +1,236 @@
+{
+  "pages": [
+    {
+      "page_idx": 249,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.498,
+            0.073
+          ],
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": "235"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "content": "such that $\\rho _ { 1 } ( 1 ) = 1 ( 1 . 9 )$ . Thus it suffices to prove the proposition under the additional assumption that $\\varkappa$ and $\\mathcal { B }$ have identities and $\\rho ( 1 )   = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.138,
+            0.87,
+            0.194
+          ],
+          "content": "$\\operatorname { I f } x   \\in   { \\mathcal { A } } .$ , then it follows that $\\sigma ( \\rho ( x ) ) \\subseteq \\sigma ( x )   { \\mathrm { ( V e r i f y ! ) } }$ and hence $r(\\rho(x)) \\leqslant r(x)$ $\\mathbf { S o } ,$ , using part (e) and the fact that $a ^ { * } a$ is hermitian, $\\| \\rho ( a ) \\| ^ { 2 } = \\| \\rho ( a ^ { * } a ) \\| =$ $r(\\rho(a^{*}a)) \\leqslant r(a^{*}a) = \\|a^{*}a\\| = \\|a\\|^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.211,
+            0.87,
+            0.248
+          ],
+          "content": "1.12. Proposition. If A is a C\\*-algebra and h: $\\mathcal { A } \\to \\mathbb { C }$ is a non-zero homomorphism, then:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.257,
+            0.412,
+            0.276
+          ],
+          "content": "(a) $h ( a )   \\in   \\mathbb { R }$ whenever $a = a ^ { * }$ •D"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.278,
+            0.431,
+            0.297
+          ],
+          "content": "(b) $h ( a ^ { * } ) = h ( a )$ for all a in $\\mathcal { A } ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.298,
+            0.419,
+            0.316
+          ],
+          "content": "(c) $h ( a ^ { * } a ) \\geqslant 0$ for all a in $\\alpha ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.317,
+            0.55,
+            0.335
+          ],
+          "content": "(d) if $1 \\in \\mathcal { A }$ and u is unitary, then $| h ( u ) | = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.344,
+            0.871,
+            0.399
+          ],
+          "content": "PRoOF. If  has no identity, extend h to $\\mathcal { A } _ { 1 }$ by letting $h ( 1 ) = 1$ . Thus, we may assume that $\\varkappa$ has an identity. By Exercise VII.8.1, $\\| h \\| = 1$ . If $a = a ^ { * }$ and $t { \\in } \\mathbb { R }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.287,
+            0.404,
+            0.705,
+            0.47
+          ],
+          "content": "\\begin{aligned}\\| h(a + it) \\|^2 & \\leqslant \\|   a + it \\|^2 = \\| (a + it)^* (a + it) \\| \\\\& = \\| (a - it) (a + it) \\| \\\\& = \\|   a^2 + t^2 \\| \\leqslant \\|   a   \\|^2 + t^2.\\end{aligned}",
+          "image_source": "images/page_249_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.478,
+            0.532,
+            0.498
+          ],
+          "content": "If $h ( a ) = \\alpha + i \\beta , \\alpha , \\beta$ in R, then this yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.346,
+            0.505,
+            0.651,
+            0.572
+          ],
+          "content": "\\begin{aligned}\\| \\boldsymbol{a} \\|^2 + t^2 & \\geqslant | \\boldsymbol{\\alpha} + i (\\beta + t) |^2 \\\\& = \\boldsymbol{\\alpha}^2 + (\\beta + t)^2 \\\\& = \\boldsymbol{\\alpha}^2 + \\beta^2 + 2\\beta t + t^2 ;\\end{aligned}",
+          "image_source": "images/page_249_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.579,
+            0.868,
+            0.634
+          ],
+          "content": "hence $\\| a \\| ^ { 2 } \\geqslant \\alpha ^ { 2 } + \\beta ^ { 2 } + 2 \\beta t$ for all t in R. If $\\beta \\neq 0 .$ then letting $t   \\rightarrow \\pm \\infty$ depending on the sign of $\\beta ,$ gives a contradiction. Therefore $\\beta   =   0$ or $h ( a )   \\in   \\mathbb { R }$ This proves (a)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.634,
+            0.869,
+            0.69
+          ],
+          "content": "Let $a = x + i y ,$ , where x and y are hermitian. Since $h ( x ) , h ( y ) { \\in } \\mathbb { R }$ by (a) and $a ^ { \\star } = x - i y$ , (b) follows. Also, $h(a^{*}a)=h(a^{*})h(a)=|h(a)|^{2}\\geqslant0$ , so (c) holds. Finally, if u is unitary, $| h ( u ) | ^ { 2 } = h ( u ^ { * } ) h ( u ) = h ( u ^ { * } u ) = h ( 1 ) = 1 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.707,
+            0.87,
+            0.763
+          ],
+          "content": "Note that part (b) of the preceding proposition implies that any homomorphism h: $\\mathcal { A } \\to \\mathbb { C }$ is a \\*-homomorphism. This, coupled with (VII.8.6), gives the following corollary."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.78,
+            0.869,
+            0.817
+          ],
+          "content": "1.13. Corollary. If A is an abelian $C ^ { * } { \\textbar } { - a l g e b r a }$ and a is a hermitian element of A, then $\\sigma ( a ) \\subseteq \\mathbb { R }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.835,
+            0.871,
+            0.871
+          ],
+          "content": "This corollary is short-lived as the conclusion remains valid even if $\\varkappa$ is not abelian."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.89,
+            0.871,
+            0.927
+          ],
+          "content": "1.14. Proposition. Let A and B be C\\*-algebras with a common identity and norm such that $\\mathcal { A } \\subseteq \\mathcal { B }$ If $a \\in \\mathcal { A } ,$ then $\\sigma _ { \\mathcal { A } } ( a ) = \\sigma _ { \\mathcal { B } } ( a )$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 249,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

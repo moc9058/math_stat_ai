@@ -1,0 +1,1101 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": null,
+      "authors": [],
+      "subject": null,
+      "keywords": [],
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "identifiers": [],
+      "publisher": null,
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 149,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0",
+  "schema": "docvortex.model",
+  "pages": [
+    [
+      {
+        "type": "header",
+        "bbox": [
+          0.131,
+          0.055,
+          0.435,
+          0.073
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "§5. Separability and Metrizability"
+          }
+        ]
+      },
+      {
+        "type": "page_number",
+        "bbox": [
+          0.836,
+          0.056,
+          0.871,
+          0.071
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "135"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.099,
+          0.871,
+          0.213
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.134,
+              0.101,
+              0.869,
+              0.117
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.118,
+              0.869,
+              0.136
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.136,
+              0.869,
+              0.156
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.155,
+              0.869,
+              0.173
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.173,
+              0.866,
+              0.192
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.192,
+              0.869,
+              0.211
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "definition of the relative weak-star topology on ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " , for each n there is a finite set "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { n }"
+          },
+          {
+            "type": "text",
+            "content": " contained in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\{ x ^ { * } { \\in } \\mathrm { { \\sf { b a l l } }   } \\mathcal { X } ^ { * } { : }   | \\langle x , x ^ { * } \\rangle | < 1"
+          },
+          {
+            "type": "text",
+            "content": " for all "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x"
+          },
+          {
+            "type": "text",
+            "content": " in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\left\\{ F _ { n } \\right\\} \\subseteq U _ { n }"
+          },
+          {
+            "type": "text",
+            "content": " . Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F = \\bigcup_{n = 1}^{\\infty} F_{n};"
+          },
+          {
+            "type": "text",
+            "content": " so "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F"
+          },
+          {
+            "type": "text",
+            "content": " is countable. Also, "
+          },
+          {
+            "type": "equation_inline",
+            "content": "^ { \\perp } ( F ^ { \\perp } )"
+          },
+          {
+            "type": "text",
+            "content": " is the closed linear span of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F"
+          },
+          {
+            "type": "text",
+            "content": " and this subspace of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is separable. But if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x ^ { * }   \\in   F ^ { \\perp }"
+          },
+          {
+            "type": "text",
+            "content": " , then for each "
+          },
+          {
+            "type": "equation_inline",
+            "content": "n \\geqslant 1"
+          },
+          {
+            "type": "text",
+            "content": " and for each x in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { n } , \\left| \\left\\langle x , x ^ { * } / \\| x ^ { * } \\| \\right\\rangle \\right| = 0 < 1"
+          },
+          {
+            "type": "text",
+            "content": " . Hence "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x ^ { * } / \\left\\|   x ^ { * }   \\right\\|   \\in   U _ { n }"
+          },
+          {
+            "type": "text",
+            "content": " for all "
+          },
+          {
+            "type": "equation_inline",
+            "content": "n \\geqslant 1"
+          },
+          {
+            "type": "text",
+            "content": " ; thus "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x ^ { * }   =   0"
+          },
+          {
+            "type": "text",
+            "content": " Since "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F ^ { \\perp } = ( 0 ) , \\quad ^ { \\perp } ( F ^ { \\perp } ) = \\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " must be separable."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.254,
+          0.871,
+          0.438
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.158,
+              0.256,
+              0.865,
+              0.272
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.273,
+              0.866,
+              0.29
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.291,
+              0.867,
+              0.309
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.31,
+              0.866,
+              0.327
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.328,
+              0.867,
+              0.345
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.347,
+              0.867,
+              0.364
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.364,
+              0.867,
+              0.382
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.385,
+              0.867,
+              0.4
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.4,
+              0.867,
+              0.419
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.422,
+              0.748,
+              0.437
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Is there a corresponding result for the weak topology? "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\operatorname { I f } { \\mathcal { X } } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " is separable, then the weak topology on ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { R }"
+          },
+          {
+            "type": "text",
+            "content": " is metrizable. In fact, this follows from Theorem 5.1 if the embedding of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " into "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * * }"
+          },
+          {
+            "type": "text",
+            "content": " is considered. This result is not very useful since there are few examples of Banach spaces "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " is separable. Of course if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is separable and reflexive, then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " is separable (Exercise 3), but in this case the weak topology on "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is the same as its weak-star topology when "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is identified with "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * * }"
+          },
+          {
+            "type": "text",
+            "content": " . Thus (5.1) is adequate for a discussion of the weak topology on the unit ball of a separable reflexive space. If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } = c _ { 0 }"
+          },
+          {
+            "type": "text",
+            "content": " , then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } ^ { * } = l ^ { 1 }"
+          },
+          {
+            "type": "text",
+            "content": " and this is separable but not reflexive. This is one of the few nonreflexive spaces with a separable dual space."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.438,
+          0.87,
+          0.475
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.156,
+              0.438,
+              0.869,
+              0.455
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.458,
+              0.517,
+              0.473
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is separable, is (ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " , wk) metrizable? The answer is no, as the following result of Schur demonstrates."
+          }
+        ]
+      },
+      {
+        "type": "paragraph_title",
+        "bbox": [
+          0.127,
+          0.5,
+          0.854,
+          0.52
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.499,
+              0.856,
+              0.52
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "5.2. Proposition. If a sequence in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { 1 }"
+          },
+          {
+            "type": "text",
+            "content": " converges weakly, it converges in norm."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.527,
+          0.87,
+          0.601
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.134,
+              0.527,
+              0.868,
+              0.545
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.546,
+              0.867,
+              0.563
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.565,
+              0.868,
+              0.583
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.585,
+              0.355,
+              0.6
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "PROOF. Recall that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty } = ( l ^ { 1 } ) ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " . Since "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { 1 }"
+          },
+          {
+            "type": "text",
+            "content": " is separable, Theorem 5.1 implies that ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty }"
+          },
+          {
+            "type": "text",
+            "content": " is "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " metrizable. By Alaoglu's Theorem, ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty }"
+          },
+          {
+            "type": "text",
+            "content": " is "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " compact. Hence (ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty } , \\mathbf { w } \\mathbf { k } ^ { * } )"
+          },
+          {
+            "type": "text",
+            "content": " is a complete metric space and the Baire Category Theorem is applicable."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.601,
+          0.87,
+          0.638
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.158,
+              0.601,
+              0.868,
+              0.62
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.62,
+              0.493,
+              0.636
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\{ f _ { n } \\}"
+          },
+          {
+            "type": "text",
+            "content": " be a sequence of elements in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { 1 }"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "f _ { n }   \\to   0"
+          },
+          {
+            "type": "text",
+            "content": " weakly and let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varepsilon > 0"
+          },
+          {
+            "type": "text",
+            "content": " . For each positive integer m let"
+          }
+        ]
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.284,
+          0.654,
+          0.713,
+          0.674
+        ],
+        "content": "F _ { m } = \\{ \\phi \\in \\mathrm { b a l l } l ^ { \\infty } : | \\langle f _ { n } , \\phi \\rangle | \\leqslant \\varepsilon / 3 \\mathrm { f o r } n \\geqslant m \\} .",
+        "image_base64": "data:image/jpeg;base64,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"
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.689,
+          0.87,
+          0.742
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.69,
+              0.863,
+              0.708
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.706,
+              0.868,
+              0.727
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.727,
+              0.312,
+              0.742
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "It is easy to see that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { m }"
+          },
+          {
+            "type": "text",
+            "content": " is "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " closed in ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty }"
+          },
+          {
+            "type": "text",
+            "content": " and, because "
+          },
+          {
+            "type": "equation_inline",
+            "content": "f _ { n } \\to 0 ( \\mathbf { w } \\mathbf { k } )"
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\bigcup_{m = 1}^{\\infty} F_{m} = \\mathrm{bal} l^{\\infty}"
+          },
+          {
+            "type": "text",
+            "content": " . By the theorem of Baire, there is an "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { m }"
+          },
+          {
+            "type": "text",
+            "content": " with non-empty weak-star interior."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.152,
+          0.743,
+          0.65,
+          0.763
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.156,
+              0.744,
+              0.646,
+              0.763
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "An equivalent metric on (ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty } ,   \\mathbf { w } \\mathbf { k } ^ { * } )"
+          },
+          {
+            "type": "text",
+            "content": " is given by"
+          }
+        ]
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.352,
+          0.777,
+          0.644,
+          0.818
+        ],
+        "content": "d ( \\phi , \\psi ) = \\sum _ { j = 1 } ^ { \\infty } 2 ^ { - j } | \\phi ( j ) - \\psi ( j ) |",
+        "image_base64": "data:image/jpeg;base64,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"
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.832,
+          0.87,
+          0.926
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.832,
+              0.867,
+              0.852
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.851,
+              0.868,
+              0.87
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.868,
+              0.87,
+              0.888
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.888,
+              0.868,
+              0.907
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.905,
+              0.863,
+              0.925
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(see Exercise "
+          },
+          {
+            "type": "equation_inline",
+            "content": "4 )"
+          },
+          {
+            "type": "text",
+            "content": " Since "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { m }"
+          },
+          {
+            "type": "text",
+            "content": " has a nonempty "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " interior, there is a "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi"
+          },
+          {
+            "type": "text",
+            "content": " in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "F _ { m }"
+          },
+          {
+            "type": "text",
+            "content": " and a "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\delta   >   0"
+          },
+          {
+            "type": "text",
+            "content": " such that {ψ∈balll∞: "
+          },
+          {
+            "type": "equation_inline",
+            "content": "d ( \\phi , \\psi ) < \\delta \\} \\subseteq F _ { m } ."
+          },
+          {
+            "type": "text",
+            "content": " Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "J \\geqslant 1"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "2 ^ { -   ( J   -   1 ) }   <   \\delta ."
+          },
+          {
+            "type": "text",
+            "content": " Fix "
+          },
+          {
+            "type": "equation_inline",
+            "content": "n \\geqslant m"
+          },
+          {
+            "type": "text",
+            "content": " and define ψ in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty }"
+          },
+          {
+            "type": "text",
+            "content": " by "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\psi ( j ) = \\phi ( j )"
+          },
+          {
+            "type": "text",
+            "content": " for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "1 \\leqslant j \\leqslant J"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\psi ( j ) = \\operatorname{sign}( f _ { n } ( j ) )"
+          },
+          {
+            "type": "text",
+            "content": " for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "j > J"
+          },
+          {
+            "type": "text",
+            "content": " Thus "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\psi ( j ) f _ { n } ( j ) = | f _ { n } ( j ) |"
+          },
+          {
+            "type": "text",
+            "content": " for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "j > J ."
+          },
+          {
+            "type": "text",
+            "content": " It is easy to see thatψ∈ball "
+          },
+          {
+            "type": "equation_inline",
+            "content": "l ^ { \\infty }"
+          },
+          {
+            "type": "text",
+            "content": " . Also, "
+          },
+          {
+            "type": "equation_inline",
+            "content": "d(\\phi,\\psi)=\\sum_{j=J+1}^{\\infty}2^{-j}|\\phi(j)-\\psi(j)|\\leqslant2\\cdot2^{-J}=2^{-(J-1)}<\\delta"
+          }
+        ]
+      }
+    ]
+  ],
+  "page_index_map": [
+    149
+  ]
+}

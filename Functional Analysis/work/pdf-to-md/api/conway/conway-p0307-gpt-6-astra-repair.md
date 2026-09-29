@@ -1,0 +1,31 @@
+292　　　　　　　　　　　　　　　　　IX. Normal Operators on Hilbert Space
+
+$\mathcal K=\bigvee\{N^{*k}N^je:k,j\geq 0\}$. Clearly $\mathcal K$ reduces $N$ and $N|_{\mathcal K}$ is $*$-cyclic. Hence $\mathcal K$ reduces $A$ and $A|_{\mathcal K}=\phi(N|_{\mathcal K})$. By the preceding paragraph $\phi\in P^\infty(\mu)$. $\blacksquare$
+
+An immediate consequence of the preceding theorem is the first step in the characterization of reductive normal operators.
+
+**9.6. Corollary.** *If $N$ is a normal operator and $\mu$ is a scalar-valued spectral measure for $N$, then $N$ is reductive if and only if $P^\infty(\mu)=L^\infty(\mu)$.*
+
+**PROOF.** If $\mathcal M\in\operatorname{Lat}N$, then $\mathcal M\in\operatorname{Lat}\phi(N)$ for every $\phi$ in $P^\infty(\mu)$. So if $P^\infty(\mu)=L^\infty(\mu)$, $\bar z\in P^\infty(\mu)$ and, hence, $\mathcal M\in\operatorname{Lat}N^*$ whenever $\mathcal M\in\operatorname{Lat}N$.
+
+Now suppose $N$ is reductive. This means that $\operatorname{Lat}N\subseteq\operatorname{Lat}N^*$. By the preceding theorem, this implies $N^*\in W(N)$; equivalently, $\bar z\in P^\infty(\mu)$. Since $P^\infty(\mu)$ is an algebra, every polynomial in $z$ and $\bar z$ belongs to $P^\infty(\mu)$. By taking weak* limits this implies that $P^\infty(\mu)=L^\infty(\mu)$. $\blacksquare$
+
+The preceding corollary fails to be a good characterization of reductive normal operators since it only says that one difficult problem is equivalent to another. A way is needed to determine when $P^\infty(\mu)=L^\infty(\mu)$. This is what was done in Sarason [1972].
+
+Are there any reductive operators that are not normal? This natural and seemingly innocent question has much more to it than meets the eye. Dyer, Pedersen, and Porcelli [1972] have shown that this question has an affirmative answer if and only if every operator on a Hilbert space has a nontrivial invariant subspace.
+
+## EXERCISES
+
+1. (Andô [1963].) Use Corollary 9.6 to show that every compact normal operator is reductive.
+
+2. Determine all of the invariant subspaces of a compact normal operator.
+
+3. (Andô [1963].) Show that every reductive compact operator is normal. (Also see Rosenthal [1968].)
+
+4. Show that an operator $A$ is reductive if and only if $\operatorname{Lat}A=\operatorname{Lat}A^*$.
+
+5. Let $N$ be a normal operator on a Hilbert space $\mathcal H$, let $\mathcal R$ be an invariant subspace for $N$, and let $S=N|_{\mathcal R}$. Show that $S$ is normal if and only if $\mathcal R$ is a reducing subspace for $N$.
+
+6. Let $\mu$ be a compactly supported regular Borel measure on $\mathbb C$ and let $P^2(\mu)$ denote the closure in $L^2(\mu)$ of the analytic polynomials; that is, $P^2(\mu)$ is the closed linear span of $\{z^n:n\geq 0\}$. Show that $P^2(\mu)$ is invariant for $N_\mu$ and that $N_\mu|_{P^2(\mu)}$ is normal if and only if $P^2(\mu)=L^2(\mu)$.
+
+7. With the notation of Exercise 6, show that if $\mathcal R$ is a reducing subspace for $N_\mu$ and $P^2(\mu)\subseteq\mathcal R$, then $\mathcal R=L^2(\mu)$.

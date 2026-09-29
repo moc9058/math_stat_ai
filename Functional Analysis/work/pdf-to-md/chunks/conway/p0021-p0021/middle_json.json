@@ -1,0 +1,531 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.058,
+            0.149,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.714,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I. Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.868,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. By the mean value property, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < t \\leqslant r,f(a) = (1/2\\pi)\\int_{-\\pi}^{\\pi} f(a + te^{i\\theta})d\\theta."
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.244,
+            0.143,
+            0.749,
+            0.24
+          ],
+          "image_path": "images/page_20_equation_3.jpg",
+          "content": "\\begin{align*}\\left( \\pi r^{2} \\right)^{-1} \\int_{B(a;r)}^{r} f = & \\left( \\pi r^{2} \\right)^{-1} \\int_{0}^{r} t \\left[ \\int_{-\\pi}^{\\pi} f(a + t e^{i \\theta}) d \\theta \\right] dt \\\\= & \\left( 2 / r^{2} \\right) \\int_{0}^{r} t f(a) dt = f(a).\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.265,
+            0.736,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.12. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If f \\in L_{a}^{2}(G), a \\in G"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < r < \\mathrm{dist}(a, \\partial G)"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.399,
+            0.294,
+            0.595,
+            0.34
+          ],
+          "image_path": "images/page_20_equation_5.jpg",
+          "content": "| f ( a ) | \\leqslant \\frac { 1 } { r \\sqrt { \\pi } } \\| f \\| _ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.346,
+            0.848,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { B } ( a ; r ) \\subseteq G ,"
+            },
+            {
+              "type": "text",
+              "content": " , the preceding lemma and the CBS inequality imply"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.286,
+            0.372,
+            0.717,
+            0.513
+          ],
+          "image_path": "images/page_20_equation_7.jpg",
+          "content": "\\begin{align*}|f(a)| = & \\frac{1}{\\pi r^2} \\left| \\int_{B(a;r)} f \\cdot 1 \\right| \\\\\\leqslant & \\frac{1}{\\pi r^2} \\left[ \\int_{B(a;r)} |f|^2 \\right]^{1/2} \\left[ \\int_{B(a;r)} 1^2 \\right]^{1/2} \\\\\\leqslant & \\frac{1}{\\pi r^2} \\parallel f \\parallel_2 r \\sqrt{\\pi}.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.544,
+            0.547,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.13. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.571,
+            0.868,
+            0.626
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ="
+            },
+            {
+              "type": "text",
+              "content": " area measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( G ) \\subseteq L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . So it suffices to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int | f _ { n } - f | ^ { 2 }   d \\mu \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.626,
+            0.871,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { B } ( a ; r ) \\subseteq G"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\rho < \\mathrm { d i s t } ( B ( a ; r ) , \\partial G )"
+            },
+            {
+              "type": "text",
+              "content": " . By the preceding corollary there is a constant C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f _ { n } ( z ) - f _ { m } ( z ) | \\leqslant C \\| f _ { n } - f _ { m } \\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ,"
+            },
+            {
+              "type": "text",
+              "content": " m and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| z - a | \\leqslant \\rho ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a uniformly Cauchy sequence on any closed disk in G. By standard results from analytic function theory (Montel's Theorem or Morera's Theorem, for example), there is an analytic function g on G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( z ) \\to g ( z )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on compact subsets of G. But since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int | f _ { n } - f | ^ { 2 }   d \\mu \\to 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " a result of Riesz implies there is a subsequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n _ { k } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n _ { k } } ( z ) \\to f ( z ) \\mathrm { ~ a . e . ~ } [ \\mu ]"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = g \\mathrm { a . e . } [ \\mu ]"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   \\bar { L _ { a } ^ { 2 } ( G ) }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.791,
+            0.233,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.137,
+            0.81,
+            0.553,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Verify the statements made in Example 1.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.136,
+            0.835,
+            0.597,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Verify that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( I )"
+            },
+            {
+              "type": "text",
+              "content": " (Example 1.7) is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.136,
+            0.861,
+            0.681,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Show that the space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " in Example 1.8 is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.136,
+            0.887,
+            0.871,
+            0.921
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Describe the Hilbert spaces obtained by completing the space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " in Example 1.2 with respect to the norm defined by each of the inner products given there."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

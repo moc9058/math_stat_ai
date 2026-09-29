@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 100,
+  "model": "gpt-6-luna",
+  "seconds": 14.53,
+  "input_tokens": 3345,
+  "output_tokens": 759,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"## 8.4\",\n      \"correction\": \"Remove this heading; 8.4 is the equation number for the power-series expansion.\"\n    },\n    {\n      \"candidate_fragment\": \"The derivative formula beginning “(d/dw)^n …”\",\n      \"correction\": \"Add equation number (8.3).\"\n    },\n    {\n      \"candidate_fragment\": \"Exercise 2: “Show that m is not continuous”\",\n      \"correction\": \"“Show that \\\\hat{m} is not continuous”\"\n    },\n    {\n      \"candidate_fragment\": \"“This proves Runge's Theorem.”\",\n      \"correction\": \"The page has a black square (proof-ending symbol) after this sentence.\"\n    },\n    {\n      \"candidate_fragment\": \"“so ∫ f dμ = 0 By (6.13)”\",\n      \"correction\": \"“so ∫ f dμ = 0. By (6.13)”\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

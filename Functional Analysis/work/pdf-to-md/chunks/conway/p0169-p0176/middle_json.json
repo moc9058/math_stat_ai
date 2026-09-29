@@ -1,0 +1,5190 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 168,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 169,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 170,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 171,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 172,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 173,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 174,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 175,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 168,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.165,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "154"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.676,
+            0.055,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. Weak Topologies"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.099,
+            0.867,
+            0.136
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus it may be assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { k } ( x _ { 0 } ) \\neq x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " for all k, but "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 0 } ( x _ { 0 } )   =   x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Make this assumption."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.137,
+            0.87,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Lemma 10.7, there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and there is a continuous seminorm p on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n ,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.191,
+            0.621,
+            0.212
+          ],
+          "image_path": "images/page_168_equation_4.jpg",
+          "content": "p ( T ( T _ { k } ( x _ { 0 } ) ) - T ( x _ { 0 } ) ) > \\varepsilon .\\tag{10.10}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.228,
+            0.871,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { 1 } ="
+            },
+            {
+              "type": "text",
+              "content": " the semigroup generated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T _ { 1 } , T _ { 2 } , \\ldots , T _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { 1 } \\subseteq \\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } _ { 1 } = \\left\\{ T _ { l _ { 1 } } \\cdots T _ { l _ { m } } : m \\geqslant 1 , 1 \\leqslant l _ { j } \\leqslant n \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a countable subsemigroup of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vec{K} = \\overline{\\mathrm{co}} \\left\\{ T(x_0) : T \\in \\mathcal{S}_1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is a weakly compact convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": " and K is separable. By Lemma 10.2, there is a closed convex subset C of K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\neq K"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p - \\mathrm{diam}(K \\backslash C) \\leqslant \\varepsilon."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.32,
+            0.774,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\neq K"
+            },
+            {
+              "type": "text",
+              "content": " , there is an S in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ( x _ { 0 } )   \\in   K   \\setminus   C"
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.242,
+            0.348,
+            0.753,
+            0.387
+          ],
+          "image_path": "images/page_168_equation_7.jpg",
+          "content": "S ( x _ { 0 } ) = S T _ { 0 } ( x _ { 0 } ) = \\frac { 1 } { n } \\left[ S T _ { 1 } ( x _ { 0 } ) + \\cdots + S T _ { n } ( x _ { 0 } ) \\right] \\in K \\setminus C."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.398,
+            0.87,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since C is convex, there must be a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k, 1 \\leqslant k \\leqslant n,"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S T _ { k } ( x _ { 0 } )   \\in   K \\backslash C"
+            },
+            {
+              "type": "text",
+              "content": " . But this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(S(T_k(x_0)) - S(x_0)) \\leq p - \\mathrm{diam}(K \\setminus C) \\leq \\varepsilon,"
+            },
+            {
+              "type": "text",
+              "content": " contradicting (10.10). This establishes Claim 10.9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.453,
+            0.872,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " finite nonempty subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ,"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F { \\in } { \\mathcal { F } }"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q_{F}=\\left\\{x \\in Q: T(x)=x\\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for all T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F \\}"
+            },
+            {
+              "type": "text",
+              "content": " . By Claim 10.9, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q _ { F } \\neq \\square"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, since each T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly continuous and affine, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q _ { F }"
+            },
+            {
+              "type": "text",
+              "content": " is convex and weakly compact. It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ Q _ { F } : F \\in { \\mathcal { F } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " has the finite intersection property. Therefore, there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcap \\{ Q _ { F } : F \\in { \\mathcal { F } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . The point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is the desired common fixed point for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.58,
+            0.873,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The original reference for this theorem is Ryll-Nardzewski [1967]; the treatment here is from Namioka and Asplund [1967]. Another proof can be found in Hansel and Troallic [1976]. An application of this theorem is given in the next section."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.672,
+            0.235,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.69,
+            0.655,
+            0.708
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Was local convexity used in the proof of Theorem 10.1?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.707,
+            0.873,
+            0.76
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that if X is locally compact and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = \\bigcup_{n = 1}^{\\infty} F_{n}"
+            },
+            {
+              "type": "text",
+              "content": " where each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is closed in X, then there is an integer n such that int "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { n } \\neq \\tilde { \\Box } ."
+            },
+            {
+              "type": "text",
+              "content": " (Hint: Look at the proof of the Baire Category Theorem.)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.82,
+            0.717,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§11*. An Application: Haar Measure on a Compact Group"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.885,
+            0.872,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section the operation in all semigroups and groups is multi-plication and is denoted by juxtaposition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 169,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.653,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§11. An Application: Haar Measure on a Compact Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.058,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "155"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.102,
+            0.87,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.1. Definition. A topological semigroup is a semigroup G that also is a topological space and such that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times G \\to G"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y ) { \\mapsto } x y"
+            },
+            {
+              "type": "text",
+              "content": " is continuous. A topological group is a topological semigroup that is also a group such that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G   \\rightarrow   G"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   x ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.192,
+            0.87,
+            0.229
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So a topological group is both a group and a topological space with a property that ties these two structures together."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.23,
+            0.645,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { R } _ { \\geqslant 0 }"
+            },
+            {
+              "type": "text",
+              "content": " means the set of non-negative real numbers."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.262,
+            0.285,
+            0.281
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.2. Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.29,
+            0.717,
+            0.308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) N and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { R } _ { \\geqslant 0 }"
+            },
+            {
+              "type": "text",
+              "content": " are topological semigroups under addition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.308,
+            0.681,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Z, R, and C are topological groups under addition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.327,
+            0.64,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) ∂D is a topological group under multiplication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.345,
+            0.871,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) If X is a topological space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\{ f \\in C ( X ) : f ( X ) \\subset \\partial \\mathbf { D } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( f g ) ( x ) = f ( x ) g ( x )"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in G and x in X. Then G is a group. If G is given the topology of uniform convergence on X, G is a topological group."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13,
+            0.4,
+            0.871,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { n } ( \\mathbb { C } ) = \\mathrm { t h e } n \\times n"
+            },
+            {
+              "type": "text",
+              "content": " matrices with entries in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } ; O ( n ) \\equiv"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A \\in M_n(\\mathbb{C}) \\}"
+            },
+            {
+              "type": "text",
+              "content": " A is invertible and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{-1} = A^* \\}; SO(n) \\equiv \\{ A \\in O(n) \\}"
+            },
+            {
+              "type": "text",
+              "content": " det "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { n } ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " is given the usual topology, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "O ( n )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S O ( n )"
+            },
+            {
+              "type": "text",
+              "content": " are compact topological groups under multiplication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.487,
+            0.872,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are many more examples and the subject is a self-sustaining area of research. Some good references are Hewitt and Ross [1963] and Rudin [1962]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.558,
+            0.871,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.3. Definition. If S is a semigroup and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathbf { S }   \\to   \\mathbf { F }"
+            },
+            {
+              "type": "text",
+              "content": " , then for every x in S define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x } \\colon S   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "_ { x } f \\colon S \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x } ( s ) = f ( s x )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( s ) = f ( x s )"
+            },
+            {
+              "type": "text",
+              "content": " for all s in S. If S is also a group, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\# } ( s ) = f ( s ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " for all s in S."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.628,
+            0.87,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.4. Theorem. If G is a compact topological group, then there is a unique positive regular Borel measure m on G such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.673,
+            0.26,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m ( G ) = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.691,
+            0.666,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { i } f U"
+            },
+            {
+              "type": "text",
+              "content": " is a nonempty open subset of G, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m ( U ) > 0 ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.709,
+            0.867,
+            0.747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) if ∆ is any Borel subset of G and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } G ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m(\\Delta) = m(\\Delta x) = m(x\\Delta) ="
+            },
+            {
+              "type": "text",
+              "content": " m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\Delta ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta x \\equiv \\{ a x \\colon a { \\in } \\Delta \\} ,   x \\Delta \\equiv \\{ x a \\colon a { \\in } \\Delta \\}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta ^ { - 1 } \\equiv \\{ a ^ { - 1 } : a { \\in } \\Delta \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.76,
+            0.871,
+            0.89
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The measure m is called the Haar measure for G. If G is locally compact, then it is also true that there is a positive Borel measure m on G satisfying (b) and such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m(\\Delta x) = m(\\Delta)"
+            },
+            {
+              "type": "text",
+              "content": " for all x in G and every Borel subset ∆ of G. It is not necessarily true that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m ( \\Delta ) = m ( x \\Delta )"
+            },
+            {
+              "type": "text",
+              "content": " , let alone that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m(\\Delta) = m(\\Delta^{-1})"
+            },
+            {
+              "type": "text",
+              "content": " (see Exercise 4). The measure m is necessarily unbounded if G is not compact, so that (a) is not possible. Uniqueness, however, is still true in a modified form: if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { 1 } , m _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are two such measures, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { 1 } = \\alpha m _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha   >   0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.125,
+            0.889,
+            0.87,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By using the Riesz Representation Theorem for representing bounded linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , Theorem 11.4 is equivalent to the following."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 170,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.056,
+            0.166,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "156"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.678,
+            0.055,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. Weak Topologies"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.869,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.5. Theorem. If G is a compact topological group, then there exists a unique positive linear functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\colon C ( G ) \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.146,
+            0.249,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( 1 ) = 1 ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.164,
+            0.57,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\in C(G), f \\geq 0."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f )   >   0 ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.183,
+            0.68,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { i f } f { \\in } C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } G ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = I ( f _ { x } ) = I ( _ { x } f ) = I ( f ^ { \\# } ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.219,
+            0.871,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Before proving Theorem 11.5, we need the following lemma. For a compact topological group G, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } G"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { x } \\colon M ( G ) \\to M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { x } : M ( G ) \\to M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.397,
+            0.283,
+            0.6,
+            0.326
+          ],
+          "image_path": "images/page_170_equation_7.jpg",
+          "content": "\\langle f , L _ { x } ( \\mu ) \\rangle = \\int _ { x } f d \\mu ,"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.396,
+            0.331,
+            0.597,
+            0.374
+          ],
+          "image_path": "images/page_170_equation_8.jpg",
+          "content": "\\langle f , R _ { x } ( \\mu ) \\rangle = \\int f _ { x } d \\mu"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.121,
+            0.385,
+            0.695,
+            0.405
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in M(G). Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { 0 } \\colon M ( G ) \\to M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.397,
+            0.417,
+            0.599,
+            0.46
+          ],
+          "image_path": "images/page_170_equation_10.jpg",
+          "content": "\\langle f , S _ { 0 } ( \\mu ) \\rangle = \\int f ^ { \\# } d \\mu"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.123,
+            0.467,
+            0.87,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { x } , R _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " are linear isometries of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " onto M(G) (Exercise 5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.123,
+            0.514,
+            0.873,
+            0.586
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.6. Lemma. If G is a compact topological group, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( G ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon G \\times G \\to"
+            },
+            {
+              "type": "text",
+              "content": " (M(G), wk*) is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( x , y ) = L _ { x } R _ { y } ( \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is continuous. Similarly, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { 0 } \\colon G \\times G   \\to   ( M ( G ) , \\operatorname { w k } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { 0 } ( x , y ) = S _ { 0 } L _ { x } R _ { y } ( \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.122,
+            0.603,
+            0.87,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " Then (Exercise 10) there is a neighborhood U of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": " (the identity of G) such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f ( y ) | < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x y ^ { - 1 }   \\in   U"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { - 1 } y { \\in } U"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ ( x _ { i } , y _ { i } ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times G"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { i } , y _ { i } )   \\rightarrow   ( x , y )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " be such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\geqslant i_{0},x_{i}x^{- 1} \\in U"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i } ^ { - 1 } y { \\in } U"
+            },
+            {
+              "type": "text",
+              "content": " . If x∈G, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f(x_i z y_i) - f(x z y) | \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x _ { i } z y _ { i } ) - f ( x z y _ { i } ) | + | f ( x z y _ { i } ) - f ( x z y ) |"
+            },
+            {
+              "type": "text",
+              "content": " . But if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\geqslant   i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in G, (x_i z y_i)(x z y_i)^{-1} ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } x ^ { - 1 } { \\in } U"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x z y _ { i } ) ^ { - 1 } ( x z y ) = y _ { i } ^ { - 1 } y \\in U"
+            },
+            {
+              "type": "text",
+              "content": " .Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| f(x_{i}zy_{i}-f(xyz)) \\right| < 2\\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\geqslant   i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and for all z in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ,"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lim _ { i } \\int f ( x _ { i } z y _ { i } ) d \\mu ( z ) = \\int f ( x z y ) d \\mu ( z )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " was arbitrary, this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( x _ { i } , y _ { i } ) \\to \\rho ( x , y )   \\mathrm { w k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . The proof for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is similar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.786,
+            0.655,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF THEOREM 11.5. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ="
+            },
+            {
+              "type": "text",
+              "content": " the identity of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.864,
+            0.173,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.7"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.304,
+            0.818,
+            0.671,
+            0.927
+          ],
+          "image_path": "images/page_170_equation_16.jpg",
+          "content": "\\begin{cases}L_{x}R_{y} = R_{y}L_{x} \\\\L_{x}L_{y} = L_{yx} \\\\R_{x}R_{y} = R_{xy} \\\\S_{0}^{2} = L_{e} = R_{e} =  the identity on   M(G) \\\\S_{0}L_{x}R_{y} = L_{y^{-1}}R_{x^{-1}}S_{0}\\end{cases}"
+        }
+      ]
+    },
+    {
+      "page_idx": 171,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.652,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§11. An Application: Haar Measure on a Compact Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "157"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.328,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y"
+            },
+            {
+              "type": "text",
+              "content": " in G. Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.287,
+            0.127,
+            0.708,
+            0.218
+          ],
+          "image_path": "images/page_171_equation_3.jpg",
+          "content": "\\begin{align*}(\\overline{S}_{0}L_{x}R_{y})(\\overline{S}_{0}L_{u}R_{v}) = & \\left(L_{y^{-1}}R_{x^{-1}}S_{0}\\right)(S_{0}L_{u}R_{v}) \\\\= & L_{y^{-1}}R_{x^{-1}}L_{u}R_{v} \\\\= & L_{y^{-1}}L_{u}R_{x^{-1}}R_{v} \\\\= & L_{uy^{-1}}R_{x^{-1}v}.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.224,
+            0.481,
+            0.244
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { 1 } ="
+            },
+            {
+              "type": "text",
+              "content": " the identity on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G ) _ { \\mathrm { t } }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.348,
+            0.252,
+            0.646,
+            0.272
+          ],
+          "image_path": "images/page_171_equation_5.jpg",
+          "content": "\\mathcal { S } = \\{ S _ { i } L _ { x } R _ { y } : i = 0 , 1 ;   x , y \\in G \\}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.279,
+            0.87,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a group of surjective linear isometries of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q ="
+            },
+            {
+              "type": "text",
+              "content": " the probability measures on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q = \\{ \\mu \\in M ( G ) : \\mu \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( G ) = 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": " is a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " that is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " compact. Furthermore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( Q ) \\subseteq Q"
+            },
+            {
+              "type": "text",
+              "content": " for every T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.353,
+            0.823,
+            0.392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.8. Claim. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\in   M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\neq   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\#"
+            },
+            {
+              "type": "text",
+              "content": " the weak* closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T ( \\mu ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\in \\mathcal { S } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.408,
+            0.87,
+            0.445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, Lemma 11.6 implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T ( \\mu ) : T { \\in } { \\mathcal { S } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is weak* closed. Since each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( \\mu ) \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " for every T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.444,
+            0.871,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Claim 11.8, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " is a noncontracting family of affine maps of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": " into itself. Moreover, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = S _ { 0 } L _ { x } R _ { y }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\mu _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in Q such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { i }   \\rightarrow   \\mu ( \\mathbf { w } \\mathbf { k } ^ { * } ) ."
+            },
+            {
+              "type": "text",
+              "content": " then for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C(G), \\quad \\langle f, T(\\mu_i) \\rangle = \\int f(xs^{-1}y)d\\mu_i(s) \\to \\int f(xs^{-1}y)d\\mu ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f , T ( \\mu ) \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . So each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " continuous on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q ."
+            },
+            {
+              "type": "text",
+              "content": " By the Ryll-Nardzewski Fixed Point Theorem, there is a measure m in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( m ) = m"
+            },
+            {
+              "type": "text",
+              "content": " for all T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.554,
+            0.872,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By definition, (a) holds. Also, for any x in G and f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C(G),\\int f(xs)dm(s)="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f , L _ { x } ( m ) \\rangle = \\int f d m"
+            },
+            {
+              "type": "text",
+              "content": " . By similar equations, (c) holds. Now suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   C ( G ) ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Then there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\left\\{ x \\in G : f ( x ) > \\varepsilon \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is nonempty. Since U is open, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\cup \\left\\{ U x \\colon x { \\in } G \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , and G is compact, there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } , x _ { 2 } , \\ldots , x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\subseteq \\bigcup_{k = 1}^{n} U x_{k}."
+            },
+            {
+              "type": "text",
+              "content": " (Why is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U x"
+            },
+            {
+              "type": "text",
+              "content": " open?) Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { k } ( x ) = f ( x x _ { k } ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = \\textstyle \\sum _ { k = 1 } ^ { n } g _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g { \\in } C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int g d m = \\sum _ { k = 1 } ^ { n } \\int g _ { k } d m ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\int f d m"
+            },
+            {
+              "type": "text",
+              "content": " by (c). But for any x in G there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x x _ { k } ^ { - 1 }   \\in   U"
+            },
+            {
+              "type": "text",
+              "content": " ; hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(x) \\geqslant g_k(x) = f(xx_k^{-1}) > \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.369,
+            0.707,
+            0.632,
+            0.75
+          ],
+          "image_path": "images/page_171_equation_11.jpg",
+          "content": "\\int f d m = \\frac { 1 } { n } \\int g d m \\geqslant \\varepsilon / n > 0 ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.759,
+            0.287,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This proves (b)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.777,
+            0.873,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove uniqueness, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " be a probability measure on G having properties (a), (b), (c). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   C ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } G"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int f d \\mu = \\int _ { x } f d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.342,
+            0.828,
+            0.658,
+            0.923
+          ],
+          "image_path": "images/page_171_equation_14.jpg",
+          "content": "\\begin{align*}\\int f d \\mu &= \\int \\left[ \\int f(y) d \\mu(y) \\right] d m(x) \\\\&= \\int \\left[ \\int f(xy) d \\mu(y) \\right] d m(x).\\end{align*}"
+        }
+      ]
+    },
+    {
+      "page_idx": 172,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "158"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.68,
+            0.055,
+            0.87,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. Weak Topologies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.399,
+            0.096,
+            0.655,
+            0.238
+          ],
+          "image_path": "images/page_172_equation_2.jpg",
+          "content": "\\begin{aligned}I & = \\int \\Bigg [ \\int f(xy)dm(x) \\Bigg ] d\\mu(y) \\\\& = \\int \\Bigg [ \\int f(x)dm(x) \\Bigg ] d\\mu(y) \\\\& = \\int fdm.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.245,
+            0.261,
+            0.264
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.154,
+            0.275,
+            0.777,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For further information on Haar measure see Nachbin [1965]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.294,
+            0.872,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What happens if G is only a semigroup? In this case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " may not be isometries, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ L _ { x } R _ { y } ; x , y \\in G \\}"
+            },
+            {
+              "type": "text",
+              "content": " may not be noncontractive. However, there are measures for some semigroups that are invariant (see Exercise 7). For further reading see Greenleaf [1969]."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.386,
+            0.234,
+            0.402
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.138,
+            0.405,
+            0.871,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let G be a group and a topological space. Show that G is a topological group if and only if the map of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times G \\to G"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y ) { \\mapsto } x ^ { - 1 } y"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.138,
+            0.447,
+            0.437,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Verify the statements in (11.2)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.138,
+            0.473,
+            0.634,
+            0.491
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Show that Theorems (11.4) and (11.5) are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.137,
+            0.499,
+            0.871,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let G be a locally compact group. If m is a regular Borel measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { G } ,"
+            },
+            {
+              "type": "text",
+              "content": " show that any two of the following properties imply the third: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a)m(\\Delta x) = m(\\Delta)"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel set ∆ and every x in G; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m(x\\Delta) = m(\\Delta)"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel set ∆ and every x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ;   ( \\mathrm { c } )   m ( \\Delta ) = m ( \\Delta ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel set ∆."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.138,
+            0.575,
+            0.803,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Show that the maps "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { 0 } , L _ { x } , R _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " are linear isometries of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.138,
+            0.6,
+            0.279,
+            0.617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Prove (11.7)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.138,
+            0.626,
+            0.87,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let S be an abelian semigroup and show that there is a positive linear functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\colon l ^ { \\infty } ( S )   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(1)=1,(b)L(f_{x})=L(f)"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( S )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.137,
+            0.668,
+            0.667,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S = \\mathbf { N } ,"
+            },
+            {
+              "type": "text",
+              "content": " ,what does Exercise 7 say about Banach limits?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.137,
+            0.694,
+            0.871,
+            0.763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If G is a compact group, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon G \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " show that there is a neighborhood U of the identity in G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f ( y ) | < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x y ^ { - 1 }   \\in   U"
+            },
+            {
+              "type": "text",
+              "content": " . (Note that this say that every continuous function on a compact group is uniformly continuous.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.129,
+            0.77,
+            0.871,
+            0.921
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. If G is a locally compact group and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in C _ { b } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { O } ( f ) \\equiv \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { x } : x { \\in } G \\}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AP(G)=\\left\\{f\\in C_{b}(G):\\mathcal{C}(f)\\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is compact}. Functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A P ( G )"
+            },
+            {
+              "type": "text",
+              "content": " are called almost periodic. (a) Show that every periodic function in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A P ( \\mathbb { R } ) ."
+            },
+            {
+              "type": "text",
+              "content": " (b) If G is compact, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AP(G)=C(G)."
+            },
+            {
+              "type": "text",
+              "content": " (c) Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   \\mathbb { C } _ { b } ( \\mathbb { R } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } A P ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " if and only if for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " there is a positive number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " such that in every interval of length "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " there is a number p such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f ( x + p ) | < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for all x in R. (d) If G is not compact, then the only function in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A P ( G )"
+            },
+            {
+              "type": "text",
+              "content": " having compact support is the zero function. For more information on this topic, see Exercise 13.5 below."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 173,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.441,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§12. The Krein-Smulian Theorem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "159"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.097,
+            0.622,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§12*. The Krein-Smulian Theorem"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.135,
+            0.871,
+            0.284
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let A be a convex subset of a Banach space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " If A is weakly closed, then for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r > 0,   A \\cap \\{ x \\in \\mathcal{X} : \\| x \\| \\leqslant r \\}"
+            },
+            {
+              "type": "text",
+              "content": " is weakly closed; this is clear since each of the sets in the intersection is weakly closed. But the converse of this is also true: if A is convex and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\cap   \\{ X   \\in   \\mathcal { X } :   \\|   x   \\|   \\leqslant   r \\}"
+            },
+            {
+              "type": "text",
+              "content": " is weakly closed for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " then A is weakly closed. In fact, because A is convex it suffices to prove that A is norm closed (Corollary 1.5). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n } \\} \\subseteq A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x _ { n } - x _ { 0 } \\| \\to 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a constant r such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x _ { n } \\| \\leqslant r"
+            },
+            {
+              "type": "text",
+              "content": " for all n. By hypothesis, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap \\{ x { \\in } { \\mathcal { X } } : \\| x \\| \\leqslant r \\}"
+            },
+            {
+              "type": "text",
+              "content": " is weakly closed and hence norm closed. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } { \\in } A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.283,
+            0.871,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let A be a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } , \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " a Banach space. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x ^ { \\star } { \\in } { \\mathcal { X } } ^ { \\star } { : } \\left\\|   x ^ { \\star }   \\right\\| \\leqslant r \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " is A weak-star closed? If  is reflexive, then this is the same question that was asked and answered affirmatively in the preceding paragraph. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is not reflexive, then the preceding argument fails since there are norm closed convex subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " that are not weak-star closed. (Example: let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * * } { \\in } { \\mathcal { X } } ^ { * * } { \\setminus } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " and consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\ker x^{*} ."
+            },
+            {
+              "type": "text",
+              "content": " Nevertheless, even though the argument fails, the statement is true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.447,
+            0.871,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.1. The Krein-Smulian Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { I f }   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space and A is a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap \\left\\{ x ^ { \\ast } { \\in } { \\mathcal { X } } ^ { \\ast } { : } \\parallel x ^ { \\ast } \\parallel \\leqslant r \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0"
+            },
+            {
+              "type": "text",
+              "content": " , then A is weak-star closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.154,
+            0.517,
+            0.63,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove this theorem, two lemmas are needed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.552,
+            0.871,
+            0.592
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.2. Lemma. If X is a Banach space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } _ { r }"
+            },
+            {
+              "type": "text",
+              "content": " is the collection of all finite subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\in \\mathcal { X } : \\| x \\| \\leqslant r ^ { - 1 } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.317,
+            0.598,
+            0.681,
+            0.618
+          ],
+          "image_path": "images/page_173_equation_8.jpg",
+          "content": "\\bigcap \\big \\{ F ^ { \\circ } \\colon F { \\in } { \\mathcal { F } } _ { r } \\big \\} = \\big \\{ x ^ { \\star } { \\in } { \\mathcal { X } } ^ { \\ast } \\colon \\|   x ^ { \\star }   \\| \\leqslant r \\big \\} ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.625,
+            0.871,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = \\bigcap \\left\\{ F ^ { \\circ } \\colon F { \\in } { \\mathcal { F } } _ { r } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " ; it is easy to see that r(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } ) \\subseteq E"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } \\phi"
+            },
+            {
+              "type": "text",
+              "content": " r(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an x in ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\langle x , x ^ { * } \\rangle | > r ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\langle r ^ { - 1 } x , x ^ { * } \\rangle | > 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } \\not \\in E ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.697,
+            0.872,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.3. Lemma. If A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " satisfy the hypothesis of the Krein-Smulian Theorem and, moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap"
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } = \\bigtriangleup"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.427,
+            0.743,
+            0.576,
+            0.761
+          ],
+          "image_path": "images/page_173_equation_11.jpg",
+          "content": "\\operatorname { R e } \\left\\langle x , x ^ { * } \\right\\rangle \\geqslant 1"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.768,
+            0.279,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.794,
+            0.871,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. The proof begins by showing that there are finite subsets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { F } _ { 0 } , \\boldsymbol { F } _ { 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.133,
+            0.85,
+            0.179,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.4"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.326,
+            0.837,
+            0.677,
+            0.882
+          ],
+          "image_path": "images/page_173_equation_15.jpg",
+          "content": "\\left\\{ \\begin{aligned} & (i)   nF_{n} \\subseteq  ball   \\mathcal{X}; \\\\ & (ii)   n( ball   \\mathcal{X}^{*}) \\cap \\bigcap_{k = 0}^{n - 1} F_{k}^{\\circ} \\cap A = \\square. \\end{aligned} \\right."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13,
+            0.888,
+            0.874,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To establish (12.4) use induction as follows. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { 0 }   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { F } _ { 0 } , \\ldots , \\boldsymbol { F } _ { n - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " have been chosen satisfying (12.4) and set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q = \\left[ (n + 1) \\mathrm{bal} \\mathcal{X}^* \\right] \\cap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 174,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.169,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "160"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.679,
+            0.055,
+            0.87,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. Weak Topologies"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.098,
+            0.872,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\bigcap_{k = 0}^{n - 1} F_{k}^{\\circ} \\cap A"
+            },
+            {
+              "type": "text",
+              "content": " . Note that Q is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " compact. So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\cap F ^ { \\circ } \\neq \\square"
+            },
+            {
+              "type": "text",
+              "content": " for every finite subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\square \\neq Q \\cap \\bigcap \\{ F ^ { \\circ } \\colon F"
+            },
+            {
+              "type": "text",
+              "content": " is a finite subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { - 1 } ( \\mathrm { b a l l }   \\mathcal { X } ) \\} = Q \\cap [ n ( \\mathrm { b a l l }   \\mathcal { X } ^ { * } ) ]"
+            },
+            {
+              "type": "text",
+              "content": " by the preceding lemma. This contradicts (12.4ii). Therefore there is a finite subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { - 1 } ( \\mathrm { b a l l } \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\cap F_{n}^{\\circ} = \\square"
+            },
+            {
+              "type": "text",
+              "content": " . This proves (12.4)."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.191,
+            0.873,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ F _ { n } \\right\\} _ { n = 1 } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " satisfies (12.4), then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap \\bigcap_{n = 1}^{\\infty} F_{n}^{\\circ} = \\square"
+            },
+            {
+              "type": "text",
+              "content": " . Arrange the elements of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcup _ { n = 1 } ^ { \\infty } F _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in a sequence and denote this sequence by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Note that lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x _ { n } \\| = 0"
+            },
+            {
+              "type": "text",
+              "content": " Thus if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } { \\in } { \\mathcal { X } } ^ { * } , \\quad \\{ \\langle x _ { n } , x ^ { * } \\rangle \\} { \\in } c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } } ^ { * }   \\to   c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( x ^ { * } ) = \\{ \\langle x _ { n } , x ^ { * } \\rangle \\}"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that T is linear (and bounded, though this fact is unnecessary). Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 } . \\mathrm { A l s o } ,"
+            },
+            {
+              "type": "text",
+              "content": " from the construction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x _ { n } \\right\\} = \\bigcup _ { n = 1 } ^ { \\infty } F _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , \\| T ( x ^ { * } ) \\| = \\sup _ { n } | \\langle x _ { n } , x ^ { * } \\rangle | >"
+            },
+            {
+              "type": "text",
+              "content": " 1. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( A ) \\cap"
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 } = \\bigtriangleup"
+            },
+            {
+              "type": "text",
+              "content": " . Thus Theorem IV.3.7 applies to the sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( A )"
+            },
+            {
+              "type": "text",
+              "content": " and int[ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 } ]"
+            },
+            {
+              "type": "text",
+              "content": " and there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 1 } = c _ { 0 } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " in IR such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { R e } \\left\\langle \\phi , f \\right\\rangle < \\alpha \\leqslant \\operatorname { R e } \\left\\langle T \\left( x ^ { * } \\right) , f \\right\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in int [ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 } ]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in A. That is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.295,
+            0.385,
+            0.704,
+            0.426
+          ],
+          "image_path": "images/page_174_equation_4.jpg",
+          "content": "\\mathrm{Re} \\sum_{n = 1}^{\\infty} \\phi(n) f(n) < \\alpha \\leqslant \\mathrm{Re} \\sum_{n = 1}^{\\infty} \\langle x_n, x^* \\rangle f(n)"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.438,
+            0.87,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " and for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in A. Replacing f by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f / \\| f \\|"
+            },
+            {
+              "type": "text",
+              "content": " and α by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha / \\| f \\|"
+            },
+            {
+              "type": "text",
+              "content": " , it is clear that it may be assumed that (12.5) holds with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| = 1 . \\mathrm { I f } \\phi \\in c _ { 0 } , \\| \\phi \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle \\mu \\phi , f \\rangle = | \\langle \\phi , f \\rangle | ."
+            },
+            {
+              "type": "text",
+              "content": " Applying this to (12.5) and taking the supremum over all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in int "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\mathrm { b a l l }   c _ { 0 } ]"
+            },
+            {
+              "type": "text",
+              "content": " gives that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant \\mathrm{Re} \\sum_{n = 1}^{\\infty} \\langle x_n, x^* \\rangle f(n)"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ,"
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in l ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { n \\; = \\; 1 } ^ { \\infty } f ( n ) x _ { n } \\in { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant \\operatorname{Re} \\langle x, x^* \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.567,
+            0.784,
+            0.587
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Where was the completeness of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " used in the preceding proof?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.594,
+            0.871,
+            0.724
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF THE KREIN-SMULIAN THEOREM. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{0}^{*} \\in \\mathcal{X}^{*} \\setminus A;"
+            },
+            {
+              "type": "text",
+              "content": " it will be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } ^ { * } \\notin \\mathbf { w } \\mathbf { k } ^ { * } - \\operatorname { c l } A"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to see that A is norm closed. So there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x ^ { * } { \\in } { \\mathcal { X } } ^ { * } { : ~ } \\left\\|   x ^ { * } - x _ { 0 } ^ { * }   \\right\\| \\leqslant r \\right\\} \\cap A = \\square"
+            },
+            {
+              "type": "text",
+              "content": " . But this implies that ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } \\cap \\left[ r ^ { - 1 } ( A - x _ { 0 } ^ { * } ) \\right] = \\square"
+            },
+            {
+              "type": "text",
+              "content": " . With this it is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r ^ { - 1 } ( A - x _ { 0 } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " satisfies the hypothesis of the preceding lemma. Therefore there is an x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { R e } \\langle x , x ^ { * } \\rangle \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r ^ { - 1 } ( A - x _ { 0 } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " . In particular, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\notin \\mathrm{wk}^* - \\mathrm{cl} \\left[ r^{-1} (A - x_0^*) \\right]"
+            },
+            {
+              "type": "text",
+              "content": " and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } ^ { * } \\notin \\mathbf { w k } ^ { * } - \\operatorname { c l } A ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.123,
+            0.739,
+            0.87,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.6. Corollary. If X is a Banach space and is a linear manifold in , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { y }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } _ { \\cap }"
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.122,
+            0.795,
+            0.868,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.7. Corollary. If X is a separable Banach space and A is a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " that is weak-star sequentially closed, then A is weak-star closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.122,
+            0.849,
+            0.868,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Because is separable, r(ball is weak-star metrizable for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r > 0"
+            },
+            {
+              "type": "text",
+              "content": " (Theorem 5.1). So if A is weak-star sequentially closed, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap [r(\\mathrm{bal} \\mathcal{X}^*)]"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0"
+            },
+            {
+              "type": "text",
+              "content": " Hence the Krein-Smulian Theorem applies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 175,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.442,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§12. The Krein-Smulian Theorem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.836,
+            0.057,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "161"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.871,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This last corollary is one of the most useful forms of the Krein-Smulian Theorem. To show that a convex subset A of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed it is not necessary to show that every weak-star convergent net from A has its limit in A; it suffices to prove this for sequences."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.191,
+            0.871,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.8. Corollary. If X is a separable Banach space and F: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear functional, then F is weak-star continuous if and only if F is weak-star sequentially continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.256,
+            0.871,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. By Theorem IV.3.1, F is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " continuous if and only if ker F is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " closed. This corollary is, therefore, a direct consequence of the preceding one."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.33,
+            0.87,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A proof of Corollary 12.8 that is independent of The Krein-Smulian Theorem can be found as a lemma in Whitley [1986]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.367,
+            0.871,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is a misinterpretation of the Krein-Smulian Theorem that the reader should be warned about. If A is a weak-star closed convex balanced subset of ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\bigcup \\left\\{ r A \\colon r > 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear manifold. but it does not follow that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed. What is true is the following."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.459,
+            0.873,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.9. Theorem. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a Banach space and let A be a weak-star closed subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . If Y = the linear span of A, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { y }"
+            },
+            {
+              "type": "text",
+              "content": " is norm closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.532,
+            0.871,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof will not be presented here. The interested reader can consult Dunford and Schwartz [1958], p. 429."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.568,
+            0.874,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is a method for finding the weak-star closure of a linear manifold that is quite useful despite its seemingly bizarre appearance. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a Banach space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " be a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . For each ordinal number α define a linear manifold "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " as follows. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 } = \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose α is an ordinal number and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\beta }"
+            },
+            {
+              "type": "text",
+              "content": " has been defined for each ordinal "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta < \\alpha ."
+            },
+            {
+              "type": "text",
+              "content": " If α has an immediate predecessor, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha - 1"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " be the weak-star sequential closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . If α is a limit ordinal and has no immediate predecessor, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcup \\left\\{ \\mathcal { M } _ { \\beta } \\colon \\beta < \\alpha \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . In each case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\beta } \\subseteq \\mathcal { M } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta \\leqslant \\alpha ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.749,
+            0.873,
+            0.824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.10. Theorem. If X is a separable Banach space, M is a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " is defined as above for every ordinal number α, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\mathbf { \\Omega } }"
+            },
+            {
+              "type": "text",
+              "content": " is the weak-star closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " where Ω is the first uncountable ordinal. Moreover, there is an ordinal number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha < \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha } = \\mathcal { M } _ { \\Omega }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.831,
+            0.875,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. By Corollary 12.7 it suffices to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\Omega }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star sequentially closed. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\pmb { x } _ { \\pmb { n } } ^ { * } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\Omega }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n } ^ { * }   \\rightarrow   x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " (wk*). Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\Omega } = \\bigcup \\left\\{ \\mathcal { M } _ { \\alpha } : \\alpha < \\Omega \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , for each n there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { n } < \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n } ^ { * } \\in \\mathcal { M } _ { \\alpha _ { n } }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = \\sup_{n} \\alpha_{n} < \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n } ^ { * } \\in \\mathcal { M } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ,"
+            },
+            {
+              "type": "text",
+              "content": " thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } \\in \\mathcal { M } _ { \\alpha + 1 } \\subseteq \\mathcal { M } _ { \\Omega }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\Omega }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star closed."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

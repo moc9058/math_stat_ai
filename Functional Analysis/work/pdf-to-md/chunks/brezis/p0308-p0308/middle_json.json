@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 307,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 307,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.041,
+            0.626,
+            0.057
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.5 Variational Formulation of Some Boundary Value Problems"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.861,
+            0.041,
+            0.897,
+            0.055
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "293"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.099,
+            0.073,
+            0.508,
+            0.09
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step D: Recovery of a classical solution."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.099,
+            0.091,
+            0.898,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Assume that the weak solution "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u   \\in   H _ { 0 } ^ { 1 } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " of (31) belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { 2 } ( \\overline { { \\Omega } } )"
+            },
+            {
+              "type": "text",
+              "content": " , and assume that \u0004 is of class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u   =   0"
+            },
+            {
+              "type": "text",
+              "content": " on \u0013 (by Theorem 9.17). On the other hand, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.302,
+            0.141,
+            0.695,
+            0.181
+          ],
+          "image_path": "images/page_307_equation_4.jpg",
+          "content": "\\int _ { \\Omega } ( - \\Delta u + u ) v = \\int _ { \\Omega } f v \\quad \\forall v \\in C _ { c } ^ { 1 } ( \\Omega ) ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.099,
+            0.185,
+            0.897,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\Delta u   +   u   =   f"
+            },
+            {
+              "type": "text",
+              "content": " a.e. on \u0004 (by Corollary 4.24). In fact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\Delta u   +   u   =   f"
+            },
+            {
+              "type": "text",
+              "content": " everywhere on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega ,"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in C ^ { 2 } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " ; thus u is a classical solution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.098,
+            0.234,
+            0.898,
+            0.273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We describe now some other examples. In each case it is essential to specify precisely the function space and the appropriate weak formulation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.099,
+            0.288,
+            0.898,
+            0.326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2 (inhomogeneous Dirichlet condition). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega \\subset \\mathbb { R } ^ { N }"
+            },
+            {
+              "type": "text",
+              "content": " be a bounded open set. We look for a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u : \\overline { { \\Omega } } \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " satisfying"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.102,
+            0.339,
+            0.619,
+            0.388
+          ],
+          "image_path": "images/page_307_equation_8.jpg",
+          "content": "\\left\\{ \\begin{aligned} - \\Delta u + u &= f & &  in   \\Omega, \\\\ u &= g & &  on   \\Gamma, \\end{aligned} \\right.\\tag{33}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.099,
+            0.4,
+            0.898,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " is given on \u0004 and g is given on \u0013. Suppose that there exists a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g } \\in H ^ { 1 } ( \\Omega ) \\cap C ( \\overline { { \\Omega } } )"
+            },
+            {
+              "type": "text",
+              "content": " such tha "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\mathfrak { t } ^ { 2 2 } } \\; \\tilde { g } = g"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " and consider the set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.314,
+            0.451,
+            0.683,
+            0.473
+          ],
+          "image_path": "images/page_307_equation_10.jpg",
+          "content": "K = \\{ v \\in H ^ { 1 } ( \\Omega ) ; v - \\tilde { g } \\in H _ { 0 } ^ { 1 } ( \\Omega ) \\} ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.099,
+            0.486,
+            0.897,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows from Theorem 9.17 that K is independent of the choice of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { g }"
+            },
+            {
+              "type": "text",
+              "content": " and depends only on g. K is a nonempty closed convex set in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ^ { 1 } ( \\Omega )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.099,
+            0.541,
+            0.898,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Definition.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A classical solution of (33) is a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in C ^ { 2 } ( \\overline { { \\Omega } } )"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (33). A weak solution of (33) is a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in K"
+            },
+            {
+              "type": "text",
+              "content": " satisfying"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.102,
+            0.59,
+            0.715,
+            0.631
+          ],
+          "image_path": "images/page_307_equation_13.jpg",
+          "content": "\\int _ { \\Omega } ( \\nabla u \\cdot \\nabla v + u v ) = \\int _ { \\Omega } f v \\quad \\forall v \\in H _ { 0 } ^ { 1 } ( \\Omega ) .\\tag{34}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.098,
+            0.642,
+            0.592,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As above, any classical solution is a weak solution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.099,
+            0.678,
+            0.897,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Proposition 9.22.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Given any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\; \\in \\; L ^ { 2 } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " , there exists a unique weak solution "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in K"
+            },
+            {
+              "type": "text",
+              "content": " of (33). Furthermore, u is obtained by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.32,
+            0.728,
+            0.675,
+            0.77
+          ],
+          "image_path": "images/page_307_equation_16.jpg",
+          "content": "\\operatorname* { m i n } _ { v \\in K } \\left\\{ \\frac { 1 } { 2 } \\int _ { \\Omega } ( | \\nabla v | ^ { 2 } + v ^ { 2 } ) - \\int _ { \\Omega } f v \\right\\} ."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.1,
+            0.781,
+            0.837,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. We claim that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in K"
+            },
+            {
+              "type": "text",
+              "content": " is a weak solution of (33) if and only if we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.103,
+            0.812,
+            0.798,
+            0.853
+          ],
+          "image_path": "images/page_307_equation_18.jpg",
+          "content": "\\int _ { \\Omega } \\nabla u \\cdot ( \\nabla v - \\nabla u ) + \\int _ { \\Omega } u ( v - u ) \\geq \\int _ { \\Omega } f ( v - u ) \\quad \\forall v \\in K .\\tag{35}"
+        },
+        {
+          "type": "page_footnote",
+          "index": 19,
+          "bbox": [
+            0.564,
+            0.862,
+            0.589,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 20,
+          "bbox": [
+            0.624,
+            0.863,
+            0.712,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "d g ∈ C (\u0013)."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 21,
+          "bbox": [
+            0.383,
+            0.879,
+            0.467,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "g˜  C \u0004 ."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 22,
+          "bbox": [
+            0.485,
+            0.893,
+            0.731,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "˜  H1 \u0004 , i. .,  H1/2 \u0013 ."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 23,
+          "bbox": [
+            0.099,
+            0.862,
+            0.898,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22 This assumption is satisfied, for example, if \u0004 is of class C an 1 If \u0004 is regular enough it is not necessary to suppose that ∈ ( ) Applying the theory of traces (see the comments at the end of this chapter), it suffices to know that g ∈ ( ) e g ∈ ( )"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

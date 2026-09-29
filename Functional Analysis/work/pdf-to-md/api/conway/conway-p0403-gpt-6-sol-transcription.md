@@ -1,0 +1,57 @@
+C.R. Putnam [1968]. The spectra of operators having resolvents of first-order growth. *Trans. Amer. Math. Soc.*, **133**, 505–510.
+
+J.D. Pyrce [1966]. Weak compactness in locally convex spaces. *Proc. Amer. Math. Soc.*, **17**, 148–155.
+
+H. Radjavi and P. Rosenthal [1973]. *Invariant subspaces*. New York: Springer-Verlag.
+
+T. Ransford [1984]. A short elementary proof of the Bishop–Stone–Weierstrass Theorem. *Math. Proc. Camb. Phil. Soc.*, **96**, 309–311.
+
+C.J. Read [1984]. A solution to the invariant subspace problem. *Bull. London Math. Soc.*, **16**, 337–401.
+
+C.J. Read [1986]. A short proof concerning the invariant subspace theorem. *J. London Math. Soc.* (2)**34**, 335–348.
+
+R. Redheffer and P. Volkmann [1983]. Schür’s generalization of Hilbert’s inequality. *Proc. Amer. Math. Soc.*, **87**, 567–568.
+
+M. Reed and B. Simon [1975]. *Methods of Modern Mathematical Physics II*. New York: Academic.
+
+M. Reed and B. Simon [1979]. *Methods of Modern Mathematical Physics III. Scattering Theory*. New York: Academic.
+
+C. Rickart [1960]. *General Theory of Banach Algebras*. Princeton: D. Van Nostrand.
+
+J.R. Ringrose [1971]. *Compact Non-self-adjoint Operators*. New York: Van Nostrand-Reinhold.
+
+A.P. Robertson and W. Robertson [1966]. *Topological Vector Spaces*. Cambridge University.
+
+M. Rosenblum [1958]. On a theorem of Fuglede and Putnam. *J. London Math. Soc.*, **33**, 376–377.
+
+P. Rosenthal [1968]. Completely reducible operators. *Proc. Amer. Math. Soc.*, **19**, 826–830.
+
+W. Rudin [1962]. *Fourier Analysis on Groups*. New York: Interscience.
+
+C. Ryll-Nardzewski [1967]. On fixed points of semigroups of endomorphisms of linear spaces. *Fifth Berkeley Sympos. Math. Statist. and Prob., Vol. II: Contrib. to Prob. Theory, Part I*. Berkeley: University of California, pp. 55–61.
+
+S. Sakai [1956]. A characterization of $W^*$-algebras. *Pacific J. Math.*, **6**, 763–773.
+
+S. Sakai [1971]. *$C^*$-algebras and $W^*$-algebras*. New York: Springer-Verlag.
+
+D. Sarason [1966]. Invariant subspaces and unstarred operator algebras. *Pacific J. Math.*, **17**, 511–517.
+
+D. Sarason [1972]. Weak-star density of polynomials. *J. Reine Angew. Math.*, **252**, 1–15.
+
+D. Sarason [1974]. Invariant subspaces. *Topics in Operator Theory*. Math. Surveys, Vol. 13, 1–47. Providence: American Mathematical Society.
+
+H.H. Schaeffer [1971]. *Topological Vector Spaces*. New York: Springer-Verlag.
+
+R. Schatten [1960]. *Norm Ideals of Completely Continuous Operators*. Berlin: Springer-Verlag.
+
+M. Schechter [1965]. Invariance of the essential spectrum. *Bull. Amer. Math. Soc.*, **71**, 365–367.
+
+M. Schechter [1968]. Riesz operators and Fredholm perturbations. *Bull. Amer. Math. Soc.*, **74**, 1139–1144.
+
+H.S. Shapiro and A.L. Shields [1961]. On some interpolation problems for analytic functions. *Amer. J. Math.*, **83**, 513–532.
+
+B. Simon [1979]. *Trace Ideals and Their Applications*. London Math. Soc. Lecture Notes, Vol. 35. Cambridge University.
+
+S. Simons [1967]. Krein’s theorem without sequential convergence. *Math. Ann.*, **174**, 157–162.
+
+A. Sobczyk [1941]. Projection of the space $(m)$ on its subspace $(c_0)$. *Bull. Amer. Math. Soc.*, **47**, 938–947.

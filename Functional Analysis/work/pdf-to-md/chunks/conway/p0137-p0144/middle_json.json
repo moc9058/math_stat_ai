@@ -1,0 +1,5208 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 136,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 137,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 138,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 139,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 140,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 141,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 142,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 143,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 136,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.165,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "122"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.619,
+            0.055,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.866,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "hand, it is assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i } + z _ { i }   \\rightarrow   y + z _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = P(y + z) = \\lim_{} P(y_i + z_i) ="
+            },
+            {
+              "type": "text",
+              "content": " lim and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z _ { i } = ( y _ { i } + z _ { i } ) - y _ { i } \\rightarrow z"
+            },
+            {
+              "type": "text",
+              "content": " This proves (a)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.154,
+            0.87,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.23. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { G } \\leqslant \\mathcal { X } , \\mathcal { G }"
+            },
+            {
+              "type": "text",
+              "content": " is topologically complemented in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " if either (a) or (b) of (5.22) is satisfied."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.21,
+            0.87,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.24. Proposition. If X is a LCS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } \\leqslant \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that either dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " or dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } / \\mathcal { Y } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , then Y is topologically complemented in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.256,
+            0.87,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. The proof will only be sketched. The reader is asked to supply the details (Exercise 9)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.292,
+            0.87,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d = \\dim \\mathcal{B} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { 1 } , \\ldots , y _ { d }"
+            },
+            {
+              "type": "text",
+              "content": " be a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " By the Hahn-Banach Theorem (III.6.6), there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } , . . . , f _ { d }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i } ( y _ { j } )   = 1"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   =   j"
+            },
+            {
+              "type": "text",
+              "content": " and 0 otherwise. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P x = \\sum _ { j = 1 } ^ { d } f _ { j } ( x ) y _ { j }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.347,
+            0.869,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d = \\dim \\mathcal{X} / \\mathcal{Y} < \\infty, \\quad Q : \\mathcal{X} \\to \\mathcal{X} / \\mathcal{Y}"
+            },
+            {
+              "type": "text",
+              "content": " is the natural map, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z _ { 1 } , \\ldots , z _ { d } { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q ( z _ { 1 } ) , \\ldots , Q ( z _ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } / \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = \\vee \\left\\{ z _ { 1 } , \\ldots , z _ { d } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " L"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.418,
+            0.871,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF PROPOSITION 5.16. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is the strict inductive limit of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ ( \\mathcal { X } _ { n } , \\mathcal { T } _ { n } \\} )"
+            },
+            {
+              "type": "text",
+              "content": " and B is a bounded subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " It must be shown that there is an n such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq { \\mathcal { X } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " (the rest of the proof is easy). Suppose this is not the case. By replacing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " by a subsequence if necessary, it follows that for each n there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( B \\cap \\mathcal { X } _ { n + 1 } ) \\backslash \\mathcal { X } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " be a continuous seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } ( x _ { 1 } )   = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.545,
+            0.87,
+            0.584
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.25. Claim. For every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": " there is a continuous seminorm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( x _ { n } ) = n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n}|\\mathcal{X}_{n - 1} = p_{n - 1}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.599,
+            0.871,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of (5.25) is by induction. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is given and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { G } = \\mathcal { X } _ { n } \\vee"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n + 1 } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . By (5.24), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vee \\left\\{ x _ { n + 1 } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " are topologically complementary in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "俾 ,"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q \\colon { \\mathcal { G } }   \\to   [ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( x + \\alpha x _ { n + 1 } ) = p _ { n } ( x ) + ( n + 1 ) | \\alpha | ,"
+            },
+            {
+              "type": "text",
+              "content": " ,where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " Then q is a continuous seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { Y } , \\mathcal { T } _ { n + 1 } | \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " (Verify!) By Proposition 5.13 there is a continuous seminorm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n + 1 }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { n + 1 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n + 1 } | \\mathcal { G } = q ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n + 1} \\mid \\mathcal{X}_n = p_n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n + 1}(x_{n + 1}) = n + 1"
+            },
+            {
+              "type": "text",
+              "content": " . This proves the claim. Now define p: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   \\to   [ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) = p _ { n } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . By (5.25), p is well defined. It is easy to see that p is a continuous seminorm. However, sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p ( x ) : x \\in B \\} = \\infty"
+            },
+            {
+              "type": "text",
+              "content": " so B is not bounded (Exercise 2.4f)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.782,
+            0.232,
+            0.798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.135,
+            0.801,
+            0.553,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Verify the statements made in Example 5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.134,
+            0.827,
+            0.602,
+            0.845
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Fill in the details of the proof of Proposition 5.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.136,
+            0.853,
+            0.368,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Prove Proposition 5.6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.135,
+            0.878,
+            0.553,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Verify the statements made in Example 5.9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.135,
+            0.904,
+            0.563,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Verify the statements made in Example 5.10."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 137,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.056,
+            0.589,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Inductive Limits and the Space of Distributions"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "123"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.134,
+            0.103,
+            0.559,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Verify the statements made in Example 5.11."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.134,
+            0.128,
+            0.867,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. With the notation of (5.10), show that if X is σ-compact, then the dual of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is the space of all extended F-valued measures."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.133,
+            0.17,
+            0.868,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Is the inductive limit topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " (5.10) different from the topology of uniform convergence on compact subsets of X (1.5)?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.133,
+            0.213,
+            0.375,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Prove Proposition 5.24."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.239,
+            0.56,
+            0.257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Verify the statements made in Example 5.20."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.159,
+            0.265,
+            0.776,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the remaining exercises, Ω is always an open subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d } ,   d \\geqslant 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.291,
+            0.631,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega , \\phi   \\mapsto   \\int   \\phi   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a distribution Ω."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.317,
+            0.866,
+            0.371
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\Omega   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " be a function with continuous partial derivatives and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { f }"
+            },
+            {
+              "type": "text",
+              "content": " be defined as in (5.20). Show that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant d,\\; L_{f}(\\partial \\phi / \\partial x_{j}) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- L _ { g } ( \\phi )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = \\partial f / \\partial x _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " . (Hint: Use integration by parts.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.377,
+            0.869,
+            0.429
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Exercise 12 motivates the following definition. If L is a distribution on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Omega } ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial L / \\partial x _ { j } \\colon \\mathcal { D } ( \\Omega ) \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial L / \\partial x _ { j } ( \\phi ) = -   L ( \\partial \\phi / \\partial x _ { j } )"
+            },
+            {
+              "type": "text",
+              "content": " for all φ in (Ω). Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial L / \\partial x _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " is a distribution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.436,
+            0.87,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Using Example 5.20 and Exercise 13, one is justified to talk of the derivative of any locally integrable function as a distribution. By Exercise 11 we can differentiate measures. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathbb { R } \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " be the characteristic function of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " and show that its derivative as a distribution is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { 0 } ,"
+            },
+            {
+              "type": "text",
+              "content": " the unit point mass at 0. [That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is the measure such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { 0 } ( \\Delta ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { 0 } { \\in } \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { 0 } ( \\Delta ) = 0 \\mathrm { i f } 0 \\notin \\Delta ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.53,
+            0.835,
+            0.548
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. Let f be an absolutely continuous function on R and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L _ { f } ) ^ { \\prime }   =   L _ { f ^ { \\prime } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.555,
+            0.871,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. Let f be a left continuous nondecreasing function on R and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L _ { f } ) ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " is the distribution defined by the measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu [ a , b ) = f ( b ) - f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   <   b"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.614,
+            0.871,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. Let f be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textbf { a } C ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " function on Ω and let L be a distribution on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ( \\Omega ) ."
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( \\phi ) \\equiv L ( \\phi f ) , \\phi"
+            },
+            {
+              "type": "text",
+              "content": " in (Ω), is a distribution. State and prove a product rule for finding the derivative of M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 138,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.099,
+            0.298,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER V"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.126,
+            0.134,
+            0.442,
+            0.166
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Weak Topologies"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.428,
+            0.873,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The principal objects of study in this chapter are the weak topology on a Banach space and the weak-star topology on its dual. In order to carry out this study efficiently, the first two sections are devoted to the study of the weak topology on a locally convex space."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.542,
+            0.291,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Duality"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.581,
+            0.871,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As in §IV.4, for a LCS "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " denote the space of continuous linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R } ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } , y ^ { * }   \\in   \\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and α∈F, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha x ^ { * } + y ^ { * } ) ( x ) \\equiv \\alpha x ^ { * } ( x ) + y ^ { * } ( x ) ."
+            },
+            {
+              "type": "text",
+              "content": " x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , defines an element "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha x ^ { * } + y ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " has a natural vector-space structure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.654,
+            0.842,
+            0.674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is convenient and, more importantly, helpful to introduce the notation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.458,
+            0.682,
+            0.541,
+            0.701
+          ],
+          "image_path": "images/page_138_equation_6.jpg",
+          "content": "\\langle x , x ^ { * } \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.71,
+            0.871,
+            0.748
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "to stand for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " , for x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, because of a certain symmetry, we will use "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle x ^ { * } , x \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " to stand for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.365,
+            0.756,
+            0.631,
+            0.775
+          ],
+          "image_path": "images/page_138_equation_8.jpg",
+          "content": "x ^ { * } ( x ) = \\langle x , x ^ { * } \\rangle = \\langle x ^ { * } , x \\rangle ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.153,
+            0.783,
+            0.719,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We begin by recalling two definitions (IV.1.7 and IV.1.8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.82,
+            0.87,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS, the weak topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " denoted by “wk” or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } , \\mathcal { X } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " , is the topology defined by the family of seminorms "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ p _ { x ^ { * } } : x ^ { * } \\in \\mathcal { X } ^ { * } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.407,
+            0.878,
+            0.59,
+            0.897
+          ],
+          "image_path": "images/page_138_equation_11.jpg",
+          "content": "p _ { x ^ { * } } ( x ) = | \\langle x , x ^ { * } \\rangle | ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.154,
+            0.902,
+            0.872,
+            0.921
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The weak-star topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , denoted by “wk*” or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , is the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 139,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.055,
+            0.237,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Duality"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "125"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.658,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "topology defined by the seminorms "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { x } ; x \\in \\mathcal { X } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.404,
+            0.128,
+            0.591,
+            0.147
+          ],
+          "image_path": "images/page_139_equation_3.jpg",
+          "content": "p _ { x } ( x ^ { * } ) = | \\langle x , x ^ { * } \\rangle | ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.155,
+            0.87,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So a subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly open if and only if for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } ^ { * } , \\ldots , x _ { n } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.324,
+            0.202,
+            0.672,
+            0.241
+          ],
+          "image_path": "images/page_139_equation_5.jpg",
+          "content": "\\bigcap_{k = 1}^{n} \\left\\{ x \\in \\mathcal{X} : \\left| \\left\\langle x - x_{0}, x_{k}^{*} \\right\\rangle \\right| < \\varepsilon \\right\\} \\subseteq U."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.25,
+            0.868,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " converges weakly to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle x _ { i } , x ^ { * } \\rangle   \\to   \\langle x _ { 0 } , x ^ { * } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . (What are the analogous statements for the weak-star topology?)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.306,
+            0.87,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that both "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " ,wk) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } ^ { * } , \\mathbf { w } \\mathbf { k } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " are LCS's. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " already possesses a topology so that wk is a second topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " has no topology to begin with so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is the only topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Of course i "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space, this last statement is not correct since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space (III.5.4). The reader should also be cautioned that some authors abuse the language and use the term weak topology to designate both the weak and weak-star topologies. Finally, pay attention to the positions of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in the notation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } , \\mathcal { X } ^ { * } ) ="
+            },
+            {
+              "type": "text",
+              "content": " wk and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } ) = \\mathbf { w } \\mathbf { k } ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.454,
+            0.869,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }   \\rightarrow   0"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * } , \\langle x _ { i } , x ^ { * } \\rangle   \\rightarrow   0 ."
+            },
+            {
+              "type": "text",
+              "content": " So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is the topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } \\subseteq \\mathcal { T } ( \\mathbf { A } . 2 . 9 )"
+            },
+            {
+              "type": "text",
+              "content": " and each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly continuous. The first result gives the converse of this."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.528,
+            0.568,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2. Theorem. If X is a LCS, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathrm { w k } ) ^ { * } = \\mathcal { X } ^ { * }"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.556,
+            0.869,
+            0.594
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Since every weakly open set is open in the original topology, each f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathbf { w } \\mathbf { k } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . The converse is even easier."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.609,
+            0.58,
+            0.628
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3. Theorem. If X is a LCS, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } ^ { * } , \\mathrm { w k } ^ { * } ) ^ { * } = \\mathcal { X } ."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.635,
+            0.871,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Clearly if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } , x ^ { * } { \\to } \\langle x , x ^ { * } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " continuous functional on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   \\subseteq   ( \\mathcal { X } ^ { * } , \\mathrm { w k } ^ { * } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   ( \\mathcal { X } ^ { * } , \\mathrm { w k } ^ { * } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then (IV.3.1) implies there are vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } , \\ldots , x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ^ { * } ) | \\leqslant \\sum _ { k = 1 } ^ { n } | \\langle x _ { k } , x ^ { * } \\rangle |"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . This implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\cap \\left\\{ \\ker x_{k} : 1 \\leqslant k \\leqslant n \\right\\} \\subseteq \\ker f"
+            },
+            {
+              "type": "text",
+              "content": " By (A.1.4) there are scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = \\sum_{k = 1}^{n} \\alpha_{k} x_{k};"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.744,
+            0.871,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is the dual of a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { L C S } \\mathrm { { \\textellipsis } ( { \\mathcal X } ^ { * } , w k ^ { * } ) }"
+            },
+            {
+              "type": "text",
+              "content": " —and hence has a weak-star topolo "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{gy} -- \\sigma((\\mathcal{X}, \\mathrm{wk}^*), \\mathcal{X}^*)"
+            },
+            {
+              "type": "text",
+              "content": " . As an exercise in notational juggling, note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( ( \\mathcal { X } , \\mathrm { w k } ^ { * } ) , \\mathcal { X } ^ { * } ) = \\sigma ( \\mathcal { X } , \\mathcal { X } ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.8,
+            0.873,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "All unmodified topological statements about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " refer to its original topology. So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " and we say that it is closed, we mean that A is closed in the original topology of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " .To say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " is closed in the weak topology of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " we say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " is weakly closed or wk-closed. Also cl A means the closure of A in the original topology while wk – cl A means the closure of A in the weak topology. The next result shows that under certain circumstances this distinction in unnecessary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 140,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.169,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "126"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.679,
+            0.055,
+            0.869,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. Weak Topologies"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.87,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4. Theorem. If X is a LCS and A is a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " then cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathbf{w}\\mathbf{k} - \\mathbf{c}\\mathbf{l}A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.146,
+            0.871,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is the original topology of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w } \\mathbf { k } \\subseteq \\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " , hence cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq \\mathbf { w } \\mathbf { k } - \\mathbf { c } \\mathbf { l } \\; A"
+            },
+            {
+              "type": "text",
+              "content": " Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in { \\mathcal { X } } \\backslash { \\mathrm { c l } } A"
+            },
+            {
+              "type": "text",
+              "content": " , then (IV.3.13) implies that there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , an α in R, and an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.324,
+            0.212,
+            0.674,
+            0.231
+          ],
+          "image_path": "images/page_140_equation_4.jpg",
+          "content": "\\operatorname { R e } \\langle a , x ^ { * } \\rangle \\leqslant \\alpha < \\alpha + \\varepsilon \\leqslant \\operatorname { R e } \\langle x , x ^ { * } \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.239,
+            0.871,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all a in cl A. Hence cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq B \\equiv \\{ y \\in \\mathcal{X} : \\operatorname{Re}(y, x^*) \\leq \\alpha \\}"
+            },
+            {
+              "type": "text",
+              "content": " . But B is clearly wk-closed since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is wk-continuous. Thus wk - cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq B ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\notin B ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\notin \\mathbf { w } \\mathbf { k } - \\mathbf { c } \\mathbf { l } \\mathbf { \\nabla } A"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.313,
+            0.844,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5. Corollary. A convex subset of £ is closed if and only if it is weakly closed."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.35,
+            0.872,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is a useful observation that can be made here. Because of (III.6.3) it can be shown that if  is a complex linear space, then the weak topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is the same as the weak topology it has if it is considered as a real linear space (Exercise "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ) ."
+            },
+            {
+              "type": "text",
+              "content": " This will be used in the future."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.442,
+            0.871,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.6. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , the polar of A, denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , is the subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.289,
+            0.479,
+            0.705,
+            0.499
+          ],
+          "image_path": "images/page_140_equation_9.jpg",
+          "content": "A ^ { \\circ } \\equiv \\{ x ^ { * } \\in \\mathcal { X } ^ { * } : | \\langle a , x ^ { * } \\rangle | \\leqslant 1 { \\mathrm { ~ f o r ~ a l l ~ } } a { \\mathrm { ~ i n ~ } } A \\} ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.507,
+            0.857,
+            0.526
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq { \\mathcal { X } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , the prepolar of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ,"
+            },
+            {
+              "type": "text",
+              "content": " denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } ^ { \\circ } B ,"
+            },
+            {
+              "type": "text",
+              "content": " is the subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.296,
+            0.534,
+            0.699,
+            0.553
+          ],
+          "image_path": "images/page_140_equation_11.jpg",
+          "content": "{ \\boldsymbol { B } } \\equiv \\{ { \\boldsymbol { x } } \\in { \\mathcal { X } } : | \\langle { \\boldsymbol { x } } , { \\boldsymbol { b } } ^ { * } \\rangle | \\leqslant 1 { \\mathrm { ~ f o r ~ a l l ~ } } { \\boldsymbol { b } } ^ { * } { \\mathrm { ~ i n ~ } } { \\boldsymbol { B } } \\} ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.561,
+            0.871,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " the bipolar of A is the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } ^ { \\circ } ( A ^ { \\circ } )"
+            },
+            {
+              "type": "text",
+              "content": " . If there is no confusion, then it is also denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } ^ { \\circ } A ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.615,
+            0.871,
+            0.653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The prototype for this idea is that if A is the unit ball in a normed space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is the unit ball in the dual space."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.67,
+            0.443,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.7. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } } ."
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.697,
+            0.429,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is convex and balanced."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.716,
+            0.407,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\boldsymbol { I f } } ~ { \\boldsymbol { A } } _ { 1 } \\subseteq { \\boldsymbol { A } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ } \\subseteq A _ { 1 } ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.128,
+            0.734,
+            0.492,
+            0.752
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\boldsymbol { I } } { \\boldsymbol { f } } \\; { \\boldsymbol { \\alpha } } \\in \\mathbf { F }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\ne 0,(\\alpha A)^{\\circ}=\\alpha^{-1}A^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.128,
+            0.753,
+            0.252,
+            0.77
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { } ^ { \\circ } A ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.13,
+            0.771,
+            0.284,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{\\circ} = (^{\\circ}A^{\\circ})^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.126,
+            0.798,
+            0.871,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. The proofs of parts (a) through (d) are left as an exercise. To prove (e) note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { } ^ { \\circ } A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " by (d), so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( ^ { \\circ } \\pmb { A } ^ { \\circ } ) ^ { \\circ } \\subseteq \\pmb { A } ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " by (b). But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ } \\subseteq { } ^ { \\circ } ( A ^ { \\circ } ) ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " by an analog of (d) for prepolars. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A^{\\circ})^{\\circ} = (^{\\circ}A^{\\circ})^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.125,
+            0.87,
+            0.873,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is an analogous result for prepolars. In fact, it is more than analogy that is at work here. By Theorem 1.3, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } ^ { * } , \\mathrm { w k } ^ { * } ) ^ { * } = \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus the result for prepolars is a consequence of the preceding proposition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 141,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.055,
+            0.238,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Duality"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "127"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.1,
+            0.871,
+            0.14
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A is a linear manifold in X and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }   \\in   A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t a   \\in   A"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and a in A. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\geqslant \\left| \\left\\langle t a , x ^ { * } \\right\\rangle \\right| = t \\left| \\left\\langle a , x ^ { * } \\right\\rangle \\right|"
+            },
+            {
+              "type": "text",
+              "content": " . Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\rightarrow   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ } = A ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " , where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.28,
+            0.147,
+            0.713,
+            0.167
+          ],
+          "image_path": "images/page_141_equation_3.jpg",
+          "content": "A ^ { \\perp } \\equiv \\{ x ^ { * } \\mathrm { i n } \\mathcal { X } ^ { * } : \\langle a , x ^ { * } \\rangle = 0 \\mathrm { f o r a l l } a \\mathrm { i n } A \\} ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.175,
+            0.691,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, if B is a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { X } } ^ { \\star } , { } ^ { \\circ } { \\pmb { B } } = { } ^ { \\perp } { \\pmb { B } } ,"
+            },
+            {
+              "type": "text",
+              "content": " where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.289,
+            0.202,
+            0.708,
+            0.222
+          ],
+          "image_path": "images/page_141_equation_5.jpg",
+          "content": "{ } ^ { \\perp } B \\equiv \\{ x \\mathrm { i n } \\mathcal { X } : \\langle x , b ^ { * } \\rangle = 0 \\mathrm { f o r a l l } b ^ { * } \\mathrm { i n } B \\} ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.153,
+            0.23,
+            0.764,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next result is a slight generalization of Corollary IV.3.12"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.266,
+            0.87,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.8. Bipolar Theorem. If X is a LCS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } ^ { \\circ } A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is the closed convex balanced hull of A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.314,
+            0.871,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " be the intersection of all closed convex balanced subsets of X that contain A. It must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { 1 } = { } ^ { \\circ } A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } ^ { \\circ } A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is closed, convex, and balanced and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { } ^ { \\circ } A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { 1 } \\subseteq { } ^ { \\circ } A ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.37,
+            0.869,
+            0.407
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } { \\in } { \\mathcal { X } } \\backslash A _ { 1 } . A _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a closed convex balanced set so by (IV.3.13) there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , an α in R, and an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.312,
+            0.415,
+            0.684,
+            0.434
+          ],
+          "image_path": "images/page_141_equation_10.jpg",
+          "content": "\\mathrm{Re}\\langle a_{1},x^{*}\\rangle<\\alpha<\\alpha+\\varepsilon<\\mathrm{Re}\\langle x_{0},x^{*}\\rangle"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.442,
+            0.868,
+            0.48
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in A _ { 1 } , 0 = \\langle 0 , x ^ { * } \\rangle < \\alpha ."
+            },
+            {
+              "type": "text",
+              "content": " By replacing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { - 1 } x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " it follows that there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " (not the same as the first ε) such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.312,
+            0.489,
+            0.684,
+            0.508
+          ],
+          "image_path": "images/page_141_equation_12.jpg",
+          "content": "\\mathrm{Re}\\langle a_{1},x^{*}\\rangle < 1 < 1 + \\varepsilon < \\mathrm{Re}\\langle x_{0},x^{*}\\rangle"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.516,
+            0.869,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { 1 } . \\mathrm { I f } a _ { 1 }   \\in   A _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle a _ { 1 } , x ^ { * } \\rangle = | \\langle a _ { 1 } , x ^ { * } \\rangle | e ^ { - i \\theta }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { - i \\theta } a _ { 1 }   \\in   { \\cal A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and SO"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.266,
+            0.554,
+            0.727,
+            0.573
+          ],
+          "image_path": "images/page_141_equation_14.jpg",
+          "content": "| \\langle a _ { 1 } , x ^ { * } \\rangle | = \\mathrm { R e } \\langle e ^ { - i \\theta } a _ { 1 } , x ^ { * } \\rangle < 1 < \\mathrm { R e } \\langle x _ { 0 } , x ^ { * } \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.58,
+            0.867,
+            0.601
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } { \\in } A _ { 1 } ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } \\notin ^ { \\circ } A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\backslash A _ { 1 } \\subseteq \\mathcal { X } \\backslash ^ { \\circ } A ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.613,
+            0.867,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.9. Corollary. If X is a LCS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq { \\mathcal { X } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( ^ { \\circ } \\pmb { B } ) ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is the wk*closed convex balanced hull of B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.124,
+            0.666,
+            0.871,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the weak and weak* topologies and the concept of a bounded subset of a LCS (IV.2.5), it is possible to rephrase the results associated with the Principle of Uniform Boundedness (§III.14). As an example we offer the following reformulation of Corollary III.14.5 (which is, in fact, the most general form of the result)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.125,
+            0.775,
+            0.87,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.10. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space, Y is a normed space, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\subseteq \\mathcal { B } ( \\mathcal { X } , \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " such that for every x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,   \\{ A x \\colon A { \\in } { \\mathcal { A } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is weakly bounded in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { G } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " is norm bounded in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } \\left( \\mathcal { X } , \\mathcal { Y } \\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.128,
+            0.849,
+            0.233,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.137,
+            0.868,
+            0.857,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Show that wk is the smallest topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.135,
+            0.894,
+            0.869,
+            0.928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that wk* is the smallest topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " such that for each x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } { \\mapsto } \\langle x , x ^ { * } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 142,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.056,
+            0.169,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "128"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.681,
+            0.056,
+            0.87,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. Weak Topologies"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.138,
+            0.102,
+            0.342,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Prove Theorem 1.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.137,
+            0.127,
+            0.871,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a complex LCS and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { \\mathbf { R } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " denote the collection of all continuous real linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " Use the elements of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { \\mathbf { R } } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " to define seminorms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } , \\mathcal { X } _ { \\mathbb { R } } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " be the corresponding topology. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } , \\mathcal { X } ^ { * } ) = \\sigma ( \\mathcal { X } , \\mathcal { X } _ { \\mathrm { ~ \\tiny ~ R ~ } } ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.138,
+            0.187,
+            0.523,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Prove the remainder of Proposition 1.7."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.136,
+            0.213,
+            0.86,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , show that A is weakly bounded if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is absorbing in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.137,
+            0.239,
+            0.87,
+            0.293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a normed space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n }   \\to   x"
+            },
+            {
+              "type": "text",
+              "content": " weakly. Show that there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ y _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { n } \\in \\mathsf { c o } \\left\\{ x _ { 1 } , x _ { 2 } , \\ldots , x _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and 11 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { n } - x \\parallel \\rightarrow 0 ."
+            },
+            {
+              "type": "text",
+              "content": " (Hint: use Theorem 1.4.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.137,
+            0.3,
+            0.873,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { n }   \\rightarrow   h"
+            },
+            {
+              "type": "text",
+              "content": " weakly and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } _ { n } \\| \\rightarrow \\| \\boldsymbol { h } \\|"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol{h}_n - \\boldsymbol{h} \\| \\rightarrow 0."
+            },
+            {
+              "type": "text",
+              "content": " (The same type of result is true for LP-spaces if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 < p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . See W.P. Novinger [1972].)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.136,
+            0.36,
+            0.872,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space show that the norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is lower semicontinuous for the weak topology and the norm of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is lower semicontinuous for the weak-star topology."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.42,
+            0.871,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is an infinite-dimensional normed space. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S = \\{ x \\in { \\mathcal { X } } : \\| x \\| = 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then the weak closure of S is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\colon \\|   x   \\| \\leqslant 1 \\}"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.511,
+            0.832,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Dual of a Subspace and a Quotient Space"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.551,
+            0.874,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In §III.4 the quotient of a normed space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " by a closed subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " was defined and in (III.10.2) it was shown that the dual of a quotient space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is isometrically isomorphic to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . These results are generalized in this section to the setting of a LCS and, moreover, it is shown that when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " are identified, the weak-star topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is precisely the relative weak-star topology that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " receives as a subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.155,
+            0.66,
+            0.848,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first result was presented in abbreviated form as Exercise IV.1.16."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.696,
+            0.873,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1. Proposition. If p is a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { p } \\colon \\mathcal { X } / \\mathcal { M } \\to [ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.341,
+            0.742,
+            0.658,
+            0.762
+          ],
+          "image_path": "images/page_142_equation_14.jpg",
+          "content": "\\bar { p } ( x + \\mathcal { M } ) = \\inf \\left\\{ p ( x + y ) : y \\in \\mathcal { M } \\right\\} ,"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.769,
+            0.872,
+            0.825
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { p }"
+            },
+            {
+              "type": "text",
+              "content": " is a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " If X is a locally convex space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " is the family of all continuous seminorms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , then the family "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\mathcal { P } }   \\equiv   \\{ \\bar { p }   :   p   \\in   \\mathcal { P } \\}"
+            },
+            {
+              "type": "text",
+              "content": " defines the quotient topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / M"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.833,
+            0.299,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.126,
+            0.869,
+            0.874,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / M"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in ( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Q } \\colon \\mathcal { X }   \\to   \\mathcal { X } / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is the natural map, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\circ Q \\in \\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\circ g \\in \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\mapsto } f { \\circ } Q"
+            },
+            {
+              "type": "text",
+              "content": " is a map of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } / \\mathcal { M } ) ^ { * } \\rightarrow \\mathcal { M } ^ { \\perp } \\subseteq \\dot { \\mathcal { X } ^ { * } }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 143,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.583,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Dual of a Subspace and a Quotient Space"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.838,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "129"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.101,
+            0.872,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2. Theorem. If X is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { L C S } ,   \\mathcal { M } \\leq \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Q } \\colon \\mathcal { X }   \\to   \\mathcal { X } / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is the natural map, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\mapsto } f ^ { \\circ } Q"
+            },
+            {
+              "type": "text",
+              "content": " defines a linear bijection between "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp } . \\; I f \\; ( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " has its weak-star topology "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( ( \\mathcal { X } / \\mathcal { M } ) ^ { * } , \\mathcal { X } / \\mathcal { M } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " has the relative weak-star topology "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } ) | \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " , then this bijection is a homeomorphism. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a"
+            },
+            {
+              "type": "text",
+              "content": " normed space, then this bijection is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.2,
+            0.871,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho : ( \\mathcal { X } / \\mathcal { M } ) ^ { * } \\to \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( f ) = f \\circ Q"
+            },
+            {
+              "type": "text",
+              "content": " . It was shown prior to the statement of the theorem that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is well defined and maps "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is linear and if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\rho ( f ) = f ^ { \\circ } Q ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = 0"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": " is surjective. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is injective. Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } \\in \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathcal { X } / \\mathcal { M } \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x + \\mathcal { M } ) = \\langle x , x ^ { * } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\subseteq \\ker x ^ { * } , f"
+            },
+            {
+              "type": "text",
+              "content": " is well defined and linear. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q ^ { - 1 } \\{ x + \\mathcal { M } \\colon | f ( x + \\mathcal { M } ) | < 1 \\} = \\{ x \\in \\mathcal { X } \\colon | \\langle x , x ^ { * } \\rangle | < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " and this is open in X since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x + \\mathcal { M } \\colon | f ( x + \\mathcal { M } ) | < 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is open in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / M"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " is continuous. Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( f ) = x ^ { * } ,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a bijection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.351,
+            0.871,
+            0.462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space, it was shown in (III.10.2) that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry. It remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a weak-star homeomorphism. Let v "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { v } \\mathbf { k } ^ { * } = \\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ^ { * } = \\sigma ( ( \\mathcal { X } / \\mathcal { M } ) ^ { * } , \\mathcal { X } / \\mathcal { M } ) . \\mathrm { ~ I f ~ } \\{ f _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } / \\mathcal { M } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i }   \\rightarrow   0 ( \\sigma ^ { * } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then for each x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } , \\langle x , \\rho ( f _ { i } ) \\rangle = f _ { i } ( Q ( x ) ) \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( f _ { i } ) \\to 0 ( \\mathrm { w k } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( f _ { i } ) \\to 0 ( \\mathrm { w k } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " , then for each x in X, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i } ( x + \\mathcal { M } ) = \\langle x , \\rho ( f _ { i } ) \\rangle \\rightarrow 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i }   \\rightarrow   0 ( \\sigma ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.479,
+            0.871,
+            0.591
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Once again let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leq \\mathcal { X } . \\mathrm { I f } x ^ { * } \\in \\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then the restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } , x ^ { * } | \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, the Hahn-Banach Theorem implies that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }   \\mapsto   x ^ { * } | { \\mathcal { M } }"
+            },
+            {
+              "type": "text",
+              "content": " is surjective. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( x ^ { * } )   =   x ^ { * } | \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon \\mathcal { X } ^ { * }   \\to   \\mathcal { M } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is clearly linear as well as surjective. It fails, however, to be injective. How does it fail? It's easy to see that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = M ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " induces a linear bijection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } : \\mathcal { X } ^ { * } / \\mathcal { M } ^ { \\perp } \\to \\mathcal { M } ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.608,
+            0.87,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.3. Theorem. If X is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { L C S } , \\mathcal { M } \\leq \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon \\mathcal { X } ^ { * }   \\to   \\mathcal { M } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is the restriction map, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " induces a linear bijection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } \\colon \\mathcal { X } ^ { * } / \\mathcal { M } ^ { \\perp } \\to \\mathcal { M } ^ { * } . I f \\mathcal { X } ^ { * } / \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " has the quotient topology induced by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " has its weak-star topology "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { M } ^ { * } , \\mathcal { M } )"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism. If X is a normed space, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.688,
+            0.871,
+            0.761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space was shown in (III.10.1). Let wl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { k } ^ { * }   =   \\sigma ( \\mathcal { M } ^ { * } , \\mathcal { M } )"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " be the quotient topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * } / d ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Q } \\colon \\mathcal { X } ^ { * }   \\to   \\mathcal { X } ^ { * } / \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " be the natural map. Therefore the diagram"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.431,
+            0.77,
+            0.563,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.431,
+                0.77,
+                0.563,
+                0.848
+              ],
+              "image_path": "images/page_143_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.172,
+            0.883,
+            0.821,
+            0.928
+          ],
+          "image_path": "images/page_143_equation_9.jpg",
+          "content": "\\begin{align*}\\mathcal{Q}^{-1}(\\tilde{\\rho}^{-1}\\{y^{\\bullet}\\in\\mathcal{M}^{\\bullet};|\\langle y,y^{\\bullet}\\rangle|<1\\})&=\\mathcal{Q}^{-1}\\{x^{\\bullet}+\\mathcal{M}^{\\perp};|\\langle y,x^{\\bullet}\\rangle|<1\\}\\\\&=\\{x^{\\bullet}\\in\\mathcal{X}^{\\bullet};|\\langle y,x^{\\bullet}\\rangle|<1\\},\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.858,
+            0.835,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "commutes. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y \\in \\mathcal { M } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " then the commutativity of the diagram implies that"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

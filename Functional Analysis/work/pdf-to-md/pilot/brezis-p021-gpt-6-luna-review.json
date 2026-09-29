@@ -1,0 +1,9 @@
+{
+  "book": "Brezis",
+  "pdf_page": 21,
+  "model": "gpt-6-luna",
+  "seconds": 12.03,
+  "input_tokens": 3011,
+  "output_tokens": 769,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"[inline figure]\",\n      \"correction\": \"The figure visibly contains the labels A, B, and H.\"\n    },\n    {\n      \"candidate_fragment\": \"Fig. 1\",\n      \"correction\": \"The running header is also visible: “6  1 The Hahn–Banach Theorems. Introduction to the Theory of Conjugate Convex Functions”.\"\n    },\n    {\n      \"candidate_fragment\": \"B ( 0 , r ) \\\\subset C ;$ ;\",\n      \"correction\": \"Remove the duplicate semicolon; the image has one semicolon after C.\"\n    },\n    {\n      \"candidate_fragment\": \"x = \\\\alpha ( \\\\alpha ^ { - 1 } x ) + ( 1 - \\\\alpha ) 0 \\\\in C$ Proof of(2).\",\n      \"correction\": \"Separate the next paragraph: “Proof of (2).”\"\n    }\n  ],\n  \"uncertain_regions\": [\n    \"The figure is represented only by an inline-figure placeholder, so its labels may be handled separately in the transcription workflow.\"\n  ]\n}"
+}

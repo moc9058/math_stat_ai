@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 45,
+  "model": "gpt-6-astra",
+  "seconds": 8.58,
+  "input_tokens": 3426,
+  "output_tokens": 235,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"location\": \"Exercise 4, first sentence\",\n      \"candidate\": \"\\\\mathcal B(\\\\mathcal H,\\\\mathcal H)\",\n      \"correction\": \"\\\\mathcal B(\\\\mathcal H,\\\\mathcal K)\"\n    },\n    {\n      \"location\": \"Exercise 4, second sentence\",\n      \"candidate\": \"\\\\mathcal B(\\\\mathcal H,\\\\mathcal H)\",\n      \"correction\": \"\\\\mathcal B(\\\\mathcal H,\\\\mathcal K)\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/961 [00:00<?, ?it/s]Loading weights:  28%|##8       | 270/961 [00:00<00:00, 2673.66it/s]Loading weights:  56%|#####5    | 538/961 [00:00<00:00, 2372.94it/s]Loading weights:  81%|########  | 778/961 [00:00<00:00, 2232.81it/s]Loading weights: 100%|##########| 961/961 [00:00<00:00, 1995.91it/s]
+[32m2026-09-29 10:47:26.442[0m | [1mINFO    [0m | [36mmineru.backend.analysis.pdf.window[0m:[36m_log_processing_window_plan[0m:[36m129[0m - [1mHybrid processing-window run. page_count=8, window_size=64, total_windows=1[0m
+[32m2026-09-29 10:47:29.516[0m | [1mINFO    [0m | [36mmineru.backend.analysis.pdf.window[0m:[36m_log_processing_window[0m:[36m137[0m - [1mHybrid processing window 1/1: pages 1-8/8 (8 pages)[0m
+Layout Predict:   0%|          | 0/8 [00:00<?, ?it/s]Layout Predict:  25%|##5       | 2/8 [00:01<00:03,  1.68it/s]Layout Predict:  50%|#####     | 4/8 [00:01<00:01,  3.15it/s]Layout Predict:  75%|#######5  | 6/8 [00:01<00:00,  4.38it/s]Layout Predict: 100%|##########| 8/8 [00:01<00:00,  5.48it/s]Layout Predict: 100%|##########| 8/8 [00:01<00:00,  4.19it/s]
+MFR Predict:   0%|          | 0/102 [00:00<?, ?it/s]MFR Predict:  31%|###1      | 32/102 [00:01<00:04, 17.10it/s]MFR Predict:  63%|######2   | 64/102 [00:03<00:02, 18.14it/s]MFR Predict:  63%|######2   | 64/102 [00:16<00:02, 18.14it/s]MFR Predict:  94%|#########4| 96/102 [00:30<00:02,  2.44it/s]MFR Predict: 100%|##########| 102/102 [00:32<00:00,  2.45it/s]MFR Predict: 100%|##########| 102/102 [00:32<00:00,  3.14it/s]
+OCR-det:   0%|          | 0/124 [00:00<?, ?it/s]OCR-det:   3%|3         | 4/124 [00:01<00:31,  3.86it/s]OCR-det:  19%|#9        | 24/124 [00:01<00:03, 25.70it/s]OCR-det:  32%|###2      | 40/124 [00:01<00:01, 44.05it/s]OCR-det:  45%|####5     | 56/124 [00:01<00:01, 62.66it/s]OCR-det:  71%|#######   | 88/124 [00:01<00:00, 94.66it/s]OCR-det:  83%|########3 | 103/124 [00:01<00:00, 82.77it/s]OCR-det:  93%|#########2| 115/124 [00:02<00:00, 75.50it/s]OCR-det: 100%|##########| 124/124 [00:02<00:00, 51.23it/s]
+OCR-rec Predict:   0%|          | 0/301 [00:00<?, ?it/s]OCR-rec Predict:   2%|1         | 6/301 [00:00<00:05, 57.41it/s]OCR-rec Predict:   8%|7         | 24/301 [00:00<00:02, 128.18it/s]OCR-rec Predict:  14%|#3        | 42/301 [00:00<00:01, 147.22it/s]OCR-rec Predict:  20%|#9        | 60/301 [00:00<00:01, 150.70it/s]OCR-rec Predict:  26%|##5       | 78/301 [00:00<00:01, 158.50it/s]OCR-rec Predict:  32%|###1      | 96/301 [00:00<00:01, 164.10it/s]OCR-rec Predict:  38%|###7      | 114/301 [00:00<00:01, 165.21it/s]OCR-rec Predict:  44%|####3     | 132/301 [00:00<00:01, 161.43it/s]OCR-rec Predict:  50%|####9     | 150/301 [00:00<00:00, 151.18it/s]OCR-rec Predict:  56%|#####5    | 168/301 [00:01<00:00, 147.21it/s]OCR-rec Predict:  62%|######1   | 186/301 [00:01<00:00, 138.72it/s]OCR-rec Predict:  68%|######7   | 204/301 [00:01<00:00, 136.47it/s]OCR-rec Predict:  74%|#######3  | 222/301 [00:01<00:00, 135.50it/s]OCR-rec Predict:  80%|#######9  | 240/301 [00:01<00:00, 129.64it/s]OCR-rec Predict:  86%|########5 | 258/301 [00:01<00:00, 129.57it/s]OCR-rec Predict:  92%|#########1| 276/301 [00:01<00:00, 126.95it/s]OCR-rec Predict:  98%|#########7| 294/301 [00:02<00:00, 123.77it/s]OCR-rec Predict: 100%|##########| 301/301 [00:02<00:00, 130.36it/s]
+[32m2026-09-29 10:48:21.177[0m | [1mINFO    [0m | [36mmineru.backend.analyze[0m:[36m_log_infer_performance[0m:[36m26[0m - [1mmodel_list infer finished, file_suffix=pdf, pages=8, cost=54.502530s, speed=0.147 page/s[0m
+{
+  "book": "Conway",
+  "pages": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408
+  ],
+  "seconds": 83.05
+}

@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 50,
+  "model": "gpt-6-luna",
+  "seconds": 13.77,
+  "input_tokens": 3498,
+  "output_tokens": 878,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"(b) $\\\\| A \\\\bar{h} \\\\| = \\\\| A^* h \\\\|$\",\n      \"correction\": \"(b) $\\\\|Ah\\\\|=\\\\|A^*h\\\\|$\"\n    },\n    {\n      \"candidate\": \"Corollarv 2.14\",\n      \"correction\": \"Corollary 2.14\"\n    },\n    {\n      \"candidate\": \"$(A^{*})^{-1}A^{-1}$; this implies that $A^{*}A = A\\\\overline{A^{*}} = I$\",\n      \"correction\": \"$(A^{*})^{-1}A^{-1}=(AA^{*})^{-1}$; this implies that $A^{*}A=AA^{*}=I$\"\n    },\n    {\n      \"candidate\": \"$\\\\ker A = (\\\\operatorname{rank} A^*)^{\\\\perp}$\",\n      \"correction\": \"$\\\\ker A=(\\\\operatorname{ran} A^*)^{\\\\perp}$\"\n    },\n    {\n      \"candidate\": \"$h \\\\perp \\\\tan A^{*}$\",\n      \"correction\": \"$h\\\\perp\\\\operatorname{ran}A^*$\"\n    }\n  ],\n  \"uncertain_regions\": [\n    \"The final sentence ends mid-thought at “ran $A^*$ may not”; it continues beyond the visible page.\"\n  ]\n}"
+}

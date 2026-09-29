@@ -1,0 +1,1382 @@
+{
+  "pages": [
+    {
+      "page_idx": 40,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.099,
+            0.298,
+            0.119
+          ],
+          "content": "CHAPTER II"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.128,
+            0.133,
+            0.625,
+            0.165
+          ],
+          "level": 1,
+          "content": "Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.428,
+            0.872,
+            0.483
+          ],
+          "content": "A large area of current research interest is centered around the theory of operators on Hilbert space. Several other chapters in this book will be devoted to this topic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.484,
+            0.871,
+            0.665
+          ],
+          "content": "There is a marked contrast here between Hilbert spaces and the Banach spaces that are studied in the next chapter. Essentially all of the information about the geometry of Hilbert space is contained in the preceding chapter. The geometry of Banach space lies in darkness and has attracted the attention of many talented research mathematicians. However, the theory of linear operators (linear transformations) on a Banach space has very few general results, whereas Hilbert space operators have an elegant and well-developed general theory. Indeed, the reason for this dichotomy is related to the opposite status of the geometric considerations. Questions concerning operators on Hilbert space don't necessitate or imply any geometric difficulties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.664,
+            0.87,
+            0.702
+          ],
+          "content": "In addition to the fundamentals of operators, this chapter will also present an interesting application to differential equations in Section 6."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.742,
+            0.695,
+            0.767
+          ],
+          "level": 2,
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.783,
+            0.87,
+            0.82
+          ],
+          "content": "The proof of the next proposition is similar to that of Proposition I.3.1 and is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.837,
+            0.87,
+            0.875
+          ],
+          "content": "1.1. Proposition. Let $\\mathcal { H }$ and $\\mathcal { H }$ be Hilbert spaces and A: $\\mathcal { H } \\rightarrow \\mathcal { H }$ a linear transformation. The following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.883,
+            0.322,
+            0.9
+          ],
+          "content": "(a) A is continuous."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.901,
+            0.367,
+            0.919
+          ],
+          "content": "(b) A is continuous at 0."
+        }
+      ]
+    },
+    {
+      "page_idx": 41,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.055,
+            0.497,
+            0.073
+          ],
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.842,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": "27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.101,
+            0.456,
+            0.118
+          ],
+          "content": "(c) A is continuous at some point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.118,
+            0.791,
+            0.138
+          ],
+          "content": "(d) There is a constant $c   >   0$ such that $\\| A \\boldsymbol{h} \\| \\leqslant c \\| \\boldsymbol{h} \\|$ for all h in $\\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.155,
+            0.274,
+            0.173
+          ],
+          "content": "As in (I.3.3), if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.323,
+            0.182,
+            0.671,
+            0.203
+          ],
+          "content": "\\| A \\| = \\sup \\{ \\| A h \\| : h \\in \\mathcal{H},   \\| h \\| \\leqslant 1 \\},",
+          "image_source": "images/page_41_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.201,
+            0.177,
+            0.218
+          ],
+          "content": "then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.323,
+            0.218,
+            0.718,
+            0.285
+          ],
+          "content": "\\begin{aligned}\\| A \\| &= \\sup \\{ \\| A h \\| : \\| h \\| = 1 \\} \\\\&= \\sup \\{ \\| A h \\| / \\| h \\| : h \\neq 0 \\} \\\\&= \\inf \\{ c > 0 : \\| A h \\| \\leqslant c \\| h \\| , h   in   \\mathcal{H} \\}.\\end{aligned}",
+          "image_source": "images/page_41_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.292,
+            0.869,
+            0.385
+          ],
+          "content": "Also, $\\| A h \\| \\leqslant \\| A \\| \\| h \\|. \\| A \\|$ is called the norm of A and a linear transformation with finite norm is called bounded. Let $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ be the set of bounded linear transformations from $\\mathcal { H }$ into $\\mathcal { H }$ .For $\\mathcal { H } = \\mathcal { H }$ $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } ) \\equiv \\mathcal { B } ( \\mathcal { H } )$ . Note that $\\mathcal { B } ( \\mathcal { H } , \\mathbb { F } ) = \\mathrm { a l l }$ the bounded linear functionals on $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.402,
+            0.871,
+            0.439
+          ],
+          "content": "1.2. Proposition. (a) If A and $B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H}),$ then $A + B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ and $\\| A + B \\| \\leqslant \\| A \\| + \\| B \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.44,
+            0.806,
+            0.458
+          ],
+          "content": "(b) $\\scriptstyle \\int   \\alpha \\in \\mathbb { F }$ and $A \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } ) ,$ , then $\\alpha A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ and $\\left\\| \\alpha \\boldsymbol{A} \\right\\| = \\left| \\alpha \\right| \\left\\| \\boldsymbol{A} \\right\\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.458,
+            0.862,
+            0.478
+          ],
+          "content": "(c) $If A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ and $B \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { L } ) ,$ then $BA \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{L})$ and $\\left\\| \\boldsymbol{B} \\boldsymbol{A} \\right\\| \\leqslant \\left\\| \\boldsymbol{B} \\right\\| \\left\\| \\boldsymbol{A} \\right\\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.486,
+            0.871,
+            0.543
+          ],
+          "content": "ProoF. Only (c) will be proved; the rest of the proof is left to the reader. If $k \\in \\mathcal { H }$ , then $\\| B k \\| \\leqslant \\| B \\| \\| k \\|$ Hence, if $h \\in \\mathcal { H }$ $k = A h \\in \\mathcal{H}$ and so $\\left\\| \\boldsymbol{B} \\boldsymbol{A} \\boldsymbol{h} \\right\\| \\leqslant \\left\\| \\boldsymbol{B} \\right\\| \\left\\| \\boldsymbol{A} \\boldsymbol{h} \\right\\| \\leqslant \\left\\| \\boldsymbol{B} \\right\\| \\left\\| \\boldsymbol{A} \\right\\| \\left\\| \\boldsymbol{h} \\right\\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.558,
+            0.871,
+            0.633
+          ],
+          "content": "By virtue of preceding proposition, $d ( A , B ) = \\| A - B \\|$ defines a metric on $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ . So it makes sense to consider $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ as a metric space. This will not be examined closely until later in the book, but later in this chapter the idea of the convergence of a sequence of operators will be used."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.648,
+            0.872,
+            0.758
+          ],
+          "content": "1.3. Example. If dim $\\mathcal { H } = n < \\infty$ and dim $\\mathcal { H } = m < \\infty$ , let $\\{ e _ { 1 } , \\ldots , e _ { n } \\}$ be an orthonormal basis for $\\mathcal { H }$ and let $\\{ \\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { m } \\}$ be an orthonormal basis for $\\mathcal { H }$ . It can be shown that every linear transformation from $\\mathcal { H }$ into $\\mathcal { H }$ is bounded (Exercise 3). If $1 \\leqslant j \\leqslant n, 1 \\leqslant i \\leqslant m,$ let $a _ { i j } = \\langle A e _ { j } , \\varepsilon _ { i } \\rangle$ . Then the $m \\times n$ matrix $( \\pmb { \\alpha } _ { i j } )$ represents A and every such matrix represents an element of $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.775,
+            0.873,
+            0.924
+          ],
+          "content": "1.4. Example. Let $l ^ { 2 } \\equiv l ^ { 2 } ( \\mathbb { N } )$ and let $e _ { 1 } , e _ { 2 } , \\ldots$ .be its usual basis. If $A   \\in   \\mathcal { B } ( l ^ { 2 } ) ,$ form $\\alpha _ { i j } = \\langle A e _ { j } , e _ { i } \\rangle$ . The infinite matrix $( \\pmb { \\alpha } _ { i j } )$ represents A as finite matrices represent operators on finite dimensional spaces. However, this representation has limited value unless the matrix has a special form. One difficulty is that it is unknown how to find the norm of A in terms of the entries in the matrix. In fact, if $4 < n < \\infty$ , there is no known formula for the norm of an $n \\times n$ matrix in terms of its entries. (This restriction on the values of n is due to our inability to solve polynomial equations of degree greater than $4 . )$ See"
+        }
+      ]
+    },
+    {
+      "page_idx": 42,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13,
+            0.058,
+            0.156,
+            0.072
+          ],
+          "content": "28"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.586,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.101,
+            0.87,
+            0.158
+          ],
+          "content": "Exercise 11. A sufficient condition for the boundedness of an infinite matrix that is useful is known. (See Exercise 9.) Another sufficient condition for a matrix to be bounded can be found on page 61 of Maddox [1980]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.175,
+            0.868,
+            0.233
+          ],
+          "content": "1.5. Theorem. Let $( X , \\Omega , \\mu )$ be a σ-finite measure space and put $\\mathcal { H } = L ^ { 2 } ( X , \\Omega , \\mu ) \\equiv L ^ { 2 } ( \\mu )$ If $\\phi   \\in   L ^ { \\infty } ( \\mu ) .$ , define $M _ { \\phi } { : } L ^ { 2 } ( \\mu )   \\to   L ^ { 2 } ( \\mu ) b y M _ { \\phi } f = \\phi f$ Then $M _ { \\phi } { \\in } { \\mathcal { B } } ( L ^ { 2 } ( \\mu ) )$ and $\\|   M _ { \\phi } \\| = \\|   \\phi   \\| _ { \\infty }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.239,
+            0.731,
+            0.258
+          ],
+          "content": "PROOF. Here $\\| \\phi \\| _ { \\infty }$ is the µ-essential supremum norm. That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.263,
+            0.266,
+            0.73,
+            0.308
+          ],
+          "content": "\\begin{align*}\\| \\phi \\|_{\\infty} & \\equiv \\inf \\left\\{ \\sup \\left\\{ | \\phi(x) | : x \\neq N \\right\\} : N \\in \\Omega, \\mu(N) = 0 \\right\\} \\\\& = \\inf \\left\\{ c > 0 : \\mu( \\left\\{ x \\in X : | \\phi(x) | > c \\right\\} ) = 0 \\right\\}.\\end{align*}",
+          "image_source": "images/page_42_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.312,
+            0.871,
+            0.464
+          ],
+          "content": "Thus $\\| \\phi \\| _ { \\infty }$ is the infimum of all $c   >   0$ such that $| \\phi ( x ) | \\leqslant c$ a.e. [μ] and, moreover, $| \\phi ( x ) | \\leqslant \\| \\phi \\| _ { \\infty } { \\mathrm { ~ a . e . ~ } } [ \\mu ]$ Thus we can, and do, assume that $\\phi$ is a bounded measurable function and $| \\phi ( x ) | \\leqslant \\| \\phi \\| _ { \\infty }$ for all x. So if $f   \\in   L ^ { 2 } ( \\mu )$ , then $\\int | \\phi f | ^ { 2 } d \\mu \\leqslant \\| \\phi \\| _ { \\infty } ^ { 2 } \\int | f | ^ { 2 } d \\mu.$ That is, $M _ { \\phi } { \\in } { \\mathcal { B } } ( L ^ { 2 } ( \\mu ) )$ and $\\| M _ { \\phi } \\| \\leqslant \\| \\phi \\| _ { \\infty }$ If $\\varepsilon   >   0 .$ , the σ-finiteness of the measure space implies that there is a set ∆ in $\\Omega , 0 < \\mu ( \\Delta ) < \\infty$ , such that $| \\phi ( x ) | \\geqslant \\|   \\phi   \\| _ { \\infty } - \\varepsilon$ on $\\Delta . ( \\mathrm { W h y ? } ) \\mathrm { I f } f = ( \\mu ( \\Delta ) ) ^ { - 1 / 2 } \\chi _ { \\Delta } ,$ then $f   \\in   L ^ { 2 } ( \\mu )$ and $\\| f \\| _ { 2 } = 1$ . So $\\| M _ { \\phi } \\| ^ { 2 } \\geqslant \\| \\phi f \\| _ { 2 } ^ { 2 } = ( \\mu ( \\Delta ) ) ^ { - 1 } \\int _ { \\Delta } | \\phi | ^ { 2 } d \\mu \\geqslant$ $( \\parallel   \\phi   \\parallel _ { \\infty } - \\varepsilon ) ^ { 2 }$ . Letting $\\varepsilon   \\to   0 ,$ we get that $\\| M _ { \\phi } \\| \\geqslant \\| \\phi \\| _ { \\infty } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.478,
+            0.871,
+            0.514
+          ],
+          "content": "The operator $M _ { \\phi }$ is called a multiplication operator. The function $\\phi$ is its symbol."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.515,
+            0.873,
+            0.642
+          ],
+          "content": "If the measure space $( X , \\Omega , \\mu )$ is not $\\sigma \\text {-f} \\mathrm { n i t e }$ then the conclusion of Theorem 1.5 is not necessarily valid. Indeed, let $\\Omega = \\mathrm { t h e }$ Borel subsets of $[ 0 , 1 ]$ and define $\\mu$ onΩ by $\\mu ( \\Delta ) =$ the Lebesgue measure of $\\Delta$ if $0 \\notin \\Delta$ and $\\mu ( \\Delta ) = \\infty$ if $0 { \\in } \\Delta$ This measure has an infinite atom at 0 and, therefore, is not σ-finite. Let $\\phi = \\chi _ { \\{ 0 \\} }$ Then $\\phi   \\in   L ^ { \\infty } ( \\mu )$ and $\\| \\phi \\| _ { \\infty } = 1$ . If $f   \\in   L ^ { 2 } ( \\mu )$ , then $\\infty > \\int | f | ^ { 2 } d \\mu \\geqslant | f ( 0 ) | ^ { 2 } \\mu ( \\{ 0 \\} )$ . Hence every function in $L ^ { 2 } ( \\mu )$ vanishes at $0 .$ Therefore $M _ { \\phi } = 0$ and $\\|   M _ { \\phi } \\| < \\|   \\phi   \\| _ { \\infty } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.641,
+            0.873,
+            0.679
+          ],
+          "content": "There are more general measure spaces for which (1.5) is valid—the decomposable measure spaces (see Kelley [1966])."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.695,
+            0.871,
+            0.733
+          ],
+          "content": "1.6. Theorem. Let $( X , \\Omega , \\mu )$ be a measure space and suppose k: $X \\times X \\to \\mathbb { F }$ is an $\\mathbf { \\Omega } \\times \\mathbf { \\Omega } .$ -measurable function for which there are constants $c _ { 1 }$ and $c _ { 2 }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.737,
+            0.649,
+            0.827
+          ],
+          "content": "\\begin{align*}\\int_{X} |k(x,y)|   d\\mu(y) \\leqslant c_1 \\quad  a.e.   [\\mu], \\\\\\int_{X} |k(x,y)|   d\\mu(x) \\leqslant c_2 \\quad  a.e.   [\\mu].\\end{align*}",
+          "image_source": "images/page_42_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.832,
+            0.44,
+            0.852
+          ],
+          "content": "If K: $L ^ { 2 } ( \\mu ) \\to L ^ { 2 } ( \\mu )$ is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.856,
+            0.638,
+            0.897
+          ],
+          "content": "( K f ) ( x ) = \\int k ( x , y ) f ( y ) d \\mu ( y ) ,",
+          "image_source": "images/page_42_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.904,
+            0.68,
+            0.924
+          ],
+          "content": "then K is a bounded linear operator and $\\| K \\| \\leqslant ( c _ { 1 } c _ { 2 } ) ^ { 1 / 2 }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 43,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.125,
+            0.056,
+            0.495,
+            0.073
+          ],
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.84,
+            0.056,
+            0.866,
+            0.07
+          ],
+          "content": "29"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.866,
+            0.138
+          ],
+          "content": "PRooF. Actually it must be shown that $K f   \\in   L ^ { 2 } ( \\mu )$ , but this will follow from the argument that demonstrates the boundedness of K. If $f   \\in   L ^ { 2 } ( \\mu )$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.258,
+            0.143,
+            0.825,
+            0.335
+          ],
+          "content": "\\begin{align*}|Kf(x)| & \\leqslant \\int |k(x,y)|   |f(y)|   d\\mu(y) \\\\& = \\int |k(x,y)|^{1/2} |k(x,y)|^{1/2} |f(y)|   d\\mu(y) \\\\& \\leqslant \\left[ \\int |k(x,y)|   d\\mu(y) \\right]^{1/2} \\left[ \\int |k(x,y)|   |f(y)|^2   d\\mu(y) \\right]^{1/2} \\\\& \\leqslant c_1^{1/2} \\left[ \\int |k(x,y)|   |f(y)|^2   d\\mu(y) \\right]^{1/2}.\\end{align*}",
+          "image_source": "images/page_43_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.339,
+            0.197,
+            0.357
+          ],
+          "content": "Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.181,
+            0.363,
+            0.666,
+            0.484
+          ],
+          "content": "\\begin{align*}\\int |Kf(x)|^2   d\\mu(x) & \\leqslant c_1 \\int |k(x,y)|   |f(y)|^2   d\\mu(y)   d\\mu(x) \\\\& = c_1 \\int |f(y)|^2 \\int |k(x,y)|   d\\mu(x)   d\\mu(y) \\\\& \\leqslant c_1 c_2   \\|f\\|^2.\\end{align*}",
+          "image_source": "images/page_43_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.491,
+            0.867,
+            0.529
+          ],
+          "content": "Now this shows that the formula used to define K fis finite a.e. $[ \\mu ] , K f \\in L ^ { 2 } ( \\mu ) ,$ and $\\| K f \\| ^ { 2 } \\leqslant c _ { 1 } c _ { 2 } \\| f \\| ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.546,
+            0.87,
+            0.601
+          ],
+          "content": "The operator described above is called an integral operator and the function k is called its kernel. There are conditions on the kernel other than the one in (1.6) that will imply that K is bounded."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.601,
+            0.87,
+            0.637
+          ],
+          "content": "A particular example of an integral operator is the Volterra operator defined below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.653,
+            0.871,
+            0.711
+          ],
+          "content": "1.7. Example. Let $k \\colon [ 0 , 1 ] \\times [ 0 , 1 ]   \\to   \\mathbb { R }$ be the characteristic function of $\\{ ( x , y ) ;   y < x \\}$ . The corresponding operator $V \\colon L ^ { 2 } ( 0 , 1 ) \\to L ^ { 2 } ( 0 , 1 )$ defined by $V f(x)=\\int_{0}^{1} k(x, y) f(y) d y$ is called the Volterra operator. Note that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.406,
+            0.715,
+            0.593,
+            0.76
+          ],
+          "content": "V f ( x ) = \\int _ { 0 } ^ { x } f ( y )   d y .",
+          "image_source": "images/page_43_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.767,
+            0.872,
+            0.842
+          ],
+          "content": "Another example of an operator was defined in Example 1.5.3. The nonsurjective isometry defined there is called the unilateral shift. It will be studied in more detail later in this book. Note that any isometry is a bounded operator with norm 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.86,
+            0.236,
+            0.876
+          ],
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.878,
+            0.37,
+            0.896
+          ],
+          "content": "1. Prove Proposition 1.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.904,
+            0.371,
+            0.922
+          ],
+          "content": "2. Prove Proposition 1.2"
+        }
+      ]
+    },
+    {
+      "page_idx": 44,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.157,
+            0.071
+          ],
+          "content": "30"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.586,
+            0.057,
+            0.868,
+            0.074
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.102,
+            0.871,
+            0.153
+          ],
+          "content": "3. Suppose $\\{ e _ { 1 } , e _ { 2 } , \\ldots , \\}$ is an orthonormal basis for $\\mathcal { H }$ and for each n there is a vector $A e _ { n }$ in $\\mathcal { H }$ such that $\\textstyle \\sum \\| A e _ { n } \\| < \\infty$ . Show that A has an unique extension to a bounded operator on $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.16,
+            0.869,
+            0.196
+          ],
+          "content": "4. Proposition 1.2 says that $d(A,B)=\\left\\|A-B\\right\\|$ is a metric on $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ Show that $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ is complete relative to this metric."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.204,
+            0.871,
+            0.239
+          ],
+          "content": "5. Show that a multiplication operator $M _ { \\phi } \\left( 1 . 5 \\right)$ satisfies $M _ { \\phi } ^ { 2 } = M _ { \\phi }$ if and only if $\\phi$ is a characteristic function."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.247,
+            0.871,
+            0.283
+          ],
+          "content": "6. Let $( X , \\Omega , \\mu )$ be a σ-finite measure space and let $k _ { 1 } , k _ { 2 }$ be two kernels satisfying the hypothesis of (1.6). Define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.295,
+            0.292,
+            0.737,
+            0.332
+          ],
+          "content": "\\mathbf { k } \\colon X \\times X \\to \\mathbb { F } \\quad { \\mathrm { b y } } \\quad k ( x , y ) = \\int k _ { 1 } ( x , z ) k _ { 2 } ( z , y )   d \\mu ( z ) .",
+          "image_source": "images/page_44_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.159,
+            0.344,
+            0.871,
+            0.396
+          ],
+          "content": "(a) Show that k also satisfies the hypothesis of (1.6). (b) If $K ,   K _ { 1 } ,   K _ { 2 }$ are the integral operators with kernels $k , k _ { 1 } , k _ { 2 }$ , show that $K = K _ { 1 } K _ { 2 }$ . What does this remind you of? Is more going on than an analogy?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.402,
+            0.871,
+            0.438
+          ],
+          "content": "7. If $( X , \\Omega , \\mu )$ is a measure space and $k { \\in } L ^ { 2 } ( \\mu \\times \\mu )$ , show that k defines a bounded integral operator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.446,
+            0.872,
+            0.515
+          ],
+          "content": "8. Let $\\{ e _ { n } \\}$ be the usual basis for $l ^ { 2 }$ and let $\\{ \\alpha _ { n } \\}$ be a sequence of scalars. Show that there is a bounded operator A on $l ^ { 2 }$ such that $A e _ { n } = \\alpha _ { n } e _ { n }$ for all n if and only if $\\{ \\alpha _ { n } \\}$ is uniformly bounded, in which case $\\| A \\| = \\sup \\left\\{ | \\alpha _ { n } | : n \\geqslant 1 \\right\\}$ . This type of operator is called a diagonal operator or is said to be diagonalizable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.522,
+            0.87,
+            0.558
+          ],
+          "content": "9. (Schur test) Let $\\left\\{ \\alpha _ { i j } \\right\\} _ { i , j = 1 } ^ { \\infty }$ be an infinite matrix such that $\\alpha _ { i j }   \\geqslant   0$ for all $i , j$ and such that there are scalars $p _ { i } > 0$ and $\\beta , \\gamma   >   0$ with"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.446,
+            0.569,
+            0.583,
+            0.605
+          ],
+          "content": "\\sum _ { i \\; = \\; 1 } ^ { \\infty } \\alpha _ { i j } p _ { i } \\leqslant \\beta p _ { j } ,",
+          "image_source": "images/page_44_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.445,
+            0.614,
+            0.574,
+            0.65
+          ],
+          "content": "\\sum _ { j = 1 } ^ { \\infty } \\alpha _ { i j } p _ { j } \\leqslant \\gamma p _ { i } .",
+          "image_source": "images/page_44_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.663,
+            0.869,
+            0.699
+          ],
+          "content": "for all $i , j \\geqslant 1$ . Show that there is an operator A on $l ^ { 2 } ( \\mathbb { N } )$ with $\\left\\langle A e _ { j } , e _ { i } \\right\\rangle = \\alpha _ { i j }$ and二 $A \\parallel ^ { 2 } \\leqslant \\beta \\gamma$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.706,
+            0.87,
+            0.757
+          ],
+          "content": "10. (Hilbert matrix) Show that $\\langle A e _ { j } , e _ { i } \\rangle = ( i + j + 1 ) ^ { - 1 }$ for $0 \\leqslant i , j < \\infty$ defines a bounded operator on $l ^ { 2 } ( \\mathbb { N } \\cup \\{ 0 \\} )$ with $\\| { \\pmb A } \\| \\leqslant \\pi .$ (See also Choi [1983] and Redheffer and Volkmann [1983].)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.764,
+            0.866,
+            0.807
+          ],
+          "content": "11. If $\\boldsymbol{A} = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$ put $\\alpha = [ | a | ^ { 2 } + | b | ^ { 2 } + | c | ^ { 2 } + | d | ^ { 2 } ] ^ { 1 / 2 }$ and show that $\\| A \\| =$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.811,
+            0.513,
+            0.831
+          ],
+          "content": "$\\frac{1}{2}(\\alpha^{2}+\\sqrt{\\alpha^{4}-4\\delta^{2}})$ , where $\\delta ^ { 2 } = \\operatorname* { d e t } A ^ { * } A .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.838,
+            0.871,
+            0.923
+          ],
+          "content": "12. (Direct sum of operators) Let $\\{ \\mathcal { H } _ { i } \\}$ be a collection of Hilbert spaces and let $\\mathcal { H } = \\oplus _ { i } \\mathcal { H } _ { i } .$ Suppose $A _ { i } \\in \\mathcal { B } ( \\mathcal { H } _ { i } )$ for all i. Show that there is a bounded operator A on $\\mathcal { H }$ such that $A | \\mathcal { H } _ { i } = \\overline { { A } } _ { i }$ for all i if and only if $\\operatorname { s u p } _ { i } \\| A _ { i } \\| < \\infty$ . In this case, $\\| A \\| = \\sup_{i} \\| A_i \\|$ . The operator A is called the direct sum of the operators $\\{ A _ { i } \\}$ and is denoted by $\\pmb { A } = \\oplus _ { i } \\pmb { A } _ { i }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 45,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.055,
+            0.418,
+            0.073
+          ],
+          "content": "§2. The Adjoint of an Operator"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.057,
+            0.869,
+            0.071
+          ],
+          "content": "31"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.102,
+            0.873,
+            0.171
+          ],
+          "content": "13. (Bari [1951]) Call a sequence of vectors $\\{ f _ { n } \\}$ in a Hilbert space $\\mathcal { H }$ a Bessel sequence $\\mathrm { i f } \\sum | \\langle f , f _ { n } \\rangle | ^ { 2 } < \\infty$ for every f in $\\mathcal { H }$ .Show that a sequence $\\{ f _ { n } \\}$ of vectors in $\\mathcal { H }$ is a Bessel sequence if and only if the infinite matrix $( \\langle f _ { m } , f _ { n } \\rangle )$ defines a bounded operator on $l ^ { 2 } .$ (Also see Shapiro and Shields [1961], p. 524.)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.234,
+            0.573,
+            0.259
+          ],
+          "level": 2,
+          "content": "§2. The Adjoint of an Operator"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.275,
+            0.871,
+            0.314
+          ],
+          "content": "2.1. Definition. If $\\mathcal { H }$ and $\\mathcal { H }$ are Hilbert spaces, a function u: $\\mathcal { H } \\times \\mathcal { H } \\rightarrow$ F is a sesquilinear form if for $h , g$ in $\\mathcal { H } , k , f$ in $\\mathcal { H }$ , and $\\alpha , \\beta$ in $\\mathbb { F } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.322,
+            0.483,
+            0.34
+          ],
+          "content": "(a) $u ( \\alpha h + \\beta g , k ) = \\alpha u ( h , k ) + \\beta u ( g , k ) ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.341,
+            0.488,
+            0.359
+          ],
+          "content": "(b) $u ( h , \\alpha k + \\beta f ) = \\bar { \\alpha } u ( h , k ) + \\bar { \\beta } u ( h , f ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.377,
+            0.872,
+            0.431
+          ],
+          "content": "The prefix “sesqui\" is used because the function is linear in one variable but (for $\\mathbf { F } = \\mathbf { C } )$ only conjugate linear in the other. (“Sesqui\" means $\\text{\" one-and-a-half.\" }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.432,
+            0.871,
+            0.486
+          ],
+          "content": "A sesquilinear form is bounded if there is a constant M such that $| u ( h , k ) | \\leqslant M \\| h \\| \\| k \\|$ for all h in $\\mathcal { H }$ and k in $\\mathcal { H }$ The constant M is called a bound for u."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.487,
+            0.872,
+            0.56
+          ],
+          "content": "Sesquilinear forms are used to study operators. If $A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ then $u ( h , k ) \\equiv \\langle A h , k \\rangle$ is a bounded sesquilinear form. Also, if $B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ $u ( h , k ) \\equiv \\langle h , B k \\rangle$ is a bounded sesquilinear form. Are there any more? Are these two forms related?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.578,
+            0.871,
+            0.615
+          ],
+          "content": "2.2. Theorem. If u: $\\mathcal { H } \\times \\mathcal { H } \\rightarrow \\mathbb { F }$ is a bounded sesquilinear form with bound M, then there are unique operators A in $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ and B in $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.623,
+            0.635,
+            0.641
+          ],
+          "content": "u ( h , k ) = \\langle A h , k \\rangle = \\langle h , B k \\rangle",
+          "image_source": "images/page_45_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.65,
+            0.59,
+            0.669
+          ],
+          "content": "for all h in $\\mathcal { H }$ and k in $\\mathcal { H }$ and $\\| A \\| ,   \\| B \\| \\leqslant M .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.676,
+            0.874,
+            0.795
+          ],
+          "content": "PRooF. Only the existence of A will be shown. For each h in $\\mathcal { H } ,$ define $L _ { h } ;$ $\\mathcal { H }   \\rightarrow   \\mathbb { F }$ by $L _ { h } ( k ) = \\overline { { u ( h , k ) } }$ . Then $L _ { h }$ is linear and $| L _ { h } ( k ) | \\leqslant M \\| h \\| \\| k \\|$ . By the Riesz Representation Theorem there is a unique vector f in $\\mathcal { H }$ such that $\\langle k , f \\rangle = L _ { h } ( k ) = \\overline { { u ( h , k ) } }$ and $\\parallel f \\parallel \\leqslant M \\parallel h \\parallel$ . Let $A h   =   f$ . It is left as an exercise to show that A is linear (use the uniqueness part of the Riesz Theorem). Also, $\\langle A h , k \\rangle = \\langle \\overline { { k , A h } } \\rangle = \\langle \\overline { { k , f } } \\rangle = u ( h , k )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.795,
+            0.872,
+            0.833
+          ],
+          "content": "If $A_{1} \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ and $u ( h , k ) = \\langle A _ { 1 } h , k \\rangle$ , then $\\langle A h - A _ { 1 } h , k \\rangle = 0$ for all $k ;$ thus $A h - A _ { 1 } h = 0$ for all h. Thus, A is unique."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.85,
+            0.873,
+            0.887
+          ],
+          "content": "2.4. Definition. If $A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})$ , then the unique operator B in $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ satisfying (2.3) is called the adjoint of A and is denoted by $B = A ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.887,
+            0.872,
+            0.924
+          ],
+          "content": "The adjoint of an operator will usually be used for operators in $\\mathcal { B } ( \\mathcal { H } )$ rather than $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ . There is one notable exception."
+        }
+      ]
+    },
+    {
+      "page_idx": 46,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.057,
+            0.159,
+            0.072
+          ],
+          "content": "32"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.588,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.137
+          ],
+          "content": "2.5. Proposition. If $U \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ , then U is an isomorphism if and only if U is invertible and $U ^ { - 1 } = U ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.147,
+            0.295,
+            0.164
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.18,
+            0.873,
+            0.274
+          ],
+          "content": "From now on we will examine and prove results for the adjoint of operators in $\\mathcal { B } ( \\mathcal { H } )$ . Often, as in the next proposition, there are analogous results for the adjoint of operators in $\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ . This simplification is justified, however, by the cleaner statements that result. Also, the interested reader will have no trouble formulating the more general statement when it is needed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.291,
+            0.587,
+            0.31
+          ],
+          "content": "2.6. Proposition. If $A,B \\in \\mathcal{B}(\\mathcal{H})$ and $\\alpha \\in \\mathbf { F } ,$ , then:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.318,
+            0.386,
+            0.336
+          ],
+          "content": "(a) $( \\alpha A + B ) ^ { * } = { \\bar { \\alpha } } A ^ { * } + B ^ { * } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.337,
+            0.311,
+            0.354
+          ],
+          "content": "(b) $( A B ) ^ { * } = B ^ { * } A ^ { * } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.355,
+            0.334,
+            0.372
+          ],
+          "content": "(c) $A ^ { * * } \\equiv ( A ^ { * } ) ^ { * } = A .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.372,
+            0.871,
+            0.41
+          ],
+          "content": "(d) $I f A$ is invertible in $\\mathcal { B } ( \\mathcal { H } )$ and $A ^ { - 1 }$ is its inverse, then $A ^ { * }$ is invertible and $(A^{*})^{-1} = (A^{-1})^{*}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.419,
+            0.872,
+            0.529
+          ],
+          "content": "The proof of the preceding proposition is left as an exercise, but a word about part (d) might be helpful. The hypothesis that A is invertible in $\\mathcal { B } ( \\mathcal { H } )$ means that there is an operator $A ^ { - 1 }$ in $\\mathcal { B } ( \\mathcal { H } )$ such that $A A ^ { - 1 } = A ^ { - 1 } A = I$ It is a remarkable fact that if A is only assumed to be bijective, then A is invertible in $\\mathcal { B } ( \\mathcal { H } )$ . This is a consequence of the Open Mapping Theorem which will be proved later."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.546,
+            0.674,
+            0.565
+          ],
+          "content": "2.7. Proposition. $\\mathit { I f } \\; A   \\in   \\mathcal { B } ( \\mathcal { H } ) , \\; \\| A \\| = \\| A ^ { \\star } \\| = \\| A ^ { \\star } A \\| ^ { 1 / 2 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.572,
+            0.871,
+            0.683
+          ],
+          "content": "PROOF. For $h \\quad  in  \\quad \\mathcal{H}, \\quad \\| h \\| \\leqslant 1, \\quad \\| A h \\|^2 = \\langle A h, A h \\rangle = \\langle A^* A h, h \\rangle \\leqslant$ $\\| A ^ { \\star } A h \\| \\; \\| h \\| \\leqslant \\| A ^ { \\star } A \\| \\leqslant \\| A ^ { \\star } \\| \\; \\| A \\|$ Hence $\\| A \\| ^ { 2 } \\leqslant \\| A ^ { * } A \\| \\leqslant \\| A ^ { * } \\| \\| A \\|$ Using the two ends of this string of inequalities gives $\\| \\boldsymbol { A } \\| \\leqslant \\| \\boldsymbol { A } ^ { * } \\|$ when $\\| A \\|$ is cancelled. But $A = A ^ { * * }$ and so if $A ^ { * }$ is substituted for A, we get $\\left\\| \\left. A ^ { * } \\right\\| \\leqslant \\left\\| \\left. A ^ { * * } \\right\\| = \\left\\| \\left. A \\right. \\right\\| \\right. \\right.$ . Hence $\\| { \\boldsymbol { A } } \\| = \\| { \\boldsymbol { A } } ^ { \\star } \\|$ . Thus the string of inequalities becomes a string of equalities and the proof is complete."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.699,
+            0.871,
+            0.756
+          ],
+          "content": "2.8. Example. Let $( X , \\Omega , \\mu )$ be a $\\sigma - \\mathrm { f i n i t e }$ measure space and let $M _ { \\phi }$ be the multiplication operator with symbol φ (1.5). Then $M _ { \\phi } ^ { * }$ is $M _ { \\bar { \\phi } } ,$ the multi-plication operator with symbol $\\bar { \\phi } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.773,
+            0.871,
+            0.811
+          ],
+          "content": "If an operator on $\\mathbb { F } ^ { d }$ is presented by a matrix, then its adjoint is represented by the conjuagate transpose of the matrix."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.828,
+            0.871,
+            0.869
+          ],
+          "content": "2.9. Example. If K is the integral operator with kernel k as in (1.6), then $K ^ { * }$ is the integral operator with kernel $k ^ { * } ( x , y ) \\equiv \\widehat { k ( y , x ) }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.884,
+            0.871,
+            0.923
+          ],
+          "content": "2.10. Proposition. $I f S \\colon l ^ { 2 } \\to l ^ { 2 }$ is defined by $S(\\alpha_{1},\\alpha_{2},\\ldots)=(0,\\alpha_{1},\\alpha_{2},\\ldots)$ , then S is an isometry and $S ^ { * } ( \\alpha _ { 1 } , \\alpha _ { 2 } , \\ldots ) = ( \\alpha _ { 2 } , \\alpha _ { 3 } , \\ldots ) .$"
+        }
+      ]
+    },
+    {
+      "page_idx": 47,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.417,
+            0.073
+          ],
+          "content": "§2. The Adjoint of an Operator"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.058,
+            0.869,
+            0.073
+          ],
+          "content": "33"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.102,
+            0.871,
+            0.176
+          ],
+          "content": "ProoF. It has already been mentioned that S is an isometry (I.5.3). For $( \\alpha _ { n } )$ and $( \\beta _ { n } )$ in $l ^ { 2 } , \\left\\langle S ^ { * } \\left( \\alpha _ { n } \\right) , \\left( \\beta _ { n } \\right) \\right\\rangle = \\left\\langle \\left( \\alpha _ { n } \\right) , S \\left( \\beta _ { n } \\right) \\right\\rangle = \\left\\langle \\left( \\alpha _ { 1 } , \\alpha _ { 2 } , \\ldots \\right) , \\left( 0 , \\beta _ { 1 } , \\beta _ { 2 } , \\ldots \\right) \\right\\rangle =$ $\\alpha_{2}\\bar{\\beta}_{1} + \\alpha_{3}\\bar{\\beta}_{2} + \\cdots = \\langle (\\alpha_{2},\\alpha_{3},\\ldots),(\\beta_{1},\\beta_{2},\\ldots) \\rangle$ . Since this holds for every $( \\beta _ { n } ) ,$ the result is proved. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.193,
+            0.87,
+            0.23
+          ],
+          "content": "The operator S in (2.10) is called the unilateral shift and the operator $S ^ { * }$ is called the backward shift"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.23,
+            0.871,
+            0.304
+          ],
+          "content": "The operation of taking the adjoint of an operator is, as the reader may have seen from the examples above, analogous to taking the conjugate of a complex number. It is good to keep the analogy in mind, but do not become too religious about it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.317,
+            0.869,
+            0.355
+          ],
+          "content": "2.11. Definition. If $A \\in \\mathcal { B } ( \\mathcal { H } )$ , then: (a) is hermitian or self-adjoint if $A ^ { * } = A .$ (b) A is normal if $A A ^ { * } = A ^ { * } A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.373,
+            0.871,
+            0.464
+          ],
+          "content": "In the analogy between the adjoint and the complex conjugate, hermitian operators become the analogues of real numbers and, by (2.5), unitaries are the analogues of complex numbers of modulus 1. Normal operators, as we shall see, are the true analogues of complex numbers. Notice that hermitian and unitary operators are normal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.464,
+            0.871,
+            0.543
+          ],
+          "content": "In light of (2.8), every multiplication operator $M _ { \\phi }$ is normal; $M _ { \\phi }$ is hermitian if and only if $\\phi$ is real-valued; $M _ { \\phi }$ is unitary if and only if $| \\phi | \\equiv 1$ a.e. [μ]. By (2.9), an integral operator K with kernel k is hermitian if and only $\\mathrm{if} k(x, y) = k(y, x) \\mathrm{a.e.} [\\mu \\times \\mu]$ . The unilateral shift is not normal (Exercise 6)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.556,
+            0.871,
+            0.594
+          ],
+          "content": "2.12. Proposition. If  is a C-Hilbert space and $A \\in \\mathcal { B } ( \\mathcal { H } )$ , then A is hermitian if and only $if \\langle A h, h \\rangle \\in \\mathbb{R}$ for all h in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.605,
+            0.835,
+            0.623
+          ],
+          "content": "PROOF. If $A = A ^ { * }$ , then $\\langle A h , h \\rangle = \\langle h , A h \\rangle = \\langle \\widetilde { A h , h } \\rangle$ hence $\\langle A h , h \\rangle \\in \\mathbb { R }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.623,
+            0.871,
+            0.696
+          ],
+          "content": "For the converse, assume $\\langle A h , h \\rangle$ is real for every h in $\\mathcal { H } ,$ If $\\alpha \\in \\mathbf { C }$ and $h , g \\in \\mathcal { H }$ then $\\langle A ( h + \\alpha g ) , h + \\alpha g \\rangle = \\langle A h , h \\rangle + \\bar { \\alpha } \\langle A h , g \\rangle + \\alpha \\langle A g , h \\rangle +$ $| \\alpha | ^ { 2 } \\langle A g , g \\rangle \\in \\mathbb { R }$ . So this expression equals its complex conjugate. Using the fact that $\\langle A h , h \\rangle$ and $\\langle A g , g \\rangle \\in \\mathbb { R }$ yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.229,
+            0.704,
+            0.706,
+            0.745
+          ],
+          "content": "\\begin{align*}\\alpha \\langle A g, h \\rangle + \\bar{\\alpha} \\langle A h, g \\rangle = & \\bar{\\alpha} \\langle h, A g \\rangle + \\alpha \\langle g, A h \\rangle \\\\= & \\bar{\\alpha} \\langle A^* h, g \\rangle + \\alpha \\langle A^* g, h \\rangle.\\end{align*}",
+          "image_source": "images/page_47_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.748,
+            0.77,
+            0.768
+          ],
+          "content": "By first taking $\\alpha = 1$ and then $\\alpha = i ,$ we obtain the two equations"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.264,
+            0.776,
+            0.688,
+            0.796
+          ],
+          "content": "\\langle A g , h \\rangle + \\langle A h , g \\rangle = \\langle A ^ { * } h , g \\rangle + \\langle A ^ { * } g , h \\rangle ,",
+          "image_source": "images/page_47_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.247,
+            0.799,
+            0.727,
+            0.819
+          ],
+          "content": "i \\langle A g , h \\rangle - i \\langle A h , g \\rangle = - i \\langle A ^ { * } h , g \\rangle + i \\langle A ^ { * } g , h \\rangle .",
+          "image_source": "images/page_47_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.826,
+            0.699,
+            0.846
+          ],
+          "content": "A little arithmetic implies $\\langle A g , h \\rangle = \\langle A ^ { * } g , h \\rangle , \\mathrm { s o } A = A ^ { * } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.863,
+            0.871,
+            0.924
+          ],
+          "content": "The preceding proposition is false if it is only assumed that $\\mathcal { H }$ is an R-Hilbert space. For example, if $\\boldsymbol{A} = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$ on $\\mathbb { R } ^ { 2 }$ , then $\\langle A h , h \\rangle = 0$ for"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 40,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 41,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 42,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 43,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 44,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 45,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 46,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 47,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

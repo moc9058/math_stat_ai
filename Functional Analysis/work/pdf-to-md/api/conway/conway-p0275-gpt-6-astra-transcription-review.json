@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 275,
+  "model": "gpt-6-astra",
+  "seconds": 16.06,
+  "input_tokens": 3745,
+  "output_tokens": 367,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\tilde{\\\\rho}(u_i\\\\psi)\\\\to\\\\tilde{\\\\rho}(\\\\phi\\\\psi) (WOT), this implies\",\n      \"correction\": \"\\\\tilde{\\\\rho}(u_i\\\\psi)\\\\to\\\\tilde{\\\\rho}(\\\\phi) (WOT), this implies\",\n      \"note\": \"The image omits ψ in this limit target, apparently a source typo; the transcription silently corrects it.\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\int u\\\\,d\\\\mu_{g,h}. \\\\tag{1.15}\",\n      \"correction\": \"\\\\int u\\\\,d\\\\mu_{g,h} \\\\tag{1.15}\",\n      \"note\": \"No period is printed after equation 1.15; the sentence continues with 'for all u'.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

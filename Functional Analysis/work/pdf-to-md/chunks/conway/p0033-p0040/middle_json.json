@@ -1,0 +1,4440 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 32,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 33,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 34,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 35,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 36,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 37,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 38,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 39,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 32,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.058,
+            0.156,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.711,
+            0.055,
+            0.869,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I. Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.103,
+            0.232,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.135,
+            0.12,
+            0.497,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Verify the statements in Example 4.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.134,
+            0.146,
+            0.497,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Verify the statements in Example 4.4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.134,
+            0.172,
+            0.497,
+            0.19
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Verify the statements in Example 4.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.133,
+            0.198,
+            0.779,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Find an infinite orthonormal set in the Hilbert space of Example 1.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.134,
+            0.224,
+            0.869,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Using the notation of the Gram-Schmidt Orthogonalization Process, show that up to scalar multiple "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 1 }   =   h _ { 1 } / \\|   h _ { 1 }   \\|"
+            },
+            {
+              "type": "text",
+              "content": " and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 2, e_n = \\| h_n - f_n \\|^{-1} (h_n - f_n)."
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is the vector defined formally by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.199,
+            0.278,
+            0.836,
+            0.364
+          ],
+          "image_path": "images/page_32_equation_8.jpg",
+          "content": "f_{n} = \\frac{-1}{\\det\\left[ \\left\\langle h_{i}, h_{j} \\right\\rangle \\right]_{i,j=1}^{n-1}} \\det \\begin{bmatrix} \\left\\langle h_{1}, h_{1} \\right\\rangle & \\cdots & \\left\\langle h_{n-1}, h_{1} \\right\\rangle & \\left\\langle h_{n}, h_{1} \\right\\rangle \\\\ \\vdots & & \\vdots & \\vdots \\\\ \\left\\langle h_{1}, h_{n-1} \\right\\rangle & \\cdots & \\left\\langle h_{n-1}, h_{n-1} \\right\\rangle & \\left\\langle h_{n}, h_{n-1} \\right\\rangle \\\\ h_{1} & \\cdots & h_{n-1} & 0 \\end{bmatrix}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.37,
+            0.871,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the next three exercises, the reader is asked to apply the Gram-Schmidt Orthogonalization Process to a given sequence in a Hilbert space. A reference for this material is pp. 82–96 of Courant and Hilbert [1953]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.134,
+            0.429,
+            0.87,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 , x , x ^ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . is orthogonalized in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( - 1 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } ( x ) = [ \\frac { 1 } { 2 } ( 2 n + 1 ) ] ^ { 1 / 2 } P _ { n } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " is obtained, where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.393,
+            0.472,
+            0.64,
+            0.511
+          ],
+          "image_path": "images/page_32_equation_11.jpg",
+          "content": "P _ { n } ( x ) = \\frac { 1 } { 2 ^ { n } n ! } \\left( \\frac { d } { d x } \\right) ^ { n } ( x ^ { 2 } - 1 ) ^ { n } ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.161,
+            0.52,
+            0.628,
+            0.539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { \\pmb { n } } ( \\pmb { x } )"
+            },
+            {
+              "type": "text",
+              "content": " are called Legendre polynomials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.136,
+            0.545,
+            0.87,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{-x^{2}/2}, xe^{-x^{2}/2}, x^{2}e^{-x^{2}/2}"
+            },
+            {
+              "type": "text",
+              "content": " . is orthogonalized in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( - \\infty , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " , the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } ( x ) = \\left[ 2 ^ { n } n ! \\sqrt { \\pi } \\right] ^ { - 1 / 2 } H _ { n } ( x ) e ^ { - x ^ { 2 } / 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is obtained, where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.389,
+            0.59,
+            0.643,
+            0.628
+          ],
+          "image_path": "images/page_32_equation_14.jpg",
+          "content": "H _ { n } ( x ) = ( - 1 ) ^ { n } e ^ { x ^ { 2 } } \\left( \\frac { d } { d x } \\right) ^ { n } e ^ { - x ^ { 2 } } ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.161,
+            0.637,
+            0.808,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are Hermite polynomials and satisfy "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H_{n}^{\\prime}(x) = 2nH_{n - 1}(x)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.136,
+            0.661,
+            0.869,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{-x/2},xe^{-x/2},x^{2}e^{-x/2}"
+            },
+            {
+              "type": "text",
+              "content": " . is orthogonalized in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " , the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } ( x ) = e ^ { - x / 2 } L _ { n } ( x ) / n !"
+            },
+            {
+              "type": "text",
+              "content": " is obtained, where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.408,
+            0.705,
+            0.622,
+            0.744
+          ],
+          "image_path": "images/page_32_equation_17.jpg",
+          "content": "L _ { n } ( x ) = e ^ { x } \\left( \\frac { d } { d x } \\right) ^ { n } \\left( x ^ { n } e ^ { - x } \\right)."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.161,
+            0.753,
+            0.604,
+            0.771
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are called Laguerre polynomials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.135,
+            0.778,
+            0.549,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Prove Corollary 4.10 using Definition 4.11."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.128,
+            0.804,
+            0.87,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence in Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum \\{ h _ { n } ; n \\in \\mathbb { N } \\}"
+            },
+            {
+              "type": "text",
+              "content": " converges to h (Definition 4.11), then lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{n = 1}^{n} h_{k} = h"
+            },
+            {
+              "type": "text",
+              "content": " Show that the converse is false."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.128,
+            0.846,
+            0.871,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence in a Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { n = 1 } ^ { \\infty } \\| h _ { n } \\| < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum \\left\\{ h _ { n } : n \\in \\mathbb { N } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " converges in the sense of Definition 4.11."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.128,
+            0.889,
+            0.871,
+            0.943
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence in F and prove that the following statements are equivalent: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a) \\sum \\{ \\alpha_{n} : n \\in \\mathbb{N} \\}"
+            },
+            {
+              "type": "text",
+              "content": " converges in the sense of Definition 4.11. (b) If π is any permutation of N, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum _ { n = 1 } ^ { \\infty } \\alpha _ { \\pi ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " converges (unconditional convergence). (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { n = 1 } ^ { \\infty } | \\alpha _ { n } | < \\infty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 33,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.649,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Isomorphic Hilbert Spaces and the Fourier Transform"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.846,
+            0.056,
+            0.87,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.869,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { E }"
+            },
+            {
+              "type": "text",
+              "content": " be an orthonormal subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\nabla \\mathcal { E }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P"
+            },
+            {
+              "type": "text",
+              "content": " is the orthogonal projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P h = \\sum \\{ \\langle h , e \\rangle e : e \\in \\mathcal { E } \\}"
+            },
+            {
+              "type": "text",
+              "content": " for every h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.145,
+            0.87,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = \\mathbf { A r e a }"
+            },
+            {
+              "type": "text",
+              "content": " measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ z { \\in } \\mathbb { C } ; | z | < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 , z , z ^ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " are orthogonal vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " . Find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| z ^ { n } \\| , n \\geqslant 0."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } = \\left\\| z ^ { n } \\right\\| ^ { - 1 } z ^ { n } , n \\geqslant 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 0 } , e _ { 1 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\lambda ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.205,
+            0.756,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. In the proof of (4.14), show that if either ε or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta"
+            },
+            {
+              "type": "text",
+              "content": " is finite, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon = \\eta ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.231,
+            0.869,
+            0.266
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is an infinite dimensional Hilbert space, show that no orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hamel basis. Show that a Hamel basis is uncountable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.274,
+            0.855,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " be a regular Borel measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { R } ^ { d } ."
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is separable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.3,
+            0.87,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is separable and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ E _ { i } ;   i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a collection of pairwise disjoint subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ,   E _ { i } { \\in } \\Omega ."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\mu ( E _ { i } ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for all i.. Show that I is countable. Can you allow "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( E _ { i } ) = \\infty ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.36,
+            0.649,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h { \\in } { \\mathcal { H } } \\colon \\| h \\| \\leqslant 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " is compact, show that dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } < \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.385,
+            0.59,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. What is the cardinality of a Hamel basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } { \\stackrel { \\leftrightarrow } { . } }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.457,
+            0.779,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Isomorphic Hilbert Spaces and the Fourier Transform for the Circle"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.524,
+            0.871,
+            0.599
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Every mathematical theory has its concept of isomorphism. In topology there is homeomorphism and homotopy equivalence; algebra calls them isomorphisms. The basic idea is to define a map which preserves the basic structure of the spaces in the category."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.615,
+            0.87,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces, an isomorphism between "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear surjection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.404,
+            0.66,
+            0.595,
+            0.678
+          ],
+          "image_path": "images/page_33_equation_13.jpg",
+          "content": "\\langle U h , U g \\rangle = \\langle h , g \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.687,
+            0.78,
+            0.706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " In this case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are said to be isomorphic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.723,
+            0.872,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism, then so is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Similar such arguments show that the concept of “isomorphic\" is an equivalence relation on Hilbert spaces. It is also certain that this is the correct equivalence relation since an inner product is the essential ingredient for a Hilbert space and isomorphic Hilbert spaces have the “same\"inner product. One might object that completeness is another essential ingredient in the definition of a Hilbert space. So it is! However, this too is preserved by an isomorphism. An isometry between metric spaces is a map that preserves distance."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.905,
+            0.871,
+            0.943
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.2. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear map between Hilbert spaces, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i f"
+            },
+            {
+              "type": "text",
+              "content": " and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\langle Vh, Vg \\rangle = \\langle h, g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 34,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.156,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.709,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I. Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.864,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle V h , V g \\rangle = \\langle h , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| V h \\| ^ { 2 } = \\langle V h , V h \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , h \\rangle = \\| h \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and V is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.137,
+            0.869,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that V is an isometry. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathbf { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h + \\lambda g \\| ^ { 2 } = \\| V h + \\lambda V g \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Using the polar identity on both sides of this equation gives"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.134,
+            0.208,
+            0.857,
+            0.23
+          ],
+          "image_path": "images/page_34_equation_4.jpg",
+          "content": "\\| h \\| ^ { 2 } + 2 \\operatorname { R e } \\bar { \\lambda } \\langle h , g \\rangle + | \\lambda | ^ { 2 } \\| g \\| ^ { 2 } = \\| V h \\| ^ { 2 } + 2 \\operatorname { R e } \\bar { \\lambda } \\langle V h , V g \\rangle + | \\lambda | ^ { 2 } \\| V g \\| ^ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.246,
+            0.728,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   V { \\pmb h }   \\| = \\|   { \\pmb h }   \\|"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| V g \\| = \\| g \\|"
+            },
+            {
+              "type": "text",
+              "content": " , so this equation becomes"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.359,
+            0.282,
+            0.636,
+            0.303
+          ],
+          "image_path": "images/page_34_equation_6.jpg",
+          "content": "\\mathrm { R e } \\bar { \\lambda } \\langle h , g \\rangle = \\mathrm { R e } \\bar { \\lambda } \\langle V h , V g \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.32,
+            0.87,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for any λ in F. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F }   =   \\mathbf { R }"
+            },
+            {
+              "type": "text",
+              "content": " , take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = 1.  If  \\mathbb{F} = \\mathbb{C},"
+            },
+            {
+              "type": "text",
+              "content": " first take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   =   1"
+            },
+            {
+              "type": "text",
+              "content": " and then take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = i"
+            },
+            {
+              "type": "text",
+              "content": " to find that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle V h , V g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " have the same real and imaginary parts."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.394,
+            0.871,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that an isometry between metric spaces maps Cauchy sequences into Cauchy sequences. Thus an isomorphism also preserves completeness. That is, if an inner product space is isomorphic to a Hilbert space, then it must be complete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.49,
+            0.87,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3. Example. Definite S: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 }   \\rightarrow   l ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(\\alpha_{1},\\alpha_{2},\\ldots)=(0,\\alpha_{1},\\alpha_{2},\\ldots)"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry that is not surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.546,
+            0.848,
+            0.565
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding example shows that isometries need not be isomorphisms."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.564,
+            0.871,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A word about terminology. Many call what we call an isomorphism a unitary operator. We shall define a unitary operator as a linear transformation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " that is a surjective isometry. That "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { i s } ,"
+            },
+            {
+              "type": "text",
+              "content": " a unitary operator is an isomorphism whose range coincides with its domain. This may seem to be a minor distinction, and in many ways it is. But experience has taught me that there is some benefit in making such a distinction, or at least in being aware of it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.712,
+            0.872,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.4. Theorem. Two Hilbert spaces are isomorphic if and only if they have the same dimension."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.757,
+            0.871,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { E }"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then it is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { E } \\equiv \\{ U e \\colon e { \\in } \\mathcal { E } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence, dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\dim \\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.795,
+            0.873,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be a Hilbert space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { E }"
+            },
+            {
+              "type": "text",
+              "content": " be a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " .Consider the Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathcal { S } )"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { h } \\colon \\mathcal { E } \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { h } ( e ) = \\langle h , e \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . By Parseval's Identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { h }   \\in   l ^ { 2 } ( \\mathcal { E } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } \\| = \\| \\hat { \\boldsymbol { h } } \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } }   \\to   l ^ { 2 } ( { \\mathcal { E } } )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U h = { \\hat { h } } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is linear and an isometry. It is easy to see that ran U contains all the functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathcal { S } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( e ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all but a finite number of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ,"
+            },
+            {
+              "type": "text",
+              "content": " that is, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is dense. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ,"
+            },
+            {
+              "type": "text",
+              "content": " being an isometry, must have closed range. Hence U: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow l ^ { 2 } ( \\mathcal { E } )"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 35,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.649,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Isomorphic Hilbert Spaces and the Fourier Transform"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.871,
+            0.159
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space with a basis "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } , \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is isomorphic to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathcal { F } )"
+            },
+            {
+              "type": "text",
+              "content": " If dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{H} = \\dim \\mathcal{H}, \\mathcal{E}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " have the same cardinality; it is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathcal { S } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathcal { F } )"
+            },
+            {
+              "type": "text",
+              "content": " must be isomorphic. Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are isomorphic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.188,
+            0.869,
+            0.226
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5. Corollary. All separable infinite dimensional Hilbert spaces are isomorphic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.238,
+            0.869,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This section concludes with a rather important example of an isomorphism, the Fourier transform on the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.274,
+            0.871,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the next result can be found as an Exercise on p. 263 of Conway [1978]. Another proof will be given latter in this book after the Stone-Weierstrass Theorem is proved. So the reader can choose to assume this for the moment. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { D }   =   \\{ z   \\in   \\pmb { \\mathbb { C } } : | z | < 1 \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.366,
+            0.868,
+            0.405
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.6. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\partial \\mathbb { D }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function, then there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ p _ { n } ( z , { \\bar { z } } ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " of polynomials in z and ž such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( z , { \\bar { z } } ) \\to f ( z )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on ∂D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.417,
+            0.867,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z { \\in } { \\partial } \\mathbb { D } ,   \\bar { z } = z ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus a polynomial in z and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { z }"
+            },
+            {
+              "type": "text",
+              "content": " on ∂ID becomes a function of the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.443,
+            0.464,
+            0.547,
+            0.504
+          ],
+          "image_path": "images/page_35_equation_8.jpg",
+          "content": "\\sum _ { k = - n } ^ { n } \\alpha _ { k } z ^ { k } ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.511,
+            0.649,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z = e ^ { i \\theta } ,"
+            },
+            {
+              "type": "text",
+              "content": " this becomes a function of the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.44,
+            0.541,
+            0.555,
+            0.581
+          ],
+          "image_path": "images/page_35_equation_10.jpg",
+          "content": "\\sum _ { k = - m } ^ { n } \\alpha _ { k } e ^ { i k \\theta } ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.588,
+            0.637,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Such functions are called trigonometric polynomials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.607,
+            0.869,
+            0.645
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can now show that the orthonormal set in Example 4.3 is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " . This is a rather important result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.659,
+            0.871,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.7. Theorem. If for each n in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } ( t ) \\equiv ( 2 \\pi ) ^ { - 1 / 2 } \\exp ( i n t ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } ; n { \\in } \\mathbb { Z } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.704,
+            0.872,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } = \\left\\{ \\sum _ { k = - n } ^ { n } \\alpha _ { k } e _ { k } : \\alpha _ { k } \\in \\mathbb { C } , n \\geqslant 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is a subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { \\mathbb { C } } [ 0 , 2 \\pi ] ,"
+            },
+            {
+              "type": "text",
+              "content": " the algebra of all continuous C-valued functions on [0, 2π]. Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   \\mathcal { T } ,   f ( 0 )   =   f ( 2 \\pi )"
+            },
+            {
+              "type": "text",
+              "content": " .We want to show that the uniform closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { C } } \\equiv \\left\\{ f \\in C _ { \\mathbb { C } } [ 0 , 2 \\pi ] : f ( 0 ) = f ( 2 \\pi ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . To do this, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { C }"
+            },
+            {
+              "type": "text",
+              "content": " and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F : \\partial \\mathbb { D } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( e ^ { i t } ) = f ( t )"
+            },
+            {
+              "type": "text",
+              "content": " F is continuous. (Why?) By (5.6) there is a sequence of polynomials in z and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { z } ,   \\left\\{ p _ { n } ( z , \\bar { z } ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( z , \\bar { z } ) \\to F ( z )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on ∂D. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( e ^ { i t } , e ^ { - i t } ) \\to f ( t )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on [0, 2π]. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( e ^ { i t } , e ^ { - i t } ) \\in \\mathcal { T }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.833,
+            0.87,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now the closure of € in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " is all of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 6). Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nabla \\left\\{ e _ { n } \\colon n { \\in } \\mathbb { Z } \\right\\} = L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is thus a basis (4.13). ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.888,
+            0.872,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Actually, it is usually preferred to normalize the measure on [0, 2π]. That is, replace dt by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 \\pi ) ^ { -   1 }   d t"
+            },
+            {
+              "type": "text",
+              "content": " , so that the total measure of [0, 2π] is 1. Now define"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 36,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.156,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.709,
+            0.055,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I. Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.099,
+            0.868,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } ( t ) = \\exp ( i n t )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\colon n { \\in } \\mathbb { Z } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\equiv L _ { \\mathbb { C } } ^ { 2 } ( [ 0 , 2 \\pi ] , ( 2 \\pi ) ^ { - 1 } d t )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.147,
+            0.663,
+            0.191
+          ],
+          "image_path": "images/page_36_equation_3.jpg",
+          "content": "\\hat { f } ( n ) \\equiv \\langle f , e _ { n } \\rangle = \\frac { 1 } { 2 \\pi } \\int _ { 0 } ^ { 2 \\pi } f ( t ) e ^ { - i n t } d t\\tag{5.8}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.121,
+            0.199,
+            0.798,
+            0.219
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is called the nth Fourier coefficient of f, n in Z. By (5.7) and (4.13d)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.228,
+            0.58,
+            0.268
+          ],
+          "image_path": "images/page_36_equation_5.jpg",
+          "content": "f = \\sum _ { n = - \\infty } ^ { \\infty } { \\hat { f } } ( n ) e _ { n } ,\\tag{5.9}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.122,
+            0.276,
+            0.868,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where this infinite series converges to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in the metric defined by the norm of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . This is called the Fourier series of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ."
+            },
+            {
+              "type": "text",
+              "content": " This terminology is classical and has been adopted for a general Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.332,
+            0.869,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is any Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { E }"
+            },
+            {
+              "type": "text",
+              "content": " is a basis, the scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\langle h , e \\rangle ; e { \\in } { \\mathcal { E } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " are called the Fourier coefficients of h (relative to ) and the series in (4.13d) is called the Fourier expansion of h (relative to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.385,
+            0.867,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that Parseval's Identity applied to (5.9) gives that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { n = - \\infty } ^ { \\infty } | { \\hat { f } } ( n ) | ^ { 2 } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " This proves a classical result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.123,
+            0.44,
+            0.87,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.10. The Riemann-Lebesgue Lemma. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f f \\in L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int_{0}^{2\\pi} f(t) e^{-int} dt \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\rightarrow \\pm \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.495,
+            0.871,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " , then the Fourier series of f converges to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } \\mathrm { - n o r m }"
+            },
+            {
+              "type": "text",
+              "content": " It was conjectured by Lusin that the series converges to f almost everywhere. This was proved in Carleson [1966]. Hunt [1967] showed that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L _ { \\mathbb { C } } ^ { p } [ 0 , 2 \\pi ] , 1 < p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , then the Fourier series also converges to f a.e. Long before that, Kolmogoroff had furnished an example of a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 1 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " whose Fourier series a.e. does not converge to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.604,
+            0.871,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ] ."
+            },
+            {
+              "type": "text",
+              "content": " , the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } \\colon \\mathbf { Z } \\to \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " is called the Fourier transform of f; the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { U } : L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ] \\to l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U f = { \\hat { f } }"
+            },
+            {
+              "type": "text",
+              "content": " is the Fourier transform. The results obtained so far can be applied to this situation to yield the following."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.694,
+            0.869,
+            0.732
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.11. Theorem. The Fourier transform is a linear isometry from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathfrak { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { Z } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.74,
+            0.871,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let U: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ] \\to l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " be the Fourier transform. That U maps "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } \\equiv L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " and satisfies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   U f   \\| = \\|   f   \\|"
+            },
+            {
+              "type": "text",
+              "content": " is a consequence of Parseval's Identity. That U is linear is an exercise. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { n } \\} \\in l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { n } = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all but a finite number of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = \\sum _ { n = - \\infty } ^ { \\infty } \\alpha _ { n } e _ { n } \\in \\dot { L } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( n ) = \\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all n, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U f = \\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry, so ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is closed; hence U is surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.868,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " can be defined on ∂D by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( e ^ { i \\theta } ) = f ( \\theta )"
+            },
+            {
+              "type": "text",
+              "content": " . The ambiguity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta   =   0"
+            },
+            {
+              "type": "text",
+              "content": " and 2π (or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { i \\theta } = 1 )"
+            },
+            {
+              "type": "text",
+              "content": " might cause us to pause, but remember that elements of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " are equivalence classes of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 37,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.468,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Direct Sum of Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.842,
+            0.056,
+            0.867,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "23"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.872,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "functions—not really functions. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ 0 , 2 \\pi \\}"
+            },
+            {
+              "type": "text",
+              "content": " has zero measure, there is really no ambiguity. In this way "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " can be identified with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } ( \\partial \\mathbf { D } )"
+            },
+            {
+              "type": "text",
+              "content": " , where the measure on ∂D is normalized arc-length measure (normalized so that the total measure of ∂D is 1). So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } ( \\partial \\mathbb { D } )"
+            },
+            {
+              "type": "text",
+              "content": " are (naturally) isomorphic. Thus, Theorem 5.11 is a theorem about the Fourier transform of the circle."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.21,
+            0.871,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The importance of Theorem 5.11 is not the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " are isomorphic, but that the Fourier transform is an isomorphism. The fact that these two spaces are isomorphic follows from the abstract result that all separable infinite dimensional Hilbert spaces are isomorphic (5.5)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.13,
+            0.302,
+            0.235,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.321,
+            0.49,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Verify the statements in Example 5.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.347,
+            0.867,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\colon L ^ { 2 } ( 0 , \\infty ) { \\to } L ^ { 2 } ( 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Vf)(t) = f(t - 1)"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   >   1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( V f ) ( t ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\leqslant   1"
+            },
+            {
+              "type": "text",
+              "content": " Show that V is an isometry that is not surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.389,
+            0.869,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V : L ^ { 2 } ( \\mathbb { R } ) \\to L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Vf)(t) = f(t - 1)"
+            },
+            {
+              "type": "text",
+              "content": " and show that V is an isomorphism (a unitary operator)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.432,
+            0.867,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be the Hilbert space of Example 1.8 and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U f = f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " Show that U is an isomorphism and find a formula for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.475,
+            0.871,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space and let u: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " be an Ω-measurable function such that sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ | u ( x ) | \\colon x { \\in } X \\} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon L ^ { 2 } ( X , \\mathbf { \\Omega } , \\mu )   \\to   L ^ { 2 } ( X , \\mathbf { \\Omega } , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U f = u f"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|u(x)| = 1   a.e.   [\\mu]"
+            },
+            {
+              "type": "text",
+              "content": " , in which case U is surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.551,
+            0.812,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C } = \\left\\{ f \\in C [ 0 , 2 \\pi ] : f ( 0 ) = f ( 2 \\pi ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ 0 , 2 \\pi ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.579,
+            0.87,
+            0.615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ ( 1 / \\sqrt { 2 \\pi } ) , ( 1 / \\sqrt { \\pi } )"
+            },
+            {
+              "type": "text",
+              "content": " cos nt, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 / { \\sqrt { \\pi } } )"
+            },
+            {
+              "type": "text",
+              "content": " sin nt: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant n < \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ - \\pi , \\pi ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.622,
+            0.872,
+            0.71
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " be a measurable space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu , \\nu"
+            },
+            {
+              "type": "text",
+              "content": " be two σ-finite measures defined on (X, Ω). Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu \\ll \\mu"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is the Radon-Nikodym derivative of v with respect to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\quad ( \\phi = d v / d \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\colon L ^ { 2 } ( v ) \\to L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V f = { \\sqrt { \\phi } } f"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " is a well-defined linear isometry and V is an isomorphism if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\ll \\nu"
+            },
+            {
+              "type": "text",
+              "content": " (that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " and v are mutually absolutely continuous)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.717,
+            0.871,
+            0.751
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If H and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is a surjective function such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle U f , U g \\rangle = \\langle f , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all vectors f and g in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then U is linear."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.807,
+            0.657,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Direct Sum of Hilbert Spaces"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.848,
+            0.875,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces. We want to define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " so that it becomes a Hilbert space. This is not a difficult assignment. For any vector spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ,   \\mathcal { X }   \\oplus   \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is defined as the Cartesian product "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\times \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " where the operations are defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\times \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " coordinatewise. That is, if elements of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 38,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.059,
+            0.159,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "24"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.713,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I. Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.867,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\oplus \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " are defined as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x   \\oplus   y { : ~ } x   \\in   { \\mathcal { X } } , ~ y   \\in   { \\mathcal { Y } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x_{1} \\oplus y_{1}) + (x_{2} \\oplus y_{2}) \\equiv"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { 1 } + x _ { 2 } ) \\oplus ( y _ { 1 } + y _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " , and so on."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.155,
+            0.869,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { H } } \\oplus { \\mathcal { H } } = \\{ h \\oplus k \\colon h { \\in } { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\in \\mathcal { H } \\}"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.296,
+            0.203,
+            0.702,
+            0.223
+          ],
+          "image_path": "images/page_38_equation_4.jpg",
+          "content": "\\langle h _ { 1 } \\oplus k _ { 1 } , h _ { 2 } \\oplus k _ { 2 } \\rangle \\equiv \\langle h _ { 1 } , h _ { 2 } \\rangle + \\langle k _ { 1 } , k _ { 2 } \\rangle ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.239,
+            0.871,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It must be shown that this defines an inner product on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is complete (Exercise)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.276,
+            0.874,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now what happens if we want to define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { H } } _ { 1 } \\oplus { \\mathcal { H } } _ { 2 } \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " for a sequence of Hilbert spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { 1 } , \\mathcal { H } _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " There is a problem about the completeness of this infinite direct sum, but this can be overcome as follows."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.35,
+            0.868,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.2. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If \\mathcal{H}_1, \\mathcal{H}_2, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . are Hilbert spaces, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\left\\{ \\left( h _ { n } \\right) _ { n = 1 } ^ { \\infty } : h _ { n } \\in \\mathcal { H } _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for all n and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { n = 1 } ^ { \\infty } \\| h _ { n } \\| ^ { 2 } < \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " . For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = ( h _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = ( g _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.397,
+            0.606,
+            0.437
+          ],
+          "image_path": "images/page_38_equation_8.jpg",
+          "content": "\\langle h , g \\rangle = \\sum _ { n = 1 } ^ { \\infty } \\langle h _ { n } , g _ { n } \\rangle .\\tag{6.3}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.445,
+            0.871,
+            0.484
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle \\cdot , \\cdot \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is an inner product on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and the norm relative to this inner product is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\| h \\| = [ \\sum _ { n = 1 } ^ { \\infty } \\| h _ { n } \\| ^ { 2 } ] ^ { 1 / 2 } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " . With this inner product "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.491,
+            0.873,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = ( h _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = (g_n) \\in \\mathcal{H}"
+            },
+            {
+              "type": "text",
+              "content": " , then the CBS inequality implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum \\left| \\left\\langle h_{n}, g_{n} \\right\\rangle \\right| \\leqslant \\sum \\left\\| h_{n} \\right\\| \\left\\| g_{n} \\right\\| \\leqslant \\left( \\sum \\left\\| h_{n} \\right\\|^{2} \\right)^{1 / 2} \\left( \\sum \\left\\| g_{n} \\right\\|^{2} \\right)^{1 / 2} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Hence the series in (6.3) converges absolutely. The remainder of the proof is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.581,
+            0.872,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.4. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { 1 } , \\mathcal { H } _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces, the space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " of Proposition 6.2 is called the direct sum of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { 1 } , \\mathcal { H } _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " and is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { H } } \\equiv { \\mathcal { H } } _ { 1 } \\oplus { \\mathcal { H } } _ { 2 } \\oplus \\cdots"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.654,
+            0.872,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is part of a more general process. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ { \\mathcal { H } } _ { i } ;   i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a collection of Hilbert spaces, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\equiv \\oplus \\left\\{ \\mathcal { H } _ { i } \\colon i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is defined as the collection of functions h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I   \\rightarrow   \\cup   \\{ \\mathcal { H } _ { i } ; i   \\in   I \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( i )   \\in   \\mathcal { H } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " for all i and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum \\{ \\| h ( i ) \\| ^ { 2 } : i { \\in } I \\} < \\infty . { \\mathrm { ~ I f ~ } } h , g { \\in } { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , g \\rangle \\equiv \\sum \\{ \\langle h ( i ) , g ( i ) \\rangle : i \\in I \\} ; \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.727,
+            0.873,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The main reason for considering direct sums is that they provide a way of manufacturing operators on Hilbert space. In fact, Hilbert space is a rather dull subject, except for the fact that there are numerous interesting questions about the linear operators on them that are as yet unresolved. This subject is introduced in the next chapter."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.836,
+            0.234,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.855,
+            0.873,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ ( X _ { i } , \\Omega _ { i } , \\mu _ { i } ) \\colon i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " be a collection of measure spaces and define X, Ω, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " as follows. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ="
+            },
+            {
+              "type": "text",
+              "content": " the disjoint union of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ X _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Omega } = \\{ \\mathbf { \\Delta } \\subseteq X \\colon \\mathbf { \\Delta } \\cap X _ { i } { \\in } \\mathbf { \\Omega } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\}"
+            },
+            {
+              "type": "text",
+              "content": " For ∆ in Ω put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta )   =   \\textstyle \\sum _ { i }   \\mu _ { i } ( \\Delta   \\cap   X _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a measure space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is isomorphic to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\oplus \\left\\{ L ^ { 2 } ( \\boldsymbol { X } _ { i } , \\boldsymbol { \\Omega } _ { i } , \\mu _ { i } ) \\colon i { \\in } I \\right\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 39,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.468,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Direct Sum of Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.056,
+            0.87,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "25"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.1,
+            0.87,
+            0.187
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " be a measurable space, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 } , \\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " be σ-finite measures defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\mu _ { 1 } + \\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Show that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\colon L ^ { 2 } ( X , \\mathbf { \\Omega } , \\mu )   \\to   L ^ { 2 } ( X , \\mathbf { \\Omega } , \\mu _ { 1 } )   \\oplus   L ^ { 2 } ( X , \\mathbf { \\Omega } , \\mu _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V f = f _ { 1 } \\oplus f _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " is the equivalence class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( X , \\Omega , \\mu _ { j } )"
+            },
+            {
+              "type": "text",
+              "content": " corresponding to f, is well defined, linear, and injective. Show that V is an isomorphism iff "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are mutually singular."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

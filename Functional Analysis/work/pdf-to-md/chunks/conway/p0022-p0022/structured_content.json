@@ -1,0 +1,259 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.055,
+            0.294,
+            0.073
+          ],
+          "level": 2,
+          "content": "§2. Orthogonality"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.056,
+            0.87,
+            0.069
+          ],
+          "content": "7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.1,
+            0.87,
+            0.169
+          ],
+          "content": "5. (A variation on Example 1.8) Let $n \\geqslant 2$ and let $\\mathcal { H } =$ the collection of all function $f \\colon [ 0 , 1 ]   \\to   \\mathbb { F }$ such that (a) $f(0)=0;$ for $1 \\leqslant k \\leqslant n - 1, f^{(k)}(t)$ exists for all t in [0,1] and $f ^ { ( k ) }$ is continuous on [0, 1]; (c) $f ^ { ( n - 1 ) }$ is absolutely continuous and $f^{(n)} \\in L^2(0,1)$ . For f and g in $\\mathcal { H } ,$ , define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38,
+            0.174,
+            0.649,
+            0.215
+          ],
+          "content": "\\langle f , g \\rangle = \\sum _ { k = 1 } ^ { n } \\int _ { 0 } ^ { 1 } f ^ { ( k ) } ( t ) \\overline { { g ^ { ( k ) } ( t ) } } d t.",
+          "image_source": "images/page_21_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.223,
+            0.454,
+            0.24
+          ],
+          "content": "Show that $\\mathcal { H }$ is a Hilbert space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.249,
+            0.774,
+            0.267
+          ],
+          "content": "6. Let u be a semi-inner product on $\\mathcal { X }$ and put $\\mathcal { N } = \\{ x { \\in } \\mathcal { X } : u ( x , x ) = 0 \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.275,
+            0.547,
+            0.292
+          ],
+          "content": "(a) Show that $\\mathcal { N }$ is a linear subspace of $\\mathcal { X } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.292,
+            0.309,
+            0.309
+          ],
+          "content": "(b) Show that if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41,
+            0.318,
+            0.645,
+            0.335
+          ],
+          "content": "\\langle x + \\mathcal { N } , y + \\mathcal { N } \\rangle \\equiv u ( x , y )",
+          "image_source": "images/page_21_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.344,
+            0.865,
+            0.378
+          ],
+          "content": "for all $x + \\mathcal { N }$ and $y + \\mathcal { N }$ in the quotient space $\\mathcal { X } / \\mathcal { N } ,$ then $\\langle \\cdot , \\cdot \\rangle$ is a well-defined inner product on $\\mathcal { X } / \\mathcal { N }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.386,
+            0.866,
+            0.455
+          ],
+          "content": "7. Let $\\mathcal { H }$ be a Hilbert space over R and show that there is a Hilbert space $\\mathcal { H }$ over C and a map $U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }$ such that (a) U is linear; (b) $\\langle U h _ { 1 } , U h _ { 2 } \\rangle = \\langle h _ { 1 } , h _ { 2 } \\rangle$ for all $h _ { 1 } , h _ { 2 }$ in $\\mathcal { H } ; ( c )$ for any k in $\\mathcal { H }$ there are unique $h _ { 1 } , h _ { 2 }$ in $\\mathcal { H }$ such that $k = U h _ { 1 } + i U h _ { 2 } \\cdot ( \\mathcal { H }$ is called the complexification of $\\mathcal { H } . )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.462,
+            0.864,
+            0.498
+          ],
+          "content": "8. If $G = \\{ z \\in \\mathbb { C } : 0 < | z | < 1 \\}$ show that every f in $L _ { a } ^ { 2 } ( G )$ has a removable singularity at $z = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.506,
+            0.432,
+            0.525
+          ],
+          "content": "9. Which functions are in $L _ { a } ^ { 2 } ( \\mathbb { C } ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.531,
+            0.862,
+            0.567
+          ],
+          "content": "10. Let G be an open subset of C and show that if $a { \\in } G .$ then $\\{ f \\in L _ { a } ^ { 2 } ( G ) : f ( a ) = 0 \\}$ is closed in $L _ { a } ^ { 2 } ( G )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.574,
+            0.865,
+            0.61
+          ],
+          "content": "11. If $\\{ h _ { n } \\}$ is a sequence in a Hilbert space $\\mathcal { H }$ such that $\\textstyle \\sum _ { n } \\| h _ { n } \\| < \\infty$ , then show that $\\sum _ { n = 1 } ^ { \\infty } h _ { n }$ converges in $\\mathcal { H }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.634,
+            0.384,
+            0.659
+          ],
+          "level": 2,
+          "content": "§2. Orthogonality"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.674,
+            0.876,
+            0.712
+          ],
+          "content": "The greatest advantage of a Hilbert space is its underlying concept of orthogonality."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.728,
+            0.878,
+            0.785
+          ],
+          "content": "2.1. Definition. If $\\mathcal { H }$ is a Hilbert space and f, $g \\in \\mathcal { H }$ , then f and g are orthogonal $\\mathrm { i f } \\langle f , g \\rangle = 0$ . In symbols, $f \\bot g .$ If $A , B \\subseteq { \\mathcal { H } }$ , then $A \\bot B$ if $f \\perp g$ for every f in A and g in B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.801,
+            0.875,
+            0.84
+          ],
+          "content": "If $\\mathcal { H } = \\mathbb { R } ^ { 2 }$ , this is the correct concept. Two non-zero vectors in $\\mathbb { R } ^ { 2 }$ are orthogonal precisely when the angle between them is $\\pi / 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.856,
+            0.876,
+            0.894
+          ],
+          "content": "2.2. The Pythagorean Theorem. $I f f _ { 1 } , f _ { 2 } , \\ldots , f _ { n }$ are pairwise orthogonal vectors in $\\mathcal { H }$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.246,
+            0.901,
+            0.759,
+            0.923
+          ],
+          "content": "\\| f _ { 1 } + f _ { 2 } + \\cdots + f _ { n } \\| ^ { 2 } = \\| f _ { 1 } \\| ^ { 2 } + \\| f _ { 2 } \\| ^ { 2 } + \\cdots + \\| f _ { n } \\| ^ { 2 } .",
+          "image_source": "images/page_21_equation_20.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

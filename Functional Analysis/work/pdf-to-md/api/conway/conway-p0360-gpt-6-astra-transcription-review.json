@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 360,
+  "model": "gpt-6-astra",
+  "seconds": 17.73,
+  "input_tokens": 3693,
+  "output_tokens": 690,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"if $x\\\\in\\\\mathcal H_0$\",\n      \"correction\": \"if $x\\\\in\\\\mathcal K_0$\"\n    },\n    {\n      \"candidate\": \"$T_0\\\\mathcal H_0\\\\subseteq\\\\mathcal H_0$\",\n      \"correction\": \"$T_0\\\\mathcal K_0\\\\subseteq\\\\mathcal K_0$\"\n    },\n    {\n      \"candidate\": \"$T(x+\\\\mathcal H_0)=T_0x+\\\\mathcal H_0$\",\n      \"correction\": \"$T(x+\\\\mathcal K_0)=T_0x+\\\\mathcal K_0$\"\n    },\n    {\n      \"candidate\": \"$J_0\\\\mathcal H_0\\\\subseteq\\\\mathcal H_0$\",\n      \"correction\": \"$J_0\\\\mathcal K_0\\\\subseteq\\\\mathcal K_0$\"\n    },\n    {\n      \"candidate\": \"$J_1(x+\\\\mathcal H_0)=J_0x+\\\\mathcal H_0$\",\n      \"correction\": \"$J_1(x+\\\\mathcal K_0)=J_0x+\\\\mathcal K_0$\"\n    },\n    {\n      \"candidate\": \"$e=e_0+\\\\mathcal H_0$\",\n      \"correction\": \"$e=e_0+\\\\mathcal K_0$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

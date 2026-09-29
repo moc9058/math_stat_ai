@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 198,
+  "model": "gpt-6-astra",
+  "seconds": 11.19,
+  "input_tokens": 3255,
+  "output_tokens": 268,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"5.2(b): $A\\\\in\\\\mathcal B(\\\\mathcal Y,\\\\mathcal X)$\",\n      \"correction\": \"$A\\\\in\\\\mathcal B(\\\\mathcal Y,\\\\mathcal Z)$\"\n    },\n    {\n      \"candidate\": \"5.2(c): $B\\\\in\\\\mathcal B(\\\\mathcal X,\\\\mathcal X)$\",\n      \"correction\": \"$B\\\\in\\\\mathcal B(\\\\mathcal Z,\\\\mathcal X)$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 398,
+  "model": "gpt-6-astra",
+  "seconds": 8.99,
+  "input_tokens": 3031,
+  "output_tokens": 189,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"Let $F\\\\in C_0(X)^*$\",\n      \"correction\": \"Let $F\\\\in C_0(x)^*$\",\n      \"note\": \"The image prints lowercase x here, apparently a source typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

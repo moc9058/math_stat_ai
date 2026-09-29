@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 79,
+  "model": "gpt-6-astra",
+  "seconds": 15.2,
+  "input_tokens": 3456,
+  "output_tokens": 388,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"(b) $\\\\{x\\\\in\\\\mathcal{X}:q(x)<1\\\\}$\",\n      \"correction\": \"(b) $\\\\{x\\\\in\\\\mathcal{X}:q(x)<1)\\\\}$\",\n      \"note\": \"The image contains an extra closing parenthesis before the brace, apparently a source typo omitted by the transcription.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

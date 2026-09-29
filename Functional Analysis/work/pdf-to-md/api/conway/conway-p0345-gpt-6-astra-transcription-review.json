@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 345,
+  "model": "gpt-6-astra",
+  "seconds": 12.18,
+  "input_tokens": 3274,
+  "output_tokens": 336,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"\\\\mathcal D\\\\ne\\\\varnothing\",\n      \"correction\": \"\\\\mathcal D\\\\ne\\\\square\"\n    }\n  ],\n  \"uncertain_regions\": [\n    \"The proof visibly prints a hollow square after D ≠; whether this is an intended empty-set symbol or a printing defect requires review.\"\n  ]\n}"
+}

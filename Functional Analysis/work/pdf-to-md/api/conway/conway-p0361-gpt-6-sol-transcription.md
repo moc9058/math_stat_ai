@@ -1,0 +1,5 @@
+equivalent. (a) There is a finite positive measure $\mu$ on $\mathbb{R}$ such that $m(t)=\int e^{ixt}\,d\mu(x)$ for all $t$ in $\mathbb{R}$. (b) $m$ is continuous and if $\alpha_0,\ldots,\alpha_n\in\mathbb{C}$ and $t_0,\ldots,t_n\in\mathbb{R}$, then $\sum_{j,k=0}^{n}m(t_j-t_k)\alpha_j\bar{\alpha}_k\geq 0$. (c) There is a strongly continuous one-parameter unitary group $U(t)$ and a vector $e$ such that $m(t)=\langle U(t)e,e\rangle$ for all $t$. (Hint: Let $\mathcal{H}_0=$ all functions $f:\mathbb{R}\to\mathbb{C}$ that vanish off a finite set.)
+
+3. Let $\{m_n:n\in\mathbb{Z}\}\subseteq\mathbb{C}$ and show that the following statements are equivalent. (a) There is a positive measure $\mu$ on $\partial\mathbb{D}$ such that $m_n=\int z^n\,d\mu(z)$ for all $n$ in $\mathbb{Z}$. (b) If $\alpha_{-n},\ldots,\alpha_{-1},\alpha_0,\alpha_1,\ldots,\alpha_n\in\mathbb{C}$, then $\sum_{j,k=-n}^{n}m_{j-k}\alpha_j\bar{\alpha}_k\geq 0$. (c) There is a unitary operator $U$ and a vector $e$ such that $m_n=\langle U^n e,e\rangle$ for all $n$.
+
+4. Show that the operator $A$ that appears in the proof that (7.1b) implies (7.1c) is cyclic.

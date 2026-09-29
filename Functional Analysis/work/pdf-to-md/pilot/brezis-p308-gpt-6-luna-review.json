@@ -1,0 +1,9 @@
+{
+  "book": "Brezis",
+  "pdf_page": 308,
+  "model": "gpt-6-luna",
+  "seconds": 10.47,
+  "input_tokens": 3363,
+  "output_tokens": 837,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"assume that \u0004 is of class $C ^ { 1 }$\",\n      \"correction\": \"assume that $\\\\Omega$ is of class $C^1$\"\n    },\n    {\n      \"candidate_fragment\": \"Then $u = 0$ on \u0013\",\n      \"correction\": \"Then $u=0$ on $\\\\Gamma$\"\n    },\n    {\n      \"candidate_fragment\": \"a.e. on \u0004\",\n      \"correction\": \"a.e. on $\\\\Omega$\"\n    },\n    {\n      \"candidate_fragment\": \"where $f$ is given on \u0004 and g is given on \u0013\",\n      \"correction\": \"where $f$ is given on $\\\\Omega$ and $g$ is given on $\\\\Gamma$\"\n    },\n    {\n      \"candidate_fragment\": \"such tha\",\n      \"correction\": \"such that\"\n    },\n    {\n      \"candidate_fragment\": \"$\\\\tilde { \\\\mathfrak { t } ^ { 2 2 } } \\\\; \\\\tilde { g } = g$ on $\\\\Gamma$\",\n      \"correction\": \"$\\\\tilde g=g$ on $\\\\Gamma$\"\n    },\n    {\n      \"candidate_fragment\": \"The footnote beginning “22 This assumption is satisfied...”\",\n      \"correction\": \"Footnote 22 reads: “This assumption is satisfied, for example, if $\\\\Omega$ is of class $C^1$ and $g\\\\in C^1(\\\\Gamma)$. If $\\\\Omega$ is regular enough it is not necessary to suppose that $\\\\tilde g\\\\in C(\\\\overline\\\\Omega)$. Applying the theory of traces (see the comments at the end of this chapter), it suffices to know that $\\\\tilde g\\\\in H^1(\\\\Omega)$, i.e., $g\\\\in H^{1/2}(\\\\Gamma)$.”\"\n    }\n  ],\n  \"uncertain_regions\": [\n    \"The candidate’s footnote extraction is badly garbled and should be checked against the image; the visible footnote text is transcribed in the correction above.\"\n  ]\n}"
+}

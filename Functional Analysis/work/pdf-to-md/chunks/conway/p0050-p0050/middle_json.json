@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 49,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 49,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.055,
+            0.415,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Adjoint of an Operator"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.843,
+            0.056,
+            0.868,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "35"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.407,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\bar { h } \\| = \\| A ^ { * } h \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all h."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.161,
+            0.119,
+            0.853,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If H is a C-Hilbert space, then these statements are also equivalent to:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.137,
+            0.597,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) The real and imaginary parts of A commute."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.164,
+            0.871,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { I f } \\quad h \\in { \\mathcal { H } } ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\boldsymbol{h} \\|^2 - \\| A^* \\boldsymbol{h} \\|^2 = \\langle A \\boldsymbol{h}, A \\boldsymbol{h} \\rangle - \\langle A^* \\boldsymbol{h}, A^* \\boldsymbol{h} \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\langle ( A ^ { * } A - A A ^ { * } ) h , h \\right\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A - A A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is hermitian, the equivalence of (a) and (b) follows from Corollarv 2.14."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.219,
+            0.813,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B , C"
+            },
+            {
+              "type": "text",
+              "content": " are real and imaginary parts of A, then a calculation yields"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.352,
+            0.251,
+            0.645,
+            0.27
+          ],
+          "image_path": "images/page_49_equation_7.jpg",
+          "content": "A ^ { * } A = B ^ { 2 } - i C B + i B C + C ^ { 2 } ,"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.353,
+            0.274,
+            0.644,
+            0.293
+          ],
+          "image_path": "images/page_49_equation_8.jpg",
+          "content": "A A ^ { * } = B ^ { 2 } + i C B - i B C + C ^ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.307,
+            0.868,
+            0.326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = AA^{*}"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "CB = BC"
+            },
+            {
+              "type": "text",
+              "content": " , and so (a) and (c) are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.362,
+            0.808,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.17. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.391,
+            0.333,
+            0.408
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.409,
+            0.255,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A = I ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.427,
+            0.515,
+            0.446
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , A g \\rangle = \\langle h , g \\rangle \\; { \\it f o r ~ a l l ~ } h , g { \\it i n ~ } \\mathcal { H } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.454,
+            0.87,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. The proof that (a) and (c) are equivalent was seen in Proposition I.5.2. Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A ^ { * } A h , g \\rangle = \\langle A h , A g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Hence (b) and (c) are easily seen to be equivalent. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.531,
+            0.856,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.18. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.558,
+            0.327,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = AA^{*} = I."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.578,
+            0.64,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) A is unitary. (That is, A is a surjective isometry.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.128,
+            0.596,
+            0.396,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) A is a normal isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.127,
+            0.622,
+            0.467,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a) \\Rightarrow (b);"
+            },
+            {
+              "type": "text",
+              "content": " Proposition I.5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.125,
+            0.641,
+            0.871,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)⇒(c): By (2.17), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A = I ."
+            },
+            {
+              "type": "text",
+              "content": " But it is easy to see that the fact that A is a surjective isometry implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is also. Hence by (2.17) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = (A^{-1})^{*}A^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A^{*})^{-1}A^{-1}=(AA^{*})^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " ; this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = A\\overline{A^{*}} = I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.126,
+            0.694,
+            0.871,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(c) \\Rightarrow (a)"
+            },
+            {
+              "type": "text",
+              "content": " By (2.17), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A = I ."
+            },
+            {
+              "type": "text",
+              "content": " Since A is also normal, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A A ^ { * } = A ^ { * } A = I"
+            },
+            {
+              "type": "text",
+              "content": " and so A is surjective. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.154,
+            0.748,
+            0.802,
+            0.768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We conclude with a very important, though easily proved, result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.126,
+            0.785,
+            0.632,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.19. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   A \\in \\mathcal{B}(\\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " , then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( \\operatorname{rank} A^* )^{\\perp}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.126,
+            0.813,
+            0.869,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If h∈ker A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , A ^ { * } g \\rangle = \\langle A h , g \\rangle = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " so ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { A } \\subseteq"
+            },
+            {
+              "type": "text",
+              "content": " (ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . On the other hand, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\perp \\tan A^{*}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , g \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , A ^ { * } g \\rangle = 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\operatorname { r a n } A ^ { * } ) ^ { \\perp } \\subseteq \\ker A"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.125,
+            0.886,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two facts should be noted. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = A"
+            },
+            {
+              "type": "text",
+              "content": " , it also holds that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\operatorname { r a n } A ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Second, it is not true that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker A ) ^ { \\perp } = \\operatorname { r a n } A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " since ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " may not"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

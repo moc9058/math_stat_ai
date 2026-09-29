@@ -1,0 +1,1032 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": null,
+      "authors": [],
+      "subject": null,
+      "keywords": [],
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "identifiers": [],
+      "publisher": null,
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 208,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0",
+  "schema": "docvortex.model",
+  "pages": [
+    [
+      {
+        "type": "page_number",
+        "bbox": [
+          0.132,
+          0.057,
+          0.167,
+          0.072
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "194"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "bbox": [
+          0.482,
+          0.055,
+          0.87,
+          0.073
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "VII. Banach Algebras and Spectral Theory"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.1,
+          0.871,
+          0.213
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.134,
+              0.101,
+              0.869,
+              0.117
+            ]
+          },
+          {
+            "bbox": [
+              0.133,
+              0.118,
+              0.868,
+              0.136
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.137,
+              0.864,
+              0.155
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.156,
+              0.862,
+              0.174
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.175,
+              0.865,
+              0.192
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.193,
+              0.864,
+              0.21
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "ProOF. We have already seen that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha / M"
+          },
+          {
+            "type": "text",
+            "content": " is a Banach space and, as was mentioned prior to the statement of the theorem, "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha / M"
+          },
+          {
+            "type": "text",
+            "content": " is an algebra. If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x , y { \\in } { \\mathcal { A } }"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u , v \\in \\mathcal { M }"
+          },
+          {
+            "type": "text",
+            "content": " then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "(x + u)(y + v) = xy + (xv + uv + uv) \\in xy + \\mathcal{M}"
+          },
+          {
+            "type": "text",
+            "content": " Hence "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| (x + \\mathcal{M})(y + \\mathcal{M}) \\| = \\| xy + \\mathcal{M} \\| \\leqslant \\| (x + u)(y + v) \\| \\leqslant \\| x + u \\| \\| y + v \\|"
+          },
+          {
+            "type": "text",
+            "content": " Taking the infimum over all u, v in M gives that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| ( x + \\mathcal { M } ) ( y + \\mathcal { M } ) \\| \\leq \\| x + \\mathcal { M } \\|"
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| y + \\mathcal { M } \\|"
+          },
+          {
+            "type": "text",
+            "content": " . The remainder of the proof is left to the reader."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.229,
+          0.871,
+          0.321
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.156,
+              0.229,
+              0.869,
+              0.248
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.248,
+              0.867,
+              0.266
+            ]
+          },
+          {
+            "bbox": [
+              0.128,
+              0.266,
+              0.869,
+              0.284
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.284,
+              0.868,
+              0.303
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.303,
+              0.397,
+              0.32
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "It may be that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha / M"
+          },
+          {
+            "type": "text",
+            "content": " has an identity even if  does not. For example, let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { A } = C _ { 0 } ( \\mathbb { R } )"
+          },
+          {
+            "type": "text",
+            "content": " and let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { M } = \\{ \\phi \\in C _ { 0 } ( \\mathbb { R } ) : \\phi ( x ) = 0"
+          },
+          {
+            "type": "text",
+            "content": " when "
+          },
+          {
+            "type": "equation_inline",
+            "content": "| x | \\leqslant 1 \\}"
+          },
+          {
+            "type": "text",
+            "content": " . If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi _ { 0 } \\in C _ { 0 } ( \\mathbb { R } )"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi _ { 0 } ( x ) = 1"
+          },
+          {
+            "type": "text",
+            "content": " for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "| x | \\leqslant 1"
+          },
+          {
+            "type": "text",
+            "content": " , then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi _ { 0 } + \\mathcal { M }"
+          },
+          {
+            "type": "text",
+            "content": " is an identity for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\sigma / d"
+          },
+          {
+            "type": "text",
+            "content": " . In fact, if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi \\in C _ { 0 } ( \\mathbb { R } ) , \\quad ( \\phi \\phi _ { 0 } - \\phi ) ( x ) = 0 \\quad \\mathrm { i f } \\quad | x | \\leqslant 1"
+          },
+          {
+            "type": "text",
+            "content": " . Hence "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\phi + \\mathcal { M } ) ( \\phi _ { 0 } + \\mathcal { M } ) = \\phi + \\mathcal { M }"
+          },
+          {
+            "type": "text",
+            "content": " (see Exercises 6 through 9)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph_title",
+        "bbox": [
+          0.128,
+          0.339,
+          0.233,
+          0.356
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.339,
+              0.23,
+              0.356
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "EXERCISES"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.136,
+          0.358,
+          0.871,
+          0.41
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.142,
+              0.359,
+              0.866,
+              0.376
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.375,
+              0.869,
+              0.392
+            ]
+          },
+          {
+            "bbox": [
+              0.166,
+              0.392,
+              0.806,
+              0.407
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "1. Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          },
+          {
+            "type": "text",
+            "content": " be a Banach algebra and let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { L }"
+          },
+          {
+            "type": "text",
+            "content": " be all of the closed left ideals in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          },
+          {
+            "type": "text",
+            "content": " If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I _ { 1 } ,"
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I _ { 2 } \\in \\mathcal { L } ,"
+          },
+          {
+            "type": "text",
+            "content": " define "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I_{1} \\lor I_{2} \\equiv \\mathrm{cl}(I_{1} + I_{2})"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I _ { 1 } \\wedge I _ { 2 } = I _ { 1 } \\cap I _ { 2 }"
+          },
+          {
+            "type": "text",
+            "content": " . Show that with these definitions "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { L }"
+          },
+          {
+            "type": "text",
+            "content": " is a complete lattice with a largest and a smallest element."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.136,
+          0.417,
+          0.871,
+          0.486
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.14,
+              0.418,
+              0.867,
+              0.435
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.435,
+              0.869,
+              0.451
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.452,
+              0.867,
+              0.469
+            ]
+          },
+          {
+            "bbox": [
+              0.166,
+              0.471,
+              0.47,
+              0.484
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "2. Let X be locally compact. For every open subset U of X, let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I ( U ) = \\{ \\phi \\in C _ { 0 } ( X ) \\}"
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi = 0 \\mathrm { o n } X \\backslash U \\}"
+          },
+          {
+            "type": "text",
+            "content": " . Show that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "U   \\mapsto   I ( U )"
+          },
+          {
+            "type": "text",
+            "content": " is a lattice monomorphism of the collection of open subsets of X into the lattice of close ideals of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "C _ { 0 } ( X )"
+          },
+          {
+            "type": "text",
+            "content": " . (It is, in fact, surjective, but the proof of that should wait.)"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.137,
+          0.494,
+          0.871,
+          0.546
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.139,
+              0.495,
+              0.871,
+              0.511
+            ]
+          },
+          {
+            "bbox": [
+              0.162,
+              0.511,
+              0.868,
+              0.528
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.529,
+              0.307,
+              0.545
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "3. Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( X , \\Omega , \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " be a σ-finite measure space and let I be an ideal in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "L ^ { \\infty } ( X , \\Omega , \\mu )"
+          },
+          {
+            "type": "text",
+            "content": " that is weak* closed. Show that there is a set ∆ in Ω such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I = \\{ \\phi \\in L ^ { \\infty } ( X , \\Omega , \\mu ) :"
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\phi   =   0"
+          },
+          {
+            "type": "text",
+            "content": " a.e. on "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\Delta \\}"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.135,
+          0.55,
+          0.871,
+          0.61
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.138,
+              0.551,
+              0.873,
+              0.592
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.594,
+              0.594,
+              0.608
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "4. Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { A } = \\left\\{ \\left[ \\begin{matrix} { \\alpha } & { 0 } \\\\ { \\beta } & { \\alpha } \\\\ \\end{matrix} \\right] : \\alpha , \\beta \\in \\mathbb { F } \\right\\}"
+          },
+          {
+            "type": "text",
+            "content": " and let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { M } = \\left\\{ \\left[ \\begin{matrix} { 0 } & { 0 } \\\\ { \\beta } & { 0 } \\\\ \\end{matrix} \\right] : \\beta { \\in } \\mathbb { F } \\right\\}"
+          },
+          {
+            "type": "text",
+            "content": " . Show that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha"
+          },
+          {
+            "type": "text",
+            "content": " is a Banach algebra and M is a maximal ideal in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.137,
+          0.618,
+          0.806,
+          0.636
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.14,
+              0.619,
+              0.804,
+              0.636
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "5. Show that for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "n \\geqslant 1,   M_n(\\mathbb{C})"
+          },
+          {
+            "type": "text",
+            "content": " has no nontrivial ideals. How about "
+          },
+          {
+            "type": "equation_inline",
+            "content": "M _ { n } ( \\mathbb { R } ) ?"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.137,
+          0.644,
+          0.871,
+          0.812
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.139,
+              0.644,
+              0.869,
+              0.66
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.661,
+              0.869,
+              0.677
+            ]
+          },
+          {
+            "bbox": [
+              0.167,
+              0.677,
+              0.869,
+              0.694
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.695,
+              0.868,
+              0.71
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.712,
+              0.864,
+              0.728
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.728,
+              0.869,
+              0.745
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.746,
+              0.868,
+              0.761
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.762,
+              0.867,
+              0.779
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.78,
+              0.869,
+              0.796
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.796,
+              0.226,
+              0.81
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "6. Let "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          },
+          {
+            "type": "text",
+            "content": " be a Banach algebra but do not assume that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha"
+          },
+          {
+            "type": "text",
+            "content": " has an identity. If I is a left ideal of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha ,"
+          },
+          {
+            "type": "text",
+            "content": " say that I is a modular left ideal if there is a u in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          },
+          {
+            "type": "text",
+            "content": " such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { A } ( 1 - u ) \\equiv \\{ a - a u : a \\in \\mathcal { A } \\} \\subseteq I ;"
+          },
+          {
+            "type": "text",
+            "content": " call such an element u of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          },
+          {
+            "type": "text",
+            "content": " a right modular unit for I. Similarly, define right modular ideals and left modular units. Prove the following. (a) If u is a right modular unit for the left ideal I and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u { \\in } I ,"
+          },
+          {
+            "type": "text",
+            "content": " then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I = \\mathcal { A }"
+          },
+          {
+            "type": "text",
+            "content": " (b) Maximal modular left ideals are maximal left ideals. (c) If I is a proper modular left ideal, then I is contained in a maximal left ideal. (d) If I is a proper modular left ideal and u is a modular right unit for I, then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| \\boldsymbol { u } - \\boldsymbol { x } \\| \\geqslant 1"
+          },
+          {
+            "type": "text",
+            "content": " for all x in I and cl I is a proper modular left ideal. (e) Every maximal modular left ideal of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha"
+          },
+          {
+            "type": "text",
+            "content": " is closed."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.136,
+          0.821,
+          0.872,
+          0.922
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.14,
+              0.822,
+              0.869,
+              0.838
+            ]
+          },
+          {
+            "bbox": [
+              0.163,
+              0.839,
+              0.869,
+              0.854
+            ]
+          },
+          {
+            "bbox": [
+              0.164,
+              0.855,
+              0.869,
+              0.871
+            ]
+          },
+          {
+            "bbox": [
+              0.163,
+              0.872,
+              0.868,
+              0.888
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.888,
+              0.867,
+              0.904
+            ]
+          },
+          {
+            "bbox": [
+              0.165,
+              0.906,
+              0.283,
+              0.919
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "7. Using the terminology of Exercise 6, let I be an ideal of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\varkappa"
+          },
+          {
+            "type": "text",
+            "content": " Show: (a) if u is a right modular unit for I and v is a left modular unit for I, then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u - v   \\in   I ,"
+          },
+          {
+            "type": "text",
+            "content": " (b) If I is closed, "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { A } / I"
+          },
+          {
+            "type": "text",
+            "content": " has an identity if and only if there is a right modular unit and a left modular unit for I. Call an ideal I such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { A } / I"
+          },
+          {
+            "type": "text",
+            "content": " has an identity a modular ideal. An element u such that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u + I"
+          },
+          {
+            "type": "text",
+            "content": " is an identity for "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { A } / I"
+          },
+          {
+            "type": "text",
+            "content": " is called a modular identity for I."
+          }
+        ]
+      }
+    ]
+  ],
+  "page_index_map": [
+    208
+  ]
+}

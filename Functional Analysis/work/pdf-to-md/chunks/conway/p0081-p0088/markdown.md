@@ -1,0 +1,295 @@
+1.8. Example. If $( X , \Omega , \mu )$ is a measure space and $1 \leqslant p \leqslant \infty$ , then $L ^ { p } ( X , \Omega , \mu )$ is a Banach space.
+
+The preceding example is usually proved in courses on integration and no proof is given here.
+
+1.9. Example. Let I be a set and $1 \leqslant p < \infty$ . Define $l ^ { \pmb { p } } ( I )$ to be the set of all functions $f \colon I   \to   \mathbf { F }$ such that $\sum \left\{ \left| f(i) \right|^p : i \in I \right\} < \infty;$ and define $\| f \| _ { p } =$ $( \sum \{ | f ( i ) | ^ { p } : i { \in } I \} ) ^ { 1 / p }$ . Then $l ^ { p } ( I )$ is a Banach space. If $I   =   \mathbf { N } ,$ then $l ^ { p } ( \mathbb { N } ) = \dot { l } ^ { p }$
+
+If $\Omega = \mathrm{a} \Pi$ subsets of I and for each $\pmb { \Delta }$ in $\Omega , \mu ( \Delta ) =$ the number of points in $\pmb { \Delta }$ if $\pmb { \Delta }$ is finite and $\mu ( \Delta ) = \infty$ otherwise, then $l ^ { p } ( I ) = L ^ { p } ( I , \Omega , \mu )$ . So the statement in (1.9) is a consequence of the one in (1.8).
+
+1.10. Example. Let $n \geqslant 1$ and let $C ^ { ( n ) } [ 0 , 1 ] = \mathrm { t h e }$ collection of functions $f \colon [ 0 , 1 ]   \to   \bar { \mathbb { F } }$ such that f has n continuous derivatives. Define $\| f \| =$ $\sup_{0 \leqslant k \leqslant n} \left\{ \sup \left\{ \left| f^{(k)}(x) \right| : 0 \leqslant x \leqslant 1 \right\} \right\}$ . Then $C ^ { ( n ) } [ 0 , 1 ]$ is a Banach space.
+
+1.11. Example. Let $1 \leqslant p < \infty$ and $n \geqslant 1$ and let $W _ { p } ^ { n } [ 0 , 1 ] =$ the functions $f \colon [ 0 , 1 ]   \to   \mathbb { F }$ such that $f$ has $n - 1$ continuous derivatives, $f ^ { ( n - 1 ) }$ is absolutely continuous, and $f^{(n)} \in L^p[0,1]$ . For $f$ in $W _ { p } ^ { n } [ 0 , 1 ]$ , define
+
+$$
+\| f \| = \sum_{k = 0}^{n} \left[ \int_{0}^{1} | f^{(k)}(x) |^p   dx \right]^{1/p} .
+$$
+
+Then $W _ { p } ^ { n } [ 0 , 1 ]$ is a Banach space.
+
+The following is a useful fact about seminorms.
+
+1.12. Proposition. If p is a seminorm on $\mathcal { X } , \left| p ( x ) - p ( y ) \right| \leqslant p ( x - y )$ for all $x , y$ in X. If∥·∥ is a norm, then $\mid \|   x   \| - \|   y   \|   | \leqslant \|   x - y   \|$ for all $x , y$ in $\mathcal { X }$
+
+ProoF. Of course, the inequality for norms is a consequence of the one for seminorms. Note that if $x , y { \in } { \mathcal { X } }$ $p(x)=p(x-y+y)\leqslant p(x-y)+p(y).$ so $p(x)-p(y) \leqslant p(x-y)$ . Similarly, $p(y)-p(x) \leqslant p(x-y).$ ■
+
+There is the concept of“isomorphism" for the category of Banach spaces.
+
+1.13. Definition. If $\mathcal { X }$ and $\theta$ are normed spaces, $\mathcal { X }$ and $\theta$ are isometrically isomorphic if there is a surjective linear isometry from $\mathcal { X }$ onto $\mathcal { Y }$
+
+The term isomorphism in Banach space theory is reserved for linear bijections $T \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ that are homeomorphisms.
+
+EXERCISES
+
+1. Complete the proof of Proposition 1.3.
+
+2. Complete the proof of Proposition 1.5.
+
+3. For $1 \leqslant p < \infty$ and $x   =   ( x _ { 1 } , \ldots , x _ { d } )$ in $\mathbb { F } ^ { d }$ , define $\| x \| _ { p } \equiv [ \sum _ { j = 1 } ^ { d } | x _ { j } | ^ { p } ] ^ { 1 / p }$ define $\| x \|_{\infty} \equiv \sup \left\{ |x_j| : 1 \leqslant j \leqslant d \right\}$ . Show that all of these norms are equivalent. For $1 \leqslant p , q \leqslant \infty$ , what are the best constants c and C such that $c \left\| x \right\|_p \leqslant \left\| x \right\|_q \leqslant C \left\| x \right\|_p$ for all x in $\mathbf { F } ^ { d \circ }$
+
+4. If $1 \leqslant p \leqslant \infty$ and $\left\| \cdot \right\| _ { \pmb { p } }$ is defined on $\mathbb { R } ^ { 2 }$ as in Exercise 3, graph $\{ x \in \mathbb { R } ^ { 2 } : \| x \| _ { p } = 1 \}$ Note that if $1 < p < \infty, \quad \|x\|_p = \|y\|_p = 1$ , and $x \neq y ,$ then for $0 < t < 1$ $\| t x + ( 1 - t ) y \| _ { p } < 1$ . The same cannot be said for $p = 1 , \infty$
+
+5. Let c = the set of all sequences $\{ \alpha _ { n } \} _ { 1 } ^ { \infty } , \alpha _ { n }$ in $\mathbb { F } ,$ such that lim $\alpha _ { n }$ exists. Show that c is a closed subspace of $l ^ { \infty }$ and hence is a Banach space.
+
+6. Let $X = \{ n ^ { - 1 } : n \geqslant 1 \} \cup \{ 0 \}$ . Show that $C ( X )$ and the space of c of Exercise 5 are isometrically isomorphic.
+
+(a) Show that if $1 \leqslant p < \infty$ and I is an infinite set, then $l ^ { p } ( I )$ has a dense set of the same cardinality as I.
+
+(b) Show that if $1 \leqslant p < \infty,   l^p(I)$ and $l ^ { p } ( J )$ are isometrically isomorphic if and only if I and J have the same cardinality.
+
+7. If $l ^ { \infty } ( I )$ and $l ^ { \infty } ( J )$ are isometrically isomorphic, do I and J have the same cardinality?
+
+8. Show that $l ^ { \infty }$ is not separable.
+
+9. Complete the proof of Proposition 1.7.
+
+10. Verify the statements in Example 1.10.
+
+11. Verify the statements in Example 1.11.
+
+12. Let X be locally compact and let $X _ { \infty } = X \cup \{ \infty \}$ be the one-point compactification of X. Show that $C _ { 0 } ( X )$ and $\{ f \in C(X_{\infty}) : f(\infty) = 0 \}$ , with the norm it inherits as a subspace of $C ( X _ { \infty } ) ,$ , are isometrically isomorphic Banach spaces.
+
+13. Let X be locally compact and define $C _ { c } ( X )$ to be the continuous functions $f \colon X   \to   \mathbb { F }$ such that spt $f \equiv \mathrm{cl} \left\{ x \in X : f(x) \neq 0 \right\}$ is compact $\mathtt { ( s p t } f$ is the support of $f )$ Show that $C _ { c } ( X )$ is dense in $C _ { 0 } ( X )$
+
+14. If $W _ { \phantom { n } n } ^ { n } [ 0 , 1 ]$ is defined as in Example 1.11 and $f \in W_{p}^{n}[0,1]$ , let $\| f \| \equiv$ $\left[ \int \left| f ( x ) \right| ^ { p } d x \right] ^ { 1 / p } + \left[ \int \left| f ^ { ( n ) } ( x ) \right| ^ { p } d x \right] ^ { 1 / p }$ . Show that $\left\| \left| \cdot \right| \right\|$ is equivalent to the norm defined on $W _ { p } ^ { n } [ 0 , \dot { 1 } ]$
+
+15. Let $\mathcal { X }$ be a normed space and let $\hat { \mathcal { X } }$ be its completion as a metric space. Show that $\hat { \mathcal { X } }$ is a Banach space.
+
+16. Show that the norm on $C ( [ 0 , 1 ] ) = C _ { b } ( [ 0 , 1 ] )$ does not come from an inner product by showing that it does not satisfy the parallelogram law.
+
+## §2. Linear Operators on Normed Spaces
+
+This section gathers together a few pertinent facts and examples concerning linear operators on normed spaces. A fuller study of operators on Banach spaces will be pursued later.
+
+The proof of the first result is similar to that of Proposition I.3.1 and is left to the reader. [Also see (II.1.1).] $\mathcal { B } ( \mathcal { X } , \mathcal { Y } ) = \mathrm { a l l }$ continuous linear transformations $A \colon { \mathcal { X } }   \to   { \mathcal { Y } }$
+
+2.1. Proposition. If X and $\theta$ are normed spaces and $A : { \mathcal { X } }   \to   { \mathcal { Y } }$ is a linear transformation, the following statements are equivalent.
+
+(a) $A \in \mathcal { B } ( \mathcal { X } , \mathcal { Y } ) .$
+
+(b) A is continuous at 0.
+
+(c) A is continuous at some point.
+
+(d) There is a positive constant c such that $\| A x \| \leqslant c \| x \|$ for all x in $\mathcal { X }$
+
+If $A   \in   \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ and
+
+$$
+\| A \| = \sup \{ \| A x \| : \| x \| \leqslant 1 \} ,
+$$
+
+then
+
+$$
+\begin{aligned}\| A \| &= \sup \{ \| A x \| : \| x \| = 1 \} \\&= \sup \{ \| A x \| / \| x \| : x \neq 0 \} \\&= \inf \{ c > 0 : \| A x \| \leqslant c \| x \| \textit{for} x \textit{in} \mathcal{X} \}.\end{aligned}
+$$
+
+$\| A \|$ is called the norm of A and $\mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ becomes a normed space if addition and scalar multiplication are defined pointwise. $\mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ is a Banach space if @ is a Banach space (Exercise 1). A continuous linear operator is also called a bounded linear operator.
+
+The following examples are reminiscent of those that were given in Section II.1.
+
+2.2. Example. $\operatorname { I f } ( X , \Omega , \mu )$ is a σ-finite measure space and $\phi { \in } L ^ { \infty } ( X , \Omega , \mu )$ , define $M _ { \phi } \colon L ^ { p } ( X , \Omega , \mu )   \to   L ^ { p } ( X , \Omega , \mu ) ,   1 \leqslant p \leqslant \infty$ , by $M _ { \phi } f   =   \phi f$ for all f in $L ^ { p } ( X , \Omega , \mu )$ Then $M _ { \phi }   \in   \mathcal { B } ( L ^ { p } ( X , \Omega , \mu ) )$ and $\| M _ { \phi } \| = \| \phi \| _ { \infty }$
+
+2.3. Example. $\operatorname { I f } \left( X , \Omega , \mu \right) , k , c _ { 1 }$ , and $c _ { 2 }$ are as in Example II.1.6 and $1 \leqslant p \leqslant \infty$ then K: $L ^ { p } ( \mu ) \to L ^ { p } ( \mu ) ,$ defined by
+
+$$
+(Kf)(x) = \int k(x,y)f(y)d\mu(y)
+$$
+
+for all f in $L ^ { p } ( \mu )$ and x in X, is a bounded operator on $L ^ { p } ( \mu )$ and $\| K \| \leqslant c _ { 1 } ^ { 1 / q } c _ { 2 } ^ { 1 / p }$ where $1 / p + 1 / q = 1$
+
+2.4. Example. If X and Y are compact spaces and τ: $Y   \rightarrow   X$ is a continuous map, define $A \colon C(X) \to C(Y)   by   (Af)(y) = f(\tau(y))$ . Then $A \in \mathcal{B}(C(X), C(Y))$ and $\| \boldsymbol{A} \| = 1$
+
+## EXERCISES
+
+1. Show that for $\mathcal { B } ( \mathcal { X } , \mathbb { F } )   \neq   ( 0 ) , \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ is a Banach space if and only if @ is a Banach space.
+
+2. Let $\mathcal { X }$ be a normed space, let $\pmb { y }$ be a Banach space, and let $\hat { \mathcal { X } }$ be the completion of $\mathcal { X }$ Show that if $\rho : \mathcal { B } ( \hat { \mathcal { X } } , \mathcal { Y } ) \to \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ is defined by $\rho ( A ) = A \vert \mathcal { X }$ , then $\rho$ is an isometric isomorphism.
+
+3. If $( X , \Omega , \mu )$ is a σ-finite measure space, $\phi \colon X   \to   \mathbb { F }$ is an Ω-measurable function, $1 \leqslant p \leqslant \infty$ , and $\phi f \in L ^ { p } ( \mu )$ whenever $f   \in   L ^ { p } ( \mu )$ , then show that $\phi   \in   L ^ { \infty } ( \mu )$
+
+4. Verify the statements in Example 2.2.
+
+5. Verify the statements in Example 2.3.
+
+6. Verify the statements in Example 2.4.
+
+7. Let A and τ be as in Example 2.4. (a) Give necessary and sufficient conditions on τ that A be injective. (b) Give such a condition that A be surjective. (c) Give such a condition that A be an isometry. (d) If $X = Y ,$ show that $A ^ { 2 } = A$ if and only if τ is a retraction.
+
+8. (Wilansky [1951]) Assume that $A \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ is an additive mapping (that is, $A(x_{1} + x_{2}) = A(x_{1}) + A(x_{2})$ for all $x _ { 1 }$ and $x _ { 2 }$ in $\mathcal { X } )$ and show that conditions (b), (c) and (d) in Proposition 2.1 are equivalent to the continuity of A.
+
+## §3. Finite Dimensional Normed Spaces
+
+In functional analysis it is always good to see what significance a concept has for finite dimensional spaces.
+
+3.1. Theorem. If $\mathcal { X }$ is a finite dimensional vector space over $\mathbb { F } ,$ then any two norms on $\mathcal { X }$ are equivalent.
+
+PROOF. Let $\{ e _ { 1 } , \ldots , e _ { d } \}$ be a Hamel basis for $\mathcal { X } .$ For $\begin{array} { r } { x = \sum _ { j = 1 } ^ { d } x _ { j } e _ { j } , } \end{array}$ define $\| x \|_{\infty} \equiv \max \left\{ |x_j| : 1 \leqslant j \leqslant d \right\}$ . It is left to the reader to verify that $\left\| \cdot \right\| _ { \infty }$ is a norm. Let $\| \cdot \|$ be any norm on $\mathcal { X }$ .It will be shown that $\| \cdot \|$ and $\left\| \cdot \right\| _ { \infty }$ are equivalent.
+
+If $\begin{array} { r } { \boldsymbol { x } = \sum _ { j } \boldsymbol { x } _ { j } \boldsymbol { e } _ { j } , } \end{array}$ , then $\begin{array} { r } { \| x \| \leqslant \sum _ { j } | x _ { j } | \| e _ { j } \| \leqslant C \| x \| _ { \infty } , } \end{array}$ when $\begin{array} { r } { C = \sum _ { j } \lVert e _ { j } \rVert } \end{array}$ . To show the other inequality, let $\mathcal { T }$ be the topology defined on ${ \mathcal { X } } { \mathrm {  ~ b y ~ } } \| \cdot \| _ { \infty }$ and let u be the topology defined on $\mathcal { X }$ by $\| \cdot \|$ Put $B = \left\{ x { \in } { \mathcal { X } } { : } \left\|   x   \right\| _ { \infty } \leqslant 1 \right\}$ . The first part of the proof implies $\mathcal { T } \supseteq \mathcal { U } .$ Since B is T-compact and $\mathcal { T } \supseteq \mathcal { U }$ , B is ¿-compact and the relativizations of the two topologies to B agree. Let $A = \left\{ x { \in } { \mathcal { X } } { : } \left\|   x   \right\| _ { \infty } < 1 \right\}$ . Since A is T-open, it is open in $( B , { \mathcal { U } } )$ . Hence there is a set U in U such that $U \cap B = A$ . Thus $0   \in   U$ and there is an $r   >   0$ such that $\left\{ x { \in } { \mathcal { X } } { : } \parallel x \parallel < r \right\} \subseteq U$ . Hence
+
+$$
+\| x \| < r { \mathrm { ~ a n d ~ } } \| x \| _ { \infty } \leqslant 1 { \mathrm { ~ i m p l i e s ~ } } \| x \| _ { \infty } < 1 .
+$$
+
+Claim. $\| x \| < r$ implies $\| x \| _ { \infty } < 1$
+
+Let $\| x \| < r$ and put $\begin{array} { r } { \boldsymbol { x } = \sum \boldsymbol { x } _ { j } \boldsymbol { e } _ { j } ,   \boldsymbol { \alpha } = \| \boldsymbol { x } \| _ { \infty } } \end{array}$ . So $\| \boldsymbol { x } / \alpha \| _ { \infty } = 1$ and $x / \alpha { \in } B$ If $\alpha \geqslant 1$ , then $\| x / \alpha \| < r / \alpha \leqslant r ,$ and hence $\| x / \pmb { \alpha } \| _ { \infty } < 1$ by (3.2), a contradiction. Thus $\| x \| _ { \infty } = \alpha < 1$ and the claim is established.
+
+By Lemma 1.4, $\| x \| _ { \infty } \leqslant r ^ { - 1 } \| x \|$ for all x and so the proof is complete.
+
+3.3. Proposition. If X is a normed space and $\mathcal { M }$ is a finite dimensional linear manifold in $\mathcal { X } .$ , then M is closed.
+
+PRoOF. Using a Hamel basis $\{ e _ { 1 } , \ldots , e _ { n } \}$ for $\mathcal { M } ,$ define a norm $\| \cdot \| _ { \infty }$ on $\mathcal { M }$ as in the proof of Theorem 3.1. It is easy to see that $\mathcal { M }$ is complete with respect to this new norm. But then Theorem 3.1 implies that $\mathcal { M }$ is complete with respect to its original norm and hence must be a closed subspace of $\mathcal { X }$
+
+3.4. Proposition. Let $\mathcal { X }$ be a finite dimensional normed space and let Y be any normed space. If $T \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ is a linear transformation, then T is continuous.
+
+ProOF. Since all norms on $\mathcal { X }$ are equivalent and $T \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ is continuous with respect to one norm on $\mathcal { X }$ precisely when it is continuous with respect to any equivalent norm, we may assume that $\begin{array} { r } { \| \sum _ { j = 1 } ^ { d } \xi _ { j } e _ { j } \| = \operatorname* { m a x } \{ | \xi _ { j } | : 1 \leqslant j \leqslant d \} } \end{array}$ where $\left\{ e _ { j } \right\}$ is a Hamel basis for X. Thus, for $x = \sum \xi_{j} e_{j}, \| T x \| = \| \sum_{j} \xi_{j} T e_{j} \| \leqslant$ $\begin{array} { r } { \sum _ { j } \lvert \xi _ { j } \rvert \lVert \hat { T } e _ { j } \rVert \leqslant C \lVert x \rVert } \end{array}$ , where $\begin{array} { r } { C = \sum _ { j } \| \boldsymbol { T } \boldsymbol { e } _ { j } \| } \end{array}$ . By (2.1), T is continuous.
+
+EXERCISES
+
+1. Show that if $\mathcal { X }$ is a locally compact normed space, then $\mathcal { X }$ is finite dimensional. (This same result, due to $\mathbf { F }$ Riesz, is valid in the more general topological vector spaces-see IV.1.1 for the definition. For a nice proof of this look at Pitcairn [1966].)
+
+2. Show that $\| \cdot \| _ { \infty }$ defined in the proof of Theorem 3.1 is a norm.
+
+## §4. Quotients and Products of Normed Spaces
+
+Let $\mathcal { X }$ be a normed space, let M be a linear manifold in $\mathcal { X } ,$ and let $\mathcal { Q } \colon \mathcal { X }   \to   \mathcal { X } / \mathcal { M }$ be the natural map $Q x = x + \mathcal { M }$ . We want to make $x / M$ into a normed space, so define
+
+$$
+\| x + \mathcal{M} \| = \inf \left\{ \| x + y \| : y \in \mathcal{M} \right\}.
+$$
+
+Note that because $\mathcal { M }$ is a linear space, $\| x + \mathcal{M} \| = \inf \left\{ \| x - y \| : y \in \mathcal{M} \right\} =$ dist $( x , \mathcal { M } )$ , the distance from x to M. It is left to the reader to show that (4.1) defines a seminorm on $\mathcal { X } / \mathcal { M }$ But if $\mathcal { M }$ is not closed in $\mathcal { X } ,$ (4.1) cannot define a norm. (Why?) If, however, M is closed, then (4.1) does define a norm.
+
+4.2. Theorem. If $\mathcal { M } \leqslant \mathcal { X }$ and $\| x + \mathcal { M } \|$ is defined as in (4.1), then $\| \cdot \|$ is a norm on $\mathcal { X } / \mathcal { M }$ Also:
+
+(a) $Q ( x ) \| \leqslant \|   x   \|$ for all x in $\mathcal { X }$ and hence $Q$ is continuous.
+
+(b) $I f   \mathcal { X }$ is a Banach space, then so is $\mathcal { X } / \mathcal { M }$ (c) A subset W of $\mathcal { X } / \mathcal { M }$ is open relative to the norm if and only $if   Q^{-1}(W)$ is open in $\mathcal { X }$
+
+(d) If U is open in $\mathcal { X } .$ then $Q ( U )$ is open in $\mathcal { X } / \mathcal { M }$
+
+ProoF. It is left as an exercise to show that (4.1) defines a norm on $\mathcal { X } / \mathcal { M }$ To show (a), || $\mathcal { Q } ( x ) \| = \|   x + \mathcal { M }   \| \leqslant \|   x   \|$ since $0 \in \mathcal { M } ; Q$ is therefore continuous by (2.1).
+
+(b) Let $\{ x _ { n } + \Delta t \}$ be a Cauchy sequence in $\mathcal { X } / \mathcal { M }$ . There is a subsequence $\{ x _ { n _ { k } } + \mathcal { M } \}$ such that
+
+$$
+\| ( x _ { n _ { k } } + \mathcal { M } ) - ( x _ { n _ { k + 1 } } + \mathcal { M } ) \| = \| x _ { n _ { k } } - x _ { n _ { k + 1 } } + \mathcal { M } \| < 2 ^ { - k } .
+$$
+
+Let $y _ { 1 }   =   0$ Choose $y _ { 2 }$ in $\mathcal { M }$ such that
+
+$$
+\| x_{n_1} - x_{n_2} + y_2 \| \leqslant \| x_{n_1} - x_{n_2} + \mathcal{M} \| + 2^{-1} < 2 \cdot 2^{-1}.
+$$
+
+Choose $y _ { 3 }$ in $\mathcal { M }$ such that
+
+$$
+\| (x_{n_2} + y_2) - (x_{n_3} + y_3) \| \leqslant \| x_{n_2} - x_{n_3} + \mathcal{M} \| + 2^{-2} < 2 \cdot 2^{-2}.
+$$
+
+Continuing, there is a sequence $\left\{ y _ { k } \right\}$ in $\mathcal { M }$ such that
+
+$$
+\| ( x _ { n _ { k } } + y _ { k } ) - ( x _ { n _ { k + 1 } } + y _ { k + 1 } ) \| < 2 \cdot 2 ^ { - k } .
+$$
+
+Thus $\left\{ x _ { n _ { k } } + y _ { k } \right\}$ is a Cauchy sequence in $\mathcal { X } ( \mathbf { W } \mathbf { h } \mathbf { y } ? )$ Since $\mathcal { X }$ is complete, there is an $x _ { 0 }$ in $\mathcal { X }$ such that $x _ { n _ { k } } + y _ { k } \rightarrow x _ { 0 }$ in $\mathcal { X }$ By (a), $x_{n_k} + \mathcal{M} = Q(x_{n_k} + y_k) \rightarrow$ $Q x _ { 0 } = x _ { 0 } + \mathcal { M }$ Since $\{ x _ { n } + \Delta t \}$ is a Cauchy sequence, $x _ { n } + \mathcal { M } \rightarrow x _ { 0 } + \mathcal { M }$ and $\mathcal { X } / \mathcal { M }$ is complete (Exercise 3).
+
+(c) If W is open in $\mathcal { X } / \mathcal { M } ,$ then $Q ^ { - 1 } ( W )$ is open in $\mathcal { X }$ because Q is continuous. Now assume that $W \in \mathcal { X } / \mathcal { M }$ and $Q ^ { - 1 } ( W )$ is open in X. Let $r > 0$ and put $B _ { r }   \equiv   \{ x   \in   \mathcal { X } \colon \|   x   \| < r \}$ . It will be shown that $Q ( B _ { r } ) = \{ x + \mathcal { M } : \| x + \mathcal { M } \| < r \}$ In fact, $\mathrm { ~ i f ~ }   \|   x   \| < r ,$ then $\|   x + { \mathcal { M } }   \| \leqslant \|   x   \| < r .$ On the other hand, if $\| x + { \mathcal { M } } \| < r ,$ then there is a y in M such that $\| x + y \| < r$ Thus $x + \mathcal { M } =$ $Q(x + y) \in Q(B_r). \mathrm{If} x_0 + \mathcal{M} \in W,$ then $x _ { 0 } { \in } { \mathcal { Q } } ^ { - 1 } ( W )$ . Since $Q ^ { - 1 } ( W )$ is open, there is an $r   >   0$ such that $x_{0}+B_{r}=\left\{x:\|x-x_{0}\|<r\right\}\subseteq Q^{-1}(W).$ The preceding argument now implies that $W = Q Q^{-1}(W) \supseteq Q(x_0 + B_r) = \{x + \mathcal{M} : \|x -$ $x _ { 0 } + \mathcal { M } \left\| < r \right\}$ . Hence W is open.
+
+(d) If U is open in $\mathcal { X } ,$ then $Q ^ { - 1 } ( Q ( U ) ) = U + { \mathcal { M } } \equiv \{ u + y \colon u { \in } U , y { \in } { \mathcal { M } } \} =$ $\cup \left\{ U + y ;   y { \in } { \mathcal { M } } \right\}$ . Each $U + y$ is open, so $Q ^ { - 1 } ( Q ( U ) )$ is open in $\mathcal { X }$ By (c), $Q ( U )$ is open in $\mathcal { X } / \mathcal { M }$ ■
+
+Because Q is an open map [part (d)], it does not follow that Q is a closed map (Exercise 4).
+
+4.3. Proposition. If X is a normed space, $\mathcal { M } \leqslant \mathcal { X }$ , and $\mathcal { N }$ is a finite dimensional subspace of X, then $\mathcal { M } + \mathcal { N }$ is a closed subspace of $\mathcal { X }$
+
+PROOF. Consider $\mathcal { X } / \mathcal { M }$ and the quotient map $\mathcal { Q } \colon \mathcal { X }   \to   \mathcal { X } / \mathcal { M }$ Since dim $Q ( \mathcal { N } ) \leqslant$ dim $\mathcal { N } < \infty ,   Q ( \mathcal { N } )$ is closed in $\mathcal { X } / \mathcal { M }$ Since $Q$ is continuous $Q ^ { - 1 } ( Q ( \mathcal { N } ) )$ is closed in $\mathcal { X } ;$ but $Q ^ { - 1 } ( Q ( \mathcal { N } ) ) = \mathcal { M } + \mathcal { N }$ ■
+
+Now for the product or direct sum of normed spaces. Here there is a difficulty because, unlike Hilbert space, there is no canonical way to proceed. Suppose $\{ \mathcal { X } _ { i } \colon i { \in } I \}$ is a collection of normed spaces. Then $\Pi \{ { \mathcal { X } } _ { i } \colon i { \in } I \}$ is a vector space if the linear operations are defined coordinatewise. The idea is to put a norm on a linear subspace of this product.
+
+Let $\left\| \cdot \right\|$ denote the norm on each $\mathcal { X } _ { i }$ For $1 \leqslant p < \infty$ , define
+
+$$
+\oplus _ { p } \mathcal { X } _ { i } \equiv \left\{ x \in \prod _ { i } \mathcal { X } _ { i } : \| x \| \equiv \left[ \sum _ { i } \| x ( i ) \| ^ { p } \right] ^ { 1 / p } < \infty \right\} .
+$$
+
+Define
+
+$$
+\oplus _ { \infty } \mathcal { X } _ { i } \equiv \left\{ x \in \prod _ { i } \mathcal { X } _ { i } : \| x \| \equiv \sup _ { i } \| x ( i ) \| < \infty \right\}.
+$$
+
+If $\{ \mathcal { X } _ { 1 } , \mathcal { X } _ { 2 } , \ldots \}$ is a sequence of normed spaces, define
+
+$$
+\oplus _ { 0 } \mathcal { X } _ { n } \equiv \left\{ x \in \prod _ { n = 1 } ^ { \infty } \mathcal { X } _ { n } : \| x ( n ) \| \to 0 \right\} ;
+$$
+
+give $\textcircled{9}  _ { 0 } \mathcal { X } _ { n }$ the norm it has as a subspace of $\textcircled{w}  _ { \infty } \mathcal { X } _ { \pm }$
+
+The proof of the next proposition is left as an exercise.
+
+4.4. Proposition. Let $\{ \mathcal { X } _ { i } ; i { \in } I \}$ be a collection of normed spaces and let $\mathcal { X } = \oplus _ { p } \mathcal { X } _ { i } , 1 \leqslant p \leqslant \infty$
+
+(a) $\mathcal { X }$ is a normed space and the projection $P _ { i } \colon \mathcal { X }   \to   \mathcal { X } _ { i }$ is a continuous linear map with $\| P _ { i } ( x ) \| \leqslant \| x \|$ for each x in $\mathcal { X } .$
+
+(b) $\mathcal { X }$ is a Banach space if and only if each $\mathcal { X } _ { i }$ is a Banach space.
+
+(c) Each projection $P _ { i }$ is an open map of $\mathcal { X }$ onto $\mathcal { X } _ { i }$
+
+A similar result holds for $\oplus _ { 0 } \mathcal { X } _ { n }$ , but the formulation and proof of this is left to the reader.
+
+## EXERCISES
+
+1. Show that if $\mathcal { M } \leqslant \mathcal { X }$ , then (4.1) defines a norm on $\alpha / \mathcal { M }$
+
+2. Prove that X is a Banach space if and only if whenever $\{ x _ { n } \}$ is a sequence in $\mathcal { X }$ such that $\textstyle \sum \| x _ { n } \| < \infty$ , then $\sum _ { n = 1 } ^ { \infty } x _ { n }$ converges in $\mathcal { R } .$
+
+3. Show that if $( X , d )$ is a metric space and $\{ x _ { n } \}$ is a Cauchy sequence such that there is a subsequence $\left\{ x _ { n _ { k } } \right\}$ that converges to $x _ { 0 }$ , then $x _ { n }   \rightarrow   x _ { 0 }$
+
+4. Find a Banach space $\mathcal { X }$ and a closed subspace M such that the natural map $\mathcal { Q } \colon \mathcal { X } \to \mathcal { X } / \mathcal { M }$ is not a closed map. Can the natural map ever be a closed map?
+
+5. Prove the converse of (4.2b): If X is a normed space, $\mathcal { M } \leqslant \mathcal { H }$ , and both $\mathcal { M }$ and $\mathcal { X } / \mathcal { M }$ are complete, then X is complete. (This is an example of what is called a “two-out-of-three" result. If any two of $\mathcal { X } , \mathcal { M } ,$ and $\mathcal { X } / \mathcal { M }$ are complete, so is the third.)
+
+6. Let $\mathcal { M } = \{ x \in l ^ { p } : x ( 2 n ) = 0$ for all n}, $1 \leqslant p \leqslant \infty$ . Show that $l ^ { p } / \mathcal { M }$ is isometrically isomorphic to $l ^ { p } .$
+
+7. Let X be a normal locally compact space and F a closed subset of X. If $\mathcal { M } \equiv \left\{ f { \in } C _ { 0 } ( X ) : f ( x ) = 0 \right\}$ for all x in $F \}$ , then $C _ { 0 } ( X ) / \mathcal { M }$ is isometrically isomorphic to $C _ { 0 } ( F )$
+
+8. Prove Proposition 4.4.
+
+9. Formulate and prove a version of Proposition 4.4 for $\textcircled{d}  { } _ { 0 } \mathcal { X } _ { \boldsymbol { n } } .$
+
+10. If $\{ \mathcal { X } _ { 1 } , \ldots , \mathcal { X } _ { n } \}$ is a finite collection of normed spaces and $1 \leqslant p \leqslant \infty$ , show that the norms on $\textcircled{9}  _ { p } \mathcal { X } _ { k }$ are all equivalent.
+
+11. Here is an abstraction of Proposition 4.4. Suppose $\{ \mathcal { X } _ { i } ; i { \in } I \}$ is a collection of normed spaces and Y is a normed space contained in $\mathbb { F } ^ { I }$ . Define $\mathcal { X } \equiv \{ x { \in } { \textstyle \prod _ { i } } \mathcal { X } _ { i } \}$ there is a y in Y with $\| x ( i ) \| \leqslant y ( i )$ for all $i \} . \operatorname { I f } x \in { \mathcal { X } }$ , define $\|x\| \equiv \inf \left\{ \|y\| : \|x(i)\| \leqslant \right.$ $y ( i )$ for all $i \}$ . Then $( \mathcal { X } , \| \cdot \| )$ is a normed space. Give necessary and sufficient conditions on Y that each of the parts of (4.4) be valid for $\mathcal { X } .$
+
+12. Let X be a normed space and $\mathcal { M } \leqslant \mathcal { X } . ( a )$ If X is separable, so is $\mathcal { X } / \mathcal { M } .$ (b) If $\mathcal { X } / \mathcal { M }$ and $\mathcal { M }$ are separable, then $\mathcal { X }$ is separable. (c) Give an example such that $\mathcal { X } / \mathcal { M }$ is separable but X is not.
+
+13. Let $\{ \mathcal { X } _ { i } ; i { \in } I \}$ be a collection of non-zero normed spaces. For $1 \leqslant p < \infty$ , put $\mathcal { X } = \oplus _ { p } \mathcal { X } _ { i }$ Show that ¿ is separable if and only if I is countable and each $\mathcal { X } _ { i }$ is separable. Show that $\textcircled{p}  _ { \infty } \mathcal { X } _ { i }$ is separable if and only if I is finite and each $\mathcal { X } _ { i }$ is separable.
+
+14. Show that $\textcircled{9}  { } _ { 0 } \mathcal { X } _ { \pm }$ is separable if and only if each $\mathcal { X } _ { n }$ is separable.
+
+15. Let $J \subseteq I ,$ and $\mathcal { X } \equiv \oplus _ { p } \{ \mathcal { X } _ { i } \colon i { \in } I \} , \mathcal { M } \equiv \{ x { \in } \mathcal { X } \colon x ( j ) = 0 { \mathrm { ~ f o r ~ } } j { \mathrm { ~ i n ~ } } J \}$ . Show that $\mathcal { X } / \mathcal { M }$ is isometrically isomorphic to $\oplus _ { p } \{ { \mathcal { X } } _ { j } { : }   j { \in } J \}$
+
+16. Let $\mathcal { H }$ be a Hilbert space and suppose $\mathcal { M } \leqslant \mathcal { H }$ . Show that if $Q : \mathcal { H } \rightarrow \mathcal { H } / \mathcal { M }$ is the natural map, then $\mathcal { Q } : \mathcal { M } ^ { \perp } \rightarrow \mathcal { H } / \mathcal { M }$ is an isometric isomorphism.
+
+## §5. Linear Functionals
+
+Let $\mathcal { X }$ be a vector space over F. A hyperplane in $\mathcal { X }$ is a linear manifold M in $\mathcal { X }$ such that dim $( \mathcal { X } / \mathcal { M } ) = 1 . \mathrm { I f } f : \mathcal { X } \to \mathbb { F }$ is a linear functional and $f \not \equiv 0 ,$ then ker f is a hyperplane. In fact, f induces an isomorphism between ${ \mathcal { X } } / \mathbf { k e r }   f$ and F. Conversely, if M is a hyperplane, let $\mathcal { Q } \colon \mathcal { X }   \to   \mathcal { X } / \mathcal { M }$ be the natural map and let $T : \mathcal { X } / \mathcal { M } \to \mathbb { F }$ be an isomorphism. Then $f \equiv T \circ Q$ is a linear functional on X and ker $f = \mathcal { M }$
+
+Suppose now that f and g are linear functionals on $\mathcal { X }$ such that ker $f = \ker g$ Let $x _ { 0 } { \in } { \mathcal { X } }$ such that $f(x_0)=1;  so  g(x_0) \neq 0$ If $x { \in } { \mathcal { X } }$ and $\alpha = f ( x )$ then $x - \alpha x _ { 0 } \in \ker f = \ker g .$ So $0 = g ( x ) - \alpha g ( x _ { 0 } ) ,$ or $g(x) = (g(x_0))\alpha =$ $( g ( x _ { 0 } ) ) f ( x )$ . Thus $g = \beta f$ for a scalar $\beta .$ This is summarized as follows.
+
+5.1. Proposition. A linear manifold in $\mathcal { X }$ is a hyperplane if and only if it is the kernel of a non-zero linear functional. Two linear functionals have the same kernel if and only if one is a non-zero multiple of the other.

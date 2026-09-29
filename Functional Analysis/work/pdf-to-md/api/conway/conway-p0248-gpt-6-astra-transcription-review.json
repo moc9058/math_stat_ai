@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 248,
+  "model": "gpt-6-astra",
+  "seconds": 11.98,
+  "input_tokens": 3538,
+  "output_tokens": 345,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"Since $\\\\mathcal A$ is isomorphic to a subalgebra of $\\\\mathcal B(\\\\mathcal A)$\",\n      \"correction\": \"Since $\\\\mathcal A$ is isomorphic to a subalgebra $\\\\mathcal B(\\\\mathcal A)$\",\n      \"note\": \"The image does not contain “of” here, although adding it repairs the source's grammar.\"\n    }\n  ],\n  \"uncertain_regions\": [\n    {\n      \"region\": \"The homomorphism symbol in the definition before Proposition 1.9 and at the end of Proposition 1.9\",\n      \"note\": \"The printed symbol may be Greek nu ($\\\\nu$), rather than the candidate's Latin $v$; verify against a higher-resolution image.\"\n    }\n  ]\n}"
+}

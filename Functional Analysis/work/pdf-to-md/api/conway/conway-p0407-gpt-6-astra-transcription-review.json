@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 407,
+  "model": "gpt-6-astra",
+  "seconds": 13.31,
+  "input_tokens": 2889,
+  "output_tokens": 403,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"$\\\\|f\\\\|_{\\\\mathcal A}$ 206\",\n      \"correction\": \"$\\\\|f\\\\|_A$ 206\"\n    },\n    {\n      \"candidate\": \"$K^{\\\\mathcal A}$ 206\",\n      \"correction\": \"$K^\\\\wedge$ 206\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

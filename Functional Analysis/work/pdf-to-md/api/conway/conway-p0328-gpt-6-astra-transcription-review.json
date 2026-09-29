@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 328,
+  "model": "gpt-6-astra",
+  "seconds": 9.32,
+  "input_tokens": 3738,
+  "output_tokens": 235,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\mathcal H_+\",\n      \"correction\": \"\\\\mathcal K_+\",\n      \"location\": \"All occurrences in the first proof.\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\mathcal H_-\",\n      \"correction\": \"\\\\mathcal K_-\",\n      \"location\": \"All occurrences in the first proof.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

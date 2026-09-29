@@ -1,0 +1,1221 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 23,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.148,
+            0.069
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.713,
+            0.057,
+            0.871,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I. Hilbert Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.351,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } \\bot f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.182,
+            0.125,
+            0.813,
+            0.148
+          ],
+          "image_path": "images/page_22_equation_3.jpg",
+          "content": "\\| f _ { 1 } + f _ { 2 } \\| ^ { 2 } = \\langle f _ { 1 } + f _ { 2 } , f _ { 1 } + f _ { 2 } \\rangle = \\| f _ { 1 } \\| ^ { 2 } + 2 \\operatorname { R e } \\langle f _ { 1 } , f _ { 2 } \\rangle + \\| f _ { 2 } \\| ^ { 2 }"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.154,
+            0.87,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "by the polar identity. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } \\bot f _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " this implies the result for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   =   2 ."
+            },
+            {
+              "type": "text",
+              "content": " The remainder of the proof proceeds by induction and is left to the reader. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.205,
+            0.871,
+            0.264
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathrm { i f } } f \\bot g ,"
+            },
+            {
+              "type": "text",
+              "content": " thenf "
+            },
+            {
+              "type": "equation_inline",
+              "content": "丄  -g,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f - g \\| ^ { 2 } = \\| f \\| ^ { 2 } + \\| g \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . The next result is an easy consequence of the Pythagorean Theorem if f and g are orthogonal, but this assumption is not needed for its conclusion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.279,
+            0.812,
+            0.299
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.3. Parallelogram Law. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space and f and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.299,
+            0.305,
+            0.697,
+            0.327
+          ],
+          "image_path": "images/page_22_equation_7.jpg",
+          "content": "\\|   f + g   \\| ^ { 2 } + \\|   f - g   \\| ^ { 2 } = 2 ( \\|   f   \\| ^ { 2 } + \\|   g   \\| ^ { 2 } ) ."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.334,
+            0.68,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. For any f and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " the polar identity implies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.302,
+            0.36,
+            0.696,
+            0.405
+          ],
+          "image_path": "images/page_22_equation_9.jpg",
+          "content": "\\begin{array} { r } { \\| f + g \\| ^ { 2 } = \\| f \\| ^ { 2 } + 2   \\mathrm { R e }   \\langle f , g \\rangle + \\| g \\| ^ { 2 } , } \\\\ { \\| f - g \\| ^ { 2 } = \\| f \\| ^ { 2 } - 2   \\mathrm { R e }   \\langle f , g \\rangle + \\| g \\| ^ { 2 } . } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.406,
+            0.232,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now add."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.437,
+            0.871,
+            0.476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next property of a Hilbert space is truly pivotal. But first we need a geometric concept valid for any vector space over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { E }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.487,
+            0.87,
+            0.526
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.4. Definition. If ¿ is any vector space over F and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , then A is a convex set if for any x and y in A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t \\leqslant 1,   tx + (1 - t)y \\in A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.536,
+            0.871,
+            0.59
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ t x + ( 1 - t ) y : 0 \\leqslant t \\leqslant 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is the straight-line segment joining x and y. So a convex set is a set A such that if x and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y \\in A"
+            },
+            {
+              "type": "text",
+              "content": " , the entire line segment joining x and y is contained in A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.59,
+            0.871,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If X is a vector space, then any linear subspace in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a convex set. A singleton set is convex. The intersection of any collection of convex sets is convex. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space, then every open ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(f;r)=\\{g\\in\\mathcal{H}\\}"
+            },
+            {
+              "type": "text",
+              "content": "二 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| f - g \\right\\| < r \\big \\}"
+            },
+            {
+              "type": "text",
+              "content": " is convex, as is every closed ball."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.675,
+            0.87,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.5. Theorem. If H is a Hilbert space, K is a closed convex nonempty subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a unique point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in K such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.285,
+            0.721,
+            0.711,
+            0.741
+          ],
+          "image_path": "images/page_22_equation_16.jpg",
+          "content": "\\| \\boldsymbol{h} - \\boldsymbol{k}_0 \\| = \\mathrm{dist}(\\boldsymbol{h}, \\boldsymbol{K}) \\equiv \\inf \\{ \\| \\boldsymbol{h} - \\boldsymbol{k} \\| : \\boldsymbol{k} \\in \\boldsymbol{K} \\}."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.748,
+            0.871,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. By considering "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K - h \\equiv \\{ k - h { \\mathrm { : ~ } } k { \\in } K \\}"
+            },
+            {
+              "type": "text",
+              "content": " instead of K, it suffices to assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = 0.   (  Verify ! )"
+            },
+            {
+              "type": "text",
+              "content": " So we want to show that there is a unique vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in K such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.325,
+            0.807,
+            0.67,
+            0.827
+          ],
+          "image_path": "images/page_22_equation_18.jpg",
+          "content": "\\| \\boldsymbol { k } _ { 0 } \\| = \\mathrm { d i s t } ( 0 , \\boldsymbol { K } ) \\equiv \\inf \\{ \\| \\boldsymbol { k } \\| : \\boldsymbol { k } \\in \\boldsymbol { K } \\}."
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.126,
+            0.834,
+            0.87,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d = \\mathrm{dist}(0, K)"
+            },
+            {
+              "type": "text",
+              "content": " . By definition, there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ k _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in K such that一 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { n } \\rVert \\to d ."
+            },
+            {
+              "type": "text",
+              "content": " Now the Parallelogram Law implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.278,
+            0.877,
+            0.716,
+            0.922
+          ],
+          "image_path": "images/page_22_equation_20.jpg",
+          "content": "\\left\\| \\frac{k_n - k_m}{2} \\right\\|^2 = \\frac{1}{2} \\left( \\left\\| k_n \\right\\|^2 + \\left\\| k_m \\right\\|^2 \\right) - \\left\\| \\frac{k_n + k_m}{2} \\right\\|^2."
+        }
+      ]
+    },
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.293,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Orthogonality"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.853,
+            0.056,
+            0.868,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.869,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since K is convex, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\frac { 1 } { 2 } } ( k _ { n } + k _ { m } ) \\in K"
+            },
+            {
+              "type": "text",
+              "content": " . Hence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\frac { 1 } { 2 } ( k _ { n } + k _ { m } ) \\| ^ { 2 } \\geqslant d ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " choose N such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant N, \\left\\| \\hat{k}_n \\right\\|^2 < d^2 + \\frac{1}{4} \\varepsilon^2"
+            },
+            {
+              "type": "text",
+              "content": " . By the equation above, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{if} n, m \\geqslant N"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.319,
+            0.144,
+            0.676,
+            0.187
+          ],
+          "image_path": "images/page_23_equation_3.jpg",
+          "content": "\\left\\| \\frac{k_n - k_m}{2} \\right\\|^2 < \\frac{1}{2} \\left( 2d^2 + \\frac{1}{2} \\varepsilon^2 \\right) - d^2 = \\frac{1}{4} \\varepsilon^2."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.194,
+            0.871,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| k _ { n } - k _ { m } \\| < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , m \\geqslant N"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ k _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a Cauchy sequence. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is complete and K is closed, there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| k _ { n } - k _ { 0 } \\|   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " Also for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " T"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.322,
+            0.26,
+            0.653,
+            0.303
+          ],
+          "image_path": "images/page_23_equation_5.jpg",
+          "content": "\\begin{aligned}d \\leqslant \\left\\| \\boldsymbol{k}_{0} \\right\\| &= \\left\\| \\boldsymbol{k}_{0} - \\boldsymbol{k}_{n} + \\boldsymbol{k}_{n} \\right\\| \\\\& \\leqslant \\left\\| \\boldsymbol{k}_{0} - \\boldsymbol{k}_{n} \\right\\| + \\left\\| \\boldsymbol{k}_{n} \\right\\| \\rightarrow \\boldsymbol{d}.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.311,
+            0.282,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| k _ { 0 } \\| = d ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.329,
+            0.87,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is unique, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 0 }   \\in   K"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } _ { 0 } \\| = d"
+            },
+            {
+              "type": "text",
+              "content": " By convexity, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\frac { 1 } { 2 } } ( k _ { 0 } + h _ { 0 } ) \\in K"
+            },
+            {
+              "type": "text",
+              "content": " . Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.307,
+            0.374,
+            0.692,
+            0.395
+          ],
+          "image_path": "images/page_23_equation_8.jpg",
+          "content": "d \\leqslant \\| \\frac{1}{2} (h_0 + k_0) \\| \\leqslant \\frac{1}{2} (\\| h_0 \\| + \\| k_0 \\|) = d."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.402,
+            0.649,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\| \\frac { 1 } { 2 } ( h _ { 0 } + k _ { 0 } ) \\| = d . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " The Parallelogram Law implies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.328,
+            0.427,
+            0.672,
+            0.472
+          ],
+          "image_path": "images/page_23_equation_10.jpg",
+          "content": "d ^ { 2 } = \\left\\| \\frac { h _ { 0 } + k _ { 0 } } { 2 } \\right\\| ^ { 2 } = d ^ { 2 } - \\left\\| \\frac { h _ { 0 } - k _ { 0 } } { 2 } \\right\\| ^ { 2 } ;"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.481,
+            0.272,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 0 } = k _ { 0 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.517,
+            0.871,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the convex set in the preceding theorem is in fact a closed linear subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , more can be said."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.571,
+            0.875,
+            0.628
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.6. Theorem. If M is a closed linear subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } , h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is the unique element of M such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h - f _ { 0 } \\| = \\mathrm { d i s t } ( h , \\mathcal { M } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { h } - f _ { 0 } \\bot \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { h } - f _ { 0 } \\bot \\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h - f _ { 0 } \\| = \\mathrm { d i s t } ( h , \\mathcal { M } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.633,
+            0.873,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PrOOF. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h - f _ { 0 } \\| = \\mathrm { d i s t } ( h , \\mathcal { M } ) ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { M } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } + f \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h - f_0 \\|^2 \\leqslant \\| h - (f_0 + f) \\|^2 = \\| (h - f_0) - f \\|^2 = \\| h - f_0 \\|^2"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- 2 \\operatorname { R e } \\left\\langle h - f _ { 0 } , f \\right\\rangle + \\| f \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.382,
+            0.697,
+            0.622,
+            0.717
+          ],
+          "image_path": "images/page_23_equation_15.jpg",
+          "content": "2 \\operatorname{Re} \\left\\langle h - f_0, f \\right\\rangle \\leqslant \\| f \\|^2"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.129,
+            0.728,
+            0.872,
+            0.784
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for any f in M. Fix f in M and substitute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t e ^ { i \\theta } f"
+            },
+            {
+              "type": "text",
+              "content": " for f in the preceding inequality, where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h - f _ { 0 } , f \\rangle = r e ^ { i \\theta } , r \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " .This yields "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\mathrm{Re} \\left\\{ t e^{-i \\theta} r e^{i \\theta} \\right\\} \\leqslant t^2 \\| f \\|^2"
+            },
+            {
+              "type": "text",
+              "content": " , or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 t r \\leqslant t ^ { 2 } \\left\\| f \\right\\| { } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\rightarrow   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " we see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { h } - f _ { 0 } \\bot f ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.128,
+            0.784,
+            0.873,
+            0.822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the converse, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { h } - f _ { 0 } \\bot \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h - f _ { 0 } \\bot f _ { 0 } - f"
+            },
+            {
+              "type": "text",
+              "content": " so that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.318,
+            0.828,
+            0.655,
+            0.895
+          ],
+          "image_path": "images/page_23_equation_18.jpg",
+          "content": "\\begin{aligned} \\|   h - f   \\| ^ { 2 } & = \\|   ( h - f _ { 0 } ) + ( f _ { 0 } - f )   \\| ^ { 2 } \\\\ & = \\|   h - f _ { 0 }   \\| ^ { 2 } + \\|   f _ { 0 } - f   \\| ^ { 2 } \\\\ & \\geqslant \\|   h - f _ { 0 }   \\| ^ { 2 } . \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.132,
+            0.903,
+            0.404,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h - f _ { 0 } \\| = \\mathrm { d i s t } ( h , \\mathcal { M } )"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

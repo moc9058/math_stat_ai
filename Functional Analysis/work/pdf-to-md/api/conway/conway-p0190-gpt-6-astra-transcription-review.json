@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 190,
+  "model": "gpt-6-astra",
+  "seconds": 11.22,
+  "input_tokens": 3476,
+  "output_tokens": 312,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"and, hence, $\\\\mathcal X$ has no Schauder basis.\",\n      \"correction\": \"and, hence, $\\\\mathcal H$ has no Schauder basis.\",\n      \"note\": \"The image prints H here, apparently a source typo; the transcription should preserve it.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

@@ -1,0 +1,4834 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 240,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 241,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 242,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 243,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 244,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 245,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 246,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 247,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 240,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "226"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.484,
+            0.056,
+            0.871,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.871,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U }"
+            },
+            {
+              "type": "text",
+              "content": " be the collection of all neighborhoods of e and order "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U }"
+            },
+            {
+              "type": "text",
+              "content": " by reverse inclusion. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U } = \\{ U _ { i } \\colon i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\leqslant   j"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i }   \\subseteq   U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " . For each i in I put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_{i} = m(U_{i})^{-1} \\chi_{U_{i}}, \\mathrm{so} e_{i} \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int e _ { i } d m = 1"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 1 } ( { \\dot { G ) } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " be as in the preceding proposition. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { i f }   j   \\geqslant   i ,   e _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " satisfies the conditions on g in (9.3) and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f - f   \\star e _ { j } \\| _ { 1 } < \\varepsilon"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.211,
+            0.872,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.5. Corollary. If h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism, then h is bounded and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.258,
+            0.873,
+            0.316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. The fact that h is bounded and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " is Exercise 8.3. In light of the preceding corollary if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(f) \\neq 0,   h(f) ="
+            },
+            {
+              "type": "text",
+              "content": " lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f * e _ { i } ) = h ( f )"
+            },
+            {
+              "type": "text",
+              "content": " lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( e _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( e _ { i } )   \\rightarrow 1"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| e _ { i } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i ,   \\| \\boldsymbol { h } \\| = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.332,
+            0.874,
+            0.501
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Even though Haar measure on most of the popular examples is σ-finite, this is not true in general. For example, if D is an uncountable discrete group, the Haar measure on D is counting measure and, hence, not σ-finite. Similarly, Haar measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D \\times \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " is not "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\mathrm { - f i n i t e } ."
+            },
+            {
+              "type": "text",
+              "content": " Nevertheless, it is true that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G ) ^ { * } = L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " for any locally compact group because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( G , m )"
+            },
+            {
+              "type": "text",
+              "content": " is an example of a decomposable measure space, though "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " must be redefined to be the equivalence classes of bounded Borel functions that are equal a.e. on every set of finite Haar measure. This fact will be assumed here. The interested reader can consult Hewitt and Ross [1963]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.517,
+            0.873,
+            0.555
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.6. Theorem. If G is a locally compact abelian group and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon G   \\to   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous homomorphism, define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.389,
+            0.571,
+            0.608,
+            0.612
+          ],
+          "image_path": "images/page_240_equation_7.jpg",
+          "content": "\\hat { f } ( \\gamma ) = \\int f ( x ) \\gamma ( x ^ { - 1 } ) d x"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.622,
+            0.871,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\mapsto   { \\hat { f } } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " Conversely, if h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism, there is a continuous homomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon G   \\to   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f ) = { \\hat { f } } ( \\gamma )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.686,
+            0.871,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. First note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon G   \\to   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( x y ) = \\gamma ( x ) \\gamma ( y )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(x^{-1}) = \\gamma(x)^{-1} = \\overline{\\gamma(x)}"
+            },
+            {
+              "type": "text",
+              "content": " , the complex conjugate of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " If f, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.241,
+            0.739,
+            0.75,
+            0.88
+          ],
+          "image_path": "images/page_240_equation_10.jpg",
+          "content": "\\begin{align*}\\widehat{f * g}(\\gamma) &= \\int (f * g)(x) \\gamma(x^{-1}) dx \\\\&= \\int \\gamma(x^{-1}) \\int f(xy^{-1}) g(y) dy dx \\\\&= \\int g(y) \\gamma(y^{-1}) \\Bigg[ \\int f(xy^{-1}) \\gamma((xy^{-1})^{-1}) dx \\Bigg] dy.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.89,
+            0.867,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But the invariance of the Haar integral gives that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int f(xy^{-1})\\gamma((xy^{-1})^{-1})dx="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int f ( x ) \\gamma ( x ^ { - 1 } ) d x"
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 241,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.055,
+            0.686,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§9. The Group Algebra of a Locally Compact Abelian Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.836,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "227"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.234,
+            0.1,
+            0.754,
+            0.145
+          ],
+          "image_path": "images/page_241_equation_2.jpg",
+          "content": "f * g(\\gamma) = \\int g(y) \\gamma (y^{-1}) \\left[ \\int f(x) \\gamma (x^{-1})   dx \\right] dy = \\hat{f}(\\gamma) \\hat{g}(\\gamma)."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.151,
+            0.868,
+            0.19
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\mapsto   { \\hat { f } } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " is continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( G ) \\subseteq \\mathbb { T } , \\gamma \\in L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\gamma \\| _ { \\infty } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\mapsto   { \\hat { f } } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " is not identically zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.189,
+            0.868,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism. Since h is a bounded linear functional, there is a φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(f) = \\int f(x) \\phi(x)"
+            },
+            {
+              "type": "text",
+              "content": " dx and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\|   _ { \\infty } = \\|   \\boldsymbol { h }   \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " . If f, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(f * g) = \\int (f * g)(x) \\phi(x) dx ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int g(y)[\\int f(xy^{-1})\\phi(x)dx]dy=\\int g(y)h(f_y)dy."
+            },
+            {
+              "type": "text",
+              "content": " [Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\mapsto   h ( f _ { y } )"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous scalar-valued function by Proposition 9.2.] But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(f * g) = h(f)h(g) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   g ( y ) h ( f ) \\phi ( y ) d y"
+            },
+            {
+              "type": "text",
+              "content": " . So"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.342,
+            0.307,
+            0.65,
+            0.352
+          ],
+          "image_path": "images/page_241_equation_5.jpg",
+          "content": "0 = \\int g ( y ) [ h ( f _ { y } ) - h ( f ) \\phi ( y ) ] d y ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.364,
+            0.867,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y \\mapsto h ( f _ { y } ) - h ( f ) \\phi ( y )"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , so for any f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " 2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.421,
+            0.164,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.8"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.414,
+            0.42,
+            0.581,
+            0.441
+          ],
+          "image_path": "images/page_241_equation_8.jpg",
+          "content": "h ( f _ { y } ) = h ( f ) \\phi ( y )"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.453,
+            0.869,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for locally almost all y in G. Pick f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f )   \\neq   0"
+            },
+            {
+              "type": "text",
+              "content": " By (9.8), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( y ) = h ( f _ { y } ) / h ( f )"
+            },
+            {
+              "type": "text",
+              "content": " a.e. But the right-hand side of this equation is continuous. Hence we may assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function. Thus for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , (9.8) holds everywhere."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.527,
+            0.869,
+            0.655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In (9.8), replace y by xy and we obtain "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(f)\\phi(xy)=h(f_{xy})=h((f_x))_y"
+            },
+            {
+              "type": "text",
+              "content": " Now replace f in (9.8) by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " to get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f _ { x } ) \\phi ( y ) = h ( f _ { x y } )"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(f)\\phi(xy) = h(f_x)\\phi(y) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ h ( f ) \\phi ( x ) ] \\phi ( y )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f )   \\neq   0 ."
+            },
+            {
+              "type": "text",
+              "content": " , this implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( x y ) = \\phi ( x ) \\phi ( y )"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon G   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " for all x. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = \\phi ( e ) = \\phi ( x ) \\phi ( x ^ { - 1 } ) = \\phi ( x ) \\phi ( x ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | , | \\phi ( x ) ^ { - 1 } | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | = 1"
+            },
+            {
+              "type": "text",
+              "content": " for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G.\\  If \\ \\gamma(x) = \\phi(x^{-1})"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon G   \\to   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous homomorphism and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f ) = { \\hat { f } } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.671,
+            0.871,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let ∑ be the set of nonzero homomorphisms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , where G is assumed to be abelian (both here and throughout the rest of the chapter). So ∑⊆ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . If h∈ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in Σ such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { i } \\rightarrow h \\mathrm { w e a k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " then it is easy to see that h is multiplicative. Thus the weak* closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma \\subseteq \\Sigma \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence the relative wea "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " topology on Σ makes Σ into a locally compact Hausdorff space (see Exercise 8.4)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.78,
+            0.871,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let Γ = all the continuous homomorphisms "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon G   \\to   \\mathbf { T } ,"
+            },
+            {
+              "type": "text",
+              "content": " By Theorem 9.6, Σ and Γ can be identified using formula (9.7). In fact, the map defined in (9.7) is the Gelfand transform when this identification is made. (Just look at the definitions.) Since Σ and Γ are identified and Σ has a topology, Γ can be given a topology. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " becomes a locally compact space with this topology. (For another description of the topology, see Exercise 6.) The functions in Γ are called characters and are sometimes denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma = \\hat { G }"
+            },
+            {
+              "type": "text",
+              "content": " and called the dual group."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 242,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.056,
+            0.171,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "228"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.486,
+            0.056,
+            0.872,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.871,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also notice that in a natural way Γ is a group. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } , \\gamma _ { 2 }   \\in   \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\gamma _ { 1 } \\gamma _ { 2 } ) ( x ) \\equiv \\gamma _ { 1 } ( x ) \\gamma _ { 2 } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } \\gamma _ { 2 }   \\in   \\Gamma"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.156,
+            0.655,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.9. Proposition. Γ is a locally compact abelian group."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.193,
+            0.873,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly Γ is an abelian group and we know that Γ is a locally compact space. It must be shown that Γ is a topological group. To do this we first prove a lemma."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.265,
+            0.27,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.10. Lemma."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.294,
+            0.641,
+            0.311
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) The map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , \\gamma ) { \\mapsto } \\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times \\Gamma   \\rightarrow   \\mathfrak { T }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.312,
+            0.873,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\gamma _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in Γ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i }   \\rightarrow   \\gamma"
+            },
+            {
+              "type": "text",
+              "content": " in Γ, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i } ( x )   \\rightarrow   \\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly for x belonging to any compact subset of G."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.357,
+            0.785,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. First note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   G"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , then for every γ in Γ,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.367,
+            0.384,
+            0.626,
+            0.551
+          ],
+          "image_path": "images/page_242_equation_9.jpg",
+          "content": "\\begin{aligned} \\hat{f}_{x}(\\gamma) &= \\int f_{x}(y)\\gamma(y^{-\\frac{1}{1}})dy \\\\&= \\int f(yx^{-\\frac{1}{1}})\\gamma(y^{-\\frac{1}{1}})dy \\\\&= \\int f(z)\\gamma(z^{-\\frac{1}{1}}x^{-\\frac{1}{1}})dz \\\\&= \\gamma(x^{-\\frac{1}{1}})\\hat{f}(\\gamma).\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.555,
+            0.453,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i }   \\rightarrow   \\gamma"
+            },
+            {
+              "type": "text",
+              "content": " in Γ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }   \\to   { \\pmb x }"
+            },
+            {
+              "type": "text",
+              "content": " in G,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.17,
+            0.578,
+            0.798,
+            0.631
+          ],
+          "image_path": "images/page_242_equation_11.jpg",
+          "content": "\\begin{array} { r l } & { | \\hat { f } ( \\gamma _ { i } ) \\gamma _ { i } ( x _ { i } ) - \\hat { f } ( \\gamma ) \\gamma ( x ) | = | \\hat { f } _ { x _ { i } ^ { - 1 } } ( \\gamma _ { i } ) - \\hat { f } _ { x ^ { - 1 } } ( \\gamma ) | } \\\\ & { \\quad \\leqslant | \\hat { f } _ { x _ { i } ^ { - 1 } } ( \\gamma _ { i } ) - \\hat { f } _ { x ^ { - 1 } } ( \\gamma _ { i } ) | + | \\hat { f } _ { x ^ { - 1 } } ( \\gamma _ { i } ) - \\hat { f } _ { x ^ { - 1 } } ( \\gamma ) | . } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.635,
+            0.871,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\hat { f } _ { x _ { i } ^ { - 1 } } ( \\gamma _ { i } ) - \\hat { f } _ { x ^ { - 1 } } ( \\gamma _ { i } ) | \\leqslant \\| f _ { x _ { i } ^ { - 1 } } - f _ { x ^ { - 1 } } \\| _ { 1 } \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " by (9.2). Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x ^ { - 1 } } \\in L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } _ { x ^ { - 1 } } ( \\gamma _ { i } ) \\xrightarrow { \\cdot } \\hat { f } _ { x ^ { - 1 } } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i }   \\rightarrow   \\gamma"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma _ { i } ) \\gamma _ { i } ( x _ { i } )   \\rightarrow \\hat { f } ( \\gamma ) \\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . If f is chosen so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma ) \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma _ { i } )   \\rightarrow \\hat { f } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " , there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma _ { i } )   \\neq   0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\geqslant i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i } ( x _ { i } )   \\rightarrow   \\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " and (a) is proven."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.716,
+            0.873,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let K be a compact subset of G and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\gamma _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net in Γ such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i }   \\rightarrow   \\gamma _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\gamma _ { i } ( x ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " does not converge uniformly on K to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 0 } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " Then there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that for every i, there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j _ { i }   \\geqslant   i"
+            },
+            {
+              "type": "text",
+              "content": " and an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " in K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma _ { j _ { i } } ( x _ { i } ) - \\gamma _ { 0 } ( x _ { i } ) | \\geqslant \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\gamma _ { j _ { i } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { j _ { i } }   \\rightarrow   \\gamma _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise). Since K is compact, there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }   \\xrightarrow [ \\mathrm { ~ c l ~ } ] { \\quad }   x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Now part (a) implies that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , \\gamma ) { \\mapsto } ( \\gamma ( x ) , \\gamma _ { 0 } ( x ) )"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " into T × T is continuous. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x_{i}, \\gamma_{j_{i}}) \\xrightarrow[\\mathrm{cl}]{\\quad} (x_{0}, \\gamma_{0})"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times \\Gamma , ( \\gamma _ { j _ { i } } ( x _ { i } ) , \\gamma _ { 0 } ( x _ { i } ) ) \\xrightarrow [ \\mathrm { c l } ] { } ( \\gamma _ { 0 } ( x _ { 0 } ) , \\gamma _ { 0 } ( x _ { 0 } ) )"
+            },
+            {
+              "type": "text",
+              "content": " . So for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i _ { 0 } ,"
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\geqslant i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma _ { j _ { i } } ( x _ { i } ) - \\gamma _ { 0 } ( x _ { 0 } ) | \\stackrel { \\sim } { < } \\varepsilon / 2"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma _ { 0 } ( x _ { i } ) - \\gamma _ { 0 } ( x _ { 0 } ) | < \\varepsilon / 2"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma _ { j _ { i } } ( x _ { i } ) - \\gamma _ { 0 } ( x _ { i } ) | < \\varepsilon ,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.889,
+            0.872,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF PROPOSITION 9.9. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\gamma _ { i } \\} , \\{ \\lambda _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be nets in Γ such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i }   \\rightarrow   \\gamma"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { i }   \\rightarrow   \\lambda _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " It must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_{i}\\lambda_{i}^{-1}\\rightarrow\\gamma\\lambda^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   C _ { c } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\operatorname { s p t } \\phi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 243,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.684,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§9. The Group Algebra of a Locally Compact Abelian Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "229"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.871,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\phi } ( \\gamma _ { i } \\lambda _ { i } ^ { - 1 } ) = \\int _ { K } \\phi ( x ) \\gamma _ { i } ( x ^ { - 1 } ) \\lambda _ { i } ( x ) d x"
+            },
+            {
+              "type": "text",
+              "content": " .By the preceding lemma, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i } ( x ^ { - 1 } )   \\rightarrow"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( { x ^ { - } } ^ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { i } ( x )   \\rightarrow   \\lambda ( x )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly for x in K. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\phi } ( \\gamma _ { i } \\lambda _ { i } ^ { - 1 } )   \\rightarrow   \\hat { \\phi } ( \\gamma \\lambda ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   C _ { c } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   f - \\phi   \\| _ { 1 } < \\varepsilon / 3"
+            },
+            {
+              "type": "text",
+              "content": " Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.256,
+            0.165,
+            0.739,
+            0.205
+          ],
+          "image_path": "images/page_243_equation_3.jpg",
+          "content": "| \\hat { f } ( \\gamma _ { i } \\lambda _ { i } ^ { - 1 } ) - \\hat { f } ( \\gamma \\lambda ^ { - 1 } ) | < \\frac { 2 \\varepsilon } { 3 } + | \\hat { \\phi } ( \\gamma _ { i } \\lambda _ { i } ^ { - 1 } ) - \\hat { \\phi } ( \\gamma \\lambda ^ { - 1 } ) | ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.213,
+            0.868,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma _ { i } \\lambda _ { i } ^ { - 1 } )   \\rightarrow   \\hat { f } ( \\gamma \\lambda ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { i } \\lambda _ { i } ^ { - 1 }   \\rightarrow   \\gamma \\lambda ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in Γ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.271,
+            0.871,
+            0.385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since Γ is a locally compact abelian group, it too has a dual group. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\Gamma }"
+            },
+            {
+              "type": "text",
+              "content": " be this dual group. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   G _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( x ) \\colon \\Gamma   \\to   \\mathfrak { T }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( x ) ( \\gamma ) = \\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism. It is a rather deep fact, entitled the Pontryagin Duality Theorem, that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon G   \\to   \\hat { \\Gamma }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism and an isomorphism. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\mathrm { { ` ` } 1 \\mathrm { { S } } ^ { \\mathrm { { ' } ^ { \\prime } } } }"
+            },
+            {
+              "type": "text",
+              "content": " the dual group of its dual group. The interested reader may consult Rudin [1962]. We turn now to some examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.4,
+            0.871,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.11. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\boldsymbol { I } } { \\boldsymbol { f } }   { \\boldsymbol { y } } \\in \\mathbf { R }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { y } ( x ) = e ^ { i x y }"
+            },
+            {
+              "type": "text",
+              "content": " defines a character on R and every character on R has this form. The map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\mapsto   \\gamma _ { y }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism and an isomorphism of R onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\mathbf { R } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\boldsymbol { I } } { \\boldsymbol { f } } \\; y \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 1 } ( \\dot { \\mathbb { R } } )"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.485,
+            0.175,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.12"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.338,
+            0.474,
+            0.654,
+            0.519
+          ],
+          "image_path": "images/page_243_equation_8.jpg",
+          "content": "\\hat { f } ( \\gamma _ { y } ) = \\hat { f } ( y ) = \\int _ { - \\infty } ^ { \\infty } f ( x ) e ^ { - i x y } d x ,"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.527,
+            0.387,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the Fourier transform of f."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.553,
+            0.87,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\in   \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma _ { y } ( x ) | = 1"
+            },
+            {
+              "type": "text",
+              "content": " for all x and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { y } ( x _ { 1 } + x _ { 2 } ) = \\gamma _ { y } ( x _ { 1 } ) \\gamma _ { y } ( x _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { y }   \\in   \\hat { \\mathbb { R } } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { y _ { 1 } + y _ { 2 } } ( x ) = \\gamma _ { y _ { 1 } } ( x ) \\gamma _ { y _ { 2 } } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\mapsto   \\gamma _ { y }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism of IR into Ř."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.607,
+            0.869,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "$\\gamma { \\in } \\hat { \\mathbb { R } } .$ $\\gamma ( 0 ) = 1$"
+            },
+            {
+              "type": "text",
+              "content": " so that there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { 0 } ^ { \\delta } \\gamma ( x ) d x = a \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.396,
+            0.651,
+            0.601,
+            0.795
+          ],
+          "image_path": "images/page_243_equation_12.jpg",
+          "content": "\\begin{aligned}a \\gamma (x) &= \\gamma (x) \\int_{0}^{\\delta} \\gamma (t) dt \\\\&= \\int_{0}^{\\delta} \\gamma (x + t) dt \\\\&= \\int_{x}^{x + \\delta} \\gamma (t) dt.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.808,
+            0.868,
+            0.846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(x)=a^{-1}\\int_{x}^{x+\\delta}\\gamma(t)dt"
+            },
+            {
+              "type": "text",
+              "content": " Because γ is continuous, the Fundamental Theorem of Calculus implies that γ is differentiable. Also,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.339,
+            0.855,
+            0.656,
+            0.898
+          ],
+          "image_path": "images/page_243_equation_14.jpg",
+          "content": "\\frac{\\gamma(x + h) - \\gamma(x)}{h} = \\gamma(x) \\left[ \\frac{\\gamma(h) - 1}{h} \\right]."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.909,
+            0.87,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ^ { \\prime } ( x ) = \\gamma ^ { \\prime } ( 0 ) \\gamma ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 0 ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma ( x ) | = 1"
+            },
+            {
+              "type": "text",
+              "content": " for all x, the elementary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 244,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "230"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.482,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.87,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "theory of differential equations implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = \\gamma _ { y }"
+            },
+            {
+              "type": "text",
+              "content": " for some y in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " This implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\mapsto   \\gamma _ { y }"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism of R onto R."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.137,
+            0.87,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is clear from (9.7) that (9.12) holds. From here it is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\mapsto   \\gamma _ { y }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism of R onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\mathbb { R } }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.193,
+            0.871,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So the preceding result says that R is its own dual group. Because of (9.12), the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widehat { f }"
+            },
+            {
+              "type": "text",
+              "content": " as defined in (9.7) is called the Fourier transform of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ."
+            },
+            {
+              "type": "text",
+              "content": " The next result lends more weight to the use of this terminology."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.266,
+            0.871,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.13. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\boldsymbol { I } } \\scriptstyle { \\boldsymbol { f } } \\scriptstyle { \\boldsymbol { n } } \\in \\mathbb { Z } ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { n } ; \\mathbf { T }   \\rightarrow   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { n } ( z ) = z ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " .Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { n } \\in \\widehat { \\mathbb { T } }"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\mapsto   \\gamma _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism and an isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": " onto Î. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n { \\in } \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 1 } ( \\mathbf { \\bar { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.34,
+            0.176,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.14"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.324,
+            0.325,
+            0.667,
+            0.37
+          ],
+          "image_path": "images/page_244_equation_7.jpg",
+          "content": "\\hat { f } ( \\gamma _ { n } ) = \\hat { f } ( n ) \\equiv \\frac { 1 } { 2 \\pi } \\int _ { 0 } ^ { 2 \\pi } f ( e ^ { i \\theta } ) e ^ { - i n \\theta } d \\theta."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.377,
+            0.871,
+            0.49
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. It is left to the reader to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { n } \\in \\hat { \\mathbf { I } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\mapsto   \\gamma _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is an injective homomorphism of Z into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\mathbf { T } }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\in \\hat { \\mathbf { \\Pi } }"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\colon \\mathbb { R } \\to \\mathbb { T }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( t ) = \\gamma ( e ^ { i t } ) ;"
+            },
+            {
+              "type": "text",
+              "content": " it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma   \\in   \\hat { \\mathbb { R } }"
+            },
+            {
+              "type": "text",
+              "content": " . By (9.11), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( t ) = e ^ { i y t }"
+            },
+            {
+              "type": "text",
+              "content": " for some y in R. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(t + 2\\pi) = \\sigma(t)"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { 2 \\pi i y } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = n   \\in   \\mathbb { Z } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( e ^ { i \\theta } ) = \\sigma ( \\theta ) = e ^ { i n \\theta } , \\gamma = \\gamma _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\mapsto   \\gamma _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { z }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\mathbf { T } }"
+            },
+            {
+              "type": "text",
+              "content": " Formula (9.14) is immediate from (9.7). The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\mapsto   \\gamma _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism is left as an exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.505,
+            0.671,
+            0.526
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\hat { \\mathbb { T } } } = \\mathbf { \\mathbb { Z } } ,"
+            },
+            {
+              "type": "text",
+              "content": " a discrete group. This can be generalized."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.542,
+            0.857,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.15. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f   G"
+            },
+            {
+              "type": "text",
+              "content": " is compact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { G }"
+            },
+            {
+              "type": "text",
+              "content": " is discrete; if G is discrete, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { G }"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.569,
+            0.87,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma = { \\hat { G } } ,"
+            },
+            {
+              "type": "text",
+              "content": " If G is discrete, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " has an identity. Hence its maximal ideal space is compact. That is, Γ is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.606,
+            0.871,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " is compact. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\subseteq L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m ( G ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma   \\in   \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\neq"
+            },
+            {
+              "type": "text",
+              "content": " the identity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( x _ { 0 } ) \\neq 1"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.369,
+            0.662,
+            0.653,
+            0.803
+          ],
+          "image_path": "images/page_244_equation_13.jpg",
+          "content": "\\begin{aligned}\\int \\gamma(x)dx &= \\int \\gamma(xx_{0}^{-1}x_{0})dx \\\\&= \\gamma(x_{0})\\int \\gamma(xx_{0}^{-1})dx \\\\&= \\gamma(x_{0})\\int \\gamma(x)dx,\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.81,
+            0.871,
+            0.847
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since Haar measure is translation invariant. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( x _ { 0 } ) \\neq 1"
+            },
+            {
+              "type": "text",
+              "content": " , this implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.37,
+            0.855,
+            0.627,
+            0.9
+          ],
+          "image_path": "images/page_244_equation_15.jpg",
+          "content": "\\int _ { G } \\gamma ( x ) d x = 0 \\qquad \\mathrm { i f } \\gamma \\neq 1 ."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.906,
+            0.871,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Of course if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = 1 , \\int 1   dx = m(G) = 1"
+            },
+            {
+              "type": "text",
+              "content": " . So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = 1"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G , \\quad f { \\in } L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 245,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.056,
+            0.685,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§9. The Group Algebra of a Locally Compact Abelian Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "231"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.099,
+            0.869,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( \\gamma ) = \\int \\gamma ( x ^ { - 1 } ) d x = \\chi _ { \\{ 1 \\} } ( \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma , \\{ 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " is an open set. By translation, every singleton set in Γ is open and hence Γ is discrete."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.155,
+            0.87,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.16. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\boldsymbol { I } } \\scriptstyle { \\boldsymbol { f } }   { \\boldsymbol { a } } \\in \\mathbf { T } ."
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { a } \\colon \\mathbb { Z } \\to \\mathbb { T }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { a } ( n ) = a ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { a }   \\in   \\hat { \\mathbb { Z } }"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\mapsto   \\gamma _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism and an isomorphism of T onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { z } ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 1 } ( \\mathbb { Z } ) = l ^ { 1 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.229,
+            0.175,
+            0.246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.17"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.354,
+            0.221,
+            0.636,
+            0.26
+          ],
+          "image_path": "images/page_245_equation_5.jpg",
+          "content": "\\hat { f } ( \\gamma _ { a } ) = \\hat { f } ( a ) = \\sum _ { n = - \\infty } ^ { \\infty } f ( n ) a ^ { - n } ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.269,
+            0.869,
+            0.344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Again the proof that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\mapsto   \\gamma _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " is a monomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { T }   \\rightarrow   \\hat { \\mathbb { Z } }"
+            },
+            {
+              "type": "text",
+              "content": " is left to the reader. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\in \\widehat { \\mathbb { Z } } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 1 ) = a   \\in   \\mathbf { T }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( n ) = \\gamma ( 1 ) ^ { n } = a ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = \\gamma _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\mapsto   \\gamma _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism. It is easy to show that this map is continuous and hence, by compactness, a homeomorphism"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.154,
+            0.361,
+            0.612,
+            0.38
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For additional reading, consult Rudin [1962]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.398,
+            0.233,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.138,
+            0.417,
+            0.641,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " has an identity, then G is discrete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.138,
+            0.442,
+            0.839,
+            0.461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   f _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function from G into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L ^ { \\infty } ( G ) , \\mathbf { w } \\mathbf { k } ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.138,
+            0.469,
+            0.869,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Is there a measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " on R different from Lebesgue measure such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( \\mu ) , x   \\mapsto   f _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous? Is there a measure for which this map is discontinuous?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.138,
+            0.513,
+            0.759,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   f _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous map from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G   \\rightarrow   { \\cal C } _ { 0 } ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.138,
+            0.539,
+            0.869,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and f is uniformly continuous on G, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   f _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G   \\to   L ^ { \\infty } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . Is the converse true? See Edwards [1961]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.138,
+            0.581,
+            0.87,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If K is a compact subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G , \\gamma _ { 0 } { \\in } \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " ,and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( K , \\gamma _ { 0 } , \\varepsilon ) = \\{ \\gamma \\in \\Gamma :"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\gamma ( x ) - \\gamma _ { 0 } ( x ) | < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| K \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Show that the collection of all such sets is a base for the topology of Γ. (This says that the topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " is the compact-open topology.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.138,
+            0.656,
+            0.871,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Show that there is a discontinuous homomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon \\mathbb { R }   \\to   \\mathbb { T } . { \\mathrm { ~ I f ~ } } \\gamma \\colon \\mathbb { R }   \\to   \\mathbb { T }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism that is a Borel function, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.137,
+            0.699,
+            0.827,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If G is a compact abelian group, show that the linear span of Γ is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.136,
+            0.724,
+            0.856,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If G is a compact abelian group, show that Γ forms an orthonormal basis in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.75,
+            0.871,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. If G is a compact abelian group, show that G is metrizable if and only if Γ is countable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.792,
+            0.871,
+            0.843
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ G _ { \\alpha } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a family of compact abelian groups and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\Pi _ { \\alpha } G _ { \\alpha } . \\mathrm { I f } \\Gamma _ { \\alpha } = \\hat { G } _ { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " , show that the character group of G is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\left\\{ \\gamma _ { \\mathfrak { a } } \\right\\} \\in \\mathbf { \\Pi } _ { \\mathfrak { a } } \\mathbf { \\Gamma } _ { \\mathfrak { a } } \\colon \\gamma _ { \\mathfrak { a } } = e \\right."
+            },
+            {
+              "type": "text",
+              "content": " except for at most a finite number of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 246,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.099,
+            0.328,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER VIII"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.129,
+            0.133,
+            0.351,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.429,
+            0.871,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A C*-algebra is a particular type of Banach algebra that is intimately connected with the theory of operators on a Hilbert space. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is an example of a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra. Moreover, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } \\text {-} \\mathrm { a l g e b r a } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then it is isomorphic to a subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " (see Section 5). Some of the general theory developed in this chapter will be used in the next chapter to prove the Spectral Theorem, which reveals the structure of normal operators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.558,
+            0.871,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A more thorough treatment of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ."
+            },
+            {
+              "type": "text",
+              "content": " -algebras is available in Arveson [1976] or Sakai [1971]."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.638,
+            0.698,
+            0.663
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.679,
+            0.871,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If  is a Banach algebra, an involution is a map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\mapsto   a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that the following properties hold for a and b in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and α in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { C } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.138,
+            0.724,
+            0.269,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a ^ { * } ) ^ { * } = a ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.133,
+            0.743,
+            0.301,
+            0.76
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a b ) ^ { * } = b ^ { * } a ^ { * } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.761,
+            0.373,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha a + b ) ^ { \\star } = { \\bar { \\alpha } } a ^ { \\star } + b ^ { \\star } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.789,
+            0.868,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " has involution and an identity, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1^{*} \\cdot a = (1^{*} \\cdot a)^{*} ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a ^ { * }   \\cdot   1 ) ^ { * } = ( a ^ { * } ) ^ { * } = a ;"
+            },
+            {
+              "type": "text",
+              "content": " similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\cdot 1 ^ { * } = a ."
+            },
+            {
+              "type": "text",
+              "content": " Since the identity is unique, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 ^ { * } = 1"
+            },
+            {
+              "type": "text",
+              "content": " Also, for any α in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { * } = \\alpha"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.861,
+            0.871,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Definition. A C*-algebra is a Banach algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " with an involution such that for every a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.426,
+            0.903,
+            0.572,
+            0.924
+          ],
+          "image_path": "images/page_246_equation_11.jpg",
+          "content": "\\| a ^ { \\star } a \\| = \\| a \\| ^ { 2 } ."
+        }
+      ]
+    },
+    {
+      "page_idx": 247,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.055,
+            0.497,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.057,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "233"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.101,
+            0.871,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra where for each A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } ) ,   A ^ { * } = \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " adjoint of A. (See Proposition II.2.7.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.157,
+            0.87,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " though "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " does not have an identity if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is infinite dimensional."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.211,
+            0.871,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4. Example. If X is a compact space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ."
+            },
+            {
+              "type": "text",
+              "content": " -algebra where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { * } ( x ) = { \\overline { { f ( x ) } } }"
+            },
+            {
+              "type": "text",
+              "content": " for f in C(X) and x in X."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.27,
+            0.871,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a σ-finite measure space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a C*-algebra where the involution is defined as in (1.4)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.326,
+            0.871,
+            0.364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.6. Example. If X is locally compact but not compact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra without identity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.381,
+            0.779,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.7. Proposition. If  is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ~ C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a ^ { \\star } \\| = \\| a \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.407,
+            0.871,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a \\| ^ { 2 } = \\| a ^ { \\star } a \\| \\leqslant \\| a ^ { \\star } \\| \\| a \\| ;"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a \\| \\leqslant \\| a ^ { * } \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = a ^ { * * } ."
+            },
+            {
+              "type": "text",
+              "content": " substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " for a in this inequality gives "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a ^ { \\star } \\| \\leqslant \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.464,
+            0.655,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.8. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { I f . 3 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a C*-algebra and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.33,
+            0.493,
+            0.663,
+            0.536
+          ],
+          "image_path": "images/page_247_equation_10.jpg",
+          "content": "\\begin{aligned}\\| a \\| = \\sup \\{ \\| a x \\| : x \\in \\mathcal{A}, \\| x \\| \\leqslant 1 \\} \\\\= \\sup \\{ \\| x a \\| : x \\in \\mathcal{A}, \\| x \\| \\leqslant 1 \\}.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.544,
+            0.87,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = \\sup \\left\\{ \\| a x \\| : x \\in \\mathcal{A}, \\| x \\| \\leqslant 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a x \\| \\leqslant \\| a \\| \\| x \\|"
+            },
+            {
+              "type": "text",
+              "content": " for any x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\leqslant \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = a ^ { * } / \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " by the preceding proposition. For this x, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a x \\| = \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " . The proof of the other equality is similar. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.634,
+            0.87,
+            0.726
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This last proposition has an alternative formulation that is useful. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } \\colon { \\mathcal { A } }   \\to   { \\mathcal { A } }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ( x )   =   a x"
+            },
+            {
+              "type": "text",
+              "content": " . By "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 . 8 ) ,   L _ { a } { \\in } { \\mathcal { B } } ( { \\mathcal { A } } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| L _ { a } \\| = \\| a \\|"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }   \\rightarrow   \\mathcal { B } ( \\mathcal { A } )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( a )   =   L _ { a } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism and an isometry. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is isometrically isomorphic to a subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { A } )"
+            },
+            {
+              "type": "text",
+              "content": " The map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is called the left regular representation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.726,
+            0.871,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The left regular representation can be used to discuss the process of adjoining an identity to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\measuredangle ,"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is isomorphic to a subalgebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { A } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { A } )"
+            },
+            {
+              "type": "text",
+              "content": " has an identity, why not just look at the subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { A } )"
+            },
+            {
+              "type": "text",
+              "content": " generated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sphericalangle"
+            },
+            {
+              "type": "text",
+              "content": " and the identity operator? Why not, indeed. This is just what is done below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.817,
+            0.869,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C }"
+            },
+            {
+              "type": "text",
+              "content": " are Banach algebras and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v : { \\mathcal { A } }   \\to   { \\mathcal { C } }"
+            },
+            {
+              "type": "text",
+              "content": " , then v is *-homomorphism if v is an algebra homomorphism such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v(a^{*}) = v(a)^{*}"
+            },
+            {
+              "type": "text",
+              "content": " for all a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.872,
+            0.871,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.9. Proposition. If A is a C*-algebra, then there is a C*-algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " with an identity such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " contains "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " as an ideal. If A does not have an identity, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 } / \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is one dimensional. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\mathcal { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra with identity, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v : \\mathcal { A } \\rightarrow \\mathcal { C }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,4647 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 392,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 393,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 394,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 395,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 396,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 397,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 398,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 399,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 392,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.098,
+            0.31,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "APPENDIX C"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.125,
+            0.132,
+            0.465,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Dual of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.428,
+            0.871,
+            0.484
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The purpose of this section is to show that the dual of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is the space of regular Borel measures on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " and to put this result, and the accompanying definitions, in the context of complex-valued measures and functions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.484,
+            0.871,
+            0.557
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let X be any set and let Ω be a σ-algebra of subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ;"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " is a measurable space. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a countably additive function defined on Ω such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Box ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant \\mu ( \\Delta ) \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Omega } _ { \\mathbf { \\Omega } _ { \\mathbf { \\Omega } } }"
+            },
+            {
+              "type": "text",
+              "content": " call "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " a positive measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega ) ;   ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is called a measure space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.556,
+            0.871,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If (X,Ω) is a measurable space, a signed measure is a countably additive function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " defined on Ω such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Box ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " takes its values in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } \\cup \\{ \\pm \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " . (Note: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " can assume only one of the values "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pm \\infty . )"
+            },
+            {
+              "type": "text",
+              "content": " It is assumed that the reader is familiar with the following result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.646,
+            0.871,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.1. Hahn-Jordan Decomposition. If µ is a signed measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X ,   \\Omega ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\mu } = \\mathbf { \\mu } _ { 1 } - \\mathbf { \\mu } _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are positive measures, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = E _ { 1 } \\cup E _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { 1 } , E _ { 2 }   \\in   \\Omega , E _ { 1 }   \\cap   E _ { 2 }   =   \\square , \\mu _ { 1 } ( E _ { 2 } )   =   0   =   \\mu _ { 2 } ( E _ { 1 } ) ."
+            },
+            {
+              "type": "text",
+              "content": " The measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are unique and the sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are unique up to sets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 } + \\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " measure zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.739,
+            0.871,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A measure (or complex-valued measure) is a complex-valued function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Omega }"
+            },
+            {
+              "type": "text",
+              "content": " that is countably additive and such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Box ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " . Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " does not assume any infinite values. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a measure, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\operatorname { R e } \\mu ) ( \\Delta ) \\equiv \\operatorname { R e } ( \\mu ( \\Delta ) )"
+            },
+            {
+              "type": "text",
+              "content": " is a signed measure, as is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathrm { I m }   \\mu ) ( \\Delta ) \\equiv \\mathrm { I m } ( \\mu ( \\Delta ) )"
+            },
+            {
+              "type": "text",
+              "content": " ; hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\operatorname { R e } \\mu + i \\operatorname { I m } \\mu ."
+            },
+            {
+              "type": "text",
+              "content": " Applying (C.1) to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { R e }   \\mu"
+            },
+            {
+              "type": "text",
+              "content": " and Im "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " we get"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.84,
+            0.168,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.2"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.371,
+            0.841,
+            0.624,
+            0.859
+          ],
+          "image_path": "images/page_392_equation_8.jpg",
+          "content": "\\mu = ( \\mu _ { 1 } - \\mu _ { 2 } ) + i ( \\mu _ { 3 } - \\mu _ { 4 } )"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.867,
+            0.87,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { j } \\left( 1 \\leqslant j \\leqslant - 4 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " are positive measures, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 } \\perp \\mu _ { 2 } \\left( \\mu _ { 1 } \\right."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are mutually singular) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 3 } \\perp \\mu _ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": " . (C.2) will also be called the Hahn-Jordan decomposition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 393,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.055,
+            0.336,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C. The Dual of C₀(X)"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.836,
+            0.058,
+            0.872,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "379"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.1,
+            0.874,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.3. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta { \\in } \\Omega ,"
+            },
+            {
+              "type": "text",
+              "content": " define the variation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu , \\left| \\mu \\right|"
+            },
+            {
+              "type": "text",
+              "content": " , by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.183,
+            0.145,
+            0.812,
+            0.189
+          ],
+          "image_path": "images/page_393_equation_3.jpg",
+          "content": "| \\mu | ( \\Delta ) = \\sup \\left\\{ \\sum_{j = 1}^{m} | \\mu ( E_j ) | : \\{ E_j \\}_1^m   is a measurable partition of   \\Delta \\right\\}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.206,
+            0.871,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.4. Proposition. If µ is a measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu |"
+            },
+            {
+              "type": "text",
+              "content": " is a positive finite measure on (X,Ω). If µ is a signed measure, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu |"
+            },
+            {
+              "type": "text",
+              "content": " is a positive measure. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f ( \\mathbb { C } . 2 )"
+            },
+            {
+              "type": "text",
+              "content": " is satisfied, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( \\Delta ) \\leqslant \\sum _ { k = 1 } ^ { 4 } \\mu _ { k } ( \\Delta ) ,"
+            },
+            {
+              "type": "text",
+              "content": " ; if µ is a signed measure, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\boldsymbol { \\mu } |   =   \\mu _ { 1 } + \\mu _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.271,
+            0.871,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( \\Delta ) \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be pairwise disjoint measurable sets and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta = \\bigcup _ { n = 1 } ^ { \\infty } \\Delta _ { n } . \\mathrm { I f } \\varepsilon > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a measurable partition "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\big \\{ E _ { j } \\big \\} _ { j = 1 } ^ { m }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { | \\mu | ( \\Delta ) - \\varepsilon < \\sum _ { j = 1 } ^ { m } | \\mu ( E _ { j } ) | } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.337,
+            0.335,
+            0.65,
+            0.427
+          ],
+          "image_path": "images/page_393_equation_6.jpg",
+          "content": "\\begin{align*}\\| \\mu \\| (\\Delta) - \\varepsilon & \\leqslant \\sum_{j=1}^{m} \\left| \\sum_{n=1}^{\\infty} \\mu(E_j \\cap \\Delta_n) \\right| \\\\& \\leqslant \\sum_{n=1}^{\\infty} \\sum_{j=1}^{m} |\\mu(E_j \\cap \\Delta_n)|.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.434,
+            0.871,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ E _ { j } \\cap \\Delta _ { n } \\right\\} _ { j = 1 } ^ { m }"
+            },
+            {
+              "type": "text",
+              "content": " is a partition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( \\Delta ) - \\varepsilon \\leqslant \\sum _ { n = 1 } ^ { \\infty } | \\mu | ( \\Delta _ { n } ) ."
+            },
+            {
+              "type": "text",
+              "content": " Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\mu \\| ( \\Delta ) \\leqslant \\sum _ { n = 1 } ^ { \\infty } | \\mu | ( \\Delta _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " For the reverse inequality we may assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( \\Delta )   < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( \\Delta _ { n } ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for every n. (Why?) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ E _ { 1 } ^ { ( n ) } , \\ldots , E _ { m _ { n } } ^ { ( n ) } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " be a partition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { j } \\lvert \\mu ( E _ { j } ^ { ( n ) } ) \\rvert > } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( \\Delta _ { n } ) - \\varepsilon / 2 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.322,
+            0.533,
+            0.673,
+            0.578
+          ],
+          "image_path": "images/page_393_equation_8.jpg",
+          "content": "\\sum_{n = 1}^{N} | \\mu | ( \\Delta_n ) < \\sum_{n = 1}^{N} \\left[ \\frac{\\varepsilon}{2^n} + \\sum_{j} | \\mu ( E_j^{(n)} ) | \\right]"
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.426,
+            0.585,
+            0.629,
+            0.626
+          ],
+          "image_path": "images/page_393_equation_9.jpg",
+          "content": "\\leqslant \\varepsilon + \\sum_{n = 1}^{N} \\sum_{j} \\left| \\mu(E_{j}^{(n)}) \\right|"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.426,
+            0.634,
+            0.551,
+            0.653
+          ],
+          "image_path": "images/page_393_equation_10.jpg",
+          "content": "\\leqslant \\varepsilon + | \\mu | ( \\Delta ) ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.661,
+            0.668,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " gives that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { 1 } ^ { \\infty } | \\mu | ( \\Delta _ { n } ) \\leqslant | \\mu | ( \\Delta ) } \\end{array}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.679,
+            0.871,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu ( \\Delta ) | \\leqslant \\sum _ { k = 1 } ^ { 4 } \\mu _ { k } ( \\Delta )"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | \\leqslant \\sum_{k = 1}^{4} \\mu_{k}"
+            },
+            {
+              "type": "text",
+              "content": " . It is left to the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\boldsymbol { \\mu } |   =   \\boldsymbol { \\mu } _ { 1 } + \\boldsymbol { \\mu } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a signed measure. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 } ,   \\mu _ { 2 } ,   \\mu _ { 3 } ,   \\mu _ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": " are all finite, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu |"
+            },
+            {
+              "type": "text",
+              "content": " is finite if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is complex-valued. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.751,
+            0.871,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.5. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a measure on (X,Ω) and v is a positive measure on (X,Ω), say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is absolutely continuous with respect to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu \\left( \\mu \\ll \\nu \\right)"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v ( \\Delta ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " . If v is complex-valued, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\ll   \\nu"
+            },
+            {
+              "type": "text",
+              "content": " means "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\ll   | \\nu | ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.825,
+            0.871,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.6. Proposition. Let µ be a measure and v a positive measure on (X,Ω). The following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.873,
+            0.224,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\ll \\nu ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.89,
+            0.238,
+            0.907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | \\ll \\nu ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.128,
+            0.908,
+            0.5,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If (C.2) holds, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { k } \\ll v \\; \\mathrm { f o r } \\; 1 \\leqslant k \\leqslant 4 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 394,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.169,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "380"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.579,
+            0.055,
+            0.87,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Appendix C. The Dual of C0(X)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.102,
+            0.295,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.137,
+            0.871,
+            0.195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Radon-Nikodym Theorem can now be proved for complex-valued measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " by using (C.6) and applying the usual theorem to the real and imaginary parts of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ."
+            },
+            {
+              "type": "text",
+              "content": " The details are left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.211,
+            0.871,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.7. Radon-Nikodym Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\left( X , \\Omega , \\nu \\right)"
+            },
+            {
+              "type": "text",
+              "content": " is a σ-finite measure space and µ is a complex-valued measure on (X,Ω) such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\ll \\nu ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a unique complex-valued function f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( X , \\Omega , \\nu )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = \\int _ { \\Delta } f"
+            },
+            {
+              "type": "text",
+              "content": " dv for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " inΩ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.285,
+            0.871,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The function f obtained in (C.7) is called the Radon-Nikodym derivative of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " with respect to v and is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = d \\mu / d v"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.34,
+            0.872,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.8. Theorem. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , v )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " be a complex-valued measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\ll   \\nu"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = d \\mu / d v ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.386,
+            0.713,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   L ( X , \\Omega , | \\mu | )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g f   \\in   L ^ { 1 } ( X , \\Omega , v )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int g d \\mu = \\int g f d v ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.405,
+            0.448,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega , \\left| \\mu \\right| \\left( \\Delta \\right) = \\int _ { \\Delta } \\left| f \\right| d v ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.432,
+            0.871,
+            0.47
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Part (a) follows from the corresponding result for signed measures by using (C.2) and a similar decomposition for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.153,
+            0.469,
+            0.743,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove (b), let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ E _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a measurable partition of ∆. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.326,
+            0.495,
+            0.669,
+            0.54
+          ],
+          "image_path": "images/page_394_equation_11.jpg",
+          "content": "\\sum _ { j } | \\mu ( E _ { j } ) | \\leqslant \\sum _ { j } \\int _ { E _ { j } } | f | d v = \\int _ { \\Delta } | f | d v ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.548,
+            0.873,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the reverse inequality, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( x ) = \\widetilde { f ( x ) } / | f ( x ) |"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) \\neq 0;"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( x ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " otherwise. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ g _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence of Ω-measurable simple functions such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { n } ( x ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " off "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta, |g_n| \\leqslant |g| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { n } ( x )   \\rightarrow   g ( x )"
+            },
+            {
+              "type": "text",
+              "content": " a.e. [v]. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f g _ { n } \\to | f | \\chi _ { \\Delta } \\quad \\mathrm { a . e . } \\quad [ v ] ."
+            },
+            {
+              "type": "text",
+              "content": " Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f g _ { n } | \\leqslant | f | \\chi _ { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\chi _ { \\Delta }   \\in   L ^ { 1 } ( v )"
+            },
+            {
+              "type": "text",
+              "content": " [see (C.2)]. By the Lebesgue Dominated Convergence Theorem, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int f g_{n}   dv \\rightarrow \\int_{\\Delta} |f|   dv"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\pmb { g } _ { n } = \\sum _ { j }   \\pmb { \\alpha } _ { j } \\chi _ { E _ { j } } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ E _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a partition of ∆ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha _ { j } | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\int f g_{n} d v \\right| = \\left| \\int g_{n} d \\mu \\right| = \\left| \\sum_{j} \\alpha_{j} \\mu(E_{j}) \\right| \\leqslant | \\mu | (\\Delta)"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { \\Delta } | f | d v \\leqslant | \\mu | ( \\Delta )"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.694,
+            0.872,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One way of phrasing (C.8b) is that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| d \\mu / d v | = d | \\mu | / d v"
+            },
+            {
+              "type": "text",
+              "content": " . The next result is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.749,
+            0.871,
+            0.806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.9. Corollary. If µ is a complex-valued measure on (X,Ω), then there is an Ω-measurable function f on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " such that |f| = 1 a.e. [|µ|] and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = \\int _ { \\Delta } f d | \\mu |"
+            },
+            {
+              "type": "text",
+              "content": " for each ∆ in Ω."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.823,
+            0.872,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.10. Definition. Let X be a locally compact space and let Ω be the smallest σ-algebra of subsets of X that contains the open sets. Sets in Ω are called Borel sets. A positive measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " on (X,Ω) is a regular Borel measure if (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( K ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for every compact subset K of X; (b) for any E in Ω, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( E ) = \\operatorname* { s u p } \\left\\{ \\mu ( K ) : \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\subseteq E"
+            },
+            {
+              "type": "text",
+              "content": " and K is compact}; (c) for any E in Ω, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( E ) = \\operatorname* { i n f } \\{ \\mu ( U ) : U \\supseteq E"
+            },
+            {
+              "type": "text",
+              "content": " and U is open}. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a complex-valued measure on (X,Ω), μ is a regular Borel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 395,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.055,
+            0.336,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C. The Dual of C₀(X)"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "381"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { i f }   | \\mu |   \\mathbf { i s }"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M(X) = \\mathrm{all}"
+            },
+            {
+              "type": "text",
+              "content": " of the complex-valued regular Borel measures on X. Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is a vector space over C. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X ) _ { \\mathrm { i } }"
+            },
+            {
+              "type": "text",
+              "content": " let"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.146,
+            0.567,
+            0.166
+          ],
+          "image_path": "images/page_395_equation_3.jpg",
+          "content": "\\|   \\mu   \\| \\equiv | \\mu | ( X ) .\\tag{C.11}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.183,
+            0.614,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.12. Proposition. (C.11) defines a norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.21,
+            0.296,
+            0.228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.247,
+            0.869,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.13. Lemma. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } ( f ) = \\int f   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } \\in C _ { 0 } ( X ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { F } _ { \\boldsymbol { \\mu } } \\| = \\| \\boldsymbol { \\mu } \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.293,
+            0.868,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| F _ { \\mu } ( f ) | \\leqslant \\int | f | d | \\mu | \\leqslant \\| f \\| \\| \\mu \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } \\in C _ { 0 } ( X ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { F } _ { \\boldsymbol { \\mu } } \\| \\leqslant \\| \\boldsymbol { \\mu } \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.331,
+            0.869,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To show equality, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " be a Borel function such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f _ { 0 } | = 1"
+            },
+            {
+              "type": "text",
+              "content": " a.e. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ | \\mu | ]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = \\int _ { \\Delta } f _ { 0 } d | \\mu |"
+            },
+            {
+              "type": "text",
+              "content": " . By Lusin's Theorem, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a continuous function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " on X with compact support such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int | \\phi - \\bar { f } _ { 0 } | d | \\mu | < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| \\leqslant \\sup | f_0(x) | = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\mu \\| = \\int f_{0} \\bar{f}_{0} d | \\mu | \\quad ( \\mathrm{C.8a} ) = \\int \\bar{f}_{0} d \\mu = | \\int \\bar{f}_{0} d \\mu | \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\int ( \\bar { f } _ { 0 } - \\phi ) d \\mu \\right| + \\left| \\int \\phi d \\mu \\right| \\leqslant \\varepsilon + \\left| F _ { \\mu } ( \\phi ) \\right| \\leqslant \\varepsilon + \\left\\| F _ { \\mu } \\right\\|"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { \\mu } \\| \\leqslant \\| \\boldsymbol { F } _ { \\boldsymbol { \\mu } } \\|"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.441,
+            0.868,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.14. Corollary. (a) If U is an open subset of X and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | ( U ) = \\operatorname* { s u p } \\{ | \\int \\phi d \\mu | : \\phi \\in C _ { c } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " spt "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\subseteq U ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| \\leqslant 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { I f \\quad \\mu \\geqslant 0 , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( K ) = \\operatorname* { i n f } \\left\\{ \\int \\phi ^ { \\cdot } d \\mu : \\phi \\in C _ { 0 } ( X ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\geqslant \\chi _ { K } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.506,
+            0.867,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. (a) If U is given the relative topology from X, U is locally compact. Let v be the restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " to U. Then (a) becomes a restatement of (C.13) for the space U together with the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ( U )"
+            },
+            {
+              "type": "text",
+              "content": " is norm dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( U )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.562,
+            0.868,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\geqslant \\chi _ { K } ,"
+            },
+            {
+              "type": "text",
+              "content": " then because μ is positive, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int \\phi   d \\mu \\geqslant \\mu ( K ) ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( K ) \\leqslant \\alpha \\equiv \\inf \\left\\{ \\int \\phi   d \\mu : \\phi \\in C _ { 0 } ( X ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\geqslant \\chi _ { K } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Using the regularity of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " for every integer n there is an open set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\subseteq U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( U _ { n } \\backslash K ) < n ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi _ { n } \\in C _ { c } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant \\psi_{n} \\leqslant 1, \\psi_{n} = 1"
+            },
+            {
+              "type": "text",
+              "content": " on K, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi _ { n } = 0"
+            },
+            {
+              "type": "text",
+              "content": " off "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi _ { n } \\geqslant \\chi _ { K }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\leqslant \\int \\psi _ { n } d \\mu \\leqslant \\mu ( U _ { n } ) < \\mu ( K ) + n ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.67,
+            0.869,
+            0.746
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next step in the process of representing bounded linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " by measures is to associate with each such functional a positive functional. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , then the next lemma would associate with the functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " the positive functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = F _ { | \\mu | }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.76,
+            0.871,
+            0.799
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.15. Lemma. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F \\colon C _ { 0 } ( X )   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded linear functional, then there is a unique linear functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\colon C _ { 0 } ( X ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { i f } f   \\in   { \\cal C } _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\geqslant 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.806,
+            0.718,
+            0.827
+          ],
+          "image_path": "images/page_395_equation_14.jpg",
+          "content": "I ( f ) = \\sup \\left\\{ | F ( g ) | : g \\in C _ { 0 } ( X ) \\text { a n d } | g | \\leqslant f \\right\\} .\\tag{C.16}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.834,
+            0.333,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Moreover "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| I \\| = \\| f \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.861,
+            0.868,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " + be the positive functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " + define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f )"
+            },
+            {
+              "type": "text",
+              "content": " as in (C.16). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , then clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( \\alpha f ) = \\alpha I ( f )"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X ) _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   { \\cal C } _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| g | \\leqslant f ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| F ( g ) | \\leqslant \\| F \\| \\| g \\| \\leqslant \\| F \\| \\| f \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f )   \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": "二 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{F} \\| \\left\\| \\boldsymbol{f} \\right\\| < \\infty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 396,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.057,
+            0.17,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "382"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.581,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Appendix C. The Dual of C0(X)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.871,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we will show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f _ { 1 } + f _ { 2 } ) = I ( f _ { 1 } ) + I ( f _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{1},f_{2} \\in C(X)_{+}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { I f } \\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 1 } , g _ { 2 } \\in C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| g _ { j } | \\leqslant f _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| F ( g _ { j } ) | > I ( f _ { j } ) - \\frac { 1 } { 2 } \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j   =   1 , 2"
+            },
+            {
+              "type": "text",
+              "content": " There are complex numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { j } , j = 1 , 2 ,"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\beta _ { j } | \\stackrel { \\cdot } { = } 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( g _ { j } ) = \\beta _ { j } | F ( g _ { j } ) |"
+            },
+            {
+              "type": "text",
+              "content": " Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.319,
+            0.183,
+            0.676,
+            0.26
+          ],
+          "image_path": "images/page_396_equation_3.jpg",
+          "content": "\\begin{align*}I(f_1) + I(f_2) &< \\varepsilon + |F(g_1)| + |F(g_2)| \\\\&= \\varepsilon + \\bar{\\beta}_1 F(g_1) + \\bar{\\beta}_2 F(g_2) \\\\&= \\varepsilon + |F(\\bar{\\beta}_1 g_1 + \\bar{\\beta}_2 g_2)|.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.266,
+            0.869,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\bar { \\beta } _ { 1 } g _ { 1 } + \\bar { \\beta } _ { 2 } g _ { 2 } ) | \\leqslant | g _ { 1 } | + | g _ { 2 } | \\leqslant f _ { 1 } + f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I(f_1) + I(f_2) \\leqslant \\varepsilon + I(f_1 + f_2)"
+            },
+            {
+              "type": "text",
+              "content": " Since ε was arbitrary, we have half of the desired equality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.304,
+            0.872,
+            0.361
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the other half of the equality, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g   \\in   \\overline { { C _ { 0 } ( X ) } }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| g | \\leqslant f _ { 1 } + f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f _ { 1 } + f _ { 2 } ) < | F ( g ) | + \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{1} = \\min(|g|, f_{1})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 } = | g | - h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 } \\in C _ { 0 } ( X ) _ { + } ,   h _ { 1 } \\leqslant f _ { 1 } ,   h _ { 2 } \\leqslant f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { h } _ { 1 } + \\boldsymbol { h } _ { 2 } = | \\boldsymbol { g } |"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { j } \\colon X   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.354,
+            0.366,
+            0.647,
+            0.44
+          ],
+          "image_path": "images/page_396_equation_6.jpg",
+          "content": "g _ { j } ( x ) = \\left\\{ \\begin{aligned} & 0 & &  if   g ( x ) = 0, \\\\ & \\frac { h _ { j } ( x ) g ( x ) } { | g ( x ) | } & &  if   g ( x ) \\neq 0. \\end{aligned} \\right."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.445,
+            0.815,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is left to the reader to verify that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { j } { \\in } C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 1 } + g _ { 2 } = g"
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.34,
+            0.472,
+            0.654,
+            0.538
+          ],
+          "image_path": "images/page_396_equation_8.jpg",
+          "content": "\\begin{aligned}I(f_{1} + f_{2}) &< |F(g_{1}) + F(g_{2})| + \\varepsilon \\\\&\\leqslant |F(g_{1})| + |F(g_{2})| + \\varepsilon \\\\&\\leqslant I(f_{1}) + I(f_{2}) + \\varepsilon.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13,
+            0.546,
+            0.275,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   \\to   0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.562,
+            0.874,
+            0.653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If f is a real-valued function in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = f _ { 1 } - f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } f _ { 2 } \\in C _ { 0 } ( X ) _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " If also "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = g _ { 1 } - g _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 1 } , g _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X ) _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_{1} + f_{2} = f_{1} + g_{2}"
+            },
+            {
+              "type": "text",
+              "content": " . By the preceding argument "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( g _ { 1 } ) + I ( f _ { 2 } ) = I ( f _ { 1 } ) + I ( g _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " Hence if we define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { R e } C _ { 0 } ( X ) \\to \\operatorname { R }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = I ( f _ { 1 } ) - I ( f _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = f _ { 1 } - f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } , f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { C _ { 0 } } } ( X ) _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " I is well defined. It is left to the reader to verify that I is R-linear."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13,
+            0.653,
+            0.869,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   C _ { 0 } ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = f _ { 1 } + i f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } , f _ { 2 } \\in \\operatorname { R e } C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = I ( f _ { 1 } ) +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i I ( f _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " . It is left to the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I : C _ { 0 } ( X ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear functional."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.69,
+            0.872,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| I \\| = \\| F \\|"
+            },
+            {
+              "type": "text",
+              "content": " , first let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = \\alpha | I ( f ) |"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha | = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\alpha } f = f _ { 1 } + i f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{1},f_{2} \\in \\mathrm{Re} C_{0}(X)"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| I ( f ) | = \\bar { \\alpha } I ( f ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f _ { 1 } ) + i I ( f _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ I ( f ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a positive real number, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f _ { 2 } ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f _ { 1 } ) = | I ( f ) |"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{1} = \\mathrm{Re}(\\bar{\\alpha} f) \\leqslant |f|"
+            },
+            {
+              "type": "text",
+              "content": " . Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.428,
+            0.773,
+            0.575,
+            0.793
+          ],
+          "image_path": "images/page_396_equation_13.jpg",
+          "content": "| I ( f ) | \\leqslant I ( | f | ) ."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.8,
+            0.873,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From here we get, as in the beginning of this proof, that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| I \\| \\leqslant \\| F \\|"
+            },
+            {
+              "type": "text",
+              "content": " . For the other half, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| F \\| < | F ( f ) | + \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| F \\| < I ( | f | ) + \\varepsilon \\leqslant \\| I \\| + \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.873,
+            0.874,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.17. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\colon C _ { 0 } ( X ) { \\to } \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded linear functional such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f )   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X ) _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a positive measure v in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = \\int f   d v"
+            },
+            {
+              "type": "text",
+              "content": " for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| I \\| = { \\mathfrak { v } } ( X )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 397,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.055,
+            0.335,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C. The Dual of C0(X)"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.058,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "383"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.87,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of this is an involved construction. Inspired by Corollary C.14, one defines v(U) for an open set U by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.271,
+            0.146,
+            0.724,
+            0.166
+          ],
+          "image_path": "images/page_397_equation_3.jpg",
+          "content": "\\nu ( U ) = \\operatorname* { s u p } \\{ I ( \\phi ) : \\phi \\in C _ { c } ( X ) _ { + } , \\phi \\leqslant 1 , \\operatorname { s p t } \\phi \\subseteq U \\} ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.173,
+            0.417,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then for any Borel set E, let"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.308,
+            0.201,
+            0.688,
+            0.22
+          ],
+          "image_path": "images/page_397_equation_5.jpg",
+          "content": "v ( E ) = \\operatorname* { i n f } \\{ v ( U ) \\colon E \\subseteq U { \\mathrm { ~ a n d ~ } } U { \\mathrm { ~ i s ~ o p e n } } \\} ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.228,
+            0.871,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It must now be shown that v is a positive measure and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = \\int f   d v"
+            },
+            {
+              "type": "text",
+              "content": " For the details see (12.36) in Hewitt and Stromberg [1975] or §56 in Halmos [1974]. Indeed, Theorem C.17 is often called the Riesz Representation Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.321,
+            0.87,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C.18. Riesz Representation Theorem. If X is a locally compact space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.428,
+            0.366,
+            0.571,
+            0.388
+          ],
+          "image_path": "images/page_397_equation_8.jpg",
+          "content": "F _ { \\mu } ( f ) = \\int f   d \\mu ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.395,
+            0.87,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { \\mu } \\in C _ { 0 } ( X ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\mapsto   F _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometric isomorphism of M(X) onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { C _ { 0 } ( X ) ^ { * } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.44,
+            0.87,
+            0.644
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\mapsto } F _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry is the content of Lemma C.13. It remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\mapsto } F _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " is surjective. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F   \\in   \\overline { { C _ { 0 } ( x ) ^ { * } } }"
+            },
+            {
+              "type": "text",
+              "content": " and define I: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " as in Lemma C.15. By Theorem C.17, there is a positive measure ν in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I ( f ) = \\int f   d v"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then the definition of I implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\dot{F}(f) | \\leqslant I( |f| ) = \\int |f|   dv"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\mapsto } F ( f )"
+            },
+            {
+              "type": "text",
+              "content": " defines a bounded linear functional on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " considered as a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( \\mathfrak { v } )"
+            },
+            {
+              "type": "text",
+              "content": " Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( \\mathfrak { v } )"
+            },
+            {
+              "type": "text",
+              "content": " (Why?), so F has a unique extension to a bounded linear functional on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( \\mathfrak { v } )"
+            },
+            {
+              "type": "text",
+              "content": " . By Theorem B.1 there is a function φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( v )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( f ) = \\int f \\phi"
+            },
+            {
+              "type": "text",
+              "content": " dv for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| _ { \\infty } \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( E ) = \\int _ { E } \\phi   d \\nu"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel set E. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and by Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C.8(a),   F(f) = \\int f   d\\mu;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F = F _ { \\mu ^ { \\circ } }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 398,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.139,
+            0.363,
+            0.17
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bibliography"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.128,
+            0.422,
+            0.871,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M.B. Abrahamse [1978]. Multiplication operators. In Hilbert Space Operators. New York: Springer-Verlag Notes, Vol. 693, pp. 17–36."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.453,
+            0.872,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M.B. Abrahamse and T.L. Kriete [1973]. The spectral multiplicity function of a multiplication operator. Indiana J. Math., 22, 845–857."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.485,
+            0.871,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "T. Andô [1963]. Note on invariant subspaces of a compact normal operator. Archiv. Math., 14, 337–340."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.515,
+            0.871,
+            0.546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N. Aronszajn and K.T. Smith [1954]. Invariant subspaces of completely continuous operators. Ann. Math., 60, 345–350."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.546,
+            0.824,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "W. Arveson [1956]. An Invitation to C*-algebras. New York: Springer-Verlag."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.56,
+            0.846,
+            0.576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "S. Banach [1955]. Theorie des opérations linéaires. New York: Chelsea Publ. Co."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.576,
+            0.871,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N.K. Bari [1951]. Biorthogonal systems and bases in Hilbert space. Moskov Gos Univ Ucenye Zapinski 148, Matematika 4, 69–107. (Russian)"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.605,
+            0.871,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "B. Beauzamy [1985]. Un operateur sans sous-espace invariant: simplification de l’exemple de P. Enflo. Integral Eqs. and Operator Theory, 8, 314–384."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.635,
+            0.871,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "S.K. Berberian [1959]. Note on a theorem of Fuglede and Putnam. Proc. Amer. Math. Soc., 10, 175–182."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.666,
+            0.871,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "C. Berg, J.P.R. Christensen, and P. Ressel [1984]. Harmonic Analysis on Semigroups. New York: Springer-Verlag."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.696,
+            0.871,
+            0.727
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A.R. Bernstein and A. Robinson [1966]. Solution of an invariant subspace problem of K.T. Smith and P.R. Halmos. Pacific J. Math., 16, 421–431."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.727,
+            0.871,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. Beurling [1949]. On two problems concerning linear transformations in Hilbert space. Acta. Math., 81, 239–255."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.757,
+            0.871,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "F.F. Bonsall [1986]. Decompositions of functions as sums of elementary functions. Quart J. Math. 37, 129–136."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.788,
+            0.871,
+            0.818
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "F.F. Bonsall and J. Duncan [1973]. Complete Normed Algebras. Berlin: Springer-Verlag."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.818,
+            0.759,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N. Bourbaki [1967]. Espaces Vectoriels Topologiques. Paris: Hermann."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.129,
+            0.835,
+            0.871,
+            0.864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "L. de Branges [1959]. The Stone-Weierstrass Theorem. Proc. Amer. Math. Soc., 10, 822-824."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.129,
+            0.864,
+            0.871,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Brown [1974]. A version of multiplicity theory. Topics in Operator Theory. Math. Surveys A.M.S., Vol. 13, 129–160."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.895,
+            0.871,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "R.C. Buck [1958]. Bounded continuous functions on a locally compact space. Michigan Math. J., 5, 95–104."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 399,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.25,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bibliography"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "385"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.869,
+            0.133
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J.W. Calkin [1939]. Abstract symmetric boundary conditions. Trans. Amer. Math. Soc., 45, 369–442."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.133,
+            0.87,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "S.R. Caradus, W.E. Pfaffenberger, and B. Yood [1974]. Calkin Algebras and Algebras of Operators of Banach Spaces. New York: Marcel Dekker."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.164,
+            0.869,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "L. Carleson [1966]. On convergence and growth of partial sums of Fourier series. Acta. Math., 116, 135–157."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.194,
+            0.869,
+            0.225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "P. Chernoff [1983]. A semibounded closed symmetric operator whose square has trivial domain. Proc. Amer. Math. Soc., 89, 289–290."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.225,
+            0.868,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M.D. Choi [1983]. Tricks or treats with the Hilbert matrix. Amer. Math. Monthly, 90, 301–312."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.255,
+            0.86,
+            0.272
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J.A. Clarkson [1936]. Uniformly convex spaces. Trans. Amer. Math. Soc., 40, 396–414."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.271,
+            0.857,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J.B. Conway [1978]. Functions of One Complex Variable. New York: Springer-Verlag."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.286,
+            0.658,
+            0.301
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J.B. Conway [1981]. Subnormal Operators. Boston: Pitman."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.301,
+            0.868,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J.B. Conway [1985]. Arranging the disposition of the spectrum. Proc. Royal Irish Acad. 85A, 139–142."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.332,
+            0.869,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "R. Courant and D. Hilbert [1953]. Methods of Mathematical Physics. New York: Interscience."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.363,
+            0.869,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A.M. Davie [1973]. The approximation problem for Banach spaces. Bull. London Math. Soc., 5, 261–266."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.394,
+            0.869,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A.M. Davie [1975]. The Banach approximation problem. J. Approx. Theory, 13, 392-394."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.424,
+            0.868,
+            0.456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "W.J. Davis, T. Figiel, W.B. Johnson, and A. Pelczynski [1974]. Factoring weakly compact operators. J. Functional Anal., 17, 311–327."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.455,
+            0.844,
+            0.472
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J. Diestel [1984]. Sequences and series in Banach spaces. New York: Springer-Verlag."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.471,
+            0.869,
+            0.501
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J. Dieudonné [1985]. The index of operators in Banach spaces. Integral Equations and Operator Theory 8, 580–589."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.129,
+            0.501,
+            0.869,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "W.F. Donoghue [1957]. The lattice of invariant subspaces of a completely continuous quasi-nilpotent transformation. Pacific J. Math., 7, 1031–1035."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.532,
+            0.869,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "R.Ġ. Douglas [1969]. On the operator equation S* X T = X and related topics. Acta. Sci. Math. (Szeged), 30, 19–32."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.563,
+            0.636,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J. Dugundji [1966]. Topology. Boston: Allyn and Bacon."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.129,
+            0.579,
+            0.853,
+            0.594
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N. Dunford and J. Schwartz [1958]. Linear Operators. I. New York: Interscience."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.129,
+            0.594,
+            0.86,
+            0.609
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N. Dunford and J. Schwartz [1963]. Linear Operators. II. New York: Interscience."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.129,
+            0.609,
+            0.869,
+            0.639
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J. Dyer, E. Pedersen, and P. Porcelli [1972]. An equivalent formulation of the invariant subspace conjecture. Bull. Amer. Math. Soc., 78, 1020–1023."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 23,
+          "bbox": [
+            0.129,
+            0.639,
+            0.87,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "H. Dym and H.P. Mckean [1972]. Fourier Series and Integrals. New York and London: Academic Press."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 24,
+          "bbox": [
+            0.129,
+            0.668,
+            0.87,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "D.A. Edwards [1961]. On translates of L∞-functions. J. London Math. Soc. 36, 431-432."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 25,
+          "bbox": [
+            0.129,
+            0.697,
+            0.869,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "D.A. Edwards [1986]. A short proof of a theorem of Machado. Math. Proc. Camb. Phil. Soc. 99, 111–114."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 26,
+          "bbox": [
+            0.129,
+            0.728,
+            0.87,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "P. Enflo [1973]. A counterexample to the approximation problem in Banach spaces. Acta. Math., 130, 309–317."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 27,
+          "bbox": [
+            0.129,
+            0.759,
+            0.869,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "P. Enflo [1987]. On the invariant subspace problem for Banach spaces. Acta. Math. 158, 213-313."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 28,
+          "bbox": [
+            0.129,
+            0.789,
+            0.834,
+            0.806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J. Ernest [1976]. Charting the operator terrain. Memoirs Amer. Math. Soc., Vol. 71."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 29,
+          "bbox": [
+            0.13,
+            0.805,
+            0.871,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "P.A. Fillmore, J.G. Stampfli, and J.P. Williams [1972]. On the essential numerical range, the essential spectrum, and a problem of Halmos. Acta Sci. Math. (Szeged) 33, 179–192."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 30,
+          "bbox": [
+            0.129,
+            0.85,
+            0.87,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "B. Fuglede [1950]. A commutativity theorem for normal operators. Proc. Nat. Acad. Sci., 36, 35–40."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 31,
+          "bbox": [
+            0.129,
+            0.881,
+            0.785,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "T.W. Gamelin [1969]. Uniform Algebras. Englewood Cliffs: Prentice-Hall."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 32,
+          "bbox": [
+            0.129,
+            0.897,
+            0.871,
+            0.928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "L. Gillman and M. Jerison [1960]. Rings of Continuous Functions. Princeton: Van Nostrand. Reprinted by Springer-Verlag, New York."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

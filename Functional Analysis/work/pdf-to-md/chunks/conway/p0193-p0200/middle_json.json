@@ -1,0 +1,5390 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 192,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 193,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 194,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 195,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 196,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 197,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 198,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 199,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 192,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.057,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "178"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.496,
+            0.055,
+            0.868,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VI. Linear Operators on a Banach Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.868,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\boldsymbol { A } } \\in { \\mathcal { B } } _ { 0 } ( L ^ { p } ( \\mu ) )"
+            },
+            {
+              "type": "text",
+              "content": " , show that there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of finite-rank operators such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A_n - A \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " (Hint: Use Exercise 19.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.159,
+            0.871,
+            0.263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21. Let X be compact and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U }"
+            },
+            {
+              "type": "text",
+              "content": " be the collection of all pairs "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( C , F )"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = \\{ U _ { 1 } , \\ldots , U _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a finite open cover of X and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F = \\{ x _ { 1 } , \\ldots , x _ { n } \\} \\subseteq X"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { j } { \\in } U _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant n.  If  \\left( C_{1}, F_{1} \\right)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(C_{2},F_{2}) \\in \\mathcal{U}"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\boldsymbol { C } _ { 1 } , \\boldsymbol { F } _ { 1 } ) \\leqslant ( \\boldsymbol { C } _ { 2 } , \\boldsymbol { F } _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " to mean: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is a refinement of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 1 } ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, each member of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is contained in some member of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{1}. (b) F_{1} \\subseteq F_{2}. \\mathrm{If} \\alpha = (C, F) \\in \\mathcal{U}"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi _ { 1 } , \\ldots , \\phi _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a partition of unity subordinate to C. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F = \\{ x _ { 1 } , \\ldots , x _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { \\alpha } : C ( X ) \\to C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.402,
+            0.271,
+            0.631,
+            0.307
+          ],
+          "image_path": "images/page_192_equation_4.jpg",
+          "content": "(T_{\\alpha}f)(x) = \\sum_{j = 1}^{n} f(x_j) \\phi_j(x)."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.161,
+            0.314,
+            0.871,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { \\alpha } \\in \\mathcal { B } _ { 0 0 } ( C ( X ) ) ;"
+            },
+            {
+              "type": "text",
+              "content": " (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { \\alpha } \\parallel = 1 ; \\mathrm { ( c ) } \\; ( \\mathcal { U } ,   \\leqslant )"
+            },
+            {
+              "type": "text",
+              "content": " is a directed set and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T _ { \\alpha } : \\alpha \\in \\mathcal { U } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net; (d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { \\alpha } f - f \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " for each f. Now apply Exercise 19 to obtain a new proof of Theorem 3.11."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.398,
+            0.465,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Invariant Subspaces"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.439,
+            0.871,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , an invariant subspace for T is a closed linear subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T x { \\in } { \\mathcal { M } }"
+            },
+            {
+              "type": "text",
+              "content": " whenever x∈.M "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is nontrivial if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " Lat T = the collection of all invariant subspaces for T. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\subseteq \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , then Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\bigcap \\{ \\operatorname { L a t } T : T \\in \\mathcal { A } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.531,
+            0.871,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This generalizes the corresponding concept of invariant subspace for an operator on Hilbert space (II.3.5). Note that the idea of a reducing subspace for an operator on a Hilbert space has no generalization to Banach spaces since there is no concept of an orthogonal complement in Banach spaces."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.621,
+            0.293,
+            0.639
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.2. Proposition."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.647,
+            0.866,
+            0.684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { 1 } , \\mathcal { M } _ { 2 } { \\in } \\operatorname { L a t } T ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { 1 } \\lor \\mathcal { M } _ { 2 } \\equiv \\mathrm { c l } ( \\mathcal { M } _ { 1 } + \\mathcal { M } _ { 2 } ) \\in \\mathrm { L a t } T"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { 1 } \\wedge"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { 2 } \\equiv \\mathcal { M } _ { 1 } \\cap \\mathcal { M } _ { 2 } \\in \\mathrm { L a t } T ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.683,
+            0.868,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\left\\{ \\mathcal { M } _ { i } : i \\in I \\right\\} \\subseteq \\mathrm { L a t } T ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vee \\left\\{ { \\mathcal { M } } _ { i } ; i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , the closed linear span of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcup _ { i } \\mathcal { M } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\wedge \\left\\{ \\mathcal { M } _ { i } \\colon i { \\in } I \\right\\} \\equiv \\bigcap _ { i } \\mathcal { M } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " belong to Lat T."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.74,
+            0.872,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of this proposition is left as an exercise. The proposition however, does justify the use of the symbol "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\text{\" }  L   a   t  \\text{\" }"
+            },
+            {
+              "type": "text",
+              "content": " to denote the collection of invariant subspaces. With the operations v and ∧, Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is a lattice (a) that is complete (b). Moreover, Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " has a largest element, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " and a smallest element, (0)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.831,
+            0.874,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The main question is: does Lat T have any elements besides (0) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ?"
+            },
+            {
+              "type": "text",
+              "content": " In other words, does "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " have a nontrivial invariant subspace? C.J. Read [1984] showed the existence of a Banach space and an operator on the Banach space having no non-trivial invariant subspaces. This was preceded by some work of P Enflo (not published, but circulated) which did the same"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 193,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.347,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Invariant Subspaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "179"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.871,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "thing. Later B Beauzamy [1985] sorted out "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { E n f l o ` s }"
+            },
+            {
+              "type": "text",
+              "content": " ideas and gave an exposition and simplification of Enflo's construction. Enflo's work eventually appeared in Enflo [1987]. Read [1986] gave a self contained exposition showing that there is a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " having no nontrivial invariant subspace. This deep work does not completely settle the matter. Which Banach spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " have the property that there is a bounded operator on X with no nontrivial invariant subspaces? If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is reflexive, is Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " nontrivial for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { B } } ( { \\mathcal { X } } ) ?"
+            },
+            {
+              "type": "text",
+              "content": " The question is unanswered even if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space. However, for certain specific operators and classes of operators it has been shown that the lattice of invariant subspaces is not trivial. In this section it will be shown that any compact operator has a nontrivial invariant subspace. This will be obtained as a corollary of a more general result of V. Lomonosov. But first some examples."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.357,
+            0.871,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.3. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a finite dimensional space over C and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , then Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is not trivial. In fact, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = \\mathbb { C } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   =   \\mathbf { a }"
+            },
+            {
+              "type": "text",
+              "content": " matrix. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( z ) = \\operatorname* { d e t } ( T - z I )"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial of degree "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d ."
+            },
+            {
+              "type": "text",
+              "content": " Hence it has a zero, say "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ."
+            },
+            {
+              "type": "text",
+              "content": " If det "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\alpha I ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\alpha I )"
+            },
+            {
+              "type": "text",
+              "content": " is not invertible. But in finite dimensional spaces this means that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   -   \\alpha I"
+            },
+            {
+              "type": "text",
+              "content": " is not injective. Thus ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\alpha I ) \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\ker ( T - \\alpha I )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { I f } x \\in { \\mathcal { M } } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Tx = \\alpha x \\in \\mathcal{M}, \\mathrm{so} \\mathcal{M} \\in \\mathrm{Lat} T."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.479,
+            0.87,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.4. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{T} = \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , then Lat T is trivial. Indeed, if Lat T is not trivial, there is a one-dimensional space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " in Lat T. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\{ \\alpha e \\colon \\alpha \\in \\mathbb { R } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Since M ∈Lat T, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e = \\lambda e"
+            },
+            {
+              "type": "text",
+              "content": " for some λ in R. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T^{2}e = T(Te) = \\lambda Te = \\lambda^{2}e"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { 2 } = - I , \\mathrm { s o } - e = \\lambda ^ { 2 } e"
+            },
+            {
+              "type": "text",
+              "content": " and it must be that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda ^ { 2 } = - 1 \\mathrm { i f } e \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " But this cannot be if λ is real."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.595,
+            0.84,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\geqslant 3 ."
+            },
+            {
+              "type": "text",
+              "content": " , however, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T { \\in } { \\mathcal { B } } ( \\mathbb { R } ^ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " , then Lat T is not trivial (Exercise 6)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.629,
+            0.869,
+            0.703
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.5. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V : L ^ { 2 } [ 0 , 1 ] \\to L ^ { 2 } [ 0 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " is the Volterra operator, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V f ( x )   ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\int _ { 0 } ^ { x } f ( t ) d t ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant \\alpha \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha } = \\left\\{ f \\in L ^ { 2 } [ 0 , 1 ] : f ( t ) = 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t \\leqslant \\alpha \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\alpha } { \\in } \\operatorname { L a t } V ."
+            },
+            {
+              "type": "text",
+              "content": " Moreover, it can be shown Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = \\left\\{ \\mathcal{M}_{\\alpha} : 0 \\leqslant \\alpha \\leqslant 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " (See Donoghue [1957], and Radjavi and Rosenthal [1973], p. 68.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.72,
+            0.87,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.6. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S \\colon l ^ { p }   \\to   l ^ { p }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(\\alpha_{1},\\alpha_{2},\\ldots)=(0,\\alpha_{1},\\alpha_{2},\\ldots)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { n } = \\{ x \\in l ^ { p } : x ( k ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { n } { \\in } \\operatorname { L a t } S"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.775,
+            0.87,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.7. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma - \\mathrm { f i n i t e }"
+            },
+            {
+              "type": "text",
+              "content": " measure space and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " denote the multiplication operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { p } ( \\mu ) , \\; 1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta { \\in } \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\Delta } = \\left\\{ f \\in L ^ { p } ( \\mu ) : f = 0 \\mathrm { a . e . } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " [µ]off "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { \\Delta } { \\in } \\operatorname { L a t } M _ { \\phi }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.867,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is a difficult if not impossible task to determine all the invariant subspaces of a specific operator. The Volterra operator and the shift operator are examples where all the invariant subspaces have been determined. But there"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 194,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.058,
+            0.165,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "180"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.494,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VI. Linear Operators on a Banach Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.871,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "are multiplication operators "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " for which there is no characterization of Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " as well as some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " for which such a characterization has been achieved. One such example follows: let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\mathbf { L e b e s g u e }"
+            },
+            {
+              "type": "text",
+              "content": " area measure on D and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A f ) ( z ) = z f ( z )"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . There is no known characterization of Lat A."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.192,
+            0.869,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is necessary at this point to return to the geometry of Banach spaces to prove the following classical theorem, which appeared as Exercise V.13.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.248,
+            0.873,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.8. Mazur's Theorem. If X is a Banach space and K is a compact subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\mathbf { c o } } } } ( K )"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.294,
+            0.871,
+            0.407
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. It suffices to show that co(K) is totally bounded. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and choose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } , \\ldots , x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\in \\bigcup_{j = 1}^{n} B(x_j; \\varepsilon / 4)"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = \\mathrm{co} \\left\\{ x_1, \\ldots, x_n \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to see that C is compact (Exercise V.7.8). Hence there are vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { 1 } , \\ldots , y _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " in C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\subseteq \\bigcup_{i = 1}^{m} B(y_i; \\varepsilon / 4)"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w { \\in } { \\overline { { \\mathsf { c o } } } } ( K )"
+            },
+            {
+              "type": "text",
+              "content": " , there is a z in co(K) with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\parallel w - z \\parallel < \\varepsilon / 4"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { z = \\sum _ { p = 1 } ^ { l } \\alpha _ { p } k _ { p } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { p } \\in K ,   \\alpha _ { p } \\geqslant 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum \\alpha _ { p } = 1"
+            },
+            {
+              "type": "text",
+              "content": " Now for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { p }"
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { j ( p ) }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| k _ { p } - x _ { j ( p ) } \\| < \\varepsilon / 4"
+            },
+            {
+              "type": "text",
+              "content": " Therefore"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.305,
+            0.42,
+            0.69,
+            0.54
+          ],
+          "image_path": "images/page_194_equation_6.jpg",
+          "content": "\\begin{aligned}\\left\\| z - \\sum_{p = 1}^{l} \\alpha_{p} x_{j(p)} \\right\\| &= \\left\\| \\sum_{p = 1}^{l} \\alpha_{p} (k_{p} - x_{j(p)}) \\right\\| \\\\& \\leqslant \\sum_{p = 1}^{l} \\alpha_{p} \\|   k_{p} - x_{j(p)} \\| \\\\& < \\varepsilon / 4.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.548,
+            0.871,
+            0.604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { p } \\alpha _ { p } x _ { j ( p ) } \\in C"
+            },
+            {
+              "type": "text",
+              "content": " so there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\| \\sum _ { p } \\alpha _ { p } x _ { j ( p ) } - y _ { i } \\| < \\varepsilon / 4 . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " The triangle inequality now shows that co "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(K) \\subseteq \\bigcup_{i = 1}^{m} B(y_i; \\varepsilon)"
+            },
+            {
+              "type": "text",
+              "content": " and so co(K) is totally bounded. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.621,
+            0.871,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next result is from Lomonosov [1973]. When it appeared it caused great excitement, both for the strength of its conclusion and for the simplicity of its proof. The proof uses Schauder's Fixed-Point Theorem (V.9.5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.694,
+            0.871,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.9. Lomonosov's Lemma. If  is a subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\{ ( 0 ) , \\mathcal { X } \\}"
+            },
+            {
+              "type": "text",
+              "content": " and if K is a nonzero compact operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A K - 1 ) \\neq ( 0 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.759,
+            0.869,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. It may be assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| K \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| K x _ { 0 } \\| > 1"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S = \\left\\{ x \\in \\mathcal{X} : \\| x - x_0 \\| \\leq 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.804,
+            0.178,
+            0.821
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.10"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.401,
+            0.804,
+            0.595,
+            0.823
+          ],
+          "image_path": "images/page_194_equation_12.jpg",
+          "content": "0 \\notin S \\mathrm { a n d } 0 \\notin \\operatorname { c l } K ( S ) ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.831,
+            0.872,
+            0.906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T x \\colon T { \\in } { \\mathcal { A } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is an invariant subspace for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " (because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rtimes"
+            },
+            {
+              "type": "text",
+              "content": " is an algebra) that contains the nonzero vector x (because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\in \\mathcal { A } )"
+            },
+            {
+              "type": "text",
+              "content": " By hypothesis, cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T x \\colon T { \\in } { \\mathcal { A } } \\} = { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " . By (4.10) this says that for every y in cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ( S )"
+            },
+            {
+              "type": "text",
+              "content": " there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   T y - x _ { 0 }   \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " . Equivalently,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 195,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.057,
+            0.348,
+            0.075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Invariant Subspaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "181"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.327,
+            0.103,
+            0.666,
+            0.136
+          ],
+          "image_path": "images/page_195_equation_2.jpg",
+          "content": "\\operatorname { c l } K ( S ) \\subseteq \\bigcup _ { T \\in \\mathcal { A } } \\left\\{ y : \\| T y - x _ { 0 } \\| < 1 \\right\\} ."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.145,
+            0.752,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ( S )"
+            },
+            {
+              "type": "text",
+              "content": " is compact, there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 1 } , \\ldots , T _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.174,
+            0.667,
+            0.214
+          ],
+          "image_path": "images/page_195_equation_4.jpg",
+          "content": "\\mathrm{cl} K(S) \\subseteq \\bigcup_{j=1}^{n} \\left\\{ y: \\| T_j y - x_0 \\| < 1 \\right\\}.\\tag{4.11}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.221,
+            0.87,
+            0.263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For y in cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ( S )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant n ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { j } ( y ) = \\max \\left\\{ 0 , 1 - \\left\\| T _ { j } y - x _ { 0 } \\right\\| \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . By (4.11), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { j = 1 } ^ { n } a _ { j } ( y ) > 0 } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for all y in cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ( S )"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { j } ;"
+            },
+            {
+              "type": "text",
+              "content": " cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ( S )   \\to   \\mathbb { R } ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.414,
+            0.27,
+            0.581,
+            0.333
+          ],
+          "image_path": "images/page_195_equation_6.jpg",
+          "content": "b _ { j } ( y ) = \\frac { a _ { j } ( y ) } { \\sum _ { i \\; = \\; 1 } ^ { n } a _ { i } ( y ) } ,"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.348,
+            0.36,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi \\colon S \\to { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.38,
+            0.38,
+            0.618,
+            0.42
+          ],
+          "image_path": "images/page_195_equation_8.jpg",
+          "content": "\\psi ( x ) = \\sum _ { j = 1 } ^ { n } b _ { j } ( K x ) T _ { j } K x ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.428,
+            0.872,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { j } ;"
+            },
+            {
+              "type": "text",
+              "content": " cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ( S )   \\to   [ 0 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " are continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.466,
+            0.872,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If x∈S, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K x { \\in } K ( S )"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { j } ( K x )   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { j } ( K x )   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   T _ { j } K x -   x _ { 0 }   \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { j } K { \\boldsymbol { x } } { \\in } { \\mathcal { S } }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { j } ( K x )   >   0"
+            },
+            {
+              "type": "text",
+              "content": " Since S is a convex set and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { j = 1 } ^ { n } b _ { j } ( K x ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " for x in S,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.451,
+            0.531,
+            0.548,
+            0.55
+          ],
+          "image_path": "images/page_195_equation_11.jpg",
+          "content": "\\psi ( S ) \\subseteq S ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.556,
+            0.871,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { j } K   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " for each j so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcup _ { j = 1 } ^ { n } T _ { j } K ( S )"
+            },
+            {
+              "type": "text",
+              "content": " has compact closure. By Mazur's Theorem, co "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\bigcup_{j = 1}^{n} T_{j} K(S) \\right)"
+            },
+            {
+              "type": "text",
+              "content": " is compact. But this convex set contains "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( S )"
+            },
+            {
+              "type": "text",
+              "content": " so that cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( S )"
+            },
+            {
+              "type": "text",
+              "content": " is compact. This is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " is a compact map. By the Schauder Fixed-Point Theorem, there is a vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in S such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( x _ { 1 } )   =   x _ { 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.629,
+            0.871,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { j }   =   b _ { j } ( K x _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { A = \\sum _ { j = 1 } ^ { n } \\beta _ { i } T _ { j } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " .So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A K x _ { 1 } = \\psi ( x _ { 1 } ) = x _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{1} \\neq 0 (\\mathrm{Why?})"
+            },
+            {
+              "type": "text",
+              "content": " , ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A K - 1 ) \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.682,
+            0.872,
+            0.739
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.12. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , then a hyperinvariant subspace for T is a subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " of X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\mathcal { M } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " for every operator A in the commutant of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " ; that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\mathcal { M } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.155,
+            0.755,
+            0.745,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that every hyperinvariant subspace for T is invariant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.791,
+            0.873,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.13. Lomonosov's Theorem. If X is a Banach space over C, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , T is not a multiple of the identity, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T K = K T"
+            },
+            {
+              "type": "text",
+              "content": " for some nonzero compact operator K, then T has a nontrivial hyperinvariant subspace."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.128,
+            0.856,
+            0.875,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { A } } = \\{ T \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . We want to show that Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\neq \\{ ( 0 ) , \\mathcal { X } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . If this is not the case, then Lomonosov's Lemma implies that there is an operator A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } = \\ker ( A K - 1 ) \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { N } } { \\in } \\mathbf { L a t } ( A K )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A K | \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 196,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.164,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "182"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.493,
+            0.055,
+            0.864,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VI. Linear Operators on a Banach Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.123,
+            0.101,
+            0.868,
+            0.195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "identity operator. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A K \\in \\mathcal { B } _ { 0 } ( \\mathcal { X } ) , A K \\mid \\mathcal { N } \\in \\mathcal { B } _ { 0 } ( \\mathcal { N } )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A K { \\in } { \\mathcal { A } } = \\{ T \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " , for any x in N, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AK(Tx)=T(AKx)=Tx;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\mathcal { N } \\subseteq \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " . But dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T | \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " must have an eigenvalue λ. Thus ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\lambda ) = \\mathcal { M } \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\neq \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " since T is not a multiple of the identity. It is easy to check that M is hyperinvariant for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.122,
+            0.212,
+            0.868,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A proof of a slightly weaker version of Lomonosov's Theorem that avoids Schauder's Fixed Point Theorem can be found in Michaels [1977]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.121,
+            0.272,
+            0.868,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.14. Corollary. (Aronszajn-Smith [1954].) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { X } ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then Lat K is nontrivial."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.121,
+            0.328,
+            0.869,
+            0.385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next result appeared in Bernstein and Robinson [1966], where it is proved using nonstandard analysis. Halmos [1966] gave a proof using standard analysis. Now it is an easy consequence of Lomonosov's Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.123,
+            0.405,
+            0.87,
+            0.443
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.15. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is infinite dimensional, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , and there is a polynomial in one variable, p, such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( A ) \\in \\mathcal { B } _ { 0 } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , then Lat A is nontrivial."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.451,
+            0.869,
+            0.526
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(A) \\neq 0,"
+            },
+            {
+              "type": "text",
+              "content": " then Lomonosov's Theorem applies. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(A) = 0,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( z ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 0 } + \\alpha _ { 1 } z + \\cdots + \\alpha _ { n } z ^ { n } , \\alpha _ { n } \\neq 0 . \\mathrm { F o r } x \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\vee \\left\\{ x , A x , \\ldots , A ^ { n - 1 } x \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{n} = - \\alpha_{n}^{- 1}\\left[ \\alpha_{0} + \\alpha_{1}A + \\cdots + \\alpha_{n - 1}A^{n - 1} \\right]"
+            },
+            {
+              "type": "text",
+              "content": " , M ∈Lat A. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in \\mathcal { M } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\neq ( 0 ) ;"
+            },
+            {
+              "type": "text",
+              "content": " since dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } < \\infty , \\mathcal { M } \\neq \\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " 國"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.123,
+            0.547,
+            0.869,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.16. Corollary. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K _ { 1 } ,   K _ { 2 }   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K _ { 1 } K _ { 2 } = K _ { 2 } K _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " have a common nontrivial invariant subspace."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.602,
+            0.231,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.62,
+            0.797,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let A, B, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T A = B T"
+            },
+            {
+              "type": "text",
+              "content": " . Show that graph (T)∈Lat(A ⊕ B)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.645,
+            0.868,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Prove that M ∈Lat T if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp } { \\in } \\mathrm { L a t } \\; T ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . What does the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\mapsto \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " of Lat T into Lat "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " do to the lattice operations?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.687,
+            0.873,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , e _ { 2 } , e _ { 3 } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the usual basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } { \\in } \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon \\mathbb { F } ^ { 3 }   \\to   \\mathbb { F } ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e _ { j } = \\alpha _ { j } e _ { j } , \\; 1 \\leqslant j \\leqslant 3 ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " are all distinct, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }   \\in   \\mathrm { L a t }   T"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\nabla E ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { E } \\in \\{ e _ { 1 } , e _ { 2 } , e _ { 3 } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . (b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } = \\alpha _ { 2 } \\neq \\alpha _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " , show that M∈Lat T if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\mathcal { N } + \\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } \\leqslant \\vee \\left\\{ e _ { 1 } , e _ { 2 } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } \\leqslant \\{ \\alpha e _ { 3 } : \\alpha \\in \\mathbb { F } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.765,
+            0.871,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Generalize Exercise 3 by characterizing Lat T, where T is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e _ { j }   =   \\alpha _ { j } e _ { j } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant d ,"
+            },
+            {
+              "type": "text",
+              "content": " for any choice of scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { d }"
+            },
+            {
+              "type": "text",
+              "content": " and where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , \\ldots , e _ { d } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is the usual basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F } ^ { d }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.823,
+            0.871,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , \\ldots , e _ { d } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the usual basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F } ^ { d } ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { 1 } , \\ldots , \\alpha _ { d - 1 } \\} \\subseteq \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " with no "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { j }   =   0 ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e _ { j }   =   \\alpha _ { j } e _ { j   +   1 }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant d - 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e _ { d } = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " find Lat T."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.867,
+            0.708,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathbb { R } ^ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\geqslant 3 ."
+            },
+            {
+              "type": "text",
+              "content": " , show that T has a nontrivial subspace"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.892,
+            0.871,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is not separable, then T has a nontrivial invariant subspace."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 197,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.124,
+            0.057,
+            0.414,
+            0.075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Weakly Compact Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.83,
+            0.056,
+            0.865,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "183"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.103,
+            0.867,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Give an example of an invertible operator T on a Banach space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and an invariant subspace M for T such that M is not invariant for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.123,
+            0.145,
+            0.867,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Let X be a Banach space over C, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K { \\in } { \\mathcal { B } } _ { 0 } ( { \\mathcal { X } } )"
+            },
+            {
+              "type": "text",
+              "content": " and show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal chain in Lat K, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal chain in the lattice of all subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.217,
+            0.574,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Weakly Compact Operators"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.258,
+            0.868,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1. Definition. If X and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " are Banach spaces, an operator T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { X } , \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact if the closure of T(ball X) is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.314,
+            0.87,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Weakly compact operators are generalizations of compact operators, but the hypothesis is not sufficiently strong to yield good information about their structure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.37,
+            0.871,
+            0.445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that in a reflexive Banach space the weak closure of any bounded set is weakly compact. Also, a bounded operator T: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   \\rightarrow   \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous if both "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and @ have their weak topologies (1.1). With these facts in mind, the proof of the next result becomes an easy exercise for the reader."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.461,
+            0.292,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.2. Proposition."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.488,
+            0.869,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { G }"
+            },
+            {
+              "type": "text",
+              "content": " is reflexive, then every operator in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { X } , \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.526,
+            0.869,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If T: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   \\rightarrow   \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { Y } , \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , then AT is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.562,
+            0.869,
+            0.6
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T { \\colon \\thinspace } { \\mathcal { X } } { \\to } { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal { B } ( \\mathcal { X } , \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " ,then TB is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.617,
+            0.871,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This proposition shows that assuming that an operator is weakly compact is not that strong an assumption. For example, if ¿ is reflexive, every operator in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact. In particular, every operator on a Hilbert space is weakly compact. So any theorem about weakly compact operators is a theorem about all operators on a reflexive space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.707,
+            0.871,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, there is a degree of validity for the converse of this statement. In a certain sense, theorems about operators on reflexive spaces are also theorems about weakly compact operators. The precise meaning of this statement is the content of Theorem 5.4 below. But before we begin to prove this, a lemma is needed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.798,
+            0.873,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let @ be a Banach space and let W be a bounded convex balanced subset of Y. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n > 1"
+            },
+            {
+              "type": "text",
+              "content": " put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n } = 2 ^ { n } W + 2 ^ { - n }"
+            },
+            {
+              "type": "text",
+              "content": " int[ball @]. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } = \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " gauge of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " (IV.1.14). Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n }   \\supseteq   2 ^ { - n }"
+            },
+            {
+              "type": "text",
+              "content": " int[ball ], it is easy to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a norm on Y. In fact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and ·∥ are equivalent norms. To see this note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| y \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { - n } y { \\in } U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( y ) < 2 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n}(y) \\leqslant 2^{n}\\|y\\|"
+            },
+            {
+              "type": "text",
+              "content": " . Also, because W is bounded, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " must be bounded; let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M > \\operatorname* { s u p } \\{ \\| y \\| \\colon y \\in U _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { \\pmb { n } } ( y ) < 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   y   \\| < M"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   y   \\| \\leqslant M p _ { n } ( y )"
+            },
+            {
+              "type": "text",
+              "content": " ,and∥·∥and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are equivalent norms."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 198,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.057,
+            0.166,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "184"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.495,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VI. Linear Operators on a Banach Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.101,
+            0.868,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3. Lemma. For a Banach space Y let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W , U _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " be as above. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R } = t h e"
+            },
+            {
+              "type": "text",
+              "content": " set of all y in Y such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| y \\| \\equiv \\left[ \\sum_{n = 1}^{\\infty} p_{n}(y)^{2} \\right]^{1/2} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.146,
+            0.348,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W \\subseteq \\{ y : \\| y \\| < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.165,
+            0.83,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { R } , \\left\\| \\cdot \\right\\| )"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space and the inclusion map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\colon { \\mathcal { R } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.184,
+            0.645,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } \\overline { { : } } \\mathcal { R } ^ { * * }   \\rightarrow   \\overline { { \\mathcal { Y } ^ { * * } } }"
+            },
+            {
+              "type": "text",
+              "content": " is injective and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A^{*} *)^{-1}(\\mathcal{Y}) = \\mathcal{R};"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.202,
+            0.662,
+            0.221
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) R is reflexive if and only if cl W is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.238,
+            0.868,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. (a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w   \\in   W ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { n } w { \\in } U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 > p _ { n } ( 2 ^ { n } w ) = 2 ^ { n } p _ { n } ( w ) , \\mathrm { s o } p _ { n } ( w ) < 2 ^ { - n }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| w \\| ^ { 2 } < \\sum _ { n } ( 2 ^ { - n } ) ^ { 2 } < 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.276,
+            0.871,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { G } _ { n } = \\mathcal { G }"
+            },
+            {
+              "type": "text",
+              "content": " with the norm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = \\oplus _ { 2 } \\mathcal { Y } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " (III.4.4). Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Phi } ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ( y ) = ( y , y , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that Φ is an isometry though it is clearly not surjective. In fact, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi = \\{ (y_n) \\in \\mathcal{X} : y_n = y_m"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left. n ,   m \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 1 } = \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " projection of X onto the first coordinate. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = P _ { 1 } \\circ \\Phi"
+            },
+            {
+              "type": "text",
+              "content": " and hence A is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.368,
+            0.872,
+            0.496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) With the notation from the proof of (b), it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * * } = \\oplus _ { 2 } \\mathcal { Y } _ { n } ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * } \\colon { \\mathcal { R } } ^ { * * }   \\to   { \\mathcal { X } } ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * } ( y ^ { * * } )   =   ( A ^ { * * } y ^ { * * } , A ^ { * * } y ^ { * * } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " Now the fact that Φ is an isometry implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is surjective. (This follows in two ways. One is by a direct argument (see Exercise 2). Also, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is closed since ran Φ is closed (1.10), and ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is dense since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Phi } ^ { \\perp } ( \\mathrm { r a n }   \\mathbf { \\Phi } ^ { * } ) = \\ker \\mathbf { \\Phi } = ( 0 ) ."
+            },
+            {
+              "type": "text",
+              "content": " Hence ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi^{**} = (\\mathrm{ran} \\Phi^*)^\\perp = (0);"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi^{**}"
+            },
+            {
+              "type": "text",
+              "content": " is injective. Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " is injective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.496,
+            0.872,
+            0.587
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y ^ { * * } \\in A ^ { * * - 1 } ( \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " . It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * } y ^ { * * }   =   x   \\in   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ y _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net in R such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   y_i \\| \\leqslant \\|   y^{* *} \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all i and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { i }   \\to   y ^ { * * } \\sigma ( \\mathcal { R } ^ { * * } , \\mathcal { R } ^ { * } ) \\mathrm { ~ ( V . 4 . 1 ) }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * } (   y _ { i } )   \\to   \\Phi ^ { * * } (   y ^ { * * } ) \\quad \\sigma ( \\mathcal { X } ^ { * * } , \\mathcal { X } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * } ( y _ { i } ) = \\Phi ( y _ { i } ) \\in \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * } ( y ^ { * * } ) = x"
+            },
+            {
+              "type": "text",
+              "content": " Hence Φ(yi) → x σ(x, X*). Since ran Φ is closed, x∈ran Φ; let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ( y ) = x"
+            },
+            {
+              "type": "text",
+              "content": " .Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\Phi ^ { * * } ( y ^ { * * } - y )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " is injective, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y ^ { * * } = y { \\in } { \\mathcal { R } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.586,
+            0.872,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) An argument using Alaoglu's Theorem shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*} \\left( \\mathrm{bal} \\mathcal{R}^{*} \\right) = \\mathrm{the}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { Y } ^ { * * } , \\mathcal { Y } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( { \\mathrm { b a l l } } { \\mathcal { R } } )"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = A ( \\mathrm{bal}   \\mathcal{R} )"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose cl W is weakly compact. Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\subseteq 2 ^ { n } { \\mathrm { ~ c l ~ } } W + 2 ^ { - n }"
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " and this set is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { G } ^ { * * } , \\mathcal { G } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " compact. From the preceding comments, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } ( \\mathrm { b a l l } { \\mathcal { R } } ^ { * * } ) \\subseteq 2 ^ { n }   \\mathrm { c l }   W + 2 ^ { - n }"
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.277,
+            0.688,
+            0.717,
+            0.804
+          ],
+          "image_path": "images/page_198_equation_12.jpg",
+          "content": "\\begin{align*}A^{**}(\\mathsf{ball}   \\mathcal{R}^{**}) & \\subseteq \\bigcap_{n=1}^{\\infty} \\left[ 2^n \\mathsf{cl}   W + 2^{-n} \\mathsf{ball}   \\mathcal{G}^{**} \\right] \\\\& \\subseteq \\bigcap_{n=1}^{\\infty} \\left[ \\mathcal{G} + 2^{-n}   \\mathsf{ball}   \\mathcal{G}^{**} \\right] \\\\& = \\mathcal{G}.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.814,
+            0.475,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By (c), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R } ^ { * * } = \\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " is reflexive."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.833,
+            0.87,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " is reflexive; thus ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { R } , \\mathcal { R } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " -compact. Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = A ( \\mathrm{bal}   \\mathcal{R} )"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact in . By (a), cl W is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.888,
+            0.87,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next theorem, as well as the preceding lemma, are from Davis, Figiel Johnson, and Pelczynski [1974]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 199,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.419,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Weakly Compact Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "185"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.872,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.4. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { I f }   \\mathcal { X } ,   \\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " are Banach spaces and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } , \\mathcal { Y } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then T is weakly compact if and only if there is a reflexive space R and operators A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { R } , \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " and B in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { X } , \\mathcal { R } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A B"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.164,
+            0.871,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A B ,"
+            },
+            {
+              "type": "text",
+              "content": " where A, B have the described form, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact by Proposition 5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.202,
+            0.871,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that T is weakly compact and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = T ( \\mathrm { b a l l }   \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " . Define R as in Lemma 5.3. By (5.3d), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " is reflexive. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\colon { \\mathcal { R } }   \\to   { \\mathcal { G } }"
+            },
+            {
+              "type": "text",
+              "content": " be the inclusion map. Note that if x∈ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T x   \\in   W ."
+            },
+            {
+              "type": "text",
+              "content": " By (5.3a), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T x \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\colon { \\mathcal { X } }   \\to   { \\mathcal { R } }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B x = T x"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded operator. Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B = T ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.312,
+            0.871,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding result can be used to prove several standard results from antiquity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.374,
+            0.872,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5. Theorem. If X, Y are Banach spaces and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { X } , \\mathcal { Y } )"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.421,
+            0.376,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) T is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13,
+            0.439,
+            0.315,
+            0.457
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * } ( { \\mathcal { X } } ^ { * * } ) \\subseteq { \\mathcal { Y } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.131,
+            0.458,
+            0.387,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13,
+            0.484,
+            0.871,
+            0.539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a) \\Rightarrow (b);"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " be a reflexive space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{B}(\\mathcal{R}, \\mathcal{Y})"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal{B}(\\mathcal{X}, \\mathcal{R})"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A B ."
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * } = A ^ { * * } B ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } ;   \\mathcal { R }   \\to   \\mathcal { Y } ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R } ^ { * * } = \\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = A"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * } = A B ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " , and so ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * } \\subseteq \\operatorname { r a n } A \\subseteq { \\mathcal { Y } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13,
+            0.539,
+            0.872,
+            0.594
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( \\mathsf { b } ) { \\Rightarrow } ( \\mathsf { a } ) { : } T ^ { * * } ( \\mathsf { b a l l }   \\mathcal { X } ^ { * * } )"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { Y } ^ { * * } , \\mathcal { Y } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " compact by Alaoglu's Theorem and the weak* continuity of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " . By (b), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * } ( \\mathrm { b a l l }   \\mathcal { X } ^ { * * } ) = C"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { G } , \\mathcal { G } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " compact in Y. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( \\mathrm { b a l l }   \\mathcal { X } ) \\subseteq C"
+            },
+            {
+              "type": "text",
+              "content": " and must have weakly compact closure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.594,
+            0.873,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(c) \\Rightarrow (a)"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " be a reflexive space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C   \\in   \\mathcal { B } ( \\mathcal { Y } ^ { * } , \\mathcal { S } ) ,   D   \\in   \\mathcal { B } ( \\mathcal { S } , \\mathcal { X } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * } = D C"
+            },
+            {
+              "type": "text",
+              "content": " .So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * * } = C ^ { * } D ^ { * } , \\quad D ^ { * } \\colon \\quad \\mathcal { X } ^ { * * } { \\rightarrow } \\mathcal { S } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } \\colon \\operatorname { \\mathcal { I } } ^ { * }   { \\rightarrow }   \\operatorname { \\mathcal { Y } } ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { P u t }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { R } } = \\operatorname { c l } D ^ { * } ( { \\mathcal { X } } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = D ^ { * } | { \\mathcal { X } } ;"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\colon { \\mathcal { X } }   \\to   { \\mathcal { R } }"
+            },
+            {
+              "type": "text",
+              "content": " and R is reflexive. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = C^{*} \\left| \\mathcal{R} \\right|"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{so} A: \\mathcal{R} \\to \\mathcal{D}^{* *}"
+            },
+            {
+              "type": "text",
+              "content": " . But if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } , A B x = C ^ { * } D ^ { * } x = T ^ { * * } x = T x { \\in } { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : { \\mathcal { R } } \\to { \\mathcal { G } }"
+            },
+            {
+              "type": "text",
+              "content": " Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B = T ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.156,
+            0.685,
+            0.334,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a)⇒(c): Exercise."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.133,
+            0.727,
+            0.236,
+            0.743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.132,
+            0.746,
+            0.36,
+            0.762
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove Proposition 5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13,
+            0.771,
+            0.873,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { R }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " are Banach spaces and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi \\colon { \\mathcal { R } }   \\to   { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry, give an elementary proof that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.131,
+            0.815,
+            0.875,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a Banach space and recall the definition of a weakly Cauchy sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathbf { V } . 4 . 4 )"
+            },
+            {
+              "type": "text",
+              "content": " (a) Show that every bounded sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " has a weakly Cauchy subsequence, but not every weakly Cauchy sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " converges. (b) Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( c _ { 0 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compact, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.891,
+            0.876,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Say that a Banach space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is weakly compactly generated (WCG) if there is a weakly compact subset K of X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is the closed linear span of K. Prove"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

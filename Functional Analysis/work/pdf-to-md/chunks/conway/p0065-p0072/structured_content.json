@@ -1,0 +1,1641 @@
+{
+  "pages": [
+    {
+      "page_idx": 64,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.057,
+            0.16,
+            0.071
+          ],
+          "content": "50"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.589,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.87,
+            0.139
+          ],
+          "content": "where λ is a given complex number, $q { \\in } C [ a , b ]$ , and $f { \\in } L ^ { 2 } [ a , b ]$ , together with the boundary conditions"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.162,
+            0.165,
+            0.179
+          ],
+          "level": 2,
+          "content": "6.2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.382,
+            0.146,
+            0.618,
+            0.19
+          ],
+          "content": "\\left\\{ \\begin{aligned} (a) \\alpha h(a) + \\alpha_{1} h^{\\prime}(a) &= 0 \\\\ (b) \\beta h(b) + \\beta_{1} h^{\\prime}(b) &= 0 \\end{aligned} \\right.",
+          "image_source": "images/page_64_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.197,
+            0.807,
+            0.217
+          ],
+          "content": "where $\\alpha ,   \\alpha _ { 1 } ,   \\beta ,$ and $\\beta _ { 1 }$ are real numbers and $\\alpha ^{2}+\\alpha _{1}^{2}>0,\\beta ^{2}+\\beta _{1}^{2}>0.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.217,
+            0.872,
+            0.309
+          ],
+          "content": "Equation (6.1) together with the boundary conditions (6.2) is called a (regular) Sturm-Liouville system. Such systems arise in a number of physical problems, including the description of the motion of a vibrating string. In this section we will discuss solutions of the Sturm–Liouville system by relating the system to a certain compact self-adjoint integral operator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.309,
+            0.871,
+            0.347
+          ],
+          "content": "Recall that an absolutely continuous function h on $[ a , b ]$ has a derivative a.e. and $h(x) = \\int_{a}^{x} h^{\\prime}(t)   dt + h(a)$ for all x."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.346,
+            0.228,
+            0.363
+          ],
+          "content": "Define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.265,
+            0.367,
+            0.73,
+            0.388
+          ],
+          "content": "\\mathcal { D } _ { a } \\equiv \\{ h \\in C _ { \\mathbb { C } } ^ { ( 1 ) } [ a , b ] \\colon h ^ { \\prime } \\mathrm { ~ i s ~ a b s o l u t e l y ~ c o n t i n u o u s } ,",
+          "image_source": "images/page_64_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.39,
+            0.672,
+            0.41
+          ],
+          "content": "h ^ { \\prime \\prime } \\in L ^ { 2 } [ a , b ] , \\mathrm { a n d } h \\mathrm { s a t i s f i e s } ( 6 . 2 a ) \\} .",
+          "image_source": "images/page_64_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.417,
+            0.871,
+            0.455
+          ],
+          "content": "$\\mathcal { D } _ { b }$ is defined similarly but each h in $\\mathcal { D } _ { b }$ satisfies (6.2b) instead of (6.2a). The space $\\mathcal { D } = \\mathcal { D } _ { a } \\cap \\mathcal { D } _ { b }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.454,
+            0.415,
+            0.473
+          ],
+          "content": "Define $L \\colon { \\mathcal { D } }   \\to   L ^ { 2 } [ a , b ]$ by"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.483,
+            0.165,
+            0.499
+          ],
+          "level": 2,
+          "content": "6.3"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.419,
+            0.481,
+            0.579,
+            0.5
+          ],
+          "content": "L h = - h ^ { \\prime \\prime } + q h .",
+          "image_source": "images/page_64_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.509,
+            0.507,
+            0.527
+          ],
+          "content": "L is called a Sturm-Liouville operator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.528,
+            0.871,
+            0.582
+          ],
+          "content": "Note that $\\mathcal { D }$ is a linear space and L is a linear transformation. The Sturm-Liouville problem thus becomes: if $\\lambda \\in \\mathbf { C }$ and $f   \\in   L ^ { 2 } [ a , b ]$ , is there an h in $\\mathcal { D }$ with $( L - \\lambda ) h = f$ . Equivalently, for which λ is f in $\\operatorname { r a n } ( L - \\lambda ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.582,
+            0.871,
+            0.654
+          ],
+          "content": "By placing a suitable norm on , L can be made into a bounded operator. This does not help much. The best procedure is to consider $( L - \\lambda ) ^ { - 1 }$ Integration is the inverse of differentiation, and it turns out that $( L - \\lambda ) ^ { - 1 }$ (when we can define it) is an integral operator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.653,
+            0.872,
+            0.709
+          ],
+          "content": "Begin by considering the case when $\\lambda   =   0 .$ (Equivalently, replace q by $q - \\lambda . )$ To define $L ^ { - 1 }$ (even if only on the range of $L ) ,$ we need that L is injective. Thus we make an assumption;"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.718,
+            0.166,
+            0.735
+          ],
+          "level": 2,
+          "content": "6.4"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.315,
+            0.717,
+            0.681,
+            0.736
+          ],
+          "content": "\\mathrm { i f } ~ h \\in \\mathcal { D } \\quad \\mathrm { a n d } \\quad L h = 0 , \\quad \\mathrm { t h e n } \\quad h = 0 .",
+          "image_source": "images/page_64_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.745,
+            0.871,
+            0.783
+          ],
+          "content": "The first lemma is from ordinary differential equations and says that certain initial-value problems have nontrivial (nonzero) solutions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.799,
+            0.872,
+            0.856
+          ],
+          "content": "6.5. Lemma. If $\\alpha , \\alpha _ { 1 } , \\beta , \\beta _ { 1 } \\in \\mathbb { R } , \\alpha ^ { 2 } + \\alpha _ { 1 } ^ { 2 } > 0 ,$ and $\\beta ^ { 2 } + \\beta _ { 1 } ^ { 2 } > 0 ,$ , then there are functions $h _ { a } ,   h _ { b }$ in $\\mathcal { D } _ { a } , \\mathcal { D } _ { b } ,$ respectively, such that $L ( h _ { a } ) = 0$ and $L ( h _ { b } ) = 0$ and $h _ { a } , h _ { b }$ are real-valued and not identically zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.873,
+            0.584,
+            0.892
+          ],
+          "content": "The Wronskian of $h _ { a }$ and $h _ { b }$ is the function"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.898,
+            0.658,
+            0.944
+          ],
+          "content": "W = \\det \\begin{bmatrix} h_a & h_b \\\\ h_a' & h_b' \\end{bmatrix} = h_a h_b' - h_a' h_b.",
+          "image_source": "images/page_64_equation_24.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 65,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.536,
+            0.073
+          ],
+          "content": "§6. An Application: Sturm–Liouville Systems"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": "51"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.099,
+            0.867,
+            0.136
+          ],
+          "content": "Note that $W ^ { \\prime } = h _ { a } h _ { b } ^ { \\prime \\prime } - h _ { a } ^ { \\prime \\prime } h _ { b } = h _ { a } ( q h _ { b } ) - ( q h _ { a } ) h _ { b } = 0$ Hence $W ( x ) \\equiv W ( a )$ for all x."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.155,
+            0.862,
+            0.173
+          ],
+          "level": 2,
+          "content": "6.6. Lemma. Assuming (6.4), $W ( a ) \\neq 0$ and so $h _ { a }$ and $h _ { b }$ are linearly independent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.182,
+            0.867,
+            0.257
+          ],
+          "content": "PROOF. If $W ( a ) = 0 ,$ then linear algebra tells us that the column vectors in the matrix used to define $W ( a )$ are linearly dependent. Thus there is a λ in R such that $h _ { b } ( a ) = \\lambda h _ { a } ( a )$ and $h_{b}^{\\prime}(a)=\\lambda h_{a}^{\\prime}(a)$ . Thus $h _ { b } \\in \\mathcal { D }$ and $L ( h _ { b } )   =   0$ .By (6.4), $h _ { b }   \\equiv   0 .$ , contradiction. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.273,
+            0.66,
+            0.293
+          ],
+          "content": "Put $c = -   W ( a )$ and define $g \\colon [ a , b ] \\times [ a , b ] \\to \\mathbb { R }$ by"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.313,
+            0.165,
+            0.33
+          ],
+          "content": "6.7"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.296,
+            0.3,
+            0.697,
+            0.344
+          ],
+          "content": "g ( x , y ) = \\left\\{ \\begin{aligned} { c ^ { - 1 } h _ { a } ( x ) h _ { b } ( y ) } & { { } \\quad \\mathrm { i f } a \\leqslant x \\leqslant y \\leqslant b } \\\\ { c ^ { - 1 } h _ { a } ( y ) h _ { b } ( x ) } & { { } \\quad \\mathrm { i f } a \\leqslant y \\leqslant x \\leqslant b . } \\end{aligned} \\right.",
+          "image_source": "images/page_65_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.352,
+            0.548,
+            0.371
+          ],
+          "content": "The function g is the Green function for $L$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.389,
+            0.87,
+            0.427
+          ],
+          "content": "6.8. Lemma. The function g defined in (6.7) is real-valued, continuous, and $g ( x , y ) = g ( y , x )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.435,
+            0.295,
+            0.453
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.471,
+            0.869,
+            0.509
+          ],
+          "content": "6.9. Theorem. Assume (6.4). If g is the Green function for L defined in (6.7) and G: $L ^ { 2 } [ a , b ] \\to L ^ { 2 } [ a , b ]$ is the integral operator defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.516,
+            0.63,
+            0.56
+          ],
+          "content": "( G f ) ( x ) = \\int _ { a } ^ { b } g ( x , y ) f ( y ) d y ,",
+          "image_source": "images/page_65_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.567,
+            0.869,
+            0.605
+          ],
+          "content": "then G is a compact self-adjoint operator, ran $G = \\mathcal { D } , \\; L G f = f   f o r$ all f in $L ^ { 2 } [ a , b ]$ , and $G L h = h$ for all h in $\\mathcal { D }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.612,
+            0.871,
+            0.666
+          ],
+          "content": "ProoF. That G is self-adjoint follows from the fact that g is real-valued and $g ( x , y ) = g ( y , x ) ;$ G is compact by (4.7). Fix f in $L ^ { 2 } [ a , b ]$ and put $h = G f$ . It must be shown that $h \\in \\mathcal { D }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.667,
+            0.2,
+            0.683
+          ],
+          "content": "Put"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.185,
+            0.69,
+            0.791,
+            0.735
+          ],
+          "content": "H _ { a } ( x ) = c ^ { - 1 } \\int _ { a } ^ { x } h _ { a } ( y ) f ( y ) d y \\quad \\mathrm { a n d } \\quad H _ { b } ( x ) = c ^ { - 1 } \\int _ { x } ^ { b } h _ { b } ( y ) f ( y ) d y.",
+          "image_source": "images/page_65_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.747,
+            0.188,
+            0.764
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.202,
+            0.781,
+            0.746,
+            0.877
+          ],
+          "content": "\\begin{align*}h(x) &= \\int_{a}^{b} g(x,y) f(y) dy \\\\&= c^{-1} \\int_{a}^{x} h_a(y) h_b(x) f(y) dy + c^{-1} \\int_{x}^{b} h_a(x) h_b(y) f(y) dy.\\end{align*}",
+          "image_source": "images/page_65_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.884,
+            0.871,
+            0.94
+          ],
+          "content": "That is, $h = H _ { a } h _ { b } + h _ { a } H _ { b }$ Differentiating this equation gives $h ^ { \\prime } = ( c ^ { - 1 } h _ { a } f ) h _ { b } +$ $H_{a}h_{b}^{\\prime}+h_{a}^{\\prime}H_{b}+h_{a}(-c^{-1}h_{b}f)=H_{a}h_{b}^{\\prime}+h_{a}^{\\prime}H_{b}$ a.e. Since $H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }$ is absolutely continuous, as part of showing that $h { \\in } { \\mathcal { D } }$ we want to show the following."
+        }
+      ]
+    },
+    {
+      "page_idx": 66,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.056,
+            0.157,
+            0.07
+          ],
+          "content": "52"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.586,
+            0.055,
+            0.867,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.099,
+            0.487,
+            0.119
+          ],
+          "content": "Claim. $h ^ { \\prime } = H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }$ everywhere."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.136,
+            0.867,
+            0.209
+          ],
+          "content": "Put $\\phi = H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }$ and put $\\psi ( x ) = h ( a ) + \\int _ { a } ^ { x } \\phi ( y ) d y .$ So $\\phi$ and $\\psi$ are absolutely continuous, $h ( a ) = \\psi ( a )$ , and $h ^ { \\prime } = \\psi ^ { \\prime }$ a.e. Thus $h = \\psi$ everywhere. But $\\psi$ has a continuous derivative $\\phi ,$ so h does too. That is, the claim is proved."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.209,
+            0.864,
+            0.264
+          ],
+          "content": "Differentiating $h ^ { \\prime } = H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }$ gives that a.e., $h ^ { \\prime \\prime } = ( c ^ { - 1 } h _ { a } f ) h _ { b } ^ { \\prime } + H _ { a } h _ { b } ^ { \\prime \\prime } +$ $h _ { a } ^ { \\prime \\prime } H _ { b } + h _ { a } ^ { \\prime } ( - c ^ { - 1 } h _ { b } f ) ;$ since each of these summands belongs to $L ^ { 2 } [ a , b ]$ $\\hat { h ^ { \\prime \\prime } } \\in L ^ { 2 } [ a , b ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.265,
+            0.866,
+            0.319
+          ],
+          "content": "Because $H _ { a } ( a ) = 0$ and $h _ { a } \\in \\mathcal { D } _ { a } ,   \\alpha h ( a ) + \\alpha _ { 1 } h ^ { \\prime } ( a ) = \\alpha h _ { a } ( a ) H _ { b } ( a ) + \\alpha _ { 1 } h _ { a } ^ { \\prime } ( a ) H _ { b } ( a ) =$ $[ \\alpha h _ { a } ( a ) + \\alpha _ { 1 } h _ { a } ^ { \\prime } ( a ) ] H _ { b } ( a ) = 0$ Hence $h \\in \\mathcal { D } _ { a }$ Similarly, $h \\in \\mathcal { D } _ { b }$ Thus $h \\in \\mathcal { D }$ Hence ran $G \\subseteq { \\mathcal { D } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.32,
+            0.863,
+            0.377
+          ],
+          "content": "Now to show that $L G f = f$ . If $h = G f , L ( h ) = - h ^ { \\prime \\prime } + q h = - ( c ^ { - 1 } h _ { a } h _ { b } ^ { \\prime } f +$ $H_{a}h_{b}^{\\prime\\prime}+h_{a}^{\\prime\\prime}H_{b}-c^{-1}h_{a}^{\\prime}h_{b}f]+q(H_{a}h_{b}+h_{a}H_{b})=(-h_{b}^{\\prime\\prime}+qh_{b})H_{a}+(-h_{a}^{\\prime\\prime}+qh_{a})H_{b}+$ $c ^ { - 1 } ( h _ { a } ^ { \\prime } h _ { b } - h _ { a } h _ { b } ^ { \\prime } ) f = f$ since $L ( h _ { a } ) = L ( h _ { b } ) = 0$ and $h _ { a } ^ { \\prime } h _ { b } - h _ { a } h _ { b } ^ { \\prime } = W = c .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.375,
+            0.865,
+            0.413
+          ],
+          "content": "If $h { \\in } { \\mathcal { D } }$ then $L h { \\in } L ^ { 2 } [ a , b ]$ . So by the first part of the proof, $L G L h = L h$ Thus $0 = L ( G L h - h )$ . Since ker $L = ( 0 ) ,   h = G L h$ and so $h \\in \\operatorname { r a n } G .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.429,
+            0.865,
+            0.468
+          ],
+          "content": "6.10. Corollary. Assume (6.4). $I f h \\in \\mathcal { D } , \\lambda \\in \\mathfrak { C } \\backslash \\{ 0 \\}$ , and $L h = \\lambda h$ , then $G h = \\lambda ^ { - 1 } h .$ $If   h \\in L^2[a,b]$ and $G h = \\lambda ^ { - 1 } h$ , then $h { \\in } { \\mathcal { D } }$ and $L h = \\lambda h$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.475,
+            0.564,
+            0.494
+          ],
+          "content": "PRoOF. This is immediate from the theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.512,
+            0.849,
+            0.531
+          ],
+          "content": "6.11. Lemma. Assume (6.4). If $\\alpha   \\in   \\sigma _ { p } ( G )$ and $\\alpha \\neq 0 ,$ then dim ker $( G - \\alpha ) = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.539,
+            0.866,
+            0.577
+          ],
+          "content": "PRooF. Suppose there are linearly independent functions $h _ { 1 } , h _ { 2 }$ in ker $( G - \\alpha )$ By (6.10), $h _ { 1 } , h _ { 2 }$ are solutions of the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39,
+            0.584,
+            0.607,
+            0.602
+          ],
+          "content": "- h ^ { \\prime \\prime } + ( q - \\alpha ^ { - 1 } ) h = 0 .",
+          "image_source": "images/page_66_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.611,
+            0.869,
+            0.704
+          ],
+          "content": "Since this is a second-order linear differential equation, every solution of it must be a linear combination of $h _ { 1 }$ and $h _ { 2 }$ . But $h _ { 1 } ,   h _ { 2 }   \\in   \\mathcal { D }$ so they satisfy (6.2). But a solution can be found to this equation satisfying any initial conditions at a—and thus not satisfying (6.2). This contradiction shows that linearly independent $h _ { 1 } ,   h _ { 2 }$ in ker $( G - \\alpha )$ cannot be found."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.72,
+            0.869,
+            0.758
+          ],
+          "content": "6.12. Theorem. Assume (6.4). Then there is a sequence $\\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots \\}$ of real numbers and a basis $\\{ e _ { 1 } , e _ { 2 } , \\ldots \\}$ for $L ^ { 2 } [ a , b ]$ such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.766,
+            0.488,
+            0.785
+          ],
+          "content": "(a) $0 < | \\lambda _ { 1 } | < | \\lambda _ { 2 } | < \\cdots  { a n d } | \\lambda _ { n } | \\to \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.786,
+            0.452,
+            0.803
+          ],
+          "content": "(b) $e _ { n } \\in \\mathcal { D }$ and $L e _ { n } = \\lambda _ { n } e _ { n }$ for all n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.802,
+            0.869,
+            0.838
+          ],
+          "content": "(c) $\\mathrm { I } f \\lambda \\neq \\lambda _ { n }$ for any $\\lambda _ { n }$ and $f { \\in } L ^ { 2 } [ a , b ]$ , then there is a unique h in $\\mathcal { D }$ with $Lh - \\lambda h = f$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.838,
+            0.874,
+            0.895
+          ],
+          "content": "(d) $If \\lambda = \\lambda_n for$ some n and $f { \\in } L ^ { 2 } [ a , b ]$ , then there is an h in $\\mathcal { D }$ with $Lh - \\lambda h = f$ if and only $if \\langle f, e_n \\rangle = 0. If \\langle f, e_n \\rangle = 0$ , any two solutions of $L h - \\lambda h = f$ differ by a multiple of $e _ { n } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.902,
+            0.87,
+            0.922
+          ],
+          "content": "ProoF. Parts (a) and (b) follow by Theorem 5.1, Corollary 6.10, and"
+        }
+      ]
+    },
+    {
+      "page_idx": 67,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.057,
+            0.532,
+            0.075
+          ],
+          "content": "§6. An Application: Sturm-Liouville Systems"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.841,
+            0.056,
+            0.866,
+            0.07
+          ],
+          "content": "53"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.102,
+            0.6,
+            0.12
+          ],
+          "content": "Lemma 6.1. For parts (c) and (d), first note that"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.131,
+            0.175,
+            0.147
+          ],
+          "level": 2,
+          "content": "6.13"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.283,
+            0.128,
+            0.708,
+            0.147
+          ],
+          "content": "L h - \\lambda h = f \\quad  if   and   only if  \\quad h - \\lambda G h = G f.",
+          "image_source": "images/page_67_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.156,
+            0.742,
+            0.174
+          ],
+          "content": "This is, in fact, a straightforward consequence of Theorem $6 . 9$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.173,
+            0.869,
+            0.248
+          ],
+          "content": "(c) The case where $\\lambda   =   0$ is left to the reader. If $\\lambda \\neq \\lambda _ { n }$ for any $n , \\lambda ^ { - 1 } \\notin \\sigma _ { p } ( G )$ Since $G = G ^ { * }$ , Corollary 4.15 implies $G - \\lambda ^ { - 1 }$ is bijective. So if $f { \\in } L ^ { 2 } [ { \\dot { a } } , b ]$ there is a unique h in $\\dot { L } ^ { 2 } [ a , b ]$ with $G f = ( \\lambda ^ { - 1 } - G ) h$ . Thus $h \\in \\mathcal { D }$ and (6.13) implies $L ( h / \\lambda ) - \\lambda ( h / \\lambda ) = f$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.247,
+            0.867,
+            0.305
+          ],
+          "content": "(d) Suppose $\\lambda = \\lambda _ { n }$ for some n. If $L h - \\lambda _ { n } h = f$ , then $h - \\lambda_{n}Gh = Gf$ Hence $\\langle G f , e _ { n } \\rangle = \\langle h , e _ { n } \\rangle - \\lambda _ { n } \\langle G h , e _ { n } \\rangle = \\langle h , e _ { n } \\rangle - \\lambda _ { n } \\langle h , G e _ { n } \\rangle = \\langle h , e _ { n } \\rangle -$ $\\lambda_{n}\\lambda_{n}^{-1}\\left\\langle h,e_{n}\\right\\rangle=0.\\ \\mathrm{So}\\ 0=\\left\\langle Gf,e_{n}\\right\\rangle=\\left\\langle f,Ge_{n}\\right\\rangle=\\lambda_{n}\\left\\langle f,e_{n}\\right\\rangle$ . Hence $f \\bot e _ { n }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.303,
+            0.871,
+            0.397
+          ],
+          "content": "Since ① $e _ { n } = \\ker ( G - \\lambda _ { n } ^ { - 1 } ) , \\left[ e _ { n } \\right] ^ { \\perp } \\equiv \\mathcal { N }$ reduces G. Let $G _ { 1 } = G | \\mathcal { N }$ . So $G _ { 1 }$ is a compact self-adjoint operator on $\\mathcal { N }$ and $\\lambda _ { n } ^ { - 1 } \\not \\in \\sigma _ { p } ( G _ { 1 } )$ By (4.15), ran $( G _ { 1 } - \\lambda _ { n } ^ { - 1 } ) = \\mathcal { N }$ As in the proof of (c), if $f \\perp e _ { n } ,$ there is a unique h and $\\mathcal { N }$ such that $L h - \\lambda _ { n } h = f$ . Note that $h + \\alpha e _ { n }$ is also a solution. If $h _ { 1 } , h _ { 2 }$ are two solutions, $h _ { 1 } - h _ { 2 } \\in \\ker ( L - \\lambda _ { n } ) ,$ SO $h _ { 1 } - h _ { 2 } = \\alpha e _ { n } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.412,
+            0.873,
+            0.488
+          ],
+          "content": "What happens if ker $L \\neq ( 0 ) ?$ In this case it is possible to find a real number $\\mu$ such that ker $( L - \\mu ) = ( 0 )$ (Exercise 6). Replacing $q$ by $q - \\mu ,$ Theorem 6.12 now applies. More information on this problem can be found in Exercises 2 through 5."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.513,
+            0.235,
+            0.529
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.531,
+            0.872,
+            0.6
+          ],
+          "content": "1. Consider the Sturm-Liouville operator $L h = - h ^ { \\prime \\prime }$ with $a = 0 ,   b = 1$ , and for each of the following boundary conditions find the eigenvalues $\\{ \\lambda _ { n } \\}$ , the eigenvectors $\\{ e _ { n } \\}$ , and the Green function g(x, y): (a) h(0) = h(1) = 0; (b) $h ^ { \\prime } ( 0 ) = h ^ { \\prime } ( 1 ) = 0 ;$ (c) $h ( 0 ) = 0$ and $h^{\\prime}(1)=0; (d) h(0)=h^{\\prime}(0)$ and $h(1) = -h'(1)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.606,
+            0.692,
+            0.625
+          ],
+          "content": "2. In Theorem 6.12 show that $\\sum_{n = 1}^{\\infty}\\lambda_{n}^{- 2} < \\infty$ (see Exercise 5.3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.631,
+            0.872,
+            0.683
+          ],
+          "content": "3. In Theorem 6.12 show that $h { \\in } { \\mathcal { D } }$ if and only if he $L ^ { 2 } [ a , b ]$ and $\\begin{array} { r } { \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } ^ { 2 } | \\langle h , e _ { n } \\rangle | ^ { 2 } < \\infty } \\end{array}$ If $h { \\in } { \\mathcal { D } }$ , show that $h(x) = \\sum_{n = 1}^{\\infty} \\langle h, e_n \\rangle e_n(x)$ , where this series converges uniformly and absolutely on $[ a , b ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.69,
+            0.872,
+            0.725
+          ],
+          "content": "4. In Theorem 6.12(c), show that $h(x) = \\sum_{n = 1}^{\\infty} (\\lambda_n - \\lambda)^{-1} \\langle f, e_n \\rangle e_n(x)$ and this series converges uniformly and absolutely on $[ a , b ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.733,
+            0.873,
+            0.784
+          ],
+          "content": "5. In Theorem 6.12(d), show that if $f \\perp e _ { n }$ and $L h - \\lambda _ { n } h = f .$ then $h ( x ) =$ $\\begin{array} { r } { \\sum _ { j \\neq n } ( \\lambda _ { j } - \\lambda _ { n } ) ^ { - 1 } \\langle f , e _ { j } \\rangle e _ { j } ( x ) + \\alpha e _ { n } ( x ) } \\end{array}$ for some $\\alpha ,$ where the series converges uniformly and absolutely on $[ a , b ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.791,
+            0.876,
+            0.828
+          ],
+          "content": "6. This exercise demonstrates how to handle the case in which ker $L \\neq ( 0 )$ (a) If $h , g { \\in } C ^ { ( 1 ) } [ a , b ]$ with $h ^ { \\prime } , g ^ { \\prime }$ absolutely continuous and $h ^ { \\prime \\prime } , g ^ { \\prime \\prime } \\in L ^ { 2 } [ a , b ]$ , show that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.251,
+            0.839,
+            0.788,
+            0.88
+          ],
+          "content": "\\int _ { a } ^ { b } \\left( h ^ { \\prime \\prime } g - h g ^ { \\prime \\prime } \\right) = \\left[ h ^ { \\prime } ( b ) g ( b ) - h ( b ) g ^ { \\prime } ( b ) \\right] - \\left[ h ^ { \\prime } ( a ) g ( a ) - h ( a ) g ^ { \\prime } ( a ) \\right] .",
+          "image_source": "images/page_67_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.891,
+            0.873,
+            0.926
+          ],
+          "content": "(b) If $h ,   g   \\in   \\mathcal { D }$ , show that $\\langle L h , g \\rangle = \\langle h , L g \\rangle$ . (The inner product is in $L ^ { 2 } [ a , b ] . )$ (c) If $h , g   \\in   \\mathcal { D }$ and $\\lambda ,   \\mu { \\in } \\mathbb { R } ,   \\lambda \\neq \\mu ,$ and if h∈ker $( L - \\lambda )$ , g∈ker $( L - \\mu )$ , then $h   \\bot   g .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.926,
+            0.701,
+            0.943
+          ],
+          "content": "(d) Show that there is a real number $\\mu$ with ker $( L - \\mu ) = ( 0 )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 68,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.056,
+            0.156,
+            0.071
+          ],
+          "content": "54"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.587,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.095,
+            0.858,
+            0.144
+          ],
+          "level": 2,
+          "content": "$\\S 7 ^ { * }$ The Spectral Theorem and Functional Calculus for Compact Normal Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.155,
+            0.871,
+            0.267
+          ],
+          "content": "We begin by characterizing the operators that commute with a diagonalizable operator. If one considers the definition of a diagonalizable operator (4.6), it is possible to reformulate it in a way that is more tractable for the present purpose and closer to the form of a compact self-adjoint operator given in (5.2). Unlike (4.6), it will not be assumed that the underlying Hilbert space is separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.283,
+            0.87,
+            0.34
+          ],
+          "content": "7.1. Proposition. Let $\\left\\{ P _ { i ^ { \\cdot } } \\; i { \\in } I \\right\\}$ be a family of pairwise orthogonal projections in $\\mathcal { B } ( \\mathcal { H } )$ . (That is, $P _ { i } P _ { j } = P _ { j } P _ { i } = 0$ for $i \\neq j . )$ If $h \\in \\mathcal { H }$ , then $\\scriptstyle \\sum _ { i } \\left\\{ P _ { i } h : i \\in I \\right\\}$ converges in $\\mathcal { H }$ to Ph, where P is the projection of $\\mathcal { H }$ onto $\\vee \\left\\{ P _ { i } \\mathcal { H } \\colon i { \\in } I \\right\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.348,
+            0.784,
+            0.366
+          ],
+          "content": "This appeared as Exercise 3.5 and its proof is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.365,
+            0.871,
+            0.46
+          ],
+          "content": "If $\\left\\{ P _ { i ^ { \\cdot } } \\; i { \\in } I \\right\\}$ is as in the preceding proposition and $\\mathcal { M } _ { i } = P _ { i } \\mathcal { H } _ { i }$ , then with the notation of Definition 3.4, P is the projection of $\\mathcal { H }$ onto $\\oplus _ { i } \\mathcal { M } _ { i }$ Write $\\boldsymbol { P } = \\sum _ { i } \\boldsymbol { P } _ { i } .$ A word of caution here: $\\begin{array} { r } { \\pmb { P } \\pmb { h } = \\sum _ { i } \\pmb { P } _ { i } \\pmb { h } _ { i } } \\end{array}$ where the convergence is in the norm of $\\mathcal { H }$ . However, $\\sum _ { i } P _ { i }$ does not converge to $P$ in the norm of $\\mathcal { B } ( \\mathcal { H } )$ In fact, it never does unless I is finite (Exercise 1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.475,
+            0.872,
+            0.569
+          ],
+          "content": "7.2. Definition. A partition of the identity on $\\mathcal { H }$ is a family $\\{ P _ { i } ; i { \\in } I \\}$ of pairwise orthogonal projections on $\\mathcal { H }$ such that $\\nabla _ { i } P _ { i } \\mathcal { H } = \\mathcal { H }$ .This might be indicated by $\\mathbf { 1 } = { \\sum _ { i } } \\pmb { P } _ { i }$ or $\\mathbf { 1 } = \\oplus _ { i } P _ { i }$ . [Note that 1 is often used to denote the operator on $\\mathcal { H }$ defined by $1 ( h ) = h$ for all h. Similarly if $\\alpha \\in \\mathbb { F } ,$ α is the operator defined by $\\alpha ( h ) = \\alpha h$ for all h.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.585,
+            0.871,
+            0.64
+          ],
+          "content": "7.3. Definition. An operator A on $\\mathcal { H }$ is diagonalizable if there is a partition of the identity on $\\mathcal { H } ,   \\{ P _ { i } \\colon i { \\in } I \\}$ , and a family of scalars $\\{ \\alpha _ { i } ;   i { \\in } I \\}$ such that su $\\mathbf { p } _ { i } | \\alpha _ { i } | < \\infty$ and $A { \\pmb h } = \\alpha _ { i } { \\pmb h }$ whenever heran $P _ { i } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.648,
+            0.871,
+            0.684
+          ],
+          "content": "It is easy to see that this is equivalent to the definition given in (4.6) when $\\mathcal { H }$ is separable (Exercise 2). Also, $\\| A \\| = \\operatorname{supp}_{i} | \\alpha_{i} |$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.684,
+            0.866,
+            0.703
+          ],
+          "content": "To denote a diagonalizable operator satisfying the conditions of(7.3), write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.71,
+            0.645,
+            0.741
+          ],
+          "content": "A = \\sum _ { i } \\alpha _ { i } P _ { i } \\quad { \\mathrm { o r } } \\quad A = \\oplus _ { i } \\alpha _ { i } P _ { i } .",
+          "image_source": "images/page_68_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.751,
+            0.872,
+            0.809
+          ],
+          "content": "Note that it was not assumed that the scalars $\\alpha _ { i }$ in (7.3) are distinct. There is no loss in generality in assuming this, however. In fact, if $\\alpha _ { i } = \\alpha _ { j i }$ then we can replace $P _ { i }$ and $P _ { j }$ with $P _ { i } + P _ { j } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.824,
+            0.872,
+            0.862
+          ],
+          "content": "7.4. Proposition. An operator A on $\\mathcal { H }$ is diagonalizable if and only if there is an orthonormal basis for $\\mathcal { H }$ consisting of eigenvectors for A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.87,
+            0.296,
+            0.888
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.903,
+            0.87,
+            0.923
+          ],
+          "content": "Also note that if $\\pmb { A } = \\oplus _ { i } \\alpha _ { i } \\pmb { P } _ { i } ,$ then $\\bar { A } ^ { * } = \\oplus _ { i } \\bar { \\alpha } _ { i } \\bar { P } _ { i }$ and A is normal (Exercise 5)."
+        }
+      ]
+    },
+    {
+      "page_idx": 69,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.59,
+            0.073
+          ],
+          "content": "§7. The Spectral Theorem and Functional Calculus"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.843,
+            0.056,
+            0.867,
+            0.07
+          ],
+          "content": "55"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.101,
+            0.868,
+            0.156
+          ],
+          "content": "7.5. Theorem. If $\\boldsymbol { A } = \\oplus _ { i } \\alpha _ { i } \\boldsymbol { P } _ { i }$ is diagonalizable and all the $\\alpha _ { i }$ are distinct, then an operator B in $\\mathcal { B } ( \\mathcal { H } )$ satisfies $AB = BA$ if and only if for each i, ran $P _ { i }$ reduces B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.164,
+            0.869,
+            0.255
+          ],
+          "content": "PROOF. If all the $\\alpha _ { i }$ are distinct, then ran $P _ { i } = \\ker ( A - \\alpha _ { i } )$ . If $A B = B A$ and $A h = \\alpha _ { i } h _ { i }$ then $ABh = BAh = B(\\alpha_i h) = \\alpha_i Bh;$ hence Bheran $P _ { i }$ whenever heran $P _ { i } .$ Thus ran $P _ { i }$ is left invariant by B. Therefore B leaves $\\forall \\left\\{ \\operatorname { r a n } P _ { j } \\right\\}$ $j \\neq i \\} = { \\mathcal { N } }$ invariant. But since $\\oplus_{i}P_{i}=1,\\mathcal{N}_{i}=(\\mathrm{ran}P_{i})^{\\perp}$ . Thus ran $P _ { i }$ reduces B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.256,
+            0.867,
+            0.313
+          ],
+          "content": "Now assume that B is reduced by each ran $P _ { i } .$ Thus $\\boldsymbol{B}\\boldsymbol{P}_{i}=\\boldsymbol{P}_{i}\\boldsymbol{B}$ for all i. If $h \\in \\mathcal { H }$ then $\\begin{array} { r } { \\pmb { A } \\pmb { h }   =   \\sum _ { i }   \\alpha _ { i } \\pmb { P } _ { i } \\pmb { h } } \\end{array}$ Hence $\\begin{array} { r } { B A h = \\sum _ { i } \\alpha _ { i } B P _ { i } h = \\sum _ { i } \\alpha _ { i } P _ { i } B h = A B h . } \\end{array}$ (Why is the first equality valid?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.329,
+            0.869,
+            0.404
+          ],
+          "content": "Using the notation of the preceding theorem, if $AB = BA$ let $B_{i} = B \\left| \\tan P_{i} \\right|$ Then it is appropriate to write $\\pmb { B } = \\oplus _ { i } \\pmb { B } _ { i }$ on $\\mathcal { H } = \\oplus _ { i } ( P _ { i } \\mathcal { H } )$ . One might paraphrase Theorem 7.5 by saying that B commutes with a diagonalizable operator if and only if B can be “diagonalized with operator entries.\""
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.429,
+            0.871,
+            0.524
+          ],
+          "content": "7.6. Spectral Theorem for Compact Normal Operators. If T is a compact normal operator on the complex Hilbert space $\\mathcal { H } ,$ , then T has only a countable number of distinct eigenvalues. $\\mathit { I f } \\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots \\}$ are the distinct nonzero eigenvalues of T, and $P _ { n }$ is the projection of $\\mathcal { H }$ onto ker $( T - \\lambda _ { n } ) ,$ then $P_{n}P_{m}=P_{m}P_{n}=0$ if n≠m and"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.54,
+            0.165,
+            0.556
+          ],
+          "level": 2,
+          "content": "7.7"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.433,
+            0.532,
+            0.568,
+            0.571
+          ],
+          "content": "T = \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } P _ { n } ,",
+          "image_source": "images/page_69_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.58,
+            0.862,
+            0.598
+          ],
+          "content": "where this series converges to T in the metric defined by the norm on $\\mathcal { B } ( \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.613,
+            0.871,
+            0.684
+          ],
+          "content": "PROOF. Let $A = ( T + T ^ { * } ) / 2 , B = ( T - T ^ { * } ) / 2 i .$ So A, B are compact self-adjoint operators, $T = A + i B ,$ and $AB = BA$ since T is normal. The idea of the proof is rather simple. We'll get started in this proof together but the reader will have to complete the details."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.685,
+            0.872,
+            0.775
+          ],
+          "content": "By Theorem 5.1, $\\begin{array} { r } { \\pmb { A } = \\sum _ { 1 } ^ { \\infty } \\alpha _ { n } E _ { n } , } \\end{array}$ where $\\alpha _ { n } \\in \\mathbb { R } , \\alpha _ { n } \\neq \\alpha _ { m }$ i $n \\neq m ,$ and $E _ { n }$ is the projection of $\\mathcal { H }$ onto $\\ker ( A - \\alpha _ { n } )$ . Since $AB = BA$ , the idea is to use Theorem 7.5 and Theorem 5.1 applied to B to diagonalize A and B simultaneously; that is, to find an orthonormal basis for $\\mathcal { H }$ consisting of vectors that are simultaneously eigenvectors of A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.775,
+            0.871,
+            0.868
+          ],
+          "content": "Since $BA = AB,   E_n \\mathcal{H} = \\mathcal{L}_n$ reduces B for every n (7.5). Let $B _ { n } = B | \\mathcal { L } _ { n }$ then $B _ { n } = B _ { n } ^ { * }$ and dim $\\mathcal { L } _ { n } < \\infty$ . Applying (5.1) (or, rather, the corresponding theorem from linear algebra) to $B _ { n } ,$ there is a basis $\\left\\{ e^{(n)} : 1 \\leqslant j \\leqslant d_n \\right\\}$ for $\\mathcal { L } _ { n }$ and real numbers $\\left\\{ \\beta _ { j } ^ { ( n ) } : \\quad 1 \\leqslant j \\leqslant d _ { n } \\right\\}$ such that $B_{n}e_{j}^{(n)} = \\beta_{j}^{(n)}e_{j}^{(n)}$ Thus $T e _ { i } ^ { ( n ) } = A e _ { i } ^ { ( n ) } + i B e _ { i } ^ { ( n ) } = ( \\alpha _ { n } + i \\beta _ { i } ^ { ( n ) } ) e _ { i } ^ { ( n ) } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.867,
+            0.873,
+            0.923
+          ],
+          "content": "Therefore $\\left\\{ e_{j}^{(n)} : 1 \\leqslant j \\leqslant d_{n}, n \\geqslant 1 \\right\\}$ is a basis for cl(ran A) consisting of eigenvectors for T. It may be that cl(ran $A) \\ne \\mathrm{cl}(\\mathrm{ran} T)$ . Since B is reduced by ker $A = ( \\tan A )^{\\perp}$ and $B _ { 0 } = B |$ ker A is a compact self-adjoint operator there"
+        }
+      ]
+    },
+    {
+      "page_idx": 70,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.056,
+            0.159,
+            0.07
+          ],
+          "content": "56"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.588,
+            0.056,
+            0.869,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.098,
+            0.868,
+            0.155
+          ],
+          "continues_prev": true,
+          "content": "is an orthonormal basis $\\big \\{ e _ { j } ^ { ( 0 ) } \\colon j \\geqslant 1 \\big \\}$ for cl(ran $B _ { 0 } )$ and scalars $\\big \\{ \\beta _ { j } ^ { ( 0 ) } ;   j \\geqslant 1 \\big \\}$ such that $B e _ { j } ^ { ( 0 ) }   =   \\beta _ { j } ^ { ( 0 ) } e _ { j } ^ { ( 0 ) }$ .It follows that $\\tilde { T e _ { j } ^ { ( 0 ) } } = i \\beta _ { j } ^ { ( 0 ) } e _ { j } ^ { ( 0 ) }$ Moreover, ker $T ^ { * } \\supseteq$ ker $A \\cap$ ker $B _ { 0 }$ so cl(ran $T )   \\subseteq   \\mathbf { c l }$ (ran A)⊕cl(ran $\\dot { \\pmb { B _ { 0 } } } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.155,
+            0.871,
+            0.229
+          ],
+          "content": "The remainder of the proof now consists in a certain amount of bookeeping to gather together the eigenvectors belonging to the same eigenvalues of $T$ and the performing of some light housekeeping chores to obtain the convergence of the series (7.7) ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.24,
+            0.531,
+            0.259
+          ],
+          "content": "7.8. Corollary. With the notation of (7.6):"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.267,
+            0.446,
+            0.287
+          ],
+          "content": "(a) ker $T = [ \\vee \\{ P _ { n } \\mathcal { H } \\colon n \\geqslant 1 \\} ] ^ { \\perp } ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.287,
+            0.394,
+            0.305
+          ],
+          "content": "(b) each $P _ { n }$ has finite rank;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.305,
+            0.809,
+            0.325
+          ],
+          "content": "(c) | $\\| T \\| = \\sup \\{ | \\lambda_n | : n \\geqslant 1 \\}$ and either $\\{ \\lambda _ { n } \\}$ is finite or $\\lambda _ { n }   \\to   0$ as $n   \\to   \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.337,
+            0.632,
+            0.357
+          ],
+          "content": "The proof of (7.8) is similar to the proof of (5.3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.374,
+            0.871,
+            0.412
+          ],
+          "content": "7.9. Corollary. If T is a compact operator on a complex Hilbert space, then $T$ is normal if and only if T is diagonalizable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.426,
+            0.871,
+            0.536
+          ],
+          "content": "If $T$ is a normal operator which is not necessarily compact, there is a spectral theorem for $T$ which has a somewhat different form. This theorem states that $T$ can be represented as an integral with respect to a measure whose values are not numbers but projections on a Hilbert space. Theorem 7.6 will be a consequence of this more general theorem and correspond to the case in which this projection-valued measure is “atomic.\""
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.536,
+            0.871,
+            0.643
+          ],
+          "content": "The approach to this more general spectral theorem will be to develop a functional calculus for normal operators T. That is, an operator $\\phi ( T )$ will be defined for every bounded Borel function $\\phi$ on $\\pmb { \\mathbf { C } }$ and certain properties of the map $\\phi { \\mapsto } \\phi ( T )$ will be deduced. The projection-valued measure will then be obtained by letting $\\mu ( \\Delta ) = \\chi _ { \\Delta } ( T )$ , where $\\chi _ { \\Delta }$ is the characteristic function of the set $\\mathbf { \\Delta } .$ These matters are taken up in Chapter $\\mathbf { I } \\mathbf { X }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.643,
+            0.87,
+            0.699
+          ],
+          "content": "At this point, Theorem 7.6 will be used to develop a functional calculus for compact normal operators. For the remainder of this section $\\mathcal { H }$ is a complex Hilbert space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.716,
+            0.868,
+            0.754
+          ],
+          "content": "7.10. Definition. Denote by $l ^ { \\infty } ( \\mathbf { C } )$ all the bounded functions φ: $\\mathbf { C }   \\to   \\mathbf { C }$ If T is a compact normal operator satisfying (7.7), define $\\phi ( T ) : { \\mathcal { H } } \\to { \\mathcal { H } }$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.763,
+            0.64,
+            0.802
+          ],
+          "content": "\\phi ( T ) = \\sum _ { n = 1 } ^ { \\infty } \\phi ( \\lambda _ { n } ) P _ { n } + \\phi ( 0 ) P _ { 0 } ,",
+          "image_source": "images/page_70_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.811,
+            0.561,
+            0.829
+          ],
+          "content": "where $P _ { 0 } =$ the projection of $\\mathcal { H }$ onto ker $T .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.83,
+            0.867,
+            0.867
+          ],
+          "content": "Note that $\\phi ( T )$ is a diagonalizable operator and $\\| \\phi ( T ) \\| = \\operatorname* { s u p } \\{ | \\phi ( 0 ) |$ $| \\phi ( \\lambda _ { 1 } ) | , \\ldots \\}$ (4.6). Much more can be said."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.884,
+            0.873,
+            0.922
+          ],
+          "content": "7.11. Functional Calculus for Compact Normal Operators. If T is a compact normal operator on a C-Hilbert space $\\mathcal { H } ,$ then the map $\\phi   \\mapsto   \\phi ( T )$ of"
+        }
+      ]
+    },
+    {
+      "page_idx": 71,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.055,
+            0.589,
+            0.073
+          ],
+          "content": "§7. The Spectral Theorem and Functional Calculus"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.843,
+            0.057,
+            0.867,
+            0.071
+          ],
+          "content": "57"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.102,
+            0.545,
+            0.12
+          ],
+          "continues_prev": true,
+          "content": "$l ^ { \\infty } ( \\mathbb { C } ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )$ has the following properties:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.13,
+            0.867,
+            0.167
+          ],
+          "content": "(a) $\\phi   \\mapsto   \\phi ( T )$ is a multiplicative linear map of $l ^ { \\infty } ( \\pmb { \\mathbb { C } } )$ into $\\mathcal { B } ( \\mathcal { H } )$ .If $\\phi \\equiv 1$ $\\phi ( T ) = 1 ; \\; i f \\; \\phi ( z ) = z \\; \\mathrm { o n } \\; \\sigma _ { p } ( T ) \\cup \\{ 0 \\}$ , then $\\phi ( T ) = T .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.167,
+            0.477,
+            0.186
+          ],
+          "content": "(b) $\\phi ( T ) \\parallel = \\operatorname* { s u p } \\{ | \\phi ( \\lambda ) | : \\lambda \\in \\sigma _ { p } ( T ) \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.187,
+            0.781,
+            0.207
+          ],
+          "content": "(c) $\\phi ( T ) ^ { * }   =   \\phi ^ { * } ( T ) ,$ where $\\phi ^ { * }$ is the function defined by $\\phi ^ { * } ( z ) = { \\overline { { \\phi ( z ) } } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.206,
+            0.812,
+            0.226
+          ],
+          "content": "(d) If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ and $A T = T A$ then $A \\phi ( T ) = \\phi ( T ) A$ for all $\\phi$ in $l ^ { \\infty } ( \\pmb { \\mathbb { C } } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.24,
+            0.662,
+            0.258
+          ],
+          "content": "PRooF. Adopt the notation of Theorem 7.6 and (7.10)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.258,
+            0.869,
+            0.389
+          ],
+          "content": "(a) If $\\phi ,   \\psi   \\in   l ^ { \\infty } ( \\mathbb { C } )$ , then $( \\phi \\psi ) ( z ) = \\phi ( z ) \\psi ( z )$ for z in C. Also, $\\phi ( T ) \\psi ( T ) h =$ $\\left[ \\phi ( 0 ) P _ { 0 } + \\sum \\phi ( \\lambda _ { n } ) P _ { n } \\right] \\left[ \\psi ( 0 ) P _ { 0 } + \\sum \\psi ( \\lambda _ { m } ) P _ { m } \\right] h = \\left[ \\phi ( 0 ) P _ { 0 } + \\sum \\phi ( \\lambda _ { n } ) P _ { n } \\right]$ $[ \\psi ( 0 ) P _ { 0 } h + \\textstyle { \\sum _ { m } } \\psi ( \\lambda _ { m } ) P _ { m } h ]$ Since $P _ { n } P _ { m } = 0$ when $n \\neq m ,$ this gives that $\\begin{array} { r } { \\phi ( T ) \\psi ( T ) h = \\phi ( 0 ) \\psi ( 0 ) P _ { 0 } h + \\sum _ { n } \\phi ( \\lambda _ { n } ) \\psi ( \\lambda _ { n } ) P _ { n } h = ( \\phi \\psi ) ( T ) h . } \\end{array}$ Thus $\\phi { \\mapsto } \\phi ( T )$ is multiplicative. The linearity of the map is left to the reader. If $\\phi ( z ) = 1$ , then $\\phi(T)=1(T)=P_{0}+\\sum_{n = 1}^{\\infty}P_{n}=1$ since $\\{ \\boldsymbol { P } _ { 0 } , \\boldsymbol { P } _ { 1 } , \\ldots \\}$ is a partition of the identity. If $\\phi ( z ) = z , \\phi ( \\lambda _ { n } ) = \\lambda _ { n }$ and so $\\phi ( T ) = T .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.389,
+            0.552,
+            0.406
+          ],
+          "content": "Parts (b) and (c) follow from Exercise 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.406,
+            0.869,
+            0.502
+          ],
+          "content": "(d) If $A T = T A ,$ Theorem 7.5 implies that $\\boldsymbol{P}_{0} \\mathcal{H}, \\boldsymbol{P}_{1} \\mathcal{H}, \\ldots$ . all reduce A. Fix $h _ { n }$ in $P _ { n } \\mathcal { H } , \\quad n \\geqslant 0$ If $\\phi   \\in   l ^ { \\infty } ( \\mathbb { C } )$ , then $A h _ { n } \\in P _ { n } \\mathcal { H }$ and so $\\phi ( T ) A h _ { n } =$ $\\phi ( \\lambda _ { n } ) A h _ { n } = A ( \\phi ( \\lambda _ { n } ) h _ { n } ) = A \\phi ( T ) h _ { n }$ If $h \\in \\mathcal { H }$ then $h = \\sum _ { n = 0 } ^ { \\infty } h _ { n } ,$ where $h _ { n } { \\in } P _ { n ^ { * } }$ Hence $\\begin{array} { r } { \\phi ( T ) A h = \\sum _ { n = 0 } ^ { \\infty } \\phi ( T ) A h _ { n } = \\sum _ { n = 0 } ^ { \\infty } A \\phi ( T ) h _ { n } = A \\phi ( T ) h . } \\end{array}$ (Justify the first equality.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.518,
+            0.87,
+            0.556
+          ],
+          "content": "Which operators on $\\mathcal { H }$ can be expressed as $\\phi ( T )$ for some $\\phi$ in $l ^ { \\infty } ( \\mathbb { C } ) ?$ Part (d) of the preceding theorem provides the answer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.573,
+            0.87,
+            0.61
+          ],
+          "content": "7.12. Theorem. If T is a compact normal operator on a C-Hilbert space, then $\\{ \\phi ( T ) { : } \\phi { \\in } l ^ { \\infty } ( \\mathbb { C } ) \\}$ is equal to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.618,
+            0.704,
+            0.636
+          ],
+          "content": "\\{ B { \\in } { \\mathcal { B } } ( { \\mathcal { H } } ) { : ~ } B A = A B { ~ w h e n e v e r ~ } A T = T A \\} .",
+          "image_source": "images/page_71_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.644,
+            0.871,
+            0.811
+          ],
+          "content": "PRooF. Half of the desired equality is obtained from (7.11d). So let $B \\in \\mathcal { B } ( \\mathcal { H } )$ and assume that $BA = AB$ whenever. $A T = T A$ . Thus, B must commute with T itself. By (7.5), B is reduced by each $P _ { n } \\mathcal { H } \\equiv \\mathcal { H } _ { n } , n \\geqslant 0 ;$ put $B _ { n } = B \\left| \\mathcal { H } _ { n } \\right|$ Fix $n   \\geqslant   0$ for the moment and let $A _ { n }$ be any bounded operator in $\\mathcal { B } ( \\mathcal { H } _ { n } )$ Define $A h = A _ { n } h \\text { if } h \\in \\mathcal { H } _ { n }$ and $A h = 0 \\text { if } h \\in \\mathcal { H } _ { m } , m \\neq n$ , and extend A to $\\mathcal { H }$ by linearity; so $A = \\bigoplus_{m = 0}^{\\infty} A_{m}$ where $A_{m}=0 \\text { if } m \\neq n. \\text { By } (7.5), A T=T A$ ; hence $BA = AB$ This implies that $B_{n}A_{n}=A_{n}B_{n}.$ Since $A _ { n }$ was arbitrarily chosen from $\\mathcal { B } ( \\mathcal { H } _ { n } ) ,$ $B _ { n } = \\beta _ { n }$ for some $\\beta _ { n }$ (Exercise 7). If $\\phi \\colon \\mathbf { C }   \\to   \\mathbf { C }$ is defined by $\\phi ( 0 ) = \\beta _ { 0 }$ and $\\phi ( \\lambda _ { n } ) = \\beta _ { n }$ for $n \\geqslant 1$ , then $B = \\phi ( T )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.835,
+            0.868,
+            0.874
+          ],
+          "content": "7.13. Definition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } ) .$ , then A is positive if $\\langle A h , h \\rangle \\geqslant 0$ for all h in $\\mathcal { H } ,$ In symbols this is denoted by $A \\geqslant 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.891,
+            0.871,
+            0.929
+          ],
+          "content": "Note that by Proposition 2.12 every positive operator on a complex Hilbert space is self-adjoint."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 64,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 65,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 66,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 67,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 68,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 69,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 70,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 71,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,1596 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.056,
+            0.156,
+            0.07
+          ],
+          "content": "10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.71,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": "I. Hilbert Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.099,
+            0.87,
+            0.137
+          ],
+          "content": "If $A \\subseteq { \\mathcal { H } }$ , Let $A ^ { \\perp }   \\equiv   \\{   f   \\in   \\mathcal { H } \\colon   f   \\perp   g$ for all g in $\\left. A \\right\\}$ . It is easy to see that $A ^ { \\perp }$ is a closed linear subspace of $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.137,
+            0.871,
+            0.212
+          ],
+          "content": "Note that Theorem 2.6, together with the uniqueness statement in Theorem 2.5, shows that if $\\mathcal { M }$ is a closed linear subspace of $\\mathcal { H }$ and $h \\in \\mathcal { H }$ then there is a unique element $f _ { 0 }$ in M such that $h - f _ { 0 } \\in \\mathcal { M } ^ { \\perp }$ . Thus a function $P : \\mathcal { H } \\rightarrow \\mathcal { M }$ can be defined by $P h   =   f _ { 0 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.229,
+            0.871,
+            0.267
+          ],
+          "content": "2.7. Theorem. If M is a closed linear subspace of $\\mathcal { H }$ and $h \\in \\mathcal { H } _ { 1 }$ let Ph be the unique point in M such that $h - P h \\perp \\mathcal { M }$ Then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.276,
+            0.503,
+            0.293
+          ],
+          "content": "(a) P is a linear transformation on $\\mathcal { H } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.293,
+            0.463,
+            0.311
+          ],
+          "content": "(b) $\\| P h \\| \\leqslant \\| h \\|$ for every h in $\\mathcal { H } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.311,
+            0.708,
+            0.33
+          ],
+          "content": "(c) $P ^ { 2 } = P { \\mathrm { ~ ( h e r e } }$ $P ^ { 2 }$ means the composition of P with itself),"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.33,
+            0.445,
+            0.348
+          ],
+          "content": "(d) ker $P = M ^ { \\perp }$ and ran $P = \\mathcal { M } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.357,
+            0.867,
+            0.394
+          ],
+          "content": "PRooF. Keep in mind that for every h in $\\mathcal { H } ,   h - P h \\in \\mathcal { M } ^ { \\perp }$ and $\\left\\| \\boldsymbol{h} - \\boldsymbol{P} \\boldsymbol{h} \\right\\| =$ dist $( h , \\mathcal { M } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.402,
+            0.87,
+            0.457
+          ],
+          "content": "(a) Let $h _ { 1 } , h _ { 2 } \\in \\mathcal { H }$ and $\\alpha _ { 1 } , \\alpha _ { 2 } \\in \\mathbb { F }$ If $f \\in \\mathcal { M } ,$ then $\\zeta \\left[ \\alpha _ { 1 } h _ { 1 } + \\alpha _ { 2 } h _ { 2 } \\right] - \\left[ \\alpha _ { 1 } P h _ { 1 } + \\right.$ $\\alpha _ { 2 } P h _ { 2 } ] , f \\rangle = \\alpha _ { 1 } \\langle h _ { 1 } - P h _ { 1 } , f \\rangle + \\alpha _ { 2 } \\langle h _ { 2 } - P h _ { 2 } , f \\rangle = 0.$ By the uniqueness statement of $(2.6), P(\\alpha h_{1} + \\alpha_{2}h_{2}) = \\alpha_{1}Ph_{1} + \\alpha_{2}Ph_{2}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.457,
+            0.871,
+            0.494
+          ],
+          "content": "(b) If $h \\in \\mathcal { H }$ then $h = (h - P h) + P h, \\quad P h \\in \\mathcal{M},$ and $h - P h \\in \\mathcal { M } ^ { \\perp }$ Thus一 $\\| h \\| ^ { 2 } = \\| h - P h \\| ^ { 2 } + \\| P h \\| ^ { 2 } \\geqslant \\| P h \\| ^ { 2 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.494,
+            0.869,
+            0.53
+          ],
+          "content": "(c) If $f \\in \\mathcal { M } ,$ then $P f   =   f .$ For any h in $\\mathcal { H } , P h \\in \\mathcal { M } ;$ hence $P^{2}h \\equiv P(Ph) = Ph$ That is, $P ^ { 2 } = P .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.531,
+            0.871,
+            0.585
+          ],
+          "content": "(d) If $P h = 0 ,$ then $h = h - P h \\in \\mathcal{M}^{\\perp}$ Conversely, if $h { \\in } M ^ { \\perp }$ , then 0 is the unique vector in $\\mathcal { M }$ such that $h - 0 = h \\perp \\mathcal{M}$ Therefore $P h = 0$ That ran $P = \\mathcal { M }$ is clear. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.602,
+            0.872,
+            0.677
+          ],
+          "content": "2.8. Definition. If M is a closed linear subspace of $\\mathcal { H }$ and P is the linear map defined in the preceding theorem, then P is called the orthogonal projection of $\\mathcal { H }$ onto M. If we wish to show this dependence of P on $\\mathcal { M } ,$ we will denote the orthogonal projection of $\\mathcal { H }$ onto $\\mathcal { M }$ by $P _ { M }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.694,
+            0.872,
+            0.768
+          ],
+          "content": "It also seems appropriate to introduce the notation $\\mathcal { M } \\leqslant \\mathcal { H }$ to signify that $\\mathcal { M }$ is a closed linear subspace of $\\mathcal { H }$ . We will use the term linear manifold to designate a linear subspace of $\\mathcal { H }$ that is not necessarily closed. A linear subspace of $\\mathcal { H }$ will always mean a closed linear subspace."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.784,
+            0.57,
+            0.804
+          ],
+          "level": 2,
+          "content": "2.9. Corollary. $\\mathcal { H } \\mathcal { M } \\leq \\mathcal { H }$ then $( \\mathcal { M } ^ { \\perp } ) ^ { \\perp } = \\mathcal { M } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.813,
+            0.871,
+            0.886
+          ],
+          "content": "ProoF. If I is used to designate the identity operator on $\\mathcal { H } ( \\mathrm { v i z . } , I h = h )$ and $P = P _ { , \\mathcal { M } } ,$ then $I - P$ is the orthogonal projection of $\\mathcal { H }$ onto $\\mathcal { M } ^ { \\perp }$ (Exercise 2). By part (d) of the preceding theorem, $( \\mathcal { M } ^ { \\perp } ) ^ { \\perp } = \\ker ( I - P )$ . But $0 = (I - P)h$ iff $h = P h .$ Thus $( \\mathcal { M } ^ { \\perp } ) ^ { \\perp } = \\ker ( I - P ) = \\operatorname { r a n } P = \\mathcal { M } .$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.903,
+            0.848,
+            0.922
+          ],
+          "content": "2.10. Corollary. If $A \\subseteq { \\mathcal { H } }$ , then $( A ^ { \\perp } ) ^ { \\perp }$ is the closed linear span of A in $\\mathcal { H } ,$"
+        }
+      ]
+    },
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.055,
+            0.479,
+            0.072
+          ],
+          "content": "§3. The Riesz Representation Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.057,
+            0.869,
+            0.071
+          ],
+          "content": "11"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.1,
+            0.87,
+            0.138
+          ],
+          "content": "The proof is left to the reader; see Exercise 4 for a discussion of the term \"closed linear span.\""
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.151,
+            0.865,
+            0.17
+          ],
+          "content": "2.11. Corollary. $\\mathit { I f } \\mathcal { Y }$ is a linear manifold in H, then Y is dense in $\\mathcal { H } \\mathrm { i f f } \\mathcal { Y } ^ { \\perp } = ( 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.178,
+            0.296,
+            0.196
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.216,
+            0.234,
+            0.232
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.234,
+            0.871,
+            0.286
+          ],
+          "content": "1. Let $\\mathcal { H }$ be a Hilbert space and suppose f and g are linearly independent vectors in H with $\\|   f   \\| = \\|   g   \\| = 1$ . Show that $\\| t f + ( 1 - t ) g \\| < 1$ for $0 < t < 1$ . What does this say about $\\{ h \\in \\mathcal { H } : \\| h \\| \\leqslant 1 \\} ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.294,
+            0.87,
+            0.329
+          ],
+          "content": "2. If $\\mathcal { M } \\leq \\mathcal { H }$ and $P = P _ { , \\mathcal { M } } ,$ show that $I - P$ is the orthogonal projection of $\\mathcal { H }$ onto $\\mathcal { M } ^ { \\perp }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.337,
+            0.871,
+            0.424
+          ],
+          "content": "3. If $\\mathcal { M } \\leqslant \\mathcal { H } ,$ show that $\\mathcal { M } \\cap \\mathcal { M } ^ { \\perp } = ( 0 )$ and every h in $\\mathcal { H }$ can be written as $h = f + g$ where $f \\in \\mathcal { M }$ and $g \\in \\mathcal { M } ^ { \\perp }$ . If $\\mathcal { M } + \\mathcal { M } ^ { \\perp } \\equiv \\{ ( f , g ) \\colon f { \\in } \\mathcal { M } , g { \\in } \\mathcal { M } ^ { \\perp } \\}$ and $T ;$ $\\mathcal { M } + \\mathcal { M } ^ { \\perp } \\rightarrow \\mathcal { H }$ is defined by $T ( f , g ) = f + g ,$ show that T is a linear bijection and a homeomorphism if $1 1 + 1 1 ^ { \\perp }$ is given the product topology. (This is usually phrased by stating the M and $\\mathcal { M } ^ { \\perp }$ are topologically complementary in $\\mathcal { H } . )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.431,
+            0.87,
+            0.466
+          ],
+          "content": "4. If $A \\subseteq { \\mathcal { H } }$ , let $\\vee A \\equiv$ the intersection of all closed linear subspaces of $\\mathcal { H }$ that contain A. V A is called the closed linear span of A. Prove the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.474,
+            0.845,
+            0.491
+          ],
+          "content": "(a) $\\vee A \\leqslant \\mathcal{H}$ andV A is the smallest closed linear subspace of $\\mathcal { H }$ that contains A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.491,
+            0.65,
+            0.509
+          ],
+          "content": "(b) $\\vee A =$ the closure of $\\left\\{ \\sum_{k = 1}^{n} \\alpha_{k} f_{k} : n \\geqslant 1, \\alpha_{k} \\in \\mathbb{F}, f_{k} \\in A \\right\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.516,
+            0.351,
+            0.534
+          ],
+          "content": "5. Prove Corollary 2.10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.542,
+            0.35,
+            0.559
+          ],
+          "content": "6. Prove Corollary 2.11."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.579,
+            0.669,
+            0.602
+          ],
+          "level": 2,
+          "content": "§3. The Riesz Representation Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.616,
+            0.871,
+            0.742
+          ],
+          "content": "The title of this section is somewhat ambiguous as there are at least two Riesz Representation Theorems. There is one so-called theorem that represents bounded linear functionals on the space of continuous functions on a compact Hausdorff space. That theorem will be discussed later in this book. The present section deals with the representation of certain linear functionals on Hilbert space. But first we have a few preliminaries to dispose of."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.757,
+            0.868,
+            0.795
+          ],
+          "content": "3.1. Proposition. Let $\\mathcal { H }$ be a Hilbert space and $L \\colon { \\mathcal { H } } \\to \\mathbb { F }$ a linear functional. The following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.805,
+            0.32,
+            0.821
+          ],
+          "content": "(a) L is continuous."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.823,
+            0.365,
+            0.84
+          ],
+          "content": "(b) L is continuous at 0."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.842,
+            0.455,
+            0.858
+          ],
+          "content": "(c) L is continuous at some point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.859,
+            0.812,
+            0.877
+          ],
+          "content": "(d) There is a constant $c   >   0$ such that $| L ( h ) | \\leqslant c \\| h \\|$ for every h in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.886,
+            0.87,
+            0.923
+          ],
+          "content": "PROOF. It is clear that $(a) \\Rightarrow (b) \\Rightarrow (c)$ and $(d) \\Rightarrow (b)$ . Let's show that $(c) \\Rightarrow (a)$ and $( b ) \\Rightarrow ( d )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.057,
+            0.156,
+            0.071
+          ],
+          "content": "12"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.711,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": "I. Hilbert Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.099,
+            0.869,
+            0.155
+          ],
+          "content": "$(c) \\Rightarrow (a)$ Suppose L is continuous at $h _ { 0 }$ and h is any point in $\\mathcal { H }$ If $h _ { n }   \\rightarrow   h$ in $\\mathcal { H }$ , then $h_{n}-h+h_{0}\\rightarrow h_{0}$ . By assumption, $L(h_0) = \\lim_{} \\left[ L(h_n - h + h_0) \\right] =$ lim $\\left[ L ( h _ { n } ) - L ( h ) + L ( h _ { 0 } ) \\right] = \\operatorname* { l i m } L ( h _ { n } ) - L ( h ) + L ( h _ { 0 } )$ .Hence $L(h) = \\lim_{n \\to \\infty} L(h_n)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.154,
+            0.872,
+            0.23
+          ],
+          "content": "(b)⇒(d): The definition of continuity at 0 implies that $L ^ { - 1 } ( \\{ \\alpha { \\in } \\mathbb { F } { : } | \\alpha | < 1 \\} )$ contains an open ball about 0. So there is $\\begin{array} { r l } { \\mathfrak { a } } & { { } \\delta > 0 } \\end{array}$ such that $B ( 0 ; \\delta ) \\subseteq L ^ { - 1 } ( \\{ \\alpha \\in \\mathbb { F } : | \\alpha | < 1 \\} )$ . That is, $\\| h \\| < \\delta$ implies $| L ( h ) | < 1$ . If h is an arbitrary element of $\\mathcal { H }$ and $\\varepsilon   >   0 ,$ , then $\\| \\delta ( \\| h \\| + \\varepsilon ) ^ { - 1 } h \\| < \\delta$ Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.236,
+            0.672,
+            0.281
+          ],
+          "content": "1 > \\left| L \\left[ \\frac{\\delta h}{\\| h \\| + \\varepsilon} \\right] \\right| = \\frac{\\delta}{\\| h \\| + \\varepsilon} \\left| L(h) \\right|;",
+          "image_source": "images/page_26_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.288,
+            0.179,
+            0.306
+          ],
+          "content": "thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.445,
+            0.306,
+            0.641,
+            0.345
+          ],
+          "content": "| L ( h ) | < \\frac { 1 } { \\delta } ( \\| h \\| + \\varepsilon ) .",
+          "image_source": "images/page_26_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.356,
+            0.598,
+            0.375
+          ],
+          "content": "Letting $\\varepsilon   \\to   0$ we see that (d) holds with $c = 1 / \\delta$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.402,
+            0.872,
+            0.475
+          ],
+          "content": "3.2. Definition. A bounded linear functional L on $\\mathcal { H }$ is a linear functional for which there is a constant $c   >   0$ such that $| L ( h ) | \\leqslant c \\| h \\|$ for all h in $\\mathcal { H } .$ In light of the preceding proposition, a linear functional is bounded if and only if it is continuous."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.476,
+            0.654,
+            0.495
+          ],
+          "content": "For a bounded linear functional $L \\colon { \\mathcal { H } } \\to \\mathbb { F } ,$ define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.504,
+            0.638,
+            0.524
+          ],
+          "content": "\\| L \\| = \\sup \\{ | L ( h ) | : \\| h \\| \\leqslant 1 \\}.",
+          "image_source": "images/page_26_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.531,
+            0.749,
+            0.551
+          ],
+          "content": "Note that by definition, $\\| L \\| < \\infty ; \\| L \\|$ is called the norm of L."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.575,
+            0.681,
+            0.594
+          ],
+          "level": 2,
+          "content": "3.3. Proposition. If L is a bounded linear functional, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.602,
+            0.725,
+            0.667
+          ],
+          "content": "\\begin{align*}\\left\\| L \\right\\| = & \\sup \\left\\{ \\left| L(h) \\right| : \\left\\| h \\right\\| = 1 \\right\\} \\\\= & \\sup \\left\\{ \\left| L(h) \\right| / \\left\\| h \\right\\| : h \\in \\mathcal{H},   h \\neq 0 \\right\\} \\\\= & \\inf \\left\\{ c > 0 : \\left| L(h) \\right| \\leqslant c \\left\\| h \\right\\|,   h   in   \\mathcal{H} \\right\\}.\\end{align*}",
+          "image_source": "images/page_26_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.674,
+            0.521,
+            0.694
+          ],
+          "content": "$Also, $| L ( h ) | \\leqslant \\| L \\|$ $\\| h \\|$$ for every h in $\\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.702,
+            0.871,
+            0.814
+          ],
+          "content": "PROOF. Let $\\alpha = \\inf \\left\\{ c > 0 : |L(h)| \\leqslant c \\|h\\| \\right\\}$ , h in $\\mathcal { H } \\}$ . It will be shown that $\\| L \\| = \\alpha ;$ the remaining equalities are left as an exercise. If $\\varepsilon   >   0 .$ then the definition of $\\| L \\|$ shows that $| L ( ( \\| h \\| + \\varepsilon ) ^ { - 1 } h ) | \\leqslant \\| L \\|$ . Hence $| L ( \\boldsymbol { h } ) | \\leqslant \\| L \\| ( \\| \\boldsymbol { h } \\| + \\varepsilon ) .$ Letting $\\varepsilon   \\to   0$ shows that $| L ( h ) | \\leqslant \\| L \\| \\| h \\|$ for all h. So the definition of α shows that $\\alpha \\leqslant \\| L \\|$ . On the other hand, $\\mathrm{if} \\left| L(h) \\right| \\leq c \\left\\| h \\right\\|$ for all h, then $\\| L \\| \\leqslant c .$ Hence $\\| L \\| \\leqslant \\alpha .$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.83,
+            0.871,
+            0.923
+          ],
+          "content": "Fix an $h _ { 0 }$ in $\\mathcal { H }$ and define $L \\colon { \\mathcal { H } } \\to \\mathbb { F }$ by $L ( h ) = \\langle h , h _ { 0 } \\rangle$ . It is easy to see that L is linear. Also, the CBS inequality gives that $| L ( h ) | = | \\langle h , h _ { 0 } \\rangle | \\leqslant$ $\\| \\boldsymbol { h } \\|   \\| \\boldsymbol { h } _ { 0 } \\|$ . So L is bounded and $\\| L \\| \\leqslant \\| \\boldsymbol { h } _ { 0 } \\|$ . In fact, $L ( \\boldsymbol { h } _ { 0 } / \\| \\boldsymbol { h } _ { 0 } \\| ) =$ $\\langle h _ { 0 } / \\| h _ { 0 } \\| , h _ { 0 } \\rangle = \\| h _ { 0 } \\|$ |, so that $\\| \\boldsymbol { L } \\| = \\| \\boldsymbol { h } _ { 0 } \\|$ . The main result of this section provides a converse to these observations."
+        }
+      ]
+    },
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.479,
+            0.072
+          ],
+          "content": "§3. The Riesz Representation Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": "13"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.158
+          ],
+          "content": "3.4. The Riesz Representation Theorem. If $L \\colon { \\mathcal { H } } \\to \\mathbb { F }$ is a bounded linear functional, then there is a unique vector $h _ { 0 }$ in $\\mathcal { H }$ such that $L ( h ) = \\langle h , h _ { 0 } \\rangle$ for every h in $\\mathcal { H }$ . Moreover, $\\|   { \\boldsymbol { L } }   \\| = \\|   { \\boldsymbol { h } } _ { 0 }   \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.165,
+            0.871,
+            0.24
+          ],
+          "content": "PROOF. Let $\\mathcal { M } = \\ker L$ . Because L is continuous M is a closed linear subspace of $\\mathcal { H }$ . Since we may assume that $\\mathcal { M } \\neq \\mathcal { H } , \\mathcal { M } ^ { \\perp } \\neq ( 0 )$ . Hence there is a vector $f _ { 0 }$ in $\\mathcal { M } ^ { \\perp }$ such that $L ( f _ { 0 } ) = i$ . Now if $h \\in \\mathcal { H }$ and $\\alpha = L ( h )$ , then $L(h - \\alpha f_0) = L(h) - \\alpha = 0;$ SO $h - L(h) f_0 \\in \\mathcal{M}$ Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.363,
+            0.247,
+            0.613,
+            0.29
+          ],
+          "content": "\\begin{array} { r l } { 0 = \\langle h - L ( h ) f _ { 0 } , f _ { 0 } \\rangle } & { { } } \\\\ { = \\langle h , f _ { 0 } \\rangle - L ( h ) \\| f _ { 0 } \\| ^ { 2 } . } & { { } } \\end{array}",
+          "image_source": "images/page_27_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.297,
+            0.626,
+            0.317
+          ],
+          "content": "So if $h _ { 0 } = \\| f _ { 0 } \\| ^ { - 2 } f _ { 0 } , L ( h ) = \\langle h , h _ { 0 } \\rangle$ for all h in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.317,
+            0.871,
+            0.373
+          ],
+          "content": "If $h _ { 0 } ^ { \\prime } \\in \\mathcal { H }$ such that $\\langle h , h _ { 0 } \\rangle = \\langle h , h _ { 0 } ^ { \\prime } \\rangle$ for all h, then $h _ { 0 } - h _ { 0 } ^ { \\prime } \\bot \\mathcal { H }$ . In particular, $h _ { 0 } - h _ { 0 } ^ { \\prime } \\bot h _ { 0 } - h _ { 0 } ^ { \\prime }$ and so $h _ { 0 } ^ { \\prime } = h _ { 0 }$ The fact that $\\| \\boldsymbol { L } \\| = \\| \\boldsymbol { h } _ { 0 } \\|$ was shown in the discussion preceding the theorem. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.39,
+            0.871,
+            0.428
+          ],
+          "content": "3.5. Corollary. $I f \\left( X , \\Omega , \\mu \\right)$ is a measure space and F: $L ^ { 2 } ( \\mu )   \\to   \\mathbb { F }$ is a bounded linear functional, then there is a unique $h _ { 0 }$ in $L ^ { 2 } ( \\mu )$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.425,
+            0.435,
+            0.577,
+            0.478
+          ],
+          "content": "F ( h ) = \\int h \\overline { { h _ { 0 } } } d \\mu",
+          "image_source": "images/page_27_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.48,
+            0.322,
+            0.499
+          ],
+          "content": "for every h in $L ^ { 2 } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.518,
+            0.871,
+            0.592
+          ],
+          "content": "Of course the preceding corollary is a special case of the theorem on representing bounded linear functionals on $L ^ { p } ( \\mu ) , 1 \\leqslant p < \\infty$ . But it is interesting to note that it is a consequence of the result for Hilbert space [and the result that $L ^ { 2 } ( \\mu )$ is a Hilbert space]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.13,
+            0.609,
+            0.235,
+            0.625
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.627,
+            0.36,
+            0.643
+          ],
+          "content": "1. Prove Proposition 3.3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.652,
+            0.871,
+            0.687
+          ],
+          "content": "2. Let $\\mathcal { H } = l ^ { 2 } ( \\mathbb { N } )$ . If $N \\geqslant 1$ and $L \\colon { \\mathcal { H } } \\to \\mathbb { F }$ is defined by $L ( \\{ \\alpha _ { n } \\} ) = \\alpha _ { N }$ , find the vector $h _ { 0 }$ in  such that $L ( h ) = \\langle h , h _ { 0 } \\rangle$ for every h in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.694,
+            0.873,
+            0.763
+          ],
+          "content": "3. Let $\\mathcal { H } = l ^ { 2 } ( \\mathbb { N } \\cup \\{ 0 \\} )$ . (a) Show that if $\\{ x _ { n } \\} \\in \\mathcal { H }$ , then the power series $\\sum _ { n = 0 } ^ { \\infty } \\alpha _ { n } z ^ { n }$ has radius of convergence $\\geqslant 1$ (b) $\\mathrm { ~ I f ~ } \\left| \\lambda \\right| < 1$ and $L \\colon \\mathcal { H }   \\to   \\mathbb { F }$ is defined by $L ( \\{ \\alpha _ { n } \\} ) = \\sum _ { n = 0 } ^ { \\infty } \\alpha _ { n } \\lambda ^ { n }$ , find the vector $h _ { 0 }$ in H such that $L ( h ) = \\langle h , h _ { 0 } \\rangle$ for every h in f. (c) What is the norm of the linear functional L defined in (b)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.77,
+            0.87,
+            0.806
+          ],
+          "content": "4. With the notation as in Exercise 3, define L: $\\mathcal { H } \\rightarrow \\mathbb { F }$ by $L(\\{ \\alpha_n \\}) = \\sum_{n = 1}^{\\infty} n \\alpha_n \\lambda^{n - 1}$ where $| \\lambda | < 1$ . Find a vector $h _ { 0 }$ in $\\mathcal { H }$ such that $L ( h ) = \\langle h , h _ { 0 } \\rangle$ for every h in $\\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.813,
+            0.872,
+            0.865
+          ],
+          "content": "5. Let  be the Hilbert space described in Example 1.8. If $0 < t \\leqslant 1$ , define $L \\colon \\mathcal { H } \\to \\mathbb { F }$ by $L ( h ) = h ( t )$ Show that L is a bounded linear functional, find $\\| L \\|$ , and find the vector $h _ { 0 }$ in $\\mathcal { H }$ such that $L ( h ) = \\langle h , h _ { 0 } \\rangle$ for all h in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.872,
+            0.871,
+            0.924
+          ],
+          "content": "6. Let $\\mathcal { H } = L ^ { 2 } ( 0 , 1 )$ and let $C ^ { ( 1 ) }$ be the set of all continuous functions on $[ 0 , 1 ]$ that have a continuous derivative. Let $t   \\in   [ 0 , 1 ]$ and define $L \\colon C ^ { ( 1 ) }   \\to   \\mathbb { F }$ by $L ( h ) = h ^ { \\prime } ( t )$ Show that there is no bounded linear functional on $\\mathcal { H }$ that agrees with L on $C ^ { ( 1 ) }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.056,
+            0.157,
+            0.07
+          ],
+          "content": "14"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.71,
+            0.056,
+            0.869,
+            0.073
+          ],
+          "content": "I. Hilbert Spaces"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.096,
+            0.732,
+            0.12
+          ],
+          "level": 2,
+          "content": "§4. Orthonormal Sets of Vectors and Bases"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.133,
+            0.873,
+            0.226
+          ],
+          "content": "It will be shown in this section that, as in Euclidean space, each Hilbert space can be coordinatized. The vehicle for introducing the coordinates is an orthonormal basis. The corresponding vectors in $\\mathbf { F } ^ { d }$ are the vectors $\\{ e _ { 1 } , e _ { 2 } , \\ldots , e _ { d } \\}$ , where $e _ { k }$ is the d-tuple having a 1 in the kth place and zeros elsewhere."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.241,
+            0.873,
+            0.298
+          ],
+          "content": "4.1. Definition. An orthonormal subset of a Hilbert space $\\mathcal { H }$ is a subset $\\mathcal { E }$ having the properties: (a) for $e$ in $\\delta ,   \\| e \\| = 1 ;$ (b) if $e _ { 1 } ,   e _ { 2 } { \\in } { \\mathcal { O } }$ and $e _ { 1 } \\neq e _ { 2 }$ , then $e _ { 1 } \\bot e _ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.297,
+            0.605,
+            0.316
+          ],
+          "content": "A basis for $\\mathcal { H }$ is a maximal orthonormal set."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.328,
+            0.874,
+            0.421
+          ],
+          "content": "Every vector space has a Hamel basis (a maximal linearly independent set). The term “basis\" for a Hilbert space is defined as above and it relates to the inner product on $\\mathcal { H }$ . For an infinite-dimensional Hilbert space, a basis is never a Hamel basis. This is not obvious, but the reader will be able to see this after understanding several facts about bases."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.432,
+            0.874,
+            0.471
+          ],
+          "content": "4.2. Proposition. $\\iint \\delta$ is an orthonormal set in $\\mathcal { H } ,$ then there is a basis for $\\mathcal { H }$ that contains $\\mathcal { E } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.482,
+            0.871,
+            0.519
+          ],
+          "content": "The proof of this proposition is a straightforward application of Zorn's Lemma and is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.533,
+            0.871,
+            0.59
+          ],
+          "content": "4.3. Example. Let $\\mathcal { H } = L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]$ and for n in $\\mathbf { z }$ define $e _ { n }$ in $\\mathcal { H }$ by $e _ { n } ( t ) = ( 2 \\pi ) ^ { - 1 / 2 }$ exp(int). Then $\\{ e _ { n } ;   n { \\in } \\mathbb { Z } \\}$ is an orthonormal set in $\\mathcal { H }$ (Here $L _ { \\mathbb { C } } ^ { 2 } [ 0 , 2 \\pi ]$ is the space of complex-valued square integrable functions.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.601,
+            0.87,
+            0.639
+          ],
+          "content": "It is also true that the set in (4.3) is a basis, but this is best proved after a bit of theory."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.655,
+            0.869,
+            0.694
+          ],
+          "content": "4.4. Example. If $\\mathcal { H } = \\mathbb { F } ^ { d }$ and for $1 \\leqslant k \\leqslant d, \\; e_{k} =$ the d-tuple with 1 in the kth place and zeros elsewhere, then $\\{ e _ { 1 } , \\ldots , e _ { d } \\}$ is a basis for $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.709,
+            0.87,
+            0.749
+          ],
+          "content": "4.5. Example. Let $\\mathcal { H } = l ^ { 2 } ( I )$ as in Example 1.7. For each i in I define $e _ { i }$ in $\\mathcal { H }$ by $e _ { i } ( i ) = 1$ and $e _ { i } ( j ) = 0$ for $j   \\neq   i .$ Then $\\{ e _ { i } ;   i { \\in } I \\}$ is a basis."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.762,
+            0.87,
+            0.8
+          ],
+          "content": "The proof of the next result is left as an exercise (see Exercise 5). It is very useful but the proof is not difficult."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.817,
+            0.87,
+            0.892
+          ],
+          "content": "4.6. The Gram-Schmidt Orthogonalization Process. If $\\mathcal { H }$ is a Hilbert space and $\\{ h _ { n } ; \\; n { \\in } \\mathbb { N } \\}$ is a linearly independent subset of $\\mathcal { H } ,$ , then there is an orthonormal set $\\{ e _ { n } ; n \\in \\mathbb { N } \\}$ such that for every $n ,$ the linear space of $\\{ e _ { 1 } , \\ldots , e _ { n } \\}$ equals the linear span of $\\{ h _ { 1 } , \\ldots , h _ { n } \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.904,
+            0.793,
+            0.924
+          ],
+          "content": "Remember that $\\nabla A$ is the closed linear span of A (Exercise 2.4)."
+        }
+      ]
+    },
+    {
+      "page_idx": 29,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.127,
+            0.056,
+            0.519,
+            0.074
+          ],
+          "content": "§4. Orthonormal Sets of Vectors and Bases"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.057,
+            0.869,
+            0.072
+          ],
+          "content": "15"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.102,
+            0.871,
+            0.14
+          ],
+          "content": "4.7. Proposition. Let $\\{ e _ { 1 } , \\ldots , e _ { n } \\}$ be an orthonormal set in $\\mathcal { H }$ and let $\\mathcal { M } = \\vee \\left\\{ e _ { 1 } , \\ldots , e _ { n } \\right\\}$ . If P is the orthogonal projection of $\\mathcal { H }$ onto M, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.405,
+            0.149,
+            0.594,
+            0.187
+          ],
+          "content": "P h = \\sum _ { k = 1 } ^ { n } \\langle h , e _ { k } \\rangle e _ { k }",
+          "image_source": "images/page_29_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.197,
+            0.272,
+            0.215
+          ],
+          "content": "for all h in $\\mathcal { H } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.224,
+            0.871,
+            0.318
+          ],
+          "content": "PROOF. Let $\\begin{array} { r } { Q h = \\sum _ { k = 1 } ^ { n } \\left\\langle h , e _ { k } \\right\\rangle e _ { k } . } \\end{array}$ $\\mathbf { I f } \\quad 1 \\leqslant j \\leqslant n ,$ then $\\langle Q h , e _ { j } \\rangle =$ $\\begin{array} { r } { \\sum _ { k = 1 } ^ { n } \\langle h , e _ { k } \\rangle \\langle e _ { k } , e _ { j } \\rangle = \\langle h , e _ { j } \\rangle } \\end{array}$ since $e _ { k } \\bot e _ { j }$ for $k \\neq j .$ Thus $\\langle h - Q h , e _ { j } \\rangle = 0$ for $1 \\leqslant j \\leqslant n .$ That is, $h - \\varrho h \\bot \\mathcal { M }$ for every h in $\\mathcal { H } .$ Since Qh is clearly a vector in $\\mathcal { M } _ { 2 }$ Qh is the unique vector $h _ { 0 }$ in $\\mathcal { M }$ such that $\\boldsymbol { h } - \\boldsymbol { h } _ { 0 } \\perp \\boldsymbol { \\mathcal { M } }$ (2.6). Hence $Q h = P h$ for every h in $\\mathcal { H }$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.334,
+            0.859,
+            0.354
+          ],
+          "content": "4.8. Bessel's Inequality. $\\{ e _ { n } : n \\in \\mathbb { N } \\}$ is an orthonormal set and $h \\in \\mathcal { H }$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.391,
+            0.363,
+            0.608,
+            0.401
+          ],
+          "content": "\\sum_{n = 1}^{\\infty} \\left| \\left\\langle h, e_{n} \\right\\rangle \\right|^{2} \\leqslant \\left\\| h \\right\\|^{2}.",
+          "image_source": "images/page_29_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.41,
+            0.871,
+            0.449
+          ],
+          "content": "PROOF. Let $h_{n}=h-\\sum_{k = 1}^{n}\\left \\langle h,e_{k} \\right \\rangle e_{k}$ . Then $h _ { n } \\perp e _ { k }$ for $1 \\leqslant k \\leqslant n ( \\mathrm { W h y ? } )$ By the Pythagorean Theorem,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.316,
+            0.454,
+            0.639,
+            0.596
+          ],
+          "content": "\\begin{align*}\\|   h   \\|^2 &= \\|   h_n   \\|^2 + \\left\\| \\sum_{k=1}^n \\left\\langle   h, e_k \\right\\rangle e_k \\right\\|^2 \\\\&= \\|   h_n   \\|^2 + \\sum_{k=1}^n | \\left\\langle   h, e_k \\right\\rangle |^2 \\\\&\\geqslant \\sum_{k=1}^n | \\left\\langle   h, e_k \\right\\rangle |^2.\\end{align*}",
+          "image_source": "images/page_29_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.605,
+            0.552,
+            0.625
+          ],
+          "content": "Since n was arbitrary, the result is proved."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.64,
+            0.871,
+            0.678
+          ],
+          "content": "4.9. Corollary. If E is an orthonormal set in $\\mathcal { H }$ and $h \\in \\mathcal { H }$ , then $\\langle h , e \\rangle \\neq 0$ for at most a countable number of vectors e in $\\pmb { \\mathscr { E } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.694,
+            0.871,
+            0.734
+          ],
+          "content": "PROOF. For each $n \\geqslant 1$ let $\\mathcal { E } _ { n } = \\{ e \\in \\mathcal { E } : | \\langle h , e \\rangle | \\geqslant 1 / n \\}$ . By Bessel's Inequality, $\\mathcal { E } _ { n }$ is finite. But $\\begin{array} { r } { \\bigcup _ { n = 1 } ^ { \\infty } \\mathcal { Q } _ { n } = \\{ e \\in \\mathcal { E } : \\langle h , e \\rangle \\neq 0 \\} } \\end{array}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.749,
+            0.699,
+            0.768
+          ],
+          "content": "4.10. Corollary. If E is an orthonormal set and $h \\in \\mathcal { H }$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.775,
+            0.602,
+            0.808
+          ],
+          "content": "\\sum_{e \\in \\mathcal{E}} \\left| \\left\\langle h, e \\right\\rangle \\right|^2 \\leqslant \\left\\| h \\right\\|^2.",
+          "image_source": "images/page_29_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.816,
+            0.873,
+            0.853
+          ],
+          "content": "This last corollary is just Bessel's Inequality together with the fact (4.9) that at most a countable number of the terms in the sum differ from zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.854,
+            0.875,
+            0.927
+          ],
+          "content": "Actually, the sum that appears in (4.10) can be given a better interpretation—a mathematically precise one that will be useful later. The question is, what is meant by $\\scriptstyle \\sum \\{ h _ { i } : i \\in I \\}$ if $h _ { i } \\in \\mathcal { H }$ and I is an infinite, possibly uncountable, set? Let $\\mathcal { F }$ be the collection of all finite subsets of I and order"
+        }
+      ]
+    },
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.129,
+            0.058,
+            0.154,
+            0.072
+          ],
+          "content": "16"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.708,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": "I. Hilbert Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.101,
+            0.821,
+            0.12
+          ],
+          "continues_prev": true,
+          "content": "$\\mathcal { F }$ by inclusion, so $\\mathcal { F }$ becomes a directed set. For each F in $\\mathcal { F }$ , define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41,
+            0.127,
+            0.578,
+            0.148
+          ],
+          "content": "h _ { F }   =   \\Sigma   \\{ h _ { i } ;   i   \\in   F \\} .",
+          "image_source": "images/page_30_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.155,
+            0.866,
+            0.194
+          ],
+          "content": "Since this is a finite sum, $h _ { F }$ is a well-defined element of $\\mathcal { H }$ . Now $\\{ h _ { F } : F \\in \\mathcal { F } \\}$ is a net in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.211,
+            0.871,
+            0.25
+          ],
+          "content": "4.11. Definition. With the notation above, the sum $\\scriptstyle \\sum \\left\\{ h _ { i } : \\; i \\in I \\right\\}$ converges if the net $\\{ h _ { F } : F \\in \\mathcal { F } \\}$ converges; the value of the sum is the limit of the net."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.266,
+            0.871,
+            0.323
+          ],
+          "content": "If $\\mathcal { H } = \\mathbb { F } ,$ the definition above gives meaning to an uncountable sum of scalars. Now Corollary 4.10 can be given its precise meaning; namely, $\\scriptstyle \\sum \\{ | \\langle h , e \\rangle | ^ { 2 } : e \\in { \\mathcal { E } } \\}$ converges and the value $\\leqslant \\| h \\| ^ { 2 }$ (Exercise 9)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.322,
+            0.871,
+            0.454
+          ],
+          "content": "If the set I in Definition 4.11 is countable, then this definition of convergent sum is not the usual one. That is, if $\\{ h _ { n } \\}$ is a sequence in $\\mathcal { H } ,$ then the convergence of $\\sum \\{ h _ { n } : n \\in \\mathbb { N } \\}$ is not equivalent to the convergence of $\\begin{array} { r } { \\sum _ { n = 1 } ^ { \\infty } h _ { n } . } \\end{array}$ The former concept of convergence is that defined in (4.11) while the latter means that the sequence $\\left\\{ \\sum_{k = 1}^{n} h_{k} \\right\\}_{n = 1}^{\\infty}$ converges. Even if $\\mathcal { H } = \\mathbb { F }$ these concepts do not coincide (see Exercise 12). If, however, $\\sum \\{ h _ { n } : n \\in \\mathbb { N } \\}$ converges, then $\\sum _ { n = 1 } ^ { \\infty } h _ { n }$ converges (Exercise 10). Also see Exercise 11."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.469,
+            0.672,
+            0.488
+          ],
+          "level": 2,
+          "content": "4.12. Lemma. If Eis an orthonormal set and $h \\in \\mathcal { H } _ { j }$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.408,
+            0.495,
+            0.586,
+            0.518
+          ],
+          "content": "\\sum \\{ \\langle h, e \\rangle e : e \\in \\mathcal{E} \\}",
+          "image_source": "images/page_30_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.522,
+            0.287,
+            0.54
+          ],
+          "content": "converges in $\\mathcal { H } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.548,
+            0.871,
+            0.639
+          ],
+          "content": "PRoOF. By (4.9), there are vectors $e _ { 1 } , e _ { 2 } , \\ldots$ in $\\mathcal { E }$ such that $\\{ e \\in \\mathcal { G } \\}$ $\\langle h , e \\rangle \\neq 0 \\} = \\{ e _ { 1 } , e _ { 2 } , \\ldots \\}$ . We also know that $\\begin{array} { r } { \\sum _ { n = 1 } ^ { \\infty } | \\langle h , e _ { n } \\rangle | ^ { 2 } \\leqslant \\| h \\| ^ { 2 } < \\infty } \\end{array}$ . So if $\\varepsilon   >   0 .$ , there is an N such that $\\begin{array} { r } { \\sum _ { n = N } ^ { \\infty } | \\langle h , e _ { n } \\rangle | ^ { 2 } < \\varepsilon ^ { 2 } . } \\end{array}$ Let $\\boldsymbol { F } _ { 0 } = \\{ e _ { 1 } , \\ldots , e _ { N - 1 } \\}$ and let $\\mathcal { F } = \\mathfrak { a } \\mathbb { I }$ the finite subsets of $\\mathcal { E } .$ For F in $\\mathcal { F }$ define $h _ { F } \\equiv \\sum \\left\\{ \\left\\langle h , e \\right\\rangle e \\right\\}$ $\\scriptstyle e \\in F \\}$ . If F and $G { \\in } { \\mathcal { F } }$ and both contain $F _ { 0 } ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.278,
+            0.645,
+            0.718,
+            0.741
+          ],
+          "content": "\\begin{aligned}\\| h_{F} - h_{G} \\|^{2} &= \\sum \\{ | \\langle h, e \\rangle |^{2} : e \\in (F \\backslash G) \\cup (G \\backslash F) \\}^{2} \\\\& \\leqslant \\sum_{n = N}^{\\infty} | \\langle h, e_{n} \\rangle |^{2} \\\\& < \\varepsilon^{2}.\\end{aligned}",
+          "image_source": "images/page_30_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.749,
+            0.871,
+            0.789
+          ],
+          "content": "So $\\{ h _ { F } : F \\in { \\mathcal { F } } \\}$ is a Cauchy net in $\\mathcal { H }$ Because $\\mathcal { H }$ is complete, this net converges. In fact, it converges to $\\scriptstyle \\sum _ { n = 1 } ^ { \\infty } \\langle h , e _ { n } \\rangle e _ { n }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.805,
+            0.872,
+            0.841
+          ],
+          "content": "4.13. Theorem. $\\iint \\theta$ is an orthonormal set in $\\mathcal { H } ,$ , then the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.851,
+            0.353,
+            0.868
+          ],
+          "content": "(a) E is a basis for $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.869,
+            0.46,
+            0.887
+          ],
+          "content": "(b) If $h \\in \\mathcal { H }$ and $h \\bot \\ell ,$ then $h = 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.888,
+            0.268,
+            0.904
+          ],
+          "content": "(c) V $\\delta = \\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.905,
+            0.518,
+            0.925
+          ],
+          "content": "(d) $If $h { \\in } { \\mathcal { H } }$$ , then $h = \\sum \\{ \\langle h , e \\rangle e : e \\in \\mathcal { E } \\}$"
+        }
+      ]
+    },
+    {
+      "page_idx": 31,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.519,
+            0.073
+          ],
+          "content": "§4. Orthonormal Sets of Vectors and Bases"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": "17"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.1,
+            0.361,
+            0.119
+          ],
+          "content": "(e) If g and $h \\in \\mathcal { H }$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.127,
+            0.656,
+            0.149
+          ],
+          "content": "\\langle g , h \\rangle = \\sum \\{ \\langle g , e \\rangle \\langle e , h \\rangle : e \\in \\mathcal { E } \\} .",
+          "image_source": "images/page_31_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.155,
+            0.762,
+            0.176
+          ],
+          "content": "(f) If $h \\in \\mathcal { H }$ then $\\| h \\| ^ { 2 } = \\sum \\{ | \\langle h , e \\rangle | ^ { 2 } : e \\in \\mathcal { G } \\}$ (Parseval's Identity)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.182,
+            0.868,
+            0.219
+          ],
+          "content": "PROOF. (a)⇒(b): Suppose $h \\perp \\ell$ and $h \\neq 0 ;$ then $\\mathcal { E } \\cup \\left\\{ \\boldsymbol { h } / \\left\\|   \\boldsymbol { h }   \\right\\| \\right\\}$ is an orthonormal set that properly contains $\\mathcal { E } ,$ contradicting maximality."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.219,
+            0.75,
+            0.238
+          ],
+          "content": "(b)⇔(c): By Corollary 2.11, V $\\theta = \\pi$ if and only if $\\pmb { \\delta } ^ { \\perp } = ( 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.238,
+            0.87,
+            0.33
+          ],
+          "content": "(b)⇒(d): If $h \\in \\mathcal { H }$ , then $f = h - \\sum \\{ \\langle h, e \\rangle e : e \\in \\mathcal{E} \\}$ is a well-defined vector by Lemma 4.12. If $e _ { 1 } \\in \\mathcal { B }$ then $\\langle f , e _ { 1 } \\rangle = \\langle h , e _ { 1 } \\rangle - \\sum \\{ \\langle h , e \\rangle \\langle e , e _ { 1 } \\rangle$ $e \\in \\mathcal { E } \\} = \\langle h , e _ { 1 } \\rangle - \\langle h , e _ { 1 } \\rangle = 0 .$ That is, $f \\in \\theta ^ { \\perp }$ . Hence $f = 0 .$ (Is everything legitimate in that string of equalities? We don't want any illegitimate equalities.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.33,
+            0.637,
+            0.348
+          ],
+          "content": "(d)⇒(e): This is left as an exercise for the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.348,
+            0.627,
+            0.366
+          ],
+          "content": "(e)⇒(f): Since $\\| \\boldsymbol{h} \\|^2 = \\langle \\boldsymbol{h}, \\boldsymbol{h} \\rangle$ , this is immediate."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.367,
+            0.869,
+            0.405
+          ],
+          "content": "(f)⇒(a): If  is not a basis, then there is a unit vector $e _ { 0 } \\left( \\| e _ { 0 } \\| = 1 \\right)$ in $\\mathcal { H }$ such that $e _ { 0 } \\bot \\ell$ . Hence, $0 = \\sum \\{ | \\langle e _ { 0 } , e \\rangle | ^ { 2 } : e \\in \\mathcal { E } \\}$ , contradicting (f)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.421,
+            0.868,
+            0.46
+          ],
+          "content": "Just as in finite dimensional spaces, a basis in Hilbert space can be used to define a concept of dimension. For this purpose the next result is pivotal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.476,
+            0.869,
+            0.514
+          ],
+          "content": "4.14. Proposition. If $\\mathcal { H }$ is a Hilbert space, any two bases have the same cardinality."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.522,
+            0.869,
+            0.616
+          ],
+          "content": "PROOF. Let $\\mathcal { E }$ and $\\mathcal { F }$ be two bases for $\\mathcal { H }$ and put ε = the cardinality of $\\mathcal { E } ,$ $\\eta = \\mathrm { t h e }$ cardinality of $\\mathcal { F }$ . If ε or $\\eta$ is finite, then $\\varepsilon = \\eta$ (Exercise 15). Suppose both ε and $\\eta$ are infinite. For $e$ in $\\mathcal { E } ,$ let $\\mathcal { F } _ { e } \\equiv \\{ f { \\in } \\mathcal { F } { : } \\langle e , f \\rangle \\neq 0 \\} ;$ so $\\mathcal { F } _ { e }$ is countable. By (4.13b), each $f$ in $\\mathcal { F }$ belongs to at least one set $\\mathcal { F } _ { e } , e$ in $\\mathcal { E } ,$ That is, $\\mathcal { F } = \\cup \\left\\{ \\mathcal { F } _ { \\mathfrak { e } } ; e { \\in } \\mathcal { E } \\right\\}$ . Hence $\\eta \\leqslant \\varepsilon \\cdot N_{0} = \\varepsilon$ Similarly, $\\varepsilon \\leqslant \\eta$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.637,
+            0.87,
+            0.674
+          ],
+          "content": "4.15. Definition. The dimension of a Hilbert space is the cardinality of a basis and is denoted by dim $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.69,
+            0.872,
+            0.784
+          ],
+          "content": "If $( X , d )$ is a metric space that is separable and $\\left\\{ B _ { i } = B ( x _ { i } ; \\varepsilon _ { i } ) : i { \\in } I \\right\\}$ is a collection of pairwise disjoint open balls in X, then I must be countable. Indeed, if $D$ is a countable dense subset of $X ,   B _ { i }   \\cap   D \\neq \\Box$ for each i in I. Thus there is a point $x _ { i }$ in $B _ { i } \\cap D$ . So $\\{ x _ { i } ;   i { \\in } I \\}$ is a subset of D having the cardinality of $I ;$ thus I must be countable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.8,
+            0.871,
+            0.839
+          ],
+          "content": "4.16. Proposition. If $\\mathcal { H }$ is an infinite dimensional Hilbert space, then $\\mathcal { H }$ is separable if and only if dim $\\mathcal { H } = \\aleph _ { 0 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.845,
+            0.87,
+            0.924
+          ],
+          "content": "PROOF. Let $\\mathcal { S }$ be a basis for $\\mathcal { H }$ . If $e _ { 1 } , e _ { 2 } { \\in } { \\mathcal { E } }$ , then $\\| e _ { 1 } - e _ { 2 } \\| ^ { 2 } = \\| e _ { 1 } \\| ^ { 2 } +$ $\\| e _ { 2 } \\| ^ { 2 } = 2$ Hence $\\{ B ( e ; 1 / { \\sqrt { 2 } } ) : e { \\in } { \\mathcal { E } } \\}$ is a collection of pairwise disjoint open balls in $\\mathcal { H }$ From the discussion preceding this proposition, the assumption that $\\mathcal { H }$ is separable implies $\\mathcal { E }$ is countable. The converse is an exercise."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 25,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 26,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 27,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 28,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 29,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 30,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 31,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

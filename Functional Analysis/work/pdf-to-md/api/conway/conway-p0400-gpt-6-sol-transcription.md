@@ -1,0 +1,61 @@
+J.W. Calkin [1939]. Abstract symmetric boundary conditions. *Trans. Amer. Math. Soc.*, **45**, 369–442.
+
+S.R. Caradus, W.E. Pfaffenberger, and B. Yood [1974]. *Calkin Algebras and Algebras of Operators of Banach Spaces*. New York: Marcel Dekker.
+
+L. Carleson [1966]. On convergence and growth of partial sums of Fourier series. *Acta. Math.*, **116**, 135–157.
+
+P. Chernoff [1983]. A semibounded closed symmetric operator whose square has trivial domain. *Proc. Amer. Math. Soc.*, **89**, 289–290.
+
+M.D. Choi [1983]. Tricks or treats with the Hilbert matrix. *Amer. Math. Monthly*, **90**, 301–312.
+
+J.A. Clarkson [1936]. Uniformly convex spaces. *Trans. Amer. Math. Soc.*, **40**, 396–414.
+
+J.B. Conway [1978]. *Functions of One Complex Variable*. New York: Springer-Verlag.
+
+J.B. Conway [1981]. *Subnormal Operators*. Boston: Pitman.
+
+J.B. Conway [1985]. Arranging the disposition of the spectrum. *Proc. Royal Irish Acad.* **85A**, 139–142.
+
+R. Courant and D. Hilbert [1953]. *Methods of Mathematical Physics*. New York: Interscience.
+
+A.M. Davie [1973]. The approximation problem for Banach spaces. *Bull. London Math. Soc.*, **5**, 261–266.
+
+A.M. Davie [1975]. The Banach approximation problem. *J. Approx. Theory*, **13**, 392–394.
+
+W.J. Davis, T. Figiel, W.B. Johnson, and A. Pelczynski [1974]. Factoring weakly compact operators. *J. Functional Anal.*, **17**, 311–327.
+
+J. Diestel [1984]. *Sequences and series in Banach spaces*. New York: Springer-Verlag.
+
+J. Dieudonné [1985]. The index of operators in Banach spaces. *Integral Equations and Operator Theory* **8**, 580–589.
+
+W.F. Donoghue [1957]. The lattice of invariant subspaces of a completely continuous quasi-nilpotent transformation. *Pacific J. Math.*, **7**, 1031–1035.
+
+R.G. Douglas [1969]. On the operator equation $S^*XT=X$ and related topics. *Acta. Sci. Math. (Szeged)*, **30**, 19–32.
+
+J. Dugundji [1966]. *Topology*. Boston: Allyn and Bacon.
+
+N. Dunford and J. Schwartz [1958]. *Linear Operators. I.* New York: Interscience.
+
+N. Dunford and J. Schwartz [1963]. *Linear Operators. II.* New York: Interscience.
+
+J. Dyer, E. Pedersen, and P. Porcelli [1972]. An equivalent formulation of the invariant subspace conjecture. *Bull. Amer. Math. Soc.*, **78**, 1020–1023.
+
+H. Dym and H.P. Mckean [1972]. *Fourier Series and Integrals*. New York and London: Academic Press.
+
+D.A. Edwards [1961]. On translates of $L^\infty$-functions. *J. London Math. Soc.* **36**, 431–432.
+
+D.A. Edwards [1986]. A short proof of a theorem of Machado. *Math. Proc. Camb. Phil. Soc.* **99**, 111–114.
+
+P. Enflo [1973]. A counterexample to the approximation problem in Banach spaces. *Acta. Math.*, **130**, 309–317.
+
+P. Enflo [1987]. On the invariant subspace problem for Banach spaces. *Acta. Math.* **158**, 213–313.
+
+J. Ernest [1976]. Charting the operator terrain. *Memoirs Amer. Math. Soc.*, Vol. 71.
+
+P.A. Fillmore, J.G. Stampfli, and J.P. Williams [1972]. On the essential numerical range, the essential spectrum, and a problem of Halmos. *Acta Sci. Math. (Szeged)*, **33**, 179–192.
+
+B. Fuglede [1950]. A commutativity theorem for normal operators. *Proc. Nat. Acad. Sci.*, **36**, 35–40.
+
+T.W. Gamelin [1969]. *Uniform Algebras*. Englewood Cliffs: Prentice-Hall.
+
+L. Gillman and M. Jerison [1960]. *Rings of Continuous Functions*. Princeton: Van Nostrand. Reprinted by Springer-Verlag, New York.

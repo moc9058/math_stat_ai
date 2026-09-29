@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 219,
+  "model": "gpt-6-astra",
+  "seconds": 10.22,
+  "input_tokens": 3431,
+  "output_tokens": 267,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"$F_j\\\\subseteq G_j$, $j=1,2$\",\n      \"correction\": \"$F_j\\\\subset G_j$, $j=1,2$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

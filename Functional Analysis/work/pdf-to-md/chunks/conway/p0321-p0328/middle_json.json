@@ -1,0 +1,5055 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 320,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 321,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 322,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 323,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 324,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 325,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 326,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 327,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 320,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.057,
+            0.166,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "306"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.631,
+            0.056,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.101,
+            0.868,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.9. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 } , e _ { 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . be an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 0 } , \\alpha _ { 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " be complex numbers. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } = \\left\\{ h \\in \\mathcal { H } : \\sum _ { 0 } ^ { \\infty } | \\alpha _ { n } \\langle h , e _ { n } \\rangle | ^ { 2 } < \\infty \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { A h = \\sum _ { 0 } ^ { \\infty } \\alpha _ { n } \\langle h , e _ { n } \\rangle e _ { n } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for h in D. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { C } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " with dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } = \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { A ^ { * } h = \\sum _ { 0 } ^ { \\infty } \\bar { \\alpha } _ { n } \\langle h , e _ { n } \\rangle e _ { n } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.192,
+            0.873,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.10. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon X   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " be an Ω-measurable function. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } = \\{ f { \\in } L ^ { 2 } ( \\mu ) ; \\phi f { \\in } L ^ { 2 } ( \\mu ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A f = \\phi f"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { C } ( L ^ { 2 } ( \\mu ) )"
+            },
+            {
+              "type": "text",
+              "content": " , dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } = \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } { \\dot { f } } = { \\bar { \\phi } } f"
+            },
+            {
+              "type": "text",
+              "content": " for f in D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.123,
+            0.265,
+            0.869,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.11. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } = \\mathfrak { a } \\mathbb { I }"
+            },
+            {
+              "type": "text",
+              "content": " functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon [ 0 , 1 ]   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " that are absolutely continuous with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } { \\in } L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " and such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(0)=f(1)=0.\\ \\mathcal{D}"
+            },
+            {
+              "type": "text",
+              "content": " includes all polynomials p with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( 0 ) = p ( 1 ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " So the uniform closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f { \\in } C [ 0 , 1 ] : f ( 0 ) = f ( 1 ) = 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus  is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\colon L ^ { 2 } ( 0 , 1 ) \\to"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A f   =   i f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " for f in D. To see that A is closed, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\} \\leq \\emptyset"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } \\oplus i f _ { n } ^ { \\prime } \\to f \\oplus g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\dot { L ^ { 2 } } } \\oplus L ^ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(x) = - i \\int_{0}^{x} g(t)   dt;"
+            },
+            {
+              "type": "text",
+              "content": " so h is absolutely continuous. Now using the Cauchy-Schwarz inequality we get that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| f _ { n } ( x ) - h ( x ) \\right| = \\left| \\int _ { 0 } ^ { x } \\left[ f _ { n } ^ { \\prime } ( t ) + i g ( t ) \\right] d t \\right| \\leqslant \\left\\| f _ { n } ^ { \\prime } + i g \\right\\| _ { 2 } = \\left\\| i f _ { n } ^ { \\prime } - g \\right\\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( x )   \\rightarrow"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( x )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n }   \\rightarrow   f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 ) , f ( x ) = h ( x ) \\mathrm { a . e . }"
+            },
+            {
+              "type": "text",
+              "content": " So we may assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) = - i \\int_{0}^{x} g(t)   dt"
+            },
+            {
+              "type": "text",
+              "content": " for all x. Therefore f is absolutely continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( x )   \\to   f ( x )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , 1 ] ;"
+            },
+            {
+              "type": "text",
+              "content": " thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(0)=f(1)=0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } = - i g \\in"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\oplus g = f \\oplus g = f \\oplus if' \\in \\mathrm{grad} A;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { C } ( L ^ { 2 } ( 0 , 1 ) )"
+            },
+            {
+              "type": "text",
+              "content": " Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f ^ { \\prime } : f \\in \\mathcal { D } \\} = \\{ h \\in L ^ { 2 } ( 0 , 1 ) : \\int _ { 0 } ^ { 1 } h ( x ) d x = 0 \\} = [ 1 ] ^ { \\perp } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.524,
+            0.867,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Claim. dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } = \\{ g \\colon g"
+            },
+            {
+              "type": "text",
+              "content": " is absolutely continuous on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , 1 ] ,   g ^ { \\prime }   \\in   L ^ { 2 } ( 0 , 1 ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " and for g in dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } , \\; A ^ { * } g = i g ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.123,
+            0.578,
+            0.868,
+            0.692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, suppose gedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = A ^ { * } g"
+            },
+            {
+              "type": "text",
+              "content": " Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H(x) = \\int_{0}^{x} h(t)   dt"
+            },
+            {
+              "type": "text",
+              "content": " Using integration by parts, for every f in D, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\int_{0}^{1} f^{\\prime} \\bar{g} = \\langle A f, g \\rangle = \\langle \\bar{f}, h \\rangle = \\int_{0}^{1} f \\bar{h} ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int_{0}^{1} f(x)   d\\bar{H}(x) = - \\int_{0}^{1} f'(x) \\bar{H}(x)   dx;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f ^ { \\prime } , - i g \\rangle = \\langle f ^ { \\prime } , - H \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all f in D. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H - i g \\in \\{ \\tilde { f } ^ { \\prime } : f \\in \\mathcal { D } \\} ^ { \\perp } = [ 1 ] ^ { \\perp \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " ; hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H - i g = c ,"
+            },
+            {
+              "type": "text",
+              "content": " a constant function. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = i c - i H"
+            },
+            {
+              "type": "text",
+              "content": " so that g is absolutely continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { \\prime } = - i h \\in L ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Also note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } g = h = i g ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . The proof of the other inclusion is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.707,
+            0.867,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.12. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { E } = \\{ f \\in L ^ { 2 } ( 0 , 1 ) :"
+            },
+            {
+              "type": "text",
+              "content": " f is absolutely continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } { \\in } L ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(0) = f(1)"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B f = i f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " for f in E. As in (1.11), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B   \\in   \\mathcal { C } ( L ^ { 2 } ( 0 , 1 ) )"
+            },
+            {
+              "type": "text",
+              "content": " and ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = [ 1 ] ^ { \\perp }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.781,
+            0.563,
+            0.801
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Claim. dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { * } = 6"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { * } g = i g ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " for g in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ell ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.818,
+            0.867,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let gedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = B ^ { * } g"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H(x) = \\int_{0}^{x} h(t)   dt."
+            },
+            {
+              "type": "text",
+              "content": " As in (1.11), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( 0 ) = H ( 1 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and for every f in , "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\int_{0}^{1} f^{\\prime} \\bar{g} = - \\int_{0}^{1} f^{\\prime} \\bar{H}."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { 0 } ^ { 1 } ( i f ^ { \\prime } \\overline { { { g } } } + f ^ { \\prime } \\overline { { { H } } } ) = \\int _ { 0 } ^ { 1 } i f ^ { \\prime } ( \\overline { { { g + i H } } } )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g + i H \\perp \\operatorname { r a n } B"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g + i H = c ,"
+            },
+            {
+              "type": "text",
+              "content": " a constant function. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = c - i H"
+            },
+            {
+              "type": "text",
+              "content": " is absolutely continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { \\prime } = - i h \\in L ^ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( 0 ) = g ( 1 ) = c"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\theta"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { * } g = h = i g ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . The proof of the other inclusion is left to the reader."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 321,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.125,
+            0.056,
+            0.44,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Basic Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.831,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "307"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.122,
+            0.1,
+            0.868,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding two examples illustrate the fact that the calculation of the adjoint depends on the domain of the operator, not just the formal definition of the operator. Note the fact that the next result generalizes (II.2.19)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.173,
+            0.664,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.13. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f A : { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is densely defined, then"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.403,
+            0.2,
+            0.586,
+            0.219
+          ],
+          "image_path": "images/page_321_equation_4.jpg",
+          "content": "( \\operatorname { r a n } A ) ^ { \\perp } = \\ker A ^ { * } ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.226,
+            0.36,
+            0.245
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A is also closed, then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.404,
+            0.244,
+            0.586,
+            0.264
+          ],
+          "image_path": "images/page_321_equation_6.jpg",
+          "content": "( \\operatorname{rank} A^{*} )^{\\perp} = \\operatorname{ker} A."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.272,
+            0.867,
+            0.329
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. If h ⊥ ran A, then for every f in dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A,0 = \\langle A f, h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Hence hedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}h = 0"
+            },
+            {
+              "type": "text",
+              "content": " . The other inclusion is clear. By Corollary 1.8, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { C } ( \\mathcal { H } , \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = A"
+            },
+            {
+              "type": "text",
+              "content": " .So the second equality follows from the first. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.345,
+            0.867,
+            0.384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.14. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear operator, A is boundedly invertible if there is a bounded linear operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : \\mathcal { H } \\to \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B A \\subseteq 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.4,
+            0.869,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B A \\subseteq 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B A"
+            },
+            {
+              "type": "text",
+              "content": " is bounded on its domain. Call B a (bounded) inverse of A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.456,
+            0.658,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.15. Proposition. Let A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be a linear operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.482,
+            0.868,
+            0.52
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is boundedly invertible if and only if ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " , ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , and the graph of A is closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.519,
+            0.834,
+            0.539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If A is boundedly invertible, its inverse is unique and denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.546,
+            0.871,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. (a) Let B be a bounded inverse of A. So dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B A \\subseteq 1"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( 0 ) ;"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B = 1"
+            },
+            {
+              "type": "text",
+              "content": " , ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\{ h \\oplus A h \\}"
+            },
+            {
+              "type": "text",
+              "content": " hedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\} ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ B k \\oplus k \\colon k { \\in } { \\mathcal { H } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Since B is bounded, gra A is closed. Conversely, if A has the stated properties, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B k = A ^ { - 1 } k"
+            },
+            {
+              "type": "text",
+              "content": " for k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a well-defined operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Because gra A is closed, gra B is closed. By the Closed Graph Theorem, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.153,
+            0.657,
+            0.379,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) This is an exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.693,
+            0.872,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.16. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear operator, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A ) ,"
+            },
+            {
+              "type": "text",
+              "content": " the resolvent set for A, is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A ) = \\{ \\lambda \\in \\pmb { \\mathbb { C } } : \\lambda - A"
+            },
+            {
+              "type": "text",
+              "content": " is boundedly invertible}. The spectrum of A is the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(A)=\\mathbf{C}\\backslash\\rho(A);"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.764,
+            0.875,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that if A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " gra A is closed if and only if gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is closed. So if A does not have closed graph, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(A) = \\mathbf{C}"
+            },
+            {
+              "type": "text",
+              "content": " . Even if A has closed graph, it is possible that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is empty (see Exercise 10). The spectrum of an unbounded operator, however, does enjoy some of the properties possessed by the spectrum of an element of a Banach algebra. The proof of the next result is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.129,
+            0.894,
+            0.875,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.17. Proposition. If A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear operator, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is closed and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z { \\mapsto } ( z - A ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is an analytic function on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 322,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "308"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.633,
+            0.056,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if A is defined as in Example 1.9, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = \\mathrm { c l } \\left\\{ \\alpha _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence it is possible for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " to equal any closed subset of C."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.155,
+            0.44,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.18. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { C } ( \\mathcal { H } )"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.183,
+            0.735,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\rho ( A )"
+            },
+            {
+              "type": "text",
+              "content": " if and only if ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A - \\lambda) = (0)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{rank}(A - \\lambda) = \\mathcal{H}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.201,
+            0.807,
+            0.22
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ^ { * } ) = \\{ \\bar { \\lambda } : \\lambda \\in \\sigma ( A ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " and for λ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A ) , ( A - \\lambda ) ^ { * } = [ ( A - \\lambda ) ^ { - 1 } ] ^ { * } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.23,
+            0.296,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.267,
+            0.233,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.138,
+            0.285,
+            0.856,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If A, B, and AB are densely defined linear operators, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A B ) ^ { * } \\supseteq B ^ { * } A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.137,
+            0.311,
+            0.5,
+            0.329
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Verify the statements in Example 1.9"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.138,
+            0.337,
+            0.509,
+            0.355
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Verify the statements in Example 1.10."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.136,
+            0.364,
+            0.723,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Define an unbounded weighted shift and determine its adjoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.137,
+            0.39,
+            0.51,
+            0.407
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Verify the statements in Example 1.11."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.136,
+            0.415,
+            0.871,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is infinite dimensional, show that there is a linear operator A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that gra A is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . What does this say about dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ?"
+            },
+            {
+              "type": "text",
+              "content": " (See Lindsay [1984].)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.138,
+            0.474,
+            0.87,
+            0.51
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let  be the set of absolutely continuous functions f such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } { \\in } L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D f = f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " for f in D and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Af)(x) = xf(x)"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " .Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "DA - AD \\subseteq 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.137,
+            0.518,
+            0.871,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach algebra with identity, show that there are no elements "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ab - ba = 1"
+            },
+            {
+              "type": "text",
+              "content": " . (Hint: compute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{n}b - ba^{n}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.136,
+            0.56,
+            0.378,
+            0.576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Prove Proposition 1.18."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.129,
+            0.585,
+            0.871,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Define A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mathbb { R } ) \\to L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Af)(x) = \\exp(-x^2)f(x-1)"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " (a) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( L ^ { 2 } ( \\mathbb { R } ) )"
+            },
+            {
+              "type": "text",
+              "content": " . (b) Find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A ^ { n } \\|"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r(A)=0"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . (c) Show that A is injective. (d) Find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and show that ran A is dense. (e) Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " with dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\tan A"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B   \\in   \\mathcal { C } ( L ^ { 2 } ( \\mathbb { R } ) )"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( B ) = \\square"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.66,
+            0.872,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { C } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A\\in\\mathcal{C}(\\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-1 \\notin \\sigma(A^{*}A)"
+            },
+            {
+              "type": "text",
+              "content": " and that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\left( 1 + A^{*} A \\right)^{-1}, \\quad \\| B \\| \\leqslant 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.702,
+            0.871,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. If B is the bounded operator obtained in Exercise 11, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = A B"
+            },
+            {
+              "type": "text",
+              "content": " is also bounded and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| C \\| \\leqslant 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.128,
+            0.745,
+            0.836,
+            0.763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. If A is a self-adjoint operator, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\rho ( A )"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is surjective."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 21,
+          "bbox": [
+            0.123,
+            0.808,
+            0.715,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Symmetric and Self-Adjoint Operators"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.123,
+            0.85,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An appropriate introduction to this section consists in a careful examination of Examples 1.11 and 1.12 in the preceding section. In (1.11) we saw that the operator A seemed to be inclined to be self-adjoint, but dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " was different from dom A so we could not truly say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . In (1.12), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = B ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in any"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 323,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.056,
+            0.51,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Symmetric and Self-Adjoint Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "309"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "sense of the concept of equality. This points out the distinction between symmetric and self-adjoint operators that it is necessary to make in the theory of unbounded operators."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.173,
+            0.871,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1. Definition. An operator A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is symmetric if A is densely defined and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A f , g \\rangle = \\langle f , A g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in dom A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.228,
+            0.691,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the next proposition is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.265,
+            0.87,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2. Proposition. If A is densely defined, the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.312,
+            0.317,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is symmetric."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.33,
+            0.473,
+            0.349
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A f , f \\rangle   \\in   \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " for all f in dom A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13,
+            0.349,
+            0.246,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { A } } } \\subseteq A ^ { * } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.385,
+            0.871,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A is symmetric, then the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " implies dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is dense. Hence A is closable by Proposition 1.6. Symmetric operators can behave cantankerously. For example, there is an example of a closed symmetric operator T such that dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T ^ { 2 } ) = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . See Chernoff [1983]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.459,
+            0.87,
+            0.496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to check that the operators in Examples 1.11 and 1.12 are symmetric."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.518,
+            0.871,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.3. Definition. A densely defined operator A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is self-adjoint if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.573,
+            0.871,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us emphasize that the condition that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in the preceding definition carries with it the requirement that dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathrm{dom} A^{*}"
+            },
+            {
+              "type": "text",
+              "content": " . Now clearly every self-adjoint operator is symmetric, but the operator A in Example 1.11 shows that there are symmetric operators that are not self-adjoint. If, however, an operator is bounded, then it is self-adjoint if and only if it is symmetric. The operator B in Example 1.12 is an unbounded self-adjoint operator and Examples 1.9 and 1.10 can be used to furnish additional examples of unbounded self-adjoint operators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.718,
+            0.87,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that Proposition 1.6 implies that a self-adjoint operator is necessarily closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.777,
+            0.698,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.4. Proposition. Suppose A is a symmetric operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.804,
+            0.522,
+            0.822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If ran A is dense, then A is injective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.822,
+            0.859,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If A = A^*"
+            },
+            {
+              "type": "text",
+              "content": " and A is injective, then ran A is dense and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is self-adjoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.127,
+            0.841,
+            0.623,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and A is bounded."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.126,
+            0.859,
+            0.6,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) If ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{-1} \\in \\mathcal{B}(\\mathcal{H})"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.125,
+            0.887,
+            0.87,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. The proof of (a) is trivial and (b) is an easy consequence of (1.13) and some manipulation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 324,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.057,
+            0.168,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "310"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.632,
+            0.056,
+            0.869,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.868,
+            0.136
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) We have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . If dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and so A is closed. By the Closed Graph Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.137,
+            0.869,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) If ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then A is injective by (a). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " with dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ="
+            },
+            {
+              "type": "text",
+              "content": " ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = A g"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = A k"
+            },
+            {
+              "type": "text",
+              "content": " , with g, k in dom A, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle B f , h \\rangle = \\langle g , A k \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A g , k \\rangle = \\langle f , k \\rangle = \\langle f , B h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Hence B is symmetric. By (c), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = B ^ { * } \\in { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " By (b), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is self-adjoint. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.229,
+            0.874,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now will turn our attention to the spectral properties of symmetric and self-adjoint operators. In particular, it will be seen that symmetric operators can have nonreal numbers in their spectra, though the nature of the spectrum can be completely diagnosed (2.8). Self-adjoint operators, however, must have real spectra. The next result begins this spectral discussion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.363,
+            0.873,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.5. Proposition. Let A be a symmetric operator and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = \\alpha + i \\beta ,"
+            },
+            {
+              "type": "text",
+              "content": " α and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta"
+            },
+            {
+              "type": "text",
+              "content": " real numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.408,
+            0.747,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) For each f in dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , \\left\\| ( A - \\lambda ) f \\right\\| ^ { 2 } = \\left\\| ( A - \\alpha ) f \\right\\| ^ { 2 } + \\beta ^ { 2 } \\left\\| f \\right\\| ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.428,
+            0.413,
+            0.446
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A - \\lambda) = (0)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.446,
+            0.605,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If A is closed and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.474,
+            0.307,
+            0.492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Note that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.197,
+            0.5,
+            0.796,
+            0.544
+          ],
+          "image_path": "images/page_324_equation_10.jpg",
+          "content": "\\begin{align*}\\| (A - \\lambda) f \\|^2 &= \\| (A - \\alpha) f - i \\beta f \\|^2 \\\\&= \\| (A - \\alpha) f \\|^2 + 2 \\operatorname{Re} i \\langle (A - \\alpha) f, \\beta f \\rangle + \\beta^2 \\| f \\|^2.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.551,
+            0.172,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.292,
+            0.577,
+            0.706,
+            0.597
+          ],
+          "image_path": "images/page_324_equation_12.jpg",
+          "content": "\\langle ( A - \\alpha ) f , \\beta f \\rangle = \\beta \\langle A f , f \\rangle - \\alpha \\beta \\| f \\| ^ { 2 } \\in \\mathbb { R } ,"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.605,
+            0.872,
+            0.697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so (a) follows. Part (b) is immediate from (a). To prove (c), note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| ( A - \\lambda ) f \\| ^ { 2 } \\geqslant \\beta ^ { 2 } \\| f \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\} \\subseteq \\operatorname { d o m } A"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A - \\lambda)f_n \\to g."
+            },
+            {
+              "type": "text",
+              "content": " The preceding inequality implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a Cauchy sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ;"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = \\lim_{n \\to \\infty} f_n"
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{n} \\oplus (A - \\lambda) f_{n} \\in \\mathrm{grad} (A - \\lambda)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } \\oplus ( A - \\lambda ) f _ { n } \\to f \\oplus g"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\oplus g \\in \\operatorname{grad}(A - \\lambda)"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = (A - \\lambda)f \\in \\mathrm{ran}(A - \\lambda)"
+            },
+            {
+              "type": "text",
+              "content": " . This proves (c)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.123,
+            0.717,
+            0.871,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.6. Lemma. If M, N are closed subspaces of H and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\cap \\mathcal { N } ^ { \\perp } = ( 0 ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\dim \\mathcal { N }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.764,
+            0.871,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProOF. Let P be the orthogonal projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { M } } \\to { \\mathcal { N } }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T f = P f"
+            },
+            {
+              "type": "text",
+              "content": " for f in M. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\cap \\mathcal { N } ^ { \\perp }   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " , T is injective. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " is a finite dimensional subspace of M, dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } = \\dim T \\mathcal { L } \\leqslant \\dim \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " was arbitrary, dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\dim \\mathcal { N }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.86,
+            0.871,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.7. Theorem. If A is a closed symmetric operator, then dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is constant for Im "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and constant for Im "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   <   0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.905,
+            0.673,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = \\alpha + i \\beta ,"
+            },
+            {
+              "type": "text",
+              "content": " α and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta"
+            },
+            {
+              "type": "text",
+              "content": " real numbers and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta \\neq 0 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 325,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.509,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Symmetric and Self-Adjoint Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.057,
+            0.869,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "311"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.693,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Claim. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\lambda - \\mu \\right| < \\left| \\beta \\right|, \\ker(A^* - \\mu) \\cap \\left[ \\ker(A^* - \\lambda) \\right]^\\perp = (0)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.137,
+            0.868,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose this is not so. Then there is an f in ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - \\mu ) \\cap [ \\ker ( A ^ { * } - \\lambda ) ] ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " . By (2.5c), ran(A − λ) is closed. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in [ \\ker ( A ^ { * } - \\lambda ) ] ^ { \\perp } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { \\mathbf { r a n } } ( A - { \\overline { { \\lambda } } } )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathbf { d o m } A"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = ( A - \\overline { { \\lambda } } ) g"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } \\ker ( A ^ { * } - \\mu )"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.328,
+            0.201,
+            0.667,
+            0.267
+          ],
+          "image_path": "images/page_325_equation_4.jpg",
+          "content": "\\begin{align*}0 &= \\langle (A^* - \\mu)f, g \\rangle = \\langle f, (A - \\bar{\\mu})g \\rangle \\\\&= \\langle f, (A - \\bar{\\lambda} + \\bar{\\lambda} - \\bar{\\mu})g \\rangle \\\\&= \\|f\\|^2 + (\\lambda - \\mu)\\langle f, g \\rangle.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.274,
+            0.869,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = \\| f \\| ^ { 2 } = | \\lambda - \\mu | | \\langle f , g \\rangle | \\leqslant | \\lambda - \\mu | \\| g \\|"
+            },
+            {
+              "type": "text",
+              "content": " . But (2.5a) implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = \\| f \\| = \\| ( A - \\bar { \\lambda } ) g \\| \\geqslant | \\beta |   \\| g \\| ;"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| g \\| \\leqslant | \\beta | ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant \\left| \\lambda - \\mu \\right| \\left\\| g \\right\\| \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda - \\mu | | \\beta | ^ { - 1 } < 1 \\text { if } | \\lambda - \\mu | < | \\beta |"
+            },
+            {
+              "type": "text",
+              "content": " . This contradiction establishes the claim."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.331,
+            0.871,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Combining the claim with Lemma 2.6 gives that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - \\mu ) \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda - \\mu | < | \\beta | = | \\mathrm{Im} \\lambda |"
+            },
+            {
+              "type": "text",
+              "content": " Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda - \\mu | < \\frac { 1 } { 2 } | \\beta |"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda - \\mu | < | \\operatorname { I m } \\mu | ,"
+            },
+            {
+              "type": "text",
+              "content": " , so that the other inequality also holds. This shows that the function λ→dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is locally constant on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " . A simple topological argument demonstrates the theorem. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.445,
+            0.874,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.8. Theorem. If A is a closed symmetric operator, then one and only one of the following possibilities occurs:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13,
+            0.492,
+            0.265,
+            0.51
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = \\mathbb { C } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13,
+            0.511,
+            0.405,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = \\{ \\lambda \\in \\mathbb { C } : \\mathrm { I m } \\lambda \\geqslant 0 \\} ;"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.166,
+            0.529,
+            0.4,
+            0.547
+          ],
+          "image_path": "images/page_325_equation_10.jpg",
+          "content": "\\sigma ( A ) = \\{ \\lambda \\in \\mathbb { C } : \\mathrm { I m } \\lambda \\leqslant 0 \\} ;"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.131,
+            0.548,
+            0.268,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) \\subseteq \\mathbb { R } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.574,
+            0.872,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\pm } = \\left\\{ \\lambda { \\in } \\pm \\mathbf { \\mathbb { C } } { : } \\pm \\operatorname { I m } \\lambda > 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . By (2.5) for λ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\pm } , A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is injective and has closed range. So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is surjective, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\rho ( A )"
+            },
+            {
+              "type": "text",
+              "content": " . But [ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda ) ] ^ { \\perp } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ker ( A ^ { * } - { \\overline { { \\lambda } } } )"
+            },
+            {
+              "type": "text",
+              "content": " . So the preceding theorem implies that either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\pm } \\subset \\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\pm } \\cap \\sigma ( A ) = \\square"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is closed, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\pm } \\subseteq \\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , then either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = \\mathrm { c l } H _ { \\pm } . \\mathrm { I f } H _ { \\pm } \\cap \\sigma ( A ) = \\square , \\sigma ( A ) \\subseteq \\mathbb { R }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.687,
+            0.873,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.9. Corollary. If A is a closed symmetric operator, the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.131,
+            0.733,
+            0.329,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is self-adjoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.131,
+            0.751,
+            0.267,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) \\subseteq \\mathbb { R } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.133,
+            0.77,
+            0.467,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ker ( A ^ { * } - i ) = \\ker ( A ^ { * } + i ) = 0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.13,
+            0.796,
+            0.876,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. If A is symmetric, every eigenvalue of A is real (Exercise 1). So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and Im "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\ne 0,\\ker(A^* - \\lambda) = \\ker(A - \\lambda) = 0"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is injective and has dense range. By (2.5), A – λ has closed range and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " has a bounded inverse (1.15) whenever Im "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) \\subseteq \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " and so (a) implies (b)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.159,
+            0.889,
+            0.862,
+            0.907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) \\subseteq \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " , ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A^{*} \\pm i) = [\\mathrm{ran}(A \\mp i)]^{\\perp} = \\mathcal{H}^{\\perp} = (0)"
+            },
+            {
+              "type": "text",
+              "content": " .Hence (b) implies (c)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.159,
+            0.907,
+            0.874,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If (c) holds, then this, combined with (2.5c) and (1.13), implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + i"
+            },
+            {
+              "type": "text",
+              "content": " is"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 326,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "312"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.633,
+            0.055,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.87,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "surjective. Let hedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ,"
+            },
+            {
+              "type": "text",
+              "content": " Then there is an f in dom A such tha "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathsf { t } ( A + i ) f ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } + i ) h"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } + i \\supseteq A + i ,"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } + i ) f = ( A ^ { * } + i ) h ."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } + i"
+            },
+            {
+              "type": "text",
+              "content": " is injective, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = f \\in \\mathrm{dom} A"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.172,
+            0.871,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.10. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f A"
+            },
+            {
+              "type": "text",
+              "content": " is a closed symmetric operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " does not contain R, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.228,
+            0.872,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It may have occurred to the reader that a symmetric operator A fails to be self-adjoint because its domain is too small and that this can be rectified by merely increasing the size of the domain. Indeed, if A is the symmetric operator in Example 1.11, then the operator B of Example 1.12 is a self-adjoint extension of A. However, the general situation is not always so cooperative."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.338,
+            0.872,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fix a symmetric operator A and suppose B is a symmetric extension of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A { \\mathrel { \\mathop : } } A \\subseteq B ."
+            },
+            {
+              "type": "text",
+              "content": " It is easy to verify that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { * } \\subseteq A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq B ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq B \\subseteq B ^ { * } \\subseteq A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus every symmetric extension of A is a restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.412,
+            0.871,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.11. Proposition. (a) A symmetric operator has a maximal symmetric extension. (b) Maximal symmetric extensions are closed. (c) A self-adjoint operator is a maximal symmetric operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.476,
+            0.871,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Part (a) is an easy application of Zorn's Lemma. If A is symmetric, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and so A is closable. The closure of a symmetric operator is symmetric (Exercise 3), so part (b) is immediate. Part (c) is a consequence of the comments preceding this proposition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.567,
+            0.87,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.12. Definition. Let A be a closed symmetric operator. The deficiency subspaces of A are the spaces"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.325,
+            0.612,
+            0.671,
+            0.655
+          ],
+          "image_path": "images/page_326_equation_9.jpg",
+          "content": "\\begin{aligned}\\mathcal{L}_{+} &= \\ker(A^{*} - i) = [\\operatorname{ran}(A + i)]^{\\perp}, \\\\\\mathcal{L}_{-} &= \\ker(A^{*} + i) = [\\operatorname{ran}(A - i)]^{\\perp}.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.662,
+            0.704,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The deficiency indices of A are the numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n _ { \\pm } = \\dim { \\mathcal { L } } _ { \\pm }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.699,
+            0.857,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is possible for any pair of deficiency indices to occur (see Exercise 6). 1t is possioie ior any pair oí aenciency inaices to occur (see Exercise o)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.707,
+            0.868,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In order to study the closed symmetric extensions of a symmetric operator we also introduce the spaces"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.359,
+            0.762,
+            0.631,
+            0.806
+          ],
+          "image_path": "images/page_326_equation_13.jpg",
+          "content": "\\begin{array} { r l } & { \\mathcal { K } _ { + } = \\{ f   \\oplus   i f \\colon f   \\in   \\mathcal { L } _ { + } \\} , } \\\\ & { \\mathcal { K } _ { - } = \\{ g   \\oplus   ( - i g ) \\colon g   \\in   \\mathcal { L } _ { - } \\} . } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.813,
+            0.87,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { \\pm } \\leqslant \\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Notice that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { K } _ { \\pm }"
+            },
+            {
+              "type": "text",
+              "content": " are contained in gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and are the portions of graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " that lie above "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { \\pm }"
+            },
+            {
+              "type": "text",
+              "content": " . The next lemma will indicate why the deficiency subspaces are so named."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.885,
+            0.618,
+            0.905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.13. Lemma. If A is a closed symmetric operator,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.351,
+            0.913,
+            0.641,
+            0.932
+          ],
+          "image_path": "images/page_326_equation_16.jpg",
+          "content": "\\mathrm{grad} A^{*} = \\mathrm{grad} A \\oplus \\mathcal{H}_{+} \\oplus \\mathcal{H}_{-}."
+        }
+      ]
+    },
+    {
+      "page_idx": 327,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.056,
+            0.508,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Symmetric and Self-Adjoint Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.832,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "313"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.522,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " + and h∈dom A. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.313,
+            0.127,
+            0.68,
+            0.191
+          ],
+          "image_path": "images/page_327_equation_3.jpg",
+          "content": "\\begin{aligned}\\langle h \\oplus A h, f \\oplus i f \\rangle = & \\langle h, f \\rangle - i \\langle A h, f \\rangle \\\\= & - i \\langle (A + i) h, f \\rangle \\\\= & 0\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.201,
+            0.87,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { + } = [ \\operatorname { r a n } ( A + i ) ] ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . The remainder of the proof that gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , \\mathcal { H } _ { + } ,"
+            },
+            {
+              "type": "text",
+              "content": " ,and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { - }"
+            },
+            {
+              "type": "text",
+              "content": " are pairwise orthogonal is left to the reader. Since it is clear that gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\oplus \\mathcal{H}_{+} \\oplus \\mathcal{H}_{-} \\subseteq \\mathrm{grad} A^*"
+            },
+            {
+              "type": "text",
+              "content": " , it remains to show that this direct sum is dense in gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.275,
+            0.868,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let hedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\oplus A^{*} h \\perp \\mathrm{grad} A \\oplus \\mathcal{H}_{+} \\oplus \\mathcal{H}_{-}"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\oplus"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } h \\perp \\mathrm { g r a } A ,"
+            },
+            {
+              "type": "text",
+              "content": " for every f in dom A, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\langle h \\oplus A ^ { * } h , f \\oplus A f \\rangle = \\langle h , f \\rangle +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A ^ { * } h , A f \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A ^ { * } h , A f \\rangle = - \\langle h , f \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in dom A. This implies that A*h∈dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A ^ { * } h = -   h ."
+            },
+            {
+              "type": "text",
+              "content": " Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - i ) ( A ^ { * } + i ) h ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } A ^ { * } + 1 ) h = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } + i ) h { \\in } { \\mathcal { L } } _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " . Reversing the order of these factors also shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } - i ) h { \\in } { \\mathcal { L } } ."
+            },
+            {
+              "type": "text",
+              "content": " . But if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { L } _ { + } , 0 = \\langle h \\oplus A ^ { * } h , g \\oplus i g \\rangle = \\langle h , g \\rangle -"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\langle A ^ { * } h , g \\rangle = -   i \\langle ( A ^ { * } + i ) h , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Since g can be taken equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } + i ) h ,"
+            },
+            {
+              "type": "text",
+              "content": " we get that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } + i ) h = 0 , \\mathrm { o r } h \\in \\mathcal { L } _ { - }"
+            },
+            {
+              "type": "text",
+              "content": " . Similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { L } _ { + }"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { L } _ { + } \\cap \\mathcal { L } _ { - } = ( 0 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.441,
+            0.87,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.14. Definition. If A is a closed symmetric operator and M is a linear manifold in dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is A-symmetric if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A ^ { * } f , g \\rangle = \\langle f , A ^ { * } g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ."
+            },
+            {
+              "type": "text",
+              "content": " Call such a manifold A-closed if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ f \\oplus A ^ { * } f \\colon f { \\in } { \\mathcal { M } } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.531,
+            0.871,
+            0.588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is both A-symmetric and A-closed precisely when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } | \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " the restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " is a closed symmetric operator; if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\supseteq \\mathrm { d o m } \\mathcal { A } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } | M"
+            },
+            {
+              "type": "text",
+              "content": " is a closed symmetric extension of A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.604,
+            0.871,
+            0.659
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.15. Lemma. If A is a closed symmetric operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and B is a closed symmetric extension of A, then there is an A-closed, A-symmetric submanifold M of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { + } + \\mathcal { L } _ { - }"
+            },
+            {
+              "type": "text",
+              "content": " - such that"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.667,
+            0.177,
+            0.684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.16"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.359,
+            0.667,
+            0.636,
+            0.686
+          ],
+          "image_path": "images/page_327_equation_10.jpg",
+          "content": "\\mathrm { g r a }   B = \\mathrm { g r a }   A + \\mathrm { g r a } ( A ^ { * } | \\mathcal { M } ) ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.692,
+            0.872,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conversely, if M is an A-closed, A-symmetric manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { + } + \\mathcal { L } _ { - }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a closed symmetric extension B of A such that (2.16) holds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.736,
+            0.872,
+            0.794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. If the A-symmetric manifold M in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { + } + \\mathcal { L } _ { - }"
+            },
+            {
+              "type": "text",
+              "content": " is given, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{D} = \\mathrm{dom} A + \\mathcal{M}"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } \\subseteq \\mathrm { d o m } A ^ { * } , \\quad B = A ^ { * } | \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " is well defined. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = f _ { 0 } + f _ { 1 } , g = g _ { 0 } + g _ { 1 } , f _ { 0 } , g _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in dom A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } , g _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.187,
+            0.801,
+            0.809,
+            0.845
+          ],
+          "image_path": "images/page_327_equation_13.jpg",
+          "content": "\\begin{align*}\\langle A^{\\bullet} f, g \\rangle &= \\langle A^{\\bullet} f_0 + A^{\\bullet} f_1, g_0 + g_1 \\rangle \\\\&= \\langle A f_0, g_0 \\rangle + \\langle A f_0, g_1 \\rangle + \\langle A^{\\bullet} f_1, g_0 \\rangle + \\langle A^{\\bullet} f_1, g_1 \\rangle.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.851,
+            0.872,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the A-symmetry of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " the symmetry of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ,"
+            },
+            {
+              "type": "text",
+              "content": " and the definition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.189,
+            0.892,
+            0.81,
+            0.935
+          ],
+          "image_path": "images/page_327_equation_15.jpg",
+          "content": "\\begin{align*}\\langle A^{\\bullet} f, g \\rangle &= \\langle f_0, A g_0 \\rangle + \\langle f_0, A^{\\bullet} g_1 \\rangle + \\langle f_1, A g_0 \\rangle + \\langle f_1, A^{\\bullet} g_1 \\rangle \\\\&= \\langle f, A^{\\bullet} g \\rangle.\\end{align*}"
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

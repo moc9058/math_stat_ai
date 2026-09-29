@@ -1,0 +1,245 @@
+EXERCISES
+
+1. Show that $( \mathcal { X } ^ { * } ) ^ { * * }$ and $( \mathcal { X } ^ { * * } ) ^ { * }$ are equal.
+
+2. Show that for a locally compact space $X , C _ { b } ( X )$ is reflexive if and only if X is finite.
+
+3. Let $\mathcal { M } \leqslant \mathcal { X }$ and let $\rho _ { \mathcal { X } } \colon \mathcal { X } \to \mathcal { X } ^ { * * }$ and $p _ { \mathcal { M } } : \mathcal { M } \rightarrow \mathcal { M } ^ { * * }$ be the natural maps. If i: $\mathcal { M } \rightarrow \mathcal { X }$ is the inclusion map, show that there is an isometry φ: $\mathcal{M}^{\mp \mp} \rightarrow \mathcal{X}^{\mp \mp}$ such that the diagram
+
+$$
+\frac { x ^ { \rho _ { \mathcal { X } } } } { \mu } \uparrow \uparrow \atop \mu _ { \rho _ { \mathcal { X } } } ,
+$$
+
+commutes. Prove that $\phi ( \mathcal { M } ^ { * * } ) = ( \mathcal { M } ^ { \perp } ) ^ { \perp } \equiv \{ x ^ { * * } { \in } \mathcal { X } ^ { * * } { : } x ^ { * * } ( \mathcal { M } ^ { \perp } ) = 0 \} .$
+
+4. Use Exercise 3 to show that if $\mathcal { X }$ is reflexive, then any closed subspace of $\mathcal { X }$ is also reflexive. See Yang [1967].
+
+## §12. The Open Mapping and Closed Graph Theorems
+
+12.1. The Open Mapping Theorem. If X, Y are Banach spaces and $A : { \mathcal { X } } \to { \mathcal { Y } }$ is a continuous linear surjection, then $A ( G )$ is open in $\pmb { g }$ whenever G is open in $\mathcal { X }$
+
+PROOF. For $r > 0 ,$ let $B ( r ) = \{ x \in { \mathcal { X } } : \|   x   \| < r \}$
+
+12.2. Claim. 0∈int cl $A ( B ( r ) )$
+
+Note that because A is surjective, $\mathcal { G } = \bigcup _ { k = 1 } ^ { \infty } \operatorname { c l } \left[ A ( B ( k r / 2 ) ) \right] =$ $\bigcup _ { k = 1 } ^ { \infty } k$ cl $[ A ( B ( r / 2 ) ) ]$ ]. By the Baire Category Theorem, there is a $k \geqslant 1$ such that k cl $[ A ( B ( r / 2 ) ) ]$ has nonempty interior. Thus $V =$ int {cl $\left[ A ( B ( r / 2 ) ) \right] \neq \square$ If $y _ { 0 }   \in   V ,$ let $s > 0$ such that $\{ y \in \mathcal { Y } : \| y - y _ { 0 } \| < s \} \subseteq V \subseteq \operatorname { c l } A ( B ( r / 2 ) )$ . Let $y \in \mathcal { Y }$ $\| y \| < s$ Since $y _ { 0 } \in \operatorname { c l } A ( B ( r / 2 ) ) .$ , there is a sequence $\{ x _ { n } \}$ in $B ( r / 2 )$ such that $A ( x _ { n } )   \rightarrow   y _ { 0 }$ There is also a sequence $\{ z _ { n } \}$ in $B ( r / 2 )$ such that $A ( z _ { n } ) \to y _ { 0 } + y .$ Thus $A(z_{n} - x_{n}) \rightarrow y$ and $\left\{ z _ { n } - x _ { n } \right\} \subseteq B ( r ) ;$ that is, $\{ y \in \mathcal { Y } : \| y \| < s \} \subseteq \operatorname { c l } A ( B ( r ) )$ This establishes Claim 12.2.
+
+It will now be shown that
+
+## 12.3
+
+$$
+\operatorname { c l } A ( B ( r / 2 ) ) \subseteq A ( B ( r ) ) .
+$$
+
+Note that if (12.3) is proved, then Claim 12.2 implies that 0eint $A ( B ( r ) )$ for any $r   >   0$ . From here the theorem is easily proved. Indeed, if G is an open subset of $\mathcal { X }$ , then for every x in $G$ let $r _ { x }   >   0$ such that $B ( x ; r _ { x } ) \subseteq G$ . But 0eint $A ( B ( r _ { x } ) )$ and so A(x)eint $A ( B ( x ; r _ { x } ) )$ . Thus there is an $s _ { x }   >   0$ such that $\boldsymbol{U}_{x} \equiv \left\{ y \in \mathcal{Y} : \| y - A(x) \| < s_{x} \right\} \subseteq A(B(x; r_{x}))$ . Therefore $A ( G )   \supseteq   \cup   \{ U _ { x } \colon x   \in   G \}$ But $A ( x ) { \in } { \overline { { U } } } _ { x } ,$ so $A ( G ) = \cup \{ U _ { x } \colon x { \in } G \}$ and hence $A ( G )$ is open.
+
+To prove (12.3), fix $y _ { 1 }$ in cl $A(B(r/2))$ . By (12.2), 0∈int [cl $A ( B ( 2 ^ { - 2 } r ) ) ]$ . Hence $\left[ y _ { 1 } - \mathrm { c l } A \left( B \left( 2 ^ { - 2 } r \right) \right) \right] \cap A \left( B \left( r / 2 \right) \right) \neq \square$ . Let $x _ { 1 }   \in   \pmb { B }   \left( r / 2 \right)$ such that $A ( x _ { 1 } ) \in$ $[ y _ { 1 } - \mathrm { c l } A ( B ( 2 ^ { - 2 } r ) ) ] ;$ now $A ( x _ { 1 } ) = y _ { 1 } - y _ { 2 }$ , where $y _ { 2 } \in \operatorname { c l } A ( B ( 2 ^ { - 2 } r ) )$ . Using induction, we obtain a sequence $\{ x _ { n } \}$ in $\mathcal { X }$ and a sequence $\{ y _ { n } \}$ in $\theta$ such that
+
+(i) 12.4 (ii) (iii)
+
+$$
+x _ { n } { \in } B ( 2 ^ { - n } r ) ,
+$$
+
+$$
+y _ { n } \in \operatorname { c l } A ( B ( 2 ^ { - n } r ) ) ,
+$$
+
+$$
+y_{n + 1} = y_n - A(x_n).
+$$
+
+But $\| x _ { n } \| < 2 ^ { - n } r ,$ sO $\textstyle \sum _ { 1 } ^ { \infty } \| x _ { n } \| < \infty$ ; hence $x = \textstyle \sum _ { n = 1 } ^ { \infty } x _ { n }$ exists in $\mathcal { X }$ and二 $x \left\| < r . \right.$ Also,
+
+$$
+\sum_{k = 1}^{n} A(x_{k}) = \sum_{k = 1}^{n} (y_{k} - y_{k + 1}) = y_{1} - y_{n + 1}.
+$$
+
+But (12.4ii) implies $\| y_n \| \leqslant \| A \| 2^{-n} r;$ hence $y _ { n }   \to   0 .$ Therefore $y_{1} = \sum_{k = 1}^{\infty} A(x_{k}) =$ $A(x) \in A(B(r))$ , proving (12.3) and completing the proof of the theorem.■
+
+The same method used to prove the Open Mapping Theorem can also be used to prove the Tietze Extension Theorem. See Grabiner [1986].
+
+The Open Mapping Theorem has several applications. Here are two important ones.
+
+12.5. The Inverse Mapping Theorem. If $\mathcal { X }$ and $\mathcal { Y }$ are Banach spaces and $A \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ is a bounded linear transformation that is bijective, then $A ^ { - 1 }$ is bounded.
+
+ProoF. Because A is continuous, bijective, and open by Theorem 12.1, A is a homeomorphism. ■
+
+12.6. The Closed Graph Theorem. $I f \mathcal { X }$ and Y are Banach spaces and $A \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ is a linear transformation such that the graph of A,
+
+$$
+\mathtt { g r a }   A \equiv \{ x \oplus A x { \in } { \mathcal { X } } \oplus _ { 1 } { \mathcal { Y } } { : }   x { \in } { \mathcal { X } } \}
+$$
+
+is closed, then A is continuous.
+
+PROOF. Let ${ \mathcal { G } } = \operatorname { g r a } A .$ Since $\mathcal { X } \oplus _ { 1 } \mathcal { Y }$ is a Banach space and $\pmb { \mathscr { G } }$ is closed, $\pmb { \mathscr { G } }$ is a Banach space. Define $P \colon { \mathcal { G } }   \to   { \mathcal { X } }$ by $P ( x \oplus A x ) = x$ It is easy to check that P is bounded and bijective. (Do it). By the Inverse Mapping Theorem, $P ^ { - 1 } ; { \mathcal { X } } \to { \mathcal { G } }$ is continuous. Thus $A \colon { \mathcal { X } } \to { \mathcal { Y } }$ is the composition of the continuous map $P ^ { - 1 } ; { \mathcal { X } }   \to   { \mathcal { G } }$ and the continuous map of $\mathcal { G } \rightarrow \mathcal { Y }$ defined by $x \oplus A x { \mapsto } A x ;$ A is therefore continuous.
+
+Let $\mathcal { X } = \mathrm { a l l }$ functions $f \colon [ 0 , 1 ]   \to   \mathbb { F }$ such that the derivative $f ^ { \prime }$ exists and is continuous on [0, 1]. Let $\mathcal { G } = C [ 0 , 1 ]$ and give both $\mathcal { X }$ and $\mathcal { Y }$ the supremum norm: $\| f \| = \sup \left\{ | f ( t ) | : t \in [ 0 , 1 ] \right\}$ . So $\mathcal { X }$ is not a Banach space, though $\mathcal { Y }$ is. Define $A \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ by $A f = f ^ { \prime }$ . Clearly, $A$ is linear. If $\{ f _ { n } \} \subseteq { \mathcal { X } }$ and $(f_n, f'_n) \to (f, g)$ in $\mathcal { X } \times \mathcal { Y }$ , then $f _ { n } ^ { \prime }   \rightarrow   g$ uniformly on [0, 1]. Hence
+
+$$
+f_{n}(t) - f_{n}(0) = \int_{0}^{t} f_{n}^{\prime}(s) ds \rightarrow \int_{0}^{t} g(s) ds.
+$$
+
+But $f_{n}(t) - f_{n}(0) \rightarrow f(t) - f(0)$ , So
+
+$$
+f ( t ) = f ( 0 ) + \int _ { 0 } ^ { t } g ( s )   d s .
+$$
+
+Thus $f ^ { \prime } = g$ and gra A is closed. However, A is not bounded. $( \mathbf { W h y } ? )$
+
+The preceding example shows that the domain of the operator in the Closed Graph Theorem must be assumed to be complete. The next example (due to $\mathbf { A l p }$ Eden) shows that the range must also be assumed to be complete.
+
+Let ¿ be a separable infinite-dimensional Banach space and let $\{ e _ { i } ; i { \in } I \}$ be a Hamel basis for $\mathcal { X }$ with $\| e _ { i } \| = 1$ for all i. Note that a Baire Category argument shows that I is uncountable. If $x   \in   \mathcal { X }$ , then $\begin{array} { r } { \pmb { x } = \sum _ { i } \alpha _ { i } e _ { i } , \alpha _ { i } { \in } \mathbb { F } , } \end{array}$ , and $\alpha _ { i }   =   0$ for all but a finite number of i in I. Define $\begin{array} { r } { \| x \| _ { 1 }   \equiv   \sum _ { i } | \alpha _ { i } | . } \end{array}$ It is left as an exercise for the reader to show that $\left\| \cdot \right\| _ { 1 }$ is a norm on $\mathcal { X }$ Since $\| e _ { i } \| = 1$ for all i, $\parallel \boldsymbol { x } \parallel \leqslant \sum _ { i } \lvert \boldsymbol { \alpha } _ { i } \rvert = \lVert \boldsymbol { x } \parallel _ { 1 }$ . Let $\mathcal { Y } = \mathcal { X }$ with the norm $\left\| \cdot \right\| _ { 1 }$ and let $T \colon { \mathcal { G } } \to { \mathcal { X } }$ be defined by $T ( x ) = x .$ Note that it was just shown that T: $\mathcal { Y } \rightarrow \mathcal { X }$ is a contraction. Therefore gra $T$ is closed and hence so is gra $T ^ { - 1 }$ . But $T ^ { - 1 }$ is not continuous because if it were, then T would be a homeomorphism. Since $\mathcal { X }$ is separable, it would follow that @ is separable. But $\pmb { \mathscr { G } }$ is not separable. To see this, note that $\| e _ { i } - e _ { j } \| _ { 1 } = 2$ for $i \neq j$ and since I is uncountable, @ cannot be separable.
+
+When applying the Closed Graph Theorem, the following result is useful.
+
+12.7. Proposition. If X and Y are normed spaces and $A   :   \mathcal { X }   \rightarrow   \mathcal { Y }$ is a linear transformation, then gra A is closed if and only if whenever $x _ { n }   \to   0$ and $A x _ { n }   \rightarrow   y _ { \ast }$ it must be that $y   =   0$
+
+PROOF. Exercise 3.
+
+Note that (12.7) underlines the advantage of the Closed Graph Theorem. To show that A is continuous, it suffices to show that if $x _ { n }   \to   0 ,$ , then $A x _ { n }   \rightarrow   0$ By (12.7) this is eased by allowing us to assume that $\{ A x _ { n } \}$ is convergent.
+
+It is possible to give a measure-theoretic solution to Exercise 2.3, but here is one using the Closed Graph Theorem. Let $( X , \Omega , \mu )$ be a σ-finite measure space, $1 \leqslant p \leqslant \infty$ , and $\phi \colon X   \to   \mathbb { F }$ an Ω-measurable function such that $\phi f \in L ^ { p } ( \mu )$ whenever $f   \in   L ^ { p } ( \mu )$ . Define A: $L ^ { p } ( \mu ) \to L ^ { p } ( \mu )$ by $A f = \phi f .$ Thus A is linear and well defined. Suppose $f _ { n }   \to   0$ and $\phi f _ { n } \to g$ in $L ^ { p } ( \mu )$ . If $1 \leqslant p < \infty$ , then $f _ { n }   \to   0$ in measure. By a theorem of Riesz, there is a subsequence $\{ f _ { n _ { k } } \}$ such that $f _ { n _ { k } } ( x )   \to   0$ a.e. [μ]. Hence $\phi ( x ) f _ { n _ { k } } ( x )   \to   0$ a.e. [µ]. This implies $g   =   0$ and so gra A is closed. If $p = \infty$ , then $f _ { n } ( x )   \to   0 \mathrm { a . e . }$ [μ] and the same argument implies gra A is closed. By the Closed Graph Theorem, A is bounded. Clearly, it may be assumed that $\| { \pmb A } \| = 1$ . If $\delta > 0 ,$ let E be a measurable subset of $\{ x \colon | \phi ( x ) | \geqslant 1 + \delta \}$ with $\mu ( E ) < \infty$ . We want to show that $\mu ( E ) = 0$ But if $f = \chi _ { E }$ , then $\mu ( E ) = \| f \| _ { p } ^ { p } \geqslant \| A f \| _ { p } ^ { p } = \| \phi f \| _ { p } ^ { p } = \int _ { E } | \phi | ^ { p } d \mu \geqslant ( 1 + \delta ) ^ { p } \mu ( E )$ . Hence $\mu ( E ) = 0$ .Since E was arbitrary it follows that $\phi$ is an essentially bounded function and $\| \phi \| _ { \infty } \leqslant 1$
+
+12.8. Definition. If $\mathcal { X } , \mathcal { Y }$ are Banach spaces, an isomorphism of $\mathcal { X }$ and $\mathcal { Y }$ is a linear bijection $T \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ that is a homeomorphism. Say that $\mathcal { X }$ and $\mathcal { G }$ are isomorphic if there is an isomorphism of $\mathcal { X }$ onto $\mathcal { Y }$
+
+Note that the Inverse Mapping Theorem says that a continuous bijection is an isomorphism.
+
+The use of the word “isomorphism" is counter to the spirit of category theory, but it is traditional in Banach space theory.
+
+## EXERCISES
+
+1. Suppose $\mathcal { X }$ and $\pmb { \mathscr { y } }$ are Banach spaces. If $A   \in   \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ and ran A is a second category space, show that ran A is closed.
+
+2. Give both $C ^ { ( 1 ) } [ 0 , 1 ]$ and $C [ 0 , 1 ]$ the supremum norm. If $A \colon C ^ { ( 1 ) } [ 0 , 1 ] \to C [ 0 , 1 ]$ is defined by $A f = f ^ { \prime }$ , show that A is not bounded.
+
+3. Prove Proposition 12.7.
+
+4. Let $\mathcal { X }$ be a vector space and suppose $\| \cdot \| _ { 1 }$ and $\| \cdot \| _ { 2 }$ are two norms on $\mathcal { X }$ and that $\mathcal { I } _ { 1 }$ and $\mathcal { I } _ { 2 }$ are the corresponding topologies. Show that if $\mathcal { X }$ is complete in both norms and $\mathcal { I } _ { 1 } \supseteq \mathcal { I } _ { 2 }$ , then $\mathcal { I } _ { 1 } = \mathcal { I } _ { 2 }$
+
+5. Let X and $\mathcal { Y }$ be Banach spaces and let $A \in \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ . Show that there is a constant $c   >   0$ such that $\| A x \| \geqslant c \| x \|$ for all x in X if and only if ker $A = ( 0 )$ and ran A is closed.
+
+6. Let X be compact and suppose that $\mathcal { X }$ is a Banach subspace of $C ( X )$ If E is a closed subset of X such that for every g in $C ( E )$ there is an f in $\mathcal { X }$ with $f | E = g ,$ show that there is a constant $c   >   0$ such that for each $g$ in $C ( E )$ there is an $f$ in $\mathcal { X }$ with $f | E = g$ and max $\left\{ \left| f(x) \right|: x \in X \right\} \leqslant c \max \left\{ \left| g(x) \right|: x \in E \right\}$
+
+7. Let $1 \leqslant p \leqslant \infty$ and suppose $( \pmb { \alpha } _ { i j } )$ is a matrix such that $(A f)(i) = \sum_{j = 1}^{\infty} \alpha_{ij} f(j)$ defines an element $A f$ of lP for every f in lP. Show that $A   \in   \mathcal { B } ( l ^ { p } )$
+
+8. Let $( X , \Omega , \mu )$ be a σ-finite measure space, $1 \leqslant p < \infty$ , and suppose that $k \colon X \times X \to \mathbb { F }$ is an $\mathbf { \Omega } \times \mathbf { \Omega }$ measurable function such that for f in $L ^ { p } ( \mu )$ and a.e. $x , k ( x , \cdot ) f ( \cdot ) { \in } L ^ { 1 } ( \mu )$ and $(Kf)(x) = \int k(x,y)f(y)d\mu(y)$ defines an element $K f$ of $L ^ { p } ( \mu )$ Show that K: $L ^ { p } ( \mu ) \to L ^ { p } ( \mu )$ is a bounded operator.
+
+## §13. Complemented Subspaces of a Banach Space
+
+If ¿ is a Banach space and $\mathcal { M } \leqslant \mathcal { X }$ , say that M is algebraically complemented in X if there is an $\mathcal { N } \leqslant \mathcal { X }$ such that $\mathcal { M } \cap \mathcal { N } = ( 0 )$ and $\mathcal { M } + \mathcal { N } = \mathcal { X }$ . Of course, the definition makes sense in a purely algebraic setting, so the requirement that M and $\mathcal { N }$ be closed seems fatuous. Why is it made?
+
+If M is a linear manifold in a vector space $\mathcal { X }$ (a Banach space or not), then a Hamel-basis argument can be fashioned to produce a linear manifold $\mathcal { N }$ such that $\mathcal { M } \cap \mathcal { N } = ( 0 )$ and $\mathcal { M } + \mathcal { N } = \mathcal { X }$ . So the requirement in the definition that $\mathcal { M }$ and $\mathcal { N }$ be closed subspaces of the Banach space $\mathcal { X }$ makes the existence problem more interesting. Also, since we are dealing with the category of Banach spaces, all definitions should involve only objects in that category.
+
+If $\mathcal { M }$ and $\mathcal { N }$ are algebraically complemented closed subspaces of a normed space $\mathcal { X } ,$ then $A \colon { \mathcal { M } } \oplus _ { 1 } { \mathcal { N } } \to { \mathcal { X } }$ defined by $A ( m \oplus n ) = m + n$ is a linear bijection. Also, $\| A ( { \pmb m } \oplus { \pmb n } ) \| = \| { \pmb m } + { \pmb n } \| \leqslant \| { \pmb m } \| + \| { \pmb n } \| = \| { \pmb m } \oplus { \pmb n } \|$ Hence $A$ is bounded. Say that $\mathcal { M }$ and $\mathcal { N }$ are topologically complemented if $A$ is a homeomorphism; equivalently, if $\| m + n \| \equiv \| m \| + \| n \|$ is an equivalent norm. If $\mathcal { X }$ is a Banach space, then the Inverse Mapping Theorem implies A is a homeomorphism. This proves the following.
+
+13.1. Theorem. If two subspaces of a Banach space are algebraically complementary, then they are topologically complementary.
+
+This permits us to speak of complementary subspaces of a Banach space without modifying the term. The proof of the next result is left to the reader.
+
+13.2. Theorem. (a) If M and $\mathcal { N }$ are complementary subspaces of a Banach space $\mathcal { X }$ and $E \colon { \mathcal { X } }   \to   { \mathcal { X } }$ is defined by $E(m + n) = m$ for m in $\mathcal { M }$ and n in $\mathcal { N } .$ then E is a continuous linear operator such that $E ^ { 2 } = E ,$ ran $E = \mathcal { M }$ , and ker $E = \mathcal { N }$ . (b) If $E   \in   \mathcal { B } ( \mathcal { X } )$ and $E ^ { 2 } = E$ , then $\mathcal { M } = \operatorname { r a n } E$ and $\mathcal { N } = \ker E$ are complementary subspaces of $\mathcal { X }$
+
+If $\mathcal { M } \leqslant \mathcal { X }$ and $\mathcal { M }$ is complemented in $\mathcal { R } ,$ its complementary subspace may not be unique. Indeed, finite dimensional spaces furnish the necessary examples.
+
+A result due to R.S. Phillips [1940] is that $c _ { 0 }$ is not complemented in $l ^ { \infty }$ A straightforward proof of this can be found in Whitley [1966]. Murray [1937] showed that $l ^ { p } , p \neq 2 , p > 1$ has uncomplemented subspaces. This seems to be the first paper to exhibit uncomplemented subspaces of a Banach space.
+
+Lindenstrauss [1967] showed that if $\mathcal { M }$ is an infinite dimensional subspace of $l ^ { \infty }$ that is complemented in $l ^ { \infty }$ , then $\mathcal { M }$ is isomorphic to $l ^ { \infty }$ . This same result holds if $l ^ { \infty }$ is replaced by $l ^ { p } ,   1 \leqslant p < \infty ,   c ,   \mathrm { o r }     c _ { 0 }$
+
+Does there exist a Banach space $\mathcal { X }$ such that every closed subspace of $\mathcal { X }$ is complemented? Of course, if $\mathcal { X }$ is a Hilbert space, then this is true. But are there any Banach spaces that have this property and are not Hilbert spaces? Lindenstrauss and Tzafriri [1971] proved that if $\mathcal { X }$ is a Banach space and every subspace of $\mathcal { X }$ is complemented, then $\mathcal { X }$ is isomorphic to a Hilbert space.
+
+## EXERCISES
+
+1. If $\mathcal { X }$ is a vector space and M is a linear manifold in $\mathcal { X }$ , show that there is a linear manifold $\mathcal { N }$ in $\mathcal { X }$ such that $\mathcal { M } \cap \mathcal { N } = ( 0 )$ and $\mathcal { M } + \mathcal { N } = \mathcal { X }$
+
+2. Let ¿ be a Banach space and let $E \colon { \mathcal { X } }   \to   { \mathcal { X } }$ be a linear map such that $E ^ { 2 } = E$ and both ran E and ker E are closed. Show that E is continuous.
+
+3. Prove Theorem 13.2.
+
+4. Let X be a Banach space and show that if M is a complemented subspace of $\mathcal { X } ,$ then every complementary subspace is isomorphic to $\mathcal { X } / \mathcal { M }$
+
+5. Let X be a compact set and let Y be a closed subset of X. A simultaneous extension for Y is a bounded linear map $T \colon C ( Y ) \to C ( X )$ such that for each $g$ in $C ( Y )$ $T ( g ) \mid Y = g$ Let $C _ { 0 } ( X \setminus Y ) = \{ f \in C ( X ) : f ( y ) = 0$ for all y in $\left. Y \right\}$ . Show that if there is a simultaneous extension for Y, then $C _ { 0 } ( X \backslash Y )$ is complemented in $C ( X )$
+
+6. Show that if Y is a closed subset of [0, 1], then there is a simultaneous extension for Y (see Exercise 5). (Hint: Write [0, 1]\ Y as the union of disjoint intervals.)
+
+7. Using the notation of Exercise 5, show that if Y is a retract of X, then $C _ { 0 } ( X \backslash Y )$ is complemented in C(X).
+
+## §14. The Principle of Uniform Boundedness
+
+There are several results that may be called the Principle of Uniform Boundedness (PUB) and all of these are called the PUB by various mathematicians. In this book the PUB will refer to any of the results of this section, though in a formal way the next result plays the role of the founder of the family.
+
+14.1. Principle of Uniform Boundedness (PUB). Let $\mathcal { X }$ be a Banach space and y a normed space. If $\mathcal { A } \in \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ such that for each x in $\mathcal { X }$ sup $\{ \parallel A x \parallel : A { \in } { \mathcal { A } } \} < \infty$ , then sup $\{   \|   A   \| \colon A { \in } { \mathcal { A } }   \} < \infty$
+
+PRooF. (Due to William R. Zame, 1978. Also see J. Hennefeld [1980].) For each x in X let $M(x) = \sup \left\{ \|Ax\| : A \in \mathcal{A} \right\}$ , SO $\| A x \| \leqslant M(x)$ for all x in $\mathcal { X } .$ Suppose sup $\left\{ \left\|   A   \right\| : A { \in } { \mathcal { A } } \right\} = \infty$ . Then there is a sequence $\{ A _ { n } \} \subseteq \mathcal { A }$ and a sequence $\{ x _ { n } \}$ of vectors in X such that $\| x _ { n } \| = 1$ and $\| A _ { n } x _ { n } \| > 4 ^ { n }$ . Let $y_{n} = 2^{-n}x_{n};$ thus $\| y _ { \pmb { n } } \| = 2 ^ { - \pmb { n } }$ and $\| A _ { n } y _ { n } \| > 2 ^ { n }$
+
+14.2. Claim. There is a subsequence $\left\{ y _ { n _ { k } } \right\}$ such that for $k \geqslant 1$
+
+$$
+\left\| A_{n_{k + 1}}y_{n_{k + 1}} \right\| > 1 + k + \sum_{j = 1}^{k}M(y_{n_j});
+$$
+
+$$
+\| y_{n_k + 1} \| < 2^{-k - 1} \left[ \sup \left\{ \| A_{n_j} \| : 1 \leqslant j \leqslant k \right\} \right]^{-1}.
+$$
+
+The proof of (14.2) is by induction. Let $n _ { 1 } = 1$ . The induction step is valid since $y _ { n } \rVert   \rightarrow   0$ and $\| A _ { n } y _ { n } \| \to \infty$ . The details are left to the reader.
+
+Since $\begin{array} { r } { \sum _ { k } \| y _ { n _ { k } } \| < \infty , \sum _ { k } y _ { n _ { k } } = y } \end{array}$ in $\mathcal { X }$ (here is where the completeness of $\mathcal { X }$ is used.) Now for any $k \geqslant 1$
+
+$$
+\begin{align*}\| A_{n_{k+1}} y \| &= \left\| \sum_{j=1}^k A_{n_{k+1}}^{\quad \cdot} y_{n_j} + A_{n_{k+1}} y_{n_{k+1}} + \sum_{j=k+2}^\infty A_{n_{k+1}} y_{n_j} \right\| \\&= \left\| A_{n_{k+1}} y_{n_{k+1}} - \left[ - \sum_{j=1}^k A_{n_{k+1}} y_{n_j} - \sum_{j=k+2}^\infty A_{n_{k+1}} y_{n_j} \right] \right\| \\&\geqslant \| A_{n_{k+1}} y_{n_{k+1}} \| - \left\| \sum_{j=1}^k A_{n_{k+1}} y_{n_j} + \sum_{j=k+2}^\infty A_{n_{k+1}} y_{n_j} \right\| \\&\geqslant 1 + k + \sum_{j=1}^k M(y_{n_j}) - \left[ \sum_{j=1}^k M(y_{n_j}) + \sum_{j=k+2}^\infty \| A_{n_{k+1}} \| \| y_{n_j} \| \right] \\&\geqslant 1 + k - \sum_{j=k+2}^\infty 2^{-j} \\&\geqslant k.\end{align*}
+$$
+
+That is, $M ( y ) \geqslant k$ for all $k ,$ a contradiction.
+
+14.3. Corollary. If X is a normed space and $A \subseteq { \mathcal { X } }$ , then A is a bounded set if and only if for every f in $\mathcal { X } ^ { * }$ $\sup \left\{ \left| f(a) \right| : a \in A \right\} < \infty$
+
+PROOF. Consider $\mathcal { X }$ as a subset of $\mathcal { B } ( \mathcal { X } ^ { * } , \mathbb { F } ) \; ( = \mathcal { X } ^ { * * } )$ by letting ${ \hat { x } } ( f ) = f ( x )$ for every f in $\mathcal { X } ^ { * }$ . Since $\mathcal { X } ^ { * }$ is a Banach space and $\| x \| = \| { \hat { x } } \|$ for all x, the corollary is a special case of the PUB. ■
+
+14.4. Corollary. If $\mathcal { X }$ is a Banach space and $A \subseteq { \mathcal { X } } ^ { * }$ , then A is a bounded set $i f$ and only if for every x in $\mathcal { X }$ s $\operatorname* { u p } \{ | f ( x ) | : f { \in } A \} < \infty$
+
+PROOF. Consider $\mathcal { X } ^ { * }$ as $\mathcal { B } ( \mathcal { X } , \mathbf { F } )$
+
+Using Corollary 14.3, it is possible to prove the following improvement of (14.1).
+
+14.5. Corollary. If X is a Banach space and is a normed space and if $\theta$ $\mathcal { A } \subseteq \mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ such that for every x in X and g in $\theta ^ { * }$
+
+$$
+\operatorname* { s u p } \{ | g ( A ( x ) ) | : A \in \mathcal { A } \} < \infty ,
+$$
+
+then sup $\{ \| A \| \colon A { \in } { \mathcal { A } } \} < \infty$
+
+PROOF. Fix x in $\mathcal { X }$ By the hypothesis and Corollary 14.3, sup $\{ \parallel A ( x ) \parallel$ 二$A \in \mathcal { A } \} < \infty$ . By (14.1), sup $\{ \parallel A \parallel : A { \in } { \mathcal { A } } \} < \infty$
+
+A special form of the PUB that is quite useful is the following
+
+14.6. The Banach-Steinhaus Theorem. If $\mathcal { X }$ and $\theta$ are Banach spaces and $\{ A _ { n } \}$ is a sequence in $\mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ with the property that for every x in X there is a y in Y such that $\| A _ { n } x - y \| \to 0$ , then there is an A in $\mathcal { B } ( \mathcal { X } , \mathcal { Y } )$ such that $\parallel A _ { n } x - A x \parallel \rightarrow 0$ for every x in X and sup $\| A _ { n } \| < \infty$
+
+PROOF. If $x   \in   \mathcal { X }$ , let $Ax = \lim_{n \to \infty} A_n x$ . By hypothesis $A \colon { \mathcal { X } }   \to   { \mathcal { Y } }$ is defined and it is easy to see that it is linear. To show that A is bounded, note that the PUB implies that there is a constant $M > 0$ such that $\| A _ { n } \| \leqslant M$ for all n. $\operatorname { I f } x { \in } { \mathcal { X } }$ and $\| x \| \leqslant 1$ , then for any $\| A x \| \leqslant \| A x - A _ { n } x \| + \| A _ { n } x \| \leqslant \| A x - A _ { n } x \| + M$ Letting $n   \rightarrow   \infty$ shows that $\| A x \| \leqslant M$ whenever $\| x \| \leqslant 1$
+
+The Banach-Steinhaus Theorem is a result about sequences, not nets. Note that if I is the identity operator on $\mathcal { X }$ and for each $n \geqslant 1, A_n = n^{-1} I$ and for $n \leqslant 0,\; A_n = nI,$ then $\{ A_{n} : n \in \mathbb{Z} \}$ is a countable net that converges in norm to 0, but the net is not bounded.
+
+14.7. Proposition. Let X be locally compact and let $\{ f _ { n } \}$ be a sequence in $C _ { 0 } ( X )$ . Then $\int f _ { n }   d \mu \to \int f   d \mu$ for every µ in M(X) if and only if $\operatorname{sup}_{n} \| f_{n} \| < \infty$ and $f _ { n } ( x )   \to   \dot { f ( x ) }$ for every x in X.
+
+PrOOF. Suppose $\int f _ { n }   d \mu \to \int f   d \mu$ for every μ in $M ( X )$ Since $M ( X ) = C _ { 0 } ( X ) ^ { * }$ (14.3) implies that $\operatorname { \mathfrak { s u p } } _ { n } \| f _ { n } \| < \infty$ . By letting $\mu = \delta _ { x } ,$ the unit point mass at x, we see that $\int f _ { n }   d \delta _ { x } = f _ { n } ( x ) \to f ( x )$ . The converse follows by the Lebesgue Dominated Convergence Theorem.
+
+## EXERCISES
+
+1. Here is another proof of the PUB using the Baire Category Theorem. With the notation of (14.1), let $B _ { n } \equiv \left\{ x \in \mathcal { X } : \| A x \| \leqslant n \right.$ for all A in $\alpha \}$ . By hypothesis, $\bigcup_{n = 1}^{\infty} B_{n} = \mathcal{X}$ . Now apply the Baire Category Theorem.
+
+2. If $1 < p < \infty$ and $\{ x _ { n } \} \subseteq l ^ { p }$ then $\begin{array} { r } { \sum _ { j = 1 } ^ { \infty } x _ { n } ( j ) y ( j ) \to 0 } \end{array}$ for every y in $l ^ { q } , 1 / p + 1 / q = 1$ if and only if $\sup_{n} \| x_{n} \|_{p} < \infty$ and $x _ { n } ( j )   \to   0$ for every $j \geqslant 1$
+
+3. If $\left\{ x _ { n } \right\} \subseteq l ^ { 1 }$ , then $\begin{array} { r } { \sum _ { j = 1 } ^ { \infty } x _ { n } ( j ) y ( j ) \to 0 } \end{array}$ for every y in $c _ { 0 }$ if and only if $\operatorname { s u p } _ { n } \| x _ { n } \| _ { 1 } < \infty$ and $x _ { n } ( j )   \to   0$ for every $j \geqslant 1$
+
+4. If $( X , \Omega , \mu )$ is a measure space, $1 < p < \infty$ , and $\{ f _ { n } \} \subseteq L ^ { p } ( X , \Omega , \mu ) .$ , then $\int f _ { n } g   d \mu \to 0$ for every g in $L ^ { q } ( \mu ) , \; 1 / p + 1 / q = 1$ , if and only if sup $\left\{ \left\| f _ { n } \right\| _ { p } : n \geqslant 1 \right\} < \infty$ and for every set E in Ω with $\mu ( E ) < \infty , \int _ { E } f _ { n } d \mu \to 0$ as $n   \rightarrow   \infty$
+
+5. If $( X , \Omega , \mu )$ is a σ-finite measure space and $\{ f _ { n } \}$ is a sequence in $L ^ { 1 } ( X , \Omega , \mu )$ , then $\int f _ { n } g   d \mu \to 0$ for every $g$ in $L ^ { \infty } ( \mu )$ if and only if sup $\left\{ \left\| f _ { n } \right\| _ { 1 } : n \geqslant 1 \right\} < \infty$ and $\int _ { E } f _ { n }   d \mu   \to   0$ for every E in Ω.
+
+6. Let $\mathcal { H }$ be a Hilbert space and let  be an orthonormal basis for $\mathcal { H }$ Show that a sequence $\{ h _ { n } \}$ in $\mathcal { H }$ satisfies $\langle h _ { n } , h \rangle \to 0$ for every h in $\mathcal { H }$ if and only if sup $\left\{ \| h _ { n } \| : n \geqslant 1 \right\} < \infty$ and $\langle h _ { n } , e \rangle \to 0$ for every e in $\mathcal { E } .$ 4
+
+7. If X is locally compact and $\{ \mu _ { n } \}$ is a sequence in $M ( X ) ,$ then $L ( \mu _ { n } ) \to 0$ for every Lin $M ( X ) ^ { * }$ if and only if sup $\left\{ \left\| \mu _ { n } \right\| : n \geqslant 1 \right\} < \infty$ and $\mu _ { n } ( E ) \to 0$ for every Borel set E.
+
+8. In (14.6), show that $\| A \| \leqslant$ lim inf $\| \| A _ { n } \|$

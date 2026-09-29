@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "page_idx": 349,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.055,
+            0.55,
+            0.073
+          ],
+          "content": "§6. The Fourier Transform and Differentiation"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": "335"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.099,
+            0.248,
+            0.119
+          ],
+          "content": "for f in $\\mathcal { D } _ { \\alpha }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.269,
+            0.125,
+            0.723,
+            0.22
+          ],
+          "content": "\\begin{align*}\\int_{-a}^{a} f \\bar{h} &= \\overline{H(a)} f(a) - \\overline{H(-a)} f(-a) - \\int_{-a}^{a} f' \\bar{H} \\\\&= - \\int_{-a}^{a} f' \\bar{H}.\\end{align*}",
+          "image_source": "images/page_349_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.227,
+            0.87,
+            0.285
+          ],
+          "content": "Therefore $\\int _ { - a } ^ { a } f ^ { \\prime } [ \\bar { H } - ( \\bar { \\imath } \\bar { g } ) ] = 0$ for every f in $\\mathcal { D } _ { a ^ { \\cdot } } \\mathbf { A } \\mathbf { s }$ in (1.11), it follows that $H - i g$ is coñstant on $[ - a , a ]$ and g is absolutely continuous. Moreover, $0 = H ^ { \\prime } - i g ^ { \\prime } = h - i g ^ { \\prime } ;$ hence $A^{*}g = h =ig^{\\prime}$ . Thus $g \\in \\mathcal { D }$ and A is self-adjoint."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.285,
+            0.871,
+            0.375
+          ],
+          "content": "If A is the differentiation operator in Example 6.1, what is the group $U ( t ) = \\exp ( i t A ) ?$ Since A is not represented as a multiplication operator, Proposition 5.16 cannot be applied. One could proceed to try and discover the spectral measure for A. Since $A = \\int x d E ( x ) , U ( t ) = \\int e ^ { i t x } d E ( x )$ . Or one could be clever."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.376,
+            0.871,
+            0.468
+          ],
+          "content": "Later in this section it will be shown that if $\\mathcal { F } \\colon L ^ { 2 } ( \\mathbb { R } ) \\to L ^ { 2 } ( \\mathbb { R } )$ is the Fourier-Plancherel transform, then $\\mathcal { F }$ is a unitary operator (6.17) and $\\mathcal{F}^{-1} A \\mathcal{F} =$ the operator on $L ^ { 2 } ( \\mathbb { R } )$ of multiplication by the independent variable (6.18). Thus $\\mathcal { F } ^ { - 1 } U ( t ) \\mathcal { F }$ is multiplication by $e ^ { i x t } ,$ But it is possible to find U(t) directly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.469,
+            0.394,
+            0.488
+          ],
+          "content": "Recall that if f ∈dom A,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.384,
+            0.496,
+            0.614,
+            0.539
+          ],
+          "content": "A f = - i \\lim _ { t \\rightarrow 0 } \\frac { U ( t ) f - f } { t }",
+          "image_source": "images/page_349_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.538,
+            0.163,
+            0.555
+          ],
+          "content": "So"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.341,
+            0.554,
+            0.65,
+            0.596
+          ],
+          "content": "f^{\\prime}(x)=\\lim_{t \\to 0}-\\frac{(U(t)f)(x)-f(x)}{t}",
+          "image_source": "images/page_349_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.605,
+            0.673,
+            0.624
+          ],
+          "content": "Being clever, one might guess that $( U ( t ) f ) ( x ) = f ( x - t )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.64,
+            0.872,
+            0.678
+          ],
+          "content": "6.2. Theorem. If A and $\\mathcal { D }$ are as in Example 6.1 and $U ( t ) = \\exp ( i t A )$ , then $( U ( t ) f ) ( x ) = f ( x - t )$ for all f in $L ^ { 2 } ( \\mathbb { R } )$ and x,t in R."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.686,
+            0.873,
+            0.74
+          ],
+          "content": "PROOF. Let $(V(t)f)(x) = f(x - t)$ . It is easy to see that V is a strongly continuous one parameter unitary group. Let B be the infinitesimal generator of V. It must be shown that $B = A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.739,
+            0.873,
+            0.796
+          ],
+          "content": "Note that f ∈dom B if and only if $\\operatorname* { l i m } _ { t \\to 0 } t ^ { - 1 } ( V ( t ) f - f )$ exists. Let $f   \\in   \\mathsf { C } _ { c } ^ { ( 1 ) } ( \\mathbb { R } ) ;$ that is, f is continuously differentiable and has compact support. Thus for $t > 0$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.248,
+            0.802,
+            0.753,
+            0.847
+          ],
+          "content": "\\left[ \\frac{V(t)f - f}{t} \\right](x) = \\frac{f(x - t) - f(x)}{t} = - \\frac{1}{t} \\int_{x - t}^{x} f'(y)dy",
+          "image_source": "images/page_349_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.847,
+            0.174,
+            0.864
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.217,
+            0.872,
+            0.778,
+            0.947
+          ],
+          "content": "\\begin{aligned}\\left| \\frac{V(t)f(x) - f(x)}{t} + f^{\\prime}(x) \\right| & \\leqslant \\frac{1}{t} \\int_{x - t}^{x} \\left| f^{\\prime}(x) - f^{\\prime}(y) \\right| dy \\\\& \\leqslant \\sup \\left\\{ \\left| f^{\\prime}(x) - f^{\\prime}(y) \\right| : |x - y| \\leqslant t \\right\\}.\\end{aligned}",
+          "image_source": "images/page_349_equation_17.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 349,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

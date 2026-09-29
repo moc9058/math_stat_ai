@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 185,
+  "model": "gpt-6-astra",
+  "seconds": 8.99,
+  "input_tokens": 3670,
+  "output_tokens": 267,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"y_i^*\\\\xrightarrow{\\\\mathrm{cl}}y^*\",\n      \"correction\": \"y_i^*\\\\xrightarrow[\\\\mathrm{cl}]{}y^*\",\n      \"note\": \"The image places “cl” below the arrow.\"\n    },\n    {\n      \"candidate_fragment\": \"A^*y_i^*\\\\xrightarrow{\\\\mathrm{cl}}A^*y^*\",\n      \"correction\": \"A^*y_i^*\\\\xrightarrow[\\\\mathrm{cl}]{}A^*y^*\",\n      \"note\": \"The image places “cl” below the arrow.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 61,
+  "model": "gpt-6-astra",
+  "seconds": 9.2,
+  "input_tokens": 3197,
+  "output_tokens": 228,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"T=\\\\sum_{n=1}^{\\\\infty}\\\\lambda_nP_n. \\\\tag*{5.2}\",\n      \"correction\": \"T=\\\\sum_{n=1}^{\\\\infty}\\\\lambda_nP_n, \\\\tag*{5.2}\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

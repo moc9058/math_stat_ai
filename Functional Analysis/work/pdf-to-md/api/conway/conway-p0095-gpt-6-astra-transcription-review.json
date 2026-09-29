@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 95,
+  "model": "gpt-6-astra",
+  "seconds": 14.66,
+  "input_tokens": 3710,
+  "output_tokens": 521,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\mathcal M_1\\\\supset\\\\mathcal M\",\n      \"correction\": \"\\\\mathcal M_1\\\\supseteq\\\\mathcal M\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\alpha_0\\\\leq-f(y_1)+q(x_0+y_1). \\\\tag{6.10}\",\n      \"correction\": \"\\\\alpha_0\\\\leq-f(y_1)+q(x_0+y_1) \\\\tag{6.10}\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\alpha_0\\\\geq f(y_2)-q(-x_0+y_2). \\\\tag{6.11}\",\n      \"correction\": \"\\\\alpha_0\\\\geq f(y_2)-q(-x_0+y_2) \\\\tag{6.11}\"\n    },\n    {\n      \"candidate_fragment\": \"f(y_2)-q(-x_0+y_2)\\\\leq-f(y_1)+q(x_0+y_1). \\\\tag{6.12}\",\n      \"correction\": \"f(y_2)-q(-x_0+y_2)\\\\leq-f(y_1)+q(x_0+y_1) \\\\tag{6.12}\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

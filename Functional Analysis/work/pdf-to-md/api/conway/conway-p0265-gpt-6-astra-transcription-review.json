@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 265,
+  "model": "gpt-6-astra",
+  "seconds": 10.16,
+  "input_tokens": 3450,
+  "output_tokens": 249,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"$\\\\pi_e$ is a representation of $\\\\mathcal A$.\",\n      \"correction\": \"$\\\\pi_e$ is a representation of a.\",\n      \"note\": \"The image visibly prints lowercase “a” here, apparently a source typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

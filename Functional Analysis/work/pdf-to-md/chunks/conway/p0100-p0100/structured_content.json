@@ -1,0 +1,251 @@
+{
+  "pages": [
+    {
+      "page_idx": 99,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.13,
+            0.056,
+            0.471,
+            0.073
+          ],
+          "content": "§8. An Application: Runge's Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": "85"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.1,
+            0.586,
+            0.119
+          ],
+          "content": "It is not difficult to see that for $w _ { 0 }$ in $\\mathbf { C } \\backslash K$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.126,
+            0.677,
+            0.17
+          ],
+          "content": "\\left( \\frac{d}{dw} \\right)^n \\hat{\\mu}(w_0) = n! \\int (z - w_0)^{-n-1} d\\mu(z).",
+          "image_source": "images/page_99_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.178,
+            0.867,
+            0.198
+          ],
+          "content": "Also, we can easily find the power series expansion of $\\hat { \\mu }$ at infinity. Indeed,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.274,
+            0.204,
+            0.719,
+            0.248
+          ],
+          "content": "\\hat { \\mu } ( w ) = \\int \\frac { 1 } { z - w } d \\mu ( z ) = - \\frac { 1 } { w } \\int \\left( 1 - \\frac { z } { w } \\right) ^ { - 1 } d \\mu ( z ) .",
+          "image_source": "images/page_99_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.257,
+            0.799,
+            0.276
+          ],
+          "content": "Choose w near enough to infinity that $| z / w | < 1$ for all $z$ in K. Then"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.345,
+            0.166,
+            0.362
+          ],
+          "level": 2,
+          "content": "8.4"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.283,
+            0.636,
+            0.377
+          ],
+          "content": "\\begin{align*}\\hat{\\mu}(w) = & - \\frac{1}{w} \\sum_{n = 0}^{\\infty} \\int \\left( \\frac{z}{w} \\right)^n d\\mu(z) \\\\= & - \\sum_{n = 0}^{\\infty} \\frac{a_n}{w^{n + 1}},\\end{align*}",
+          "image_source": "images/page_99_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.375,
+            0.324,
+            0.395
+          ],
+          "content": "where $a _ { n } = \\int z ^ { n } d \\mu ( z ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.394,
+            0.869,
+            0.487
+          ],
+          "content": "Now assume $\\mu { \\in } M ( K )$ and $\\int   g   d \\mu = 0$ for every rational function $g$ with poles in E. Let U be a component of $\\mathbf { C } _ { \\infty } \\backslash K ,$ and let $w _ { 0 } { \\in } E \\cap U$ . If $w _ { 0 } \\neq \\infty$ then the hypothesis and (8.3) imply that each derivative of $\\hat { \\mu }$ at $w _ { 0 }$ vanishes. Hence $\\hat { \\mu } \\equiv 0$ on U. If $w _ { 0 } = \\infty$ , then (8.4) implies $\\hat { \\mu } \\equiv 0$ on U. Thus $\\hat { \\mu } \\equiv 0$ on $\\mathbb { C } _ { \\infty } \\backslash K$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.487,
+            0.869,
+            0.524
+          ],
+          "content": "If f is analytic on an open set G containing K, let $\\gamma _ { 1 } , \\ldots , \\gamma _ { n }$ be straight-line segments in $G \\backslash K$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.527,
+            0.627,
+            0.571
+          ],
+          "content": "f(z) = \\sum_{k = 1}^{n} \\frac{1}{2\\pi i} \\int_{\\gamma_{k}} \\frac{f(w)}{w - z} dw",
+          "image_source": "images/page_99_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.577,
+            0.636,
+            0.597
+          ],
+          "content": "for all $z$ in K. (See p. 195 of Conway [1978].) Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.603,
+            0.702,
+            0.697
+          ],
+          "content": "\\begin{align*}\\int_{K} f(z) d\\mu(z) &= \\sum_{k=1}^{n} \\frac{1}{2\\pi i} \\int_{K} \\int_{\\gamma_k} \\frac{f(w)}{w-z} dw d\\mu(z) \\\\&= - \\sum_{k=1}^{n} \\frac{1}{2\\pi i} \\int_{\\gamma_k} f(w) \\hat{\\mu}(w) dw\\end{align*}",
+          "image_source": "images/page_99_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.703,
+            0.868,
+            0.741
+          ],
+          "content": "by Fubini's Theorem. But $\\hat { \\mu } ( w ) = 0$ on $\\gamma _ { k } ~ ( \\in \\pmb { \\mathbb { C } } \\backslash K )$ so $\\int f   d \\mu = 0$ By (6.13), $f   \\in   R ( K , E )$ . This proves Runge's Theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.755,
+            0.87,
+            0.811
+          ],
+          "content": "8.5. Corollary. If K is compact and $\\mathbf { C } \\backslash K$ is connected and if f is analytic in a neighborhood of K, then there is a sequence of polynomials that converges to f uniformly on K."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.828,
+            0.231,
+            0.845
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.848,
+            0.868,
+            0.883
+          ],
+          "content": "1. Let $\\mu$ be a compactly supported measure on C that is boundedly absolutely continuous with respect to area measure. Show that $\\hat { \\mu }$ is continuous on $\\mathbf { C } _ { \\infty } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.89,
+            0.869,
+            0.925
+          ],
+          "content": "2. Let m = Lebesgue measure on [0, 1]. Show that m is not continuous at any point of [0, 1]."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 99,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

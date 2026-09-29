@@ -1,0 +1,5069 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 272,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 273,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 274,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 275,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 276,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 277,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 278,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 279,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 272,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "258"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.508,
+            0.056,
+            0.871,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.872,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "result is crucial for this purpose. It tells us how to integrate with respect to a spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.155,
+            0.873,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.10. Proposition. If E is a spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and φ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded Ω-measurable function, then there is a unique operator A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { i f }   \\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { 1 } , \\ldots , \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is an Ω-partition of X with sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ | \\phi ( x ) - \\phi ( x ^ { \\prime } ) | \\right."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , x ^ { \\prime } { \\in } \\Delta _ { k } \\} < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n ,"
+            },
+            {
+              "type": "text",
+              "content": " then for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { k } ,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.374,
+            0.238,
+            0.626,
+            0.281
+          ],
+          "image_path": "images/page_272_equation_4.jpg",
+          "content": "\\left\\| A - \\sum_{k = 1}^{n} \\phi(x_k) E(\\Delta_k) \\right\\| < \\varepsilon."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.292,
+            0.872,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( g , h ) \\equiv \\int \\phi   d E _ { g , h }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g , h"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " By the preceding lemma it is easy to see that B is a sesquilinear form with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| B ( g , h ) | \\leqslant \\| \\phi \\| _ { \\infty } \\| g \\| \\| h \\|"
+            },
+            {
+              "type": "text",
+              "content": " 1 Hence there is a unique operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( g , h ) = \\langle A g , h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all g and h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.367,
+            0.871,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { 1 } , \\ldots , \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be an Ω-partition satisfying the condition in the statement of the proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " and h are arbitrary vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { k } { \\in } \\Delta _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.429,
+            0.866,
+            0.575
+          ],
+          "image_path": "images/page_272_equation_7.jpg",
+          "content": "\\begin{align*}\\left| \\langle Ag, h \\rangle - \\sum_{k=1}^n \\phi(x_k) \\langle E(\\Delta_k) g, h \\rangle \\right| &= \\left| \\sum_{k=1}^n \\int_{\\Delta_k} \\left[ \\phi(x) - \\phi(x_k) \\right] d \\langle E(x) g, h \\rangle \\right| \\\\& \\leq \\sum_{k=1}^n \\int_{\\Delta_k} \\left| \\phi(x) - \\phi(x_k) \\right|   d \\left| \\langle E(x) g, h \\rangle \\right| \\\\& \\leq \\varepsilon \\int_{\\varepsilon} d \\left| \\langle E(x) g, h \\rangle \\right| \\leq \\varepsilon \\| g \\| \\| h \\|.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.589,
+            0.875,
+            0.627
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The operator A obtained in the preceding proposition is the integral of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " with respect to E and is denoted by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.461,
+            0.634,
+            0.532,
+            0.655
+          ],
+          "image_path": "images/page_272_equation_9.jpg",
+          "content": "\\int \\phi d E ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.123,
+            0.661,
+            0.871,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g , h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded Ω-measurable function on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ,"
+            },
+            {
+              "type": "text",
+              "content": " the preceding proof implies that"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.717,
+            0.171,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.11"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.355,
+            0.705,
+            0.64,
+            0.749
+          ],
+          "image_path": "images/page_272_equation_12.jpg",
+          "content": "\\left\\langle \\left( \\int \\phi d E \\right)   g , h \\right\\rangle = \\int \\phi d E _ { g , h } ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.756,
+            0.871,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let B(X,Ω) denote the set of bounded Ω-measurable functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon X   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| = \\operatorname* { s u p } \\{ | \\phi ( x ) | : x { \\in } X \\}"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach algebra with identity. In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ^ { \\star } ( x ) \\equiv \\phi ( x )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } \\mathtt { - a l g e b r a }"
+            },
+            {
+              "type": "text",
+              "content": " . The properties of the integral "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   \\phi d E"
+            },
+            {
+              "type": "text",
+              "content": " are summarized by the following result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.123,
+            0.869,
+            0.87,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.12. Proposition. If E is a spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X , \\Omega ) \\to \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\phi ) = \\int \\phi   d E ,"
+            },
+            {
+              "type": "text",
+              "content": " , then ρ is representation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\phi )"
+            },
+            {
+              "type": "text",
+              "content": " is a normal operator for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X , \\Omega )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 273,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.728,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Spectral Measures and Representations of Abelian C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "259"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.102,
+            0.87,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. It will only be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is multiplicative; the remainder is an exercise. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi   \\in   B ( X , \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and choose a Borel partition "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { 1 } , \\ldots , \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of X such that sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ | \\omega ( x ) - \\omega ( x ^ { \\prime } ) | : x , x ^ { \\prime } \\in \\Delta _ { k } \\right\\} < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega = \\phi ."
+            },
+            {
+              "type": "text",
+              "content": " ψ or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\psi"
+            },
+            {
+              "type": "text",
+              "content": " and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n"
+            },
+            {
+              "type": "text",
+              "content": " Hence, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{k} \\in \\Delta_{k} \\left( 1 \\leqslant k \\leqslant n \\right)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.349,
+            0.182,
+            0.646,
+            0.227
+          ],
+          "image_path": "images/page_273_equation_3.jpg",
+          "content": "\\left\\| \\int \\omega d E - \\sum_{k=1}^{n} \\omega(x_k) E(\\Delta_k) \\right\\| < \\varepsilon"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.235,
+            0.68,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega = \\phi , \\psi ."
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\psi ."
+            },
+            {
+              "type": "text",
+              "content": " Thus, using the triangle inequality,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.169,
+            0.26,
+            0.817,
+            0.405
+          ],
+          "image_path": "images/page_273_equation_5.jpg",
+          "content": "\\begin{align*}\\left\\| \\int & \\phi \\psi   dE - \\left( \\int \\phi   dE \\right) \\left( \\int \\psi   dE \\right) \\right\\| \\\\& \\leqslant \\varepsilon + \\left\\| \\sum_{k=1}^{n} \\phi(x_k) \\psi(x_k) E(\\Delta_k) - \\left[ \\sum_{i=1}^{n} \\phi(x_i) E(\\Delta_i) \\right] \\left[ \\sum_{j=1}^{n} \\psi(x_j) E(\\Delta_j) \\right] \\right\\| \\\\& \\quad + \\left\\| \\left[ \\sum_{i=1}^{n} \\phi(x_i) E(\\Delta_i) \\right] \\left[ \\sum_{j=1}^{n} \\psi(x_j) E(\\Delta_j) \\right] - \\left( \\int \\phi   dE \\right) \\left( \\int \\psi   dE \\right) \\right\\|.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.412,
+            0.869,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta _ { i } ) E ( \\Delta _ { j } ) = E ( \\Delta _ { i } \\cap \\Delta _ { j } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { 1 } , \\ldots , \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a partition. So the middle term in this sum is zero. Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.168,
+            0.456,
+            0.817,
+            0.601
+          ],
+          "image_path": "images/page_273_equation_7.jpg",
+          "content": "\\begin{align*}& \\left\\| \\int \\phi \\psi   dE - \\left( \\int \\phi   dE \\right) \\left( \\int \\phi dE \\right) \\right\\| \\\\& \\quad \\leqslant \\varepsilon + \\left\\| \\left[ \\sum_{i=1}^{n} \\phi(x_i) E(\\Delta_i) \\right] \\left[ \\sum_{j=1}^{n} \\psi(x_j) E(\\Delta_j) - \\int \\psi dE \\right] \\right\\| \\\\& \\quad + \\left\\| \\left[ \\sum_{i=1}^{n} \\phi(x_i) E(\\Delta_i) - \\int \\phi dE \\right] \\left[ \\int \\psi dE \\right] \\right\\| \\leqslant \\varepsilon [1 + \\| \\phi \\| + \\| \\psi \\|].\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.608,
+            0.601,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since ε was arbitrary, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int \\phi \\psi   d E = ( \\int \\phi   d E ) ( \\int \\psi   d E )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.642,
+            0.871,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.13. Corollary. If X is a compact Hausdroff space and E is a spectral measure defined on the Borel subsets of X, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho : C ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u ) = \\int"
+            },
+            {
+              "type": "text",
+              "content": " udE is a representation of C(X)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.715,
+            0.871,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next result is the main result of this section and it states that the converse to the preceding corollary holds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.77,
+            0.871,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.14. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\rho : C ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation, there is a unique spectral measure E defined on the Borel subsets of X such that for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " and h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { g , h }"
+            },
+            {
+              "type": "text",
+              "content": " is a regular measure and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.436,
+            0.83,
+            0.566,
+            0.873
+          ],
+          "image_path": "images/page_273_equation_12.jpg",
+          "content": "\\rho ( u ) = \\int u d E"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.882,
+            0.331,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for every u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\left( X \\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.908,
+            0.873,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. The idea of the proof is similar to the idea of the proof of the Riesz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 274,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "260"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.505,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.871,
+            0.227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Representation Theorem for linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . We wish to extend "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " to a representation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } \\colon B ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } \\mathtt { - a l g e b r a }"
+            },
+            {
+              "type": "text",
+              "content": " of bounded Borel functions. The measure E of a Borel set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " is then defined by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = \\tilde { \\rho } ( \\chi _ { \\Delta } )"
+            },
+            {
+              "type": "text",
+              "content": " In fact, it is possible to give a proof of the theorem patterned on the proof of the Riesz Representation Theorem. Here, however, the proof will use the Riesz Representation Theorem to simplify the technical details."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.229,
+            0.871,
+            0.268
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g , h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\mapsto \\langle \\rho ( u ) g , h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a linear functional on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " with norm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leqslant \\| g \\| \\| \\boldsymbol { h } \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Hence there is a unique measure, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { g , h }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.286,
+            0.175,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.15"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.396,
+            0.273,
+            0.604,
+            0.316
+          ],
+          "image_path": "images/page_274_equation_5.jpg",
+          "content": "\\langle \\rho ( u ) g , h \\rangle = \\int u d \\mu _ { g , h }"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.323,
+            0.872,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) ."
+            },
+            {
+              "type": "text",
+              "content": " It is easy to verify that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( g , h )   \\mapsto   \\mu _ { g , h }"
+            },
+            {
+              "type": "text",
+              "content": " is sesquilinear (use uniqueness) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\mu _ { g , h } \\| \\leqslant \\| g \\|   \\| h \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Now fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in B(X) and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ g , h ] = \\int \\phi   d \\mu _ { g , h } ."
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\cdot , \\cdot ]"
+            },
+            {
+              "type": "text",
+              "content": " is a sesquilinear form and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| [ g , h ] | \\leqslant \\| \\phi \\|   \\| g \\|   \\| h \\|"
+            },
+            {
+              "type": "text",
+              "content": " Hence there is a unique bounded operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ g , h ] = \\langle A g , h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| \\leqslant \\| \\phi \\|"
+            },
+            {
+              "type": "text",
+              "content": " (II.2.2). Denote the operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi )"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } \\colon B ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is a well-defined function, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\tilde { \\rho } ( \\phi ) \\| \\leqslant \\| \\phi \\|"
+            },
+            {
+              "type": "text",
+              "content": " , and for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g , h"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.456,
+            0.175,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.16"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.39,
+            0.442,
+            0.609,
+            0.485
+          ],
+          "image_path": "images/page_274_equation_8.jpg",
+          "content": "\\langle   \\tilde { \\rho } ( \\phi ) g , h   \\rangle = \\int   \\phi   d \\mu _ { g , h } ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.502,
+            0.767,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.17. Claim. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } \\colon B ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } | C ( X ) = \\rho ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.539,
+            0.872,
+            0.704
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( u ) = \\rho ( u )"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u   \\in   C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " follows immediately from (1.15) and (1.16). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " as an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X ) ^ { * } ( = C ( X ) ^ { * * } ) ."
+            },
+            {
+              "type": "text",
+              "content": " ; that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " corresponds to the linear functional "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\mapsto } { \\int } \\phi   d \\mu ."
+            },
+            {
+              "type": "text",
+              "content": " By Proposition V.4.1, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u { \\in } C ( X ) { : } \\| u \\| \\leqslant \\| \\phi \\| \\}"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( M ( X ) ^ { * } ,   M ( X ) )"
+            },
+            {
+              "type": "text",
+              "content": " dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ L { \\in } M ( X ) ^ { * } { : } \\| L \\| \\leqslant \\| \\phi \\| \\}"
+            },
+            {
+              "type": "text",
+              "content": " Thus there is a net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| u _ { i } \\| \\leqslant \\| \\phi \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   u _ { i }   d \\mu   \\to   \\int   \\phi   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi   \\in   B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi \\mu { \\in } M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X ) ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   u _ { i } \\psi   d \\mu   \\to   \\int   \\phi \\psi   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every ψ in B(X) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in M(X). By "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 . 1 6 ) ,   \\tilde { \\rho } ( u _ { i } \\psi )   \\rightarrow   \\tilde { \\rho } ( \\dot { \\phi } \\psi )   ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " in B(X). In particular, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi   \\in   C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi \\psi ) = \\mathrm { W O T } - \\lim \\tilde { \\rho } ( u _ { i } \\psi ) = \\mathrm { W O T } - \\lim \\rho ( u _ { i } ) \\rho ( \\psi ) = \\tilde { \\rho } ( \\phi ) \\rho ( \\psi )"
+            },
+            {
+              "type": "text",
+              "content": " . That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.414,
+            0.711,
+            0.585,
+            0.73
+          ],
+          "image_path": "images/page_274_equation_11.jpg",
+          "content": "\\tilde { \\rho } ( \\phi \\psi ) = \\tilde { \\rho } ( \\phi ) \\rho ( \\psi )"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.737,
+            0.872,
+            0.794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi \\in C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( u _ { i } \\psi ) = \\rho ( u _ { i } ) \\tilde { \\rho } ( \\psi )"
+            },
+            {
+              "type": "text",
+              "content": " for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( u _ { i } )   \\rightarrow   \\tilde { \\rho } ( \\phi )"
+            },
+            {
+              "type": "text",
+              "content": " (WOT) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( u _ { i } \\psi )   \\rightarrow   \\tilde { \\rho } ( \\phi \\psi ) ~ \\left( \\mathrm { W O T } \\right)"
+            },
+            {
+              "type": "text",
+              "content": " , this implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.413,
+            0.8,
+            0.585,
+            0.82
+          ],
+          "image_path": "images/page_274_equation_13.jpg",
+          "content": "\\tilde { \\rho } ( \\phi \\psi ) = \\tilde { \\rho } ( \\phi ) \\tilde { \\rho } ( \\psi )"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.828,
+            0.341,
+            0.845
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ,   \\psi   \\in   B ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.844,
+            0.872,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is linear is immediate by (1.16). To see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi ) ^ { * } = \\tilde { \\rho } ( \\bar { \\phi } )"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the net obtained in the preceding paragraph. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu { \\in } M ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " be the measure defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\mu } ( \\Delta ) = \\mu ( \\Delta )"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u _ { i } )   \\to   \\tilde { \\rho } ( \\phi )"
+            },
+            {
+              "type": "text",
+              "content": " (WOT) and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u _ { i } ) ^ { * }   \\rightarrow   \\tilde { \\rho } ( \\phi ) ^ { * } \\mathrm { ~ ( W O T ) }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int \\bar{u}_{i} d \\mu = \\int \\overline{u_{i} d \\bar{\\mu}} \\rightarrow \\int \\phi d \\bar{\\mu} = \\int \\bar{\\phi} d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every measure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 275,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.728,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Spectral Measures and Representations of Abelian C*-Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "261"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.867,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mu ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\bar { u } _ { i } )   \\rightarrow   \\tilde { \\rho } ( \\bar { \\phi } )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u _ { i } ) ^ { * } = \\rho ( \\bar { u } _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi ) ^ { * } = \\tilde { \\rho } ( \\bar { \\phi } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " is a representation."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.138,
+            0.87,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For any Borel subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta"
+            },
+            {
+              "type": "text",
+              "content": " of X let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) \\equiv \\tilde { \\rho } ( \\chi _ { \\Delta } )"
+            },
+            {
+              "type": "text",
+              "content": " . We want to show that E is a spectral measure. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi _ { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " is a hermitian idempotent in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X ) , \\; E ( \\Delta )"
+            },
+            {
+              "type": "text",
+              "content": " is a projection by (1.17). Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi _ { \\Box }   =   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi_{X}=1, E(\\Box)=0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( X ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta _ { 1 } \\cap \\Delta _ { 2 } ) = \\tilde { \\rho } ( \\chi _ { \\Delta _ { 1 } \\cap \\Delta _ { 2 } } ) = \\tilde { \\rho } ( \\chi _ { \\Delta _ { 1 } } \\chi _ { \\Delta _ { 2 } } ) = E ( \\Delta _ { 1 } ) E ( \\Delta _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " . Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a pairwise disjoint sequence of Borel sets and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda_{n}=\\bigcup_{k = n + 1}^{\\infty}\\Delta_{k}"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E"
+            },
+            {
+              "type": "text",
+              "content": " is finitely additive so if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.247,
+            0.259,
+            0.728,
+            0.438
+          ],
+          "image_path": "images/page_275_equation_4.jpg",
+          "content": "\\begin{align*}\\left\\| E \\Bigg( \\bigcup_{k=1}^{\\infty} \\Delta_k \\Bigg) h - \\sum_{k=1}^{n} E(\\Delta_k) h \\right\\|^2 &= \\langle E(\\Lambda_n) h, E(\\Lambda_n) h \\rangle \\\\&= \\langle E(\\Lambda_n) h, h \\rangle \\\\&= \\langle \\tilde{\\rho}(\\chi_{\\Lambda_n}) h, h \\rangle \\\\&= \\int \\chi_{\\Lambda_n} d\\mu_{h,h} \\\\&= \\sum_{k=n+1}^{\\infty} \\mu_{h,h}(\\Delta_k) \\to 0.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.451,
+            0.567,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\rightarrow   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore E is a spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.468,
+            0.868,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u ) = \\int u   d E"
+            },
+            {
+              "type": "text",
+              "content": " . It will be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi ) = \\int \\phi   d E"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in B(X). Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\dot { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { 1 } , \\ldots , \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is any Borel partition of X such that sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ | \\phi ( x ) - \\phi ( x ^ { \\prime } ) | : x , x ^ { \\prime } \\in \\Delta _ { k } \\right\\} < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant n ."
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\| \\phi - \\sum _ { k = 1 } ^ { n } \\phi ( x _ { k } ) \\chi _ { \\Delta _ { k } } \\| _ { \\infty } < \\varepsilon } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for any choice of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\tilde { \\boldsymbol { \\rho } } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " 2 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\varepsilon > \\| \\tilde { \\rho } ( \\phi ) - \\sum _ { k = 1 } ^ { n } \\phi ( x _ { k } ) E ( \\Delta _ { k } ) \\| } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " . This implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi ) = \\int \\phi   d E"
+            },
+            {
+              "type": "text",
+              "content": " for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in B(X)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.154,
+            0.579,
+            0.683,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the uniqueness of E is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.615,
+            0.232,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.138,
+            0.634,
+            0.368,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove Proposition 1.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.136,
+            0.659,
+            0.519,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is WOT compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.137,
+            0.685,
+            0.69,
+            0.701
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { R e } { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " are WOT and SOT closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.135,
+            0.71,
+            0.869,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L : \\mathcal { B } ( \\mathcal { H } ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear functional, show that the following statements are equivalent: (a) Lis SOT-continuous; (b) Lis WOT-continuous; (c) there are vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , \\ldots , h _ { n } , g _ { 1 } , \\ldots , g _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(A)=\\sum_{j = 1}^{n}\\langle A h_{j},g_{j}\\rangle"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.138,
+            0.77,
+            0.867,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Show that a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is WOT closed if and only if it is SOT closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.138,
+            0.796,
+            0.49,
+            0.813
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Verify the statement in Example 1.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.138,
+            0.822,
+            0.672,
+            0.839
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Verify the statements made in Examples 1.6, 1.7, and 1.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.137,
+            0.848,
+            0.87,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. For the spectral measures in (1.6), (1.7), and (1.8), give the corresponding representations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.137,
+            0.89,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathbf { E } _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net of projections and E is a projection, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { i }   \\rightarrow   E \\left( \\mathrm { W O T } \\right)"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { i }   \\rightarrow   E \\left( \\mathrm { S O T } \\right)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 276,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "262"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.508,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13,
+            0.102,
+            0.844,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. For the representation in (VIII.5.5), find the corresponding spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.126,
+            0.871,
+            0.179
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. In Example VIII.5.4, the representation is not quite covered by Theorem 1.14 since it is a representation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and not C(X). Nevertheless, this representation is given by a spectral measure defined on Ω. Find it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.186,
+            0.871,
+            0.255
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Let X be a compact Hausdorff space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and for each u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u )"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u ) e _ { n } = u ( x _ { n } ) e _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a representation and find the corresponding spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.264,
+            0.873,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. A representation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon \\mathcal { A } \\to \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is irreducible if the only projections in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " that commute with every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " are 0 and 1. Prove that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is abelian and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is an irreducible representation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Find the corresponding spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.34,
+            0.871,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Show that a representation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon C ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is injective if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( G ) \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " for every non-empty open set G, where E is the corresponding spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.382,
+            0.873,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net of hermitian operators on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and suppose that there is a hermitian operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { i }   \\leqslant   T"
+            },
+            {
+              "type": "text",
+              "content": " for all i. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\langle A _ { i } h , h \\rangle \\}"
+            },
+            {
+              "type": "text",
+              "content": " is an increasing net in R for every h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a hermitian operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { i } \\rightarrow A ( \\mathrm { W O T } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.461,
+            0.872,
+            0.513
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. Show that there is a contraction "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau : { \\mathcal { B } } ( { \\mathcal { H } } ) ^ { * * } \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( T )   =   T"
+            },
+            {
+              "type": "text",
+              "content": " for T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho : C ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation, show that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho }"
+            },
+            {
+              "type": "text",
+              "content": " in the proof of Theorem 1.14 is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\rho } ( \\phi ) = \\tau \\circ \\rho ^ { * * } ( \\phi )"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.554,
+            0.495,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Spectral Theorem"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.596,
+            0.872,
+            0.761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Spectral Theorem is a landmark in the theory of operators on a Hilbert space. It provides a complete statement about the nature and structure of normal operators. This accolade will be seen to be deserved when in Section 10 the Spectral Theorem is used to give a complete set of unitary invariants. Two operators A and B are unitarily equivalent if there is a unitary operator U such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U A U ^ { * } = B ;"
+            },
+            {
+              "type": "text",
+              "content": " in symbols, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cong B ."
+            },
+            {
+              "type": "text",
+              "content": " Using the Spectral Theorem, a (countable) set of objects is attached to a normal operator N on a (separable) Hilbert space. It is then shown that two normal operators are unitarily equivalent if and only if these objects are equal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.76,
+            0.87,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Spectral Theorem for a normal operator N on a Hilbert space with dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = d < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " says that N can be diagonalized. That is, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { d }"
+            },
+            {
+              "type": "text",
+              "content": " are the eigenvalues of N (repeated as often as their multiplicities), then the corresponding eigenvectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 1 } , e _ { 2 } , \\ldots , e _ { d }"
+            },
+            {
+              "type": "text",
+              "content": " from an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " In infinite dimensional spaces a normal operator need not have eigenvalues. For example, let N = multiplication by the independent variable on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " So an alternative formulation that can be generalized is desired."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.888,
+            0.871,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let N be normal on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = d < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { 1 } , . . . , \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " be the distinct eigenvalues of N and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " be the orthogonal projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 277,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.365,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Spectral Theorem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "263"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.718,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( N - \\lambda _ { k } ) , \\; 1 \\leqslant k \\leqslant n"
+            },
+            {
+              "type": "text",
+              "content": " . Then the Spectral Theorem says that"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.138,
+            0.162,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.428,
+            0.128,
+            0.568,
+            0.167
+          ],
+          "image_path": "images/page_277_equation_4.jpg",
+          "content": "N = \\sum _ { k   =   1 } ^ { n } \\lambda _ { k } E _ { k } ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.177,
+            0.871,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this form a generalization is possible. Rather than discuss orthogonal projections on eigenspaces (which may not exist), the concept of a spectral measure is used; rather than the sum that appears in (2.1), an integral is used. It is worth mentioning that the finite dimensional version is a corollary of the general theorem (see Exercise 4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.29,
+            0.87,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2. The Spectral Theorem. If N is a normal operator, there is a unique spectral measure E on the Borel subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.337,
+            0.295,
+            0.356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = \\int z   d E ( z ) ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.355,
+            0.74,
+            0.374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) if G is a nonempty relatively open subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) ,   E ( G ) \\neq 0 ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.373,
+            0.867,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A N = N A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A N ^ { * } = N ^ { * } A"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A E ( \\Delta ) ="
+            },
+            {
+              "type": "text",
+              "content": " E(∆)A for every ∆."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.419,
+            0.87,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = C ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ."
+            },
+            {
+              "type": "text",
+              "content": " -algebra generated by N. So  is the closure of all polynomials in N and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . By Theorem VIII.2.6, there is an isometric isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon C ( \\sigma ( N ) )   \\to   \\mathcal { A } \\subseteq \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u ) = u ( N )"
+            },
+            {
+              "type": "text",
+              "content": " (the functional calculus). By Theorem 1.14 there is a unique spectral measure E defined on the Borel subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u ) = \\int u   d E"
+            },
+            {
+              "type": "text",
+              "content": " for all u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " . In particular, (a) holds since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = \\rho ( z )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.531,
+            0.87,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If G is a nonempty relatively open subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , there is a nonzero continuous function u on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant u \\leqslant \\chi _ { G }"
+            },
+            {
+              "type": "text",
+              "content": " . Using Claim 1.17, one obtains that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( G ) = \\tilde { \\rho } ( \\chi _ { G } ) \\geqslant \\rho ( u ) \\neq 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " so (b) holds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.585,
+            0.872,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A N = N A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A N ^ { * } = N ^ { * } A"
+            },
+            {
+              "type": "text",
+              "content": " . It is not hard to see that this implies, by the Stone-Weierstrass Theorem, that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\rho ( u ) = \\rho ( u ) A"
+            },
+            {
+              "type": "text",
+              "content": " for every u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\sigma ( \\bar { N } ) ) ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A u ( N ) = u ( N ) A"
+            },
+            {
+              "type": "text",
+              "content": " for all u in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Omega } = \\left\\{ \\mathbf { \\Delta } \\mathbf { : \\Delta } \\right."
+            },
+            {
+              "type": "text",
+              "content": " is a Borel set and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AE(\\Delta) = E(\\Delta)A"
+            },
+            {
+              "type": "text",
+              "content": " . It is left to the reader to show that Ω is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma - \\mathrm { a l g e b r a }"
+            },
+            {
+              "type": "text",
+              "content": " . If G is an open set in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) ."
+            },
+            {
+              "type": "text",
+              "content": " , there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of positive continuous functions on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } ( z ) \\uparrow \\chi _ { G } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " for all z. Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.332,
+            0.719,
+            0.665,
+            0.926
+          ],
+          "image_path": "images/page_277_equation_13.jpg",
+          "content": "\\begin{aligned}\\langle   AE(G)g,h   \\rangle &= \\langle   E(G)g,A^*h   \\rangle \\\\&= E_{g,A^*h}(G) \\\\&= \\lim \\int u_n   dE_{g,A^*h} \\\\&= \\lim \\langle   u_n(N)g,A^*h   \\rangle \\\\&= \\lim \\langle   Au_n(N)g,h   \\rangle \\\\&= \\lim \\langle   u_n(N)Ag,h   \\rangle \\\\&= \\langle   E(G)Ag,h   \\rangle.\\end{aligned}"
+        }
+      ]
+    },
+    {
+      "page_idx": 278,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.057,
+            0.169,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "264"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.507,
+            0.056,
+            0.871,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.101,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So Ω contains every open set and, hence, it must be the collection of Borel sets. The converse is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.156,
+            0.872,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The unique spectral measure E obtained in the Spectral Theorem is called the spectral measure for N. An abbreviation for the Spectral Theorem is to say, \"Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = \\int \\lambda   d E ( \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " be the spectral decomposition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N . ^ { \\ast }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded Borel function on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.422,
+            0.237,
+            0.575,
+            0.28
+          ],
+          "image_path": "images/page_278_equation_4.jpg",
+          "content": "\\phi ( N ) \\equiv \\int \\phi   d E ,"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.287,
+            0.51,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where E is the spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.324,
+            0.872,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.3. Theorem. If N is a normal operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " with spectral measure E and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " is the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } - a l g e b r a"
+            },
+            {
+              "type": "text",
+              "content": " of bounded Borel functions on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , then the map"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.449,
+            0.371,
+            0.549,
+            0.39
+          ],
+          "image_path": "images/page_278_equation_7.jpg",
+          "content": "\\phi { \\mapsto } \\phi ( N )"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.397,
+            0.873,
+            0.493
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a representation of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } { - a l g e b r a }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   \\phi _ { i }   d \\mu   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i } ( N )   \\rightarrow   0 \\; \\mathrm { ( W O T ) }"
+            },
+            {
+              "type": "text",
+              "content": " . This map is unique in the sense that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau \\colon B ( \\sigma ( N ) ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( z ) = N"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( \\phi _ { i } ) \\rightarrow 0   ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   \\phi _ { i }   d \\mu   \\rightarrow   0   f o r"
+            },
+            {
+              "type": "text",
+              "content": " every µ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( \\phi ) = \\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " for all φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.499,
+            0.872,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi { \\mapsto } \\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " is a representation is a consequence of Proposition 1.12. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is as in the statement, then the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { g , h }   \\in   M ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i } ( N )   \\rightarrow   0 \\; \\mathrm { ( W O T ) }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.554,
+            0.873,
+            0.681
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove uniqueness, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau \\colon B ( \\sigma ( N ) ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " be a representation with the appropriate properties. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( u ) = u ( N )"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u   \\in   \\mathbb { C } ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " by the uniqueness of the functional calculus for normal elements of a C*-algebra (VIII.2.6). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   \\boldsymbol { B } ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " , then Proposition V.4.1 implies that there is a net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ u _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { u } _ { i } \\| \\leqslant \\| \\boldsymbol { \\phi } \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { u } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   u _ { i }   d \\mu \\to \\int   \\phi   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { i } ( N )   \\rightarrow   \\phi ( N ) \\; \\mathrm { ( W O T ) }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( \\phi ) = \\mathrm { W O T } - \\lim \\tau ( u _ { i } ) = \\mathrm { W O T } - \\lim u _ { i } ( N ) ;"
+            },
+            {
+              "type": "text",
+              "content": " therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( \\phi ) = \\phi ( N )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.152,
+            0.697,
+            0.508,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is worthwhile to rewrite (1.11) as"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.736,
+            0.165,
+            0.753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.383,
+            0.723,
+            0.613,
+            0.767
+          ],
+          "image_path": "images/page_278_equation_13.jpg",
+          "content": "\\langle \\phi ( N ) g , h \\rangle = \\int \\phi   d E _ { g , h }"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.774,
+            0.872,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g , h"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " , then the restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " . Since the support of each measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { \\pmb { g } , \\pmb { h } }"
+            },
+            {
+              "type": "text",
+              "content": " is contained in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) ,"
+            },
+            {
+              "type": "text",
+              "content": " (2.4) holds for every bounded Borel function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Phi }"
+            },
+            {
+              "type": "text",
+              "content": " This has certain technical advantages that will become apparent when we begin to apply (2.4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.866,
+            0.873,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 2.3 thus extends the functional calculus for normal operators. This functional calculus or, equivalently, the Spectral Theorem, will be exploited in this chapter. But right now we look at some examples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 279,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.055,
+            0.367,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Spectral Theorem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "265"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.87,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.5. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a regular Borel measure on C with compact support "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } f = z f"
+            },
+            {
+              "type": "text",
+              "content": " for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } ^ { * } f = \\bar { z } f ,"
+            },
+            {
+              "type": "text",
+              "content": " and, hence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " is normal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.165,
+            0.53,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N _ { \\mu } ) = K = \\mathrm { s u p p o r t }"
+            },
+            {
+              "type": "text",
+              "content": " of µ. (Exercise.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.183,
+            0.869,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If, for a bounded Borel function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ,"
+            },
+            {
+              "type": "text",
+              "content": " we define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } f = \\phi f ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N _ { \\mu } ) = M _ { \\phi }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.229,
+            0.771,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Indeed, this is an easy application of the uniqueness part of (2.3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.257,
+            0.688,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If E is the spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = M _ { \\chi _ { \\Delta } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.285,
+            0.416,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Just note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = \\chi _ { \\Delta } ( N _ { \\mu } ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.331,
+            0.866,
+            0.37
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.6. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be any σ-finite measure space and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu ) \\equiv L ^ { \\infty } ( X , \\Omega , \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } f = \\phi f ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.377,
+            0.523,
+            0.397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is normal and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } ^ { * } = M _ { \\bar { \\phi } } \\left( \\mathrm { I I } . 2 . 8 \\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.397,
+            0.618,
+            0.415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\mapsto   M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is a representation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu ) \\: ( \\mathrm { V I I I } . 5 . 4 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.415,
+            0.505,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi { \\in } L ^ { \\infty } ( \\mu ) , \\: \\|   \\phi   \\| _ { \\infty } = \\|   M _ { \\phi }   \\| \\mathrm { ~ ( I I . } 1 . 5 ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.434,
+            0.5,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) Define the essential range of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.261,
+            0.461,
+            0.73,
+            0.48
+          ],
+          "image_path": "images/page_279_equation_13.jpg",
+          "content": "\\operatorname { e s s - r a n } ( \\phi ) \\equiv \\cap \\{ \\operatorname { c l } ( \\phi ( \\Delta ) ) \\colon \\Delta   \\in   \\Omega { \\mathrm { ~ a n d ~ } } \\mu ( X \\setminus \\Delta ) = 0 \\} ."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.488,
+            0.871,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( M _ { \\phi } ) = \\mathrm { e s s - r a n } ( \\phi )"
+            },
+            {
+              "type": "text",
+              "content": " . (This appears as Exercise VII.3.3, but a proof is given here.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.526,
+            0.869,
+            0.581
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\mathrm{ess-ran}(\\phi)"
+            },
+            {
+              "type": "text",
+              "content": " . So there is a set ∆ in Ω with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( X \\backslash \\Delta ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and λ not in cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\phi ( \\Delta ) ) ;"
+            },
+            {
+              "type": "text",
+              "content": " thus there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) - \\lambda | \\geqslant \\delta"
+            },
+            {
+              "type": "text",
+              "content": " for all x in ∆. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi = ( \\phi - \\lambda ) ^ { - 1 } , \\psi \\in L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\psi } = ( M _ { \\phi } - \\lambda ) ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.581,
+            0.869,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conversely, assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathrm{ess-ran}(\\phi)"
+            },
+            {
+              "type": "text",
+              "content": " .It follows that for every integer n there is a set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in Ω such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\mu ( \\Delta _ { n } ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) - \\lambda | < 1 / n"
+            },
+            {
+              "type": "text",
+              "content": " for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{Put} f_{n} = (\\mu(\\Delta_{n}))^{-1/2} \\chi_{\\Delta_{n}}; \\mathrm{so} f_{n} \\in L^{2}(\\mu)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { n } \\| _ { 2 } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| ( M _ { \\phi } - \\lambda ) f _ { n } \\| _ { 2 } ^ { 2 } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\mu ( \\Delta _ { n } ) \\right) ^ { - 1 } \\int _ { \\Delta _ { n } } | \\phi - \\lambda | ^ { 2 } \\hat { d } \\mu \\leqslant 1 / n ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , showing that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } \\sigma _ { a p } ( M _ { \\phi } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.128,
+            0.661,
+            0.87,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) If E is the spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " [so E is defined on the Borel subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( M _ { \\phi } ) = \\mathrm { e s s - r a n } ( \\phi ) \\subseteq \\mathbb { C } ["
+            },
+            {
+              "type": "text",
+              "content": " , then for every Borel subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( M _ { \\phi } )"
+            },
+            {
+              "type": "text",
+              "content": " 2 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = M _ { \\chi _ { \\phi ^ { - 1 } ( \\Delta ) } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.743,
+            0.869,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.7. Proposition. If for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geqslant 1 , N _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " is a normal operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { s u p } _ { \\boldsymbol { k } } \\| \\boldsymbol { N } _ { \\boldsymbol { k } } \\| < \\infty , \\; E _ { \\boldsymbol { k } }"
+            },
+            {
+              "type": "text",
+              "content": " is the spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " , and if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = \\oplus _ { k = 1 } ^ { \\infty } N _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\oplus _ { k = 1 } ^ { \\infty } \\mathcal { H } _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " , then:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.126,
+            0.807,
+            0.4,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) = \\mathrm { c l } \\left[ \\bigcup _ { k = 1 } ^ { \\infty } \\sigma ( N _ { k } ) \\right] ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.125,
+            0.826,
+            0.869,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) if E is the spectral measure for N, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = \\oplus _ { k = 1 } ^ { \\infty } E _ { k } ( \\Delta \\cap \\sigma ( N _ { k } ) )"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel subset ∆ of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.127,
+            0.873,
+            0.297,
+            0.89
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.152,
+            0.908,
+            0.87,
+            0.928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A historical account of the spectral theorem is an enormous undertaking"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

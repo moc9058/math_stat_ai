@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 109,
+  "model": "gpt-6-astra",
+  "seconds": 13.09,
+  "input_tokens": 3293,
+  "output_tokens": 361,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"\\\\|\\\\!\\\\|m+n\\\\|\\\\!\\\\|\",\n      \"correction\": \"\\\\lvert\\\\!\\\\lVert m+n\\\\rVert\\\\!\\\\rvert\",\n      \"note\": \"The image uses triple-bar norm delimiters, not two double-bar delimiters.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

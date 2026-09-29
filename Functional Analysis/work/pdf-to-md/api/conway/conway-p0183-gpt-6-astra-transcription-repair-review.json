@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 183,
+  "model": "gpt-6-astra",
+  "seconds": 14.02,
+  "input_tokens": 3337,
+  "output_tokens": 348,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"A^{**}:\\\\mathcal X^{**}\\\\to\\\\mathcal Y^{**}\",\n      \"correction\": \"A^{**}:\\\\mathcal X^{**}\\\\to\\\\mathcal Y^{**},\",\n      \"note\": \"Missing comma after the displayed mapping; otherwise no substantive discrepancies found.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

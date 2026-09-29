@@ -1,0 +1,45 @@
+It is not difficult to see that for $w _ { 0 }$ in $\mathbf { C } \backslash K$
+
+$$
+\left( \frac{d}{dw} \right)^n \hat{\mu}(w_0) = n! \int (z - w_0)^{-n-1} d\mu(z).
+$$
+
+Also, we can easily find the power series expansion of $\hat { \mu }$ at infinity. Indeed,
+
+$$
+\hat { \mu } ( w ) = \int \frac { 1 } { z - w } d \mu ( z ) = - \frac { 1 } { w } \int \left( 1 - \frac { z } { w } \right) ^ { - 1 } d \mu ( z ) .
+$$
+
+Choose w near enough to infinity that $| z / w | < 1$ for all $z$ in K. Then
+
+## 8.4
+
+$$
+\begin{align*}\hat{\mu}(w) = & - \frac{1}{w} \sum_{n = 0}^{\infty} \int \left( \frac{z}{w} \right)^n d\mu(z) \\= & - \sum_{n = 0}^{\infty} \frac{a_n}{w^{n + 1}},\end{align*}
+$$
+
+where $a _ { n } = \int z ^ { n } d \mu ( z ) .$
+
+Now assume $\mu { \in } M ( K )$ and $\int   g   d \mu = 0$ for every rational function $g$ with poles in E. Let U be a component of $\mathbf { C } _ { \infty } \backslash K ,$ and let $w _ { 0 } { \in } E \cap U$ . If $w _ { 0 } \neq \infty$ then the hypothesis and (8.3) imply that each derivative of $\hat { \mu }$ at $w _ { 0 }$ vanishes. Hence $\hat { \mu } \equiv 0$ on U. If $w _ { 0 } = \infty$ , then (8.4) implies $\hat { \mu } \equiv 0$ on U. Thus $\hat { \mu } \equiv 0$ on $\mathbb { C } _ { \infty } \backslash K$
+
+If f is analytic on an open set G containing K, let $\gamma _ { 1 } , \ldots , \gamma _ { n }$ be straight-line segments in $G \backslash K$ such that
+
+$$
+f(z) = \sum_{k = 1}^{n} \frac{1}{2\pi i} \int_{\gamma_{k}} \frac{f(w)}{w - z} dw
+$$
+
+for all $z$ in K. (See p. 195 of Conway [1978].) Thus
+
+$$
+\begin{align*}\int_{K} f(z) d\mu(z) &= \sum_{k=1}^{n} \frac{1}{2\pi i} \int_{K} \int_{\gamma_k} \frac{f(w)}{w-z} dw d\mu(z) \\&= - \sum_{k=1}^{n} \frac{1}{2\pi i} \int_{\gamma_k} f(w) \hat{\mu}(w) dw\end{align*}
+$$
+
+by Fubini's Theorem. But $\hat { \mu } ( w ) = 0$ on $\gamma _ { k } ~ ( \in \pmb { \mathbb { C } } \backslash K )$ so $\int f   d \mu = 0$ By (6.13), $f   \in   R ( K , E )$ . This proves Runge's Theorem.
+
+8.5. Corollary. If K is compact and $\mathbf { C } \backslash K$ is connected and if f is analytic in a neighborhood of K, then there is a sequence of polynomials that converges to f uniformly on K.
+
+## EXERCISES
+
+1. Let $\mu$ be a compactly supported measure on C that is boundedly absolutely continuous with respect to area measure. Show that $\hat { \mu }$ is continuous on $\mathbf { C } _ { \infty } ,$
+
+2. Let m = Lebesgue measure on [0, 1]. Show that m is not continuous at any point of [0, 1].

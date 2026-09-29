@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "page_idx": 299,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.13,
+            0.056,
+            0.59,
+            0.073
+          ],
+          "content": "§8. The Functional Calculus for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": "285"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.385,
+            0.097,
+            0.65,
+            0.171
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_299_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.177,
+            0.652,
+            0.194
+          ],
+          "content": "commutes. Find the corresponding injection $Y / { \\sim } \\to X .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.203,
+            0.87,
+            0.255
+          ],
+          "content": "12. If X is any compact metric space, show that there is a totally disconnected compact metric space Y and a continuous surjection $\\phi \\colon Y   \\to   X$ . (Hint: Start by embedding C(X) into $\\mathcal { B } ( \\mathcal { H } )$ and use Exercises 7 and 8.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.262,
+            0.871,
+            0.332
+          ],
+          "content": "13. Show that every totally disconnected compact metric space is the continuous image of the Cantor ternary set. (Do this directly; do not try to use $C^{*} -algebrs.$ Combine this with Exercise 12 to get that every compact metric space is the continuous image of the Cantor set."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.339,
+            0.869,
+            0.375
+          ],
+          "content": "14. If  is an abelian von Neumann algebra and X is its maximal ideal space, then X is a Stonean space; that is, if U is open in X, then cl U is open in X."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.381,
+            0.871,
+            0.518
+          ],
+          "content": "15. This exercise assumes Exercise 2.21 where it was proved that $\\mathcal { B } _ { 1 } ^ { * } = \\mathcal { B } .$ When referring to the weak\\* topology on $\\mathcal { B } = \\mathcal { B } ( \\mathcal { H } )$ , we mean the topology  has as the Banach dual of $\\mathcal { B } _ { 1 }$ (a) Show that on bounded subsets of $\\pmb { \\mathscr { B } }$ the $\\mathbf { w e a k ^ { * } }$ topology = WOT. (b) Show that a C\\*-subalgebra of $\\mathcal { B } ( \\mathcal { H } )$ is von Neumann algebra if and only if $\\varkappa$ is weak\\* closed. (c) Show that WOT and the weak\\* topology agree on abelian von Neumann algebras (See Takeda [1951] and Pallu de la Barrière [1954].) (d) Give an example of a weak\\* closed subspace of  that is not WOT closed. (See von Neumann [1936].)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.525,
+            0.508,
+            0.543
+          ],
+          "content": "16. Prove the converse of Proposition 7.6."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.595,
+            0.849,
+            0.642
+          ],
+          "level": 2,
+          "content": "§8. The Functional Calculus for Normal Operators: The Conclusion of the Saga"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.659,
+            0.579,
+            0.678
+          ],
+          "level": 2,
+          "content": "In this section it will always be assumed that"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.34,
+            0.687,
+            0.656,
+            0.705
+          ],
+          "level": 2,
+          "content": "all Hilbert spaces are separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.713,
+            0.871,
+            0.768
+          ],
+          "content": "Indeed, this assumption will remain in force for the rest of the chapter. This assumption is necessary for the validity of some of the results and minimizes the technical details in others."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.769,
+            0.872,
+            0.844
+          ],
+          "content": "If N is a normal operator on $\\mathcal { H }$ , let $W ^ { * } ( N )$ be the von Neumann algebra generated by N. That is, $W ^ { * } ( N )$ is the intersection of all of the von Neumann algebras containing N. Hence $W ^ { * } ( N )$ is the WOT closure of $\\left\\{ p ( N , N ^ { * } ) : p ( z , \\bar { z } ) \\right.$ is a polynomial in z and $\\bar { z } \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.86,
+            0.87,
+            0.898
+          ],
+          "content": "8.1. Proposition. If N is a normal operator, then $W ^ { * } ( N ) = \\{ N \\} ^ { \\prime \\prime } \\supseteq \\{ \\phi ( N ) :$ $\\phi   \\in   B ( \\sigma ( N ) )   \\big \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.905,
+            0.871,
+            0.925
+          ],
+          "content": "ProoF. The equality results from combining the Double Commutant"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 299,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

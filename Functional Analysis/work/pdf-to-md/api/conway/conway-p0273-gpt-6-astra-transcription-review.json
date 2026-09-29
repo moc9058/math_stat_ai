@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 273,
+  "model": "gpt-6-astra",
+  "seconds": 11.28,
+  "input_tokens": 3270,
+  "output_tokens": 236,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"Define $B(g,h)=\\\\int\\\\phi\\\\,dE_{g,h}$\",\n      \"correction\": \"Define $B(g,h)\\\\equiv\\\\int\\\\phi\\\\,dE_{g,h}$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

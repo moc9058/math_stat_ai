@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 154,
+  "model": "gpt-6-astra",
+  "seconds": 13.6,
+  "input_tokens": 3519,
+  "output_tokens": 347,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"V^{-1}g=g|X\",\n      \"correction\": \"V^{-1}g=|X\",\n      \"note\": \"The image omits g before the restriction bar; the candidate silently repairs an apparent source typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

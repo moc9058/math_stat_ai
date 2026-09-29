@@ -1,0 +1,9 @@
+{
+  "book": "Brezis",
+  "pdf_page": 21,
+  "model": "gpt-6-astra",
+  "seconds": 9.96,
+  "input_tokens": 3011,
+  "output_tokens": 352,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"$B ( 0 , r ) \\\\subset C ;$ ; we clearly have\",\n      \"correction\": \"$B(0,r) \\\\subset C$; we clearly have\"\n    },\n    {\n      \"candidate_fragment\": \"$(1 - \\\\alpha) 0 \\\\in C$ Proof of(2).\",\n      \"correction\": \"$(1 - \\\\alpha)0 \\\\in C$.\\n\\nProof of (2).\"\n    },\n    {\n      \"candidate_fragment\": \"$p(x+y)<p(x)+p(y)+2\\\\varepsilon,\\\\forall\\\\varepsilon>0$\",\n      \"correction\": \"$p(x+y)<p(x)+p(y)+2\\\\varepsilon,\\\\ \\\\forall\\\\varepsilon>0$.\"\n    },\n    {\n      \"candidate_fragment\": \"with x0 $\\\\notin C .$\",\n      \"correction\": \"with $x_0 \\\\notin C$.\"\n    }\n  ],\n  \"uncertain_regions\": [\n    {\n      \"candidate_fragment\": \"[inline figure]\",\n      \"note\": \"The image shows regions labeled A and B separated by a line labeled H. The placeholder does not establish whether this diagram and its labels are preserved.\"\n    }\n  ]\n}"
+}

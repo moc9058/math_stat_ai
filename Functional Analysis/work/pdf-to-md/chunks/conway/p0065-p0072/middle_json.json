@@ -1,0 +1,5670 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 64,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 65,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 66,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 67,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 68,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 69,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 70,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 71,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 64,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.057,
+            0.16,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "50"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.589,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.87,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where λ is a given complex number, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q { \\in } C [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , together with the boundary conditions"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.162,
+            0.165,
+            0.179
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.2"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.382,
+            0.146,
+            0.618,
+            0.19
+          ],
+          "image_path": "images/page_64_equation_4.jpg",
+          "content": "\\left\\{ \\begin{aligned} (a) \\alpha h(a) + \\alpha_{1} h^{\\prime}(a) &= 0 \\\\ (b) \\beta h(b) + \\beta_{1} h^{\\prime}(b) &= 0 \\end{aligned} \\right."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.197,
+            0.807,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,   \\alpha _ { 1 } ,   \\beta ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " are real numbers and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^{2}+\\alpha _{1}^{2}>0,\\beta ^{2}+\\beta _{1}^{2}>0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.217,
+            0.872,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Equation (6.1) together with the boundary conditions (6.2) is called a (regular) Sturm-Liouville system. Such systems arise in a number of physical problems, including the description of the motion of a vibrating string. In this section we will discuss solutions of the Sturm–Liouville system by relating the system to a certain compact self-adjoint integral operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.309,
+            0.871,
+            0.347
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that an absolutely continuous function h on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " has a derivative a.e. and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(x) = \\int_{a}^{x} h^{\\prime}(t)   dt + h(a)"
+            },
+            {
+              "type": "text",
+              "content": " for all x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.155,
+            0.346,
+            0.228,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.265,
+            0.367,
+            0.73,
+            0.388
+          ],
+          "image_path": "images/page_64_equation_9.jpg",
+          "content": "\\mathcal { D } _ { a } \\equiv \\{ h \\in C _ { \\mathbb { C } } ^ { ( 1 ) } [ a , b ] \\colon h ^ { \\prime } \\mathrm { ~ i s ~ a b s o l u t e l y ~ c o n t i n u o u s } ,"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.328,
+            0.39,
+            0.672,
+            0.41
+          ],
+          "image_path": "images/page_64_equation_10.jpg",
+          "content": "h ^ { \\prime \\prime } \\in L ^ { 2 } [ a , b ] , \\mathrm { a n d } h \\mathrm { s a t i s f i e s } ( 6 . 2 a ) \\} ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.417,
+            0.871,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " is defined similarly but each h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " satisfies (6.2b) instead of (6.2a). The space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } = \\mathcal { D } _ { a } \\cap \\mathcal { D } _ { b }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.154,
+            0.454,
+            0.415,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\colon { \\mathcal { D } }   \\to   L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.483,
+            0.165,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.3"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.419,
+            0.481,
+            0.579,
+            0.5
+          ],
+          "image_path": "images/page_64_equation_14.jpg",
+          "content": "L h = - h ^ { \\prime \\prime } + q h ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.509,
+            0.507,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "L is called a Sturm-Liouville operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.528,
+            0.871,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear space and L is a linear transformation. The Sturm-Liouville problem thus becomes: if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , is there an h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\lambda ) h = f"
+            },
+            {
+              "type": "text",
+              "content": " . Equivalently, for which λ is f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { r a n } ( L - \\lambda ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.126,
+            0.582,
+            0.871,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By placing a suitable norm on , L can be made into a bounded operator. This does not help much. The best procedure is to consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\lambda ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " Integration is the inverse of differentiation, and it turns out that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\lambda ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " (when we can define it) is an integral operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.126,
+            0.653,
+            0.872,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Begin by considering the case when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   =   0 ."
+            },
+            {
+              "type": "text",
+              "content": " (Equivalently, replace q by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q - \\lambda . )"
+            },
+            {
+              "type": "text",
+              "content": " To define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " (even if only on the range of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ) ,"
+            },
+            {
+              "type": "text",
+              "content": " we need that L is injective. Thus we make an assumption;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.718,
+            0.166,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.315,
+            0.717,
+            0.681,
+            0.736
+          ],
+          "image_path": "images/page_64_equation_20.jpg",
+          "content": "\\mathrm { i f } ~ h \\in \\mathcal { D } \\quad \\mathrm { a n d } \\quad L h = 0 , \\quad \\mathrm { t h e n } \\quad h = 0 ."
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.126,
+            0.745,
+            0.871,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first lemma is from ordinary differential equations and says that certain initial-value problems have nontrivial (nonzero) solutions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.124,
+            0.799,
+            0.872,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.5. Lemma. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\alpha _ { 1 } , \\beta , \\beta _ { 1 } \\in \\mathbb { R } , \\alpha ^ { 2 } + \\alpha _ { 1 } ^ { 2 } > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta ^ { 2 } + \\beta _ { 1 } ^ { 2 } > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , then there are functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a } ,   h _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { a } , \\mathcal { D } _ { b } ,"
+            },
+            {
+              "type": "text",
+              "content": " respectively, such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( h _ { a } ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( h _ { b } ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a } , h _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " are real-valued and not identically zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.155,
+            0.873,
+            0.584,
+            0.892
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Wronskian of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " is the function"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.342,
+            0.898,
+            0.658,
+            0.944
+          ],
+          "image_path": "images/page_64_equation_24.jpg",
+          "content": "W = \\det \\begin{bmatrix} h_a & h_b \\\\ h_a' & h_b' \\end{bmatrix} = h_a h_b' - h_a' h_b."
+        }
+      ]
+    },
+    {
+      "page_idx": 65,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.536,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. An Application: Sturm–Liouville Systems"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "51"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.867,
+            0.136
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { \\prime } = h _ { a } h _ { b } ^ { \\prime \\prime } - h _ { a } ^ { \\prime \\prime } h _ { b } = h _ { a } ( q h _ { b } ) - ( q h _ { a } ) h _ { b } = 0"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ( x ) \\equiv W ( a )"
+            },
+            {
+              "type": "text",
+              "content": " for all x."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.155,
+            0.862,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.6. Lemma. Assuming (6.4), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ( a ) \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " are linearly independent."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.182,
+            0.867,
+            0.257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ( a ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then linear algebra tells us that the column vectors in the matrix used to define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ( a )"
+            },
+            {
+              "type": "text",
+              "content": " are linearly dependent. Thus there is a λ in R such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { b } ( a ) = \\lambda h _ { a } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{b}^{\\prime}(a)=\\lambda h_{a}^{\\prime}(a)"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { b } \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( h _ { b } )   =   0"
+            },
+            {
+              "type": "text",
+              "content": " .By (6.4), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { b }   \\equiv   0 ."
+            },
+            {
+              "type": "text",
+              "content": " , contradiction. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.154,
+            0.273,
+            0.66,
+            0.293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = -   W ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\colon [ a , b ] \\times [ a , b ] \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.313,
+            0.165,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.7"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.296,
+            0.3,
+            0.697,
+            0.344
+          ],
+          "image_path": "images/page_65_equation_7.jpg",
+          "content": "g ( x , y ) = \\left\\{ \\begin{aligned} { c ^ { - 1 } h _ { a } ( x ) h _ { b } ( y ) } & { { } \\quad \\mathrm { i f } a \\leqslant x \\leqslant y \\leqslant b } \\\\ { c ^ { - 1 } h _ { a } ( y ) h _ { b } ( x ) } & { { } \\quad \\mathrm { i f } a \\leqslant y \\leqslant x \\leqslant b . } \\end{aligned} \\right."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.352,
+            0.548,
+            0.371
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The function g is the Green function for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.389,
+            0.87,
+            0.427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.8. Lemma. The function g defined in (6.7) is real-valued, continuous, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( x , y ) = g ( y , x )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.435,
+            0.295,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.471,
+            0.869,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.9. Theorem. Assume (6.4). If g is the Green function for L defined in (6.7) and G: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ] \\to L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " is the integral operator defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.367,
+            0.516,
+            0.63,
+            0.56
+          ],
+          "image_path": "images/page_65_equation_12.jpg",
+          "content": "( G f ) ( x ) = \\int _ { a } ^ { b } g ( x , y ) f ( y ) d y ,"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.567,
+            0.869,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "then G is a compact self-adjoint operator, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\mathcal { D } , \\; L G f = f   f o r"
+            },
+            {
+              "type": "text",
+              "content": " all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G L h = h"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.612,
+            0.871,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. That G is self-adjoint follows from the fact that g is real-valued and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( x , y ) = g ( y , x ) ;"
+            },
+            {
+              "type": "text",
+              "content": " G is compact by (4.7). Fix f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = G f"
+            },
+            {
+              "type": "text",
+              "content": " . It must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { D }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.156,
+            0.667,
+            0.2,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Put"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.185,
+            0.69,
+            0.791,
+            0.735
+          ],
+          "image_path": "images/page_65_equation_16.jpg",
+          "content": "H _ { a } ( x ) = c ^ { - 1 } \\int _ { a } ^ { x } h _ { a } ( y ) f ( y ) d y \\quad \\mathrm { a n d } \\quad H _ { b } ( x ) = c ^ { - 1 } \\int _ { x } ^ { b } h _ { b } ( y ) f ( y ) d y."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.129,
+            0.747,
+            0.188,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.202,
+            0.781,
+            0.746,
+            0.877
+          ],
+          "image_path": "images/page_65_equation_18.jpg",
+          "content": "\\begin{align*}h(x) &= \\int_{a}^{b} g(x,y) f(y) dy \\\\&= c^{-1} \\int_{a}^{x} h_a(y) h_b(x) f(y) dy + c^{-1} \\int_{x}^{b} h_a(x) h_b(y) f(y) dy.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.884,
+            0.871,
+            0.94
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = H _ { a } h _ { b } + h _ { a } H _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " Differentiating this equation gives "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime } = ( c ^ { - 1 } h _ { a } f ) h _ { b } +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H_{a}h_{b}^{\\prime}+h_{a}^{\\prime}H_{b}+h_{a}(-c^{-1}h_{b}f)=H_{a}h_{b}^{\\prime}+h_{a}^{\\prime}H_{b}"
+            },
+            {
+              "type": "text",
+              "content": " a.e. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " is absolutely continuous, as part of showing that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } { \\mathcal { D } }"
+            },
+            {
+              "type": "text",
+              "content": " we want to show the following."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 66,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.157,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "52"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.055,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.487,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Claim. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime } = H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " everywhere."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.136,
+            0.867,
+            0.209
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( x ) = h ( a ) + \\int _ { a } ^ { x } \\phi ( y ) d y ."
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " are absolutely continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( a ) = \\psi ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime } = \\psi ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " a.e. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\psi"
+            },
+            {
+              "type": "text",
+              "content": " everywhere. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " has a continuous derivative "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ,"
+            },
+            {
+              "type": "text",
+              "content": " so h does too. That is, the claim is proved."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.209,
+            0.864,
+            0.264
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Differentiating "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime } = H _ { a } h _ { b } ^ { \\prime } + h _ { a } ^ { \\prime } H _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " gives that a.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime \\prime } = ( c ^ { - 1 } h _ { a } f ) h _ { b } ^ { \\prime } + H _ { a } h _ { b } ^ { \\prime \\prime } +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a } ^ { \\prime \\prime } H _ { b } + h _ { a } ^ { \\prime } ( - c ^ { - 1 } h _ { b } f ) ;"
+            },
+            {
+              "type": "text",
+              "content": " since each of these summands belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { h ^ { \\prime \\prime } } \\in L ^ { 2 } [ a , b ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.265,
+            0.866,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { a } ( a ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a } \\in \\mathcal { D } _ { a } ,   \\alpha h ( a ) + \\alpha _ { 1 } h ^ { \\prime } ( a ) = \\alpha h _ { a } ( a ) H _ { b } ( a ) + \\alpha _ { 1 } h _ { a } ^ { \\prime } ( a ) H _ { b } ( a ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\alpha h _ { a } ( a ) + \\alpha _ { 1 } h _ { a } ^ { \\prime } ( a ) ] H _ { b } ( a ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { D } _ { a }"
+            },
+            {
+              "type": "text",
+              "content": " Similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { D } _ { b }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " Hence ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\subseteq { \\mathcal { D } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.32,
+            0.863,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L G f = f"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = G f , L ( h ) = - h ^ { \\prime \\prime } + q h = - ( c ^ { - 1 } h _ { a } h _ { b } ^ { \\prime } f +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H_{a}h_{b}^{\\prime\\prime}+h_{a}^{\\prime\\prime}H_{b}-c^{-1}h_{a}^{\\prime}h_{b}f]+q(H_{a}h_{b}+h_{a}H_{b})=(-h_{b}^{\\prime\\prime}+qh_{b})H_{a}+(-h_{a}^{\\prime\\prime}+qh_{a})H_{b}+"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { - 1 } ( h _ { a } ^ { \\prime } h _ { b } - h _ { a } h _ { b } ^ { \\prime } ) f = f"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( h _ { a } ) = L ( h _ { b } ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { a } ^ { \\prime } h _ { b } - h _ { a } h _ { b } ^ { \\prime } = W = c ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.375,
+            0.865,
+            0.413
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } { \\mathcal { D } }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h { \\in } L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " . So by the first part of the proof, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L G L h = L h"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = L ( G L h - h )"
+            },
+            {
+              "type": "text",
+              "content": " . Since ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L = ( 0 ) ,   h = G L h"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\operatorname { r a n } G ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.429,
+            0.865,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.10. Corollary. Assume (6.4). "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f h \\in \\mathcal { D } , \\lambda \\in \\mathfrak { C } \\backslash \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h = \\lambda h"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G h = \\lambda ^ { - 1 } h ."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   h \\in L^2[a,b]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G h = \\lambda ^ { - 1 } h"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } { \\mathcal { D } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h = \\lambda h"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.475,
+            0.564,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. This is immediate from the theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.512,
+            0.849,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.11. Lemma. Assume (6.4). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha   \\in   \\sigma _ { p } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( G - \\alpha ) = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.539,
+            0.866,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Suppose there are linearly independent functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( G - \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": " By (6.10), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are solutions of the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.39,
+            0.584,
+            0.607,
+            0.602
+          ],
+          "image_path": "images/page_66_equation_12.jpg",
+          "content": "- h ^ { \\prime \\prime } + ( q - \\alpha ^ { - 1 } ) h = 0 ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.123,
+            0.611,
+            0.869,
+            0.704
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since this is a second-order linear differential equation, every solution of it must be a linear combination of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } ,   h _ { 2 }   \\in   \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " so they satisfy (6.2). But a solution can be found to this equation satisfying any initial conditions at a—and thus not satisfying (6.2). This contradiction shows that linearly independent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } ,   h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( G - \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": " cannot be found."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.72,
+            0.869,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.12. Theorem. Assume (6.4). Then there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " of real numbers and a basis "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , e _ { 2 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.766,
+            0.488,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < | \\lambda _ { 1 } | < | \\lambda _ { 2 } | < \\cdots  { a n d } | \\lambda _ { n } | \\to \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.786,
+            0.452,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L e _ { n } = \\lambda _ { n } e _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.127,
+            0.802,
+            0.869,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { I } f \\lambda \\neq \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a unique h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Lh - \\lambda h = f"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.125,
+            0.838,
+            0.874,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If \\lambda = \\lambda_n for"
+            },
+            {
+              "type": "text",
+              "content": " some n and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Lh - \\lambda h = f"
+            },
+            {
+              "type": "text",
+              "content": " if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\langle f, e_n \\rangle = 0. If \\langle f, e_n \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " , any two solutions of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h - \\lambda h = f"
+            },
+            {
+              "type": "text",
+              "content": " differ by a multiple of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.126,
+            0.902,
+            0.87,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Parts (a) and (b) follow by Theorem 5.1, Corollary 6.10, and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 67,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.057,
+            0.532,
+            0.075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. An Application: Sturm-Liouville Systems"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.841,
+            0.056,
+            0.866,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "53"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.102,
+            0.6,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 6.1. For parts (c) and (d), first note that"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.131,
+            0.175,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.13"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.283,
+            0.128,
+            0.708,
+            0.147
+          ],
+          "image_path": "images/page_67_equation_4.jpg",
+          "content": "L h - \\lambda h = f \\quad  if   and   only if  \\quad h - \\lambda G h = G f."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.156,
+            0.742,
+            0.174
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is, in fact, a straightforward consequence of Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 . 9"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.173,
+            0.869,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) The case where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   =   0"
+            },
+            {
+              "type": "text",
+              "content": " is left to the reader. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\neq \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , \\lambda ^ { - 1 } \\notin \\sigma _ { p } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = G ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , Corollary 4.15 implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G - \\lambda ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is bijective. So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } L ^ { 2 } [ { \\dot { a } } , b ]"
+            },
+            {
+              "type": "text",
+              "content": " there is a unique h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { L } ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G f = ( \\lambda ^ { - 1 } - G ) h"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and (6.13) implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( h / \\lambda ) - \\lambda ( h / \\lambda ) = f"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.247,
+            0.867,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for some n. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h - \\lambda _ { n } h = f"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h - \\lambda_{n}Gh = Gf"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle G f , e _ { n } \\rangle = \\langle h , e _ { n } \\rangle - \\lambda _ { n } \\langle G h , e _ { n } \\rangle = \\langle h , e _ { n } \\rangle - \\lambda _ { n } \\langle h , G e _ { n } \\rangle = \\langle h , e _ { n } \\rangle -"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda_{n}\\lambda_{n}^{-1}\\left\\langle h,e_{n}\\right\\rangle=0.\\ \\mathrm{So}\\ 0=\\left\\langle Gf,e_{n}\\right\\rangle=\\left\\langle f,Ge_{n}\\right\\rangle=\\lambda_{n}\\left\\langle f,e_{n}\\right\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\bot e _ { n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.303,
+            0.871,
+            0.397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since ① "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } = \\ker ( G - \\lambda _ { n } ^ { - 1 } ) , \\left[ e _ { n } \\right] ^ { \\perp } \\equiv \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " reduces G. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 } = G | \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a compact self-adjoint operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } ^ { - 1 } \\not \\in \\sigma _ { p } ( G _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " By (4.15), ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( G _ { 1 } - \\lambda _ { n } ^ { - 1 } ) = \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " As in the proof of (c), if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\perp e _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a unique h and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h - \\lambda _ { n } h = f"
+            },
+            {
+              "type": "text",
+              "content": " . Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h + \\alpha e _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is also a solution. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are two solutions, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } - h _ { 2 } \\in \\ker ( L - \\lambda _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } - h _ { 2 } = \\alpha e _ { n } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.412,
+            0.873,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What happens if ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\neq ( 0 ) ?"
+            },
+            {
+              "type": "text",
+              "content": " In this case it is possible to find a real number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " such that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\mu ) = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 6). Replacing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q - \\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " Theorem 6.12 now applies. More information on this problem can be found in Exercises 2 through 5."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.131,
+            0.513,
+            0.235,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13,
+            0.531,
+            0.872,
+            0.6
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Consider the Sturm-Liouville operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h = - h ^ { \\prime \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 0 ,   b = 1"
+            },
+            {
+              "type": "text",
+              "content": " , and for each of the following boundary conditions find the eigenvalues "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\lambda _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , the eigenvectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , and the Green function g(x, y): (a) h(0) = h(1) = 0; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime } ( 0 ) = h ^ { \\prime } ( 1 ) = 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( 0 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h^{\\prime}(1)=0; (d) h(0)=h^{\\prime}(0)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(1) = -h'(1)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.606,
+            0.692,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. In Theorem 6.12 show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{n = 1}^{\\infty}\\lambda_{n}^{- 2} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " (see Exercise 5.3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13,
+            0.631,
+            0.872,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. In Theorem 6.12 show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } { \\mathcal { D } }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if he "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } ^ { 2 } | \\langle h , e _ { n } \\rangle | ^ { 2 } < \\infty } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } { \\mathcal { D } }"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(x) = \\sum_{n = 1}^{\\infty} \\langle h, e_n \\rangle e_n(x)"
+            },
+            {
+              "type": "text",
+              "content": " , where this series converges uniformly and absolutely on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.69,
+            0.872,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. In Theorem 6.12(c), show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(x) = \\sum_{n = 1}^{\\infty} (\\lambda_n - \\lambda)^{-1} \\langle f, e_n \\rangle e_n(x)"
+            },
+            {
+              "type": "text",
+              "content": " and this series converges uniformly and absolutely on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.131,
+            0.733,
+            0.873,
+            0.784
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. In Theorem 6.12(d), show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\perp e _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L h - \\lambda _ { n } h = f ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( x ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { j \\neq n } ( \\lambda _ { j } - \\lambda _ { n } ) ^ { - 1 } \\langle f , e _ { j } \\rangle e _ { j } ( x ) + \\alpha e _ { n } ( x ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " where the series converges uniformly and absolutely on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.131,
+            0.791,
+            0.876,
+            0.828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. This exercise demonstrates how to handle the case in which ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " (a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g { \\in } C ^ { ( 1 ) } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime } , g ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " absolutely continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime \\prime } , g ^ { \\prime \\prime } \\in L ^ { 2 } [ a , b ]"
+            },
+            {
+              "type": "text",
+              "content": " , show that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.251,
+            0.839,
+            0.788,
+            0.88
+          ],
+          "image_path": "images/page_67_equation_17.jpg",
+          "content": "\\int _ { a } ^ { b } \\left( h ^ { \\prime \\prime } g - h g ^ { \\prime \\prime } \\right) = \\left[ h ^ { \\prime } ( b ) g ( b ) - h ( b ) g ^ { \\prime } ( b ) \\right] - \\left[ h ^ { \\prime } ( a ) g ( a ) - h ( a ) g ^ { \\prime } ( a ) \\right] ."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.164,
+            0.891,
+            0.873,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ,   g   \\in   \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle L h , g \\rangle = \\langle h , L g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . (The inner product is in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } [ a , b ] . )"
+            },
+            {
+              "type": "text",
+              "content": " (c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g   \\in   \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda ,   \\mu { \\in } \\mathbb { R } ,   \\lambda \\neq \\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " and if h∈ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " , g∈ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h   \\bot   g ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.165,
+            0.926,
+            0.701,
+            0.943
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) Show that there is a real number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " with ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L - \\mu ) = ( 0 )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 68,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.056,
+            0.156,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "54"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.587,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.095,
+            0.858,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\S 7 ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " The Spectral Theorem and Functional Calculus for Compact Normal Operators"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.155,
+            0.871,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We begin by characterizing the operators that commute with a diagonalizable operator. If one considers the definition of a diagonalizable operator (4.6), it is possible to reformulate it in a way that is more tractable for the present purpose and closer to the form of a compact self-adjoint operator given in (5.2). Unlike (4.6), it will not be assumed that the underlying Hilbert space is separable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.283,
+            0.87,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.1. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ P _ { i ^ { \\cdot } } \\; i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " be a family of pairwise orthogonal projections in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . (That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i } P _ { j } = P _ { j } P _ { i } = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\neq j . )"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { i } \\left\\{ P _ { i } h : i \\in I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " converges in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " to Ph, where P is the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vee \\left\\{ P _ { i } \\mathcal { H } \\colon i { \\in } I \\right\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.348,
+            0.784,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This appeared as Exercise 3.5 and its proof is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.365,
+            0.871,
+            0.46
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ P _ { i ^ { \\cdot } } \\; i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is as in the preceding proposition and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { i } = P _ { i } \\mathcal { H } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " , then with the notation of Definition 3.4, P is the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\oplus _ { i } \\mathcal { M } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " Write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { P } = \\sum _ { i } \\boldsymbol { P } _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": " A word of caution here: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\pmb { P } \\pmb { h } = \\sum _ { i } \\pmb { P } _ { i } \\pmb { h } _ { i } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " where the convergence is in the norm of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum _ { i } P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " does not converge to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P"
+            },
+            {
+              "type": "text",
+              "content": " in the norm of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " In fact, it never does unless I is finite (Exercise 1)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.475,
+            0.872,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.2. Definition. A partition of the identity on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a family "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ P _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " of pairwise orthogonal projections on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nabla _ { i } P _ { i } \\mathcal { H } = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " .This might be indicated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { 1 } = { \\sum _ { i } } \\pmb { P } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { 1 } = \\oplus _ { i } P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " . [Note that 1 is often used to denote the operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 ( h ) = h"
+            },
+            {
+              "type": "text",
+              "content": " for all h. Similarly if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbb { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " α is the operator defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ( h ) = \\alpha h"
+            },
+            {
+              "type": "text",
+              "content": " for all h.]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.585,
+            0.871,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.3. Definition. An operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is diagonalizable if there is a partition of the identity on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,   \\{ P _ { i } \\colon i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " , and a family of scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { i } ;   i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that su "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { p } _ { i } | \\alpha _ { i } | < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A { \\pmb h } = \\alpha _ { i } { \\pmb h }"
+            },
+            {
+              "type": "text",
+              "content": " whenever heran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.648,
+            0.871,
+            0.684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that this is equivalent to the definition given in (4.6) when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable (Exercise 2). Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| = \\operatorname{supp}_{i} | \\alpha_{i} |"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.154,
+            0.684,
+            0.866,
+            0.703
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To denote a diagonalizable operator satisfying the conditions of(7.3), write"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.352,
+            0.71,
+            0.645,
+            0.741
+          ],
+          "image_path": "images/page_68_equation_11.jpg",
+          "content": "A = \\sum _ { i } \\alpha _ { i } P _ { i } \\quad { \\mathrm { o r } } \\quad A = \\oplus _ { i } \\alpha _ { i } P _ { i } ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.751,
+            0.872,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that it was not assumed that the scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " in (7.3) are distinct. There is no loss in generality in assuming this, however. In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } = \\alpha _ { j i }"
+            },
+            {
+              "type": "text",
+              "content": " then we can replace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i } + P _ { j } ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.824,
+            0.872,
+            0.862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.4. Proposition. An operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is diagonalizable if and only if there is an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " consisting of eigenvectors for A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.87,
+            0.296,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.156,
+            0.903,
+            0.87,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { A } = \\oplus _ { i } \\alpha _ { i } \\pmb { P } _ { i } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { A } ^ { * } = \\oplus _ { i } \\bar { \\alpha } _ { i } \\bar { P } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and A is normal (Exercise 5)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 69,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.59,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§7. The Spectral Theorem and Functional Calculus"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.843,
+            0.056,
+            0.867,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "55"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.101,
+            0.868,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.5. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { A } = \\oplus _ { i } \\alpha _ { i } \\boldsymbol { P } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is diagonalizable and all the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " are distinct, then an operator B in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " satisfies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA"
+            },
+            {
+              "type": "text",
+              "content": " if and only if for each i, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " reduces B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.164,
+            0.869,
+            0.255
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If all the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " are distinct, then ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i } = \\ker ( A - \\alpha _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B = B A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = \\alpha _ { i } h _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ABh = BAh = B(\\alpha_i h) = \\alpha_i Bh;"
+            },
+            {
+              "type": "text",
+              "content": " hence Bheran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " whenever heran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is left invariant by B. Therefore B leaves "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\forall \\left\\{ \\operatorname { r a n } P _ { j } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j \\neq i \\} = { \\mathcal { N } }"
+            },
+            {
+              "type": "text",
+              "content": " invariant. But since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\oplus_{i}P_{i}=1,\\mathcal{N}_{i}=(\\mathrm{ran}P_{i})^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " reduces B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.256,
+            0.867,
+            0.313
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that B is reduced by each ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{B}\\boldsymbol{P}_{i}=\\boldsymbol{P}_{i}\\boldsymbol{B}"
+            },
+            {
+              "type": "text",
+              "content": " for all i. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\pmb { A } \\pmb { h }   =   \\sum _ { i }   \\alpha _ { i } \\pmb { P } _ { i } \\pmb { h } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { B A h = \\sum _ { i } \\alpha _ { i } B P _ { i } h = \\sum _ { i } \\alpha _ { i } P _ { i } B h = A B h . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " (Why is the first equality valid?)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.329,
+            0.869,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the notation of the preceding theorem, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{i} = B \\left| \\tan P_{i} \\right|"
+            },
+            {
+              "type": "text",
+              "content": " Then it is appropriate to write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { B } = \\oplus _ { i } \\pmb { B } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\oplus _ { i } ( P _ { i } \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . One might paraphrase Theorem 7.5 by saying that B commutes with a diagonalizable operator if and only if B can be “diagonalized with operator entries.\""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.429,
+            0.871,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.6. Spectral Theorem for Compact Normal Operators. If T is a compact normal operator on the complex Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then T has only a countable number of distinct eigenvalues. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { I f } \\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " are the distinct nonzero eigenvalues of T, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\lambda _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P_{n}P_{m}=P_{m}P_{n}=0"
+            },
+            {
+              "type": "text",
+              "content": " if n≠m and"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.54,
+            0.165,
+            0.556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.7"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.433,
+            0.532,
+            0.568,
+            0.571
+          ],
+          "image_path": "images/page_69_equation_8.jpg",
+          "content": "T = \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } P _ { n } ,"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.58,
+            0.862,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where this series converges to T in the metric defined by the norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.613,
+            0.871,
+            0.684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( T + T ^ { * } ) / 2 , B = ( T - T ^ { * } ) / 2 i ."
+            },
+            {
+              "type": "text",
+              "content": " So A, B are compact self-adjoint operators, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A + i B ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA"
+            },
+            {
+              "type": "text",
+              "content": " since T is normal. The idea of the proof is rather simple. We'll get started in this proof together but the reader will have to complete the details."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.685,
+            0.872,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Theorem 5.1, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\pmb { A } = \\sum _ { 1 } ^ { \\infty } \\alpha _ { n } E _ { n } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { n } \\in \\mathbb { R } , \\alpha _ { n } \\neq \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " i "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq m ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ker ( A - \\alpha _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA"
+            },
+            {
+              "type": "text",
+              "content": " , the idea is to use Theorem 7.5 and Theorem 5.1 applied to B to diagonalize A and B simultaneously; that is, to find an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " consisting of vectors that are simultaneously eigenvectors of A and B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.775,
+            0.871,
+            0.868
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BA = AB,   E_n \\mathcal{H} = \\mathcal{L}_n"
+            },
+            {
+              "type": "text",
+              "content": " reduces B for every n (7.5). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { n } = B | \\mathcal { L } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { n } = B _ { n } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { n } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Applying (5.1) (or, rather, the corresponding theorem from linear algebra) to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a basis "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ e^{(n)} : 1 \\leqslant j \\leqslant d_n \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and real numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\beta _ { j } ^ { ( n ) } : \\quad 1 \\leqslant j \\leqslant d _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}e_{j}^{(n)} = \\beta_{j}^{(n)}e_{j}^{(n)}"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e _ { i } ^ { ( n ) } = A e _ { i } ^ { ( n ) } + i B e _ { i } ^ { ( n ) } = ( \\alpha _ { n } + i \\beta _ { i } ^ { ( n ) } ) e _ { i } ^ { ( n ) } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.867,
+            0.873,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ e_{j}^{(n)} : 1 \\leqslant j \\leqslant d_{n}, n \\geqslant 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for cl(ran A) consisting of eigenvectors for T. It may be that cl(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A) \\ne \\mathrm{cl}(\\mathrm{ran} T)"
+            },
+            {
+              "type": "text",
+              "content": " . Since B is reduced by ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( \\tan A )^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { 0 } = B |"
+            },
+            {
+              "type": "text",
+              "content": " ker A is a compact self-adjoint operator there"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 70,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.159,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "56"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.588,
+            0.056,
+            0.869,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.098,
+            0.868,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is an orthonormal basis "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\big \\{ e _ { j } ^ { ( 0 ) } \\colon j \\geqslant 1 \\big \\}"
+            },
+            {
+              "type": "text",
+              "content": " for cl(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { 0 } )"
+            },
+            {
+              "type": "text",
+              "content": " and scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\big \\{ \\beta _ { j } ^ { ( 0 ) } ;   j \\geqslant 1 \\big \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B e _ { j } ^ { ( 0 ) }   =   \\beta _ { j } ^ { ( 0 ) } e _ { j } ^ { ( 0 ) }"
+            },
+            {
+              "type": "text",
+              "content": " .It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { T e _ { j } ^ { ( 0 ) } } = i \\beta _ { j } ^ { ( 0 ) } e _ { j } ^ { ( 0 ) }"
+            },
+            {
+              "type": "text",
+              "content": " Moreover, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * } \\supseteq"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " so cl(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T )   \\subseteq   \\mathbf { c l }"
+            },
+            {
+              "type": "text",
+              "content": " (ran A)⊕cl(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { \\pmb { B _ { 0 } } } )"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.155,
+            0.871,
+            0.229
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The remainder of the proof now consists in a certain amount of bookeeping to gather together the eigenvectors belonging to the same eigenvalues of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " and the performing of some light housekeeping chores to obtain the convergence of the series (7.7) ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.24,
+            0.531,
+            0.259
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.8. Corollary. With the notation of (7.6):"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.267,
+            0.446,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = [ \\vee \\{ P _ { n } \\mathcal { H } \\colon n \\geqslant 1 \\} ] ^ { \\perp } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.287,
+            0.394,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " has finite rank;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.305,
+            0.809,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) | "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T \\| = \\sup \\{ | \\lambda_n | : n \\geqslant 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " and either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\lambda _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is finite or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n }   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.153,
+            0.337,
+            0.632,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of (7.8) is similar to the proof of (5.3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.374,
+            0.871,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.9. Corollary. If T is a compact operator on a complex Hilbert space, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is normal if and only if T is diagonalizable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.426,
+            0.871,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is a normal operator which is not necessarily compact, there is a spectral theorem for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " which has a somewhat different form. This theorem states that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " can be represented as an integral with respect to a measure whose values are not numbers but projections on a Hilbert space. Theorem 7.6 will be a consequence of this more general theorem and correspond to the case in which this projection-valued measure is “atomic.\""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.536,
+            0.871,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The approach to this more general spectral theorem will be to develop a functional calculus for normal operators T. That is, an operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " will be defined for every bounded Borel function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\mathbf { C } }"
+            },
+            {
+              "type": "text",
+              "content": " and certain properties of the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi { \\mapsto } \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " will be deduced. The projection-valued measure will then be obtained by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = \\chi _ { \\Delta } ( T )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi _ { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " is the characteristic function of the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Delta } ."
+            },
+            {
+              "type": "text",
+              "content": " These matters are taken up in Chapter "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { I } \\mathbf { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.643,
+            0.87,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "At this point, Theorem 7.6 will be used to develop a functional calculus for compact normal operators. For the remainder of this section "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a complex Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.716,
+            0.868,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.10. Definition. Denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbf { C } )"
+            },
+            {
+              "type": "text",
+              "content": " all the bounded functions φ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C }   \\to   \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " If T is a compact normal operator satisfying (7.7), define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) : { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.355,
+            0.763,
+            0.64,
+            0.802
+          ],
+          "image_path": "images/page_70_equation_14.jpg",
+          "content": "\\phi ( T ) = \\sum _ { n = 1 } ^ { \\infty } \\phi ( \\lambda _ { n } ) P _ { n } + \\phi ( 0 ) P _ { 0 } ,"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.811,
+            0.561,
+            0.829
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 0 } ="
+            },
+            {
+              "type": "text",
+              "content": " the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.83,
+            0.867,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " is a diagonalizable operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi ( T ) \\| = \\operatorname* { s u p } \\{ | \\phi ( 0 ) |"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( \\lambda _ { 1 } ) | , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " (4.6). Much more can be said."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.124,
+            0.884,
+            0.873,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.11. Functional Calculus for Compact Normal Operators. If T is a compact normal operator on a C-Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " then the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\mapsto   \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 71,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.055,
+            0.589,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§7. The Spectral Theorem and Functional Calculus"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.843,
+            0.057,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "57"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.545,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbb { C } ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " has the following properties:"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.13,
+            0.867,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\mapsto   \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " is a multiplicative linear map of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\pmb { \\mathbb { C } } )"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " .If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\equiv 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) = 1 ; \\; i f \\; \\phi ( z ) = z \\; \\mathrm { o n } \\; \\sigma _ { p } ( T ) \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) = T ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.167,
+            0.477,
+            0.186
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) \\parallel = \\operatorname* { s u p } \\{ | \\phi ( \\lambda ) | : \\lambda \\in \\sigma _ { p } ( T ) \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.187,
+            0.781,
+            0.207
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) ^ { * }   =   \\phi ^ { * } ( T ) ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is the function defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ^ { * } ( z ) = { \\overline { { \\phi ( z ) } } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.206,
+            0.812,
+            0.226
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\phi ( T ) = \\phi ( T ) A"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\pmb { \\mathbb { C } } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.24,
+            0.662,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Adopt the notation of Theorem 7.6 and (7.10)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.258,
+            0.869,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ,   \\psi   \\in   l ^ { \\infty } ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\phi \\psi ) ( z ) = \\phi ( z ) \\psi ( z )"
+            },
+            {
+              "type": "text",
+              "content": " for z in C. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) \\psi ( T ) h ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ \\phi ( 0 ) P _ { 0 } + \\sum \\phi ( \\lambda _ { n } ) P _ { n } \\right] \\left[ \\psi ( 0 ) P _ { 0 } + \\sum \\psi ( \\lambda _ { m } ) P _ { m } \\right] h = \\left[ \\phi ( 0 ) P _ { 0 } + \\sum \\phi ( \\lambda _ { n } ) P _ { n } \\right]"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\psi ( 0 ) P _ { 0 } h + \\textstyle { \\sum _ { m } } \\psi ( \\lambda _ { m } ) P _ { m } h ]"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n } P _ { m } = 0"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq m ,"
+            },
+            {
+              "type": "text",
+              "content": " this gives that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\phi ( T ) \\psi ( T ) h = \\phi ( 0 ) \\psi ( 0 ) P _ { 0 } h + \\sum _ { n } \\phi ( \\lambda _ { n } ) \\psi ( \\lambda _ { n } ) P _ { n } h = ( \\phi \\psi ) ( T ) h . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi { \\mapsto } \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " is multiplicative. The linearity of the map is left to the reader. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi(T)=1(T)=P_{0}+\\sum_{n = 1}^{\\infty}P_{n}=1"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\boldsymbol { P } _ { 0 } , \\boldsymbol { P } _ { 1 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a partition of the identity. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z ) = z , \\phi ( \\lambda _ { n } ) = \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) = T ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.156,
+            0.389,
+            0.552,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Parts (b) and (c) follow from Exercise 5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.406,
+            0.869,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A ,"
+            },
+            {
+              "type": "text",
+              "content": " Theorem 7.5 implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{P}_{0} \\mathcal{H}, \\boldsymbol{P}_{1} \\mathcal{H}, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . all reduce A. Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n } \\mathcal { H } , \\quad n \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   l ^ { \\infty } ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h _ { n } \\in P _ { n } \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T ) A h _ { n } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( \\lambda _ { n } ) A h _ { n } = A ( \\phi ( \\lambda _ { n } ) h _ { n } ) = A \\phi ( T ) h _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\sum _ { n = 0 } ^ { \\infty } h _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { n } { \\in } P _ { n ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\phi ( T ) A h = \\sum _ { n = 0 } ^ { \\infty } \\phi ( T ) A h _ { n } = \\sum _ { n = 0 } ^ { \\infty } A \\phi ( T ) h _ { n } = A \\phi ( T ) h . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " (Justify the first equality.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.518,
+            0.87,
+            0.556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Which operators on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " can be expressed as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbb { C } ) ?"
+            },
+            {
+              "type": "text",
+              "content": " Part (d) of the preceding theorem provides the answer."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.573,
+            0.87,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.12. Theorem. If T is a compact normal operator on a C-Hilbert space, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi ( T ) { : } \\phi { \\in } l ^ { \\infty } ( \\mathbb { C } ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " is equal to"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.292,
+            0.618,
+            0.704,
+            0.636
+          ],
+          "image_path": "images/page_71_equation_13.jpg",
+          "content": "\\{ B { \\in } { \\mathcal { B } } ( { \\mathcal { H } } ) { : ~ } B A = A B { ~ w h e n e v e r ~ } A T = T A \\} ."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.644,
+            0.871,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Half of the desired equality is obtained from (7.11d). So let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BA = AB"
+            },
+            {
+              "type": "text",
+              "content": " whenever. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, B must commute with T itself. By (7.5), B is reduced by each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n } \\mathcal { H } \\equiv \\mathcal { H } _ { n } , n \\geqslant 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { n } = B \\left| \\mathcal { H } _ { n } \\right|"
+            },
+            {
+              "type": "text",
+              "content": " Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " for the moment and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " be any bounded operator in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = A _ { n } h \\text { if } h \\in \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = 0 \\text { if } h \\in \\mathcal { H } _ { m } , m \\neq n"
+            },
+            {
+              "type": "text",
+              "content": " , and extend A to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " by linearity; so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\bigoplus_{m = 0}^{\\infty} A_{m}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{m}=0 \\text { if } m \\neq n. \\text { By } (7.5), A T=T A"
+            },
+            {
+              "type": "text",
+              "content": " ; hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BA = AB"
+            },
+            {
+              "type": "text",
+              "content": " This implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}A_{n}=A_{n}B_{n}."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " was arbitrarily chosen from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { n } = \\beta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 7). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon \\mathbf { C }   \\to   \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( 0 ) = \\beta _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( \\lambda _ { n } ) = \\beta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\phi ( T )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.835,
+            0.868,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.13. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then A is positive if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " In symbols this is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.891,
+            0.871,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that by Proposition 2.12 every positive operator on a complex Hilbert space is self-adjoint."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

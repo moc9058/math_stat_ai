@@ -1,0 +1,291 @@
+{
+  "pages": [
+    {
+      "page_idx": 307,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.041,
+            0.626,
+            0.057
+          ],
+          "content": "9.5 Variational Formulation of Some Boundary Value Problems"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.861,
+            0.041,
+            0.897,
+            0.055
+          ],
+          "content": "293"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.099,
+            0.073,
+            0.508,
+            0.09
+          ],
+          "level": 2,
+          "content": "Step D: Recovery of a classical solution."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.091,
+            0.898,
+            0.144
+          ],
+          "content": "Assume that the weak solution $u   \\in   H _ { 0 } ^ { 1 } ( \\Omega )$ of (31) belongs to $C ^ { 2 } ( \\overline { { \\Omega } } )$ , and assume that \u0004 is of class $C ^ { 1 }$ . Then $u   =   0$ on \u0013 (by Theorem 9.17). On the other hand, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.302,
+            0.141,
+            0.695,
+            0.181
+          ],
+          "content": "\\int _ { \\Omega } ( - \\Delta u + u ) v = \\int _ { \\Omega } f v \\quad \\forall v \\in C _ { c } ^ { 1 } ( \\Omega ) .",
+          "image_source": "images/page_307_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.185,
+            0.897,
+            0.223
+          ],
+          "content": "and thus $- \\Delta u   +   u   =   f$ a.e. on \u0004 (by Corollary 4.24). In fact, $- \\Delta u   +   u   =   f$ everywhere on $\\Omega ,$ since $u \\in C ^ { 2 } ( \\Omega )$ ; thus u is a classical solution."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.234,
+            0.898,
+            0.273
+          ],
+          "content": "We describe now some other examples. In each case it is essential to specify precisely the function space and the appropriate weak formulation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.288,
+            0.898,
+            0.326
+          ],
+          "content": "Example 2 (inhomogeneous Dirichlet condition). Let $\\Omega \\subset \\mathbb { R } ^ { N }$ be a bounded open set. We look for a function $u : \\overline { { \\Omega } } \\to \\mathbb { R }$ satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.339,
+            0.619,
+            0.388
+          ],
+          "content": "\\left\\{ \\begin{aligned} - \\Delta u + u &= f & &  in   \\Omega, \\\\ u &= g & &  on   \\Gamma, \\end{aligned} \\right.\\tag{33}",
+          "image_source": "images/page_307_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.4,
+            0.898,
+            0.439
+          ],
+          "content": "where $f$ is given on \u0004 and g is given on \u0013. Suppose that there exists a function $\\tilde { g } \\in H ^ { 1 } ( \\Omega ) \\cap C ( \\overline { { \\Omega } } )$ such tha $\\tilde { \\mathfrak { t } ^ { 2 2 } } \\; \\tilde { g } = g$ on $\\Gamma$ and consider the set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.314,
+            0.451,
+            0.683,
+            0.473
+          ],
+          "content": "K = \\{ v \\in H ^ { 1 } ( \\Omega ) ; v - \\tilde { g } \\in H _ { 0 } ^ { 1 } ( \\Omega ) \\} .",
+          "image_source": "images/page_307_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.486,
+            0.897,
+            0.525
+          ],
+          "content": "It follows from Theorem 9.17 that K is independent of the choice of $\\tilde { g }$ and depends only on g. K is a nonempty closed convex set in $H ^ { 1 } ( \\Omega )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.541,
+            0.898,
+            0.579
+          ],
+          "content": "**Definition.** A classical solution of (33) is a function $u \\in C ^ { 2 } ( \\overline { { \\Omega } } )$ satisfying (33). A weak solution of (33) is a function $u \\in K$ satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.59,
+            0.715,
+            0.631
+          ],
+          "content": "\\int _ { \\Omega } ( \\nabla u \\cdot \\nabla v + u v ) = \\int _ { \\Omega } f v \\quad \\forall v \\in H _ { 0 } ^ { 1 } ( \\Omega ) .\\tag{34}",
+          "image_source": "images/page_307_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.642,
+            0.592,
+            0.661
+          ],
+          "content": "As above, any classical solution is a weak solution."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.678,
+            0.897,
+            0.716
+          ],
+          "content": "• **Proposition 9.22.** Given any $f \\; \\in \\; L ^ { 2 } ( \\Omega )$ , there exists a unique weak solution $u \\in K$ of (33). Furthermore, u is obtained by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32,
+            0.728,
+            0.675,
+            0.77
+          ],
+          "content": "\\operatorname* { m i n } _ { v \\in K } \\left\\{ \\frac { 1 } { 2 } \\int _ { \\Omega } ( | \\nabla v | ^ { 2 } + v ^ { 2 } ) - \\int _ { \\Omega } f v \\right\\} .",
+          "image_source": "images/page_307_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.781,
+            0.837,
+            0.8
+          ],
+          "content": "Proof. We claim that $u \\in K$ is a weak solution of (33) if and only if we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.103,
+            0.812,
+            0.798,
+            0.853
+          ],
+          "content": "\\int _ { \\Omega } \\nabla u \\cdot ( \\nabla v - \\nabla u ) + \\int _ { \\Omega } u ( v - u ) \\geq \\int _ { \\Omega } f ( v - u ) \\quad \\forall v \\in K .\\tag{35}",
+          "image_source": "images/page_307_equation_18.jpg"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.564,
+            0.862,
+            0.589,
+            0.878
+          ],
+          "content": "1"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.624,
+            0.863,
+            0.712,
+            0.879
+          ],
+          "content": "d g ∈ C (\u0013)."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.383,
+            0.879,
+            0.467,
+            0.895
+          ],
+          "content": "g˜  C \u0004 ."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.485,
+            0.893,
+            0.731,
+            0.911
+          ],
+          "content": "˜  H1 \u0004 , i. .,  H1/2 \u0013 ."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.099,
+            0.862,
+            0.898,
+            0.912
+          ],
+          "content": "22 This assumption is satisfied, for example, if \u0004 is of class C an 1 If \u0004 is regular enough it is not necessary to suppose that ∈ ( ) Applying the theory of traces (see the comments at the end of this chapter), it suffices to know that g ∈ ( ) e g ∈ ( )"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 307,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

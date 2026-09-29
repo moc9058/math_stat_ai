@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 282,
+  "model": "gpt-6-astra",
+  "seconds": 16.26,
+  "input_tokens": 4144,
+  "output_tokens": 468,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\|A\\\\|_2=(\\\\sum\\\\lambda_n^2)^{1/2}\",\n      \"correction\": \"\\\\|A\\\\|_2=(\\\\sum_n\\\\lambda_n^2)^{1/2}\",\n      \"location\": \"Exercise 19(g)\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

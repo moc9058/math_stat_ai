@@ -1,0 +1,201 @@
+## 7.14. Proposition. $\textstyle \iint T$ is a compact normal operator, then T is positive if and only if all its eigenvalues are non-negative real numbers.
+
+PROOF. Let $\begin{array} { r } { \pmb { T } = \sum _ { 1 } ^ { \infty } \lambda _ { n } \pmb { P } _ { n } . } \end{array}$ If $T \geqslant 0$ and $h \in P _ { n } \mathcal { H }$ with $\| { \pmb h } \| = 1 ,$ , then $T h = \lambda _ { n } h .$ Hence $\lambda _ { n } = \langle T h , h \rangle \geqslant 0 .$ Conversely, assume each $\lambda _ { n } \geqslant 0$ If $h \in \mathcal { H }$ $h = h _ { 0 } + \sum _ { n = 1 } ^ { \infty } h _ { n } .$ ,where $h _ { 0 } \epsilon$ ker T and $h _ { n }   \in   P _ { n } \mathcal { H }$ for n ≥ 1. Then $\begin{array} { r } { T h = \sum _ { 1 } ^ { \infty } \lambda _ { n } h _ { n } . } \end{array}$ Hence $\langle T h , h \rangle = \langle \sum _ { n = 1 } ^ { \infty } \lambda _ { n } h _ { n } , h _ { 0 } + \sum _ { m = 1 } ^ { \infty } h _ { m } \rangle = \sum _ { n = 1 } ^ { \infty } \sum _ { m = 0 } ^ { \infty } \lambda _ { n } \langle h _ { n } , h _ { m } \rangle =$ $\begin{array} { r } { \sum _ { n = 1 } ^ { \infty } \lambda _ { n } \| h _ { n } \| ^ { 2 } \geqslant 0 } \end{array}$ since $\langle h _ { n } , h _ { m } \rangle = 0$ when $n \neq m .$ ■
+
+## 7.15. Theorem. If T is a compact self-adjoint operator, then there are unique positive compact operators A, B such that $T = A - B$ and $AB = BA = 0$
+
+PROOF. Let $T = \sum_{n = 1}^{\infty} \lambda_{n} P_{n}$ as in (7.6). Define $\phi , \psi \colon \mathbb { C }   \to   \mathbb { C }$ by $\phi ( \lambda _ { n } ) = \lambda _ { n }$ if $\lambda _ { n } > 0 , \phi ( z ) = 0$ otherwise; $\psi ( \lambda _ { n } ) = - \lambda _ { n }$ if $\lambda _ { n } < 0 , \psi ( z ) = 0$ otherwise. Put $A = \phi ( T )$ and $B = \psi ( T ) .$ Then $A = \sum \left\{ \lambda_{n} P_{n} : \lambda_{n} > 0 \right\}$ and $B = \sum \left\{ - \lambda _ { n } P _ { n } \right\}$ $\lambda _ { n } < 0 \}$ Thus $T = A - B$ Since φψ = 0. $AB = BA = 0$ by (7.11a). Since $\phi , \psi \geqslant 0 , A , B \geqslant 0$ by the preceding proposition. It remains to show that A, B are unique.
+
+Suppose $T = C - D$ where C, D are compact positive operators and $C D =$ $D C   =   0$ It is easy to check that C and D commute with T. Put $\lambda _ { 0 }   =   0$ and $P _ { 0 } = \mathrm { t h e }$ projection of  onto ker T. Thus C and D are reduced by $P _ { n } \mathcal { H } \equiv \mathcal { H } _ { n }$ for all $n \geqslant 0 .$ Let $C _ { n } = C | \mathcal { H } _ { n }$ and $D _ { n } = D | \mathcal { H } _ { n }$ So $C _ { n } D _ { n } = D _ { n } C _ { n } = 0 ,$ $\lambda _ { n } P _ { n } = T \left| \mathcal { H } _ { n } = C _ { n } - D _ { n } \right|$ and $C _ { n } , D _ { n }$ are positive. Suppose $\lambda _ { n }   >   0$ and let $h \in \mathcal { H } _ { n }$ Since $C _ { n } D _ { n } = 0 ,$ ker $C_{n} \supseteq \mathrm{cl}\left[ \mathrm{ran}   D_{n} \right] = \left( \mathrm{ker}   D_{n} \right)^{\perp}$ So if $\boldsymbol{h} \in (\ker D_n)^{\perp}$ then $\lambda _ { n } { \pmb h } = - D _ { n } { \pmb h }$ Hence $\lambda _ { n } \| h \| ^ { 2 } = - \langle D _ { n } h , h \rangle \leqslant 0$ Thus $h   =   0$ since $\lambda _ { n }   >   0$ That is, ker $D _ { n } = \mathcal { H } _ { n }$ Thus $D_{n}=0=B|\mathcal{H}_{n}$ and $C_{n}=\lambda_{n}P_{n}=A|\mathcal{H}_{n}.$ Similarly, if $\lambda _ { n } < 0 , C _ { n } = 0 = A \left| \mathcal { H } _ { n } \right.$ and $D_{n}=-\lambda_{n}P_{n}=B|\mathcal{H}_{n}$ On $\mathcal{H}_{0}, \quad T \mid \mathcal{H}_{0} = 0 =$ $C _ { 0 } - D _ { 0 }$ Thus $C _ { 0 } = D _ { 0 }$ .But $0 = C _ { 0 } D _ { 0 } = C _ { 0 } ^ { 2 }$ Thus $0 = \langle C _ { 0 } ^ { 2 } h , h \rangle = \| C _ { 0 } h \| ^ { 2 } ,$ so $C_{0}=0=A \left | \mathcal{H}_{0} \right.$ and $D_{0}=0=B|\mathcal{H}_{0}$ . Therefore $C = A$ and $D = B .$
+
+Positive operators are analogous to positive numbers. With this in mind, the next result seems reasonable.
+
+## 7.16. Theorem. If T is a positive compact operator, then there is a unique positive compact operator A such that $A ^ { 2 } = T$
+
+PROOF. Let $T = \sum_{n = 1}^{\infty} \lambda_{n} P_{n}$ as in the Spectral Theorem. Since $T \geqslant 0 , \lambda _ { n } > 0$ for all n (7.14). Let $\hat { \phi } ( \lambda _ { n } ) = \lambda _ { n } ^ { 1 / 2 }$ and $\phi ( z ) = 0$ otherwise; put $A = \phi ( T )$ . It is easy to check that $A \geqslant 0 ; A = \sum _ { 1 } ^ { \infty } \lambda _ { n } ^ { 1 / 2 } P _ { n }$ so that A is compact; and $A ^ { 2 } = T$ The proof of uniqueness is left to the reader.
+
+EXERCISES
+
+1. If $\{ P _ { n } \}$ is a sequence of pairwise orthogonal nonzero projections and $P = \sum P _ { n } ,$ show that $\| P - \sum_{j = 1}^{n} P_{j} \| = 1$ for all n.
+
+2. If  is separable, show that the definitions of a diagonalizable operator in (4.6) and (7.3) are equivalent.
+
+3. If $\begin{array} { r } { \pmb { A } = \sum \pmb { \alpha } _ { i } \pmb { P } _ { i } } \end{array}$ as in (7.3), show that A is compact if and only if: (a) $\alpha _ { i }   =   0$ for all but a countable number of i; (b) $P _ { i }$ has finite rank whenever $\alpha _ { i }   \neq   0 ;$ (c) if $\{ \alpha _ { 1 } , \alpha _ { 2 } , \ldots \} = \{ \alpha _ { i } ;   \alpha _ { i } \neq 0 \}$ , then $\alpha _ { n }   \to   0$ as $n   \to   \infty$
+
+4. Prove Proposition 7.4.
+
+5. If $\boldsymbol { A } = \bigoplus _ { i } \alpha _ { i } \boldsymbol { P } _ { i } ,$ show that $\boldsymbol { A } ^ { \star } = \bigoplus _ { i } \bar { \alpha } _ { i } \boldsymbol { P } _ { i } ,$ A is normal, and $\| A \| = \sup \{ | \alpha _ { i } | : i \in I \}$
+
+6. Give the remaining details in the proof of (7.6).
+
+7. If $A \in \mathcal { B } ( \mathcal { H } )$ and $A T = T A$ for every compact operator T, show that A is a multiple of the identity operator.
+
+8. Suppose T is a compact normal operator on a C-Hilbert space such that dim ker $( T - \lambda ) \leqslant 1$ for all λ in C. Show that if $A   \in   \mathcal { B } ( \mathcal { H } )$ and $A T = T A$ , then $A = \phi ( T )$ for some $\phi$ in $l ^ { \infty } ( \mathbb { C } )$
+
+9. Prove a converse to Exercise 8: if T is a compact normal operator such that $\{ A \in { \mathcal { B } } ( { \mathcal { H } } ) : A T = T A \} = \{ \phi ( T ) : \phi \in l ^ { \infty } ( \mathbb { C } ) \}$ , then dim ker $( T - \lambda )   \leqslant   1$ for all λ in C.
+
+10. Let T be a compact normal operator and show that dim ker $( T - \lambda ) \leqslant 1$ for all λ in C if and only if there is a vector h in $\mathcal { H }$ such that $\{ p ( T ) h \colon p$ is a polynomial in one variable} is dense in $\mathcal { H }$ . (Such a vector h is called a cyclic vector for T.)
+
+11. If $\lambda \in \mathbf { C } ,$ let $\delta _ { \lambda }$ be the unit point mass at $\lambda ;$ that is, $\delta _ { \lambda }$ is the measure on C such that $\delta _ { \lambda } ( \Delta ) = 1$ if $\lambda \in \Delta$ and $\delta _ { \lambda } ( \Delta ) = 0$ if λ∉∆. If $\{ \lambda _ { 1 } , \lambda _ { 2 } , \ldots \}$ is a bounded sequence of distinct complex numbers and $\{ \alpha _ { n } \}$ is a sequence of real numbers with $\alpha _ { n }   >   0$ and $\sum _ { n } \alpha _ { n } < \infty$ , let $\begin{array} { r } { \mu = \sum _ { n = 1 } ^ { \infty } \alpha _ { n } \delta _ { \lambda _ { n } } ; } \end{array}$ so $\mu$ is a finite measure. If $\phi \in l ^ { \infty } ( \mathbb { C } )$ , let $M _ { \phi }$ the multiplication operator on $L ^ { 2 } ( \mu )$ Define $T : L ^ { 2 } ( \mu ) \to L ^ { 2 } ( \mu )$ by $(Tf)(\lambda_n) = \lambda_n f(\lambda_n).$ Prove: (a) T is a normal operator; (b) T has a cyclic vector (see Exercise 10); (c) if $A   \in   \mathcal { B } ( \mathcal { H } )$ and $A T = T A ,$ then $A = M _ { \phi }$ for some $\phi$ in $l ^ { \infty } ( \mathbb { C } ) ;$ (d) $T$ is compact if and only if $\lambda _ { n }   \to   0 . ( \mathbf { e } )$ If T is compact, find all of the cyclic vectors for T. (f) If T is compact, find the decomposition (7.7) for T.
+
+12. Using the notation of Theorem 7.11, give necessary and sufficient conditions on T and $\phi$ that $\phi ( T )$ be compact. (Hint: consider separately the cases where ker T is finite or infinite dimensional.)
+
+13. Prove the uniqueness part of Theorem 7.16.
+
+14. If $T   \in   \mathcal { B } ( \mathcal { H } ) ,$ show that $T ^ { * } T \geqslant 0 .$
+
+15. Let T be a compact normal operator and show that there is a compact positive operator A and a unitary operator U such that $T = U A = A U$ . discuss the uniqueness of A and U.
+
+16. (Polar decomposition of compact operators.) Let $T   \in   \mathcal { B } _ { 0 } ( \mathcal { H } )$ and let A be the unique positive square root of $T ^ { * } T \left[ ( 7 . 1 6 ) \right.$ and Exercise 14]. (a) Show that $\mathbf { A } \mathbf { h } \parallel = \| \mathbf { \nabla } \mathbf { T } \mathbf { h } \|$ for all h in . (b) Show that there is a unique oprator U such that $\| \boldsymbol{U} \boldsymbol{h} \| = \| \boldsymbol{h} \|$ when h⊥ker $T ,   U h   =   0$ when h∈ker $T ,$ and $U A = T$ (c) If U and A are as in (a) and (b), show that $T = A U$ if and only if $T$ is normal.
+
+17. Prove the following uniqueness statement for the functional calculus (7.11). If T is a compact normal operator on a C-Hilbert space $\mathcal { H }$ and τ: $l ^ { \infty } ( \mathbb { C } ) \to { \mathcal { B } } ( \mathcal { H } )$ is a multiplicative linear map such that $\| \tau ( \phi ) \| = \operatorname* { s u p } \{ | \phi ( \lambda ) | : \lambda \in \sigma _ { p } ( T ) \} , \tau ( 1 ) = 1$ , and $\tau ( \psi ) = T$ whenever $\psi ( z ) = z \mathrm { o n } \sigma _ { p } ( T ) \cup \{ 0 \}$ , then $\tau ( \phi ) = \phi ( T )$ for every φ in $l ^ { \infty } ( \mathbb { C } )$
+
+## §8\*. Unitary Equivalence for Compact Normal Operators
+
+In Section I.5 the concept of an isomorphism between Hilbert spaces was defined as the natural equivalence relation on Hilbert spaces. This equivalence relation between the spaces induces a natural equivalence relation between the operators on the spaces.
+
+8.1. Definition. If A, B are bounded operators on Hilbert spaces $\pi , \pi$ , then A and B are unitarily equivalent if there is an isomorphism $U : { \mathcal { H } } \to { \mathcal { H } }$ such that $U A U ^ { - 1 } = B$ In symbols this is denoted by $A \cong B$
+
+Some of the elementary properties of unitary equivalence are contained in Exercises 1 and 2. Note that if $U A U ^ { - 1 } = B ,$ then $U A = B U$
+
+The purpose of this section is to give necessary and sufficient conditions that two compact normal operators be unitarily equivalent. Later, in Section IX.10, necessary and sufficient conditions that any two normal operators be unitarily equivalent are given and the results of this section are subsumed by those of that section.
+
+8.2. Definition. If T is a compact operator, the multiplicity function for T is the cardinal number valued function $m _ { T }$ defined for every complex number λ by $m _ { T } ( \lambda ) = \dim \ker ( T - \lambda )$
+
+Hence $m _ { T } ( \lambda ) \geqslant 0$ for all λ and $m _ { T } ( \lambda ) > 0$ if and only if λ is an eigenvalue for T. Note that by Proposition 4.13 $m _ { T } ( \lambda ) < \infty$ if $\lambda \neq 0$
+
+If, T, S are compact operators on Hilbert spaces and $U \colon { \mathcal { H } } \to { \mathcal { H } }$ is an isomorphism with $\dot { U } T U ^ { - 1 } = S .$ then U ker $(T - \lambda) = \ker(S - \lambda)$ for every λ in C. In fact, if $T h = \lambda h ,$ then $S U h = U T h = \lambda U h$ and so $U h \in \ker ( S - \lambda )$ Conversely, if $k { \in } \ker ( S - \lambda )$ and $\boldsymbol { h } = \boldsymbol { U } ^ { - 1 } \boldsymbol { k }$ then $T h = T U ^ { - 1 } k = U ^ { - 1 } S k = \lambda h$ In particular, it must be that $m _ { T }   =   m _ { S }$ . If S and T are normal, this condition is also sufficient for unitary equivalence.
+
+8.3. Theorem. Two compact normal operators are unitarily equivalent if and only if they have the same multiplicity function.
+
+ProoF. Let T, S be compact normal operators on Hilbert spaces $\varkappa , \varkappa$ . If $T \cong S ,$ then it has already been shown that $m _ { T } = m _ { S ^ { \prime } }$ Suppose now that $m _ { T } = m _ { S }$ . We must manufacture a unitary operator $U : { \mathcal { H } } \to { \mathcal { H } }$ such that $U T U ^ { - 1 }   =   S$
+
+Let $\begin{array} { r } { \bar { T } = \sum _ { n = 1 } ^ { \infty } \lambda _ { n } P _ { n } } \end{array}$ and let $S = \sum _ { n = 1 } ^ { \infty } \mu _ { n } Q _ { n }$ as in the Spectral Theorem (7.6). So if $n \neq m ,$ then $\lambda _ { n } \neq \lambda _ { m }$ and $\mu _ { n } \neq \mu _ { m } ,$ and each of the projections $P _ { n }$ and $Q _ { n }$ has finite rank. Let $P _ { 0 } , Q _ { 0 }$ be the projections of $\varkappa , \pi$ onto ker T, ker $\mathcal { S } ;$ sO $\boldsymbol{P}_{0}=(\sum_{1}^{\infty} \boldsymbol{P}_{n})^{\perp}$ and $Q _ { 0 } = ( \sum _ { 1 } ^ { \infty } Q _ { n } ) ^ { \perp }$ . Put $\lambda _ { 0 } = \mu _ { 0 } = 0 .$
+
+Since $m _ { T } = m _ { S } , \; 0 < m _ { T } ( \lambda _ { n } ) = m _ { S } ( \lambda _ { n } ) .$ Hence there is a unique $\mu _ { j }$ such that $\mu _ { j } = \lambda _ { n ^ { * } }$ Define $\pi \colon  { \mathbb { N } }   \to    { \mathbb { N } }$ by letting $\mu _ { \pi ( n ) } = \lambda _ { n ^ { * } }$ Let $\pi ( 0 ) = 0$ . Note that π is one-to-one. Also, since $0 < m _ { S } ( \mu _ { n } ) = m _ { T } ( \mu _ { n } ) ,$ for every n there is a j such that $\pi ( j )   =   n$ Thus π: $\mathbb { N } \cup \{ 0 \} \to \mathbb { N } \cup \{ 0 \}$ is a bijection or permutation. Since dim $P_{n}=m_{T}(\lambda_{n})=m_{S}(\mu_{\pi(n)})=\dim Q_{\pi(n)}$ , there is an isomorphism $U _ { n } ; P _ { n } { \mathcal { H } } \to$ $Q _ { \pi ( n ) } \mathcal { H }$ for $n   \geqslant   0 .$ Define $\widehat { U } : \mathcal { H } \rightarrow \mathcal { H }$ by letting $U = U _ { n }$ on $P _ { n } \mathcal { H }$ and extending by linearity. Hence $U = \bigoplus_{n = 0}^{\infty} U_{n}$ It is easy to check that U is an isomorphism. Also, if $h \in P_n \mathcal{H}, n \geqslant 0$ , then $U T h = \lambda _ { n } U h = \mu _ { \pi ( n ) } U h = S U h .$ Hence $U T U ^ { - 1 } = S$ ■
+
+If V is the Volterra operator, then $m _ { V } \equiv 0$ (4.11) and V and the zero operator are definitely not unitarily equivalent, so the preceding theorem only applies to compact normal operators. There are no known necessary and sufficient conditions for two arbitrary compact operators to be unitarily equivalent. In fact, there are no known necessary and sufficient conditions that two arbitrary operators on a finite-dimensional space be unitarily equivalent.
+
+## EXERCISES
+
+1. Show that “unitary equivalence" is an equivalence relation on $\mathcal { B } ( \mathcal { H } )$
+
+2. Let $U : { \mathcal { H } } \to { \mathcal { H } }$ be an isomorphism and define $\rho : \mathcal { B } ( \mathcal { H } ) \to \mathcal { B } ( \mathcal { H } ) \mathrm { b y } \rho ( A ) = U A U ^ { - 1 }$ Prove: (a) $\| \rho ( A ) \| = \| A \| , \rho ( A ^ { * } ) = \rho ( A ^ { * } )$ , and $\rho$ is an isomorphism between the two algebras $\mathcal { B } ( \mathcal { H } )$ and $\mathcal { B } ( \mathcal { H } )$ (b) $\rho ( A ) \in \mathcal { B } _ { 0 } ( \mathcal { H } )$ if and only if $A   \in   \mathcal { B } _ { 0 } ( \mathcal { H } )$ (c) If $T \in \mathcal { B } ( \mathcal { H } )$ , then $A T = T A$ if and only if $\rho ( T ) \rho ( A ) = \rho ( A ) \rho ( T )$ (d) If $A \in \mathcal { B } ( \mathcal { H } )$ and $\mathcal { M } \leqslant \mathcal { H }$ , then M is invariant (reducing) for A if and only if $U \mathcal { M }$ is invariant (reducing) for $\rho ( A )$
+
+3. Say that an operator A on  is irreducible if the only reducing subspaces for A are (0) and $\mathcal { H }$ . Prove: (a) The Volterra operator is irreducible. (b) The unilateral shift is irreducible.
+
+4. Suppose $A = \oplus \left\{ A _ { i } ; i { \in } I \right\}$ and $B = \oplus \left\{ B _ { i } ; i { \in } I \right\}$ where each $A _ { i }$ and $B _ { i }$ is irreducible (Exercise 3). Show that $A \cong B$ if and only if there is a bijection π: $I   \rightarrow   I$ such that $A _ { i } \mathop { \cong } B _ { \pi ( i ) } .$
+
+5. If T is a compact normal operator and $m _ { T }   =   m$ is its multiplicity function, prove: (a) $\left\{ \lambda : m(\lambda) > 0 \right\}$ is countable and 0 is its only possible cluster point; (b) $m ( \lambda ) < \infty$ if $\lambda \neq 0$ Show that if m: $\mathbb { C }   \rightarrow   \mathbb { N }   \cup   \{ 0 , \infty \}$ is any function satisfying (a) and (b), then there is a compact normal operator T such that $m _ { T }   =   m$
+
+6. Show that two projections P and Q are unitarily equivalent if and only if dim(ran $P)=\dim(\tan Q)$ and dim(ker $P ) = \dim ( \ker Q )$
+
+7. Let A: $L ^ { 2 } ( 0 , 1 ) \to L ^ { 2 } ( 0 , 1 )$ be defined by $(Af)(x) = xf(x)$ for f in $L ^ { 2 } ( 0 , 1 )$ and x in (0, 1). Show that $A \cong A ^ { 2 }$
+
+8. Say that a compact normal operator T is simple if $m _ { T } \leqslant 1$ . (See Exercises 7.10 and 7.11.) Show that every compact normal operator $T$ on a separable Hilbert space is unitarily equivalent to $\bigoplus _ { n = 1 } ^ { \infty } T _ { n }$ where each $T _ { n }$ is a simple compact normal operator and $m _ { T _ { n } } \geqslant m _ { T _ { n + 1 } }$ for all n. Show that $\| T _ { n } \| \to 0 .$ (Of course, there may only be a finite number of $T _ { n ^ { * } } )$
+
+9. Using the notation of Exercise 8, suppose also that S is a compact normal operator and $S \cong \oplus _ { n = 1 } ^ { \infty } S _ { n }$ where $S _ { n }$ is a simple compact normal operator and $m _ { S _ { n } } \geqslant m _ { S _ { n + 1 } }$ for all n. Show that $T \cong S$ if and only if $T _ { n }   \cong   { \mathcal { S } } _ { n }$ for all n.
+
+10. If T is a compact normal operator on a separable Hilbert space, show that there are simple compact normal operators $T _ { 1 } , \; T _ { 2 } , \ldots$ such that $T \cong 0 \oplus T _ { 1 } \oplus T _ { 2 } ^ { ( 2 ) } \oplus$ $T _ { 2 } ^ { ( 3 ) } \oplus \cdots$ , where: (a) for any operator $A, A^{(n)} \equiv A \oplus \cdots \oplus A$ (n times); (b) 0 is the zero operator on an infinite dimensional space; (c) for n ≠ k, $m _ { T _ { n } } m _ { T _ { k } }   \equiv   0 ;$ and (d) if ker T is infinite dimensional, then ker $T _ { n }   =   ( 0 )$ for all n. (Of course not all of the summands need be present.) Show that $\| T _ { n } \|   \to   0 .$
+
+11. Using the notation of Exercise 10, let S be a compact normal operator and let 0⊕ ${ \mathcal { S } } _ { 1 } \oplus { \mathcal { S } } _ { 2 } ^ { ( 2 ) } \oplus \cdots$ . be the corresponding decomposition. Show that $T \cong S$ if and only if $T _ { n } \stackrel { - } { \cong } S _ { n }$ and ker T and ker S have the same dimension.
+
+12. If T is a non-zero compact normal operator, show that T and $T \oplus T$ are not unitarily equivalent.
+
+13. Give an example of a nontrivial operator T such that $T \cong T \oplus T$ . Show that if $T \cong T \oplus T ,$ then $T \cong T \oplus T \oplus \cdots$ . Characterize the diagonalizable normal operators T such that $T \cong T \oplus T$
+
+14. Let $\mathcal { H }$ be the space defined in Example I.1.8 and let $U \colon { \mathcal { H } }   \to   L ^ { 2 } ( 0 , 1 )$ be the isomorphism defined by $U f = f ^ { \prime }$ (Exercise I.1.4). If $(Af)(x) = xf(x)$ for f in $\mathcal { H }$ what is $U A U ^ { - 1 } ?$
+
+# CHAPTER III Banach Spaces
+
+The concept of a Banach space is a generalization of Hilbert space. A Banach space assumes that there is a norm on the space relative to which the space is complete, but it is not assumed that the norm is defined in terms of an inner product. There are many examples of Banach spaces that are not Hilbert spaces, so that the generalization is quite useful.
+
+## §1. Elementary Properties and Examples
+
+1.1. Definition. If $\mathcal { X }$ is a vector space over $\mathbb { F } ,$ a seminorm is a function $p \colon { \mathcal { X } }   \to   [ 0 , \infty )$ having the properties:
+
+(a) $p(x + y) \leqslant p(x) + p(y)$ for all $x , y$ in $\mathcal { X } .$
+
+(b) $p ( \alpha x ) = | \alpha | p ( x )$ for all $\alpha$ in $\mathbf { F }$ and $x$ in $\mathcal { X } .$
+
+It follows from (b) that $p ( 0 ) = 0$ A norm is a seminorm p such that
+
+(c) $x = 0   if   p(x) = 0.$
+
+Usually a norm is denoted by $\| \cdot \|$
+
+The norm on a Hilbert space is a norm. Also, the norm on $\mathcal { B } ( \mathcal { H } )$ is a norm.
+
+If $\mathcal { X }$ has a norm, then $d ( x , y ) = \| x - y \|$ defines a metric on $\mathcal { X } .$
+
+1.2. Definition. A normed space is a pair $( { \mathcal { X } } , \| \cdot \| ) ,$ where $\mathcal { X }$ is a vector space and $\| \cdot \|$ is a norm on $\mathcal { X }$ . A Banach space is a normed space that is complete with respect to the metric defined by the norm.
+
+1.3. Proposition. If X is a normed space, then
+
+(a) the function $\mathcal { X } \times \mathcal { X }   \rightarrow   \mathcal { X }$ defined by $( x , y ) { \mapsto } x + y$ is continuous;
+
+(b) the function $\mathbb { F } \times \mathcal { X }   \rightarrow   \mathcal { X }$ defined by $( \alpha , x ) { \mapsto } \alpha x$ is continuous.
+
+PROOF. If $x _ { n }   \to   x$ and $y _ { n }   \rightarrow   y _ { \ast }$ then $\| (x_n + y_n) - (x + y) \| = \| (x_n - x) + (y_n - y) \| \leqslant$ $\| x_n - x \| + \| y_n - y \| \to 0$ as $n   \to   \infty$ . This proves (a). The proof of (b) is left to the reader.
+
+The next lemma is quite useful.
+
+1.4. Lemma. If p and q are seminorms on a vector space $\mathcal { X } ,$ , then the following statements are equivalent.
+
+(a) $p ( x ) \leqslant q ( x ) { \it ~ f o r ~ a l l ~ } x . { \it ~ ( T h a t ~ i s , ~ } p \leqslant q . { \it ) }$
+
+(b) $\{ x \in \mathcal { X } : q ( x ) < 1 \} \subseteq \{ x \in \mathcal { X } : p ( x ) < 1 \}$
+
+(b′) $p ( x ) < 1 { \it ~ w h e n e v e r ~ } q ( x ) < 1 .$
+
+(c) $\{ x : q(x) \leqslant 1 \} \subseteq \{ x : p(x) \leqslant 1 \}$
+
+(c') $p ( x ) \leq 1 { \mathrm { ~ w h e n e v e r ~ } } q ( x ) \leq 1 .$
+
+(d) $\{ x \colon q ( x ) < 1 \} \subseteq \{ x \colon p ( x ) \leqslant 1 \} .$
+
+(d') $p ( x ) \leq 1 { \mathrm { ~ w h e n e v e r ~ } } q ( x ) < 1 .$
+
+PRoOF. It is clear that (b) and (b'), (c) and $( c ^ { \prime } ) ,$ and (d) and (d’) are equivalent. It is also clear that (a) implies all of the remaining conditions and that both (b) and (c) imply (d). It remains to show that (d) implies (a).
+
+Assume that (d) holds and put $q ( x ) = \alpha . \mathrm { I f } \varepsilon > 0 ,$ then $q((\alpha + \varepsilon)^{-1}x) =$ $(x + \varepsilon)^{-1} \alpha < 1. \mathrm{By} (\mathrm{d}), 1 \geqslant p((x + \varepsilon)^{-1}x) = (x + \varepsilon)^{-1}p(x), \mathrm{so} p(x) \leqslant x + \varepsilon = q(x) + \varepsilon.$ Letting $\varepsilon   \to   0$ shows (a).
+
+If $\left\| \cdot \right\| _ { 1 }$ and $\left\| \cdot \right\| _ { 2 }$ are two norms on $\mathcal { X } ,$ they are said to be equivalent norms if they define the same topology on $\mathcal { X }$
+
+1.5. Proposition. If $\| \cdot \| _ { 1 }$ and $\| \cdot \| _ { 2 }$ are two norms on $\mathcal { X } ,$ , then these norms are equivalent if and only if there are positive constants c and C such that
+
+$$
+c \left\| x \right\|_1 \leqslant \left\| x \right\|_2 \leqslant C \left\| x \right\|_1
+$$
+
+for all x in $\mathcal { X } .$
+
+ProoF. Suppose there are constants c and C such that $c \left\| x \right\|_1 \leqslant \left\| x \right\|_2 \leqslant C \left\| x \right\|$ 1 for all x in $\mathcal { X } .$ Fix $x _ { 0 }$ in $\mathcal { X } ,   \varepsilon   >   0$ Then
+
+$$
+\{ x \in \mathcal { X } : \| x - x _ { 0 } \| _ { 1 } < \varepsilon / C \} \subseteq \{ x \in \mathcal { X } : \| x - x _ { 0 } \| _ { 2 } < \varepsilon \} ,
+$$
+
+$$
+\{ x \in \mathcal { X } : \| x - x _ { 0 } \| _ { 2 } < c \varepsilon \} \subseteq \{ x \in \mathcal { X } : \| x - x _ { 0 } \| _ { 1 } < \varepsilon \} .
+$$
+
+This shows that the two topologies are the same. Now assume that the two norms are equivalent. Hence $\left\{ x \colon \left\|   x   \right\| _ { 1 }   <   1 \right\}$ is an open neighborhood of 0 in the topology defined by $\| \cdot \| _ { 2 }$ . Therefore there is an $r > 0$ such that $\{ x : \| x \| _ { 2 } < r \} \subseteq \{ x : \| x \| _ { 1 } < 1 \}$ . If $q ( x ) = r ^ { - 1 } \left\| x \right\| _ { 2 }$ and $p ( x ) = \| x \| _ { 1 }$ ,the preceding lemma implies $\| x \| _ { 1 } \leqslant r ^ { - 1 } \| x \| _ { 2 }$ or $c \left\|   x   \right\| _ { 1 } \leqslant \left\|   x   \right\| _ { 2 }$ , where $c = r$ The other inequality is left to the reader. ■
+
+There are two types of properties of a Banach space: those that are topological and those that are metric. The metric properties depend on the precise norm; the topological ones depend only on the equivalence class of norms (see Exercise 4).
+
+1.6. Example. Let X be any Hausdorff space (all spaces in this book are assumed to be Hausdorff unless the contrary is specified) and let $C _ { b } ( X ) = \mathrm { a l l }$ continuous functions $f \colon X \to \mathbb { F }$ such that $\| f \| \equiv \sup \{ | f ( x ) | : x \in X \} < \infty$ . For $f , g$ in $C _ { b } ( X )$ , define $( f + g ) \colon X \to \mathbb { F }$ by $(f + g)(x) = f(x) + g(x);$ for $\alpha$ in F define $( \alpha f ) ( x ) = \alpha f ( x )$ .Then $C _ { b } ( X )$ is a Banach space.
+
+The proofs of the statements in (1.6) are all routine except, perhaps, for the fact that $C _ { b } ( X )$ is complete. To see this, let $\{ f _ { n } \}$ be a Cauchy sequence in $C _ { b } ( X )$ So if $\varepsilon   >   0 ,$ there is an integer $N _ { \varepsilon }$ such that for $n , m \geqslant N _ { \varepsilon } ,$ $\varepsilon > \| f_n - f_m \| = \sup \{ | f_n(x) - f_m(x) | : x \in X \}$ . In particular, for any x in $X, \left| f_{n}(x) - f_{m}(x) \right| \leqslant \left\| f_{n} - f_{m} \right\| < \varepsilon$ when $n , m \geqslant N _ { \varepsilon } .$ So $\{ f _ { n } ( x ) \}$ is a Cauchy sequence in F. Let $f(x) = \lim_{n \to \infty} f_n(x)$ if $x { \in } X$ . Now fix x in X. If $n , m \geqslant N _ { \varepsilon } ,$ then $| f ( x ) - f _ { n } ( x ) | \leqslant | f ( x ) - f _ { m } ( x ) | + \| f _ { m } - f _ { n } \| < | f ( x ) - f _ { m } ( x ) | + \varepsilon .$ Letting $m   \to   \infty$ gives that $| f ( x ) - f _ { n } ( x ) | \leqslant \varepsilon$ when $n \geqslant N _ { \varepsilon }$ . This is independent of x. Hence $\| f - f _ { n } \| \leqslant \varepsilon$ for $n \geqslant N _ { \varepsilon }$
+
+What has been just shown is that $\| f - f _ { n } \| \to 0$ as $n   \to   \infty$ . Note that this implies that $f _ { n } ( x )   \to   f ( x )$ uniformly on X. It is standard that f is continuous. Also, |l $\| f \| \leqslant \| f - f_n \| + \| f_n \| < \infty$ . Hence $f   \in   { \cal C } _ { b } ( X )$ and so $C _ { b } ( X )$ is complete.
+
+Note that a linear subspace $\mathcal { Y }$ of a Banach space $\mathcal { X }$ that is topologically closed is also a Banach space if it has the norm of $\mathcal { X } .$
+
+1.7. Proposition. If X is a locally compact space and $C _ { 0 } ( X ) = a l l$ continuous functions $f \colon X   \to   \mathbb { F }$ such that for all $\varepsilon > 0, \left\{ x \in X: \left| f(x) \right| \geqslant \varepsilon \right\}$ is compact, then $C _ { 0 } ( X )$ is a closed subspace of $C _ { b } ( X )$ and hence is a Banach space.
+
+PROOF. That $C _ { 0 } ( X )$ is a linear manifold in $C _ { b } ( X )$ is left as an exercise. It will only be shown that $C _ { 0 } ( X )$ is closed in $C _ { b } ( X )$ . Let $\{ f _ { n } \} \subseteq C _ { 0 } ( X )$ and suppose $f _ { n }   \rightarrow   f$ in $C _ { b } ( X )$ . If $\varepsilon   >   0$ , there is an integer N such that $\| f _ { n } - f \| < \varepsilon / 2 ;$ that $\left| f_{n}(x) - f(x) \right| < \varepsilon / 2$ for all $n \geqslant N$ and x in X. If $| f ( x ) | \geqslant \varepsilon ,$ then $\varepsilon \leqslant | f ( x ) - f _ { n } ( x ) + f _ { n } ( x ) | \leqslant \varepsilon / 2 + | f _ { n } ( x ) |$ for $n \geqslant N ;$ SO $| f _ { n } ( x ) | \geqslant \varepsilon / 2$ for $n \geqslant N$ Thus, $\{ x \in X : | f ( x ) | \geqslant \varepsilon \} \subseteq \{ x \in X : | f _ { N } ( x ) | \geqslant \varepsilon / 2 \}$ so that $f   \in   { \cal C } _ { 0 } ( X )$ ■
+
+The space $C _ { 0 } ( X )$ is the set of continuous functions on X that vanish at infinity. If $X = \mathbb { R }$ , then $C _ { 0 } ( \mathbb { R } ) = \mathrm { a l l }$ of the continuous functions $f \colon \mathbb { R }   \to   \mathbb { F }$ such that lim $\begin{array} { r } { \iota _ { x \to \pm \infty } f ( x ) = 0 } \end{array}$ . If X is compact, $C _ { 0 } ( X ) = C _ { b } ( X ) \equiv C ( X )$
+
+If I is any set, then give I the discrete topology. Hence I becomes locally compact. Also any function on I is continuous. Rather than $C _ { b } ( I )$ , the customary notation is $l ^ { \infty } ( I )$ . That is, $l ^ { \infty } ( I ) = a \mathrm { l l }$ bounded functions $f \colon I   \to   \mathbb { F }$ with $\| f \| = \sup \{ | f ( i ) | : i \in I \} . c _ { 0 } ( I )$ consists of all functions $f \colon I   \to   \mathbb { F }$ such that for every $\varepsilon > 0,\left\{ i \in I:\left| f(i) \right| \geqslant \varepsilon \right\}$ is finite. If $I = \mathbf { N }$ , the usual notation for these spaces is $l ^ { \infty }$ and $c _ { 0 }$ . Note that $l ^ { \infty }$ consists of all bounded sequences of scalars and $c _ { 0 }$ consists of all sequences that converge to 0.

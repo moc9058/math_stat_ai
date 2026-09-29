@@ -1,0 +1,5246 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 232,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 233,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 234,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 235,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 236,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 237,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 238,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 239,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 232,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.165,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "218"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.48,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.103,
+            0.867,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and there is an entire function f such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(A) \\in \\mathcal{B}_0(\\mathcal{X})"
+            },
+            {
+              "type": "text",
+              "content": " . What can be said about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.145,
+            0.868,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. With the terminology of Exercise 6.13, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } _ { 0 } ( \\mathcal { X } ) , \\lambda \\in \\sigma ( A ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " , what can be said about the index of λ?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.245,
+            0.533,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. Abelian Banach Algebras"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.286,
+            0.868,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that it is assumed that every Banach algebra is over C. Also assume that all Banach algebras contain an identity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.324,
+            0.87,
+            0.399
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A division algebra is an algebra such that every nonzero element has a multiplicative inverse. It may seem incongruous that the first theorem in this section allows the algebra to be nonabelian. However, the conclusion is that the algebra is abelian—and much more."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.415,
+            0.87,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.1. The Gelfand-Mazur Theorem. If A is a Banach algebra that is also a division ring, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathbb { C } \\left( \\equiv \\{ \\lambda \\mathbf { 1 } \\colon \\lambda \\mathbf { \\in } \\mathbb { C } \\} \\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.461,
+            0.869,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\neq \\Box"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   \\in   \\sigma ( a ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " has no inverse. But is a division ring, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a - \\lambda = 0"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.516,
+            0.87,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As a corollary of the preceding theorem, the algebra of quaternions, H, is not a Banach algebra. That is, it is impossible to put a norm on H that makes it into a Banach algebra over C. Can you show this directly?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.588,
+            0.872,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.2. Proposition. If A is an abelian Banach algebra and M is a maximal ideal, then there is a homomorphism h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\ker h ."
+            },
+            {
+              "type": "text",
+              "content": " Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\colon { \\mathcal { A } } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism, then ker h is a maximal ideal. Moreover, this correspondence h→ker h between homomorphisms and maximal ideals is bijective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.687,
+            0.871,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. If M is a maximal ideal, then M is closed (2.4b). Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha / M"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach algebra with identity. Let π: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathcal { A } / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " be the natural map. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( a )"
+            },
+            {
+              "type": "text",
+              "content": " is not invertible in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha / M"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\mathcal { A } a ) = \\pi ( a ) [ \\mathcal { A } / \\mathcal { M } ]"
+            },
+            {
+              "type": "text",
+              "content": " is an ideal in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " that is proper. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = \\{ b \\in \\mathcal { A } : \\pi ( b ) \\in \\pi ( \\mathcal { A } a ) \\} = \\pi ^ { - 1 } ( \\pi ( \\mathcal { A } a ) )"
+            },
+            {
+              "type": "text",
+              "content": " . Then I is a proper ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\subseteq I ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is maximal, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = I ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( a . \\mathcal { A } ) \\subseteq \\pi ( I ) = \\pi ( \\mathcal { M } ) = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( a ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " This says that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a field. By the Gelfand-Mazur Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / \\mathcal { M } = \\mathbb { C } = \\{ \\lambda + \\mathcal { M } : \\lambda \\in \\mathbb { C } \\}"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { h } ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / \\mathcal { M } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { h } ( \\lambda + \\mathcal { M } ) = \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " and define h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\tilde { h }   \\circ \\pi"
+            },
+            {
+              "type": "text",
+              "content": " Then h is a homomorphism and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\mathcal { M }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.853,
+            0.869,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conversely, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\colon { \\mathcal { A } }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism. Then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a nontrivial ideal and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / \\mathcal { M } \\approx \\mathbb { C } . ( \\mathrm { W h y ? } ) \\mathrm { S o } \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is maximal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.89,
+            0.869,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , h ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " are two nonzero homomorphisms and ker h = ker h', then there is an α in C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\alpha h ^ { \\prime } \\left( \\mathrm { A } . 1 . 4 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = h(1) = \\alpha h'(1) = \\alpha, \\;  so  \\; h = h'."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 233,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.055,
+            0.392,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. Abelian Banach Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.057,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "219"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.3. Corollary. If A is an abelian Banach algebra and h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism, then h is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.145,
+            0.529,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProOF. Maximal ideals are closed (2.4b)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.183,
+            0.87,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next result improves the preceding corollary a little. Remember that by (8.3) if h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { A } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " (the Banach space dual of A)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.256,
+            0.869,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.4. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\iint d"
+            },
+            {
+              "type": "text",
+              "content": " is abelian and h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a non-zero homomorphism, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.301,
+            0.87,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = h(a).  If  |\\lambda| > \\|a\\|"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a / \\lambda \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 - a / \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is invertible. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = ( 1 - a / \\lambda ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = b(1 - a / \\lambda) = b - b a / \\lambda."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( 1 ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = h ( b - b a / \\lambda ) = h ( b ) - h ( b ) h ( a ) / \\lambda = h ( b ) - h ( b ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction. Hence二 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\parallel \\geqslant | \\lambda | = | h ( a ) | ;"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(1) = 1, \\| h \\| = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.393,
+            0.871,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.5. Definition. If  is an abelian Banach algebra, let Σ = the collection of all nonzero homomorphisms of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " Give Σ the relative weak* topology that it has as a subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ^ { * } . \\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " with this topology is called the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.486,
+            0.868,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.6. Theorem. If A is an abelian Banach algebra, then its maximal ideal space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { \\Sigma }"
+            },
+            {
+              "type": "text",
+              "content": " is a compact Hausdorff space. Moreover, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) = \\Sigma ( a ) \\equiv"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h ( a ) : h { \\in } \\Sigma \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.551,
+            0.867,
+            0.642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma \\subseteq { \\mathrm { b a l l } } { \\mathcal { A } } ^ { * } ."
+            },
+            {
+              "type": "text",
+              "content": " , it suffices for the proof of the first part of the theorem to show that Σ is weak* closed. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net in Σ and suppose h∈ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { i }   \\rightarrow   h"
+            },
+            {
+              "type": "text",
+              "content": " weak*. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(ab) = \\lim_{i} h_{i}(ab) ="
+            },
+            {
+              "type": "text",
+              "content": " lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { i } ( a ) h _ { i } ( b ) = h ( a ) h ( b )"
+            },
+            {
+              "type": "text",
+              "content": " . So h is a homomorphism. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(1) = \\lim_{i} h_{i}(1) = 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } \\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " . Thus Σ is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.642,
+            0.871,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } \\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = h ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a - \\lambda \\in \\ker h."
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is not invertible and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } { \\sigma } ( a ) ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma ( a ) \\subseteq \\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " .Now assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   \\in   \\sigma ( a ) ;"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is not invertible and, hence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - i ) \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is a proper ideal. Let M be a maximal ideal in such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - \\lambda ) \\mathcal { A } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\left[ h \\in \\sum \\right. }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\ker h ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = h(a - \\lambda) = h(a) - \\lambda;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\subseteq \\Sigma ( a ) ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.75,
+            0.869,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now it is time for an example. Here is one that is a little more than an example. If X is compact and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   X"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { x } : C ( X ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { x } ( f )   =   f ( x )"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism on the algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.823,
+            0.87,
+            0.862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.7. Theorem. If X is compact and Σ is the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) _ { \\mathrm { i } }"
+            },
+            {
+              "type": "text",
+              "content": " then the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   \\delta _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism of X onto Σ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.869,
+            0.871,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let ∆: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X   \\to   \\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta ( x ) = \\delta _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " . As was pointed out before, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta ( X ) \\subseteq \\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " . It was shown in Proposition V.6.1 that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\colon X   \\to   ( \\Delta ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , weak*) is a homeomorphism. Thus it only remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta ( X ) = \\Sigma . \\mathrm { I f } h \\in \\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 234,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "220"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.484,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.87,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "there is a measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( X )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( f ) = \\int f d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   \\boldsymbol { \\mu }   \\| = \\|   \\boldsymbol { h }   \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( X ) = \\int 1   d \\mu = h ( 1 ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " (Exercises III.7.2). Let x∈support (μ). It will be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\delta _ { x }"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.123,
+            0.155,
+            0.871,
+            0.266
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\{ f \\in C ( X ) : f ( x ) = 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So M is a maximal ideal of C(X). Note that if it can be shown that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " , then it must be that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = \\delta _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " . So let f∈ker h. Because kerh is an ideal, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f | ^ { 2 } = f { \\overline { { f } } } \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": " ker h. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = h ( | f | ^ { 2 } ) = \\int | f | ^ { 2 } d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f | ^ { 2 } \\geqslant 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " it must be that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = 0 \\mathrm { a . e . } [ \\mu ]"
+            },
+            {
+              "type": "text",
+              "content": " Since f is continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": " on support (μ). In particular, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x )   =   0"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.283,
+            0.871,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows from the preceding theorem that the maximal ideals of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " are all of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f { \\in } C ( X ) ; f ( x ) = 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " for some x in X."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.339,
+            0.872,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.8. Definition. Let  be an abelian Banach algebra with maximal ideal space Σ. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " , then the Gelfand transform of a is the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\hat { a } } \\colon \\Sigma   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { a } ( h ) = h ( a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.412,
+            0.872,
+            0.486
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.9. Theorem. If A is an abelian Banach algebra with maximal ideal space Σ and a∈A, then the Gelfand transform of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ,   \\hat { a } ,"
+            },
+            {
+              "type": "text",
+              "content": " belongs to C(Σ). The map a→â of A into C(Σ) is a continuous homomorphism of A into C(Σ) of norm 1 and its kernel is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.319,
+            0.494,
+            0.672,
+            0.515
+          ],
+          "image_path": "images/page_234_equation_7.jpg",
+          "content": "\\bigcap \\{ \\mathcal { M } \\colon \\mathcal { M } { \\mathrm { ~ i s ~ } } a { \\mathrm { ~ m a x i m a l ~ i d e a l ~ o f ~ } } \\mathcal { A } \\} ."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.522,
+            0.399,
+            0.541
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Moreover, for each a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\prec ,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.397,
+            0.548,
+            0.6,
+            0.58
+          ],
+          "image_path": "images/page_234_equation_9.jpg",
+          "content": "\\| \\hat { a } \\| _ { \\infty } = \\lim _ { n \\rightarrow \\infty } \\| a ^ { n } \\| ^ { 1 / n }"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.588,
+            0.867,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { i }   \\rightarrow   h"
+            },
+            {
+              "type": "text",
+              "content": " in Σ, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { i }   \\rightarrow   h"
+            },
+            {
+              "type": "text",
+              "content": " weak* in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } , \\; \\hat { a } ( h _ { i } ) = h _ { i } ( a ) \\rightarrow"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( a ) = \\hat { a } ( h )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { a }   \\in   { \\cal C } ( \\Sigma )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.623,
+            0.87,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon { \\mathcal { A } }   \\to   C ( \\Sigma )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( a ) = { \\hat { a } } ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in { \\mathcal { A } } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(ab)(h)=\\widehat{ab}(h)=h(ab)="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( a ) h ( b ) = { \\hat { a } } ( h ) { \\hat { b } } ( h )"
+            },
+            {
+              "type": "text",
+              "content": " .Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( a b ) = \\gamma ( a ) \\gamma ( b )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that y is linear, so γ is a homomorphism. Also, by (8.4), if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal{A}, \\left| \\hat{a}(h) \\right| = \\left| h(a) \\right| \\leqslant \\left\\| a \\right\\|"
+            },
+            {
+              "type": "text",
+              "content": " ; thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\gamma ( a ) \\| _ { \\infty } = \\|   \\hat { a }   \\| _ { \\infty } \\leqslant \\|   a   \\|"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " is continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\gamma \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 1 )   =   1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\gamma \\| = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.715,
+            0.871,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that a∈ker γ if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { a } \\equiv 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, a∈ker γ if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( a ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for each h in Σ. Thus a∈ker γ if and only if a belongs to every maximal ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.77,
+            0.871,
+            0.826
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, by Theorem 8.6, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\hat { a } \\| _ { \\infty } = \\operatorname* { s u p } \\{ | \\lambda | : \\lambda \\in \\sigma ( a ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " . The last part of this theorem is thus a consequence of this observation and Proposition 3.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.121,
+            0.843,
+            0.871,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The homomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\mapsto   \\hat { a }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " into C(Σ) is called the Gelfand transform of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\not { x } ,"
+            },
+            {
+              "type": "text",
+              "content": " The kernel of the Gelfand transform is called the radical of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " rad "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " So"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.276,
+            0.905,
+            0.719,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "rad "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\cap \\{ \\mathcal { M } : \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 235,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.391,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. Abelian Banach Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.832,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "221"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.869,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If X is compact and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma ,"
+            },
+            {
+              "type": "text",
+              "content": " the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , is identified with X as in Theorem 8.7, then the Gelfand transform "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X )   \\to   C ( \\Sigma )"
+            },
+            {
+              "type": "text",
+              "content": " becomes the identity map."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.156,
+            0.868,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian algebra, say that a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sphericalangle"
+            },
+            {
+              "type": "text",
+              "content": " is a generator of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p ( a ) \\cdot p"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial} is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.192,
+            0.869,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that if τ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\to Y"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\colon C ( Y ) \\to C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A f = f \\circ \\tau"
+            },
+            {
+              "type": "text",
+              "content": " is an isometric isomorphism (VI.2.1). Denote the relationship between A and τ by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\tau ^ { \\# }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.264,
+            0.868,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.10. Proposition. If A is an abelian Banach algebra with identity and a is a generator of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a homeomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau \\colon \\Sigma   \\to   \\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i f \\gamma :"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { A } }   \\to   C ( \\Sigma )"
+            },
+            {
+              "type": "text",
+              "content": " is the Gelfand transform and p is a polynomial, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( p ( a ) ) = \\tau ^ { \\# } ( p )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.327,
+            0.868,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Define τ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma   \\to   \\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( h ) = h ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . By Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 . 6 ~ \\tau"
+            },
+            {
+              "type": "text",
+              "content": " is surjective. It is easy to see that τ is continuous. To see that τ is injective, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( h _ { 1 } ) = \\tau ( h _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } ( a ) = h _ { 2 } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } ( a ^ { n } ) = h _ { 2 } ( a ^ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " By linearity, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } ( p ( a ) ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 } ( p ( a ) )"
+            },
+            {
+              "type": "text",
+              "content": " for every polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ."
+            },
+            {
+              "type": "text",
+              "content": " Since a is a generator for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are continuous on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ,   h _ { 1 } = h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , and τ is injective. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " is compact, τ is a homeomorphism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.438,
+            0.867,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The remainder of the proposition follows from the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ^ { \\# }"
+            },
+            {
+              "type": "text",
+              "content": " are homomorphisms. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(p(a))(h) = p(\\gamma(a))(h) = p(\\hat{a})(h) = p(\\hat{a}(h)) = p(\\tau(h)) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ^ { \\# } ( p ) ( h )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.509,
+            0.868,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.11. Corollary. If A has two elements "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " each of which is a generator, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " are homeomorphic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.563,
+            0.87,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The converse to (8.11) is not true. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = C [ - 1 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x ) = x"
+            },
+            {
+              "type": "text",
+              "content": " defines a generator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rtimes"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( x ) = x ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(g)=g([-1,1])=[0,1]"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( f )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( g )"
+            },
+            {
+              "type": "text",
+              "content": " are homeomorphic. However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " is not a generator for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " In fact, the Banach algebra generated by g consists of the even functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C [ - 1 , 1 ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.649,
+            0.871,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.12. Example. If V: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 ) \\to L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " is the Volterra operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is the closure in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( L ^ { 2 } ( 0 , 1 ) )"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p ( V ) \\colon p"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian Banach algebra and rad "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { A } } = \\operatorname { c l } \\left\\{ p ( V ) : p \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in z and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( 0 ) = 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " In other words, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " has a unique maximal ideal, rad "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } = \\mathcal { B } ( L ^ { 2 } ( 0 , 1 ) )"
+            },
+            {
+              "type": "text",
+              "content": " , Theorem 5.4 implies that ∂σ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( V ) \\subseteq \\sigma _ { \\mathcal { A } } ( V ) \\subseteq \\sigma _ { \\mathcal { A } } ( V )"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( V ) = \\{ 0 \\} \\quad ( 6 . 1 4 ) , \\quad \\sigma _ { \\mathcal { A } } ( V ) = \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . The statement above now follows by Proposition 8.10."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.794,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.13. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " be the closure in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\partial \\mathbf { D } )"
+            },
+            {
+              "type": "text",
+              "content": " of the polynomials in z. If Σ is the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " is homeomorphic to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " (Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z"
+            },
+            {
+              "type": "text",
+              "content": " is the function whose value at λ in ∂ID is λ.) Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( z ) = \\mathrm { c l } \\mathbb { D }"
+            },
+            {
+              "type": "text",
+              "content": " as was shown in Example 5.1. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " then the Maximum Modulus Theorem shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " has a continuous extension to cl D that is analytic in D [see (5.1)]. Also denote this extension by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ."
+            },
+            {
+              "type": "text",
+              "content": " The proof of (8.10) shows that the continuous homomorphisms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " are of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\mapsto } f ( \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda"
+            },
+            {
+              "type": "text",
+              "content": " in cl D."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 236,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.167,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "222"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.482,
+            0.055,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.868,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the next section the Banach algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " is examined for a locally compact abelian group and its maximal ideals are characterized."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.169,
+            0.233,
+            0.185
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.136,
+            0.188,
+            0.871,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " be a Banach algebra with identity and let J be the smallest closed two-sided ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " containing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x y - y x : x , y { \\in } { \\mathcal { A } } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . J is called the commutator ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ."
+            },
+            {
+              "type": "text",
+              "content": " (a) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / J"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian Banach algebra. (b) If I is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nsim"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / I"
+            },
+            {
+              "type": "text",
+              "content": " is abelian, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I \\supseteq J ."
+            },
+            {
+              "type": "text",
+              "content": " (c) If h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J \\subseteq \\ker h"
+            },
+            {
+              "type": "text",
+              "content": " and h induces a homomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { h } \\colon \\mathcal { A } / J   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\boldsymbol { h } }   \\circ   \\tilde { \\boldsymbol { \\pi } } = \\boldsymbol { h } ,"
+            },
+            {
+              "type": "text",
+              "content": " where π: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }   \\rightarrow \\mathcal { A } / J"
+            },
+            {
+              "type": "text",
+              "content": " is the natural map. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\widetilde { \\boldsymbol { h } } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " . (d) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " be the set of homomorphisms of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " and let ∑ be the set of homomorphisms of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } / J ."
+            },
+            {
+              "type": "text",
+              "content": " Show that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\longmapsto } { \\widetilde { h } }"
+            },
+            {
+              "type": "text",
+              "content": " defined in (c) is a homeomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { \\Sigma } ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.135,
+            0.332,
+            0.871,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Using the terminology of Exercises 2.6 and 2.7, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " be an abelian Banach algebra without identity and show that if M is a maximal modular ideal, then there is a homomorphism h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\ker h ."
+            },
+            {
+              "type": "text",
+              "content": " Conversely, if h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a nonzero homomorphism, then ker h is a maximal modular ideal. Moreover, the correspondence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\rightarrow"
+            },
+            {
+              "type": "text",
+              "content": " ker h is a bijection between homomorphisms and maximal modular ideals"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.136,
+            0.442,
+            0.869,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian Banach algebra and h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\rightarrow \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism, then h is continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . If  has an approximate identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| e _ { i } \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " for all i, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " (see Exercise 2.8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.135,
+            0.501,
+            0.869,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " be an abelian Banach algebra and let Σ be the set of nonzero homomorphisms of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " Show that Σ is locally compact if it has the relative weak* topology from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.137,
+            0.56,
+            0.87,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. With the notation of Exercise 4, assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " has no identity and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " be the algebra obtained by adjoining an identity. For a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " be the spectrum of a as an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) = \\{ h ( a ) : h \\in \\Sigma \\} \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Also, show that the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 } , \\Sigma _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , is the one-point compactification of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.135,
+            0.635,
+            0.868,
+            0.688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. With the notation of Exercise 4, for each a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\hat { a } } \\colon \\mathbf { \\Sigma } \\to \\mathbf { \\mathbb { C } }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { a } ( h ) = h ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { a }   \\in   \\hat { C } _ { 0 } ( \\Sigma )"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\mapsto   \\hat { a }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( \\Sigma )"
+            },
+            {
+              "type": "text",
+              "content": " is a contractive homomorphism with kernel = ∩{M: M is a maximal modular ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.136,
+            0.694,
+            0.869,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If X is locally compact, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   \\delta _ { \\pmb { x } }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism of X onto the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.136,
+            0.737,
+            0.87,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Let X be locally compact and for each open subset U of X let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{0}(U)=\\left\\{f \\in C_{0}(X)\\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x )   =   0"
+            },
+            {
+              "type": "text",
+              "content": " for x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\backslash U \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( U )"
+            },
+            {
+              "type": "text",
+              "content": " is a closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and that every closed ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " has this form. Moreover, the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U { \\mapsto } C _ { 0 } ( U )"
+            },
+            {
+              "type": "text",
+              "content": " is a lattice isomorphism from the lattice of open subsets of X onto the lattice of ideals of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.134,
+            0.83,
+            0.869,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. With the notation of the preceding exercise, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( U )"
+            },
+            {
+              "type": "text",
+              "content": " is a modular ideal if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\backslash U"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.873,
+            0.87,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nsim"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian Banach algebra and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A } ,"
+            },
+            {
+              "type": "text",
+              "content": " say that a is a rational generator of A if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f ( a ) { : } f"
+            },
+            {
+              "type": "text",
+              "content": " is a rational function with poles off "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " Show that if a is a rational generator of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then Σ is homeomorphic to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 237,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.056,
+            0.681,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§9. The Group Algebra of a Locally Compact Abelian Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "223"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.561,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Verify the statements made in Example 8.12"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.127,
+            0.87,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\ldots , a _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are generators of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is the smallest Banach algebra with identity that contains "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ a _ { 1 } , \\ldots , a _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\ldots , a _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are generators of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{A} = \\mathrm{cl} \\left\\{ p(a_1, \\ldots, a_n) : p \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in n complex variables "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| z _ { 1 } , \\ldots , z _ { n } \\right\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " and if Σ is the maximal ideal space, then there is a homeomorphism τ of Σ onto a compact subset K of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in n variables, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( p ( a _ { 1 } , \\ldots , a _ { n } ) ) = \\tau ^ { \\# } ( p )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.237,
+            0.563,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Verify the statements made in Example 8.13."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.263,
+            0.869,
+            0.298
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. (Zelazko [1968].) Let  be an algebra and suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon { \\mathcal { A } }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear functional such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( a ^ { 2 } ) = \\phi ( a ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " for all a in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\prec"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.306,
+            0.871,
+            0.391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sphericalangle"
+            },
+            {
+              "type": "text",
+              "content": " be an abelian Banach algebra with identity that is semisimple [that is, rad "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { A } } = ( 0 ) ] . \\mathbf { I f } \\parallel \\cdot \\parallel"
+            },
+            {
+              "type": "text",
+              "content": " is the norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\cdot \\| ."
+            },
+            {
+              "type": "text",
+              "content": " is another norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " that also makes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sphericalangle"
+            },
+            {
+              "type": "text",
+              "content": " into a Banach algebra, then these two norms are equivalent. (Hint: use the Closed Graph Theorem to show that the identity map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\colon ( \\mathcal { A } , \\left\\| \\cdot \\right\\| ) { \\rightarrow } ( \\mathcal { A } , \\left\\| \\cdot \\right\\| _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " is continuous.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.399,
+            0.87,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. Let  be as in Example 8.13 and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\left\\{ \\phi   \\in   \\mathcal { A } ^ { * } \\colon \\phi ( 1 ) = \\|   \\phi   \\| = 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Show that ext "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\left\\{ \\delta _ { z } ; \\left| z \\right| = 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . (See (V.7).)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.442,
+            0.839,
+            0.46
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) = \\exp(\\pi i x)"
+            },
+            {
+              "type": "text",
+              "content": " is a generator of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( [ 0 , 1 ] )"
+            },
+            {
+              "type": "text",
+              "content": " but "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(x) = \\exp(2\\pi i x)"
+            },
+            {
+              "type": "text",
+              "content": " is not."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.468,
+            0.87,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. Show that C(∂D) does not have a single generator though it does have a single rational generator (that is, an element a such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ r ( a ) ;   r"
+            },
+            {
+              "type": "text",
+              "content": " is a rational function with poles off "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " is dense.)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.563,
+            0.785,
+            0.612
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\S 9 ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " The Group Algebra of a Locally Compact Abelian Group"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.628,
+            0.871,
+            0.684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If G is a locally compact abelian group and m is Haar measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G ) \\equiv L ^ { 1 } ( m )"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach algebra (Example 1.11), where for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " the product "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f * g"
+            },
+            {
+              "type": "text",
+              "content": " is the convolution of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.36,
+            0.69,
+            0.635,
+            0.733
+          ],
+          "image_path": "images/page_237_equation_12.jpg",
+          "content": "f * g(x) = \\int_{G} f(xy^{-1})g(y)dy."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.74,
+            0.871,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d y"
+            },
+            {
+              "type": "text",
+              "content": " is used to designate integration with respect to m rather than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d m ( y )"
+            },
+            {
+              "type": "text",
+              "content": " . Because G is abelian, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " is abelian. In fact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g * f(x) = \\int g(xy^{-1})f(y)dy"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { I f } y ^ { -   1 } x"
+            },
+            {
+              "type": "text",
+              "content": " is substituted for y in this integral, the value of the integral does not change because Haar measure is translation invariant. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g * f ( x ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int g(y)f(y^{-1}x)dy=\\int g(y)f(xy^{-1})dy=f*g(x)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.833,
+            0.872,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": " denote the identity of G. If G is discrete, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { e } { \\in } L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " is an identity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " is not discrete, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " does not have an identity (Exercise 1)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.888,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Some examples of nondiscrete locally compact abelian groups are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { T } ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " , where T = the unit circle ∂D in C with the usual multiplication. Note"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 238,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "224"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.485,
+            0.055,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.872,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\bar { T } } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " is also a compact abelian group while "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " fails to be locally compact. The Cantor set can be identified with the product of a countable number of copies of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Z } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and is thus a compact abelian group. Indeed, the product of a countable number of finite sets (with the discrete topology) is homeomorphic to the Cantor set, so that the Cantor set has infinitely many nonisomorphic group structures."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.21,
+            0.873,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a topological group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G , L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " is called the group algebra for G. If G is discrete, the algebraists talk of the group algebra over a field K as the set of all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { f = \\sum _ { g \\in G } a _ { g } g , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { g }   \\in   K"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { g }   \\neq   0"
+            },
+            {
+              "type": "text",
+              "content": " for at most a finite number of g in G. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " this is the set of functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon G   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " with finite support. Thus in the discrete case the group algebra of the algebraists can be identified with a dense manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G ) = l ^ { 1 } ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.32,
+            0.873,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Unlike §V.11, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon G   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in G"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x } \\colon G   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{x}(y) = f(yx^{-1});"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { x } ( y ) = f ( x ^ { - 1 } y )"
+            },
+            {
+              "type": "text",
+              "content": " for G abelian. We want to examine the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   f _ { \\pmb { x } }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\to L^{p}(G), \\quad 1 \\leq p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . To do this we first prove the following (see Exercise V.11.10)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.413,
+            0.873,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.1. Proposition. If G is a topological group and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon G   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function with compact support, then for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " there is a neighborhood U of e such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f ( y ) | < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { - 1 } y { \\in } U"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.477,
+            0.872,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { U }"
+            },
+            {
+              "type": "text",
+              "content": " be the collection of open neighborhoods U of e such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = U ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Note that if V is any neighborhood of e, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = V \\cap V^{-1} \\in \\mathcal{U}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\subseteq V ."
+            },
+            {
+              "type": "text",
+              "content": " Order @ by reverse inclusion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.532,
+            0.873,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose the result is false. Then there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that for every U in U there are points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U } ,   y _ { U }"
+            },
+            {
+              "type": "text",
+              "content": " in G with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U } ^ { - 1 } y _ { U }"
+            },
+            {
+              "type": "text",
+              "content": " in U and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x _ { U } ) - f ( y _ { U } ) | \\geqslant \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " Note that either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { U } { \\in } K \\equiv"
+            },
+            {
+              "type": "text",
+              "content": " support f. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = U ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , we may assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U }   \\in   K"
+            },
+            {
+              "type": "text",
+              "content": " for every U in u. Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { v } \\colon U { \\in } { \\mathcal { U } } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in K. Since K is compact, there is a point x in K such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U }   \\xrightarrow [ \\mathrm { ~ c l ~ } ] { \\quad }   x"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U } ^ { - 1 } y _ { U }   \\rightarrow   e"
+            },
+            {
+              "type": "text",
+              "content": " Since multiplication is continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y_{U}=x_{U}(x_{U}^{-1}y_{U})\\xrightarrow[\\mathrm{c}]{\\mathrm{c}}x"
+            },
+            {
+              "type": "text",
+              "content": " Therefore if W is any neighborhood of x, there is a U in U with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { U } , y _ { U } \\in W"
+            },
+            {
+              "type": "text",
+              "content": " .But f is continuous at x so W can be chosen such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f ( w ) | < \\varepsilon / 2"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w   \\in   W ."
+            },
+            {
+              "type": "text",
+              "content": " With this choice of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W , \\left| f ( x _ { U } ) - f ( y _ { U } ) \\right| < \\varepsilon ,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.713,
+            0.872,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One can rephrase (9.1) by saying that continuous functions on a topological group that have compact support are uniformly continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.75,
+            0.873,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the next result it is the case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 1"
+            },
+            {
+              "type": "text",
+              "content": " which is of principal interest for us at this time. The proof of the general theorem is, however, no more difficult than this special case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.823,
+            0.872,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.2. Proposition. If G is a locally compact group, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { p } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " , then the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   f _ { \\pmb { x } }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function from G into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { p } ( G )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.869,
+            0.873,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Fix f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { p } ( G ) ,   x"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ;"
+            },
+            {
+              "type": "text",
+              "content": " it must be shown that there is a neighborhood V of x such that for y in V, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { y } - f _ { x } \\| _ { p } < \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " First note that there is a continuous function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon G   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " having compact support such that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 239,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.682,
+            0.075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§9. The Group Algebra of a Locally Compact Abelian Group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.057,
+            0.869,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "225"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.868,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\| f - \\phi \\| _ { p }   < \\varepsilon / 3"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\operatorname { s p t } \\phi"
+            },
+            {
+              "type": "text",
+              "content": " .Note that because Haar measure is translation invariant, for any y in G, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { y } - \\phi _ { y } \\| _ { p } = \\| f - \\phi \\| _ { p } < \\varepsilon / 3"
+            },
+            {
+              "type": "text",
+              "content": " Now by Proposition 9.1, there is a neighborhood U of e such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( y ) - \\phi ( w ) | <"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{3} \\varepsilon [2m(K)]^{-1/p}"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y ^ { - 1 } w   \\in   U"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = U x ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\in   V ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.303,
+            0.182,
+            0.69,
+            0.225
+          ],
+          "image_path": "images/page_239_equation_3.jpg",
+          "content": "\\| \\phi _ { y } - \\phi _ { x } \\| _ { p } ^ { p } = \\int | \\phi ( z y ^ { - 1 } ) - \\phi ( z x ^ { - 1 } ) | ^ { p } d z."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.232,
+            0.801,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = u x"
+            },
+            {
+              "type": "text",
+              "content": " for some u in U, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( z y ^ { - 1 } ) ^ { - 1 } ( z x ^ { - 1 } ) = y x ^ { - 1 } = u \\in U"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.279,
+            0.26,
+            0.716,
+            0.404
+          ],
+          "image_path": "images/page_239_equation_5.jpg",
+          "content": "\\begin{align*}\\| \\phi_y - \\phi_x \\|_p^p = & \\int_{Ky \\cup Kx} |\\phi(zy^{-1}) - \\phi(zx^{-1})|^p dz \\\\\\leqslant & \\left( \\frac{\\varepsilon}{3} \\right)^p [2m(K)]^{-1} m(Ky \\cup Kx) \\\\\\leqslant & \\left( \\frac{\\varepsilon}{3} \\right)^p.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.413,
+            0.85,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y \\in V, \\| f_x - f_y \\|_p \\leqslant \\| f_x - \\phi_x \\|_p + \\| \\phi_x - \\phi_y \\|_p + \\| \\phi_y - f_y \\|_p < \\varepsilon."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.45,
+            0.871,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The aim of this section is to discuss the homomorphisms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " when G is abelian and to examine the Gelfand transform. There is a bit of a difficulty here since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " does not have an identity when G is not discrete. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " is the unit point mass at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " is the identity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and hence acts as an identity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " . Nevertheless "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { e } { \\notin } L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " if G is not discrete. All is not lost as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " has an approximate identity (Exercise 2.8) of a nice type."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.58,
+            0.872,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.3. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f f { \\in } L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " , then there is a neighborhood U of e such that if g is a non-negative Borel function on G that vanishes off U and has "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\int   g ( x ) d x = 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f - f { \\star } g \\| _ { 1 } < \\varepsilon"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.643,
+            0.872,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. By the preceding proposition, there is a neighborhood U of e such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f - f _ { y } \\| _ { 1 } < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   \\in   U"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " satisfies the conditions, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) - f * g(x) = \\int \\left[ f(x) - f(xy^{-1}) \\right] g(y) dy"
+            },
+            {
+              "type": "text",
+              "content": " for all x. Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.266,
+            0.704,
+            0.732,
+            0.876
+          ],
+          "image_path": "images/page_239_equation_10.jpg",
+          "content": "\\begin{align*}\\| f - f * g \\|_1 &= \\int \\int_{U} \\left[ f(x) - f(xy^{-1}) \\right] g(y) dy \\Bigg| dx \\\\&\\leqslant \\int_{U} g(y) \\int_{U} | f(x) - f(xy^{-1}) | dx dy \\\\&= \\int_{U} g(y) \\| f - f_y \\|_1 dy \\\\&\\leqslant \\varepsilon.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.894,
+            0.872,
+            0.934
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.4. Corollary. There is a net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of non-negative functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int   e _ { i }   d m = 1"
+            },
+            {
+              "type": "text",
+              "content": " for all i and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lVert e _ { i } * f - f \\lVert _ { 1 } \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( G )"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

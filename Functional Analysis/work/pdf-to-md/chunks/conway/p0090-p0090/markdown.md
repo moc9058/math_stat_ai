@@ -1,0 +1,33 @@
+it suffices, since $C _ { b } ( B )$ is complete (1.6), to show that $\rho ( \mathcal { X } ^ { * } )$ is closed. Let $\left\{ f _ { n } \right\} \subseteq { \mathcal { X } } ^ { * }$ and suppose $g   \in   \bar { C } _ { b } ( B )$ such that $\| \rho ( f _ { n } ) - g \| \to 0$ as $n   \rightarrow   \infty$ . Let $x { \in } { \mathcal { X } }$ . If $\alpha , \beta \in \mathbb { F } , \alpha , \beta \neq 0 ,$ such that αx, $\beta x { \in } B ,$ then $\alpha ^ { - 1 } g ( \alpha x ) =$ lim $\alpha^{-1} f_n(\alpha x) =$ lim $\beta ^ { - 1 } f _ { n } ( \beta x ) = \beta ^ { - 1 } g ( \beta x )$ . Define $f \colon { \mathcal { X } }   \to   \mathbb { F }$ by letting $f(x) = \alpha^{-1} g(\alpha x)$ for any $\alpha \neq 0$ such that $\alpha x { \in } B .$ It is left as an exercise for the reader to show that $f \in \mathcal { X } ^ { * }$ and $\rho ( f )   =   g$ ■
+
+Compare the preceding result with Exercise 2.1.
+
+It should be emphasized that it is not assumed in the preceding proposition that $\mathcal { X }$ is complete. In fact, if $\mathcal { X }$ is a normed space and $\hat { \mathcal { X } }$ is its completion (Exercise 1.16), then $\mathcal { X } ^ { * }$ and $\hat { \mathcal { X } } ^ { * }$ are isometrically isomorphic (Exercise 2.2).
+
+5.5. Theorem. Let $( X , \Omega , \mu )$ be a measure space and let $1 < p < \infty$ . If $1 / p + 1 / q = 1$ and $g   \in   L ^ { q } ( X , \Omega , \mu ) ,$ define $F _ { g } \colon L ^ { p } ( \mu ) \to \mathbb { F } \; b y$
+
+$$
+F _ { g } ( f ) = \int f g   d \mu .
+$$
+
+Then $F _ { g } \in L ^ { p } ( \mu ) ^ { * }$ and the map $g   \mapsto   F _ { g }$ defines an isometric isomorphism of $L ^ { \pmb { q } } ( \mu )$ onto $L ^ { p } ( \mu ) ^ { * }$
+
+Since this theorem is often proved in courses in measure and integration the proof of this result, as well as the next two, is contained in the Appendix. See Appendix B for the proofs of (5.5) and (5.6)
+
+5.6. Theorem. $I f ( X , \Omega , \mu )$ is a σ-finite measure space and $g { \in } L ^ { \infty } ( X , \Omega , \mu )$ , define $F _ { g } : L ^ { 1 } ( \mu ) \to \mathbb { F } b y$
+
+$$
+F _ { g } ( f ) = \int f g   d \mu .
+$$
+
+Then $F _ { g }   \in   L ^ { 1 } ( \mu ) ^ { * }$ and the map $g   \mapsto   F _ { g }$ defines an isometric isomorphism of $L ^ { \infty } ( \mu )$ onto $L ^ { 1 ^ { \circ } } ( \mu ) ^ { * }$
+
+Note that when $p = 2$ in Theorem 5.5, there is a little difference between (5.5) and (I.3.5) owing to the absence of a complex conjugate in (5.5). Also, note that (5.6) is false if the measure space is not assumed to be σ-finite (Exercise 3).
+
+If X is a locally compact space, M(X) denotes the space of all F-valued regular Borel measures on X with the total variation norm. See Appendix C for the definitions as well as the proof of the next theorem.
+
+5.7. Riesz Representation Theorem. If X is a locally compact space and $\mu { \in } M ( X ) ,$ , define $F _ { \mu } \colon C _ { 0 } ( X ) \to \mathbb { F } \; b y$
+
+$$
+F _ { \mu } ( f ) = \int f d \mu .
+$$

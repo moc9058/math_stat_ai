@@ -1,0 +1,1234 @@
+{
+  "pages": [
+    {
+      "page_idx": 376,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.056,
+            0.169,
+            0.071
+          ],
+          "content": "362"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.67,
+            0.056,
+            0.87,
+            0.073
+          ],
+          "content": "XI. Fredholm Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.102,
+            0.871,
+            0.137
+          ],
+          "content": "8. If S is the unilateral shift, show that for every $\\varepsilon   >   0$ there is a rank one operator F with $\\| F \\| < \\varepsilon$ such that $\\sigma ( S ^ { * }   \\oplus   S + F ) = \\partial \\mathbf { D } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.145,
+            0.872,
+            0.197
+          ],
+          "content": "9. Let G be an open connected subset of $\\sigma ( A ) \\backslash \\sigma _ { l e } ( A ) \\cup \\sigma _ { r e } ( A )$ and suppose $\\lambda _ { 0 } \\in G$ such that ind $( A - \\lambda _ { 0 } )   =   0 .$ Show that there is a finite rank operator F such that $A + F - \\lambda _ { 0 }$ is invertible. Show that $A + F - \\lambda$ is invertible for every λ in G."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.24,
+            0.532,
+            0.265
+          ],
+          "level": 2,
+          "content": "§5. The Components of $\\mathcal { I F }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.282,
+            0.871,
+            0.319
+          ],
+          "content": "Since the index is continuous on $\\mathcal { I F }$ and assumes every possible value (Exercise 3.4), $\\mathcal { S } \\mathcal { F }$ cannot be connected. What are its components?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.319,
+            0.871,
+            0.357
+          ],
+          "content": "Note that because $\\mathcal { I F }$ is an open subset of a Banach space, its components are arcwise connected (Exercise IV.1.24)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.374,
+            0.876,
+            0.412
+          ],
+          "content": "5.1. Theorem. If $A , B { \\in } { \\mathcal { P } } { \\mathcal { F } }$ , then A and B belong to the same component of $\\mathcal { S F } i f$ and only if ind $A = \\operatorname{ind}B$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.429,
+            0.859,
+            0.449
+          ],
+          "content": "Half of this theorem is easy. For the other half we first prove a lemma."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.466,
+            0.872,
+            0.504
+          ],
+          "content": "5.2. Lemma. If $A   \\in   \\mathcal { F }$ and ind $A   =   0$ , then there is a path $\\gamma \\colon [ 0 , 1 ]   \\to   \\mathcal { F }$ such that $\\gamma ( 0 )   =   1$ and $\\gamma ( 1 )   =   A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.512,
+            0.871,
+            0.567
+          ],
+          "content": "ProoF. By Exercise 3.7 there is a finite-rank operator F such that $A + F$ is invertible. $\\gamma ( t ) = A + t F , \\gamma ( 0 ) = A , \\gamma ( 1 ) = A + F , \\mathrm { a n d } \\gamma ( t ) \\in \\mathcal { F }$ for all t. Thus we may assume that A is invertible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.567,
+            0.871,
+            0.641
+          ],
+          "content": "Let $A = U | A |$ be the polar decomposition of A. Because A is invertible, U is a unitary operator and $| A |$ is invertible. Using the Spectral Theorem, $U = \\exp ( i B )$ where B is hermitian. Also, since $0 \\notin \\sigma ( | A | ) , | A | = \\int _ { [ \\delta , r ] } x   d E ( x )$ where $0 < \\delta < r = \\| A \\|$ . Define $\\gamma : [ 0 , 1 ] \\to { \\mathcal { B } } ( { \\mathcal { H } } )$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.337,
+            0.648,
+            0.658,
+            0.692
+          ],
+          "content": "\\gamma ( t ) = e ^ { i t B } \\int _ { [ \\delta , r ] } x ^ { t }   d E ( x ) = e ^ { i t B } | A | ^ { t } .",
+          "image_source": "images/page_376_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.699,
+            0.871,
+            0.736
+          ],
+          "content": "It is easy to check that γ is continuous, $\\gamma ( 0 )   =   1$ , and $\\gamma ( 1 )   =   A$ Also, each γ(t) is invertible so $\\gamma ( t )   \\in   \\mathcal { F }$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.744,
+            0.871,
+            0.855
+          ],
+          "content": "PROOF OF THEOREM 5.1. First assume that $A , B   \\in   \\mathcal { F }$ and ind $A = \\operatorname{ind}B.$ So there is an operator C such that $C B = 1 + K$ for some compact operator K. Thus $C \\in \\mathcal { F } _ { r }$ and ind C = − ind B = − ind A. Hence $A C { \\in } { \\mathcal { F } }$ and ind $A C   =   0$ By the preceding lemma there is a path $\\gamma \\colon [ 0 , 1 ]   \\to   \\mathcal { F }$ such that $\\gamma ( 0 )   =   1$ and $\\gamma ( 1 ) = A C$ . Put $\\rho ( t ) = \\gamma ( t ) B - t A K$ . Because $A K \\in \\mathcal { B } _ { 0 } , \\rho ( t ) \\in \\mathcal { F }$ for all t in [0, 1]. Also, $\\rho ( 0 ) = B { \\mathrm { ~ a n d ~ } } \\rho ( 1 ) = A C B - A K = A ( 1 + K ) - A K = A .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.855,
+            0.874,
+            0.929
+          ],
+          "content": "Now assume that ind $A = - \\infty ;$ so $\\dim(\\tan A)^{\\perp} = \\infty$ and dim ker $A < \\infty$ Let F be a finite-rank operator such that ker $(A + tF) = 0$ for $t \\neq 0$ (Why does F exist?) This path shows that we may assume that ker $A = ( 0 )$ . Let V be any isometry such that dim(ran $V ) ^ { \\perp } = \\infty$ and consider the polar decom-"
+        }
+      ]
+    },
+    {
+      "page_idx": 377,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.464,
+            0.073
+          ],
+          "content": "§6. A Finer Analysis of the Spectrum"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.831,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": "363"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.099,
+            0.869,
+            0.23
+          ],
+          "continues_prev": true,
+          "content": "position $A = U | A |$ of A. Since $A \\in \\mathcal { P F }$ and ker $A = (0), \\left| A \\right|$ is invertible and U is an isometry. Also, ran $U = \\tan A$ so (Exercise 4) there is a path $\\rho : [ 0 , 1 ] \\to { \\mathcal { B } } ( { \\mathcal { H } } )$ such that $\\rho ( t )$ is an isometry for every t and $\\rho ( 0 ) = U$ and $\\rho ( 1 )   =   V .$ Let $\\gamma \\colon [ 0 , 1 ]   \\to   \\mathcal { F }$ be a path such that $\\gamma ( 0 ) = | A |$ and $\\gamma ( 1 )   =   1$ . Then $\\sigma ( t ) = \\rho ( t ) \\gamma ( t )$ for $0 \\leqslant t \\leqslant 1$ defines a path $\\sigma \\colon [ 0 , 1 ]   \\to   \\mathcal { S F } ( \\mathrm { W h y ? } )$ such that $\\sigma ( 0 ) = A$ and $\\sigma ( 1 )   =   V .$ Similarly, if ind $B = - \\infty$ , there is a path connecting B to V; so A and B belong to the same component of $\\mathcal { I F }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.229,
+            0.841,
+            0.249
+          ],
+          "content": "If ind $A = \\mathrm{ind} B = +\\infty$ , apply the preceding paragraph to $A ^ { * }$ and $B ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.285,
+            0.867,
+            0.324
+          ],
+          "content": "5.3. Corollary. The component of the identity in $\\mathcal { F } , \\mathcal { F } _ { 0 } .$ , is a normal sub-group of F and $\\mathcal { F } / \\mathcal { F } _ { 0 }$ is an infinite cyclic group."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.331,
+            0.867,
+            0.37
+          ],
+          "content": "PROOF. By Theorem 3.7, ind $\\mathcal { F }   \\to   \\mathbb { Z }$ is a group homomorphism and it is surjective (Exercise 3.4). By Theorem 5.1, ker $( \\mathrm { i n d } ) = \\mathcal { F } _ { 0 }$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.386,
+            0.232,
+            0.404
+          ],
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.405,
+            0.867,
+            0.441
+          ],
+          "content": "1. Let G be any topological group and let $G _ { 0 }$ be the component of the identity. Show that $G _ { 0 }$ is a normal subgroup of G."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.448,
+            0.765,
+            0.467
+          ],
+          "content": "2. What are the components of the set of invertible elements in C(∂D)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.474,
+            0.867,
+            0.509
+          ],
+          "content": "3. If S = the unilateral shift, what are the components of the set of invertible elements of $C ^ { * } ( S ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.517,
+            0.867,
+            0.552
+          ],
+          "content": "4. If U and V are isometries, show that there is a path consisting entirely of isometries connecting U to V if and only if dim(ran $U ) ^ { \\perp } = \\dim ( \\operatorname { r a n } V ) ^ { \\perp }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.56,
+            0.621,
+            0.578
+          ],
+          "content": "5. Find the components of the set of partial isometries."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.619,
+            0.649,
+            0.643
+          ],
+          "level": 2,
+          "content": "§6. A Finer Analysis of the Spectrum"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.66,
+            0.871,
+            0.733
+          ],
+          "content": "In this section we will examine the spectrum and index more closely. For example, one question that arises: If A is semi-Fredholm and $\\delta   >   0$ is chosen so that B is semi-Fredholm and ind $B = \\operatorname{ind} A$ whenever $\\| \\boldsymbol{B} - \\boldsymbol{A} \\| < \\delta$ (Corollary 3.13), how does dim ker B differ from dim ker A?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.733,
+            0.871,
+            0.769
+          ],
+          "content": "Begin this investigation by associating with every bounded operator A the following number:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.295,
+            0.777,
+            0.7,
+            0.797
+          ],
+          "content": "\\gamma ( A ) = \\operatorname* { i n f } \\{ \\| A h \\| : \\| h \\| = 1 { \\mathrm { ~ a n d ~ } } h \\perp \\ker A \\} .",
+          "image_source": "images/page_377_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.805,
+            0.873,
+            0.862
+          ],
+          "content": "The first proposition contains some elementary properties of $\\gamma$ and its proof is left to the reader. (Actually part (a) has appeared several times in this book under different guises.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.88,
+            0.645,
+            0.898
+          ],
+          "content": "6.1. Proposition. Let A be a bounded operator on $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.907,
+            0.577,
+            0.926
+          ],
+          "content": "(a) $\\gamma ( A )   >   0$ if and only if A has closed range."
+        }
+      ]
+    },
+    {
+      "page_idx": 378,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.134,
+            0.056,
+            0.17,
+            0.07
+          ],
+          "content": "364"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.67,
+            0.056,
+            0.87,
+            0.072
+          ],
+          "content": "XI. Fredholm Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.099,
+            0.871,
+            0.138
+          ],
+          "content": "(b) $\\gamma(A)=\\sup\\left\\{\\gamma:\\|A\\|\\geqslant\\gamma\\|h\\|\\right\\}$ for all h in $\\left( \\ker A \\right)^{\\perp} \\left\\{ \\inf \\left\\{ \\left\\| A h \\right\\| / \\left\\| h \\right\\| \\right\\} \\right\\}$ $h \\in (\\ker A)^{\\perp} \\setminus \\{0\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.157,
+            0.599,
+            0.177
+          ],
+          "content": "6.2. Proposition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , then $\\gamma ( A ) = \\gamma ( A ^ { * } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.184,
+            0.87,
+            0.279
+          ],
+          "content": "PROOF. Let h⊥ ker A. Then $\\| A ^ { * } A h \\| = \\|   | A | A | h \\| = \\| A | A | h \\|$ . But $| A | h \\in$ cl ran $A^{*} \\left( \\mathrm{Wh}? \\right) = \\ker A^{\\perp}$ . Hence the definition of $\\gamma ( A )$ implies that $\\| A ^ { * } A h \\| \\geqslant \\gamma ( A ) \\| A | h \\| = \\gamma ( A ) \\| A h \\|$ ; that is, $\\| A ^ { * } f \\| \\geqslant \\gamma ( A ) \\| f \\|$ for every f in ran A. Since ran A is dense in $( \\ker A ^ { * } ) ^ { \\perp } , \\gamma ( A ^ { * } ) \\geqslant \\gamma ( A )$ . But $A = A^{ 半半 }$ , SO $\\gamma ( A ) \\geqslant \\gamma ( A ^ { * } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.296,
+            0.871,
+            0.352
+          ],
+          "content": "Note that the preceding two propositions give a proof of the fact that an operator on a Hilbert space has closed range if and only if its adjoint does. See Theorem VI.1.10 and Exercise 2.1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.372,
+            0.87,
+            0.41
+          ],
+          "content": "6.3. Lemma. If $\\mathcal { M } , \\mathcal { N } \\leqslant \\mathcal { H } , \\mathcal { N }$ is finite dimensional, and dim $\\mathcal { M } > \\dim \\mathcal { N }$ then there is a non-zero vector m in M such that $\\| m \\| = \\mathrm{dist}(m, \\mathcal{N})$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.418,
+            0.871,
+            0.474
+          ],
+          "content": "PRoOF. Let P be the projection of $\\mathcal { H }$ onto M , so dim $P(\\mathcal{N}) \\leq \\dim \\mathcal{N} < \\dim \\mathcal{M}$ Thus $P ( \\mathcal { N } )$ is a proper subspace of $\\mathcal { M } ;$ let $\\mathfrak { m } { \\in } \\mathcal { M } \\cap P ( \\mathcal { N } ) ^ { \\perp }$ . If $n { \\in } { \\mathcal { N } }$ , then $0 = \\langle P n , m \\rangle = \\langle n , P m \\rangle = \\langle n , m \\rangle$ , so $m \\bot \\mathcal { N }$ Hence $\\| \\boldsymbol { m } \\| = \\mathrm { d i s t } ( \\boldsymbol { m } , \\mathcal { N } )$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.493,
+            0.651,
+            0.512
+          ],
+          "content": "6.4. Lemma. If h∈H, then γ(A)dist(h, ker $A ) \\leqslant \\| A h \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.52,
+            0.869,
+            0.559
+          ],
+          "content": "PRoOF. Let P be the projection of $\\mathcal { H }$ onto ker $A ^ { \\perp }$ ; then $\\| P h \\| = \\operatorname{dist}(h, \\operatorname{ker} A)$ Hence $\\| A h \\| = \\| A P h \\| \\geqslant \\gamma ( A ) \\| P h \\| = \\gamma ( A ) \\mathrm { d i s t } ( h , \\ker A ) .$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.575,
+            0.872,
+            0.702
+          ],
+          "content": "If the role of $\\gamma ( A )$ in the next and subsequent propositions impresses the reader as somewhat mysterious, reflect that if A is invertible, then $\\gamma ( A ) = \\| A ^ { - 1 } \\| ^ { - 1 }$ (Exercise 1). Now in Corollary VII.2.3, it was shown that if  is a Banach algebra, $a _ { 0 } \\in \\mathcal { A } ,$ , and $b _ { 0 } a _ { 0 } = 1$ , then $a + b$ is left invertible whenever $\\| b \\| < \\| b _ { 0 } \\| ^ { - 1 }$ . Of course, a similar result holds for right invertible elements. The number $\\gamma ( A )$ is trying to play the role of the reciprocal of the norm of a one-sided inverse."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.702,
+            0.871,
+            0.757
+          ],
+          "content": "For example, if A is left invertible, then ran A is closed and ker $A = (0);$ hence $A   \\in   \\mathcal { S P }$ . The next result implies that if $\\| B \\| < \\gamma ( A )$ , then $A + B$ is left invertible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.777,
+            0.871,
+            0.814
+          ],
+          "content": "6.5. Proposition. If $A   \\in   \\mathcal { S P }$ and $B   \\in   \\mathcal { B } ( \\mathcal { H } )$ such that $\\| B \\| < \\gamma ( A )$ , then $A + B \\in { \\mathcal { P } } { \\mathcal { F } }$ and:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.824,
+            0.441,
+            0.841
+          ],
+          "content": "(a) dim ker $( A + B ) \\leqslant$ dim ker A;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.842,
+            0.47,
+            0.86
+          ],
+          "content": "(b) dim ran $(A + B)^{\\perp} \\leqslant \\dim \\tan A^{\\perp}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.869,
+            0.617,
+            0.887
+          ],
+          "content": "PRoOF. First note that because $A \\in \\mathcal{S} \\mathcal{F}, \\gamma(A) > 0.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.887,
+            0.871,
+            0.943
+          ],
+          "content": "If ${ \\boldsymbol { h } } { \\in } \\ker ( A + B )$ and $h \\neq 0 ,$ then $A h = - B h . \\quad \\mathrm { B y }$ Lemma 6.4, γ(A)dist(h, ker $A ) \\leqslant \\| B h \\| \\leqslant \\| B \\| \\| h \\| < \\gamma ( A ) \\| h \\|$ . Thus dist(h, ker $A )   < \\|   h$ for every nonzero vector h in ker $( A + B )$ . By Lemma 6.3, (a) holds."
+        }
+      ]
+    },
+    {
+      "page_idx": 379,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.464,
+            0.073
+          ],
+          "content": "§6. A Finer Analysis of the Spectrum"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": "365"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.865,
+            0.137
+          ],
+          "content": "Since $\\| \\pmb { B } \\| = \\| \\pmb { B } ^ { \\star } \\|$ and $\\gamma(A)=\\gamma(A^{*})$ , (a) implies that dim ker $\\left( A ^ { * } + B ^ { * } \\right) \\leqslant$ dim ker $A ^ { * }$ . But this inequality is equivalent to (b)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.138,
+            0.87,
+            0.304
+          ],
+          "content": "It remains to prove that $\\operatorname { r a n } ( A + B )$ is closed. Since $A   \\in   \\mathcal { S P }$ , either dim ker $A < \\infty$ or dim ker $A ^ { * } < \\infty$ . Suppose dim ker $A < \\infty$ . It will be shown that $A + B { \\in } { \\mathcal { F } } _ { l }$ by using Theorem 2.3(f) and showing that if $\\delta < \\gamma ( A ) - \\| B \\|$ then $\\left\\{ h : \\| ( A + B ) h \\| \\leqslant \\delta \\| h \\| \\right\\}$ contains no infinite dimensional manifold. Indeed, if it did, it would contain a finite dimensional subspace M with dim $\\mathcal { M } >$ dim ker A. By Lemma 6.3 there is a non-zero vector h in M with $\\| h \\| = \\mathrm{dist}(h, \\ker A)$ . Now $\\| (A + B)h \\| \\leqslant \\delta \\| h \\|$ , so Lemma 6.4 implies that $\\gamma ( A ) \\left\\| h \\right\\| = \\gamma ( A ) \\mathrm { d i s t } ( h )$ ker $A ) \\leqslant \\| A h \\| \\leqslant \\| ( A + B ) h \\| + \\| B h \\| \\leqslant ( \\delta + \\| B \\| ) \\| h \\| <$ $\\gamma ( A ) \\| { \\boldsymbol { h } } \\| ,$ a contradiction. Thus $A + B { \\in } { \\mathcal { F } } _ { l }$ and so $\\operatorname { r a n } ( A + B )$ is closed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.304,
+            0.868,
+            0.359
+          ],
+          "content": "If dim ker $A = \\infty$ , then dim ker $A ^ { * } < \\infty$ . The argument of the preceding paragraph gives that ran $( A ^ { * } + B ^ { * } )$ is closed. By (VI.1.10), ran $( A + B )$ is closed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.376,
+            0.87,
+            0.432
+          ],
+          "content": "6.6. Proposition. If $A   \\in   \\mathcal { S F }$ and either ker $A = ( 0 )$ or ran $A = \\mathcal { H }$ , then there is $a   \\delta   >   0$ such that if $\\| B - A \\| < \\delta ,$ then dim ker $B = \\dim$ ker A and dim ran B = dim ran A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.44,
+            0.87,
+            0.515
+          ],
+          "content": "ProoF. By Proposition 6.5 and Theorem 3.12 there is a $\\delta   >   0$ such that if $\\| B - A \\| < \\delta ,$ ,then ind $A = \\operatorname { i n d } B ,$ dim ker $B \\leqslant$ dim ker A, and dim ran $B ^ { \\perp } \\leqslant$ dim ran $A ^ { \\perp }$ . Since one of these dimensions for A is 0, the proposition is proved. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.533,
+            0.87,
+            0.608
+          ],
+          "content": "If both ker A and ran A are nonzero, then there are semi-Fredholm operators B that are arbitrarily close to A such that dim ker $B <$ dim ker A (see Exercise 2). In fact, just about anything that can go wrong here does go wrong. However, dim ker $( A - \\lambda )$ does behave rather nicely as a function of λ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.624,
+            0.87,
+            0.661
+          ],
+          "content": "6.7. Theorem. If $\\lambda \\notin \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )$ , then there is a $\\delta > 0$ such that dim ker $( A - \\mu )$ and dim ran $( A - \\mu ) ^ { \\perp }$ are constant for $0 < | \\mu - \\lambda | < \\delta$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.669,
+            0.872,
+            0.799
+          ],
+          "content": "ProOF. We may assume that $\\lambda   =   0 .$ We may also assume that ker A is finite dimensional. Indeed, if this is not the case, then ker $A ^ { * }$ must be finite dimensional and the proof that follows applies to $A ^ { * }$ . But observe that if the conclusion of the theorem is demonstrated for $A ^ { * }$ , then it also holds for A. It follows that for each $n \\geqslant 1,   A^n \\in \\mathcal{F}$ (Theorem 3.7). Thus $\\mathcal{M}_{n}=\\mathrm{rank}A^{n}$ is closed. Note that $\\mathcal { M } _ { n + 1 } \\subseteq \\mathcal { M } _ { n }$ and $\\mathcal{A} \\mathcal{M}_{n} = \\mathcal{M}_{n+1}$ . Let $\\mathcal { M } = \\bigcap _ { n = 1 } ^ { \\infty } \\mathcal { M } _ { n }$ and put $B = A \\vert \\mathcal { M }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.815,
+            0.304,
+            0.833
+          ],
+          "content": "Claim. $B \\mathcal { M } = \\mathcal { M }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.851,
+            0.871,
+            0.945
+          ],
+          "content": "Since ker A is finite dimensional and the spaces $\\mathcal { M } _ { n }$ are decreasing, there is an integer m such that $\\mathcal { M } _ { n } \\cap$ ker $A = \\mathcal { M } _ { m } \\cap$ ker A for all $n \\geqslant m .$ If $h \\in \\mathcal { M }$ and $n \\geqslant m .$ there is an $f _ { n }$ in $\\mathcal { M } _ { n }$ such that $h = A f _ { n }$ . But $f_{m}-f_{n}\\in(\\ker A)\\cap\\mathcal{M}_{m}=$ (ker $A \\cap \\mathcal { M } _ { n }$ Therefore $f _ { m } \\in \\mathcal { M } _ { n }$ for every $n \\geqslant m .$ That is, $f _ { m } \\in \\mathcal { M }$ and so $h = A f _ { m } = B f _ { m } \\in B . \\mathcal { M }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 380,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": "366"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.668,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": "XI. Fredholm Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.099,
+            0.87,
+            0.173
+          ],
+          "content": "Thus $B \\in \\mathcal { S } \\mathcal { F }$ and ind B = dim ker B. By (3.12) and (6.5) there is a $\\delta   >   0$ such that if $| \\mu | < \\delta ,$ then dim ker $( \\pmb { B } - \\mu ) \\leqslant$ dim ker B, dim ran $( \\boldsymbol { B } - \\boldsymbol { \\mu } ) ^ { \\perp } = 0 ,$ and ind $( B - \\mu ) =$ ind B. Thus dim ker $(B - \\mu) = \\dim$ ker B for $| \\mu | < \\delta .$ Also, choose δ such that ind $( A - \\mu ) =$ ind A for $| \\mu | < \\delta .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.173,
+            0.872,
+            0.267
+          ],
+          "content": "On the other hand, if $\\mu \\neq 0 .$ , then ker $( A - \\mu ) \\in \\mathcal { M }$ . In fact, if $\\mathbf { \\mathit { h } } { \\in } \\ker ( \\mathbf { \\mathit { A } } - \\mathbf { \\mu } ) ,$ then $A^{n}h = \\mu^{n}h,$ so that $h = A ^ { n } ( \\mu ^ { - n } h ) \\in \\mathcal { M } _ { n }$ for every n. Thus for $0   <   | \\mu |   <   \\delta ,$ dim ker $( A - \\mu ) =$ dim ker $(B - \\mu) = \\dim$ ker B; that is, dim ker $( A - \\mu )$ is constant for $0   <   | \\mu |   <   \\delta .$ Since ind $( A - \\mu )$ is constant for these values of $\\mu ,$ dim ran $( A - \\mu ) ^ { \\perp }$ is also constant."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.284,
+            0.55,
+            0.303
+          ],
+          "content": "The next result is from Putnam [1968]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.32,
+            0.87,
+            0.359
+          ],
+          "content": "6.8. Theorem. If $\\lambda { \\in } { \\partial } \\sigma ( A ) .$ , then either λ is an isolated point of $\\sigma ( A )$ or $\\lambda \\in \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.365,
+            0.871,
+            0.514
+          ],
+          "content": "PrOOF. Suppose $\\lambda { \\in } { \\partial } \\sigma ( A )$ but λ is not a point of $\\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )$ Thus $A - \\lambda \\in \\mathcal { P F }$ . By the preceding theorem, there is a $\\delta   >   0$ such that $A - \\mu \\in \\mathcal { P F }$ and dim ker $( A - \\mu )$ and dim ran $( A - \\mu ) ^ { \\perp }$ are constant for $0 < | \\mu - \\lambda | < \\delta .$ Since $\\lambda { \\in } { \\partial } \\sigma ( A )$ , there is a v with $0 < | \\lambda - v | < \\delta$ such that $A - v$ is invertible. Therefore ker $(A - \\mu) = (0) = \\mathrm{ran}(A - \\mu)^{\\perp}   for   0 < |\\lambda - \\mu| < \\delta.$ But $A - \\mu \\in \\mathcal { P F }$ for these values of $\\mu$ and hence has closed range. It follows that $A - \\mu$ is invertible whenever $0   <   | \\lambda - \\mu |   <   \\delta$ This says that λ is an isolated point of $\\sigma ( A )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.531,
+            0.624,
+            0.551
+          ],
+          "content": "What happens if λ is an isolated point of $\\sigma ( A ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.567,
+            0.87,
+            0.603
+          ],
+          "content": "6.9. Proposition. If λ is an isolated point of $\\sigma ( A ) ,$ , the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.613,
+            0.335,
+            0.631
+          ],
+          "content": "(a) $\\lambda \\notin \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.631,
+            0.576,
+            0.648
+          ],
+          "content": "(b) The Riesz idempotent $E ( \\lambda )$ has finite rank."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.649,
+            0.454,
+            0.667
+          ],
+          "content": "(c) $A - \\lambda \\in \\mathcal { F }$ and ind $(A - \\lambda) = 0.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.676,
+            0.317,
+            0.694
+          ],
+          "content": "PROOF. Exercise 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.713,
+            0.529,
+            0.731
+          ],
+          "content": "If $n { \\in } \\mathbb { Z } \\cup \\{ \\pm \\infty \\}$ and $A \\in \\mathcal { B } ( \\mathcal { H } ) ,$ define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.251,
+            0.74,
+            0.74,
+            0.759
+          ],
+          "content": "P _ { n } ( A ) \\equiv \\{ \\lambda \\in \\sigma ( A ) : A - \\lambda \\in \\mathcal { S F } \\mathrm { a n d } \\mathrm { i n d } ( A - \\lambda ) = n \\} .",
+          "image_source": "images/page_380_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.767,
+            0.871,
+            0.86
+          ],
+          "content": "So for $n \\neq 0,   P_n(A)$ is an open subset of the plane; the set $P _ { 0 } ( A )$ consists of an open set together with some isolated points of $\\sigma ( A )$ . In fact, Proposition 6.9 can be used to show that $P _ { 0 } ( A )$ contains precisely the isolated points of $\\sigma ( A )$ for which the Riesz idempotent has finite rank. The proof of the next result is easy."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.877,
+            0.868,
+            0.915
+          ],
+          "content": "6.10. Proposition. If $A \\in \\mathcal { B } ( \\mathcal { H } )$ then $\\sigma _ { e } ( A ) = [ \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A ) ] \\cup P _ { + \\infty } ( A ) \\cup$ $P _ { - \\infty } ( A )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 381,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.056,
+            0.462,
+            0.073
+          ],
+          "content": "§6. A Finer Analysis of the Spectrum"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.831,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": "367"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.867,
+            0.119
+          ],
+          "content": "6.11. Definition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , then the Weyl spectrum of A, $\\sigma _ { w } ( A )$ , is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.347,
+            0.127,
+            0.641,
+            0.147
+          ],
+          "content": "\\sigma _ { w } ( A ) = \\cap \\{ \\sigma ( A + K ) : K \\in \\mathcal { B } _ { 0 } \\} .",
+          "image_source": "images/page_381_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.156,
+            0.869,
+            0.249
+          ],
+          "content": "Note that since $\\sigma _ { e } ( A + K ) = \\sigma _ { e } ( A )$ for every compact operator, $\\sigma _ { w } ( A )$ is nonempty and $\\sigma _ { e } ( A ) \\subseteq \\sigma _ { w } ( A )$ . The way to think of the Weyl spectrum is that it is the largest part of the spectrum of A that remains unchanged under compact perturbations. It is clear that $\\sigma _ { w } ( A ) = \\sigma _ { w } ( A + K )$ for every K in $\\mathcal { B } _ { 0 }$ and $\\sigma _ { w } ( A ) \\subseteq \\sigma ( A )$ . The following is a result of Schechter [1965]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.265,
+            0.726,
+            0.285
+          ],
+          "level": 2,
+          "content": "6.12. Theorem. If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , then $\\sigma _ { w } ( A ) = \\sigma _ { e } ( A ) \\cup \\bigcup _ { n \\neq 0 } P _ { n } ( A ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.292,
+            0.868,
+            0.351
+          ],
+          "content": "PROOF. Clearly $X \\equiv \\sigma_{e}(A) \\cup \\bigcup_{n \\neq 0} P_{n}(A) \\subseteq \\sigma_{w}(A)$ . Now suppose $\\lambda \\neq X$ . Then $A - \\lambda \\in \\mathcal { F }$ and ind $( A - \\lambda )   =   0$ By Exercise 3.7 there is a finite rank operator F such that $A + F - \\lambda$ is invertible. Hence $\\lambda \\notin \\sigma(A + F)$ so that $\\lambda \\not \\in \\sigma _ { w } ( A )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.368,
+            0.869,
+            0.461
+          ],
+          "content": "So for every operator A in $\\mathcal { B } ( \\mathcal { H } )$ there is a spectral picture for A (a term coined in Pearcy [1978]). There are the open sets $\\left\\{ P_{n}(A): 0 < |n| \\leq \\infty \\right\\}$ the set $P_{0}(A)=G_{0}\\cup D$ where D consists of isolated points λ for which dim $E ( \\lambda ) = n _ { \\lambda } < \\infty$ , and there is the remainder of $\\sigma ( A )$ , which is the set $\\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )$ . The next result is due to Conway [1985]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.478,
+            0.87,
+            0.573
+          ],
+          "content": "6.13. Proposition. Let K be a compact subset of C, let $\\{ G _ { n } : - \\infty \\leqslant n \\leqslant \\infty \\}$ be disjoint open subsets of K (some possibly empty), let D be a subset of the set of isolated points of K, and for each λ in D let $n _ { \\lambda } { \\in } \\{ 1 , 2 , \\ldots \\}$ . Then there is an operator A on $\\mathcal { H }$ such that $\\sigma ( A ) = K , P _ { n } ( A ) = G _ { n } \\mathit { f o r } 0 < | n | \\leqslant \\infty$ $P _ { 0 } ( A ) = G _ { 0 } \\cup D ,$ and dim $E ( \\lambda ) = n _ { \\lambda } \\; f o r$ every λ in D."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.589,
+            0.871,
+            0.735
+          ],
+          "content": "We prove only a special case of this result; the general case is left to the reader. Let K be any compact subset of C and let G be an open subset of K. Put $H = \\mathrm{int}[\\mathrm{cl} G];$ so $G \\subseteq H$ , but it may be that $H \\neq G$ . However, $\\partial H = \\partial [ \\mathrm { c l }   H ]$ . Let $T f = z f$ for f in $L _ { a } ^ { 2 } ( H )$ , so $H = P _ { - 1 } ( T ) , \\; \\sigma ( T ) = \\mathrm { c l }   H ,$ and $\\sigma _ { l e } ( T ) \\cap \\sigma _ { r e } ( T ) = \\partial H = \\partial [ \\operatorname { c l } G ]$ . Let $\\{ \\lambda _ { k } \\}$ be a countable dense subset of $K \\backslash G$ and let N be the diagonalizable normal operator with $\\sigma _ { p } ( N ) = \\{ \\lambda _ { k } \\}$ and such that dim ker $( N - \\lambda _ { k } ) = \\infty$ for each $\\lambda_{k}.  If  0 < n \\leqslant \\infty$ and $A = N \\oplus T ^ { ( n ) }$ , then $\\sigma ( A ) = K , P _ { - n } ( A ) = G$ , and $K \\backslash G = \\sigma_{le}(A) \\cap \\sigma_{re}(A)$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.762,
+            0.233,
+            0.778
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.779,
+            0.667,
+            0.797
+          ],
+          "content": "1. If A is an invertible operator, show that $\\gamma ( A ) = \\| A ^ { - 1 } \\| ^ { - 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.796,
+            0.872,
+            0.849
+          ],
+          "content": "2. Let $A   \\in   \\mathcal { F }$ and suppose that ker $A \\neq ( 0 )$ and ran $\\pmb { A } ^ { \\perp } \\neq ( 0 )$ . Show that for every $\\delta   >   0$ there is an operator B in $\\mathcal { F }$ such that $\\| B - A \\| < \\delta .$ , dim ker $B <$ dim ker A, and dim ran $\\pmb { B } ^ { \\perp } <$ dim ran $A ^ { \\perp }$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.855,
+            0.872,
+            0.891
+          ],
+          "content": "3. If $A   \\in   \\mathcal { S P }$ , show that there is a $\\delta   >   0$ such that dim ker $(A - \\mu) = \\dim$ ker A and dim $\\tan(A - \\mu)^{\\perp} = \\dim \\tan A^{\\perp}$ for $| \\mu | < \\delta$ if ker $A \\subseteq \\mathbf{r}\\mathbf{a}\\mathbf{n} \\cdot A^{\\mathbf{n}}$ for every $n \\geqslant 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.901,
+            0.361,
+            0.917
+          ],
+          "content": "4. Prove Proposition 6.9."
+        }
+      ]
+    },
+    {
+      "page_idx": 382,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.058,
+            0.169,
+            0.072
+          ],
+          "content": "368"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.669,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": "XI. Fredholm Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.103,
+            0.366,
+            0.119
+          ],
+          "content": "5. Prove Proposition 6.10"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.128,
+            0.87,
+            0.145
+          ],
+          "content": "6. If $\\lambda   \\in   \\partial P _ { n } ( A )$ and $n \\neq 0 .$ ,show that ran(A — λ) is not closed. What happens if $n   =   0 ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.155,
+            0.867,
+            0.172
+          ],
+          "content": "7. (Stampfli [1974].) If $A \\in \\mathcal { B } ( \\mathcal { H } )$ , then there is a K in $\\mathcal { B } _ { 0 } ( \\mathcal { H } )$ such that $\\sigma ( A + K ) = \\sigma _ { w } ( A )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.18,
+            0.369,
+            0.198
+          ],
+          "content": "8. Prove Proposition 6.13."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.207,
+            0.87,
+            0.257
+          ],
+          "content": "9. (Conway [1985].) If L and R are nonempty compact subsets of $\\mathbf { C } ,$ then there is a bounded operator A on $\\mathcal { H }$ such that $\\sigma _ { l } ( A )   =   L$ and $\\sigma _ { r } ( A ) = R$ if and only if $\\hat { o } L \\subseteq R$ and $\\partial R \\subseteq L$"
+        }
+      ]
+    },
+    {
+      "page_idx": 383,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.1,
+            0.311,
+            0.119
+          ],
+          "content": "APPENDIX A"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.135,
+            0.366,
+            0.163
+          ],
+          "content": "Preliminaries"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.42,
+            0.871,
+            0.512
+          ],
+          "content": "As was stated in the Preface, the prerequisites for understanding this book are a good course in measure and integration theory and, as a corequisite, analytic function theory. In this and the succeeding appendices an attempt is made to fill in some of the gaps and standardize some notation. These sections are not meant to be a substitute for serious study of these topics."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.512,
+            0.873,
+            0.642
+          ],
+          "content": "In Section 1 of this appendix some results from infinite dimensional linear algebra are set forth. Most of this is meant as review. Proposition 1.4, however, seems to be a fact that is not stressed or covered in courses but that is used often in functional analysis. Section 2 on topology is presented mainly to discuss nets. This topic is often not covered in the basic courses and it is especially useful in discussing various ideas and proving results in functional analysis."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.672,
+            0.391,
+            0.696
+          ],
+          "level": 2,
+          "content": "§1. Linear Algebra"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.712,
+            0.872,
+            0.786
+          ],
+          "content": "Let x be a vector space over $\\mathbf { F } = \\mathbf { R }$ or C. A subset E of $\\mathcal { X }$ is linearly independent if for any finite subset $\\{ e _ { 1 } , \\ldots , e _ { n } \\}$ of E and for any finite set of scalars $\\{ \\alpha _ { 1 } , \\ldots , \\alpha _ { n } \\} , \\mathrm { i f } \\sum _ { k = 1 } ^ { n } \\alpha _ { k } e _ { k } = 0 .$ , then $\\alpha _ { 1 } = \\cdots = \\alpha _ { n } = 0$ A Hamel basis is a maximal linearly independent subset of ¿."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.804,
+            0.871,
+            0.861
+          ],
+          "content": "1.1. Proposition. If E is a linearly independent subset of X, then E is a Hamel basis if and only if every vector x in X can be written as $x = \\sum_{k = 1}^{n} \\alpha_{k} e_{k}$ for scalars $\\alpha _ { 1 } , \\ldots , \\alpha _ { n }$ and $\\{ e _ { 1 } , \\ldots , e _ { n } \\} \\subseteq E$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.868,
+            0.871,
+            0.925
+          ],
+          "content": "ProoF. Suppose E is a basis and $x { \\in } { \\mathcal { X } } ,   x { \\notin } E .$ Then $E \\cup \\{ x \\}$ is not linearly independent. Thus there are $\\alpha _ { 0 } , \\alpha _ { 1 } , \\ldots , \\alpha _ { n }$ in F and $e _ { 1 } , \\ldots , e _ { n }$ in E such that $0 = \\alpha _ { 0 } x + \\alpha _ { 1 } e _ { 1 } + \\cdots + \\alpha _ { n } e _ { n } .$ with $\\alpha _ { 0 } \\neq 0$ (Why?) Thus $\\begin{array} { r } { x = \\sum _ { k = 1 } ^ { n } ( - \\alpha _ { k } / \\alpha _ { 0 } ) e _ { k } } \\end{array}$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 376,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 377,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 378,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 379,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 380,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 381,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 382,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 383,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

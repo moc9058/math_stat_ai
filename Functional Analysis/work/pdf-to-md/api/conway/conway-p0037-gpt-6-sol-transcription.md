@@ -1,0 +1,32 @@
+$e_n(t)=\exp(int)$. Hence $\{e_n:n\in\mathbb Z\}$ is a basis for $\mathcal H\equiv L_{\mathbb C}^{2}([0,2\pi],(2\pi)^{-1}\,dt)$. If $f\in\mathcal H$, then
+
+$$
+\hat f(n)\equiv\langle f,e_n\rangle
+=\frac{1}{2\pi}\int_0^{2\pi}f(t)e^{-int}\,dt
+\tag{5.8}
+$$
+
+is called the $n$th Fourier coefficient of $f$, $n$ in $\mathbb Z$. By (5.7) and (4.13d),
+
+$$
+f=\sum_{n=-\infty}^{\infty}\hat f(n)e_n,
+\tag{5.9}
+$$
+
+where this infinite series converges to $f$ in the metric defined by the norm of $\mathcal H$. This is called the Fourier series of $f$. This terminology is classical and has been adopted for a general Hilbert space.
+
+If $\mathcal H$ is any Hilbert space and $\mathcal E$ is a basis, the scalars $\{\langle h,e\rangle;e\in\mathcal E\}$ are called the Fourier coefficients of $h$ (relative to $\mathcal E$) and the series in (4.13d) is called the Fourier expansion of $h$ (relative to $\mathcal E$).
+
+Note that Parseval’s Identity applied to (5.9) gives that $\sum_{n=-\infty}^{\infty}|\hat f(n)|^2<\infty$. This proves a classical result.
+
+**5.10. The Riemann–Lebesgue Lemma.** If $f\in L_{\mathbb C}^{2}[0,2\pi]$, then $\int_0^{2\pi}f(t)e^{-int}\,dt\to0$ as $n\to\pm\infty$.
+
+If $f\in L_{\mathbb C}^{2}[0,2\pi]$, then the Fourier series of $f$ converges to $f$ in $L^2$-norm. It was conjectured by Lusin that the series converges to $f$ almost everywhere. This was proved in Carleson [1966]. Hunt [1967] showed that if $f\in L_{\mathbb C}^{p}[0,2\pi]$, $1<p\leq\infty$, then the Fourier series also converges to $f$ a.e. Long before that, Kolmogoroff had furnished an example of a function $f$ in $L_{\mathbb C}^{1}[0,2\pi]$ whose Fourier series a.e. does not converge to $f$.
+
+For $f$ in $L_{\mathbb C}^{2}[0,2\pi]$, the function $\hat f:\mathbb Z\to\mathbb C$ is called the Fourier transform of $f$; the map $U:L_{\mathbb C}^{2}[0,2\pi]\to l^{2}(\mathbb Z)$ defined by $Uf=\hat f$ is the Fourier transform. The results obtained so far can be applied to this situation to yield the following.
+
+**5.11. Theorem.** The Fourier transform is a linear isometry from $L_{\mathbb C}^{2}[0,2\pi]$ onto $l^{2}(\mathbb Z)$.
+
+**PROOF.** Let $U:L_{\mathbb C}^{2}[0,2\pi]\to l^{2}(\mathbb Z)$ be the Fourier transform. That $U$ maps $L^{2}\equiv L_{\mathbb C}^{2}[0,2\pi]$ into $l^{2}(\mathbb Z)$ and satisfies $\|Uf\|=\|f\|$ is a consequence of Parseval’s Identity. That $U$ is linear is an exercise. If $\{\alpha_n\}\in l^{2}(\mathbb Z)$ and $\alpha_n=0$ for all but a finite number of $n$, then $f=\sum_{n=-\infty}^{\infty}\alpha_ne_n\in L^{2}$. It is easy to check that $\hat f(n)=\alpha_n$ for all $n$, so $Uf=\{\alpha_n\}$. Thus $\operatorname{ran}U$ is dense in $l^{2}(\mathbb Z)$. But $U$ is an isometry, so $\operatorname{ran}U$ is closed; hence $U$ is surjective. $\blacksquare$
+
+Note that functions in $L_{\mathbb C}^{2}[0,2\pi]$ can be defined on $\partial\mathbb D$ by letting $f(e^{i\theta})=f(\theta)$. The ambiguity for $\theta=0$ and $2\pi$ (or $e^{i\theta}=1$) might cause us to pause, but remember that elements of $L_{\mathbb C}^{2}[0,2\pi]$ are equivalence classes of

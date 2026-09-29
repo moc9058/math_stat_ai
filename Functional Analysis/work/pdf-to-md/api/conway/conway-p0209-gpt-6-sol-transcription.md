@@ -1,0 +1,19 @@
+**Proof.** We have already seen that $\mathcal A/\mathcal M$ is a Banach space and, as was mentioned prior to the statement of the theorem, $\mathcal A/\mathcal M$ is an algebra. If $x,y\in\mathcal A$ and $u,v\in\mathcal M$, then $(x+u)(y+v)=xy+(xv+uy+uv)\in xy+\mathcal M$. Hence $\|(x+\mathcal M)(y+\mathcal M)\|=\|xy+\mathcal M\|\leqslant\|(x+u)(y+v)\|\leqslant\|x+u\|\|y+v\|$. Taking the infimum over all $u,v$ in $\mathcal M$ gives that $\|(x+\mathcal M)(y+\mathcal M)\|\leqslant\|x+\mathcal M\|\|y+\mathcal M\|$. The remainder of the proof is left to the reader. $\blacksquare$
+
+It may be that $\mathcal A/\mathcal M$ has an identity even if $\mathcal A$ does not. For example, let $\mathcal A=C_0(\mathbb R)$ and let $\mathcal M=\{\phi\in C_0(\mathbb R):\phi(x)=0\text{ when }|x|\leqslant1\}$. If $\phi_0\in C_0(\mathbb R)$ such that $\phi_0(x)=1$ for $|x|\leqslant1$, then $\phi_0+\mathcal M$ is an identity for $\mathcal A/\mathcal M$. In fact, if $\phi\in C_0(\mathbb R)$, $(\phi\phi_0-\phi)(x)=0$ if $|x|\leqslant1$. Hence $(\phi+\mathcal M)(\phi_0+\mathcal M)=\phi+\mathcal M$ (see Exercises 6 through 9).
+
+## EXERCISES
+
+1. Let $\mathcal A$ be a Banach algebra and let $\mathcal L$ be all of the closed left ideals in $\mathcal A$. If $I_1,I_2\in\mathcal L$, define $I_1\vee I_2\equiv\operatorname{cl}(I_1+I_2)$ and $I_1\wedge I_2=I_1\cap I_2$. Show that with these definitions $\mathcal L$ is a complete lattice with a largest and a smallest element.
+
+2. Let $X$ be locally compact. For every open subset $U$ of $X$, let $I(U)=\{\phi\in C_0(X):\phi=0\text{ on }X\setminus U\}$. Show that $U\mapsto I(U)$ is a lattice monomorphism of the collection of open subsets of $X$ into the lattice of close ideals of $C_0(X)$. (It is, in fact, surjective, but the proof of that should wait.)
+
+3. Let $(X,\Omega,\mu)$ be a $\sigma$-finite measure space and let $I$ be an ideal in $L^\infty(X,\Omega,\mu)$ that is weak$^*$ closed. Show that there is a set $\Delta$ in $\Omega$ such that $I=\{\phi\in L^\infty(X,\Omega,\mu):\phi=0\text{ a.e. on }\Delta\}$.
+
+4. Let $\mathcal A=\left\{\begin{bmatrix}\alpha&0\\ \beta&\alpha\end{bmatrix}:\alpha,\beta\in\mathbb F\right\}$ and let $\mathcal M=\left\{\begin{bmatrix}0&0\\ \beta&0\end{bmatrix}:\beta\in\mathbb F\right\}$. Show that $\mathcal A$ is a Banach algebra and $\mathcal M$ is a maximal ideal in $\mathcal A$.
+
+5. Show that for $n\geqslant1$, $M_n(\mathbb C)$ has no nontrivial ideals. How about $M_n(\mathbb R)$?
+
+6. Let $\mathcal A$ be a Banach algebra but do not assume that $\mathcal A$ has an identity. If $I$ is a left ideal of $\mathcal A$, say that $I$ is a *modular left ideal* if there is a $u$ in $\mathcal A$ such that $\mathcal A(1-u)\equiv\{a-au:a\in\mathcal A\}\subseteq I$; call such an element $u$ of $\mathcal A$ a *right modular unit* for $I$. Similarly, define *right modular ideals* and *left modular units*. Prove the following. (a) If $u$ is a right modular unit for the left ideal $I$ and $u\in I$, then $I=\mathcal A$. (b) Maximal modular left ideals are maximal left ideals. (c) If $I$ is a proper modular left ideal, then $I$ is contained in a maximal left ideal. (d) If $I$ is a proper modular left ideal and $u$ is a modular right unit for $I$, then $\|u-x\|\geqslant1$ for all $x$ in $I$ and $\operatorname{cl} I$ is a proper modular left ideal. (e) Every maximal modular left ideal of $\mathcal A$ is closed.
+
+7. Using the terminology of Exercise 6, let $I$ be an ideal of $\mathcal A$. Show: (a) if $u$ is a right modular unit for $I$ and $v$ is a left modular unit for $I$, then $u-v\in I$. (b) If $I$ is closed, $\mathcal A/I$ has an identity if and only if there is a right modular unit and a left modular unit for $I$. Call an ideal $I$ such that $\mathcal A/I$ has an identity a *modular ideal*. An element $u$ such that $u+I$ is an identity for $\mathcal A/I$ is called a *modular identity* for $I$.

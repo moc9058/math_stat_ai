@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 230,
+  "model": "gpt-6-astra",
+  "seconds": 11.29,
+  "input_tokens": 3789,
+  "output_tokens": 337,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"-\\\\lambda_m^{-1}(A-\\\\lambda_m)y_m+y_n-y_m\",\n      \"correction\": \"-\\\\lambda_m^{-1}(A-\\\\lambda_m)y_n+y_n-y_m\",\n      \"note\": \"In the first displayed equality after “So if n > m,” the image prints y_n, not y_m (apparently a textbook typo).\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

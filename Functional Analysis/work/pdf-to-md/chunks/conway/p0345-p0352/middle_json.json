@@ -1,0 +1,4529 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 344,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 345,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 346,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 347,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 348,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 349,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 350,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 351,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 344,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.169,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "330"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.632,
+            0.055,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.868,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\perp \\{ g _ { a } : g \\in \\mathcal { H } , \\; a > 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then by (5.5), for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.395,
+            0.144,
+            0.596,
+            0.19
+          ],
+          "image_path": "images/page_344_equation_3.jpg",
+          "content": "0 = \\int _ { 0 } ^ { a } \\langle U ( t ) h , g \\rangle d t ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.197,
+            0.871,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } , \\langle U ( t ) h , g \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " a.e. on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable there is a subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta"
+            },
+            {
+              "type": "text",
+              "content": " of R having measure zero such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\notin \\Delta , \\langle U ( t ) h , g \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " belongs to a preselected countable dense subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U(t)h = 0   if   t \\notin \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } \\| = \\| \\boldsymbol { U } ( t ) \\boldsymbol { h } \\|"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h   =   0"
+            },
+            {
+              "type": "text",
+              "content": " and the claim is established. Now if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s { \\in } \\mathbb { R }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.314,
+            0.298,
+            0.64,
+            0.421
+          ],
+          "image_path": "images/page_344_equation_5.jpg",
+          "content": "\\begin{align*}\\langle h, U(s)g_a \\rangle &= \\langle U(-s)h, g_a \\rangle \\\\&= \\int_{0}^{a} \\langle U(t-s)h, g \\rangle dt \\\\&= \\int_{-s}^{a-s} \\langle U(t)h, g \\rangle dt.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.123,
+            0.428,
+            0.871,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , U ( s ) g _ { a } \\rangle \\to \\langle h , g _ { a } \\rangle \\mathrm { a s } s \\to 0 ."
+            },
+            {
+              "type": "text",
+              "content": " By the claim and the fact that the group is uniformly bounded, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U : \\mathbb { R } \\to ( { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " , WOT) is continuous at 0. By the group property, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U : \\mathbb { R } \\to ( { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " , WOT) is continuous. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is SOT-continuous (Exercise 1). ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.52,
+            0.872,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now turn our attention to the principal result of this section, Stone's Theorem, which states that the converse of Theorem 5.1 is valid. Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = \\exp ( i t A )"
+            },
+            {
+              "type": "text",
+              "content": " for a self-adjoint operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ,"
+            },
+            {
+              "type": "text",
+              "content": " then part (d) of Theorem 5.1 instructs us how to recapture "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ."
+            },
+            {
+              "type": "text",
+              "content": " This is the route followed in the proof of Stone's Theorem, proved in Stone [1932]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.628,
+            0.871,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.6. Stone's Theorem. If U is a strongly continuous one parameter unitary group, then there is a self-adjoint operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = \\exp ( i t A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.674,
+            0.871,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Begin by defining "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " to be the set of all vectors h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { l i m } _ { t \\to 0 } t ^ { - 1 } [ U ( t ) h - h ]"
+            },
+            {
+              "type": "text",
+              "content": " exists; since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 { \\in } { \\mathcal { D } } , { \\mathcal { D } } \\neq \\square"
+            },
+            {
+              "type": "text",
+              "content": " . Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.747,
+            0.414,
+            0.766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.7. Claim. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.784,
+            0.872,
+            0.858
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " continuous functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " on R such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { 1 } ( 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence for any h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,   t   \\mapsto   \\phi ( t ) U ( t ) h"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous function of R into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol{U}(t) \\boldsymbol{h} \\| = \\| \\boldsymbol{h} \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all t, a Riemann integral, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\int _ { 0 } ^ { \\infty } \\phi ( t ) U ( t ) h   d t . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " , can be defined and is a vector in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Put"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.391,
+            0.865,
+            0.607,
+            0.909
+          ],
+          "image_path": "images/page_344_equation_12.jpg",
+          "content": "T _ { \\phi } h = \\int _ { 0 } ^ { \\infty } \\phi ( t ) U ( t ) h   d t ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.915,
+            0.869,
+            0.939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { \\phi } : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is linear and bounded with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { \\phi } \\| \\leqslant \\int _ { 0 } ^ { \\infty } | \\phi ( t ) | d t ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 345,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.056,
+            0.315,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Stone's Theorem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.831,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "331"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.391,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.14,
+            0.163,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.9"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.374,
+            0.125,
+            0.617,
+            0.17
+          ],
+          "image_path": "images/page_345_equation_4.jpg",
+          "content": "S _ { \\phi } h = \\int _ { 0 } ^ { \\infty } \\phi ( t ) U ( - t ) h   d t ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.179,
+            0.471,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "defines a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.198,
+            0.437,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " and t in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } _ { \\cdot }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.347,
+            0.222,
+            0.649,
+            0.368
+          ],
+          "image_path": "images/page_345_equation_7.jpg",
+          "content": "\\begin{align*}U(t)T_{\\phi}h &= U(t)\\int_{0}^{\\infty}\\phi(s)U(s)h ds \\\\&= \\int_{0}^{\\infty}\\phi(s)U(t + s)h ds \\\\&= \\int_{t}^{\\infty}\\phi(s - t)U(s)h ds.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.374,
+            0.228,
+            0.393
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.351,
+            0.395,
+            0.674,
+            0.44
+          ],
+          "image_path": "images/page_345_equation_9.jpg",
+          "content": "U ( t ) S _ { \\phi } h = \\int _ { - t } ^ { \\infty } \\phi ( s + t ) U ( - s ) h d s ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.447,
+            0.871,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ^ { ( 1 ) }   =   \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " that are continuously differentiable with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ^ { ( 1 ) }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.144,
+            0.492,
+            0.833,
+            0.587
+          ],
+          "image_path": "images/page_345_equation_11.jpg",
+          "content": "- \\frac{i}{t} \\left[ U(t) - 1 \\right] T_{\\phi} h = - \\frac{i}{t} \\int_{t}^{\\infty} \\phi(s - t) U(s) h ds + \\frac{i}{t} \\int_{0}^{\\infty} \\phi(s) U(s) h ds \\\\= - i \\int_{t}^{\\infty} \\left[ \\frac{\\phi(s - t) - \\phi(s)}{t} \\right] U(s) h ds + \\frac{i}{t} \\int_{0}^{t} \\phi(s) U(s) h ds."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.591,
+            0.184,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.614,
+            0.848,
+            0.66
+          ],
+          "image_path": "images/page_345_equation_13.jpg",
+          "content": "\\left\\| \\int_{0}^{t} \\left[ \\frac{\\phi(s-t) - \\phi(s)}{t} \\right] U(s) h ds \\right\\| \\leq \\| h \\| \\sup \\left\\{ \\left| \\phi(s-t) - \\phi(s) \\right| : 0 \\leq s \\leq 1 \\right\\} \\rightarrow 0."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.668,
+            0.283,
+            0.684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\to   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.235,
+            0.693,
+            0.764,
+            0.761
+          ],
+          "image_path": "images/page_345_equation_15.jpg",
+          "content": "\\begin{align*}\\lim_{t \\to 0} \\int_{t}^{\\infty} \\left[ \\frac{\\phi(s-t) - \\phi(s)}{t} \\right] U(s) h ds &= - \\int_{0}^{\\infty} \\phi'(s) U(s) h ds \\\\&= - T_{\\phi} h.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.769,
+            0.872,
+            0.808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s   \\mapsto   \\phi ( s ) U ( s ) \\pmb { h }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( 0 )   =   1"
+            },
+            {
+              "type": "text",
+              "content": " , the Fundamental Theorem of Calculus implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.357,
+            0.814,
+            0.642,
+            0.859
+          ],
+          "image_path": "images/page_345_equation_17.jpg",
+          "content": "\\lim _ { t \\rightarrow 0 } \\frac { 1 } { t } \\int _ { 0 } ^ { t } \\phi ( s ) U ( s ) h   d s = \\phi ( 0 ) h ."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.867,
+            0.46,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ^ { ( 1 ) }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.132,
+            0.908,
+            0.182,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.10"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.314,
+            0.896,
+            0.687,
+            0.936
+          ],
+          "image_path": "images/page_345_equation_20.jpg",
+          "content": "\\lim _ { t \\rightarrow 0 } - \\frac { i } { t } \\left[ U ( t ) - 1 \\right] T _ { \\phi } h = i T _ { \\phi } h + i \\phi ( 0 ) h ."
+        }
+      ]
+    },
+    {
+      "page_idx": 346,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.138,
+            0.177,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.11"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.133,
+            0.057,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "332"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.635,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.099,
+            0.489,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ^ { ( 1 ) }"
+            },
+            {
+              "type": "text",
+              "content": " and h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.299,
+            0.129,
+            0.695,
+            0.169
+          ],
+          "image_path": "images/page_346_equation_4.jpg",
+          "content": "\\operatorname * { l i m } _ { t \\rightarrow 0 } - \\frac { i } { t } [ U ( t ) - 1 ] S _ { \\phi } h = - i S _ { \\phi } . h - i \\phi ( 0 ) h ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.178,
+            0.371,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So (5.10) implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.345,
+            0.205,
+            0.649,
+            0.226
+          ],
+          "image_path": "images/page_346_equation_6.jpg",
+          "content": "\\mathcal { D } \\supseteq \\{ T _ { \\phi } h \\colon \\phi   \\in   \\mathcal { L } ^ { ( 1 ) } \\mathrm { ~ a n d ~ } h   \\in   \\mathcal { H } \\} ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.233,
+            0.871,
+            0.273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But for every positive integer n there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ^ { ( 1 ) }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n } \\geqslant 0 , \\phi _ { n } ( t ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\geqslant 1 / n ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { 0 } ^ { \\infty } \\phi _ { n } ( t ) d t = 1"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 2). Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.332,
+            0.278,
+            0.667,
+            0.322
+          ],
+          "image_path": "images/page_346_equation_8.jpg",
+          "content": "T _ { \\phi _ { n } } h - h = \\int _ { 0 } ^ { 1 / n } \\phi _ { n } ( t ) [ U ( t ) - 1 ] h d t ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.33,
+            0.871,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and so | "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { \\phi _ { n } } h - h \\| \\leqslant \\sup \\left\\{ \\| U ( t ) h - h \\| : 0 \\leqslant t \\leqslant 1 / n \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { \\phi _ { n } } h - h \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " since U is strongly continuous. This says that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " is dense."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.153,
+            0.368,
+            0.342,
+            0.386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ,"
+            },
+            {
+              "type": "text",
+              "content": " define"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.407,
+            0.178,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.12"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.369,
+            0.397,
+            0.629,
+            0.438
+          ],
+          "image_path": "images/page_346_equation_12.jpg",
+          "content": "A h = - i \\lim _ { t \\rightarrow 0 } \\frac { 1 } { t } \\left[ U ( t ) - 1 \\right] h ."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.459,
+            0.418,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.13. Claim. A is symmetric."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.154,
+            0.495,
+            0.53,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of this is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.515,
+            0.874,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By (2.2c), A is closable; also denote the closure of A by A. According to Corollary 2.9, to prove that A is self-adjoint it suffices to prove that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } \\pm i )   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Equivalently, it suffices to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { \\mathsf { r a n } } ( A \\pm i )"
+            },
+            {
+              "type": "text",
+              "content": " is dense. It will be shown that there are operators "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { \\pm }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A \\pm i ) B _ { \\pm } = 1"
+            },
+            {
+              "type": "text",
+              "content": " , so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\pm i"
+            },
+            {
+              "type": "text",
+              "content": " is surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.154,
+            0.606,
+            0.469,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice that according to (5.10),"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.287,
+            0.636,
+            0.707,
+            0.656
+          ],
+          "image_path": "images/page_346_equation_17.jpg",
+          "content": "( A + i ) T _ { \\phi } = A T _ { \\phi } + i T _ { \\phi } = i ( T _ { \\phi ^ { \\prime } } + T _ { \\phi } ) + i \\phi ( 0 ) ."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.663,
+            0.704,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So taking "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( t ) = - i e ^ { - 1 } , ( A + i ) T _ { \\phi } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . According to (5.11),"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.278,
+            0.69,
+            0.716,
+            0.711
+          ],
+          "image_path": "images/page_346_equation_19.jpg",
+          "content": "( A - i ) S _ { \\psi } = A S _ { \\psi } - i S _ { \\psi } = - i ( S _ { \\psi ^ { \\prime } } + S _ { \\psi } ) - i \\psi ( 0 ) ."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.125,
+            0.724,
+            0.687,
+            0.743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Taking "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( t ) = i e ^ { - 1 } , ( A - i ) S _ { \\psi } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence A is self-adjoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.126,
+            0.743,
+            0.87,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V ( t ) = \\exp ( i A t )"
+            },
+            {
+              "type": "text",
+              "content": " . It remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = U"
+            },
+            {
+              "type": "text",
+              "content": " .Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " . By Theorem 5.1(d),"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.237,
+            0.796,
+            0.759,
+            0.816
+          ],
+          "image_path": "images/page_346_equation_22.jpg",
+          "content": "s ^ { - 1 } [ V ( t + s ) - V ( t ) ] h = s ^ { - 1 } [ V ( s ) - 1 ] V ( t ) h \\rightarrow i A V ( t ) h ;"
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.125,
+            0.824,
+            0.466,
+            0.843
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V ^ { \\prime } ( t ) h = i A V ( t ) h ."
+            },
+            {
+              "type": "text",
+              "content": " Similarly,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.235,
+            0.85,
+            0.76,
+            0.871
+          ],
+          "image_path": "images/page_346_equation_24.jpg",
+          "content": "s ^ { - 1 } [ U ( t + s ) - U ( t ) ] h = s ^ { - 1 } [ U ( s ) - 1 ] U ( t ) h \\to i A U ( t ) h ."
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.125,
+            0.878,
+            0.73,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( t ) = U ( t ) h - V ( t ) h ,"
+            },
+            {
+              "type": "text",
+              "content": " then h: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is differentiable and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 26,
+          "bbox": [
+            0.334,
+            0.905,
+            0.67,
+            0.925
+          ],
+          "image_path": "images/page_346_equation_26.jpg",
+          "content": "h ^ { \\prime } ( t ) = i A U ( t ) h - i A V ( t ) h = i A h ( t ) ."
+        }
+      ]
+    },
+    {
+      "page_idx": 347,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.055,
+            0.317,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Stone's Theorem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.057,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "333"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.172,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.292,
+            0.129,
+            0.69,
+            0.2
+          ],
+          "image_path": "images/page_347_equation_3.jpg",
+          "content": "\\begin{align*}\\frac{d}{dt}\\|h(t)\\|^2 &= \\langle h'(t), h(t) \\rangle + \\langle h(t), h'(t) \\rangle \\\\&= \\langle iAh(t), h(t) \\rangle + \\langle h(t), iAh(t) \\rangle.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.211,
+            0.868,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\boldsymbol{d} / \\boldsymbol{d} t \\right) \\| \\boldsymbol{h}(t) \\|^2 = 0"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } \\| \\colon \\mathbb { R } \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " is a constant function. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( 0 ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( t ) \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": " This says that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) \\dot { \\boldsymbol { h } } = V ( t ) \\dot { \\boldsymbol { h } }"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and all t in R. Since D is dense, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = V ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.288,
+            0.869,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.14. Definition. If U is a strongly continuous one parameter unitary group, then the self-adjoint operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = \\exp ( i t A )"
+            },
+            {
+              "type": "text",
+              "content": " is called the infinitesimal generator of U."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.123,
+            0.363,
+            0.87,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By virtue of Stone's Theorem and Theorem 5.1, there is a one-to-one correspondence between self-adjoint operators and strongly continuous one-parameter unitary groups. Thus, it should be possible to characterize certain properties of a group in terms of its infinitesimal generator and vice versa. For example, suppose the infinitesimal generator is bounded; what can be said about the group? (Also see Exercise 6.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.497,
+            0.872,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.15. Proposition. If U is a strongly continuous one parameter unitary group with infinitesimal generator A, then A is bounded if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { l i m } _ { t \\to 0 } \\| U ( t ) - 1 \\| = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.561,
+            0.865,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. First assume that A is bounded. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| U ( t ) - 1 \\| = \\| \\exp ( i t A ) - 1 \\| ="
+            },
+            {
+              "type": "text",
+              "content": " sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\left| e^{itx} - 1 \\right| : x \\in \\sigma(A) \\right\\} \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\rightarrow   0"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.598,
+            0.871,
+            0.762
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that l "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) - 1 \\parallel \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\rightarrow   0"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\varepsilon < \\pi / 4 ;"
+            },
+            {
+              "type": "text",
+              "content": " then there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 0 }   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| U ( t ) - 1 \\| < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| t | < t _ { 0 } ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) - 1 = \\int _ { \\sigma ( A ) } ( e ^ { i x t } - 1 ) d E ( t ) ,"
+            },
+            {
+              "type": "text",
+              "content": " sup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\left| e^{i x t} - 1 \\right| : x \\in \\sigma(A) \\right\\} = \\left\\| U(t) - 1 \\right\\| < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| t | < t _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " Thus for a small "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t x \\in \\bigcup _ { n = - \\infty } ^ { \\infty } ( 2 \\pi n - \\delta , 2 \\pi n + \\delta ) \\equiv G"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\sigma } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| t | < t _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, if ε is chosen sufficiently small, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta"
+            },
+            {
+              "type": "text",
+              "content": " is small enough that the intervals "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\left( 2 \\pi n - \\delta , 2 \\pi n + \\delta \\right) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " are the components of G. If x∈σ(A), {tx: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t < t_{0} \\}"
+            },
+            {
+              "type": "text",
+              "content": " is the interval from 0 to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 0 } x"
+            },
+            {
+              "type": "text",
+              "content": " and is contained in G. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t x { \\in } ( - \\delta , \\delta )"
+            },
+            {
+              "type": "text",
+              "content": " for x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| t | < t _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . In particular, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 0 } \\sigma ( A ) \\in [ - \\delta , \\delta ]"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is compact and A is bounded. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.778,
+            0.871,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let μ be a positive measure on R and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { \\mu } f = x f"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { \\mu } = \\{ f \\in L ^ { 2 } ( \\mu ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x f   \\in   L ^ { 2 } ( \\mu ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " We have already seen that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " is self-adjoint. Clearly exp "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( i t A _ { \\mu } ) = M _ { e _ { t } }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { t }"
+            },
+            {
+              "type": "text",
+              "content": " is the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { t } ( x ) = \\exp ( i t x )"
+            },
+            {
+              "type": "text",
+              "content": " . This can be generalized a bit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.874,
+            0.871,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.16. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space and let φ be a real-valued Ω-measurable function on X. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = \\exp ( i t A )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = M _ { e _ { t } } ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { t } ( x ) = \\exp ( i t \\phi ( x ) )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 348,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.058,
+            0.165,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "334"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.631,
+            0.056,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.123,
+            0.101,
+            0.868,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since each self-adjoint operator on a separable Hilbert space can be represented as a multiplication operator (Theorem 4.19), the preceding proposition gives a representation of all strongly continuous one parameter semigroups."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.194,
+            0.231,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.212,
+            0.868,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon \\mathbb { R } \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " is such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t )"
+            },
+            {
+              "type": "text",
+              "content": " is unitary for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t , \\; U ( s + t ) = U ( s ) U ( t )"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon \\mathbb { R }   \\to   ( { \\mathcal { B } } ( { \\mathcal { H } } ) , \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " is continuous, then U is SOT-continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.255,
+            0.868,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that for every integer n there is a continuously differentiable function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that both "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n } ^ { \\prime } \\in L ^ { 1 } ( 0 , \\infty ) , \\phi _ { n } ( t ) = 0 \\mathrm { i f } t \\geqslant 1 / n ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { 0 } ^ { \\infty } \\phi _ { n } ( t ) d t = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.298,
+            0.316,
+            0.315
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Prove Claim 5.13."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.324,
+            0.869,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Adopt the notation from the proof of Stone's Theorem. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi , \\psi \\in \\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " and show: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { \\phi } ^ { * } = S _ { \\bar { \\phi } } ;   ( \\mathrm { b } ) T _ { \\phi } T _ { \\psi } = T _ { \\phi _ { * } \\psi } \\mathrm { a n d } S _ { \\phi } S _ { \\psi } = S _ { \\phi _ { * } \\psi } ;   ( \\mathrm { c } ) T _ { \\phi } A \\subseteq A T _ { \\phi } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.367,
+            0.87,
+            0.437
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Let U be a strongly continuous one parameter unitary group with infinitesimal generator A. Suppose e is a nonzero vector in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A e = \\lambda e"
+            },
+            {
+              "type": "text",
+              "content": " . What is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) e ?"
+            },
+            {
+              "type": "text",
+              "content": " Conversely, suppose there is a nonzero t such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t )"
+            },
+            {
+              "type": "text",
+              "content": " has an eigenvector. What can be said about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ? U ( s ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.444,
+            0.872,
+            0.549
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. (This exercise is designed to give another proof of Proposition 5.15 as well as give additional information. My thanks to R.B. Burckel for pointing this out to me.) Let U be a strongly continuous one- parameter unitary group with infinitesimal generator A. Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| U ( t ) - 1 \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   \\rightarrow   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\to 0 , t ^ { - 1 } \\int _ { a } ^ { a + t } U ( s ) d s \\to U ( a )"
+            },
+            {
+              "type": "text",
+              "content": " in norm. From here show that as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\to 0 , t ^ { - 1 } [ U ( t ) - 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " has a norm limit, and hence A is a bounded operator since it is the norm limit of bounded operators."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.605,
+            0.779,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Fourier Transform and Differentiation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.651,
+            0.835,
+            0.671
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Perhaps the best way to begin this section is by examining an example."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.687,
+            0.871,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.1. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } = \\{ f \\in L ^ { 2 } ( \\mathbb { R } ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " f is absolutely continuous on every bounded interval in R and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } { \\in } L ^ { 2 } ( \\mathbb { R } ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " . For f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A f = i f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Then A is self-adjoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.742,
+            0.869,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First let's show that A is symmetric. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { D } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) \\to 0   as   x \\to \\pm \\infty"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } { \\in } L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " . So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ,   g \\in \\mathcal { D } ,   0 < a < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " 5"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.186,
+            0.79,
+            0.814,
+            0.836
+          ],
+          "image_path": "images/page_348_equation_14.jpg",
+          "content": "i \\int_{-a}^{a} f'(x) \\overline{g(x)} dx = i \\left[ f(a) \\overline{g(a)} - f(-a) \\overline{g(-a)} \\right] - i \\int_{-a}^{a} f(x) \\overline{g'(x)} dx."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.847,
+            0.582,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A f , g \\rangle = \\langle f , A g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " and A is symmetric."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.864,
+            0.873,
+            0.947
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let gedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < a < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { a } = \\{ f \\in \\mathcal { D } : f ( x ) = 0 \\mathrm { ~ f o r ~ } | x | \\geqslant a \\}"
+            },
+            {
+              "type": "text",
+              "content": " The proof that g∈dom A follows the lines of the argument used in Example 1.11. In fact, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = A ^ { * } g"
+            },
+            {
+              "type": "text",
+              "content": " So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal { D } ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int f(x) \\overline{h(x)}   dx ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\int f^{\\prime}(x) \\overline{g(x)} dx"
+            },
+            {
+              "type": "text",
+              "content": " .Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H(x) = \\int_{0}^{x} h(t)   dt"
+            },
+            {
+              "type": "text",
+              "content": " . Then using integration by parts we get that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 349,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.055,
+            0.55,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Fourier Transform and Differentiation"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "335"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.248,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { \\alpha }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.269,
+            0.125,
+            0.723,
+            0.22
+          ],
+          "image_path": "images/page_349_equation_3.jpg",
+          "content": "\\begin{align*}\\int_{-a}^{a} f \\bar{h} &= \\overline{H(a)} f(a) - \\overline{H(-a)} f(-a) - \\int_{-a}^{a} f' \\bar{H} \\\\&= - \\int_{-a}^{a} f' \\bar{H}.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.227,
+            0.87,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { - a } ^ { a } f ^ { \\prime } [ \\bar { H } - ( \\bar { \\imath } \\bar { g } ) ] = 0"
+            },
+            {
+              "type": "text",
+              "content": " for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } _ { a ^ { \\cdot } } \\mathbf { A } \\mathbf { s }"
+            },
+            {
+              "type": "text",
+              "content": " in (1.11), it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H - i g"
+            },
+            {
+              "type": "text",
+              "content": " is coñstant on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ - a , a ]"
+            },
+            {
+              "type": "text",
+              "content": " and g is absolutely continuous. Moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = H ^ { \\prime } - i g ^ { \\prime } = h - i g ^ { \\prime } ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}g = h =ig^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " and A is self-adjoint."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.285,
+            0.871,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A is the differentiation operator in Example 6.1, what is the group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = \\exp ( i t A ) ?"
+            },
+            {
+              "type": "text",
+              "content": " Since A is not represented as a multiplication operator, Proposition 5.16 cannot be applied. One could proceed to try and discover the spectral measure for A. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\int x d E ( x ) , U ( t ) = \\int e ^ { i t x } d E ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . Or one could be clever."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.376,
+            0.871,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Later in this section it will be shown that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } \\colon L ^ { 2 } ( \\mathbb { R } ) \\to L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " is the Fourier-Plancherel transform, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a unitary operator (6.17) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{F}^{-1} A \\mathcal{F} ="
+            },
+            {
+              "type": "text",
+              "content": " the operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " of multiplication by the independent variable (6.18). Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } ^ { - 1 } U ( t ) \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " is multiplication by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { i x t } ,"
+            },
+            {
+              "type": "text",
+              "content": " But it is possible to find U(t) directly."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.154,
+            0.469,
+            0.394,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that if f ∈dom A,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.384,
+            0.496,
+            0.614,
+            0.539
+          ],
+          "image_path": "images/page_349_equation_8.jpg",
+          "content": "A f = - i \\lim _ { t \\rightarrow 0 } \\frac { U ( t ) f - f } { t }"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.538,
+            0.163,
+            0.555
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.341,
+            0.554,
+            0.65,
+            0.596
+          ],
+          "image_path": "images/page_349_equation_10.jpg",
+          "content": "f^{\\prime}(x)=\\lim_{t \\to 0}-\\frac{(U(t)f)(x)-f(x)}{t}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.605,
+            0.673,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Being clever, one might guess that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( U ( t ) f ) ( x ) = f ( x - t )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.64,
+            0.872,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.2. Theorem. If A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " are as in Example 6.1 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( t ) = \\exp ( i t A )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( U ( t ) f ) ( x ) = f ( x - t )"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " and x,t in R."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.686,
+            0.873,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(V(t)f)(x) = f(x - t)"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to see that V is a strongly continuous one parameter unitary group. Let B be the infinitesimal generator of V. It must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.739,
+            0.873,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that f ∈dom B if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { l i m } _ { t \\to 0 } t ^ { - 1 } ( V ( t ) f - f )"
+            },
+            {
+              "type": "text",
+              "content": " exists. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   \\mathsf { C } _ { c } ^ { ( 1 ) } ( \\mathbb { R } ) ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, f is continuously differentiable and has compact support. Thus for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t > 0"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.248,
+            0.802,
+            0.753,
+            0.847
+          ],
+          "image_path": "images/page_349_equation_15.jpg",
+          "content": "\\left[ \\frac{V(t)f - f}{t} \\right](x) = \\frac{f(x - t) - f(x)}{t} = - \\frac{1}{t} \\int_{x - t}^{x} f'(y)dy"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.847,
+            0.174,
+            0.864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.217,
+            0.872,
+            0.778,
+            0.947
+          ],
+          "image_path": "images/page_349_equation_17.jpg",
+          "content": "\\begin{aligned}\\left| \\frac{V(t)f(x) - f(x)}{t} + f^{\\prime}(x) \\right| & \\leqslant \\frac{1}{t} \\int_{x - t}^{x} \\left| f^{\\prime}(x) - f^{\\prime}(y) \\right| dy \\\\& \\leqslant \\sup \\left\\{ \\left| f^{\\prime}(x) - f^{\\prime}(y) \\right| : |x - y| \\leqslant t \\right\\}.\\end{aligned}"
+        }
+      ]
+    },
+    {
+      "page_idx": 350,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "336"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.632,
+            0.056,
+            0.869,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.871,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous with compact support, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " is uniformly continuous. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\{ x : \\mathrm { d i s t } ( x , \\mathrm { s p t } f ^ { \\prime } ) \\leqslant 2 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So K is compact. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta ( \\varepsilon ) < 1"
+            },
+            {
+              "type": "text",
+              "content": " be such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| x - y | < \\delta ( \\varepsilon ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ^ { \\prime } ( x ) - f ^ { \\prime } ( y ) | < \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| t ^ { - 1 } [ V f - f ] + f ^ { \\prime } \\| _ { 2 } \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon ^ { 2 } | K | ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| K | ="
+            },
+            {
+              "type": "text",
+              "content": " the Lebesgue measure of K. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ^ { ( 1 ) } ( \\mathbb { R } ) \\subseteq"
+            },
+            {
+              "type": "text",
+              "content": " dom B and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B f = A f"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ^ { ( 1 ) } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " . But if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f { \\in } \\mathbf { d o m } A ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\} \\subseteq C _ { c } ^ { ( 1 ) } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } { \\oplus } A f _ { n } { \\to } f { \\oplus } A f"
+            },
+            {
+              "type": "text",
+              "content": " in gra A (Exercise 1). But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{n} \\oplus A f_{n}=f_{n} \\oplus B f_{n} \\in \\operatorname{grad} B,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\oplus A f \\in \\mathrm{grad} B;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq B"
+            },
+            {
+              "type": "text",
+              "content": " Since self-adjoint operators are maximal symmetric operators (2.11), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = B ,"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.266,
+            0.872,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To show that the Fourier transform demonstrates that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i d / d x"
+            },
+            {
+              "type": "text",
+              "content": " are unitarily equivalent, we introduce the Schwartz space of rapidly decreasing functions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.339,
+            0.871,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.3. Definition. A function φ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R }   \\rightarrow   \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " is rapidly decreasing if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is infinitely differentiable and for all integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m ,   n \\geqslant 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.387,
+            0.164,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.4"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.319,
+            0.386,
+            0.68,
+            0.406
+          ],
+          "image_path": "images/page_350_equation_6.jpg",
+          "content": "\\| \\phi \\| _ { m , n } \\equiv \\sup \\left\\{ \\left| x ^ { m } \\phi ^ { ( n ) } ( x ) \\right| : x \\in \\mathbb { R } \\right\\} < \\infty."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.414,
+            0.781,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } = \\mathcal { P } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " be the set of all rapidly decreasing functions on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.433,
+            0.825,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in \\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " , then for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m , n \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " there is a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { m , n }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.395,
+            0.46,
+            0.603,
+            0.48
+          ],
+          "image_path": "images/page_350_equation_9.jpg",
+          "content": "| \\phi ^ { ( n ) } ( x ) | \\leqslant C _ { m , n } | x | ^ { - m } ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.487,
+            0.871,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is any polynomial and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 0,\\ \\left| p(x) \\phi^{(n)}(x) \\right| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| x |   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, this is equivalent to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " belonging to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 3). Also note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in \\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { m } \\phi ^ { ( n ) } \\in \\mathcal { G }"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m , n \\geqslant 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.543,
+            0.873,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is not difficult to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\cdot \\right\\| _ { m , n }"
+            },
+            {
+              "type": "text",
+              "content": " is a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { S } } . ~ \\mathrm { A l s o } ,   { \\mathcal { S } }"
+            },
+            {
+              "type": "text",
+              "content": " with all of these seminorms is a Fréchet space (Exercise 2). The space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " is sometimes called the Schwartz space after Laurent Schwartz."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.615,
+            0.872,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.5. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p \\leqslant \\infty, \\mathcal{S} \\subseteq L^{p}(\\mathbb{R}). If   1 \\leqslant p < \\infty, \\mathcal{S}"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { p } ( \\mathbb { R } ) ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " is weak-star dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mathbb { R } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.66,
+            0.83,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. We already have that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } \\subseteq L ^ { \\infty } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in \\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.246,
+            0.69,
+            0.684,
+            0.737
+          ],
+          "image_path": "images/page_350_equation_14.jpg",
+          "content": "\\int _ { - \\infty } ^ { \\infty } | \\phi | ^ { p } d x = \\int _ { - \\infty } ^ { \\infty } ( 1 + x ^ { 2 } ) ^ { - p } ( 1 + x ^ { 2 } ) ^ { p } | \\phi | ^ { p } d x"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.361,
+            0.742,
+            0.733,
+            0.787
+          ],
+          "image_path": "images/page_350_equation_15.jpg",
+          "content": "\\leqslant \\| ( 1 + x ^ { 2 } ) ^ { p } | \\phi | ^ { p } \\| _ { \\infty } \\int _ { - \\infty } ^ { \\infty } ( 1 + x ^ { 2 } ) ^ { - p } d x ."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.793,
+            0.367,
+            0.812
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 + x ^ { 2 } ) ^ { p } \\geqslant 1 + x ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.356,
+            0.821,
+            0.663,
+            0.865
+          ],
+          "image_path": "images/page_350_equation_17.jpg",
+          "content": "\\begin{align*}\\| \\phi \\|_p \\leqslant \\pi^{1/p} \\| (1 + x^2) \\phi \\|_\\infty \\\\\\leqslant \\pi^{1/p} [ \\| \\phi \\|_{0,0} + \\| \\phi \\|_{2,0} ].\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.871,
+            0.695,
+            0.891
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { c } ^ { ( \\infty ) } ( \\mathbb { R } ) \\subseteq { \\mathcal { S } }"
+            },
+            {
+              "type": "text",
+              "content": " , the density statements are immediate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.124,
+            0.907,
+            0.871,
+            0.928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.6. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 1 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " , the Fourier transform of f is the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f }"
+            },
+            {
+              "type": "text",
+              "content": " defined"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 351,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.548,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Fourier Transform and Differentiation"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.057,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "337"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.102,
+            0.161,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.363,
+            0.12,
+            0.625,
+            0.169
+          ],
+          "image_path": "images/page_351_equation_3.jpg",
+          "content": "\\hat { f } ( x ) = \\frac { 1 } { \\sqrt { 2 \\pi } } \\int _ { \\mathbb { R } } f ( t ) e ^ { - i x t } d t."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.175,
+            0.581,
+            0.195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 1 } ( \\mathbb { R } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , this integral is well defined."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.212,
+            0.87,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The interested reader may want to peruse "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\S \\mathbf { V } \\Pi . 9 ,"
+            },
+            {
+              "type": "text",
+              "content": " where the Fourier transform is presented in the more general context of locally compact abelian groups. That section will not be assumed here."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.268,
+            0.698,
+            0.288
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ,   g   \\in   L ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , then the convolution of f and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.322,
+            0.294,
+            0.667,
+            0.34
+          ],
+          "image_path": "images/page_351_equation_7.jpg",
+          "content": "f * g(x) = (2\\pi)^{-1/2} \\int_{\\mathbb{R}} f(x-t)g(t)dt,"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.346,
+            0.869,
+            0.405
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\star g \\| _ { 1 } \\leqslant \\| f \\| _ { 1 } \\| g \\| _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " if the norm of a function f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " is defined as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| _ { 1 } \\equiv ( 2 \\pi ) ^ { - 1 / 2 } \\int | f ( x ) | d x"
+            },
+            {
+              "type": "text",
+              "content": " . It is also true that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { p } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f * g \\in L ^ { p } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\cdot g \\| _ { p } \\leqslant \\| f \\| _ { p } \\| g \\| _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " (see Exercise 4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.421,
+            0.87,
+            0.46
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.7. Theorem. (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If \\in L^{1}(\\mathbb{R}),"
+            },
+            {
+              "type": "text",
+              "content": " then f is a continuous function on R that vanishes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "at \\pm \\infty. Also, \\| \\hat{f} \\|_{\\infty} \\leqslant \\| f \\|_{1}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.46,
+            0.484,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\phi \\in { \\mathcal { S } } ,   { \\hat { \\phi } } \\in { \\mathcal { S } }"
+            },
+            {
+              "type": "text",
+              "content": " . Also for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m , n \\geqslant 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.499,
+            0.165,
+            0.516
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.8"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.324,
+            0.485,
+            0.672,
+            0.53
+          ],
+          "image_path": "images/page_351_equation_12.jpg",
+          "content": "(ix)^m \\left( \\frac{d}{dx} \\right) \\hat{\\phi} = \\left[ \\left( \\frac{d}{dx} \\right)^m \\left( (-ix)^n \\phi \\right) \\right]^n."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.537,
+            0.862,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g { \\in } L ^ { 1 } ( \\mathbb { R } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( f * g ) ^ { \\wedge } = { \\hat { f } } { \\hat { g } } ."
+            },
+            {
+              "type": "text",
+              "content": " If f and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in { \\mathcal { S } } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f * g \\in { \\mathcal { P } } ."
+            },
+            {
+              "type": "text",
+              "content": " (Note: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\hat { \\mathbf { \\Sigma } } ] ^ { \\hat { \\mathbf { \\Sigma } } } = t h e"
+            },
+            {
+              "type": "text",
+              "content": " Fourier transform of the function defined in the brackets.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.582,
+            0.871,
+            0.692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. (a) The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous is an easy consequence of Lebesgue's Dominated Convergence Theorem; it is clear that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\hat { f } \\| _ { \\infty } \\leqslant \\| f \\| _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . For the other part of (a), let f = the characteristic function of the interval "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a , b )"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f } ( x ) = i ( 2 \\pi ) ^ { - 1 / 2 } x ^ { - 1 } \\left[ e ^ { - i x b } - e ^ { - i x a } \\right] \\rightarrow 0 \\text { as } | x | \\rightarrow \\infty \\text {. So } \\hat { f } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " vanishes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { a t } \\pm \\infty"
+            },
+            {
+              "type": "text",
+              "content": " if f is a linear combination of such characteristic functions. The result for a general f follows by approximation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.691,
+            0.871,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) It is convenient to introduce the notation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D \\phi = \\phi ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D ^ { n } \\phi = \\phi ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " Also in this proof, as in many others of this section, x will be used to denote the function whose value at t is t and it will also be used occasionally to denote the independent variable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.763,
+            0.871,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in \\mathcal { S }"
+            },
+            {
+              "type": "text",
+              "content": " , then differentiation under the integral sign (Why is this justified?) gives"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.319,
+            0.806,
+            0.677,
+            0.875
+          ],
+          "image_path": "images/page_351_equation_17.jpg",
+          "content": "\\begin{aligned} (D\\hat{\\phi})(y) &= \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} (-it)e^{-it} \\phi(t)dt \\\\&= [(-ix)\\phi]^{\\hat{}}(y).\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.127,
+            0.883,
+            0.474,
+            0.903
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By induction we get that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\geqslant   0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.128,
+            0.911,
+            0.164,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.9"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.404,
+            0.909,
+            0.595,
+            0.931
+          ],
+          "image_path": "images/page_351_equation_20.jpg",
+          "content": "D ^ { n } \\hat { \\phi } = \\left[ ( - i x ) ^ { n } \\phi \\right] ^ { \\star } ."
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

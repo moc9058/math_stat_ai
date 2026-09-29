@@ -1,0 +1,563 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": null,
+      "authors": [],
+      "subject": null,
+      "keywords": [],
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "identifiers": [],
+      "publisher": null,
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0",
+  "schema": "docvortex.model",
+  "pages": [
+    [
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.099,
+          0.286,
+          0.12
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.102,
+              0.284,
+              0.118
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "CHAPTER I"
+          }
+        ]
+      },
+      {
+        "type": "doc_title",
+        "bbox": [
+          0.124,
+          0.134,
+          0.387,
+          0.165
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.125,
+              0.133,
+              0.388,
+              0.165
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Hilbert Spaces"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.427,
+          0.871,
+          0.575
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.427,
+              0.866,
+              0.444
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.447,
+              0.866,
+              0.463
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.466,
+              0.867,
+              0.48
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.484,
+              0.864,
+              0.498
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.502,
+              0.867,
+              0.518
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.521,
+              0.867,
+              0.535
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.539,
+              0.865,
+              0.553
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.558,
+              0.841,
+              0.572
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "A Hilbert space is the abstraction of the finite-dimensional Euclidean spaces of geometry. Its properties are very regular and contain few surprises, though the presence of an infinity of dimensions guarantees a certain amount of surprise. Historically, it was the properties of Hilbert spaces that guided mathematicians when they began to generalize. Some of the properties and results seen in this chapter and the next will be encountered in more general settings later in this book, or we shall see results that come close to these but fail to achieve the full power possible in the setting of Hilbert space."
+          }
+        ]
+      },
+      {
+        "type": "paragraph_title",
+        "bbox": [
+          0.124,
+          0.619,
+          0.695,
+          0.644
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.62,
+              0.691,
+              0.643
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "§1. Elementary Properties and Examples"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.659,
+          0.869,
+          0.696
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.131,
+              0.662,
+              0.866,
+              0.676
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.679,
+              0.207,
+              0.694
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Throughout this book F will denote either the real field, R, or the complex field, C."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.713,
+          0.871,
+          0.769
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.13,
+              0.714,
+              0.871,
+              0.731
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.731,
+              0.869,
+              0.75
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.752,
+              0.349,
+              0.767
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "1.1. Definition. If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is a vector space over "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbb { F } ,"
+          },
+          {
+            "type": "text",
+            "content": " a semi-inner product on "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " is a function u: "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X } \\times \\mathcal { X }   \\rightarrow   \\mathbb { F }"
+          },
+          {
+            "type": "text",
+            "content": " such that for all "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha , \\beta"
+          },
+          {
+            "type": "text",
+            "content": " in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbb { F } ,"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "x , y , z"
+          },
+          {
+            "type": "text",
+            "content": " in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathcal { X }"
+          },
+          {
+            "type": "text",
+            "content": " , the following are satisfied:"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.778,
+          0.483,
+          0.796
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.125,
+              0.777,
+              0.479,
+              0.799
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(a) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u ( \\alpha x + \\beta y , z ) = \\alpha u ( x , z ) + \\beta u ( y , z ) ,"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.797,
+          0.483,
+          0.815
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.125,
+              0.794,
+              0.48,
+              0.818
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(b) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u ( x , \\alpha y + \\beta z ) = \\bar { \\alpha } u ( x , y ) + \\bar { \\beta } u ( x , z ) ,"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.129,
+          0.816,
+          0.272,
+          0.833
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.128,
+              0.813,
+              0.268,
+              0.836
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(c) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u ( x , x ) \\geqslant 0 ,"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.836,
+          0.314,
+          0.855
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.124,
+              0.835,
+              0.31,
+              0.858
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(d) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u ( x , y ) = u ( y , x ) ."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.863,
+          0.871,
+          0.919
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.159,
+              0.864,
+              0.872,
+              0.881
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.882,
+              0.866,
+              0.898
+            ]
+          },
+          {
+            "bbox": [
+              0.159,
+              0.9,
+              0.865,
+              0.918
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Here, for α in "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { F } , { \\bar { \\alpha } } = \\alpha { \\mathrm { ~ i f ~ } } \\mathbf { F } = \\mathbf { R }"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\bar { \\alpha }"
+          },
+          {
+            "type": "text",
+            "content": " is the complex conjugate of "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha"
+          },
+          {
+            "type": "text",
+            "content": " if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { F } = \\mathbf { C } . \\mathbf { I f }   \\alpha   \\in   \\mathbf { C } ,"
+          },
+          {
+            "type": "text",
+            "content": " the statement that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha \\geqslant 0"
+          },
+          {
+            "type": "text",
+            "content": " means that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha { \\in } \\mathbb { R }"
+          },
+          {
+            "type": "text",
+            "content": " and αis non-negative. Note that if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\alpha   =   0 ,"
+          },
+          {
+            "type": "text",
+            "content": " then property (a) implies that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "u(0,y)=u(\\alpha \\cdot 0,y)="
+          }
+        ]
+      }
+    ]
+  ],
+  "page_index_map": [
+    15
+  ]
+}

@@ -1,0 +1,1552 @@
+{
+  "pages": [
+    {
+      "page_idx": 96,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.057,
+            0.157,
+            0.071
+          ],
+          "content": "82"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.693,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": "III. Banach Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.101,
+            0.87,
+            0.172
+          ],
+          "content": "10. Let $P = \\{ p | \\partial \\mathbb { D } : p = \\mathrm { a n }$ analytic polynomial} and consider P as a manifold in $C ( \\partial \\mathbf { D } )$ .Show that if μ is a real-valued measure on ∂D such that $\\int   p   d \\mu = 0$ for every p in $P ,$ then $\\mu   =   0$ Give an example of a complex-valued measure $\\mu$ such that $\\mu \\neq 0$ $\\int p   d \\mu = 0$ for every $p$ in $P .$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.223,
+            0.632,
+            0.248
+          ],
+          "level": 2,
+          "content": "$\\S 7 ^ { * }$ . An Application: Banach Limits"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.263,
+            0.871,
+            0.359
+          ],
+          "content": "If $x = \\{ x ( n ) \\} \\in c ,$ define $L(x) = \\lim_{} x(n)$ . Then L is a linear functional, $\\| L \\| = 1$ and, if for x in $c ,   x ^ { \\prime }$ is defined by $x ^ { \\prime } = ( x ( 2 ) , x ( 3 ) , \\ldots ) ,$ then $L ( x ) = L ( x ^ { \\prime } )$ . Also, if $x \\geqslant 0$ [that is, $x ( n ) \\geqslant 0$ for all n], then $L ( x ) \\geqslant 0 .$ In this section it will be shown that these properties of the limit functional can be extended to $l ^ { \\infty }$ The proof uses the Hahn-Banach Theorem."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.375,
+            0.732,
+            0.394
+          ],
+          "level": 2,
+          "content": "7.1. Theorem. There is a linear functional L: $l ^ { \\infty }   \\rightarrow   \\mathbf { F }$ such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.403,
+            0.255,
+            0.421
+          ],
+          "content": "(a) $\\| L \\| = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.422,
+            0.39,
+            0.439
+          ],
+          "content": "(b) $If x \\in c,   L(x) = \\lim_{n \\to \\infty} x(n).$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.44,
+            0.599,
+            0.458
+          ],
+          "content": "(c) $\\scriptstyle { \\boldsymbol { I } } { \\boldsymbol { f } } \\; x \\in { \\boldsymbol { l } } ^ { \\infty }$ and $x ( n ) \\geqslant 0$ for all n, then $L ( x ) \\geqslant 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.458,
+            0.643,
+            0.477
+          ],
+          "content": "(d) If $x { \\in } l ^ { \\infty }$ and $x ^ { \\prime }   \\equiv   ( x ( 2 ) , x ( 3 ) , \\ldots ) ,$ then $L ( x ) = L ( x ^ { \\prime } ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.485,
+            0.87,
+            0.559
+          ],
+          "content": "PrOOF. First assume $\\mathbf { F }   =   \\mathbf { R } ;$ that is, $l ^ { \\infty } = l _ { \\mathbb { R } } ^ { \\infty } . \\operatorname { \\bf I f } x { \\in } l ^ { \\infty }$ , let $x ^ { \\prime }$ denote the element of $l ^ { \\infty }$ defined in part (d) above. Put $\\mathcal { M } = \\left\\{ x - x ^ { \\prime } ; x { \\in } l ^ { \\infty } \\right\\}$ . Note that $(x + \\alpha y)' =$ $x ^ { \\prime } + \\alpha y ^ { \\prime }$ for any $x , y$ in $l ^ { \\infty }$ and αin $\\mathbb { R } ;$ hence $\\mathcal { M }$ is a linear manifold in $l ^ { \\infty }$ Let 1 denote the sequence $( 1 , 1 , 1 , \\ldots )$ in $l ^ { \\infty }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.575,
+            0.387,
+            0.593
+          ],
+          "level": 2,
+          "content": "7.2. Claim. dist $( 1 , \\mathcal { M } ) = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.611,
+            0.871,
+            0.685
+          ],
+          "content": "Since $0 \\in \\mathcal { M } ,$ dist $( 1 , \\mathcal { M } ) \\leqslant 1$ . Let $x { \\in } l ^ { \\infty } ,$ if $(x - x^{\\prime})(n) \\leqslant 0$ for any n, then $\\| 1 - (x - x') \\|_{\\infty} \\geqslant |1 - (x(n) - x'(n))| \\geqslant 1.$ ppose $0 \\leqslant (x - x^{\\prime})(n) = x(n) - x^{\\prime}(n) =$ $x ( n ) - x ( n + 1 )$ for all n. Thus $x(n + 1) \\leq x(n)$ for all n. Since x∈l∞, α = lim x(n) exists. Thus lim $( x - x ^ { \\prime } ) ( n ) = 0$ and $\\| 1 - ( x - x ^ { \\prime } ) \\| _ { \\infty } \\geqslant 1$ . This proves the claim."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.684,
+            0.869,
+            0.741
+          ],
+          "content": "By Corollary 6.8 there is a linear functional $L \\colon l ^ { \\infty }   \\to   \\mathbb { R }$ such that $\\| L \\| = 1$ $L ( 1 )   =   1$ , and $L ( \\mathcal { M } ) = 0 .$ So this functional satisfies (a) and (d) of the theorem. To prove (b), we establish the following."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.758,
+            0.35,
+            0.776
+          ],
+          "level": 2,
+          "content": "7.3. Claim. $c _ { 0 } \\subseteq \\ker L$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.793,
+            0.871,
+            0.884
+          ],
+          "content": "If $x { \\in } c _ { 0 } ,$ let $x ^ { ( 1 ) } = x ^ { \\prime }$ and let $x^{(n+1)} = (x^{(n)})'$ for $n \\geqslant 1$ . Note that $x^{(n+1)} - x = \\left[ x^{(n+1)} - x^{(n)} \\right] + \\cdots + \\left[ x^{\\prime} - x \\right] \\in \\mathcal{M}$ Hence $L ( x ) = L ( x ^ { ( n ) } )$ for all $n \\geqslant 1$ . If $\\varepsilon   >   0 ,$ then let n be such that $| x ( m ) | < \\varepsilon$ for $m > n$ Hence $| L ( x ) | = | L ( x ^ { ( n ) } ) | \\leqslant \\| x ^ { ( n ) } \\| _ { \\infty } = \\sup \\{ | x ( m ) | : m > n \\} < \\varepsilon$ Thus x∈ker L. Condition (b) is now clear."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.885,
+            0.871,
+            0.923
+          ],
+          "content": "To show (c), suppose there is an x in $l ^ { \\infty }$ such that $x ( n ) \\geqslant 0$ for all n and $L ( x )   <   0$ If x is replaced by $x / \\| x \\| _ { \\infty } ,$ it remains true that $L ( x )   <   0$ and it is"
+        }
+      ]
+    },
+    {
+      "page_idx": 97,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.127,
+            0.056,
+            0.467,
+            0.073
+          ],
+          "content": "§8. An Application: Runge's Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.84,
+            0.057,
+            0.866,
+            0.071
+          ],
+          "content": "83"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.865,
+            0.136
+          ],
+          "continues_prev": true,
+          "content": "also true that $1 \\geqslant x ( n ) \\geqslant 0$ for all n. But then $\\|   1 - x   \\| _ { \\infty } \\leqslant 1$ and $L ( 1 - x ) =$ $1 - L ( x ) > 1$ , contradicting (a). Thus (c) holds."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.137,
+            0.869,
+            0.21
+          ],
+          "content": "Now assume that $\\mathbf { F } = \\mathbf { C }$ Let $L _ { 1 }$ be the functional obtained on $l _ { \\mathbb { R } } ^ { \\infty } . \\mathrm { ~ I f ~ } x { \\in } l _ { \\mathbb { C } } ^ { \\infty } .$ then $x = x _ { 1 } + i x _ { 2 }$ where $x _ { 1 } , x _ { 2 } { \\in } l _ { \\mathbb { R } } ^ { \\infty }$ Define $L ( x ) = L _ { 1 } ( x _ { 1 } ) + i L _ { 1 } ( x _ { 2 } )$ . It is left as an exercise to show that L is C-linear. It's clear that (b), (c), and (d) hold. It remains to show that $\\| L \\| = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.21,
+            0.87,
+            0.377
+          ],
+          "content": "Let $E _ { 1 } , \\ldots , E _ { m }$ be pairwise disjoint subsets of N and let $\\alpha _ { 1 } , \\ldots , \\alpha _ { m } { \\in } { \\pmb { \\mathbb { C } } }$ with $| \\alpha _ { k } | \\leqslant 1$ for all k. Put $x = \\sum_{k = 1}^{m} \\alpha_{k} \\chi_{E_{k}};$ sO $x { \\in } l ^ { \\infty }$ and $\\| x \\| _ { \\infty } \\leqslant 1$ Then $L(x) = \\sum_{k} \\alpha_{k} L(\\chi_{E_{k}}) = \\sum_{k} \\alpha_{k} L_{1}(\\chi_{E_{k}})$ But $L _ { 1 } ( \\chi _ { E _ { k } } ) \\geqslant 0$ and $\\begin{array} { r } { \\sum _ { k } L _ { 1 } ( \\chi _ { E _ { k } } ) = L _ { 1 } ( \\chi _ { E } ) , } \\end{array}$ where $E = { \\bigcup } _ { k } E _ { k }$ . Hence $\\begin{array} { r } { \\sum _ { k } L _ { 1 } ( \\chi _ { E _ { k } } ) \\leqslant 1 } \\end{array}$ . Because $| \\alpha _ { k } | \\leqslant 1$ for all k, $| L ( x ) | \\leqslant 1$ If x is an arbitrary element of $l ^ { \\infty } ,   \\|   x   \\| _ { \\infty } \\leqslant 1$ , then there is a sequence $\\{ x _ { n } \\}$ of elements of $l ^ { \\infty }$ such that $\\| x_n - x \\|_{\\infty} \\to 0, \\| x_n \\|_{\\infty} \\leqslant 1$ , and each $x _ { n }$ is the type of element of $l ^ { \\infty }$ just discussed that takes on only a finite number of values (Exercise 3). Clearly, $\\| L \\| \\leqslant 2 .$ sO $L ( x _ { n } ) \\to L ( x )$ . Since $| L ( x _ { n } ) | \\leqslant 1$ for all $n ,$ $| L ( x ) | \\leqslant 1$ . Hence $\\| L \\| \\leqslant 1$ . Since $L ( 1 ) = 1 ,   \\| L \\| = 1$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.393,
+            0.87,
+            0.451
+          ],
+          "content": "A linear functional of the type described in Theorem 7.1 is called a Banach limit. They are useful for a variety of things, among which is the construction of representations of the algebra of bounded operators on a Hilbert space."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.467,
+            0.233,
+            0.484
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.486,
+            0.867,
+            0.505
+          ],
+          "content": "1. If Lis a Banach limit, show that there are x and y in $l ^ { \\infty }$ such that $L(xy) \\neq L(x)L(y)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.512,
+            0.87,
+            0.58
+          ],
+          "content": "2. Let X be a set and Ω a σ-algebra of subsets of X. Suppose $\\mu$ is a complex-valued countably additive measure defined on Ω such that $\\|   \\mu   \\| = \\mu ( X ) < \\infty$ . Show that $\\mu ( \\Delta ) \\geqslant 0$ for every ∆ in Ω. (Though it is difficult to see at this moment, this fact is related to the proof of (c) in Theorem 7.1 for the complex case.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.587,
+            0.87,
+            0.623
+          ],
+          "content": "3. Show that if $x { \\in } l ^ { \\infty } , \\; \\left\\|   x   \\right\\| _ { \\infty } \\leqslant 1$ , then there is a sequence $\\{ x _ { n } \\} ,   x _ { n }$ in $l ^ { \\infty }$ such that $x _ { n } \\parallel _ { \\infty } \\leqslant 1 , \\| x _ { n } - x \\| _ { \\infty } \\to 0 ,$ and each $x _ { n }$ takes on only a finite number of values."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.675,
+            0.669,
+            0.7
+          ],
+          "level": 2,
+          "content": "§8\\*. An Application: Runge's Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.721,
+            0.655,
+            0.741
+          ],
+          "content": "The symbol $\\mathbf { C } _ { \\infty }$ denotes the extended complex plane."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.757,
+            0.871,
+            0.833
+          ],
+          "content": "8.1. Runge's Theorem. Let K be a compact subset of C and let E be a subset $of \\mathbf { \\bar { C } } _ { \\propto } \\backslash K$ that meets each component of $\\mathbf { ^ { \\circ } \\mathbb { C } } _ { \\infty } \\backslash K$ If f is analytic in a neighborhood of K, then there are rational functions $f _ { n }$ whose only poles lie in E such that $f _ { n }   \\rightarrow   f$ uniformly on K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.849,
+            0.873,
+            0.924
+          ],
+          "content": "The main tool in proving Runge's Theorem is Theorem 6.13. (A proof that does not use functional analysis can be found on p. 189 of Conway [1978].) To do this, let $R ( K , E )$ be the closure in the space C(K) of the rational functions with poles in E. By (6.13) and the Riesz Representation Theorem,"
+        }
+      ]
+    },
+    {
+      "page_idx": 98,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.057,
+            0.161,
+            0.071
+          ],
+          "content": "84"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.695,
+            0.056,
+            0.871,
+            0.072
+          ],
+          "content": "III. Banach Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "continues_prev": true,
+          "content": "it suffices to show that if $\\mu { \\in } M ( K )$ and $\\int   g   d \\mu = 0$ for each $g$ in $R ( K , E )$ , then $\\int f d \\mu = 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.137,
+            0.871,
+            0.175
+          ],
+          "content": "Let $R   >   0$ and let λ be area measure. Pick $\\rho   >   0$ such that $B ( 0 ; R ) \\subseteq B ( z ; \\rho )$ for every z in K. Then for z in K,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.277,
+            0.181,
+            0.719,
+            0.276
+          ],
+          "content": "\\begin{align*}\\int_{B(0;R)} \\left| z - w \\right|^{-1}   d\\lambda(w) & \\leqslant \\int_{B(z;\\rho)} \\left| z - w \\right|^{-1}   d\\lambda(w) \\\\& = \\int_{0}^{2\\pi} \\int_{0}^{\\rho} dr   d\\theta = 2\\pi\\rho.\\end{align*}",
+          "image_source": "images/page_98_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.279,
+            0.482,
+            0.299
+          ],
+          "content": "If $\\mu { \\in } M ( K ) ,$ define $\\tilde { \\mu } \\colon \\mathbb { C }   \\to   [ 0 , \\infty ]$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.416,
+            0.305,
+            0.582,
+            0.349
+          ],
+          "content": "\\tilde { \\mu } ( w ) = \\int \\frac { d | \\mu | ( z ) } { | z - w | }",
+          "image_source": "images/page_98_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.357,
+            0.871,
+            0.396
+          ],
+          "content": "when the integral is finite, and $\\tilde { \\mu } ( w ) = \\infty$ otherwise. The inequality above implies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.297,
+            0.401,
+            0.712,
+            0.524
+          ],
+          "content": "\\begin{align*}\\int_{B(0;R)} \\tilde{\\mu}(w)d\\lambda(w) &= \\int_{B(0;R)} \\int_{K} \\frac{d|\\mu|(z)}{|z-w|}d\\lambda(w) \\\\&= \\int_{K} \\int_{B(0;R)} \\frac{d\\lambda(w)}{|z-w|}d|\\mu|(z) \\\\&\\leqslant 2\\pi\\rho\\left\\| \\mu \\right\\|.\\end{align*}",
+          "image_source": "images/page_98_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.532,
+            0.365,
+            0.551
+          ],
+          "content": "Thus $\\tilde { \\mu } ( w ) < \\infty$ a.e. [λ]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.563,
+            0.428,
+            0.582
+          ],
+          "content": "8.2. Lemma. If $\\mu { \\in } M ( K ) .$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.588,
+            0.575,
+            0.632
+          ],
+          "content": "\\hat { \\mu } ( w ) = \\int \\frac { d \\mu ( z ) } { z - w }",
+          "image_source": "images/page_98_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.639,
+            0.812,
+            0.659
+          ],
+          "content": "is in $L ^ { 1 } ( B ( 0 ; R ) , \\lambda )$ for any $R > 0 ,   \\hat { \\mu }$ is analytic on $\\mathbf { C } _ { \\infty } \\backslash K$ , and $\\hat { \\mu } ( \\infty )   =   0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.675,
+            0.871,
+            0.73
+          ],
+          "content": "ProoF. The first statement follows from what came before the statement of this lemma. To show that $\\hat { \\mu }$ is analytic on $\\mathbf { C } _ { \\infty } \\backslash K$ , let w, $w _ { 0 } { \\in } { \\mathbb { C } } \\backslash K$ and note that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.327,
+            0.739,
+            0.667,
+            0.783
+          ],
+          "content": "\\frac { \\hat { \\mu } ( w ) - \\hat { \\mu } ( w _ { 0 } ) } { w - w _ { 0 } } = \\int _ { K } \\frac { d \\mu ( z ) } { ( z - w ) ( z - w _ { 0 } ) } .",
+          "image_source": "images/page_98_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.789,
+            0.872,
+            0.828
+          ],
+          "content": "As $w \\to w _ { 0 } ,   \\left[ ( z - w ) ( z - w _ { 0 } ) \\right] ^ { - 1 } \\to ( z - w _ { 0 } ) ^ { - 2 }$ uniformly for z in $K ,$ so that $\\hat { \\mu }$ has a derivative at $w _ { 0 }$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.835,
+            0.638,
+            0.878
+          ],
+          "content": "\\frac { d \\hat { \\mu } } { d w } ( w _ { 0 } ) = \\int _ { K } ( z - w _ { 0 } ) ^ { - 2 } d \\mu ( z ) .",
+          "image_source": "images/page_98_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.885,
+            0.871,
+            0.923
+          ],
+          "content": "So $\\hat { \\mu }$ is analytic on $\\mathbf { C } \\backslash K .$ To show that it is analytic at infinity, note that $\\hat { \\mu } ( z )   \\rightarrow   0$ as $z \\rightarrow \\infty$ , so infinity is a removable singularity."
+        }
+      ]
+    },
+    {
+      "page_idx": 99,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.13,
+            0.056,
+            0.471,
+            0.073
+          ],
+          "content": "§8. An Application: Runge's Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": "85"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.1,
+            0.586,
+            0.119
+          ],
+          "content": "It is not difficult to see that for $w _ { 0 }$ in $\\mathbf { C } \\backslash K$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.126,
+            0.677,
+            0.17
+          ],
+          "content": "\\left( \\frac{d}{dw} \\right)^n \\hat{\\mu}(w_0) = n! \\int (z - w_0)^{-n-1} d\\mu(z).",
+          "image_source": "images/page_99_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.178,
+            0.867,
+            0.198
+          ],
+          "content": "Also, we can easily find the power series expansion of $\\hat { \\mu }$ at infinity. Indeed,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.274,
+            0.204,
+            0.719,
+            0.248
+          ],
+          "content": "\\hat { \\mu } ( w ) = \\int \\frac { 1 } { z - w } d \\mu ( z ) = - \\frac { 1 } { w } \\int \\left( 1 - \\frac { z } { w } \\right) ^ { - 1 } d \\mu ( z ) .",
+          "image_source": "images/page_99_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.257,
+            0.799,
+            0.276
+          ],
+          "content": "Choose w near enough to infinity that $| z / w | < 1$ for all $z$ in K. Then"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.345,
+            0.166,
+            0.362
+          ],
+          "level": 2,
+          "content": "8.4"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.283,
+            0.636,
+            0.377
+          ],
+          "content": "\\begin{align*}\\hat{\\mu}(w) = & - \\frac{1}{w} \\sum_{n = 0}^{\\infty} \\int \\left( \\frac{z}{w} \\right)^n d\\mu(z) \\\\= & - \\sum_{n = 0}^{\\infty} \\frac{a_n}{w^{n + 1}},\\end{align*}",
+          "image_source": "images/page_99_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.375,
+            0.324,
+            0.395
+          ],
+          "content": "where $a _ { n } = \\int z ^ { n } d \\mu ( z ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.394,
+            0.869,
+            0.487
+          ],
+          "content": "Now assume $\\mu { \\in } M ( K )$ and $\\int   g   d \\mu = 0$ for every rational function $g$ with poles in E. Let U be a component of $\\mathbf { C } _ { \\infty } \\backslash K ,$ and let $w _ { 0 } { \\in } E \\cap U$ . If $w _ { 0 } \\neq \\infty$ then the hypothesis and (8.3) imply that each derivative of $\\hat { \\mu }$ at $w _ { 0 }$ vanishes. Hence $\\hat { \\mu } \\equiv 0$ on U. If $w _ { 0 } = \\infty$ , then (8.4) implies $\\hat { \\mu } \\equiv 0$ on U. Thus $\\hat { \\mu } \\equiv 0$ on $\\mathbb { C } _ { \\infty } \\backslash K$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.487,
+            0.869,
+            0.524
+          ],
+          "content": "If f is analytic on an open set G containing K, let $\\gamma _ { 1 } , \\ldots , \\gamma _ { n }$ be straight-line segments in $G \\backslash K$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.527,
+            0.627,
+            0.571
+          ],
+          "content": "f(z) = \\sum_{k = 1}^{n} \\frac{1}{2\\pi i} \\int_{\\gamma_{k}} \\frac{f(w)}{w - z} dw",
+          "image_source": "images/page_99_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.577,
+            0.636,
+            0.597
+          ],
+          "content": "for all $z$ in K. (See p. 195 of Conway [1978].) Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.603,
+            0.702,
+            0.697
+          ],
+          "content": "\\begin{align*}\\int_{K} f(z) d\\mu(z) &= \\sum_{k=1}^{n} \\frac{1}{2\\pi i} \\int_{K} \\int_{\\gamma_k} \\frac{f(w)}{w-z} dw d\\mu(z) \\\\&= - \\sum_{k=1}^{n} \\frac{1}{2\\pi i} \\int_{\\gamma_k} f(w) \\hat{\\mu}(w) dw\\end{align*}",
+          "image_source": "images/page_99_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.703,
+            0.868,
+            0.741
+          ],
+          "content": "by Fubini's Theorem. But $\\hat { \\mu } ( w ) = 0$ on $\\gamma _ { k } ~ ( \\in \\pmb { \\mathbb { C } } \\backslash K )$ so $\\int f   d \\mu = 0$ By (6.13), $f   \\in   R ( K , E )$ . This proves Runge's Theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.755,
+            0.87,
+            0.811
+          ],
+          "content": "8.5. Corollary. If K is compact and $\\mathbf { C } \\backslash K$ is connected and if f is analytic in a neighborhood of K, then there is a sequence of polynomials that converges to f uniformly on K."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.828,
+            0.231,
+            0.845
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.848,
+            0.868,
+            0.883
+          ],
+          "content": "1. Let $\\mu$ be a compactly supported measure on C that is boundedly absolutely continuous with respect to area measure. Show that $\\hat { \\mu }$ is continuous on $\\mathbf { C } _ { \\infty } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.89,
+            0.869,
+            0.925
+          ],
+          "content": "2. Let m = Lebesgue measure on [0, 1]. Show that m is not continuous at any point of [0, 1]."
+        }
+      ]
+    },
+    {
+      "page_idx": 100,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.159,
+            0.071
+          ],
+          "content": "86"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.694,
+            0.056,
+            0.87,
+            0.072
+          ],
+          "content": "III. Banach Spaces"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.097,
+            0.746,
+            0.122
+          ],
+          "level": 2,
+          "content": "$\\S 9 ^ { * }$ . An Application: Ordered Vector Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.144,
+            0.69,
+            0.162
+          ],
+          "content": "In this section only vector spaces over R are considered."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.163,
+            0.872,
+            0.256
+          ],
+          "content": "There are numerous spaces in which there is a notion of $\\leqslant$ in addition to the vector space structure. The LP spaces and $C ( X )$ are some that spring to mind. The concept of an ordered vector space is an attempt to study such spaces in an abstract setting. The first step is to abstract the notion of the positive elements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.276,
+            0.871,
+            0.314
+          ],
+          "content": "9.1. Definition. An ordered vector space is a pair $( \\mathcal { X } , \\leqslant )$ where $\\mathcal { X }$ is a vector space over IR and $\\leqslant$ is a relation on $\\mathcal { X }$ satisfying"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.322,
+            0.317,
+            0.34
+          ],
+          "content": "(a) $x \\leqslant x$ for all x;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.341,
+            0.461,
+            0.359
+          ],
+          "content": "(b) if $x \\leqslant y$ and $y \\leqslant z ,$ then $x \\leqslant z ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.36,
+            0.532,
+            0.377
+          ],
+          "content": "(c) if $x \\leqslant y$ and $z \\in \\mathcal { X }$ then $x + z \\leqslant y + z;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.378,
+            0.522,
+            0.397
+          ],
+          "content": "(d) if $x \\leqslant y$ and $\\alpha { \\in } [ 0 , \\infty )$ , then $\\alpha x \\leqslant \\alpha y .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.406,
+            0.871,
+            0.443
+          ],
+          "content": "Note that it is not assumed that $\\leqslant$ is antisymmetric. That is, it is not assumed that if $x \\leqslant y$ and $y \\leqslant x ,$ then $x = y .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.46,
+            0.872,
+            0.496
+          ],
+          "content": "9.2. Definition. If X is a real vector space, a wedge is a nonempty subset P of $\\mathcal { X }$ such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.506,
+            0.409,
+            0.524
+          ],
+          "content": "(a) if $x , y { \\in } P ,$ then $x + y { \\in } P ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.525,
+            0.491,
+            0.543
+          ],
+          "content": "(b) if $x { \\in } P$ and $\\alpha \\in [ 0 , \\infty ) .$ , then ${ \\pmb { \\alpha } } { \\pmb { x } } { \\in } { \\pmb { P } } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.563,
+            0.871,
+            0.636
+          ],
+          "content": "9.3. Proposition. (a) $\\mathit { I f } ( \\mathcal { X } , \\leqslant )$ is an ordered vector space and $P = \\{ x \\in \\mathcal { X } : x \\geqslant 0 \\}$ then P is a wedge. (b) If P is a wedge in the real vector space $\\mathcal { X }$ and $\\leqslant$ is defined on $\\mathcal { X }$ by declaring $x \\leqslant y$ if and only if $y - x { \\in } P ,$ then $( \\mathcal { X } , \\leqslant )$ is an ordered vector space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.653,
+            0.294,
+            0.67
+          ],
+          "content": "PROOF. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.689,
+            0.87,
+            0.726
+          ],
+          "content": "If $( \\mathcal { X } , \\leqslant )$ is an ordered vector space, $P = \\{ x \\in \\mathcal { X } : x \\geqslant 0 \\}$ is called the wedge of positive elements. The next result is also left as an exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.748,
+            0.873,
+            0.787
+          ],
+          "content": "9.4. Proposition. $\\mathit { I f } \\left( \\mathcal { X } , \\leqslant \\right)$ is an ordered vector space and P is the wedge of positive elements, $\\leqslant$ is antisymmetric if and only if $P \\cap ( - P ) = ( 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.808,
+            0.786,
+            0.828
+          ],
+          "content": "9.5. Definition. A cone in $\\mathcal { X }$ is a wedge P such that $P \\cap ( - P ) = ( 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.851,
+            0.871,
+            0.923
+          ],
+          "content": "9.6. Definition. If $[ \\mathcal { X } , \\leqslant )$ is an ordered vector space, a subset A of $\\mathcal { X }$ is cofinal if for every $x \\geqslant 0$ in X there is an a in A such that $a \\geqslant x$ An element e of $\\mathcal { X }$ is an order unit if for every x in $\\mathcal { X }$ there is a positive integer n such that $- n e \\leqslant x \\leqslant n e.$"
+        }
+      ]
+    },
+    {
+      "page_idx": 101,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.131,
+            0.055,
+            0.523,
+            0.073
+          ],
+          "content": "§9. An Application: Ordered Vector Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.846,
+            0.057,
+            0.871,
+            0.071
+          ],
+          "content": "87"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.176
+          ],
+          "content": "If X is a compact space ${ \\mathcal { X } } = C ( X ) ,$ , then any non-zero constant function is an order unit. $( f \\leqslant g$ if and only if $f(x) \\leqslant g(x)$ for all $x . )$ If ${ \\mathcal { X } } = C ( \\mathbb { R } )$ , all real-valued continuous functions on R, then $\\mathcal { X }$ has no order unit (Exercise 4). If e is an order unit, then $\\{ n e \\colon n \\geqslant 1 \\}$ is cofinal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.192,
+            0.871,
+            0.231
+          ],
+          "content": "9.7. Definition. If $( \\mathcal { X } , \\leqslant )$ and $( \\mathcal { Y } , \\leqslant )$ are ordered vector spaces and $T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }$ is a linear map, then Tis positive (in symbols $T \\geqslant 0 )$ if $T x \\geqslant 0$ whenever $x   \\geqslant   0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.243,
+            0.66,
+            0.263
+          ],
+          "content": "The principal result of this section is the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.28,
+            0.871,
+            0.335
+          ],
+          "content": "9.8. Theorem. Let $( \\mathcal { X } , \\leqslant )$ be an ordered vector space and let $\\pmb { y }$ be a linear manifold in $\\mathcal { X }$ that is confinal. $I f f \\colon { \\mathcal { B } }   \\to   \\mathbb { R }$ is a positive linear functional, then there is a positive linear functional $\\tilde { f } \\colon \\mathcal { X }   \\to   \\mathbb { R }$ such that $\\tilde { f } | \\mathcal { Y } = f .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.342,
+            0.871,
+            0.435
+          ],
+          "content": "PROOF. Let $P = \\{ x \\in \\mathcal { X } : x \\geqslant 0 \\}$ and put $\\mathcal { X } _ { 1 } = \\mathcal { Y } + P - P$ It is easy to see that $\\mathcal { X } _ { 1 }$ is a linear manifold in ¿. If there is a positive linear functional $g \\colon \\mathcal { X } _ { 1 }   \\to   \\mathbb { R }$ that extends $f ,$ let $\\widetilde { f }$ be any linear functional on $\\mathcal { X }$ that extends g (use a Hamel basis). $\\operatorname { I f } x \\geqslant 0 .$ then $x { \\in } P \\subseteq { \\mathcal { X } } _ { 1 }$ so that $\\tilde { f } ( x ) = g ( x ) \\geqslant 0$ Hence $\\widetilde { f }$ is positive. Thus, we may assume that $\\mathcal { X } = \\mathcal { Y } + P - P .$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.452,
+            0.448,
+            0.47
+          ],
+          "level": 2,
+          "content": "9.9. Claim. $\\mathcal { X } = \\mathcal { Y } + P = \\mathcal { Y } - P .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.484,
+            0.871,
+            0.558
+          ],
+          "content": "Let $x { \\in } { \\mathcal { X } } ;$ sO $x = y + p _ { 1 } - p _ { 2 } ,   y$ in $\\mathcal { G } ,   p _ { 1 } ,   p _ { 2 }$ in P. Since $\\mathcal { Y }$ is confinal there is a $y _ { 1 }$ in @ such that $y _ { 1 } \\geqslant p _ { 1 }$ . Hence $p_{1}=y_{1}-(y_{1}-p_{1})\\in \\mathcal{Y}-P$ Thus $x = y - p_{2} + p_{1} \\in (\\mathcal{A} - P) + (\\mathcal{A} - P) \\subseteq \\mathcal{A} - P. \\mathrm{So} \\mathcal{X} = \\mathcal{A} - P. \\mathrm{Also}, \\mathcal{X} = - \\mathcal{X} =$ $- { \\mathcal { Y } } + P = { \\mathcal { Y } } + P .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.576,
+            0.764,
+            0.595
+          ],
+          "content": "9.10. Claim. If $x { \\in } { \\mathcal { X } }$ , there are $y _ { 1 } , y _ { 2 }$ in $\\theta$ such that $y _ { 2 } \\leqslant x \\leqslant y _ { 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.61,
+            0.871,
+            0.646
+          ],
+          "content": "In fact, Claim 9.9 states that we can write $x = y _ { 1 } - p _ { 1 } = y _ { 2 } + p _ { 2 } ,   p _ { 1 } ,   p _ { 2 } \\in P$ and $y _ { 1 } ,   y _ { 2 } { \\in } { \\mathcal { Y } }$ . Thus $y _ { 2 } \\leqslant x \\leqslant y _ { 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.646,
+            0.692,
+            0.664
+          ],
+          "content": "By Claim 9.10, it is possible to define for each x in $\\mathcal { X }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.334,
+            0.673,
+            0.662,
+            0.692
+          ],
+          "content": "q ( x ) = \\operatorname* { i n f } \\left\\{ f ( y ) : y \\in { \\mathcal { Y } } { \\mathrm { ~ a n d ~ } } y \\geq x \\right\\} .",
+          "image_source": "images/page_101_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.709,
+            0.712,
+            0.727
+          ],
+          "content": "9.11. Claim. The function q is a sublinear functional on $\\mathcal { X } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.742,
+            0.552,
+            0.76
+          ],
+          "content": "The proof of (9.11) is left as an exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.76,
+            0.871,
+            0.854
+          ],
+          "content": "For y in $\\mathcal { Y } ,$ let $y _ { 1 }   \\in   \\mathcal { Y }$ such that $y _ { 1 } \\geqslant y _ { 1 }$ Because f is positive, $f ( y )   \\leqslant   f ( y _ { 1 } )$ Hence $f ( y ) \\leqslant q ( y )$ for all y in $參 .$ The Hahn-Banach Theorem implies that there is a linear functional $\\tilde { f } \\colon \\mathcal { X }   \\to   \\mathbb { R }$ such that $\\tilde { f } | \\mathcal { G } = f$ and $\\tilde { f } \\leqslant q ^ { \\prime }$ on $\\mathcal { X }$ If $x { \\in } P ,$ then $- x \\leqslant 0$ (and $0 \\in \\mathcal { Y }$ Hence $q(-x) \\leqslant f(0)$ . Thus $- { \\tilde { f } } ( x ) =$ $\\tilde { f } ( - x ) \\leqslant q ( - x ) \\leqslant 0 ,$ or $\\left[ \\widetilde { f } ( x ) \\geqslant 0 \\right.$ Therefore $\\tilde { f }$ is positive. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.87,
+            0.873,
+            0.925
+          ],
+          "content": "9.12. Corollary. Let $( \\mathcal { X } , \\leqslant )$ be an ordered vector space with an order unit e. If Y is a linear manifold in $\\mathcal { X }$ and $e \\in \\mathcal { Y }$ , then any positive linear functional defined on  has an extension to a positive linear functional defined on $\\mathcal { X }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 102,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.058,
+            0.159,
+            0.072
+          ],
+          "content": "88"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.695,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": "III. Banach Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.103,
+            0.233,
+            0.118
+          ],
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.121,
+            0.357,
+            0.138
+          ],
+          "content": "1. Prove Proposition 9.3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.147,
+            0.357,
+            0.164
+          ],
+          "content": "2. Prove Proposition 9.4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.172,
+            0.869,
+            0.207
+          ],
+          "content": "3. Show that e is an order unit for $( \\mathcal { X } , \\leqslant )$ if and only if for every x in $\\mathcal { X }$ there is a $\\delta   >   0$ such that $e \\pm t x \\geqslant 0$ for $0 \\leqslant t \\leqslant \\delta.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.216,
+            0.869,
+            0.25
+          ],
+          "content": "4. Show that $C ( \\mathbb { R } ) ,$ , the space of all continuous real-valued functions on $\\mathbf { R } ,$ has no order unit."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.259,
+            0.269,
+            0.276
+          ],
+          "content": "5. Prove (9.11)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.284,
+            0.845,
+            0.303
+          ],
+          "content": "6. Characterize the order units of $C _ { b } ( X )$ . Does $C _ { b } ( X )$ always have an order unit?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.31,
+            0.87,
+            0.345
+          ],
+          "content": "7. Characterize the order units of $C _ { 0 } ( X )$ if X is locally compact. Does $C _ { 0 } ( X )$ always have an order unit?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.353,
+            0.871,
+            0.39
+          ],
+          "content": "8. Let $\\mathcal { X } = M _ { 2 } ( \\mathbb { R } ) .$ the $2 \\times 2$ matrices over R. Define A in $M _ { 2 } ( \\mathbb { R } )$ to be positive if $A = A ^ { * }$ and $\\langle A x , x \\rangle \\geqslant 0$ for all x in $\\mathbb { R } ^ { 2 }$ Characterize the order units of $M _ { 2 } ( \\mathbb { R } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.397,
+            0.869,
+            0.432
+          ],
+          "content": "9. If $1 \\leqslant p < \\infty$ and $\\mathcal { X } = L ^ { p } ( 0 , 1 )$ , define $f \\leqslant g$ to mean that $f(x) \\leqslant g(x)$ a.e. Show that $\\mathcal { X }$ is an ordered vector space that has no order unit."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.468,
+            0.846,
+            0.493
+          ],
+          "level": 2,
+          "content": "§10. The Dual of a Quotient Space and a Subspace"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.51,
+            0.872,
+            0.582
+          ],
+          "content": "Let $\\mathcal { X }$ be a normed space and $\\mathcal { M } \\leqslant \\mathcal { X }$ . If $f \\in \\mathcal { X } ^ { * }$ , then $f \\vert \\mathcal { M }$ , the restriction of $f ( 0 )$ belongs to $\\mathcal { M } ^ { * }$ and $\\| f | \\mathcal { M } \\| \\leqslant \\| f \\|$ . According to the Hahn-Banach Theorem, every bounded linear functional on $\\mathcal { M }$ is obtainable as the restriction of a functional from $\\mathcal { X } ^ { * }$ . In fact, more can be said."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.582,
+            0.871,
+            0.656
+          ],
+          "content": "Note that if $\\mathcal { M } ^ { \\perp } \\equiv \\{ g \\in \\mathcal { X } ^ { * } ; g ( \\mathcal { M } ) = 0 \\}$ (note the analogy with Hilbert space notation); then $\\mathcal { M } ^ { \\perp }$ is a closed subspace of the Banach space $\\mathcal { X } ^ { * }$ . Hence $x ^ { * } / d ^ { 1 }$ is a Banach space. Moreover, if $f + \\mathcal { M } ^ { \\perp } { \\in } \\mathcal { X } ^ { * } / \\mathcal { M } ^ { \\perp }$ , then $f + M ^ { \\perp }$ induces a linear functional on $\\mathcal { M } ,$ namely $f \\vert \\mathcal { M }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.667,
+            0.871,
+            0.704
+          ],
+          "content": "10.1. Theorem. If $\\mathcal { M } \\leqslant \\mathcal { X }$ and $\\mathcal { M } ^ { \\perp } \\equiv \\{ g   \\in   \\mathcal { X } ^ { * } \\colon   g ( \\mathcal { M } )   =   0 \\}$ , then the map $\\rho ;$ $\\mathcal { X } ^ { * } / \\mathcal { M } ^ { \\perp }   \\rightarrow   \\mathcal { M } ^ { * }$ defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.404,
+            0.704,
+            0.594,
+            0.724
+          ],
+          "content": "\\rho ( f + \\mathcal { M } ^ { \\perp } ) = f | \\mathcal { M }",
+          "image_source": "images/page_102_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.733,
+            0.402,
+            0.751
+          ],
+          "content": "is an isometric isomorphism."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.759,
+            0.872,
+            0.854
+          ],
+          "content": "PRoOF. It is easy to see that $\\rho$ is linear and injective. If $f \\in \\mathcal { X } ^ { * }$ and $g \\in \\mathcal { M } ^ { \\perp }$ then $\\| f | \\mathcal { M } \\| = \\| ( f + g ) | \\mathcal { M } \\| \\leqslant \\| f + g \\|$ . Taking the infimum over all $g$ we get that $\\| f | \\mathcal { M } \\| \\leqslant \\| f + \\mathcal { M } ^ { \\perp } \\|$ . Suppose $\\phi \\in \\mathcal { M } ^ { * }$ . The Hahn-Banach Theorem implies that there is an $f$ in $\\mathcal { X } ^ { * }$ such that $f | \\mathcal { M } = \\phi$ and $\\| f \\| = \\| \\phi \\|$ . Hence $\\phi = \\rho ( f + \\mathcal { M } ^ { \\perp } )$ and $\\|   \\phi   \\| = \\|   f   \\| \\geqslant \\|   f + \\mathcal { M } ^ { \\perp }   \\|$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.869,
+            0.873,
+            0.926
+          ],
+          "content": "Now consider $\\mathcal { X } / \\mathcal { M } ;$ what is $( \\mathcal { X } / \\mathcal { M } ) ^ { * } ?$ Let $\\mathcal { Q } \\colon \\mathcal { X }   \\to   \\mathcal { X } / \\mathcal { M }$ be the natural map. If $f \\in ( \\mathcal { X } / \\mathcal { M } ) ^ { * }$ , then $f \\circ Q \\in \\mathcal { X } ^ { * }$ and $\\| f \\circ Q \\| \\leqslant \\| f \\|$ . (Why?) This gives a way of mapping $( \\mathcal { X } / \\mathcal { M } ) ^ { \\star }   \\to   \\mathcal { X } ^ { \\star }$ . What is its image? Is it an isometry?"
+        }
+      ]
+    },
+    {
+      "page_idx": 103,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.324,
+            0.073
+          ],
+          "content": "§11. Reflexive Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": "89"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.101,
+            0.869,
+            0.14
+          ],
+          "content": "10.2. Theorem. If $\\mathcal { M } \\leqslant \\mathcal { X }$ and $\\mathcal { Q } \\colon \\mathcal { X }   \\to   \\mathcal { X } / \\mathcal { M }$ is the natural map, then $\\rho ( f ) = f \\circ Q$ defines an isometric isomorphism of $( \\mathcal { X } / \\mathcal { M } ) ^ { * }$ onto $\\mathcal { M } ^ { \\perp }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.146,
+            0.868,
+            0.24
+          ],
+          "content": "PROOF. If $f \\in ( \\mathcal { X } / \\mathcal { M } ) ^ { * }$ and $y \\in \\mathcal { M } ,$ then $f \\circ Q ( y ) = 0 ,$ so $f \\circ Q \\in \\mathcal { M } ^ { \\perp }$ . Again, it is easy to see that $\\rho \\colon ( \\mathcal { X } / \\mathcal { M } ) ^ { * }   \\to   \\mathcal { M } ^ { \\perp }$ is linear and, as was seen earlier, $\\| \\rho ( f ) \\| \\leqslant \\| f \\|$ . Let $\\{ x _ { n } + M \\}$ be a sequence in $\\mathcal { X } / \\mathcal { M }$ such that $\\| x _ { n } + \\mathcal { M } \\| < 1$ and $| f ( x _ { n } + { \\mathcal { M } } ) | \\to \\| f \\|$ . For each n there is a $y _ { n }$ in M such that $\\| x _ { n } + y _ { n } \\| < 1$ Thus $\\| \\rho ( f ) \\| \\geqslant | \\rho ( f ) ( x _ { n } + y _ { n } ) | = | f ( x _ { n } + \\mathcal { M } ) | \\rightarrow \\| f \\|$ , so $\\rho$ is an isometry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.239,
+            0.87,
+            0.334
+          ],
+          "content": "To see that $\\rho$ is surjective, let $g \\in \\mathcal { M } ^ { \\perp } ;$ then $g { \\in } { \\mathcal { X } } ^ { * }$ and $g ( \\mathcal { M } ) = 0 .$ Define $f ;$ $\\mathcal { X } / \\mathcal { M } \\rightarrow \\mathbb { F }$ by $f ( x + { \\mathcal { M } } ) = g ( x )$ . Because $g ( \\mathcal { M } ) = 0 , f$ is well defined. Also, if $x { \\in } { \\mathcal { X } }$ and $y \\in \\mathcal{M}, \\left| f(x + \\mathcal{M}) \\right| = \\left| g(x) \\right| = \\left| g(x + y) \\right| \\leqslant \\left\\| g \\right\\| \\left\\| x + y \\right\\|$ . Taking the infimum over all y gives $| f ( x + \\mathcal { M } ) | \\leqslant \\| g \\| \\| x + \\mathcal { M } \\|$ . Hence $f { \\in } ( { \\mathcal { X } } / { \\mathcal { M } } ) ^ { * }$ $\\rho ( f )   =   g ,$ and $\\| f \\| \\leqslant \\| \\rho ( f ) \\|$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.385,
+            0.426,
+            0.41
+          ],
+          "level": 2,
+          "content": "§11. Reflexive Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.433,
+            0.869,
+            0.489
+          ],
+          "content": "If $\\mathcal { X }$ is a normed space, then we have seen that $\\mathcal { X } ^ { * }$ is a Banach space (5.4). Because $\\mathcal { X } ^ { * }$ is a Banach space, it too has a dual space $( \\mathcal { X } ^ { * } ) ^ { * } \\equiv \\mathcal { X } ^ { * * }$ and $\\mathcal { X } ^ { * * }$ is a Banach space. Hence $\\mathcal { X } ^ { * * }$ has a dual. Can this be kept up?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.489,
+            0.871,
+            0.527
+          ],
+          "content": "Before answering this question, let's examine a curious phenomenon. If $x { \\in } { \\mathcal { X } }$ , then x defines an element  of $\\mathcal { X } ^ { * * }$ ; namely, define $\\hat { x } \\colon \\mathcal { X } ^ { * }   \\to   \\mathbb { F }$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.129,
+            0.535,
+            0.565,
+            0.553
+          ],
+          "content": "\\hat { x } ( x ^ { * } )   =   x ^ { * } ( x )\\tag{11.1}",
+          "image_source": "images/page_103_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.561,
+            0.871,
+            0.618
+          ],
+          "content": "for every $x ^ { * }$ in $\\mathcal { X } ^ { * }$ . Note that Corollary 6.7 implies that $\\| { \\hat { \\boldsymbol { x } } } \\| = \\| { \\boldsymbol { x } } \\|$ for all $x$ in $\\mathcal { X }$ . The map $x   \\to   \\hat { x }$ of $\\mathcal { X }   \\rightarrow   \\mathcal { X } ^ { * * }$ is called the natural map of $\\mathcal { X }$ into its second dual."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.633,
+            0.872,
+            0.671
+          ],
+          "content": "11.2. Definition. A normed space $\\mathcal { X }$ is reflexive if $\\mathcal { X } ^ { * * } = \\{ \\hat { x } \\colon x { \\in } \\mathcal { X } \\}$ , where X is defined in (11.1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.687,
+            0.873,
+            0.781
+          ],
+          "content": "First note that a reflexive space $\\mathcal { X }$ is isometrically isomorphic to $\\mathcal { X } ^ { * * }$ , and hence must be a Banach space. It is not true however, that a Banach space $\\mathcal { X }$ that is isometric to $\\mathcal { X } ^ { * * }$ is reflexive. The definition of reflexivity stipulates that the isometry be the natural embedding of $\\mathcal { X }$ into $\\mathcal { X } ^ { * * }$ . In fact, James [1951] gives an example of a nonreflexive space $\\mathcal { X }$ that is isometric to $\\mathcal { X } ^ { * * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.797,
+            0.636,
+            0.816
+          ],
+          "content": "11.3. Example. If $1 < p < \\infty ,   L ^ { p } ( X , \\Omega , \\mu )$ is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.833,
+            0.871,
+            0.889
+          ],
+          "content": "11.4. Example. $c _ { 0 }$ is not reflexive. We know that $c _ { 0 } ^ { * } = l ^ { 1 }$ , so $c _ { 0 } ^ { * * } = ( l ^ { 1 } ) ^ { * } = l ^ { \\infty }$ With these identifications, the natural map $c _ { 0 }   \\rightarrow   c _ { 0 } ^ { * * }$ is precisely the inclusion map $c _ { 0 }   \\to   l ^ { \\infty }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.889,
+            0.872,
+            0.927
+          ],
+          "content": "A discussion of reflexivity is best pursued after the weak topology is understood (Chapter V). Until that time, we will say adieu to reflexivity."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 96,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 97,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 98,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 99,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 100,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 101,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 102,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 103,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

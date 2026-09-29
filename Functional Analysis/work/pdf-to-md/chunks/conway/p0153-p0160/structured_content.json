@@ -1,0 +1,1475 @@
+{
+  "pages": [
+    {
+      "page_idx": 152,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.056,
+            0.166,
+            0.071
+          ],
+          "content": "138"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.679,
+            0.055,
+            0.868,
+            0.073
+          ],
+          "content": "V. Weak Topologies"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.098,
+            0.871,
+            0.168
+          ],
+          "content": "Fix f in $C _ { b } ( X )$ and define $f ^ { \\beta } \\colon \\beta X \\to \\mathbb { F }$ by $f ^ { \\beta } ( \\tau ) = \\langle f , \\tau \\rangle$ for every $\\tau$ in $\\beta X$ [Remember that $\\beta X \\subseteq C _ { b } ( X ) ^ { * } .$ , so that this makes sense.] Clearly $f ^ { \\beta }$ is continuous and $f ^ { \\beta } \\circ \\Delta ( x ) = f ^ { \\beta } ( \\delta _ { x } ) = \\langle f , \\delta _ { x } \\rangle = f ( x ) . \\mathrm { S o } f ^ { \\beta } \\circ \\Delta = f$ and (c) holds. To show that To show that $\\beta X$ is unique, assume that Ω is a compact space and is unique assume that O is a comnact space and $\\pi \\cdot$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.156,
+            0.871,
+            0.193
+          ],
+          "content": "$X   \\to   \\Omega$ is a continuous map such that:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.202,
+            0.511,
+            0.22
+          ],
+          "content": "(a') $\\pi \\colon X   \\to   \\pi ( X )$ is a homeomorphism;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.22,
+            0.361,
+            0.237
+          ],
+          "content": "(b′) $\\pi ( X )$ is dense in Ω;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.236,
+            0.686,
+            0.258
+          ],
+          "content": "(c') if $f   \\in   { \\cal C } _ { b } ( X )$ , there is an $\\tilde { f }$ in C(Ω) such that $\\tilde { f }   \\circ   \\pi = f .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.265,
+            0.873,
+            0.451
+          ],
+          "content": "Define $g \\colon \\Delta ( X ) \\to \\Omega { \\mathrm { ~ b y ~ } } g ( \\Delta ( x ) ) = \\pi ( x )$ In other words, $g = \\pi \\circ \\Delta ^ { - 1 }$ . The idea is to extend g to a homeomorphism of βX onto Ω. If $\\tau _ { 0 } { \\in } \\beta X$ , then (b) implies that there is a net $\\{ x _ { i } \\}$ in X such that $\\Delta ( x _ { i } )   \\rightarrow   \\tau _ { 0 }$ in $\\beta X$ . Now $\\{ \\pi ( \\mathbf { x } _ { i } ) \\}$ is a net in Ω and since Ω is compact, there is an $\\omega _ { 0 }$ in Ω such that $\\pi ( x _ { i } ) \\xrightarrow [ \\mathrm { ~ c l ~ } ] { \\quad } \\omega _ { 0 }$ If $F   \\in   C ( \\Omega )$ , let $f = F \\circ \\pi ;$ so $f   \\in   { \\cal C } _ { b } ( X )$ (and $F = \\tilde { f } )$ . Also, $f(x_{i}) = \\langle f, \\delta_{x_{i}} \\rangle \\rightarrow$ $\\langle f , \\tau _ { 0 } \\rangle = f ^ { \\beta } ( \\tau _ { 0 } )$ . But it is also true that $f(x_{i}) = F(\\pi(x_{i})) \\xrightarrow[\\mathrm{c1}]{} F(\\omega_{0})$ . Hence $F ( \\omega _ { 0 } )   =   f ^ { \\beta } ( \\tau _ { 0 } )$ for any F in $C ( \\Omega )$ . This implies that $\\omega _ { 0 }$ is the unique cluster point of $\\{ \\pi ( x _ { i } ) \\}$ ; thus $\\pi ( x _ { i } )   \\rightarrow   \\omega _ { 0 } ( \\mathrm { A } . 2 . 7 )$ . Let $g ( \\tau _ { 0 } ) = \\omega _ { 0 }$ . It must be shown that the definition of $g ( \\tau _ { 0 } )$ does not depend on the net $\\left\\{ x _ { i } \\right\\}$ in $X$ such that $\\Delta ( x _ { i } )   \\rightarrow   \\tau _ { 0 }$ . This is left as an exercise. To summarize, it has been shown that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.303,
+            0.466,
+            0.6,
+            0.484
+          ],
+          "content": "There is a function $g \\colon \\beta X \\to \\pmb { \\Omega }$",
+          "image_source": "images/page_152_equation_8.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.488,
+            0.164,
+            0.505
+          ],
+          "level": 2,
+          "content": "6.3"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.324,
+            0.487,
+            0.69,
+            0.508
+          ],
+          "content": "such that if $f { \\in } C _ { b } ( X ) , \\; { \\mathrm { t h e n } } \\; f ^ { \\beta } = { \\widetilde { f } } ^ { \\circ } g .$",
+          "image_source": "images/page_152_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.522,
+            0.871,
+            0.595
+          ],
+          "content": "To show that g: $\\beta X   \\to   \\Omega$ is continuous, let $\\left\\{ \\tau _ { i } \\right\\}$ be a net in $\\beta X$ such that $\\tau _ { i }   \\to   \\tau .$ If $F   \\in   C ( \\Omega )$ , let $f = F \\circ \\pi;$ so $f   \\in   C _ { b } ( X )$ and ${ \\tilde { f } } = F .$ Also, $f ^ { \\beta } ( \\tau _ { i } )   \\rightarrow   f ^ { \\beta } ( \\tau )$ But $F ( g ( \\tau _ { i } ) ) = f ^ { \\beta } ( \\tau _ { i } ) \\rightarrow f ^ { \\beta } ( \\tau ) = F ( g ( \\tau ) )$ . It follows (6.1) that $g ( \\tau _ { i } )   \\rightarrow   g ( \\tau )$ in Ω. Thus $g$ is continuous."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.595,
+            0.871,
+            0.651
+          ],
+          "content": "It is left as an exercise for the reader to show that $g$ is injective. Since $g ( \\beta X ) \\supseteq g ( \\Delta ( X ) ) = \\pi ( X ) , g ( \\beta X )$ is dense in $\\mathbf { \\Omega } ,$ But $g ( \\beta X )$ is compact, so $g$ is bijective. By (A.2.8), g is a homeomorphism."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.667,
+            0.872,
+            0.776
+          ],
+          "content": "The compact set $\\beta X$ obtained in the preceding theorem is called the Stone-Čech compactification of X. By properties (a) and (b), X can be considered as a dense subset of $\\beta X$ and the map $\\Delta$ can be taken to be the inclusion map. With this convention, (c) can be interpreted as saying that every bounded continuous function on X has a continuous extension to $\\beta X$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.776,
+            0.872,
+            0.868
+          ],
+          "content": "The space βX is usually very much larger than $\\dot { X } .$ In particular, it is almost never tr'ue that $\\beta X$ is the one-point compactification of X. For example, if $X = ( 0 , 1 ]$ , then the one-point compactification of X is [0, 1]. However, sin $( 1 / x ) { \\in } C _ { b } ( X )$ but it has no continuous extension to [0, 1], so $\\beta X \\neq [ 0 , 1 ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.868,
+            0.872,
+            0.924
+          ],
+          "content": "To obtain an idea of how large $\\beta X \\backslash X$ is, see Exercise 6, which indicates how to show that if N has the diserete topology, then $\\beta \\mathbf { N } \\backslash \\mathbf { N }$ has $2 ^ { N _ { 0 } }$ pairwise disjoint open sets. The best source of information on the"
+        }
+      ]
+    },
+    {
+      "page_idx": 153,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.057,
+            0.618,
+            0.075
+          ],
+          "content": "§6. An Application: The Stone-Čech Compactification"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.058,
+            0.87,
+            0.072
+          ],
+          "content": "139"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.102,
+            0.871,
+            0.178
+          ],
+          "content": "Stone-Čech compactification is the book by Gillman and Jerison [1960], though the approach to $\\beta X$ is somewhat different there than here. Two recent works on the Stone-Čech compactification are Johnstone [1982] and Walker [1974]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.193,
+            0.87,
+            0.231
+          ],
+          "content": "6.4. Corollary. if X is completely regular and $\\mu { \\in } M ( \\beta X ) .$ define $L _ { \\mu } \\colon C _ { b } ( X ) \\to \\mathbb { F }$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.238,
+            0.586,
+            0.284
+          ],
+          "content": "L _ { \\mu } ( f ) = \\int _ { \\beta X } f ^ { \\beta } d \\mu",
+          "image_source": "images/page_153_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.296,
+            0.869,
+            0.334
+          ],
+          "content": "for each f in $C _ { b } ( X )$ . Then the map $\\mu { \\mapsto } L _ { \\mu }$ is an isometric isomorphism of $M ( \\beta X )$ onto $C _ { b } ( X ) ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.341,
+            0.869,
+            0.398
+          ],
+          "content": "PROOF. Define $V : C _ { b } ( X ) \\to C ( \\beta X )$ by $V f   =   f ^ { \\beta }$ . It is easy to see that V is linear. Considering X as a subset of $\\beta X$ , the fact that $\\beta X = \\operatorname { c l } X$ implies that V is an isometry. If $g \\in C ( \\beta X )$ and $f   =   g |   X$ , then $g = f ^ { \\beta } = V f ;$ hence V is surjective."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.396,
+            0.87,
+            0.472
+          ],
+          "content": "I $\\mathbf{f} \\mu \\in M(\\beta X) = C(\\beta X)^*$ , it is easy to check that $L _ { \\mu } { \\in } C _ { b } ( X ) ^ { * }$ and $\\| L _ { \\pmb { \\mu } } \\| = \\| \\pmb { \\mu } \\|$ since V is an isometry. Conversely, if $L { \\in } C _ { b } ( X ) ^ { * }$ , then $L \\circ V ^ { - 1 } \\in C ( \\dot { \\beta } X ) ^ { * }$ and $\\| L \\circ V ^ { - 1 } \\| = \\| L \\|$ . Hence there is a μ in $M ( \\beta X )$ such that $\\int f g   d \\mu = L \\circ V ^ { - 1 } ( g )$ for every g in $C ( \\beta X )$ . Since $V ^ { - 1 } g = | X |$ , it follows that $L = L _ { \\mu ^ { * } }$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.488,
+            0.871,
+            0.527
+          ],
+          "content": "The next result is from topology. It may be known to the reader, but it is presented here for the convenience of those to whom it is not."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.543,
+            0.871,
+            0.582
+          ],
+          "content": "6.5. Partition of Unity. If X is normal and $\\{ \\boldsymbol { U } _ { 1 } , \\dots , \\boldsymbol { U } _ { n } \\}$ is an open covering $o f X .$ , then there are continuous functions $f _ { 1 } , . . . , f _ { n }$ from X into [0, 1] such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.59,
+            0.455,
+            0.608
+          ],
+          "content": "(a) $\\textstyle \\sum _ { k = 1 } ^ { n } f _ { k } ( x ) = 1$ for all x in X;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.608,
+            0.539,
+            0.626
+          ],
+          "content": "(b) $f _ { k } ( x ) = 0 \\; f o r \\; x$ in $X \\backslash U _ { \\pmb { k } }$ and $1 \\leqslant k \\leqslant n.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.634,
+            0.872,
+            0.67
+          ],
+          "content": "PRooF. First observe that it may be assumed that $\\{ \\boldsymbol { U } _ { 1 } , \\dots , \\boldsymbol { U } _ { n } \\}$ has no proper subcover. The proof now proceeds by induction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.67,
+            0.871,
+            0.744
+          ],
+          "content": "If $n = 1$ , let $f _ { 1 } \\equiv 1$ . Suppose $n = 2 .$ Then $X \\backslash U _ { 1 }$ and $X \\backslash U _ { 2 }$ are disjoint closed subsets of X. By Urysohn's Lemma there is a continuous function $f _ { 1 }$ $X   \\rightarrow   [ 0 , 1 ]$ such that $f _ { 1 } ( x ) = 0$ for x in $X \\backslash U _ { 1 }$ and $f _ { 1 } ( x )   = 1$ for x in $X \\backslash U _ { 2 }$ Let $f _ { 2 } = 1 - f _ { 1 }$ and the proof of this case is complete."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.743,
+            0.873,
+            0.908
+          ],
+          "content": "Now suppose the theorem has been proved for some $n \\geqslant 2$ and $\\{ U _ { 1 } , \\ldots , U _ { n + 1 } \\}$ is an open cover of X that is minimal. Let $F = X \\backslash U_{n+1};$ then F is closed, nonempty, and $F \\subseteq \\bigcup _ { k = 1 } ^ { n } U _ { k }$ . Let V be an open subset of X such that $F \\subseteq V \\subseteq \\mathrm{cl} V \\subseteq \\bigcup_{k = 1}^{n} U_{k}$ . Since cl V is normal and $\\{ U _ { 1 } \\cap$ cl $V , \\ldots , U _ { n } \\cap$ cl $V \\}$ is an open cover of cl V, the induction hypothesis implies that there are continuous functions $g _ { 1 } , \\ldots , g _ { n }$ on cl V such that $\\textstyle \\sum _ { k = 1 } ^ { n } g _ { k } = 1$ and for $1 \\leqslant k \\leqslant n ,$ $0 \\leqslant g _ { k } \\leqslant 1$ , and $g _ { k } ( \\mathrm { c l } V \\backslash U _ { k } ) = 0$ . By Tietze's Extension Theorem there are continuous functions $\\tilde { g } _ { 1 } , \\dots , \\tilde { g } _ { n }$ on X such that $\\tilde { g } _ { \\boldsymbol { k } } = g _ { \\boldsymbol { k } }$ on cl V and $0 \\leqslant \\tilde { g } _ { k } \\leqslant 1$ for $1 \\leqslant k \\leqslant n .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.907,
+            0.874,
+            0.927
+          ],
+          "content": "Also, there is a continuous function h: $X   \\to   [ 0 , 1 ]$ such that $h   =   0$ on $X \\backslash V$"
+        }
+      ]
+    },
+    {
+      "page_idx": 154,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.07
+          ],
+          "content": "140"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.681,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": "V. Weak Topologies"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.099,
+            0.871,
+            0.173
+          ],
+          "continues_prev": true,
+          "content": "and $h = 1$ on F. Put $f _ { k } = \\tilde { g } _ { k } h$ for $1 \\leqslant k \\leqslant n$ and let $f_{n + 1} = 1 - \\sum_{k = 1}^{n} f_{k}$ Clearly $0 \\leqslant f _ { k } \\leqslant 1$ if $1 \\leqslant k \\leqslant n$ .If x∈cl V, then $f_{n + 1}(x) = 1 - \\left( \\sum_{k = 1}^{n} g_{k}(x) \\right) h(x) = 1 -$ h(x); so $0 \\leqslant f_{n + 1}(x) \\leqslant 1$ on cl V. If $x { \\in } X \\backslash V ,$ then $f _ { n + 1 } ( x ) = 1$ since $h ( x ) = 0$ Hence $0 \\leqslant f_{n + 1} \\leqslant 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.173,
+            0.873,
+            0.25
+          ],
+          "content": "Clearly (a) holds. Let $1 \\leqslant k \\leqslant n;$ if $x { \\in } X \\backslash U _ { k } ,$ then either $x \\in ( \\operatorname { c l } V ) \\setminus U _ { k }$ or $x \\in (X \\setminus \\mathrm{cl} V) \\setminus U_k$ If the first alternative is the case, then $g _ { k } ( x ) = 0 ,$ sO $f _ { k } ( x ) = 0 .$ If the second alternative is true, then $h ( x ) = 0$ so that $f _ { k } ( x ) = 0$ If $x \\in X \\setminus U_{n+1} = F$ , then $h ( x )   = 1$ and so $f_{n + 1}(x) = 1 - \\sum_{k = 1}^{n}g_{k}(x) = 0.$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.266,
+            0.872,
+            0.323
+          ],
+          "content": "Partitions of unity are a standard way to put together local results to obtain global results. If $\\{ f _ { k } \\}$ is related to $\\{ U _ { k } \\}$ as in the statement of (6.5) then $\\{ f _ { k } \\}$ is said to be a partition of unity subordinate to the cover $\\{ U _ { k } \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.339,
+            0.872,
+            0.377
+          ],
+          "content": "6.6. Theorem. If X is completely regular, then $C _ { b } ( X )$ is separable if and only if X is a compact metric space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.385,
+            0.871,
+            0.476
+          ],
+          "content": "ProoF. Suppose X is a compact metric space with metric d. For each $n ,$ let $\\left\\{ U_{k}^{(n)}: 1 \\leqslant k \\leqslant N_{n} \\right\\}$ be an open cover of X by balls of radius $1 / n .$ Let $\\left\\{ f _ { k } ^ { ( n ) } : 1 \\leqslant k \\leqslant N _ { n } \\right\\}$ be a partition of unity subordinate to $\\left\\{ U _ { k } ^ { ( n ) } : 1 \\leqslant k \\leqslant N _ { n } \\right\\}$ Let @ be the rational (or complex-rational) linear span of $\\left\\{ f _ { k } ^ { ( n ) } : n \\geqslant \\stackrel { \\cdot } { 1 } \\right.$ $1 \\leqslant k \\leqslant N _ { n } \\}$ ; thus $\\mathcal { Y }$ is countable. It will be shown that $\\theta$ is dense in C(X)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.475,
+            0.872,
+            0.569
+          ],
+          "content": "Fix f in C(X) and $\\varepsilon   >   0 .$ Since f is uniformly continuous there is a $\\delta   >   0$ such that $| f ( x _ { 1 } ) - f ( x _ { 2 } ) | < \\varepsilon / 2$ whenever $d ( x _ { 1 } , x _ { 2 } )   <   \\delta .$ Choose $n > 2 / \\delta$ and consider the cover $\\{ U _ { k } ^ { ( n ) } : 1 \\leqslant k \\leqslant N _ { n } \\} , \\mathrm { I f } x _ { 1 } , x _ { 2 } \\in U _ { k } ^ { ( n ) } , d ( x _ { 1 } , x _ { 2 } ) < 2 / n < \\delta ;$ hence $| f ( x _ { 1 } ) - f ( x _ { 2 } ) | < \\varepsilon / 2$ Pick $x _ { k }$ in $U _ { k } ^ { ( n ) }$ and let $\\alpha _ { k } \\in \\mathbb { Q } + i \\mathbb { Q }$ such that $| \\alpha _ { k } - f ( x _ { k } ) | < \\varepsilon / 2$ Let $\\begin{array} { r } { \\boldsymbol { g } = \\sum _ { \\boldsymbol { k } } \\alpha _ { \\boldsymbol { k } } f _ { \\boldsymbol { k } } ^ { ( n ) } } \\end{array}$ , so $g \\in \\mathcal { Y }$ .Therefore for every x in X,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.575,
+            0.707,
+            0.656
+          ],
+          "content": "\\begin{aligned}\\left| f(x) - g(x) \\right| &= \\left| \\sum_{k} f(x) f_{k}^{(n)}(x) - \\sum_{k} \\alpha_{k} f_{k}^{(n)}(x) \\right| \\\\& \\leqslant \\sum_{k} \\left| f(x) - \\alpha_{k} \\right| f_{k}^{(n)}(x).\\end{aligned}",
+          "image_source": "images/page_154_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.665,
+            0.869,
+            0.737
+          ],
+          "content": "Examine each of these summands. If $x   \\in   U _ { k } ^ { ( n ) } ,$ then $| f ( x ) - \\alpha _ { k } | \\leqslant | f ( x ) -$ $| f ( x _ { k } ) | + | f ( x _ { k } ) - \\alpha _ { k } | < \\varepsilon .$ If $x   \\not \\in   U _ { k } ^ { ( n ) }$ , then $f_{k}^{(n)}(x) = 0.$ Hence $| f ( x ) - g ( x ) | <$ $\\begin{array} { r } { \\sum _ { k } \\varepsilon f _ { k } ^ { ( n ) } ( x ) = \\varepsilon . } \\end{array}$ Thus $\\| f - g \\| < \\varepsilon$ and $\\pmb { \\mathscr { y } }$ is dense in C(X). This shows that C(X) is separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.738,
+            0.871,
+            0.793
+          ],
+          "content": "Now assume that $C _ { b } ( X )$ is separable. Thus (ball $C _ { b } ( X ) ^ { * } , \\mathrm { w k } ^ { * } )$ is metrizable (5.1). Since X is homeomorphic to a subset of ball $C _ { b } ( X ) ^ { * }   ( 6 . 1 ) ,$ , X is metrizable. It also follows that $\\beta X$ is metrizable. It must be shown that $X = \\beta X$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.794,
+            0.871,
+            0.922
+          ],
+          "content": "Suppose there is a τ in $\\beta X \\backslash X$ Let $\\{ x _ { n } \\}$ be a sequence in X such that $x _ { n }   \\to   \\tau .$ It can be assumed that $x _ { n } \\neq x _ { m }$ for $n \\neq m .$ Let $A = \\{ x _ { n } \\}$ n is even} and $B = \\left\\{ x _ { n } \\right\\}$ n is odd}. Then A and B are disjoint closed subsets of X (not closed in $\\beta X$ , but in X) since A and B contain all of their limit points in X. Since X is normal, there is a continuous function $f \\colon X   \\to   [ 0 , 1 ]$ such that $f   =   0$ on A and $f = 1$ on B. But then $f ^ { \\beta } ( \\tau ) = \\lim f ( x _ { 2 n } ) = 0$ and $f^{\\beta}(\\tau) = \\lim_{n \\to \\infty} f(x_{2n+1}) =$ 1, a contradiction. Thus $\\beta X \\backslash X = \\Box$"
+        }
+      ]
+    },
+    {
+      "page_idx": 155,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.429,
+            0.072
+          ],
+          "content": "§7. The Krein-Milman Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.837,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": "141"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.1,
+            0.234,
+            0.116
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.119,
+            0.717,
+            0.137
+          ],
+          "content": "1. If $x   \\in   X$ and $\\delta _ { x } ( f )   =   f ( x )$ for all f in $C _ { b } ( X ) .$ , show that $\\| \\delta _ { x } \\| = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.145,
+            0.79,
+            0.163
+          ],
+          "content": "2. Prove that a subset of a completely regular space is completely regular."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.17,
+            0.567,
+            0.187
+          ],
+          "content": "3. Fill in the details of the proof of Theorem 6.2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.196,
+            0.871,
+            0.231
+          ],
+          "content": "4. If X is completely regular, Ω is compact, and $f \\colon X   \\to   \\Omega$ is continuous, show that there is a continuous map $f ^ { \\beta } \\colon \\beta X   \\to   \\Omega$ such that $f ^ { \\pmb { \\beta } } | X = f .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.239,
+            0.871,
+            0.273
+          ],
+          "content": "5. If X is completely regular, show that X is open in βX if and only if X is locally compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.281,
+            0.872,
+            0.384
+          ],
+          "content": "6. Let N have the discrete topology. Let $\\{ r _ { n } : n \\in \\mathbb { N } \\}$ be an enumeration of the rational numbers in [0, 1]. Let S = the irrational numbers in [0, 1] and for each s in S let $\\{ r _ { n } ; n { \\in } N _ { s } \\}$ be a subsequence of $\\{ r _ { n } \\}$ such that $s = \\lim \\left\\{ r_{n} : n \\in N_{s} \\right\\}$ . Show: (a) if $s , t   \\in   \\mathbb { S }$ and $s \\neq t ,   N _ { s }   \\cap   N _ { t }$ is finite; (b) if for each s in S, cl $N _ { s }   =   \\mathsf { t h e }$ closure of $N _ { s }$ in $\\beta \\mathbf { N }$ and $A _ { s } = ( \\mathrm { c l } N _ { s } ) \\backslash \\mathbb { N } ,$ then $\\{ A _ { s } ; s { \\in } S \\}$ are pairwise disjoint subsets of $\\beta \\mathbf { N } \\backslash \\mathbf { N }$ that are both open and closed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.392,
+            0.871,
+            0.428
+          ],
+          "content": "7. Show that if X is normal, $\\tau   \\in   \\beta X$ , and there is a sequence $\\{ x _ { n } \\}$ in X such that $x _ { n }   \\to   \\tau$ in $\\beta X$ , then $\\tau   \\in   X$ . If X is not normal, is the result still true?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.435,
+            0.871,
+            0.487
+          ],
+          "content": "8. Let X be the space of all ordinals less than the first uncountable ordinal and give X the order topology. Show that $\\beta X = \\mathrm{the}$ one point compactification of X. (You can find the pertinent definitions in Kelley [1955].)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.54,
+            0.589,
+            0.563
+          ],
+          "level": 2,
+          "content": "§7. The Krein-Milman Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.586,
+            0.871,
+            0.641
+          ],
+          "content": "7.1. Definition. If K is a convex subset of a vector space $\\mathcal { X } ,$ then a point a in K is an extreme point of K if there is no proper open line segment that contains a and lies entirely in K. Let ext K be the set of extreme points of K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.658,
+            0.869,
+            0.713
+          ],
+          "content": "Recall that an open line segment is a set of the form $(x_{1},x_{2}) \\equiv \\{tx_{2}+$ $(1 - t)x_{1}:0 < t < 1$ , and to say that this line segment is proper is to say that $x _ { 1 } \\neq x _ { 2 }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.73,
+            0.278,
+            0.748
+          ],
+          "level": 2,
+          "content": "7.2. Examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.756,
+            0.869,
+            0.794
+          ],
+          "content": "(a) If $\\mathcal { X } = \\mathbb { R } ^ { 2 }$ and $K = \\left\\{ (x,y) \\in \\mathbb{R}^2 : x^2 + y^2 \\leqslant 1 \\right\\}$ , then ext $K = \\{ ( x , y ) \\}$ $x ^ { 2 } + y ^ { 2 } = 1 \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.794,
+            0.707,
+            0.812
+          ],
+          "content": "(b) If $\\mathcal { X } = \\mathbb { R } ^ { 2 }$ and $K = \\left\\{ (x,y) \\in \\mathbb{R}^2 : x \\leq 0 \\right\\}$ , then ext $K = \\bigsqcup$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.812,
+            0.839,
+            0.83
+          ],
+          "content": "(c) If $\\mathcal { X }   =   \\mathbb { R } ^ { 2 }$ and $K = \\left\\{ (x,y) \\in \\mathbb{R}^2 : x < 0 \\right\\} \\cup \\left\\{ (0,0) \\right\\}$ , then ext $K = \\{ ( 0 , 0 ) \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.831,
+            0.869,
+            0.867
+          ],
+          "content": "(d) If K = the closed region in $\\mathbb { R } ^ { 2 }$ bordered by a regular polygon, then ext K = the vertices of the polygon."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.867,
+            0.867,
+            0.887
+          ],
+          "content": "(e) If x is any normed space and $K = \\left\\{ x \\in \\mathcal { X } : \\| x \\| \\leqslant 1 \\right\\}$ , then ext $K \\subseteq$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.885,
+            0.794,
+            0.904
+          ],
+          "content": "$\\left\\{ x \\colon \\left\\|   x   \\right\\| = 1 \\right\\}$ , though for all we know it may be that ext $K = \\bigtriangleup$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.903,
+            0.871,
+            0.923
+          ],
+          "content": "(f) if $\\mathcal { X } = L ^ { 1 } [ 0 , 1 ]$ and $K = \\left\\{ f { \\in } L ^ { 1 } [ 0 , 1 ] { : } \\| f \\| _ { 1 } \\leqslant 1 \\right\\}$ , then ext $K = \\bigtriangleup$ . This"
+        }
+      ]
+    },
+    {
+      "page_idx": 156,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.135,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": "142"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.681,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": "V. Weak Topologies"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.099,
+            0.871,
+            0.175
+          ],
+          "continues_prev": true,
+          "content": "last statement requires a bit of proof. Let $f { \\in } L ^ { 1 } [ 0 , 1 ]$ such that $\\| f \\| _ { 1 } = 1$ Choose x in [0, 1] such that $\\int_{0}^{x} \\left| f(t) \\right| dt = \\frac{1}{2}$ . Let $\\boldsymbol { h } ( t ) = 2 \\boldsymbol { f } ( t )$ if $t \\leqslant x$ and 0 otherwise; let $g(t) = 2f(t)   if   t \\geqslant x$ and 0 otherwise. Then $\\| h \\| _ { 1 } = \\| g \\| _ { 1 } = 1$ and $f   =   \\frac { 1 } { 2 } ( h + g )$ . So ball $L ^ { 1 } [ 0 , 1 ]$ has no extreme points."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.182,
+            0.576,
+            0.2
+          ],
+          "content": "The next proposition is left as an exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.218,
+            0.871,
+            0.256
+          ],
+          "content": "7.3. Proposition. If K is a convex subset of a vector space X and $a   \\in   K$ , then the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.266,
+            0.255,
+            0.281
+          ],
+          "content": "(a) a∈ext K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.283,
+            0.848,
+            0.302
+          ],
+          "content": "(b) $I f x _ { 1 } , x _ { 2 } \\in \\mathcal { X }$ and $a = \\frac { 1 } { 2 } ( x _ { 1 } + x _ { 2 } )$ , then either $x _ { 1 } \\notin K$ or $x _ { 2 } \\notin K$ or $x _ { 1 } = x _ { 2 } = a .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.301,
+            0.869,
+            0.337
+          ],
+          "content": "(c) $I f x _ { 1 } , x _ { 2 } \\in \\mathcal { X } , 0 < t < 1$ , and $a = t x _ { 1 } + ( 1 - t ) x _ { 2 }$ , then either $x _ { 1 } { \\notin } K ,   x _ { 2 } { \\notin } K .$ or $x _ { 1 } = x _ { 2 } = a .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.338,
+            0.753,
+            0.357
+          ],
+          "content": "(d) $I f   x _ { 1 } , \\ldots , x _ { n } { \\in } K$ and a∈co $\\{ x _ { 1 } , \\ldots , x _ { n } \\}$ , then $a = x _ { k }   f _ { } { o r }$ some k."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.357,
+            0.385,
+            0.375
+          ],
+          "content": "(e) $K \\backslash \\{ a \\}$ is a convex set."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.392,
+            0.871,
+            0.43
+          ],
+          "content": "7.4. The Krein-Milman Theorem. If K is a nonempty compact convex subset of a LCS X, then ext $K \\neq \\square$ and $K = \\overline{\\mathrm{co}}(\\mathrm{ext} K)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.439,
+            0.871,
+            0.601
+          ],
+          "content": "ProoF. (Léger [1968].) Note that (7.3e) says that a point a is an extreme point if and only if $K \\backslash \\{ a \\}$ is a relatively open convex subset. We thus look for a maximal proper relatively open convex subset of K. Let u be all the proper relatively open convex subsets of K. Since ¿ is a LCS and $K \\neq \\square$ (and let's assume that K is not a singleton), $\\mathcal { U } \\neq \\square$ . Let $\\mathcal { U } _ { 0 }$ be a chain in U and put $U _ { 0 } = \\cup \\left\\{ U { : } U { \\in } \\mathcal { U } _ { 0 } \\right\\}$ . Clearly $U _ { 0 }$ is open, and since $\\mathcal { U } _ { 0 }$ is a chain, $U _ { 0 }$ is convex. If $U _ { 0 } = K$ , then the compactness of K implies that there is a U in $\\mathcal { U } _ { 0 }$ with $U = K ,$ a contradiction to the property of U. Thus $U _ { 0 }   \\in   \\mathcal { U }$ .By Zorn's Lemma, @ has a maximal element U."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.601,
+            0.87,
+            0.731
+          ],
+          "content": "If $x   \\in   K$ and $0 \\leqslant i \\leqslant 1$ , let $T _ { x , \\lambda } \\colon K \\to K$ be defined by $T _ { x , \\lambda } ( y ) = \\lambda y + ( 1 - \\lambda ) x$ Note that $T _ { \\mathbf { x } , \\lambda }$ is continuous and $T_{x,\\lambda}(\\sum_{j = 1}^{n} \\alpha_{j} y_{j}) = \\sum_{j = 1}^{n} \\alpha_{j} T_{x,\\lambda}(y_{j})$ whenever $y_{1},\\ldots,y_{n}\\in K,\\alpha_{1},\\ldots,\\alpha_{n}\\geqslant0.$ and $\\textstyle \\sum _ { j = 1 } ^ { n } \\alpha _ { j }   \\stackrel { \\circ } { = } 1$ . (This means that $T _ { \\mathbf { x } , \\lambda }$ is an affine map of K into K.) If $x   \\in   U$ and $0 \\leq \\lambda < 1$ , then $T _ { x , \\lambda } ( U ) \\subseteq U$ Thus $\\overline { { U } } \\subseteq T _ { x , \\lambda } ^ { - 1 } ( U )$ and $T _ { x , \\lambda } ^ { - 1 } ( U )$ is an open convex subset of K. If $y \\in ( \\mathrm { c l } U ) \\backslash U ,   T _ { x , \\lambda } ( y ) \\in [ x , y ) \\subseteq U$ by Proposition IV.1.11. So cl $U \\subseteq T _ { x , \\lambda } ^ { - 1 } ( U )$ and hence the maximality of U implies $T _ { x , \\lambda } ^ { - 1 } ( U ) = K$ . That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.299,
+            0.738,
+            0.696,
+            0.757
+          ],
+          "content": "T _ { x , \\lambda } ( K ) \\subseteq U \\quad \\mathrm { i f } \\quad x \\in U \\quad \\mathrm { a n d } \\quad 0 \\leqslant \\lambda < 1 .",
+          "image_source": "images/page_156_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.793,
+            0.87,
+            0.829
+          ],
+          "content": "Claim. If V is any open convex subset of K, then either $V \\cup U = U$ or $V \\cup U = K$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.848,
+            0.869,
+            0.884
+          ],
+          "content": "In fact, (7.5) implies that $V \\cup U$ is convex so that the claim follows from the maximality of U."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.885,
+            0.87,
+            0.923
+          ],
+          "content": "It now follows from the claim that $K \\backslash U$ is a singleton. In fact, if a $, b { \\in } K \\backslash U$ and $a \\neq b$ , let $V _ { a } , V _ { b }$ be disjoint open convex subsets of K such that $a   \\in   V _ { a }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 157,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.056,
+            0.426,
+            0.073
+          ],
+          "content": "§7. The Krein-Milman Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": "143"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.1,
+            0.869,
+            0.138
+          ],
+          "continues_prev": true,
+          "content": "and $b   \\in   V _ { b }$ . By the claim $V _ { a } \\cup U = K$ since a∉U. But b∉ $V _ { a } \\cup U$ ,a contradiction. Thus $K \\backslash U = \\{ a \\}$ and a∈ext K by (7.3e). Hence ext $K \\neq \\square$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.139,
+            0.643,
+            0.157
+          ],
+          "content": "Note that we have actually proved the following"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.165,
+            0.811,
+            0.183
+          ],
+          "level": 2,
+          "content": "7.6 If V is an open convex subset of $\\mathcal { X }$ and ext $K \\subseteq V ,$ then $K \\subseteq V .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.192,
+            0.871,
+            0.264
+          ],
+          "content": "Assume (7.6) is false. That is, assume there is an open convex subset V of X such that ext $K \\subseteq V$ but $V   \\cap   K \\neq K$ Then $V   \\cap   K   \\in   \\mathcal { U }$ and is contained in a maximal element U of U. Since $K \\backslash U = \\left\\{ a \\right\\}$ for some a in ext K, this is a contradiction. Thus (7.6) holds"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.265,
+            0.87,
+            0.32
+          ],
+          "content": "Let $E = \\overline { { \\mathrm { c o } } } ( \\mathrm { e x t }   K )$ . If $x ^ { * } { \\in } { \\mathcal { X } } ^ { * } , \\; { \\mathfrak { a } } { \\in } { \\mathbb { R } }$ , and $E \\subseteq \\{ x \\in { \\mathcal { X } } \\colon \\operatorname { R e } \\langle x , x ^ { * } \\rangle < \\alpha \\} = V ,$ then $K \\subseteq V$ by (7.6). Thus the Hahn-Banach Theorem (IV.3.13) implies $E = K$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.334,
+            0.871,
+            0.407
+          ],
+          "content": "The Krein-Milman Theorem seems innocent enough, but it has widespread application. Two such applications will be seen in Sections 8 and 10; another will occur later when $C ^ { * }$ -algebras are studied. Here a small application is given."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.407,
+            0.871,
+            0.464
+          ],
+          "content": "If $\\mathcal { X }$ is a Banach space, then ball $\\mathcal { X } ^ { * }$ is weak\\* compact by Alaoglu's Theorem. By the Krein-Milman Theorem, ball $\\mathcal { X } ^ { * }$ has many extreme points. Keep this in mind."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.475,
+            0.871,
+            0.625
+          ],
+          "content": "7.7. Example. $c _ { 0 }$ is not the dual of a Banach space. That is, $c _ { 0 }$ is not isometrically isomorphic to the dual of a Banach space. In light of the preceding comments, in order to prove this statement, it suffices to show that ball $c _ { 0 }$ has few extreme points. In fact, ball $c _ { 0 }$ has no extreme points. Let x∈ball $c _ { 0 }$ It must be that $0 = \\lim_{} x(n)$ . Let N be such that $| x ( n ) | < \\frac { 1 } { 2 }$ for $n \\geqslant N$ Define $y _ { 1 } , y _ { 2 }$ in $c _ { 0 }$ by letting $y_{1}(n) = y_{2}(n) = x(n)$ for $n \\leqslant N .$ , and for $n > N$ let $y _ { 1 } ( n ) = x ( n ) + 2 ^ { - n }$ and $y _ { 2 } ( n ) = x ( n ) - 2 ^ { - n }$ . It is easy to check that $y _ { 1 }$ and $y_{2} \\in \\mathrm{ball} c_{0}, \\frac{1}{2}(y_{1} + y_{2}) = x,$ and $y _ { 1 } \\neq x$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.639,
+            0.836,
+            0.657
+          ],
+          "content": "In light of Example 7.2(f), $L ^ { 1 } [ 0 , 1 ]$ is not the dual of a Banach space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.657,
+            0.871,
+            0.694
+          ],
+          "content": "The next two results are often useful in applying the Krein-Milman Theorem. Indeed, the first is often taken as part of that result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.705,
+            0.87,
+            0.742
+          ],
+          "content": "7.8. Theorem. If X is a LCS, K is a compact convex subset of $\\mathcal { X } ,$ and $F \\subseteq K$ such that $K = { \\overline { { \\mathbf { c o } } } } ( F ) .$ , then ext $K \\subseteq \\operatorname { c l } F$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.75,
+            0.871,
+            0.825
+          ],
+          "content": "ProoF. Clearly it suffices to assume that F is closed. Suppose that there is an extreme point $x _ { 0 }$ of K such that $x _ { 0 } \\not \\in F$ . Let p be a continuous seminorm on $\\mathcal { X }$ such that $F \\cap \\left\\{ x \\in \\mathcal { X } : p ( x - x _ { 0 } ) < 1 \\right\\} = \\square$ Let $U _ { 0 } = \\{ x \\in \\mathcal { X } : p ( x ) < \\frac { 1 } { 3 } \\}$ . So $( \\boldsymbol { x } _ { 0 } + \\boldsymbol { U } _ { 0 } )   \\cap   ( \\boldsymbol { F } + \\boldsymbol { U } _ { 0 } ) = \\Box .$ hence $x _ { 0 } { \\notin } { \\bf c l } ( F + U _ { 0 } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.824,
+            0.87,
+            0.898
+          ],
+          "content": "Because F is compact, there are $y _ { 1 } , \\ldots , y _ { n }$ in F such that $F \\subseteq \\bigcup_{k = 1}^{n} (y_{k} + U_{0})$ Let $K _ { k } = \\overline { { \\mathrm { c o } } } \\left( F \\cap \\left( y _ { k } + U _ { 0 } \\right) \\right)$ . Thus $K _ { k } \\subseteq y _ { k } + \\mathrm { c l } \\; U _ { 0 } \\; ( \\mathrm { W h y } ) .$ and $K _ { k } \\subseteq K$ . Now that fact that $K _ { 1 } , \\ldots , K _ { n }$ are compact and convex implies that co $( K _ { 1 } \\cup \\cdots \\cup K _ { n } ) =$ co $( K _ { 1 } \\cup \\cdots \\cup K _ { n } )$ (Exercise 8). Therefore"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.907,
+            0.649,
+            0.925
+          ],
+          "content": "K = \\overline{\\mathrm{co}}(F) = \\mathrm{co}(K_1 \\cup \\cdots \\cup K_n).",
+          "image_source": "images/page_157_equation_15.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 158,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13,
+            0.057,
+            0.165,
+            0.071
+          ],
+          "content": "144"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.678,
+            0.056,
+            0.869,
+            0.073
+          ],
+          "content": "V. Weak Topologies"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.157
+          ],
+          "content": "Since $x _ { 0 }   \\in   { \\pmb K } , x _ { 0 }   =   \\sum _ { k = 1 } ^ { n } \\alpha _ { k } x _ { k } , x _ { k }   \\in   { \\pmb K } _ { k } , \\alpha _ { k }   \\geqslant   0 , \\alpha _ { 1 }   +   \\cdots   +   \\alpha _ { n }   =   1$ . But $x _ { 0 }$ is an extreme point of K. Thus, $x _ { 0 } = x _ { k } { \\in } K _ { k }$ for some k. But this implies that $x _ { 0 } \\in K _ { k } \\subseteq y _ { k } + \\mathrm { c l } U _ { 0 } \\subseteq \\mathrm { c l } ( F + U _ { 0 } )$ , a contradiction. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.174,
+            0.872,
+            0.229
+          ],
+          "content": "You might think that the set of extreme points of a compact convex subset would have to be closed. This is untrue even if the LCS is finite dimensional, as Figure V-1 illustrates."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.35,
+            0.269,
+            0.664,
+            0.332
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.453,
+                0.343,
+                0.543,
+                0.359
+              ],
+              "content": "Figure V-1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_158_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.404,
+            0.872,
+            0.479
+          ],
+          "content": "7.9. Proposition. If K is a compact convex subset of a LCS $\\mathcal { X } , \\mathcal { Y }$ is a LCS, and T: $K   \\rightarrow   \\mathcal { Y }$ is a continuous affine map, then $T ( K )$ is a compact convex subset of Y and $i f y$ is an extreme point of $T ( K )$ , then there is an extreme point x of K such that $T ( x ) = y$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.487,
+            0.87,
+            0.56
+          ],
+          "content": "PROOF. Because T is affine, $T ( K )$ is convex and it is compact by the continuity of T. Let y be an extreme point of $T ( K )$ . It is easy to see that $T ^ { - 1 } ( y )$ is compact and convex. Let x be an extreme point of $T ^ { - 1 } ( y )$ . It now follows that x∈ext K (Exercise 9)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.577,
+            0.87,
+            0.632
+          ],
+          "content": "Note that it is possible that there are extreme points x of K such that $T ( x )$ is not an extreme point of $T ( K )$ . For example, let $T$ be the orthogonal projection of $\\mathbb { R } ^ { 3 }$ onto $\\bar { \\mathbb { R } } ^ { 2 }$ and let $K = \\mathrm{bal}   \\mathbb{R}^3$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.649,
+            0.23,
+            0.665
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.668,
+            0.869,
+            0.703
+          ],
+          "content": "1. If $( X , \\Omega , \\mu )$ is a σ-finite measure space and $1 < p < \\infty$ , then the set of extreme points of ball $L ^ { p } ( \\mu )$ is $\\{ f \\in L ^ { p } ( \\mu ) : \\| f \\| _ { p } = 1 \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.71,
+            0.868,
+            0.747
+          ],
+          "content": "2. If $( X , \\Omega , \\mu )$ is a σ-finite measure space, the set of extreme points of ball $L ^ { 1 } ( \\mu )$ is $\\{ \\alpha \\chi _ { E } : E$ is an atom of µ, α∈F, and $| \\alpha |   =   \\mu ( E ) ^ { -   1 } \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.754,
+            0.868,
+            0.789
+          ],
+          "content": "3. If $( X , \\Omega , \\mu )$ is a σ-finite measure space, the set of extreme points of ball $L ^ { \\infty } ( \\mu )$ is $\\left\\{ f { \\in } L ^ { \\infty } ( \\mu ) { : } | f ( x ) | = 1 { \\mathrm { ~ a . e . ~ } } [ \\mu ] \\right\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.797,
+            0.868,
+            0.833
+          ],
+          "content": "4. If X is completely regular, the set of extreme points of ball $C _ { b } ( X )$ is $\\{ f   \\in   { \\cal C } _ { b } ( X ) \\}$ $| f ( x ) | = 1$ for all $x \\}$ . So ball $C _ { \\mathbb { R } } [ 0 , 1 ]$ has only two extreme points."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.84,
+            0.871,
+            0.925
+          ],
+          "content": "5. Let X be a totally disconnected compact space. (That is, X is compact and if $x   \\in   X$ and U is an neighborhood of x, then there is a subset V of X that is both open and closed and such that $x   \\in   { \\pmb V }   \\subseteq   { \\pmb U }$ . The Cantor set is an example of such a space.) Show that ball $C ( X )$ is the norm closure of the convex hull of its extreme points. (If $\\mathbf { F } = \\mathbf { C } ,$ the result is true for all compact Hausdorff spaces X (Phelps"
+        }
+      ]
+    },
+    {
+      "page_idx": 159,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.605,
+            0.073
+          ],
+          "content": "§8. An Application: The Stone-Weierstrass Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.836,
+            0.058,
+            0.871,
+            0.072
+          ],
+          "content": "145"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.1,
+            0.871,
+            0.136
+          ],
+          "continues_prev": true,
+          "content": "[1965]). If $\\mathbf { F }   =   \\mathbf { R }$ , then this characterizes totally disconnected compact spaces (Goodner [1964]).)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.143,
+            0.854,
+            0.162
+          ],
+          "content": "6. Show that ball $l ^ { 1 }$ is the norm closure of the convex hull of its extreme points."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.169,
+            0.871,
+            0.203
+          ],
+          "content": "7. Show that if X is locally compact but not compact, then ball $C _ { 0 } ( X )$ has no extreme points."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.212,
+            0.87,
+            0.248
+          ],
+          "content": "8. If $\\mathcal { X }$ is a LCS and $K _ { 1 } , \\ldots , K _ { n }$ are compact convex subsets of $\\mathcal { X } ,$ then $\\overline{\\mathrm{co}}(K_1 \\cup \\cdots \\cup K_n) = \\mathrm{co}(K_1 \\cup \\cdots \\cup K_n)$ and this convex hull is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.255,
+            0.871,
+            0.291
+          ],
+          "content": "9. Let K be convex and let $T \\colon K   \\to   { \\mathcal { Y } }$ be an affine map. If y is an extreme point of $T ( K )$ and x is an extreme point of $T ^ { -   1 } ( y )$ , then x is an extreme point of K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.297,
+            0.871,
+            0.366
+          ],
+          "content": "10. If ª is a Hilbert space and either T or $T ^ { * }$ is an isometry, show that T is an extreme point of the closed unit ball of $\\mathcal { B } ( \\mathcal { H } )$ (The converse of this is also true, but it may be hard unless you use the Polar Decomposition of operators (VIII.3.11).)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.399,
+            0.73,
+            0.446
+          ],
+          "level": 2,
+          "content": "§8. An Application: The Stone-Weierstrass Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.464,
+            0.869,
+            0.506
+          ],
+          "content": "If $f \\colon X   \\to   \\mathbb { C }$ is a function, then $\\bar { f }$ denotes the function from X into C whose value at each x is the complex conjugate of $f(x), \\widehat{f(x)}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.522,
+            0.869,
+            0.56
+          ],
+          "content": "8.1. The Stone-Weierstrass Theorem. If X is compact and  is a closed subalgebra of C(X) such that:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.569,
+            0.226,
+            0.586
+          ],
+          "content": "(a) $1 \\in \\mathcal { A } ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.587,
+            0.797,
+            0.606
+          ],
+          "content": "(b) ${ \\it i f ~ } x , y { \\in } X$ and $x \\neq y ,$ then there is an f in $\\varkappa$ such that $f(x) \\neq f(y);$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.606,
+            0.357,
+            0.623
+          ],
+          "content": "(c) ${ \\it i f } \\; f { \\in } { \\mathcal { A } } ,$ then $\\bar { f } \\in \\mathcal { A } ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.625,
+            0.319,
+            0.641
+          ],
+          "content": "then ${ \\mathcal { A } } = C ( X )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.657,
+            0.87,
+            0.713
+          ],
+          "content": "If C(X) is the algebra of continuous functions from X into $\\mathbf { R } ,$ then condition (c) is not needed. Also, an algebra in $C ( X )$ that has property (b) is said to separate the points of X (see Exercise 1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.712,
+            0.869,
+            0.749
+          ],
+          "content": "The proof of this result that will be presented here makes use of the Krein-Milman Theorem and is due to L. de Branges [1959]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.757,
+            0.871,
+            0.833
+          ],
+          "content": "PROOF OF THE STONE-WEIERSTRASS THEOREM. To prove the theorem it suffices to show that $\\mathcal { A } ^ { \\perp } = ( 0 )$ (III.6.14). Suppose $\\mathcal { A } ^ { \\perp } \\neq ( 0 )$ . By Alaoglu's Theorem, ball $\\alpha ^ { \\perp }$ is weak\\* compact. By the Krein-Milman Theorem, there is an extreme point $\\mu$ of ball $\\mathcal { A } ^ { \\perp }$ . Let K = the support of $\\mu .$ That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.839,
+            0.699,
+            0.86
+          ],
+          "content": "K = X \\setminus \\bigcup \\{ V \\colon V { \\mathrm { ~ i s ~ o p e n ~ a n d ~ } } | \\mu | ( V ) = 0 \\} .",
+          "image_source": "images/page_159_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.867,
+            0.869,
+            0.923
+          ],
+          "content": "Hence $| \\mu | ( X \\backslash K ) = 0$ and $\\int f d \\mu = \\int _ { K } f d \\mu$ for all continuous functions $f$ on X. Since $\\mathcal { A } ^ { \\perp } \\neq ( 0 )$ $\\| \\mu \\| = 1$ and $K \\neq \\bigtriangleup$ . Fix $x _ { 0 }$ in $K .$ It will be shown that $K = \\left\\{ x _ { 0 } \\right\\}$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 152,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 153,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 154,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 155,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 156,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 157,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 158,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 159,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

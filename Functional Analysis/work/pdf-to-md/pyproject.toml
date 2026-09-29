@@ -1,0 +1,23 @@
+[project]
+name = "functional-analysis-pdf-to-md"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pymupdf>=1.28,<2",
+    "openai>=2,<3",
+    "mineru[torch]>=4,<5",
+    "torch>=2.7,<3",
+    "torchvision>=0.22,<1",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

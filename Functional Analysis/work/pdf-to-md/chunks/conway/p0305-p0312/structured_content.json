@@ -1,0 +1,1293 @@
+{
+  "pages": [
+    {
+      "page_idx": 304,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.129,
+            0.058,
+            0.165,
+            0.073
+          ],
+          "content": "290"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.503,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.102,
+            0.867,
+            0.155
+          ],
+          "content": "10. Give an example of two normal operators M and N such that $W ^ { * } ( M \\oplus N ) =$ $W ^ { * } ( M ) \\oplus W ^ { * } ( N )$ but $C ^ { * } ( M \\oplus N ) \\neq C ^ { * } ( M ) \\oplus C ^ { * } ( N )$ . In fact, find M and N such that $W ^ { * } ( M \\oplus N )$ splits, but $\\sigma ( M ) = \\sigma ( N )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.162,
+            0.87,
+            0.214
+          ],
+          "content": "11. If U is the bilateral shift and V is any unitary operator, show that $W ^ { * } ( U \\oplus V ) = W ^ { * } ( U ) \\oplus W ^ { * } ( V )$ if and only if V has a spectral measure that is singular to arc length on ∂D. (See Exercise 3.7.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.221,
+            0.868,
+            0.273
+          ],
+          "content": "12. If $\\alpha$ is an abelian von Neumann algebra on a separable space, show that there is a compactly supported measure $\\mu$ on R such that $\\varkappa$ is \\*-isomorphic to $L ^ { \\infty } ( \\mu )$ (Hint: Use Exercise 7.7.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.28,
+            0.87,
+            0.367
+          ],
+          "content": "13. (This exercise assumes a knowledge of Exercise 2.21.) Let $N = \\int z   d E ( z )$ be a normal operator with scalar-valued spectral measure $\\mu$ and define α: $\\mathcal { B } _ { 1 } ( \\mathcal { H } ) \\to L ^ { 1 } ( \\mu )$ by 0 $\\iota ( T ) ( \\Delta ) = \\mathrm { t r } ( T E ( \\Delta ) )$ . Show that α is a surjective contraction. What is $\\alpha ^ { * } ? [ L ^ { 1 } ( \\mu )$ is identified, via the Radon-Nikodym Theorem, with the set of complex-valued measures that are absolutely continuous with respect to $\\mu . ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.374,
+            0.871,
+            0.443
+          ],
+          "content": "14. Let π: $\\mathcal { B } ( \\mathcal { H } ) \\rightarrow \\mathcal { B } ( \\mathcal { H } ) / \\mathcal { B } _ { 0 } ( \\mathcal { H } )$ be the natural map and let $A \\in \\mathcal { B } ( \\mathcal { H } )$ (a) If $\\pi ( A )$ hermitian, show that there is a hermitian operator B such that $A - B$ is compact. (b) If $\\pi ( A )$ is positive, show that there is a positive operator B such that $A - B$ is compact. (See Exercise XI.3.14.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.451,
+            0.871,
+            0.502
+          ],
+          "content": "15. (L.G. Brown) If $\\pi : \\mathcal { B } ( \\mathcal { H } ) \\to \\mathcal { B } ( \\mathcal { H } ) / \\mathcal { B } _ { 0 } ( \\mathcal { H } )$ is the natural map and A and B are hermitian operators such that π $(A) \\leqslant 0 \\leqslant \\pi(B)$ , then there is a hermitian compact operator K such that $A \\leqslant K \\leqslant B$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.555,
+            0.776,
+            0.58
+          ],
+          "level": 2,
+          "content": "§9. Invariant Subspaces for Normal Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.595,
+            0.842,
+            0.614
+          ],
+          "content": "Remember that we continue to assume that all Hilbert spaces are separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.614,
+            0.871,
+            0.684
+          ],
+          "content": "Every normal operator on a Hilbert space of dimension at least 2 has a nontrivial invariant subspace. This is an easy consequence of the Spectral Theorem. Indeed, if $N = \\int z   d E ( z )$ $E ( \\Delta ) \\mathcal { H }$ is a reducing subspace for every Borel set ∆."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.685,
+            0.871,
+            0.779
+          ],
+          "content": "If $A \\in \\mathcal { B } ( \\mathcal { H } ) , \\mathcal { M }$ is a linear subspace of $\\mathcal { H }$ , and $P$ is the orthogonal projection of $\\mathcal { H }$ onto $\\mathcal { M } _ { 1 }$ then $\\mathcal { M }$ reduces A if and only if $P \\in \\{ A \\} ^ { \\prime }$ . Also, M ∈Lat A (= the lattice of invariant subspaces for $A )$ if and only if $AP = PAP$ Since the spectral projections of a normal operator belong to $W ^ { * } ( N )$ , they are even more than reducing."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.796,
+            0.871,
+            0.835
+          ],
+          "content": "9.1. Definition. An operator A is reductive if every invariant subspace for A reduces A. Equivalently, A is reductive if and only if Lat ${ \\pmb { A } } \\subseteq \\operatorname { \\bf L a t } { \\pmb { A } } ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.851,
+            0.873,
+            0.925
+          ],
+          "content": "Thus, every self-adjoint operator is reductive. Every normal operator on a finite dimensional space is reductive. More generally, every normal compact operator is reductive (Andô [1963]). However, the bilateral shift is not reductive. Indeed, if $U$ is the bilateral shift on $l ^ { 2 } ( \\mathbb { Z } ) , \\mathcal { H } = \\left\\{ f   \\in   l ^ { 2 } ( \\mathbb { Z } ) :   f ( n ) = 0 \\right.$"
+        }
+      ]
+    },
+    {
+      "page_idx": 305,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.127,
+            0.056,
+            0.546,
+            0.073
+          ],
+          "content": "§9. Invariant Subspaces for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.831,
+            0.056,
+            0.866,
+            0.071
+          ],
+          "content": "291"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.1,
+            0.867,
+            0.194
+          ],
+          "content": "if $$n \\mathop { < } 0 \\} { \\in } \\mathbf { L a t } \\: U ,$$ but ${ \\mathcal { H } } { \\notin } \\operatorname { L a t } U ^ { * }$ Wermer [1952] first studied reductive normal operators and characterized the reductive unitary operators. A first step towards characterizing the reductive normal operators will be taken here. The final step has been taken but it will not be viewed in this book. The result is due to Sarason [1972]. Also see Conway [1981], §VII.5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.212,
+            0.866,
+            0.251
+          ],
+          "content": "9.2. Definition. If $\\mu$ is a compactly supported measure on $\\mathbb { C } ,   P ^ { \\infty } ( \\mu )$ denotes the weak\\* closure of the polynomials in $L ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.269,
+            0.866,
+            0.305
+          ],
+          "content": "Because the support of $\\mu$ is compact, every polynomial, when restricted to that support, belongs to $L ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.305,
+            0.867,
+            0.38
+          ],
+          "content": "For any operator $A ,$ let $W ( A )$ denote the WOT closed subalgebra of $\\mathcal { B } ( \\mathcal { H } )$ generated by $A ;$ that is, $W ( A )$ is the WOT closure in $\\mathcal { B } ( \\mathcal { H } )$ of the polynomials in A. The next result is an immediate consequence of The Functional Calculus for Normal Operators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.4,
+            0.87,
+            0.476
+          ],
+          "content": "9.3. Theorem. If N is a normal operator and $\\mu$ is a scalar-valued spectral measure for N, then the functional calculus, when restricted to $P ^ { \\infty } ( \\mu ) ,$ is an isometric isomorphism ρ: $P ^ { \\infty } ( \\mu )   \\rightarrow   W ( N )$ and a weak\\*-WOT homeomorphism. Also, $\\rho ( z ) = N$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.495,
+            0.869,
+            0.534
+          ],
+          "content": "9.4. Definition. An operator A is reflexive if whenever $B \\in \\mathcal { B } ( \\mathcal { H } )$ and Lat $A \\subseteq \\operatorname { L a t } B ,$ then $B   \\in   W ( A )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.551,
+            0.871,
+            0.626
+          ],
+          "content": "It is easy to see that if $B   \\in   W ( A )$ , then Lat $A \\subseteq \\operatorname { L a t } B$ (Exercise). An operator is reflexive precisely when it has sufficiently many invariant subspaces to characterize $W ( A )$ . For a survey of reflexive operators and some related topics, see Radjavi and Rosenthal [1973]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.643,
+            0.79,
+            0.662
+          ],
+          "level": 2,
+          "content": "9.5. Theorem. (Sarason [1966].). Every normal operator is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.669,
+            0.873,
+            0.76
+          ],
+          "content": "PRooF. Suppose N is normal and Lat $N \\subseteq \\operatorname { L a t } A .$ If P is a projection in $\\{ N \\} ^ { \\prime }$ then $P \\mathcal { H }$ and $( P \\mathcal { H } ) ^ { \\perp } \\in \\mathrm { L a t }   N \\subseteq \\mathrm { L a t }   A ,$ so $AP = PA$ . By Corollary 6.5, $A   \\in   \\mathbb { W } ^ { * } ( N )$ . Let $\\mu$ be a scalar-valued spectral measure for N. By Theorem 8.10, there is a $\\phi$ in $L ^ { \\infty } ( \\mu )$ such that $A = \\phi ( N )$ . By Theorem 9.3, it must be shown that $\\phi   \\in   P ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.76,
+            0.873,
+            0.891
+          ],
+          "content": "Now let's focus our attention on a special case. Assume that N is \\*-cyclic; thus $N = N _ { \\mu ^ { \\prime } }$ Suppose $f   \\in   L ^ { 1 } ( \\mu )$ and $\\int f \\psi   d \\mu = 0$ for every $\\psi$ in $P ^ { \\infty } ( \\mu )$ . If it can be shown that $\\int f \\phi   d \\mu = 0 ,$ ,then the Hahn-Banach Theorem implies that $\\phi   \\in   P ^ { \\infty } ( \\mu )$ . This is the strategy we follow. Let $f = g { \\bar { h } }$ for some $g , h$ in $L ^ { 2 } ( \\mu )$ Put $\\mathcal { M } = \\vee \\left\\{ z ^ { k } g \\colon k \\geqslant 0 \\right\\}$ Clearly $\\mathcal { M }   \\in   \\mathrm { L a t }   N ,$ so $\\mathcal { M } \\in \\mathbf { L }$ at $A = \\mathrm{Lat} \\phi(N) =$ Lat $M _ { \\phi }$ . Hence $\\phi g \\in \\mathcal { M }$ . But $0 = \\int z ^ { k } f d \\mu = \\int z ^ { k } g \\bar { h } d \\mu = \\langle N ^ { k } g , h \\rangle$ for all $k \\geqslant 0 ;$ hence $h \\bot \\mathcal { M }$ Thus $0 = \\langle \\phi g , h \\rangle = \\int \\phi g \\bar { h } d \\mu = \\int \\phi f d \\mu ,$ and $\\phi   \\in   P ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.89,
+            0.874,
+            0.927
+          ],
+          "content": "Now we return to the general case. By (7.9) and (8.9) there is a separating vector $e$ for $W ^ { * } ( N )$ such that $\\mu ( \\Delta ) = \\|   E ( \\Delta ) e   \\| ^ {   2 }$ , where $N = \\int z   d E ( z )$ . Let"
+        }
+      ]
+    },
+    {
+      "page_idx": 306,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.169,
+            0.072
+          ],
+          "content": "292"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.507,
+            0.056,
+            0.869,
+            0.073
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.1,
+            0.869,
+            0.158
+          ],
+          "continues_prev": true,
+          "content": "$\\mathcal { H } = \\vee \\left\\{ N ^ { * k } N ^ { j } e \\colon k , j \\geqslant 0 \\right\\}$ . Clearly $\\mathcal { H }$ reduces N and $N | \\mathcal { H }$ is \\*-cyclic. Hence $\\mathcal { H }$ reduces A and $A   |   \\mathcal { H } = \\phi ( N   |   \\mathcal { H } )$ . By the preceding paragraph $\\phi   \\in   P ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.175,
+            0.87,
+            0.213
+          ],
+          "content": "An immediate consequence of the preceding theorem is the first step in the characterization of reductive normal operators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.231,
+            0.871,
+            0.269
+          ],
+          "content": "9.6. Corollary. If N is a normal operator and µ is a scalar-valued spectral measure for N, then N is reductive if and only if $P ^ { \\infty } ( \\mu ) = L ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.276,
+            0.871,
+            0.314
+          ],
+          "content": "PROOF. If $\\mathcal { M }   \\in   \\mathrm { L a t }   N .$ then ${ \\mathcal { M } }   \\in   \\operatorname { L a t } \\phi ( N )$ for every $\\phi$ in $P ^ { \\infty } ( \\mu ) .$ So if $P ^ { \\infty } ( \\mu ) = L ^ { \\infty } ( \\mu ) ,   \\bar { z }   \\in   P ^ { \\infty } ( \\mu )$ and, hence, $\\mathcal { M }   \\in   \\mathrm { L a t }   N ^ { * }$ whenever $\\mathcal { M }   \\in   \\mathrm { L a t }   N$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.314,
+            0.871,
+            0.388
+          ],
+          "content": "Now suppose N is reductive. This means that Lat $N \\subseteq \\operatorname { L a t } N ^ { * }$ . By the preceding theorem, this implies $N ^ { * }   \\in   \\mathsf { W } ( N ) ;$ ;equivalently, $\\bar { z } { \\in } P ^ { \\infty } ( \\mu )$ . Since $P ^ { \\infty } ( \\mu )$ is an algebra, every polynomial in z and ž belongs to $P ^ { \\infty } ( \\mu )$ . By taking weak\\* limits this implies that $P ^ { \\infty } ( \\mu ) = L ^ { \\infty } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.405,
+            0.871,
+            0.479
+          ],
+          "content": "The preceding corollary fails to be a good characterization of reductive normal operators since it only says that one difficult problem is equivalent to another. A way is needed to determine when $P ^ { \\infty } ( \\mu ) = L ^ { \\infty } ( \\mu )$ .This is what was done in Sarason [1972]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.479,
+            0.872,
+            0.571
+          ],
+          "content": "Are there any reductive operators that are not normal? This natural and seemingly innocent question has much more to it than meets the eye. Dyer, Pedersen, and Porcelli [1972] have shown that this question has an affirmative answer if and only if every operator on a Hilbert space has a nontrivial invariant subspace."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.588,
+            0.233,
+            0.605
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.607,
+            0.871,
+            0.64
+          ],
+          "content": "1. (Andô [1963].) Use Corollary 9.6 to show that every compact normal operator is reductive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.649,
+            0.793,
+            0.667
+          ],
+          "content": "2. Determine all of the invariant subspaces of a compact normal operator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.674,
+            0.87,
+            0.709
+          ],
+          "content": "3. (Andô [1963].) Show that every reductive compact operator is normal. (Also see Rosenthal [1968].)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.717,
+            0.75,
+            0.735
+          ],
+          "content": "4. Show that an operator A is reductive if and only if Lat $A = \\mathrm{Lat} A^*$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.743,
+            0.871,
+            0.795
+          ],
+          "content": "5. Let N be a normal operator on a Hilbert space $\\mathcal { H } ,$ let  be an invariant subspace for N, and let $S = N | \\mathcal { R }$ Show that S is normal if and only if $\\mathcal { R }$ is a reducing subspace for N."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.803,
+            0.871,
+            0.871
+          ],
+          "content": "6. Let $\\mu$ be a compactly supported regular Borel measure on C and let $P ^ { 2 } ( \\mu )$ denote the closure in $L ^ { 2 } ( \\mu )$ of the analytic polynomials; that is, $P ^ { 2 } ( \\mu )$ is the closed linear span of $\\left\\{ z ^ { n } : n \\geqslant 0 \\right\\}$ . Show that $P ^ { 2 } ( \\mu )$ is invariant for $N _ { \\mu }$ and that $N _ { \\mu } | P ^ { 2 } ( \\mu )$ is normal if and only if $P ^ { 2 } ( \\mu ) = L ^ { 2 } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.878,
+            0.869,
+            0.912
+          ],
+          "content": "7. With the notation of Exercise 6, show that if  is a reducing subspace for $N _ { \\mu }$ and $P ^ { 2 } ( \\mu ) \\subseteq { \\mathcal { R } }$ , then $\\mathcal { R } = L ^ { 2 } ( \\mu )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 307,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.554,
+            0.073
+          ],
+          "content": "§10. Multiplicity Theory for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.868,
+            0.07
+          ],
+          "content": "293"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.096,
+            0.794,
+            0.144
+          ],
+          "level": 2,
+          "content": "§10. Multiplicity Theory for Normal Operators: A Complete Set of Unitary Invariants"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.162,
+            0.818,
+            0.179
+          ],
+          "content": "Throughout this section only separable Hilbert spaces are considered."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.18,
+            0.871,
+            0.328
+          ],
+          "content": "When are two normal operators unitarily equivalent? The answer to this question must be given in the following way: to each normal operator we must attach a collection of objects such that two normal operators are unitarily equivalent if and only if the two collections are equal (or equivalent). Furthermore, it should be easier to verify that these collections are equivalent than to verify that the normal operators are equivalent. This is contained in the following result due to Hellinger [1907]. Note that it generalizes Theorem 3.6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.345,
+            0.871,
+            0.384
+          ],
+          "content": "10.1. Theorem. (a) If N is a normal operator, then there is a sequence (possibly finite) of measures $\\{ \\mu _ { n } \\}$ on C such that $\\mu _ { n + 1 } \\ll \\mu _ { n }$ for all n and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.397,
+            0.392,
+            0.602,
+            0.412
+          ],
+          "content": "N \\cong N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } \\oplus \\cdots .",
+          "image_source": "images/page_307_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.419,
+            0.871,
+            0.458
+          ],
+          "content": "(b) If N and $\\{ \\mu _ { n } \\}$ are as in (a) and $M \\cong N _ { \\mathfrak { v } _ { 1 } } \\oplus N _ { \\mathfrak { v } _ { 2 } } \\oplus \\cdots$ , where $\\mathcal { V } _ { n \\; + \\; 1 } \\ll \\mathcal { V } _ { n }$ for all n, then $N \\cong M$ if and only $if \\left[ \\mu_{n} \\right] = \\left[ \\nu_{n} \\right]$ for all n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.475,
+            0.872,
+            0.547
+          ],
+          "content": "The proof of this theorem requires several lemmas. Before beginning, we will examine a couple of false starts for a proof. This will cause us to arrive at the correct strategy for a proof and show us the necessity for some of the lemmas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.548,
+            0.872,
+            0.71
+          ],
+          "content": "Let $N = \\int z   d E ( z )$ . If $e \\in \\mathcal { H }$ and $\\mathcal { H } _ { e } = \\mathrm { c l } \\left[ W ^ { * } ( N ) e \\right]$ , then $N | \\mathcal { H } _ { e }$ is a \\*-cyclic normal operator. An application of Zorn's Lemma and the separability of $\\mathcal { H }$ produces a maximal sequence $\\{ e _ { n } \\}$ in $\\mathcal { H }$ such that $\\mathcal { H } _ { e _ { n } } \\bot \\mathcal { H } _ { e _ { m } }$ . By the maximality of $\\{ e _ { n } \\}$ $\\mathcal { H } = \\oplus _ { n } \\mathcal { H } _ { e _ { n } }$ If $N_{n}=N|\\mathcal{H}_{e_{n}}, \\quad N_{n}=N_{\\mu_{n}}$ where $\\mu _ { n } ( \\Delta ) = \\| E ( \\Delta ) e _ { n } \\| ^ { 2 } ;$ thus $N \\cong \\oplus _ { n } N _ { \\mu _ { n } } .$ The trouble here is that $\\mu _ { n + 1 }$ is not necessarily absolutely continuous with respect to $\\mu _ { n }$ Just using Zorn's Lemma to produce the sequence $\\left\\{ \\mu _ { n } \\right\\}$ eliminates any possibility of having $\\{ \\mu _ { n } \\}$ canonical and producing the unitary invariant desired for normal operators. Let's try again."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.711,
+            0.873,
+            0.916
+          ],
+          "content": "Note that if $\\mu _ { n + 1 } \\ll \\mu _ { n }$ for all n in (10.2), then $\\mu _ { n }   \\ll   \\mu _ { 1 }$ for all n. This in turn implies that $\\mu _ { 1 }$ is a scalar-valued spectral measure for N. Using Lemma 8.6 we are thus led to choose $\\mu _ { 1 }$ as follows. Let $e _ { 1 }$ be a separating vector for $W ^ { * } ( N ) ,$ ; this exists by Corollary 7.9 and the separability of $\\mathcal { H }$ . Put $\\mu _ { 1 } ( \\Delta ) = \\| E ( \\Delta ) e _ { 1 } \\| ^ { 2 }$ . If $\\mathcal { H } _ { 1 } = \\mathrm { c l } \\left[ W ^ { * } ( N ) e _ { 1 } \\right]$ . then $N | \\mathcal { H } _ { 1 } \\cong N _ { \\mu _ { 1 } }$ . Let $N _ { 2 } \\equiv$ $N | \\mathcal { H } _ { 1 } ^ { \\perp } ;$ sO $N _ { z }$ is normal. A pair of easy exercises shows that the spectral measure $E _ { 2 }$ for $N _ { z }$ is given by $E _ { 2 } ( \\Delta ) = E ( \\Delta ) | \\mathcal { H } _ { 1 } ^ { \\perp }$ and $W ^ { * } ( N _ { 2 } ) = W ^ { * } ( \\bar { N } ) | \\mathcal { H } _ { 1 } ^ { \\perp }$ $( \\equiv \\{ A \\in \\mathcal { B } ( \\mathcal { H } _ { 1 } ^ { \\perp } ) : A = T | \\mathcal { H } _ { 1 } ^ { \\perp }$ for some T in $W ^ { * } ( N ) \\} )$ . Let $e _ { 2 }$ be a separating vector for $W ^ { * } ( N _ { 2 } )$ and put $\\mu _ { 2 } ( \\Delta ) = \\| E _ { 2 } ( \\Delta ) e _ { 2 } \\| ^ { 2 }$ . By the easy exercises above, $\\mu _ { 2 } ( \\Delta ) = \\| E ( \\Delta ) e _ { 2 } \\| ^ { 2 }$ , so that $\\mu _ { 2 } \\ll \\mu _ { 1 }$ , and $\\mathcal { H } _ { 2 } \\equiv \\mathrm { c l } [ W ^ { * } ( N ) e _ { 2 } ] = \\mathrm { c l } [ W ^ { * } ( N _ { 2 } ) e _ { 2 } ] \\leqslant$ $\\mathcal { H } _ { 1 } ^ { \\perp }$ . Also, $N | \\mathcal { H } _ { 2 } \\cong N _ { \\mu _ { 2 } }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 308,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.129,
+            0.057,
+            0.166,
+            0.072
+          ],
+          "content": "294"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.504,
+            0.056,
+            0.867,
+            0.072
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.869,
+            0.232
+          ],
+          "content": "Continuing in this way produces a sequence of vectors $\\{ e _ { n } \\}$ such that if $\\mathcal { H } _ { n } = \\mathrm { c l } \\left[ W ^ { * } ( N ) e _ { n } \\right]$ and $\\mu _ { n } ( \\Delta ) = \\| E ( \\Delta ) e _ { n } \\| ^ { 2 }$ , then $\\mathcal { H } _ { n } \\bot \\mathcal { H } _ { m }$ for $n \\neq m, \\mu_{n+1} \\ll \\mu_n,$ and $N | \\mathcal { H } _ { n } \\cong N _ { \\mu _ { n } }$ . The difficulty here is that $\\mathcal { H }$ is not necessarily equal to $\\Phi _ { n } \\mathcal { H } _ { n }$ so that N and $\\textcircled{m}  { } _ { n } N _ { \\mu _ { n } }$ cannot be proved to be unitarily equivalent. (Actually, N and $\\textcircled{9}  { } _ { n } N _ { \\mu _ { n } }$ are unitarily equivalent, but to show this we need the force of Theorem 10.1. See Exercise 2.) The following provides us with a look at an example to see what can go wrong."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.248,
+            0.87,
+            0.344
+          ],
+          "content": "10.3. Example. For $n \\geqslant 1$ let $\\mu _ { n }   =   \\mathbf { I }$ Lebesgue measure on $[ 0 , 1 + 2 ^ { - n } ]$ and let $\\mu _ { \\infty } = \\mathbf { I }$ ebesgue measure on [0, 1]. Put $N = \\oplus _ { n = 1 } ^ { \\infty } N _ { \\mu _ { n } } \\oplus N _ { \\mu _ { x } }$ If the process of the preceding paragraph is followed, it might be that vectors $\\{ e _ { n } \\}$ that are chosen are the vectors with a 1 in the $L ^ { 2 } ( \\mu _ { n } )$ coordinate and zeros elsewhere. Thus the spaces $\\{ \\mathcal { H } _ { n } \\}$ are precisely the spaces $\\{ L ^ { 2 } ( \\mu _ { n } ) \\}$ and $[ \\oplus _ { 1 } ^ { \\infty } \\mathcal { H } _ { n } ] ^ { \\perp } = L ^ { 2 } ( \\mu _ { \\infty } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.359,
+            0.867,
+            0.399
+          ],
+          "content": "(Nevertheless, $N \\cong \\oplus _ { 1 } ^ { \\infty } N _ { \\mu _ { n } }$ . Indeed, let $v _ { n } = \\mu _ { n } [ 1 , 1 + 2 ^ { - n } ] ;$ sO $\\mu _ { n } =$ $\\mu _ { \\infty } + v _ { n }$ and $\\mu _ { \\infty } \\bot \\nu _ { n ^ { * } }$ Thus $N _ { \\mu _ { n } } \\cong N _ { v _ { n } } \\oplus N _ { \\mu _ { x } }$ . Therefore"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.405,
+            0.631,
+            0.494
+          ],
+          "content": "\\begin{array} { r l } & { N = \\oplus _ { 1 } ^ { \\infty } N _ { \\mu _ { n } } \\oplus N _ { \\mu _ { x } } } \\\\ & { \\quad \\cong \\oplus _ { 1 } ^ { \\infty } N _ { \\nu _ { n } } \\oplus N _ { \\mu _ { x } } ^ { ( \\infty ) } \\oplus N _ { \\mu _ { x } } } \\\\ & { \\quad \\cong \\oplus _ { 1 } ^ { \\infty } N _ { \\nu _ { n } } \\oplus N _ { \\mu _ { x } } ^ { ( \\infty ) } } \\\\ & { \\quad \\cong \\oplus _ { 1 } ^ { \\infty } N _ { \\mu _ { n } } . ) } \\end{array}",
+          "image_source": "images/page_308_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.501,
+            0.872,
+            0.648
+          ],
+          "content": "After an examination of the statement of Theorem 10.1, it becomes clear that some procedure like the one outlined in the paragraph preceding Example 10.3 should be used. It only becomes necessary to modify this procedure so that the vectors $\\{ e _ { n } \\}$ can be chosen in such a way that ${ \\mathcal { H } } = \\oplus _ { 1 } ^ { \\infty } { \\mathcal { H } } _ { n } .$ For example, let, as above, $e _ { 1 }$ be a separating vector for $W ^ { * } ( N )$ and let $\\{ f _ { n } \\}$ be an orthonormal basis for $\\mathcal { H }$ such that $f _ { 1 } = e _ { 1 }$ . We now want to choose the vectors $\\{ e _ { n } \\}$ such that $\\{ f _ { 1 } , \\ldots , f _ { n } \\} \\subseteq { \\mathcal { H } } _ { 1 } \\oplus \\cdots \\oplus { \\mathcal { H } } _ { n }$ . In this way we will meet success. The vital link here is the next result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.665,
+            0.872,
+            0.703
+          ],
+          "content": "10.4. Proposition. If N is a normal operator on $\\mathcal { H }$ and $e \\in \\mathcal { H }$ , then there is a separating vector $e _ { 0 }$ for $W ^ { * } ( N )$ such that e∈cl $[ W ^ { * } ( N ) e _ { 0 } ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.71,
+            0.872,
+            0.766
+          ],
+          "content": "PROOF. Let $f _ { 0 }$ be any separating vector for $W ^ { * } ( N )$ , let E be the spectral measure for N, let $\\mu ( \\Delta ) = \\| E ( \\Delta ) f _ { 0 } \\| ^ { 2 }$ , and put $\\mathcal { G }   =   \\mathrm { c l }   [ W ^ { * } ( N ) f _ { 0 } ]$ . Write $e   =   g _ { 1 } + h _ { 1 }$ , where $g _ { 1 } \\in \\mathcal { G }$ and $h _ { 1 } \\in \\mathcal { G } ^ { \\perp }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.765,
+            0.873,
+            0.894
+          ],
+          "content": "Let $\\eta ( \\Delta ) = \\| E ( \\Delta ) h _ { 1 } \\| ^ { 2 }$ and let $\\mathcal { L } = \\operatorname { c l } [ W ^ { * } ( N ) h _ { 1 } ]$ . Hence $\\eta \\ll \\mu ,$ N is reduced by both $\\mathcal { L }$ and $\\mathcal { G } ,$ and $\\mathcal { L } \\bot \\mathcal { G }$ Moreover, $N | { \\mathcal { G } } \\cong N _ { \\mu }$ and $N | { \\mathcal { L } } \\cong N _ { \\eta ^ { * } }$ Now the fact that $\\eta   \\ll   \\mu$ implies that there is a Borel set $\\Delta$ such that $[ \\eta ] = [ \\mu | \\Delta ]$ (Why?) Hence $N \\mid \\mathcal { L } \\cong N _ { v } { \\mathrm { ~ i f ~ } } v = \\mu \\mid \\Delta$ (Theorem 3.6). Let $U : { \\mathcal { G } } \\oplus { \\mathcal { L } } \\to L ^ { 2 } ( \\mu )$ $L ^ { 2 } ( \\mathfrak { v } )$ be an isomorphism such that $U ( ( 0 ) \\oplus { \\mathcal { L } } ) \\subseteq ( 0 ) \\oplus L ^ { 2 } ( { \\mathfrak { v } } )$ and $U ( N | { \\mathcal { G } } \\oplus { \\mathcal { L } } )$ $U ^ { - 1 } = N _ { \\mu } \\oplus N _ { \\nu }$ . Since $e = g _ { 1 } + h _ { 1 } \\in { \\mathcal { G } } \\oplus { \\mathcal { L } }$ , let $U e = g \\oplus h .$ Because $h _ { 1 }$ is a \\*-cyclic vector for $N \\left[ \\mathcal { L } ,   h ( z ) \\neq 0 \\mathrm { ~ a . e . ~ } [ v ] \\right]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.893,
+            0.871,
+            0.912
+          ],
+          "content": "This reduces the proof of this proposition to proving the next lemma"
+        }
+      ]
+    },
+    {
+      "page_idx": 309,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.554,
+            0.073
+          ],
+          "content": "§10. Multiplicity Theory for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": "295"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.101,
+            0.87,
+            0.176
+          ],
+          "content": "10.5. Lemma. Let μ be a compactly supported measure on C, ∆ a Borel subset of the support of $\\mu ,$ and put $v = \\mu | \\Delta$ If $N = N _ { \\mu } \\oplus N .$ ,on $L ^ { 2 } ( \\mu ) \\oplus L ^ { 2 } ( v )$ and $g \\oplus h { \\in } L ^ { 2 } ( \\mu ) \\oplus L ^ { 2 } ( v )$ such that $h ( z ) \\neq 0$ a.e. [v], then there is an f in $L ^ { 2 } ( \\mu )$ such that $f \\oplus h$ is a separating vector for $W ^ { * } ( N )$ and $g \\oplus h { \\in } { \\mathrm { c l } } \\left[ W ^ { * } ( N ) ( f \\oplus h ) \\right]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.183,
+            0.87,
+            0.276
+          ],
+          "content": "PROOF. Define $f ( z ) = g ( z )$ for z in ∆ and $f ( z ) = 1$ for z not in $\\Delta .$ Put ${ \\mathcal { H } } = \\operatorname { c l } [ W ^ { * } ( N ) ( f \\oplus h ) ] = \\operatorname { c l } \\{ \\phi f \\oplus$ φh: $\\phi   \\in   L ^ { \\infty } ( \\mu ) \\}$ since $\\mu$ is a scalar-valued spectral measure for N. If $\\Delta ^ { \\prime } = \\mathrm { t h e }$ complement of $\\Delta ,$ then note that $\\phi \\chi _ { \\Delta ^ { \\prime } } \\oplus 0 = \\phi \\chi _ { \\Delta ^ { \\prime } } ( f \\oplus h ) \\in \\mathcal { H }$ for all φ in $L ^ { \\infty } ( \\mu )$ .Hence $L ^ { 2 } ( \\mu | \\Delta ^ { \\prime } ) \\oplus 0 \\subseteq { \\mathcal { H } }$ . This implies that $( 1 - g ) \\chi _ { \\Delta ^ { \\prime } } \\oplus 0 \\in \\mathcal { H }$ so $g \\oplus h = f \\oplus h - ( 1 - g ) \\chi _ { \\Delta ^ { \\prime } } \\oplus 0 \\in \\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.275,
+            0.868,
+            0.349
+          ],
+          "content": "On the other hand, if $\\phi   \\in   L ^ { \\infty } ( \\mu )$ and $0 = \\phi f \\oplus \\phi h ,$ then $\\phi f = \\phi h = 0$ a.e. $[ \\mu ]$ Since $h(z) \\neq 0   a.e.   [v],   \\phi(z) = 0   a.e.   [\\mu]$ on ∆. But for z in $\\Delta ^ { \\prime } ,   f ( z ) = 1$ hence $\\phi ( z ) = 0 \\mathrm { a . e . } [ \\mu ]$ on $\\Delta ^ { \\prime }$ Thus, f ⊕ h is a separating vector for $W ^ { * } ( N )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.361,
+            0.87,
+            0.475
+          ],
+          "content": "PROOF OF THEOREM 10.1 (a): Let $e _ { 1 }$ be a separating vector for $W ^ { * } ( N )$ and let $\\{ f _ { n } \\}$ be an orthonormal basis for $\\mathcal { H }$ such that $f _ { 1 } = e _ { 1 } . \\mathrm { P u t } \\mathcal { H } _ { 1 } = \\mathrm { c l } [ W ^ { * } ( N ) e _ { 1 } ] ,$ 2 $\\mu_{1}(\\Delta) = \\|E(\\Delta)e_{1}\\|^{2}$ , and $N _ { 2 } = N | \\mathcal { H } _ { 1 } ^ { \\perp }$ . Let $f _ { 2 } ^ { \\prime } = \\mathrm { t h e }$ orthogonal projection of $f _ { 2 }$ onto $\\mathcal { H } _ { 1 } ^ { \\perp }$ . By Proposition 10.4 there is a separating vector $e _ { 2 }$ for $W ^ { * } ( N _ { 2 } )$ such that $f _ { 2 } ^ { \\prime } \\in \\mathrm { c l } \\left[ W ^ { * } ( N _ { 2 } ) e _ { 2 } \\right] \\equiv \\mathcal { H } _ { 2 }$ . Note that $\\mathcal { H } _ { 2 } = \\mathrm { c l } \\left[ W ^ { * } ( N ) e _ { 2 } \\right]$ and $\\{ f _ { 1 } , f _ { 2 } \\} \\subseteq \\mathcal { H } _ { 1 } \\oplus \\mathcal { H } _ { 2 }$ . Put $\\mu _ { 2 } ( \\Delta ) = \\| E ( \\Delta ) e _ { 2 } \\| ^ { 2 }$ . Now continue by induction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.502,
+            0.871,
+            0.739
+          ],
+          "content": "Now for part (b) of Theorem 10.1. If $[ \\mu _ { n } ] = [ v _ { n } ]$ (the notation is that of Theorem 10.1) for every n, then $N _ { \\mu _ { n } } \\cong N _ { \\nu _ { n } }$ by Theorem 3.6. Therefore $N \\cong M$ Thus it is the converse that causes difficulties. So assume that $N \\cong M$ If $M \\in \\mathcal { B } ( \\mathcal { H } ) ,   U \\colon \\mathcal { H } \\to \\mathcal { H }$ is an isomorphism such that $U N U ^ { - 1 }   =   M$ , and $e _ { 1 }$ is a separating vector for $W ^ { * } ( N )$ , then $U e _ { 1 } = f _ { 1 }$ is easily seen to be a separating vector for $W ^ { * } ( M )$ Since $\\mu _ { 1 }$ and $\\nu _ { 1 }$ are scalar-valued spectral measures for N and M, respectively, it follows that $[ \\mu _ { 1 } ] = [ v _ { 1 } ]$ ; thus $N _ { \\mu _ { 1 } } \\cong N _ { \\nu _ { 1 } }$ by Theorem 3.6. However, here is the difficulty—the isomorphism that shows that $N _ { \\mu _ { 1 } } \\cong N _ { \\nu _ { 1 } }$ may not be related to U; that is, if $\\mathcal { H } = \\oplus _ { n } \\mathcal { H } _ { n } , \\mathcal { H } = \\oplus _ { n } \\mathcal { H } _ { n }$ , where $N | \\mathcal { H } _ { n } \\cong N _ { \\mu _ { n } }$ and $M | \\mathcal { H } _ { n } \\cong N _ { v _ { n } } ,$ then $N | \\mathcal { H } _ { 1 } \\cong M | \\mathcal { H } _ { 1 }$ , but we do not know that $U \\mathcal { H } _ { 1 } = \\mathcal { H } _ { 1 }$ . Thus we want to argue that because $N \\cong M$ and $N | \\mathcal { H } _ { 1 } \\cong M | \\mathcal { H } _ { 1 } ,$ , then $N | \\mathcal { H } _ { 0 } ^ { \\perp }   \\cong   M | \\mathcal { H } _ { 1 } ^ { \\perp }$ In this way we can prove (10.1.b) by induction. This step is justified by the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.751,
+            0.87,
+            0.788
+          ],
+          "content": "10.6. Proposition. If N, A, and B are normal operators, N is $* - c y c l i c ,$ and $N \\oplus A \\cong N \\oplus B ,$ then $A \\cong B .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.796,
+            0.87,
+            0.852
+          ],
+          "content": "PROOF. Let $N   \\in   \\mathcal { B } ( \\mathcal { H } ) ,   A   \\in   \\mathcal { B } ( \\mathcal { H } _ { A } ) ,   B   \\in   \\mathcal { B } ( \\mathcal { H } _ { B } ) .$ and let $U : \\mathcal { H } \\oplus \\mathcal { H } _ { A } \\to \\mathcal { H } \\oplus \\mathcal { H } _ { B }$ be an isomorphism such that $U ( N \\oplus A ) U ^ { - 1 } = N \\oplus B$ .Now U can be written as a $2 \\times 2$ matrix,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.404,
+            0.854,
+            0.595,
+            0.898
+          ],
+          "content": "\\boldsymbol { U } = \\begin{bmatrix} \\boldsymbol { U } _ { 1 1 } & \\boldsymbol { U } _ { 1 2 } \\\\ \\boldsymbol { U } _ { 2 1 } & \\boldsymbol { U } _ { 2 2 } \\end{bmatrix},",
+          "image_source": "images/page_309_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.906,
+            0.87,
+            0.927
+          ],
+          "content": "where $U_{11}: \\mathcal{X} \\to \\mathcal{X}, \\quad U_{12}: \\mathcal{H}_{A} \\to \\mathcal{K}, \\quad U_{21}: \\mathcal{K} \\to \\mathcal{H}_{B}, \\quad U_{22}: \\mathcal{H}_{A} \\to \\mathcal{H}_{B}.$"
+        }
+      ]
+    },
+    {
+      "page_idx": 310,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": "296"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.508,
+            0.056,
+            0.871,
+            0.074
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.1,
+            0.451,
+            0.119
+          ],
+          "content": "Expressing N ⊕ A and N ⊕ B as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.126,
+            0.633,
+            0.17
+          ],
+          "content": "\\left[ \\begin{matrix} { N } & { 0 } \\\\ { 0 } & { A } \\\\ \\end{matrix} \\right] \\quad \\mathrm { a n d } \\quad \\left[ \\begin{matrix} { N } & { 0 } \\\\ { 0 } & { B } \\\\ \\end{matrix} \\right]",
+          "image_source": "images/page_310_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.178,
+            0.692,
+            0.198
+          ],
+          "content": "respectively, the equation $U ( N \\oplus A ) = ( N \\oplus B ) U$ becomes"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.128,
+            0.204,
+            0.686,
+            0.249
+          ],
+          "content": "\\begin{bmatrix} \\boldsymbol{U}_{11} \\boldsymbol{N} & \\boldsymbol{U}_{12} \\boldsymbol{A} \\\\ \\boldsymbol{U}_{21} \\boldsymbol{N} & \\boldsymbol{U}_{22} \\boldsymbol{A} \\end{bmatrix} = \\begin{bmatrix} \\boldsymbol{N} \\boldsymbol{U}_{11} & \\boldsymbol{N} \\boldsymbol{U}_{12} \\\\ \\boldsymbol{B} \\boldsymbol{U}_{21} & \\boldsymbol{B} \\boldsymbol{U}_{22} \\end{bmatrix}.\\tag{10.7}",
+          "image_source": "images/page_310_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.256,
+            0.561,
+            0.275
+          ],
+          "content": "Similarly, $U ( N \\oplus A ) ^ { * } = ( N \\oplus B ) ^ { * } U$ becomes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.293,
+            0.186,
+            0.311
+          ],
+          "content": "10.7\\*"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289,
+            0.281,
+            0.708,
+            0.327
+          ],
+          "content": "\\begin{bmatrix} \\boldsymbol { U } _ { 1 1 } \\boldsymbol { N } ^ { * } & \\boldsymbol { U } _ { 1 2 } \\boldsymbol { A } ^ { * } \\\\ \\boldsymbol { U } _ { 2 1 } \\boldsymbol { N } ^ { * } & \\boldsymbol { U } _ { 2 2 } \\boldsymbol { A } ^ { * } \\end{bmatrix} = \\begin{bmatrix} \\boldsymbol { N } ^ { * } \\boldsymbol { U } _ { 1 1 } & \\boldsymbol { N } ^ { * } \\boldsymbol { U } _ { 1 2 } \\\\ \\boldsymbol { B } ^ { * } \\boldsymbol { U } _ { 2 1 } & \\boldsymbol { B } ^ { * } \\boldsymbol { U } _ { 2 2 } \\end{bmatrix} .",
+          "image_source": "images/page_310_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.334,
+            0.871,
+            0.371
+          ],
+          "content": "Parts of the preceding equations will be referred to as $( 1 0 . 7 ) _ { i j }$ and $( 1 0 . 7 ) _ { i j } ^ { * } ,$ $i , j   =   1 , 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.371,
+            0.872,
+            0.409
+          ],
+          "content": "An examination of the equation $U ^ { * } U = 1$ and $U U ^ { * } = 1$ , written in matrix form, yields the equations"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.128,
+            0.417,
+            0.695,
+            0.481
+          ],
+          "content": "\\left. \\begin{array} { r l } & { \\mathrm { ( a ) } \\quad U _ { 1 1 } ^ { * } U _ { 1 2 } + U _ { 2 1 } ^ { * } U _ { 2 2 } = 0 \\quad \\mathrm { ( o n } \\quad \\mathcal { H } _ { A } \\mathrm { ) } } \\\\ & { \\mathrm { ( b ) } \\quad U _ { 1 1 } U _ { 1 1 } ^ { * } + U _ { 1 2 } U _ { 1 2 } ^ { * } = 1 \\quad \\mathrm { ( o n } \\quad \\mathcal { H } \\mathrm { ) } } \\\\ & { \\mathrm { ( c ) } \\quad U _ { 2 1 } U _ { 1 1 } ^ { * } + U _ { 2 2 } U _ { 1 2 } ^ { * } = 0 \\quad \\mathrm { ( o n } \\quad \\mathcal { H } \\mathrm { ) } . } \\end{array} \\right\\}\\tag{10.8}",
+          "image_source": "images/page_310_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.487,
+            0.871,
+            0.526
+          ],
+          "content": "Now equation $( 1 0 . 7 ) _ { 2 2 }$ and Proposition 6.10 imply that (ker $U _ { 2 2 } ) ^ { \\perp }$ reduces A, cl(ran $U_{22} = (\\ker U_{22}^*)^{\\perp}$ reduces B, and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.533,
+            0.174,
+            0.549
+          ],
+          "content": "10.9"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.357,
+            0.533,
+            0.644,
+            0.554
+          ],
+          "content": "A \\left| \\left( \\ker U _ { 2 2 } \\right) ^ { \\perp } \\cong B \\left| \\left( \\ker U _ { 2 2 } ^ { * } \\right) ^ { \\perp } \\right. \\right|",
+          "image_source": "images/page_310_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.56,
+            0.871,
+            0.598
+          ],
+          "content": "What about A|ker $U _ { 2 2 }$ and $| B |$ ker $U _ { 2 2 } ^ { * \\gamma }$ If they are unitarily equivalent, then $A \\cong B$ and we are done. If h∈ker $U _ { 2 2 } \\subseteq \\mathcal { H } _ { 4 1 }$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.603,
+            0.645,
+            0.648
+          ],
+          "content": "\\left[ \\begin{matrix} { U _ { 1 1 } } & { U _ { 1 2 } } \\\\ { U _ { 2 1 } } & { U _ { 2 2 } } \\\\ \\end{matrix} \\right] \\left[ \\begin{matrix} { 0 } \\\\ { h } \\\\ \\end{matrix} \\right] = \\left[ \\begin{matrix} { U _ { 1 2 } h } \\\\ { 0 } \\\\ \\end{matrix} \\right] .",
+          "image_source": "images/page_310_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.654,
+            0.871,
+            0.73
+          ],
+          "content": "Since $U$ is an isometry, it follows that $U _ { 1 2 }$ maps ker $U _ { 2 2 }$ isometrically onto a closed subspace of $\\varkappa$ . Put $\\mathcal { M } _ { 1 } = U _ { 1 2 } ( \\ker U _ { 2 2 } ) .$ Equations $( 1 0 . 7 ) _ { 1 2 }$ and $( 1 0 . 7 ) _ { 1 2 } ^ { * }$ and the fact that ker $U _ { 2 2 }$ reduces A imply that $\\mathcal { M } _ { 1 }$ reduces N. Thus, the restriction of $U _ { 1 2 }$ to ker $U _ { 2 2 }$ is the required isomorphism to show that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.127,
+            0.736,
+            0.598,
+            0.756
+          ],
+          "content": "A | \\ker U _ { 2 2 } \\cong N | \\mathcal { M } _ { 1 } .\\tag{10.10}",
+          "image_source": "images/page_310_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.764,
+            0.866,
+            0.803
+          ],
+          "content": "Similarly, $U _ { 2 1 } ^ { * }$ maps ker $U_{22}^{*} = \\left( \\mathrm{rank} U_{22} \\right)^{\\perp}$ isometrically into $\\mathcal { M } _ { 2 } =$ $U _ { 2 1 } ^ { * }$ (ker $U _ { 2 2 } ^ { * } ) , \\mathcal { M } _ { 2 }$ reduces N, and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.81,
+            0.183,
+            0.827
+          ],
+          "content": "10.11"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.81,
+            0.599,
+            0.831
+          ],
+          "content": "B | \\ker U _ { 2 2 } ^ { * } \\cong N | \\mathcal { M } _ { 2 } .",
+          "image_source": "images/page_310_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.837,
+            0.868,
+            0.874
+          ],
+          "content": "Note that if $\\mathcal { M } _ { 1 } = \\mathcal { M } _ { 2 }$ , then (10.9), (10.10), and (10.11) show that $A \\cong B .$ Could it be that $\\mathcal { M } _ { 1 }$ and $\\mathcal { M } _ { 2 }$ are equal?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.874,
+            0.871,
+            0.931
+          ],
+          "content": "If h∈ker $U _ { 2 2 } ,$ then (10.8.a) implies that $\\boldsymbol { U } _ { 1 1 } ^ { * } \\boldsymbol { U } _ { 1 2 } \\boldsymbol { h } = - \\boldsymbol { U } _ { 2 1 } ^ { * } \\boldsymbol { U } _ { 2 2 } \\boldsymbol { h } = 0$ Hence $\\mathcal { M } _ { 1 } = U _ { 1 2 } ( \\ker U _ { 2 2 } ) \\subseteq \\ker U _ { 1 1 } ^ { * }$ . On the other hand, if f ∈ker $U _ { 1 1 } ^ { * } ,$ then (10.8.b) implies $\\boldsymbol { f } = ( \\boldsymbol { U } _ { 1 1 } \\boldsymbol { U } _ { 1 1 } ^ { * } + \\boldsymbol { U } _ { 1 2 } \\boldsymbol { \\widetilde { U } } _ { 1 2 } ^ { * } ) \\boldsymbol { f } = \\boldsymbol { U } _ { 1 2 } \\boldsymbol { U } _ { 1 2 } ^ { * } \\boldsymbol { f }$ . But by (10.8.c), $\\bar { U } _ { 2 2 } U _ { 1 2 } ^ { * } f = -$"
+        }
+      ]
+    },
+    {
+      "page_idx": 311,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.055,
+            0.554,
+            0.073
+          ],
+          "content": "§10. Multiplicity Theory for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.834,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": "297"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.1,
+            0.745,
+            0.122
+          ],
+          "content": "$U _ { 2 1 } U _ { 1 1 } ^ { * } f = 0 ,$ so $U_{12}^{*}f\\in \\ker U_{22}$ . Hence $f \\in U _ { 1 2 } ( \\ker U _ { 2 2 } )$ Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.128,
+            0.572,
+            0.149
+          ],
+          "content": "\\mathcal { M } _ { 1 } = \\ker U _ { 1 1 } ^ { * } .",
+          "image_source": "images/page_311_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.146,
+            0.228,
+            0.166
+          ],
+          "content": "Similarly,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.165,
+            0.572,
+            0.185
+          ],
+          "content": "\\mathcal { M } _ { 2 } = \\ker U _ { 1 1 } .",
+          "image_source": "images/page_311_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.192,
+            0.871,
+            0.25
+          ],
+          "content": "Until this point we have not used the fact that N is \\*-cyclic. Equation $( 1 0 . 7 ) _ { 1 1 }$ implies that $U _ { 1 1 } { \\in } \\left\\{ N ^ { \\prime } \\right\\} ^ { \\prime } .   { \\bf B y }$ Theorem 3.4 and Corollary 6.9 this implies that $U _ { 1 1 }$ is normal. Hence, ker $U _ { 1 1 } ^ { * } = \\ker U _ { 1 1 }$ , or $\\mathcal { M } _ { 1 } = \\mathcal { M } _ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.266,
+            0.871,
+            0.395
+          ],
+          "content": "If the hypothesis in the preceding proposition that N is \\*-cyclic is deleted, the conclusion is no longer valid. For example, let N and A be the identities on separable infinite dimensional spaces and let B be the identity on a finite dimensional space. Then N $I \\oplus A \\cong N \\oplus B ,$ but A and B are not equivalent. However, the requirement that N be \\*-cyclic can be replaced by another, even when N, A, and B are not assumed to be normal. For the details see Kadison and Singer [1957]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.395,
+            0.87,
+            0.448
+          ],
+          "content": "The proof of Theorem 10.1(b) is now a straightforward argument as outlined before the statement of Proposition 10.6. The details are left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.449,
+            0.87,
+            0.488
+          ],
+          "content": "If $\\mu$ and v are measures and $\\nu \\ll \\mu ,$ then there is a Borel set ∆ such that $[ v ] = [ \\mu | \\Delta ]$ . Using this fact, Theorem 10.1 can be restated as follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.507,
+            0.871,
+            0.563
+          ],
+          "content": "10.12. Corollary. (a) If N is a normal operator with scalar-valued spectral measure μ, then there is a decreasing sequence $\\{ \\Delta _ { n } \\}$ of Borel subsets of σ(N) such that $\\Delta _ { 1 } = \\sigma ( N )$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.572,
+            0.643,
+            0.593
+          ],
+          "content": "N \\cong N _ { \\mu } \\oplus N _ { \\mu | \\Delta _ { 2 } } \\oplus N _ { \\mu | \\Delta _ { 3 } } \\oplus \\cdots .",
+          "image_source": "images/page_311_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.599,
+            0.871,
+            0.674
+          ],
+          "content": "(b) If M is another normal operator with scalar-valued spectral measure v and $\\textit { i f } \\left\\{ \\Sigma _ { n } \\right\\}$ is a decreasing sequence of Borel subsets of σ(M) such that $M \\cong N _ { \\nu } \\oplus N _ { \\nu | \\Sigma _ { 2 } } \\oplus N _ { \\nu | \\Sigma _ { 3 } } \\oplus \\cdots$ , then $N \\approxeq M$ if and only $if (i) [\\mu] = [v]$ and (ii) $\\mu ( \\Delta _ { n } \\backslash \\Sigma _ { n } ) = 0 = \\mu ( \\Sigma _ { n } \\backslash \\Delta _ { n } )$ for all n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.691,
+            0.87,
+            0.788
+          ],
+          "content": "10.13. Example. Let $\\mu$ be Lebesgue measure on [0, 1] and let $\\mu _ { n }$ be Lebesgue measure on $[ 1 / ( n + 1 ) , 1 / n ]$ for $n \\geqslant 1$ . (So $\\mu = \\sum \\mu _ { n } . )$ Let $N = N_{\\mu_1} \\oplus N_{\\mu_2}^{(2)} \\oplus$ $N _ { \\mu _ { 3 } } ^ { ( 3 ) } \\oplus \\cdots$ . The direct sum decomposition of N that appears in Corollary 10.12 is obtained by letting $\\Delta _ { n } = [ 0 , 1 / n ] , n \\geqslant 1$ . Then $N \\cong N _ { \\mu } \\oplus N _ { \\mu | \\Delta _ { 2 } } \\oplus$ $N _ { \\mu | \\mathbf { \\Delta } _ { 3 } } \\oplus \\cdots$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.801,
+            0.872,
+            0.932
+          ],
+          "content": "What does Theorem 10.1 say for normal operators on a finite dimensional space? If dim $\\mathcal { H } < \\infty$ , there is an orthonormal basis $\\{ e _ { n } \\}$ for $\\mathcal { H }$ consisting of eigenvectors for N. Observe that N is \\*-cyclic if and only if each eigenvalue has multiplicity 1. So each summand that appears in (10.2) must operate on a subspace of $\\mathcal { H }$ that contains only one basis element $e _ { n }$ per eigenvalue. Moreover, since $\\mu _ { 1 }$ is a scalar-valued spectral measure for N, it must be that the first summand in (10.2) contains one basis element for each eigenvalue"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 304,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 305,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 306,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 307,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 308,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 309,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 310,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 311,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

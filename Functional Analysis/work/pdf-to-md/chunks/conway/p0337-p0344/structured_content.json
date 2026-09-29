@@ -1,0 +1,1430 @@
+{
+  "pages": [
+    {
+      "page_idx": 336,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": "322"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.632,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": "X. Unbounded Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.836,
+            0.121
+          ],
+          "content": "the variation for $E _ { h , f }$ . Let $\\phi _ { n } = \\sum _ { k = 1 } ^ { n } \\chi _ { \\Delta _ { k } } \\phi ;$ so $\\phi _ { n }$ is bounded, as is $u \\phi _ { n }$ . Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.309,
+            0.125,
+            0.678,
+            0.269
+          ],
+          "content": "\\begin{align*}\\int \\lvert \\phi_n \\rvert d \\lvert E_{h,f} \\rvert &= \\int \\lvert \\phi_n \\rvert u d E_{h,f} \\\\&= \\left\\langle \\left( \\int \\lvert \\phi_n \\rvert u d E \\right) h, f \\right\\rangle \\\\&\\leqslant \\| f \\| \\left\\| \\left( \\int \\lvert \\phi_n \\rvert u d E \\right) h \\right\\|.\\end{align*}",
+          "image_source": "images/page_336_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.267,
+            0.171,
+            0.284
+          ],
+          "content": "But"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.233,
+            0.28,
+            0.761,
+            0.474
+          ],
+          "content": "\\begin{align*}\\left\\| \\left( \\int |\\phi_n| u d E \\right) h \\right\\|^2 &= \\left\\langle \\left( \\int |\\phi_n| u d E \\right) h, \\left( \\int |\\phi_n| u d E \\right) h \\right\\rangle \\\\&= \\left\\langle \\left( \\int |\\phi_n|^2 d E \\right) h, h \\right\\rangle \\\\&= \\int |\\phi_n|^2 d E_{h,h} \\\\&\\leqslant \\int |\\phi|^2 d E_{h,h}.\\end{align*}",
+          "image_source": "images/page_336_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.481,
+            0.87,
+            0.572
+          ],
+          "content": "Combining this with the preceding inequality gives that $\\int | \\phi _ { n } | d | E _ { h , f } | \\leqslant$ $\\| f \\| ( \\int | \\phi | ^ { 2 } d E _ { h , h } ) ^ { 1 / 2 }$ for all n. Letting $n   \\to   \\infty$ gives (4.8). Since $\\phi _ { n }$ is bounded, $\\left\\langle \\left( \\int \\phi _ { n } d E \\right) h , f \\right\\rangle = \\int \\phi _ { n } d E _ { h , f }$ If $h \\in \\mathcal { D } _ { \\phi }$ and $f \\in \\mathcal { H }$ , then (4.8) and the Lebesgue Dominated Convergence Theorem imply that $\\int \\phi _ { n } d E _ { h , f } \\rightarrow \\int \\phi d E _ { h , f }$ as $n   \\to   \\infty$ But"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.319,
+            0.574,
+            0.674,
+            0.668
+          ],
+          "content": "\\begin{align*}\\left( \\int \\phi_n d E \\right) h = \\left( \\int \\phi d E \\right) E \\left( \\bigcup_{j=1}^n \\Delta_j \\right) h \\\\= E \\left( \\bigcup_{j=1}^n \\Delta_j \\right) \\left( \\int \\phi d E \\right) h.\\end{align*}",
+          "image_source": "images/page_336_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.675,
+            0.868,
+            0.714
+          ],
+          "content": "Since $E(\\bigcup_{j = 1}^{n} \\Delta_{j}) \\to E(X) = 1  (SOT) as   n \\to \\infty, \\quad \\langle (\\int \\phi_{n}dE)h, f \\rangle \\to \\langle (\\int \\phi dE)h, f \\rangle$ as $n   \\to   \\infty$ . This proves (4.9). ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.731,
+            0.87,
+            0.789
+          ],
+          "content": "Note that as a consequence of (4.7) dom $N _ { \\phi }$ and the definition of $N _ { \\phi }$ do not depend on the choice of the sets $\\{ \\Delta _ { n } \\}$ , as would seem to be the case from (4.5) and (4.6). Also, by (4.7.a), E(∆)h ∈ dom $N _ { \\phi }$ if h ∈ dom $N _ { \\phi }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.805,
+            0.87,
+            0.879
+          ],
+          "content": "4.10. Theorem. ${ \\mathit { I f } } \\left( X , \\Omega \\right)$ is a measurable space, $\\mathcal { H }$ is a Hilbert space, and E is a spectral measure for $( X , \\Omega , { \\mathcal { H } } ) ,$ let $\\Phi ( X , \\Omega )$ be the algebra of all Ω-measurable functions $\\phi \\colon X   \\to   \\mathbb { C }$ and define $\\rho \\colon \\Phi ( X , \\Omega )   \\to   \\mathcal { C } ( \\mathcal { H } ) \\mathrm { ~ } b y \\mathrm { ~ } \\rho ( \\phi )   =   \\int \\phi   d E .$ Then for $\\phi , \\psi$ in $\\Phi ( X , \\Omega )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.887,
+            0.296,
+            0.905
+          ],
+          "content": "(a) $\\rho ( \\phi ) ^ { * } = \\rho ( \\overline { { \\phi } } ) ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.905,
+            0.649,
+            0.925
+          ],
+          "content": "(b) $\\rho ( \\phi \\psi )   \\supseteq   \\rho ( \\phi ) \\rho ( \\psi )$ and dom $( \\rho ( \\phi ) \\rho ( \\psi ) ) = \\mathcal { D } _ { \\psi } \\cap \\mathcal { D } _ { \\phi \\psi }$ 2"
+        }
+      ]
+    },
+    {
+      "page_idx": 337,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.124,
+            0.055,
+            0.676,
+            0.073
+          ],
+          "content": "§4. Unbounded Normal Operators and the Spectral Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.831,
+            0.056,
+            0.866,
+            0.071
+          ],
+          "content": "323"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.1,
+            0.606,
+            0.119
+          ],
+          "content": "(c) If ψ is bounded, $\\rho ( \\phi ) \\rho ( \\psi )   =   \\rho ( \\psi ) \\rho ( \\phi )   =   \\rho ( \\phi \\psi ) ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.119,
+            0.359,
+            0.138
+          ],
+          "content": "(d) $\\rho ( \\phi ) ^ { * } \\rho ( \\phi ) = \\rho ( | \\phi | ^ { 2 } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.155,
+            0.617,
+            0.174
+          ],
+          "content": "The proof of this theorem is left as an exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.191,
+            0.867,
+            0.229
+          ],
+          "content": "4.11. The Spectral Theorem. If N is a normal operator on $\\mathcal { H } ,$ then there is a unique spectral measure E defined on the Borel subsets of C such that:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.237,
+            0.292,
+            0.256
+          ],
+          "content": "(a) $N = \\int z   d E ( z ) ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.256,
+            0.419,
+            0.274
+          ],
+          "content": "(b) $E ( \\Delta ) = 0  { i f } \\Delta \\cap \\sigma ( N ) = \\square ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.274,
+            0.762,
+            0.292
+          ],
+          "content": "(c) if U is an open subset of C and $U \\cap \\sigma ( N ) \\neq \\square$ , then $E ( U ) \\neq 0 ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.292,
+            0.863,
+            0.332
+          ],
+          "content": "(d) if $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ such that $A N \\subseteq N A$ and $A N ^ { * } \\subseteq N ^ { * } A$ then $A ( \\int \\phi   d E ) \\subseteq$ $( \\int   \\phi   d E ) A   f _ { } { o r }$ every Borel function φ on C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.347,
+            0.869,
+            0.549
+          ],
+          "content": "Before launching into the proof, a few words motivating the proof are appropriate. Suppose a spectral measure E defined on the Borel subsets of C is given and let $N = \\int z   d E ( z )$ . It is not difficult to see that if $0 \\leqslant a \\leqslant b < \\infty$ and $\\Delta$ is the annulus $\\left\\{ z : a \\leqslant |z| \\leqslant b \\right\\}$ then $\\mathcal { H } _ { \\Delta } = E ( \\Delta ) \\mathcal { H } = \\{ h \\in \\mathrm { d o m } \\; N \\}$ $\\mathbf { \\mathit { h } } \\in \\mathbf { d o m } \\; N ^ { \\mathbf { \\mathit { n } } }$ for all n and $a^{n}\\left\\|h\\right\\|\\leqslant\\left\\|N^{n}h\\right\\|\\leqslant b^{n}\\left\\|h\\right\\|.\\mathcal{H}_{\\Delta}$ is a closed subspace of $\\mathcal { H }$ that reduces N and $N | \\mathcal { H } _ { \\Delta }$ is bounded. The idea behind the proof is to write C as the disjoint union of annuli $\\{ \\Delta _ { j } \\}$ such that for each $\\Delta _ { j }$ there is a reducing subspace $\\mathcal { H } _ { \\Delta _ { j } }$ for N with $N _ { j }   \\equiv   N | \\mathcal { H } _ { \\Delta _ { j } }$ bounded, and, moreover, such that $\\mathcal { H } = \\oplus _ { j } \\mathcal { H } _ { \\Delta _ { j } } .$ Once this is done the Spectral Theorem for bounded normal operators can be applied to each $N _ { j }$ and direct sums of these can be formed to obtain the spectral measure for N."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.549,
+            0.871,
+            0.66
+          ],
+          "content": "So we would like to show that for the annulus $\\{ z : a \\leqslant | z | \\leqslant b \\}$ , {h∈dom N: h∈dom $N ^ { n }$ for all n and $a^{n}\\left \\| h \\right \\| \\leqslant \\left \\| N^{n}h \\right \\| \\leqslant b^{n}\\left \\| h \\right \\|$ is a reducing subspace for N. To facilitate this, we will use the operator $\\vec { B } = ( 1 + N ^ { * } N ) ^ { - 1 }$ which is a positive contraction (4.2). To understand what is done below note that $\\overline { { z } }   \\mapsto   ( 1 + | z | ^ { 2 } ) ^ { - 1 }$ maps C onto (0,1] and $a \\leqslant |z| \\leqslant b$ if and only if $(1 + a^{2})^{-1} \\geqslant (1 + |z|^{2})^{-1} \\geqslant (1 + b^{2})^{-1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.675,
+            0.867,
+            0.713
+          ],
+          "content": "4.12. Lemma. If N is a normal operator, $B   =   ( 1 + N ^ { * } N ) ^ { -   1 }$ , and $C =$ $N ( 1 + N ^ { * } N ) ^ { - 1 }$ , then $BC = CB$ and $( 1 + N ^ { * } N ) ^ { - 1 } N \\subseteq C .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.72,
+            0.871,
+            0.83
+          ],
+          "content": "ProoF. From (4.2), B and C are contractions and $B   \\geqslant   0 .$ It will first be shown that $( 1 + N ^ { * } N ) ^ { - 1 } N \\subseteq C ;$ that is, $B N \\subseteq N B .$ If f ∈dom BN, then $f { \\in } \\mathbf { d o m }   N .$ Let g∈dom $N ^ { * } N$ such that $f   =   ( 1 + N ^ { * } N ) g$ Then $N ^ { * } N g \\in \\mathrm { d o m } \\; N ;$ hence $N g   \\in   \\mathrm { d o m } \\; N N ^ { * } = \\mathrm { d o m } \\; N ^ { * } N$ Thus $N f = N g + N N ^ { * } N g = ( 1 + N ^ { * } N ) N g$ Therefore $B N f = B ( 1 + N ^ { * } N ) N g = N g$ But $N B f = N g ,$ so $B N = N B$ on dom N. Thus $B N \\subseteq N B .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.83,
+            0.869,
+            0.868
+          ],
+          "content": "If $h \\in \\mathcal { H }$ let $f { \\in } \\operatorname { \\mathbf { d o m } } N ^ { * } N$ such that $h   =   ( 1 + N ^ { * } N ) f$ So $B C h = B N B h =$ $B N f = N B f = N B B h = C B h$ Hence $BC = CB.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.885,
+            0.874,
+            0.924
+          ],
+          "content": "4.13. Lemma. With the same notation as in Lemma 4.12, if $B = \\int t   d P ( t )$ is its spectral representation, $1 > \\delta > 0 ,$ and ∆ is a Borel subset $\\dot { o f } [ \\delta , 1 ]$ , then"
+        }
+      ]
+    },
+    {
+      "page_idx": 338,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.135,
+            0.056,
+            0.171,
+            0.07
+          ],
+          "content": "324"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.638,
+            0.057,
+            0.874,
+            0.073
+          ],
+          "content": "X. Unbounded Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.1,
+            0.874,
+            0.138
+          ],
+          "continues_prev": true,
+          "content": "$\\mathcal { H } _ { \\Delta } = P ( \\Delta ) \\mathcal { H } \\subseteq$ dom $N , \\mathcal { H } _ { \\pm }$ is invariant for both N and $N ^ { * }$ , and $N | \\mathcal { H } _ { \\Delta }$ is a bounded normal operator with $\\| N | \\mathcal { H } _ { \\Delta } \\| \\leqslant \\left[ ( 1 - \\delta ) / \\delta \\right] ^ { 1 / 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.145,
+            0.873,
+            0.219
+          ],
+          "content": "PROOF. If $h \\in \\mathcal { H } _ { \\Delta } ,$ then because $P ( \\Delta ) = \\chi _ { \\Delta } ( B ) , \\quad \\| B h \\| ^ { 2 } = \\langle B ^ { 2 } P ( \\Delta ) h , h \\rangle =$ $\\int _ { \\Delta } t ^ { 2 } d P _ { h , h } \\geqslant \\delta ^ { 2 } \\left\\| h \\right\\| ^ { 2 }$ . So $B | \\mathcal { H } _ { \\Delta }$ is invertible and there is a g in $\\mathcal { H } _ { \\pmb { \\Delta } }$ such that $h = B g .$ But ran $B = \\mathrm{dom}(1 + N^* N) \\subseteq \\mathrm{dom} N$ Hence hedom $N;$ that is, $\\mathcal { H } _ { \\Delta } \\subseteq \\mathrm { d o m }   N .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.219,
+            0.874,
+            0.312
+          ],
+          "content": "Let $h \\in \\mathcal { H } _ { \\Delta }$ and again let $g \\in \\mathcal { H } _ { \\Delta }$ such that $h = B g$ Hence $Nh = NBg = Cg$ By Lemma 4.12, $BC = CB;$ so by (IX.2.2), $P(\\Delta)C = CP(\\Delta)$ . Since $g \\in \\mathcal { H } _ { \\Delta } ,$ $Nh = Cg \\in \\mathcal{H}_{\\Delta}$ . Note that if $M = N ^ { * }$ and $B _ { 1 } = ( 1 + M ^ { * } M ) ^ { - 1 }$ , then $B _ { 1 } = B .$ From the preceding argument $N ^ { * } \\mathcal { H } _ { \\Delta } = M \\mathcal { H } _ { \\Delta } \\subseteq \\mathcal { H } _ { \\Delta }$ . It easily follows that $N | \\mathcal { H } _ { \\Delta }$ is normal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.311,
+            0.386,
+            0.33
+          ],
+          "content": "Finally, if $h \\in \\mathcal { H } _ { \\Delta }$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.277,
+            0.338,
+            0.722,
+            0.435
+          ],
+          "content": "\\begin{align*}\\|   N h   \\|^2 &= \\langle   N^* N h, h   \\rangle \\\\&= \\langle   [ (N^* N + 1) - 1 ] h, h   \\rangle \\\\&= \\int_{\\delta}^{1} (t^{-1} - 1) d P_{h, h}(t) \\leqslant \\|   h   \\|^2 (1 - \\delta) / \\delta.\\end{align*}",
+          "image_source": "images/page_338_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.443,
+            0.451,
+            0.463
+          ],
+          "content": "Hence $\\| N | \\mathcal { H } _ { \\Delta } \\| \\leqslant \\left[ ( 1 - \\delta ) / \\delta \\right] ^ { 1 / 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.473,
+            0.871,
+            0.584
+          ],
+          "content": "PROOF OF THE SPECTRAL THEOREM. Let $B   =   ( 1 + N ^ { * } N ) ^ { - 1 }$ and $C = N ( 1 +$ $N ^ { * } N ) ^ { - 1 }$ as in Lemma 4.12. Let $B = \\int_{0}^{1} t   d P(t)$ be the spectral decomposition of B and put $P _ { n } = P ( 1 / ( n + 1 ) , 1 / n ]$ for $n \\geqslant 1$ . Since ker $B = (0) = P(\\{0\\}) \\mathcal{H}$ $\\textstyle \\sum _ { n = 1 } ^ { \\infty } P _ { n } = 1$ . Let $\\mathcal { H } _ { n } = P _ { n } \\mathcal { H }$ . By Lemma 4.13, $\\mathcal { H } _ { n } \\subseteq$ dom $N , \\mathcal { H } _ { n }$ reduces N, and $N _ { n } \\equiv N | \\mathcal { H } _ { n }$ is bounded normal operator with $\\| N _ { n } \\| \\leqslant n ^ { 1 / 2 }$ . Also, it $\\mathbf { \\nabla } ^ { \\dagger } \\mathbf { h } \\in \\mathcal { H } _ { n } ,$ $( 1 + N _ { n } ^ { * } N _ { n } ) B h = B ( 1 + N _ { n } ^ { * } N _ { n } ) h = h ;$ that is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.591,
+            0.613,
+            0.611
+          ],
+          "content": "B | \\mathcal { H } _ { n } = ( 1 + N _ { n } ^ { * } N _ { n } ) ^ { - 1 } .",
+          "image_source": "images/page_338_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.618,
+            0.869,
+            0.675
+          ],
+          "content": "Thus if $\\lambda \\in \\sigma ( N _ { n } ) , \\quad ( 1 + | \\lambda | ^ { 2 } ) ^ { - 1 } \\in \\sigma ( B | \\mathcal { H } _ { n } ) \\subseteq [ 1 / ( n + 1 ) , 1 / n ]$ Thus $\\sigma ( N _ { n } ) \\subseteq$ $\\left\\{ z \\in \\mathbb { C } : ( n - 1 ) ^ { 1 / 2 } \\leqslant | z | \\leqslant n ^ { 1 / 2 } \\right\\} \\equiv \\Delta _ { n }$ Let $N _ { n } = \\int z d E _ { n } ( z )$ be the spectral decomposition of $N _ { n }$ . For any Borel subset $\\pmb { \\Delta }$ of $\\mathbf { C } _ { s }$ let $E ( \\Delta )$ be defined by"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.691,
+            0.174,
+            0.707
+          ],
+          "level": 2,
+          "content": "4.14"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39,
+            0.683,
+            0.607,
+            0.722
+          ],
+          "content": "E ( \\Delta ) = \\sum _ { n = 1 } ^ { \\infty } E _ { n } ( \\Delta \\cap \\Delta _ { n } ) .",
+          "image_source": "images/page_338_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.723,
+            0.87,
+            0.795
+          ],
+          "content": "Note that $E _ { n } ( \\Delta \\cap \\Delta _ { n } )$ is a projection with range in $\\mathcal { H } _ { n }$ Since $\\mathcal { H } _ { n } \\bot \\mathcal { H } _ { m }$ for $n \\neq m ,$ (4.14) defines a projection in $\\mathcal { B } ( \\mathcal { H } )$ .(Technically $E ( \\Delta )$ should be defined by $E ( \\Delta ) = \\sum _ { n = 1 } ^ { \\infty } E _ { n } ( \\Delta \\cap \\Delta _ { n } ) P _ { n }$ . But this technicality does not add anything to understanding.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.796,
+            0.866,
+            0.834
+          ],
+          "content": "Now to show that E is a spectral measure. Clearly $E ( \\mathbf { C } ) = 1$ and $E ( \\square ) = 0$ If $\\Lambda _ { 1 }$ and $\\Lambda _ { 2 }$ are Borel subsets of $\\mathbf { C } _ { \\mathrm { s } }$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.291,
+            0.836,
+            0.697,
+            0.925
+          ],
+          "content": "\\begin{align*}E(\\Lambda_1 \\cap \\Lambda_2) = & \\sum_{n=1}^{\\infty} E_n(\\Lambda_1 \\cap \\Lambda_2 \\cap \\Lambda_n) \\\\= & \\sum_{n=1}^{\\infty} E_n(\\Lambda_1 \\cap \\Lambda_n) E_n(\\Lambda_2 \\cap \\Lambda_n).\\end{align*}",
+          "image_source": "images/page_338_equation_15.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 339,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.127,
+            0.055,
+            0.677,
+            0.073
+          ],
+          "content": "§4. Unbounded Normal Operators and the Spectral Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.832,
+            0.057,
+            0.867,
+            0.071
+          ],
+          "content": "325"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.1,
+            0.804,
+            0.12
+          ],
+          "content": "Again, the fact that the spaces $\\{ \\mathcal { H } _ { n } \\}$ are pairwise orthogonal implies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.247,
+            0.127,
+            0.746,
+            0.198
+          ],
+          "content": "\\begin{aligned}E(\\Lambda_{1} \\cap \\Lambda_{2}) &= \\left( \\sum_{n = 1}^{\\infty} E_{n}(\\Lambda_{1} \\cap \\Lambda_{n}) \\right) \\left( \\sum_{n = 1}^{\\infty} E_{n}(\\Lambda_{2} \\cap \\Lambda_{n}) \\right) \\\\&= E(\\Lambda_{1})E(\\Lambda_{2}).\\end{aligned}",
+          "image_source": "images/page_339_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.205,
+            0.87,
+            0.245
+          ],
+          "content": "If $h \\in \\mathcal { H }$ , then $\\begin{array} { r } { \\langle E ( \\Delta ) h , h \\rangle = \\sum _ { n = 1 } ^ { \\infty } \\langle E _ { n } ( \\Delta \\cap \\Delta _ { n } ) h , h \\rangle } \\end{array}$ . So if $\\{ \\Lambda _ { j } \\} _ { j = 1 } ^ { \\infty }$ are pairwise disjoint Borel sets,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.236,
+            0.246,
+            0.76,
+            0.34
+          ],
+          "content": "\\begin{align*}\\left\\langle E\\Bigg( \\bigcup_{j=1}^{\\infty} \\Lambda_j \\Bigg) h, h \\right\\rangle &= \\sum_{n=1}^{\\infty} \\left\\langle E_n \\Bigg( \\Bigg( \\bigcup_{j=1}^{\\infty} \\Lambda_j \\Bigg) \\cap \\Delta_n \\Bigg) h, h \\right\\rangle \\\\&= \\sum_{n=1}^{\\infty} \\sum_{j=1}^{\\infty} \\left\\langle E_n(\\Lambda_j \\cap \\Delta_n) h, h \\right\\rangle.\\end{align*}",
+          "image_source": "images/page_339_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.347,
+            0.871,
+            0.385
+          ],
+          "content": "Since each term in this double summation is non-negative, the order of summation can be reversed. Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.262,
+            0.392,
+            0.73,
+            0.485
+          ],
+          "content": "\\begin{align*}\\left\\langle E\\Biggl( \\bigcup_{j=1}^{\\infty} \\Lambda_j \\Biggr) h, h \\right\\rangle &= \\sum_{j=1}^{\\infty} \\sum_{n=1}^{\\infty} \\left\\langle E_n(\\Lambda_j \\cap \\Delta_n) h, h \\right\\rangle \\\\&= \\sum_{j=1}^{\\infty} \\left\\langle E(\\Lambda_j) h, h \\right\\rangle.\\end{align*}",
+          "image_source": "images/page_339_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.493,
+            0.744,
+            0.513
+          ],
+          "content": "So $E(\\bigcup_{j = 1}^{\\infty} \\Lambda_{j}) = \\sum_{j = 1}^{\\infty} E(\\Lambda_{j});$ therefore E is a spectral measure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.512,
+            0.867,
+            0.695
+          ],
+          "content": "Let $\\dot { M } = \\int z   d E ( z )$ be defined as in Theorem 4.7. Thus $\\mathcal { H } _ { n } \\subseteq \\operatorname { d o m } M$ and by the Spectral Theorem for bounded operators, $M h = N _ { n } h = N h$ if $h \\in \\mathcal { H } _ { n }$ If h is any vector in dom M, $h = \\sum _ { 1 } ^ { \\infty } h _ { n } , h _ { n } \\in \\mathcal { H } _ { n }$ , and $\\textstyle \\sum _ { 1 } ^ { \\infty } \\| N h _ { n } \\| ^ { 2 } < \\infty$ . Because N is closed, hedom N and $N h = M h$ Thus $M \\subseteq N$ . To prove the other inclusion, note that M is a closed operator by Lemma 4.4. Thus, by (4.2.e), it suffices to show that {h⊕ Nh: h∈dom $N ^ { \\star } N \\} \\subseteq \\operatorname { g r a } M$ . If h∈dom $N ^ { * } N .$ there is a vector $g$ such that $h = B g$ Then $P_{n}Nh = P_{n}NB = P_{n}Cg = CP_{n}g$ $( \\mathbf{W} \\mathbf{h} \\mathbf{y} ? ) = N P_{n} \\mathbf{h}$ If $h _ { n } = P _ { n } h ,$ then $\\begin{array} { r } { \\sum \\| N h _ { n } \\| ^ { 2 } = \\sum \\| P _ { n } N h \\| ^ { 2 } = \\| N h \\| ^ { 2 } < \\infty } \\end{array}$ Therefore hedom M and so, by the preceding argument $N h = M h .$ That is, h⊕ Nh∈gra M. This proves (a)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.721,
+            0.252,
+            0.739
+          ],
+          "level": 2,
+          "content": "4.15. Claim."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.707,
+            0.611,
+            0.752
+          ],
+          "content": "\\sigma ( N ) = \\mathrm { c l } \\left[ \\bigcup _ { n = 1 } ^ { \\infty } \\sigma ( N _ { n } ) \\right] .",
+          "image_source": "images/page_339_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.76,
+            0.87,
+            0.853
+          ],
+          "content": "It is left to the reader to show that $\\bigcup_{n = 1}^{\\infty} \\sigma(N_n) \\subseteq \\sigma(N)$ Since $\\sigma ( N )$ is closed, this proves half of (4.15). If $\\lambda \\notin \\mathrm{cl}[\\bigcup_{n = 1}^{\\infty} \\sigma(N_n)]$ , then there is a $\\delta   >   0$ such that $| \\lambda - z | \\geqslant \\delta$ for all z in $\\bigcup_{n = 1}^{\\infty} \\sigma(N_{n}).$ Thus $( N _ { n } - \\lambda ) ^ { - 1 }$ exists and $\\| (N_n - \\lambda)^{-1} \\| \\leqslant \\delta^{-1}$ for all n. Thus $A = \\oplus _ { n = 1 } ^ { \\infty } ( N _ { n } - \\lambda ) ^ { - 1 }$ is a bounded operator. It follows that $A = ( N - \\lambda ) ^ { - 1 }$ , so $\\lambda \\sharp \\sigma ( N )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.852,
+            0.87,
+            0.889
+          ],
+          "content": "By (4.15) if $\\Delta \\cap \\sigma(N) = \\square, \\Delta \\cap \\sigma(N_n) = \\square$ for all n. Thus $E _ { n } ( \\Delta ) = 0$ for all n. Hence $E ( \\Delta ) = 0$ and (b) holds."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.889,
+            0.871,
+            0.927
+          ],
+          "content": "If U is open and $U \\cap \\sigma ( N ) \\neq \\square$ , then (4.15) implies $U \\cap \\sigma(N_n) \\neq \\square$ for some n. Since $E _ { n } ( U ) \\neq 0 , E ( U ) \\neq 0$ and (c) is true."
+        }
+      ]
+    },
+    {
+      "page_idx": 340,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": "326"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.632,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": "X. Unbounded Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.87,
+            0.231
+          ],
+          "content": "Now let $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ such that $A N \\subseteq N A$ and $A N ^ { * } \\subseteq N ^ { * } A$ . Thus $A ( 1 + N ^ { * } N )   \\subseteq   ( 1 + N ^ { * } N ) A$ . It follows that $AB = BA$ . By the Spectral Theorem for bounded operators, A commutes with the spectral projections of B. In particular, each $\\mathcal { H } _ { n }$ reduces A and if $A _ { n } \\equiv A | \\mathcal { H } _ { n }$ , then $A _ { n } N _ { n } = N _ { n } A _ { n } .$ Hence $A _ { n } E _ { n } ( \\Delta ) = E _ { n } ( \\Delta ) A _ { n }$ , for every Borel set $\\Delta$ contained in $\\Delta _ { n }$ . It follows that $AE(\\Delta) = E(\\Delta)A$ for every Borel set ∆. The remaining details of the proof of (d) are left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.249,
+            0.87,
+            0.304
+          ],
+          "content": "The Fuglede-Putnam Theorem holds for unbounded normal operators (Exercise 8), so that the hypothesis in part (d) of the Spectral Theorem can be weakened to $A N \\subseteq N A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.323,
+            0.87,
+            0.379
+          ],
+          "content": "4.16. Definition. If N is a normal operator on $\\mathcal { H }$ , then a vector $e _ { 0 }$ is a star-cyclic vector for N if for all non-negative integers k and $l , e _ { 0 }$ edom $( N ^ { * ^ { k } } N ^ { l } )$ and $\\dot { \\mathcal { H } } = \\nabla \\left\\{ N ^ { * } { } ^ { k } N ^ { l } e _ { 0 } : k , l \\geqslant 0 \\right\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.396,
+            0.871,
+            0.471
+          ],
+          "content": "4.17. Example. Let $\\mu$ be a finite measure on C such that every polynomial in z and $\\bar { z }$ belongs to $L ^ { 2 } ( \\mu )$ and the collection of such polynomials is dense in $L ^ { 2 } ( \\mu )$ . Let $\\mathcal { D } _ { \\mu } = \\{ f \\in L ^ { 2 } ( \\mu ) : z f \\in L ^ { 2 } ( \\mu ) \\}$ and define $N _ { \\mu } f = z f$ for f in $\\mathcal { D } _ { \\mu }$ . Then $N _ { \\mu }$ is a normal operator and 1 is a star-cyclic vector for $N _ { \\mu } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.47,
+            0.871,
+            0.508
+          ],
+          "content": "Note that $\\mathrm { d } \\mu ( z ) = e ^ { - | z | } d \\mathrm { A r e a } ( z )$ is a measure satisfying the conditions of (4.17)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.526,
+            0.871,
+            0.599
+          ],
+          "content": "4.18. Theorem. If N is a normal operator on $\\mathcal { H }$ with a star-cyclic vector $e _ { 0 } ,$ then there is a finite measure µ on C such that every polynomial in z and ž belongs to $L ^ { 2 } ( \\mu )$ and there is an isomorphism W: ${ \\mathcal { H } } \\to L ^ { 2 } ( \\mu )$ such that $W e _ { 0 } = 1$ and $W N W ^ { - 1 } = N _ { \\mu }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.615,
+            0.873,
+            0.784
+          ],
+          "content": "The proof of Theorem 4.18 can be accomplished by using the Spectral Theorem to write N as the direct sum (in the sense of Lemma $4 . 4 )$ of bounded normal operators $N _ { n }$ on $\\mathcal { H } _ { n }$ with spectral measures that are pairwise mutually singular and such that each $N _ { n }$ has $e _ { n } ,$ the projection of $e _ { 0 }$ onto $\\mathcal { H } _ { n } ,$ as a \\*-cyclic vector. If $\\mu _ { n } = E _ { e _ { n } , e _ { n } } ,$ then (IX.3.4) implies that there is an isomorphism $W_{n}:\\mathcal{H}_{n}\\to L^{2}(\\mu_{n})$ such that $W _ { n } N _ { n } W _ { n } ^ { - 1 } = N _ { \\mu _ { n } }$ . If $\\begin{array} { r } { W = \\oplus _ { 1 } ^ { \\infty } W _ { n } , } \\end{array}$ then W is an isomorphism of $\\mathcal { H }$ onto $\\oplus _ { 1 } ^ { \\infty } L ^ { 2 } ( \\mu _ { n } )$ . But the fact that the measures $\\mu _ { n }$ are pairwise mutually singular implies that $\\oplus _ { 1 } ^ { \\infty } L ^ { 2 } ( \\mu _ { n } ) = L ^ { 2 } ( \\mu )$ , where $\\begin{array} { r } { \\mu = \\sum _ { n = 1 } ^ { \\infty } \\mu _ { n } = E _ { e _ { 0 } , e _ { 0 } } } \\end{array}$ . Clearly $W N W ^ { - 1 } = N _ { \\mu }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.798,
+            0.871,
+            0.856
+          ],
+          "content": "4.19. Theorem. If N is a normal operator on the separable Hilbert space $\\mathcal { H }$ then there is a σ-finite measure space $( X , \\Omega , \\mu )$ and an Ω-measurable function $\\phi$ such that N is unitarily equivalent to $M _ { \\phi }$ on $L ^ { 2 } ( \\mu )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.871,
+            0.873,
+            0.928
+          ],
+          "content": "The proof of Theorem 4.19 is only sketched. Write N as the (unbounded) direct sum of bounded normal operators $\\{ N _ { n } \\}$ . By Theorem IX.4.6, there is a σ-finite measure space $( X _ { n } , \\Omega _ { n } , \\mu _ { n } )$ and a bounded $\\Omega _ { n }$ -measurable function"
+        }
+      ]
+    },
+    {
+      "page_idx": 341,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.131,
+            0.055,
+            0.317,
+            0.072
+          ],
+          "content": "§5. Stone's Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.071
+          ],
+          "content": "327"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.099,
+            0.871,
+            0.176
+          ],
+          "continues_prev": true,
+          "content": "$\\phi _ { n }$ such that $N _ { n } \\cong M _ { \\phi _ { n } }$ Let X = the disjoint union of $\\left\\{ X _ { n } \\right\\}$ and let $\\mathbf { \\Omega } = \\{ \\mathbf { \\Delta } \\subseteq X \\colon \\mathbf { \\Delta } \\cap X _ { n } \\in \\mathbf { \\Omega } _ { n }$ for every $n \\}$ . If $\\Delta { \\in } \\Omega ,$ let $\\begin{array} { r } { \\mu ( \\Delta ) = \\sum _ { 1 } ^ { \\infty } \\mu _ { n } ( \\Delta \\cap X _ { n } ) } \\end{array}$ Let $\\phi \\colon X   \\to   \\mathbb { C }$ be defined by $\\phi ( x ) = \\phi _ { n } ( x )$ if $x   \\in   X _ { \\pmb { n } }$ . Then $\\phi$ is Ω-measurable and $N \\cong M _ { \\phi }$ on $L ^ { 2 } ( X , \\Omega , \\mu )$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.184,
+            0.233,
+            0.2
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.203,
+            0.354,
+            0.22
+          ],
+          "content": "1. Prove Theorem 4.10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.229,
+            0.846,
+            0.247
+          ],
+          "content": "2. Show that if A is a symmetric operator that is normal, then A is self-adjoint."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.254,
+            0.867,
+            0.273
+          ],
+          "content": "3. With the notation of Theorem 4.7, show that for h in $\\mathcal { D } _ { \\phi } ,   \\| ( \\int \\phi   d E ) h \\| ^ { 2 } = \\int | \\phi | ^ { 2 }   d E _ { h , h } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.281,
+            0.655,
+            0.299
+          ],
+          "content": "4. Using the notation of Theorem 4.10, what is $\\sigma ( \\int \\phi   d E ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.307,
+            0.866,
+            0.343
+          ],
+          "content": "5. If $\\Delta _ { n }$ and $E _ { n }$ are as in the proof of the Spectral Theorem, show that $E_{n}(\\Delta_{n + 1}) =$ $E_{n}(\\Delta_{n - 1}) = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.351,
+            0.87,
+            0.404
+          ],
+          "content": "6. Use the Spectral Theorem to show that if $0 < a \\leqslant b < \\infty, \\Delta = \\{ z \\in \\mathbb{C}: a \\leqslant |z| \\leqslant b \\}$ and $N = \\int z   d E ( z )$ is the spectral decomposition of the normal operator N, then $E ( \\Delta ) \\mathcal { H } = \\left\\{ h \\in \\mathrm { d o m } N : a ^ { n } \\| h \\| \\leqslant \\| N ^ { n } h \\| \\leqslant b ^ { n } \\| h \\| \\right\\}$ for all $n \\geqslant 1 \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.411,
+            0.75,
+            0.429
+          ],
+          "content": "7. State and prove a polar decomposition for operators in $\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.437,
+            0.597,
+            0.454
+          ],
+          "content": "8. If A is self-adjoint, prove that exp(iA) is unitary."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.462,
+            0.869,
+            0.498
+          ],
+          "content": "9. (Fuglede-Putnam Theorem.) If N, M are normal operators and A is a bounded operator such that $A N \\subseteq M A .$ , then $A N ^ { * } \\subseteq M ^ { * } A .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.506,
+            0.355,
+            0.522
+          ],
+          "content": "10. Prove Theorem 4.18."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.531,
+            0.87,
+            0.567
+          ],
+          "content": "11. If $\\mu _ { 1 } , \\mu _ { 2 }$ are finite measures on C and $N _ { \\mu _ { 1 } } , N _ { \\mu _ { 2 } }$ are defined as in Example 4.17, show that $N _ { \\mu _ { 1 } } \\cong N _ { \\mu _ { 2 } } \\mathrm { i f f } \\left[ \\mu _ { 1 } \\right] = \\left[ \\mu _ { 2 } \\right]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.574,
+            0.589,
+            0.592
+          ],
+          "content": "12. Fill in the details of the proof of Theorem 4.19."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.656,
+            0.417,
+            0.68
+          ],
+          "level": 2,
+          "content": "§5. Stone's Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.696,
+            0.872,
+            0.827
+          ],
+          "content": "If A is a self-adjoint operator on $\\mathcal { H } ,$ then exp(iA) is a unitary operator (Exercise 4.7). Hence $U ( t ) = \\exp ( i t A )$ is unitary for all t in R. The purpose of this section is not to investigate the individual operators exp(itA), but rather the entire collection of operators $\\{ \\exp ( i t A ) : t \\in \\mathbb { R } \\}$ . In fact, as the first theorem shows, U: R→unitaries on $\\mathcal { H }$ is a group homomorphism with certain properties. Stone's Theorem provides a converse to this; every such homomorphism arises in this way."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.843,
+            0.803,
+            0.863
+          ],
+          "content": "5.1. Theorem. If A is self-adjoint and $U ( t ) = \\exp ( i t A )$ for t in R, then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.872,
+            0.315,
+            0.889
+          ],
+          "content": "(a) U(t) is unitary;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.89,
+            0.496,
+            0.908
+          ],
+          "content": "(b) $U ( s + t ) = U ( s ) U ( t ) { \\it ~ f o r ~ a l l ~ } s { \\it ~ i n ~ } \\mathbb { R } ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.908,
+            0.501,
+            0.927
+          ],
+          "content": "(c) if $h \\in \\mathcal { H }$ , then $\\mathrm{lim}_{s \\to t} U(s)h = U(t)h;$"
+        }
+      ]
+    },
+    {
+      "page_idx": 342,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.07
+          ],
+          "content": "328"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.634,
+            0.055,
+            0.871,
+            0.072
+          ],
+          "content": "X. Unbounded Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.338,
+            0.119
+          ],
+          "content": "(d) if h∈dom A, then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.137,
+            0.165,
+            0.154
+          ],
+          "content": "5.2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.377,
+            0.128,
+            0.618,
+            0.169
+          ],
+          "content": "\\lim _ { t \\rightarrow 0 } \\frac { 1 } { t } \\left[ U ( t ) h - h \\right] = i A h ;",
+          "image_source": "images/page_342_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.177,
+            0.869,
+            0.215
+          ],
+          "content": "(e) if $h \\in \\mathcal { H }$ and lim $t ^ { - 1 } [ U ( t ) h - h ]$ exists, then h∈dom A. Consequently, dom A is invariant under each $U ( t ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.224,
+            0.87,
+            0.297
+          ],
+          "content": "ProoF. As was mentioned, part (a) is an exercise. Since $\\exp(itx)\\exp(isx)=$ $\\exp ( i ( s + t ) x )$ for all x in R, (b) is a consequence of the functional calculus for normal operators [(4.10) and (4.11)]. Also note that $U ( 0 ) U ( t ) = U ( t ) ,$ so that $U ( 0 ) = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.297,
+            0.871,
+            0.372
+          ],
+          "content": "(c) If $h \\in \\mathcal { H } _ { j }$ then $\\| U ( t ) h - U ( s ) h \\| = \\| U ( t - s + s ) h - U ( s ) h \\| = [ \\mathrm { b y }$ (b)] $\\|   U ( s ) [ U ( t - s ) h - h ]   \\| = \\|   U ( t - s ) h - h   \\|$ since $U ( s )$ is unitary. Thus (c) will be shown if it is proved that $\\| U ( t ) h - h \\| \\to 0$ as $t   \\rightarrow   0 ,$ If $A = \\int _ { - \\infty } ^ { \\infty } x   d E ( x )$ is the spectral decomposition of A, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.307,
+            0.378,
+            0.69,
+            0.423
+          ],
+          "content": "\\| U ( t ) h - h \\| ^ { 2 } = \\int _ { - \\infty } ^ { \\infty } | e ^ { i t x } - 1 | ^ { 2 }   d E _ { h , h } ( x ) .",
+          "image_source": "images/page_342_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.43,
+            0.871,
+            0.486
+          ],
+          "content": "Now $E _ { h , h }$ is a finite measure on $\\mathbf { R } ;$ for each x in $\\mathbb { R } ,   | e ^ { i t x } - 1 | ^ { 2 } \\rightarrow 0$ as $t   \\rightarrow   0 ;$ and $| e ^ { i t x } - 1 | ^ { 2 } \\leqslant 4.$ So the Lebesgue Dominated Convergence Theorem implies that $U ( t ) h   \\rightarrow   h$ as $t   \\rightarrow   0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.486,
+            0.867,
+            0.524
+          ],
+          "content": "(d) Note that $t ^ { - 1 } [ U ( t ) - 1 ] - i A = f _ { t } ( A )$ , where $f_{t}(x)=t^{-1}\\left[\\exp(itx)-1\\right]-$ ix. So if hedom A,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.238,
+            0.535,
+            0.762,
+            0.628
+          ],
+          "content": "\\begin{align*}\\left\\| \\frac{1}{t} \\left[ U(t) h - h \\right] - i A h \\right\\|^2 &= \\| f_t(A) h \\|^2 \\\\&= \\int_{-\\infty}^{\\infty} \\left| \\frac{e^{i t x} - 1}{t} - i x \\right|^2 d E_{h,h}(x).\\end{align*}",
+          "image_source": "images/page_342_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.639,
+            0.871,
+            0.712
+          ],
+          "content": "As $t \\to 0 ,   t ^ { - 1 } \\left[ e ^ { i t x } - 1 \\right] - i x \\to 0$ for all x in IR. Also, $| e ^ { i s } - 1 | \\leqslant | s |$ for all real numbers $s \\left( \\mathbf { W } \\mathbf { h } \\mathbf { y } ? \\right)$ hence $| f _ { t } ( x ) | \\leqslant | t | ^ { - 1 } | e ^ { i t x } - 1 | + | x | \\leqslant 2 | x | .$ But $| x | { \\in } L ^ { 2 } ( E _ { h , h } )$ by Theorem $4 . 7 ( a )$ . So again the Lebesgue Dominated Convergence Theorem implies that (5.2) is true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.712,
+            0.871,
+            0.749
+          ],
+          "content": "(e) Let $\\mathcal { D } = \\left\\{ h \\in \\mathcal { H } : \\operatorname { l i m } _ { t \\rightarrow 0 } t ^ { - 1 } \\left[ U ( t ) h - h \\right] \\right\\}$ exists in $\\mathcal { H } \\}$ . For h in $\\mathcal { D } ,$ let Bh be defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.384,
+            0.759,
+            0.615,
+            0.8
+          ],
+          "content": "B h = - i \\lim _ { t \\rightarrow 0 } \\frac { U ( t ) h - h } { t } .",
+          "image_source": "images/page_342_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.808,
+            0.871,
+            0.847
+          ],
+          "content": "It is easy to see that $\\mathcal { D }$ is a linear manifold in $\\mathcal { H }$ and B is linear on $\\mathcal { D }$ Also, by (d), $B \\supseteq A$ so that B is densely defined. Moreover, if $h , g \\in \\mathcal { D }$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33,
+            0.853,
+            0.669,
+            0.896
+          ],
+          "content": "\\langle B h , g \\rangle = - i \\operatorname* { l i m } _ { t \\to 0 } \\left\\langle \\frac { U ( t ) h - h } { t } , g \\right\\rangle .",
+          "image_source": "images/page_342_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.904,
+            0.867,
+            0.924
+          ],
+          "content": "By (b) and the fact that each $U ( t )$ is unitary, it follows that $U(t)^{*} = U(t)^{-1}$"
+        }
+      ]
+    },
+    {
+      "page_idx": 343,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.13,
+            0.056,
+            0.318,
+            0.072
+          ],
+          "content": "§5. Stone's Theorem"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": "329"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.1,
+            0.275,
+            0.119
+          ],
+          "content": "U(− t). Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.305,
+            0.127,
+            0.69,
+            0.249
+          ],
+          "content": "\\begin{align*}\\langle \\boldsymbol{B} \\boldsymbol{h}, \\boldsymbol{g} \\rangle &= - i \\lim_{t \\to 0} \\left\\langle \\boldsymbol{h}, \\frac{U(-t) \\boldsymbol{g} - \\boldsymbol{g}}{t} \\right\\rangle \\\\&= \\lim_{t \\to 0} \\left\\langle \\boldsymbol{h}, - i \\left[ \\frac{U(-t) \\boldsymbol{g} - \\boldsymbol{g}}{-t} \\right] \\right\\rangle \\\\&= \\langle \\boldsymbol{h}, \\boldsymbol{B} \\boldsymbol{g} \\rangle.\\end{align*}",
+          "image_source": "images/page_343_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.257,
+            0.87,
+            0.296
+          ],
+          "content": "Hence B is a symmetric extension of A. Since self-adjoint operators are maximal symmetric operators (2.11), $B = A$ and $\\mathcal { D } = \\dim A .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.313,
+            0.767,
+            0.333
+          ],
+          "content": "The following definition is inspired by the preceding theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.35,
+            0.871,
+            0.424
+          ],
+          "content": "5.3. Definition. A strongly continuous one parameter unitary group is a function $U : \\mathbb { R } \\to { \\mathcal { B } } ( { \\mathcal { H } } )$ such that for all s and t in R: (a) U(t) is a unitary operator; (b) $U ( s + t ) = U ( s ) U ( t ) ;$ (c) if $h \\in \\mathcal { H }$ and $t _ { 0 } { \\in } \\mathbb { R }$ , then $U ( t ) h \\to U ( t _ { 0 } ) h$ as $t   \\rightarrow   t _ { 0 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.424,
+            0.869,
+            0.46
+          ],
+          "content": "Note that by Theorem 5.1, if A is self-adjoint, then $U ( t ) = \\exp ( i t A )$ defines a strongly continuous one parameter unitary group."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.461,
+            0.871,
+            0.554
+          ],
+          "content": "Also, $U ( 0 )   =   1$ and $U ( - t ) = U ( t ) ^ { - 1 }$ , so that $\\{ U ( t ) : t { \\in } \\mathbb { R } \\}$ is indeed a group. Property (c) also implies that $U \\colon \\mathbb { R }   \\to   ( { \\mathcal { B } } ( { \\mathcal { H } } ) , \\mathrm { S O T } )$ is continuous. By Exercise 1, if U is only assumed to be WOT-continuous, then U is SOT-continuous. However, this condition can be relaxed even further as the following result of von Neumann [1932] shows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.571,
+            0.871,
+            0.627
+          ],
+          "content": "5.4. Theorem. If H is separable, U: $\\mathbb { R } \\rightarrow \\mathcal { B } ( \\mathcal { H } )$ satisfies conditions (a) and (b) of Definition 5.3, and if for all h, g in H the function $t { \\mapsto } \\langle U ( t ) h , g \\rangle$ is Lebesgue measurable, then U is a strongly continuous one-parameter unitary group."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.634,
+            0.87,
+            0.671
+          ],
+          "content": "PROOF. If $0 < a < \\infty$ and $h , g \\in \\mathcal { H }$ , then $t { \\mapsto } \\langle U ( t ) h , g \\rangle$ is a bounded measurable function on $[ 0 , a ]$ and hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.677,
+            0.645,
+            0.722
+          ],
+          "content": "\\int _ { 0 } ^ { a } \\left| \\left\\langle U ( t ) h , g \\right\\rangle \\right| d t \\leqslant a \\left\\| h \\right\\| \\left\\| g \\right\\| .",
+          "image_source": "images/page_343_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.724,
+            0.185,
+            0.742
+          ],
+          "content": "Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.746,
+            0.596,
+            0.79
+          ],
+          "content": "h \\mapsto \\int _ { 0 } ^ { a } \\langle U ( t ) h , g \\rangle   d t",
+          "image_source": "images/page_343_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.798,
+            0.864,
+            0.817
+          ],
+          "content": "is a bounded linear function on $\\mathcal { H } .$ Therefore there is a $g _ { a }$ in $\\mathcal { H }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.129,
+            0.824,
+            0.626,
+            0.869
+          ],
+          "content": "\\langle h , g _ { a } \\rangle = \\int _ { 0 } ^ { a } \\langle U ( t ) h , g \\rangle d t\\tag{5.5}",
+          "image_source": "images/page_343_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.871,
+            0.306,
+            0.891
+          ],
+          "content": "and $\\| g _ { a } \\| \\leqslant a \\| g \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.907,
+            0.508,
+            0.927
+          ],
+          "content": "Claim. $\\{ g _ { a } ;   g \\in \\mathcal { H } ,   a > 0 \\}$ is total in $\\mathcal { H }$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 336,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 337,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 338,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 339,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 340,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 341,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 342,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 343,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

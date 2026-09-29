@@ -1,0 +1,5488 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 296,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 297,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 298,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 299,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 300,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 301,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 302,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 303,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 296,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.058,
+            0.168,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "282"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.505,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.87,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( T ) = T \\oplus T"
+            },
+            {
+              "type": "text",
+              "content": " .Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a *-isomorphism. However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\boldsymbol { \\mu } } ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " are not spatially isomorphic. That is, there is no Hilbert space isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { L } ^ { 2 } ( \\mu ) \\to L ^ { 2 } ( \\mu ) \\oplus L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { A } _ { \\mu } U ^ { - 1 } = \\mathcal { A } _ { \\mu } ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " . Why? One way to see that no such U exists is to note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " has a cyclic vector (give an example). However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\mu } ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " does not have a cyclic vector as shall be seen presently (Theorem 7.8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.229,
+            0.87,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.5. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\subseteq \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 } \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " if the only operator A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A e _ { 0 } = 0"
+            },
+            {
+              "type": "text",
+              "content": " is the operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   =   0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.284,
+            0.871,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma - \\mathrm { f i n i t e }"
+            },
+            {
+              "type": "text",
+              "content": " measure space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\{ x { \\in } X"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) = 0 \\} = 0"
+            },
+            {
+              "type": "text",
+              "content": " (Why does such an f exist?), then f is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " as well as a cyclic vector. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then no vector in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separating for  while every nonzero vector is a cyclic vector. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\mathcal { A } } = \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } > 1"
+            },
+            {
+              "type": "text",
+              "content": " then  has no cyclic vectors but every nonzero vector is separating for ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.395,
+            0.872,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.6. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { I f } \\: e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a cyclic vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.44,
+            0.871,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\in \\mathcal { A } ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T e _ { 0 }   =   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then for every A in , "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T A e _ { 0 } = A T e _ { 0 } = 0"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nabla \\mathcal { A } e _ { 0 } = \\mathcal { H } , \\; T = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.496,
+            0.873,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.7. Corollary. If A is an abelian subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then every cyclic vector for A is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.542,
+            0.514,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. Because is abelian, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\subseteq \\mathcal { A } ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.577,
+            0.874,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } ) ^ { \\prime } = \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " , Proposition 7.6 explains some of the duality exhibited prior to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(7.6)"
+            },
+            {
+              "type": "text",
+              "content": " . Also note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a finite measure space, 1  0, 0  1, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\oplus 1"
+            },
+            {
+              "type": "text",
+              "content": " are all separating vectors for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\mu } ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " . Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\mu } ^ { ( 2 ) } \\neq ( \\mathcal { A } _ { \\mu } ^ { ( 2 ) } ) ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " , the next theorem says that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\boldsymbol { \\mu } } ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " has no cyclic vector."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.649,
+            0.875,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Although it is easy to see that conditions (a) and (b) in the next result are equivalent, irrespective of any assumption on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " the equivalence of the remaining parts to (a) and (b) is not true unless some additional assumption is made on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " (see Exercise 5). We are content to assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.759,
+            0.874,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.8. Theorem. Assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable and A is an abelian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . The following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13,
+            0.805,
+            0.622,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is a maximal abelian von Neumann algebra."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.133,
+            0.824,
+            0.258,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathcal { A } ^ { \\prime } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.132,
+            0.841,
+            0.685,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " has a cyclic vector, contains 1, and is SOT closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.13,
+            0.86,
+            0.875,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) There is a compact metric space X, a positive Borel measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " with support X, and an isomorphism U: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ) \\to \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { A } _ { \\mu } U ^ { - 1 } = \\mathcal { A }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.132,
+            0.905,
+            0.818,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. The proof that (a) and (b) are equivalent is left as an exercise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 297,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.452,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§7. Abelian von Neumann Algebras"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.832,
+            0.057,
+            0.868,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "283"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.868,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)⇒(c): By Zorn's Lemma and the separability of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " , there is a maximal sequence of unit vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq m ,"
+            },
+            {
+              "type": "text",
+              "content": " cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\mathcal { A } e _ { n } ] \\bot \\mathrm { c l } [ \\mathcal { A } e _ { m } ]"
+            },
+            {
+              "type": "text",
+              "content": " . It follows from the maximality of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\oplus _ { n = 1 } ^ { \\infty } \\operatorname { c l } [ \\mathcal { A } e _ { n } ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.158,
+            0.869,
+            0.251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_{0}=\\sum_{n = 1}^{\\infty}e_{n}/\\sqrt{2^{n}}"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { n } \\bot e _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq m, \\quad \\| e_0 \\|^2 = \\sum 2^{-n} = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n }   ="
+            },
+            {
+              "type": "text",
+              "content": " the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n } = \\mathrm { c l } [ \\mathcal { A } e _ { n } ]"
+            },
+            {
+              "type": "text",
+              "content": " Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " leaves "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " invariant and so, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " is a *-algebra, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " reduces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n } \\in \\mathcal { A } ^ { \\prime } = \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and C "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { l } [ \\mathcal { A } e _ { 0 } ] \\supseteq \\mathrm { c l } [ \\mathcal { A } P _ { n } e _ { 0 } ] = \\mathrm { c l } [ \\mathcal { A } e _ { n } ] = \\mathcal { H } _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " Therefore cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\mathcal { A } e _ { 0 } ] = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a cyclic vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.251,
+            0.87,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c)⇒(d): Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable, ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is WOT metrizable and compact (1.3 and 5.5). By picking a countable WOT dense subset of ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " and letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " be the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -algebra generated by this countable dense subset, it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a separable C*-algebra whose SOT closure is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " Let X be the maximal ideal space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon C ( X ) \\to \\mathcal { A } _ { 1 } \\subseteq \\mathcal { A } \\subseteq \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " be the inverse of the Gelfand map. By Theorem 1.14 there is a spectral measure E defined on the Borel subsets of X such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u ) = \\int u   d E"
+            },
+            {
+              "type": "text",
+              "content": " for u in C(X). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ u _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in C(X) such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int u _ { i }   d v \\to \\int \\phi   d v"
+            },
+            {
+              "type": "text",
+              "content": " for every v in M(X), then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( u _ { i } ) = \\int u _ { i } d E \\to \\int \\phi d E"
+            },
+            {
+              "type": "text",
+              "content": " (WOT). Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\int \\phi   d E : \\phi \\in B ( X ) \\right\\} \\subseteq \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " is SOT closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.435,
+            0.868,
+            0.492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " be a cyclic vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = \\| E ( \\Delta ) e _ { 0 } \\| ^ { 2 } = \\langle E ( \\Delta ) e _ { 0 } , e _ { 0 } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle ( \\int \\phi   d E ) e _ { 0 } , e _ { 0 } \\rangle = \\int \\phi   d \\mu"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in B(X). Consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X )"
+            },
+            {
+              "type": "text",
+              "content": " as a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " by identifying functions that agree a.e. [μ]. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( X ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.263,
+            0.495,
+            0.734,
+            0.589
+          ],
+          "image_path": "images/page_297_equation_6.jpg",
+          "content": "\\begin{align*}\\left\\| \\left( \\int \\phi   dE \\right) e_0 \\right\\|^2 &= \\left\\langle \\left( \\int \\phi   dE \\right)^* \\left( \\int \\phi   dE \\right) e_0, e_0 \\right\\rangle \\\\&= \\int |\\phi|^2 d\\mu.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.596,
+            0.871,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This says two things. First, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = 0 \\mathrm { a . e . } [ \\mu ] ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\int \\phi   d E \\right) e _ { 0 } = 0"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( X ) \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\phi = ( \\int \\phi   d E ) e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a well-defined map from the dense manifold B(X) in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Second, U is an isometry. Since the domain and range of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " are dense (Why?), U extends to an isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon L ^ { 2 } ( \\mu ) \\to { \\mathcal { H } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.685,
+            0.87,
+            0.76
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { I f } \\quad \\phi \\in { \\pmb B } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi   \\in   L ^ { \\infty } ( \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U M _ { \\psi } \\phi = U ( \\psi \\phi ) = ( \\int \\psi \\phi   d E ) e _ { 0 } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\int \\psi   d E ) ( \\int \\phi   d E ) e _ { 0 } = ( \\int \\psi   d E ) U \\phi"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U M _ { \\psi } U ^ { - 1 } = \\int \\psi d E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { A } _ { \\mu } U ^ { - 1 } \\subseteq \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " On the other hand, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ U \\mathcal { A } _ { \\mu } U ^ { - 1 } \\right."
+            },
+            {
+              "type": "text",
+              "content": " is a SOT closed "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " that contains "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U C ( X ) U ^ { - 1 } = \\dot { \\mathcal { A } } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . (Why?) So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { A } _ { \\mu } U ^ { - 1 } = \\mathcal { A } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.156,
+            0.76,
+            0.569,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is separable, X is metrizable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.155,
+            0.777,
+            0.868,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d)⇒(b): This is a consequence of Theorem 6.6 and Proposition 7.4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.814,
+            0.871,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mercer (1986) shows that for a maximal abelian von Neumann algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " there is an orthonormal basis for the underlying Hilbert space consisting of vectors that are cyclic and separating for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.887,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.9. Corollary. If A is an abelian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is separable, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " has a separating vector."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 298,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.17,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "284"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.507,
+            0.056,
+            0.869,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.871,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. By Zorn's Lemma, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is contained in a maximal abelian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{*} - \\mathrm{algebra}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " must be SOT closed, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal abelian von Neumann algebra. By the preceding theorem, there is a cyclic vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " But (7.7) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is separating for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " and hence for any subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { m }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.21,
+            0.871,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding corollary may seem innocent, but it is, in fact, the basis for the next section."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.277,
+            0.233,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.138,
+            0.296,
+            0.369,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove Proposition 7.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.138,
+            0.322,
+            0.369,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Prove Proposition 7.4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.137,
+            0.347,
+            0.595,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Why are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { \\mu } ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " not spatially isomorphic?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.137,
+            0.373,
+            0.87,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Show that if X is any compact metric space, there is a separable Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and a *-monomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau \\colon C ( X ) \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " . Find the spectral measure for τ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.137,
+            0.417,
+            0.871,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Let be an abelian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " -subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " contains no uncountable collection of pairwise orthogonal projections. Show that the following statements are equivalent: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal abelian von Neumann algebra; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\mathcal { A } _ { 2 } ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " has a cyclic vector and is SOT closed; (d) there is a finite measure space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and an isomorphism U: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ) \\to \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { A } _ { \\mu } U ^ { - 1 } = \\mathcal { A } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.137,
+            0.511,
+            0.87,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ P _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence of commuting projections in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{n = 1}^{\\infty}3^{- n}(2P_{n} - 1)"
+            },
+            {
+              "type": "text",
+              "content": " .Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{*} - \\mathrm{algebra}"
+            },
+            {
+              "type": "text",
+              "content": " generated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ P _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . (Do you see a connection between A and the Cantor-Lebesgue function?)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.137,
+            0.568,
+            0.871,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian von Neumann algebra on a separable Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " ,show that there is a hermitian operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " equals the smallest von Neumann algebra containing A. (Hint: Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ P _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a countable WOT dense subset of the set projections in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " and use Exercise 6. This proof is due to Rickart [1960], pp. 293–294. Also see Jenkins [1972].)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.136,
+            0.661,
+            0.871,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If X is a compact space, show that C(X) is generated as a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ."
+            },
+            {
+              "type": "text",
+              "content": " -algebra by its characteristic functions if and only if X is totally disconnected. If A is as in Exercise 6, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is totally disconnected."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.135,
+            0.721,
+            0.87,
+            0.79
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If X and Y are compact spaces and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau \\colon C ( X ) \\to C ( Y )"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphism with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( 1 ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " , show that there is a continuous function φ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y   \\rightarrow   X"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( u ) = u \\circ \\phi"
+            },
+            {
+              "type": "text",
+              "content": " for every u in C(X). Show that τ is injective if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is surjective, and, in this case, τ is an isometry. Show that τ is surjective if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is injective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.797,
+            0.87,
+            0.846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Let X and Z be compact spaces, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y = X \\times Z ,"
+            },
+            {
+              "type": "text",
+              "content": " and let φ: Y → X be the projection onto the first coordinate. Define τ: C(X) → C(Y) by τ(u) = u° φ. Describe the range of τ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.856,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Adopt the notation of Exercise 9. Define an equilvalence relation ~ on Y by saying "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { 1 } \\sim y _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( y _ { 1 } ) = \\phi ( y _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " . Let q: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y   \\to   Y /   \\sim"
+            },
+            {
+              "type": "text",
+              "content": " be the natural map and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ^ { * } \\colon C ( Y / \\sim ) \\to C ( Y )"
+            },
+            {
+              "type": "text",
+              "content": " the induced homomorphism. Show that there is a *-epimorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon C ( X ) \\to C ( Y / \\sim )"
+            },
+            {
+              "type": "text",
+              "content": " such that the diagram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 299,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.056,
+            0.59,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. The Functional Calculus for Normal Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "285"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.386,
+            0.097,
+            0.65,
+            0.171
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.386,
+                0.097,
+                0.65,
+                0.171
+              ],
+              "image_path": "images/page_299_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.161,
+            0.177,
+            0.652,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "commutes. Find the corresponding injection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y / { \\sim } \\to X ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.203,
+            0.87,
+            0.255
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. If X is any compact metric space, show that there is a totally disconnected compact metric space Y and a continuous surjection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon Y   \\to   X"
+            },
+            {
+              "type": "text",
+              "content": " . (Hint: Start by embedding C(X) into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and use Exercises 7 and 8.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.262,
+            0.871,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Show that every totally disconnected compact metric space is the continuous image of the Cantor ternary set. (Do this directly; do not try to use "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{*} -algebrs."
+            },
+            {
+              "type": "text",
+              "content": " Combine this with Exercise 12 to get that every compact metric space is the continuous image of the Cantor set."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.339,
+            0.869,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. If  is an abelian von Neumann algebra and X is its maximal ideal space, then X is a Stonean space; that is, if U is open in X, then cl U is open in X."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.381,
+            0.871,
+            0.518
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. This exercise assumes Exercise 2.21 where it was proved that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 1 } ^ { * } = \\mathcal { B } ."
+            },
+            {
+              "type": "text",
+              "content": " When referring to the weak* topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } = \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , we mean the topology  has as the Banach dual of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " (a) Show that on bounded subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\mathscr { B } }"
+            },
+            {
+              "type": "text",
+              "content": " the weak* topology = WOT. (b) Show that a C*-subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is von Neumann algebra if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is weak* closed. (c) Show that WOT and the weak* topology agree on abelian von Neumann algebras (See Takeda [1951] and Pallu de la Barrière [1954].) (d) Give an example of a weak* closed subspace of  that is not WOT closed. (See von Neumann [1936].)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.525,
+            0.508,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. Prove the converse of Proposition 7.6."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.595,
+            0.849,
+            0.642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. The Functional Calculus for Normal Operators: The Conclusion of the Saga"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.659,
+            0.579,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section it will always be assumed that"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.34,
+            0.687,
+            0.656,
+            0.705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "all Hilbert spaces are separable."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.713,
+            0.871,
+            0.768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Indeed, this assumption will remain in force for the rest of the chapter. This assumption is necessary for the validity of some of the results and minimizes the technical details in others."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.769,
+            0.872,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If N is a normal operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " be the von Neumann algebra generated by N. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " is the intersection of all of the von Neumann algebras containing N. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " is the WOT closure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ p ( N , N ^ { * } ) : p ( z , \\bar { z } ) \\right."
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in z and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { z } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.86,
+            0.87,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.1. Proposition. If N is a normal operator, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N ) = \\{ N \\} ^ { \\prime \\prime } \\supseteq \\{ \\phi ( N ) :"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( \\sigma ( N ) )   \\big \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.905,
+            0.871,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. The equality results from combining the Double Commutant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 300,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "286"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.505,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.868,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem and the Fuglede-Putnam Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = \\int z   d E ( z ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\left\\{ N \\right\\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T { \\in } \\{ N , N ^ { * } \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " by the Fuglede-Putnam Theorem and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T E ( \\Delta ) = E ( \\Delta ) T"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Delta }"
+            },
+            {
+              "type": "text",
+              "content": " by the Spectral Theorem. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\phi ( N ) = \\phi ( N ) T"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N ) = \\int \\phi   d E"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.192,
+            0.871,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The purpose of this section is to prove that the containment in the preceding proposition is an equality. In fact, more will be proved. A measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " whose support is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " will be found such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " is well defined if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi { \\mapsto } \\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " is a *-isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " To find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " Corollary 7.9 (which requires the separability of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is used."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.285,
+            0.871,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Corollary "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7 . 9 ,   W ^ { * } ( N ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , being an abelian von Neumann algebra, has a separating vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Define a measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.333,
+            0.33,
+            0.662,
+            0.35
+          ],
+          "image_path": "images/page_300_equation_5.jpg",
+          "content": "\\mu ( \\Delta ) = \\langle E ( \\Delta ) e _ { 0 } , e _ { 0 } \\rangle = \\| E ( \\Delta ) e _ { 0 } \\| ^ { 2 } ."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.367,
+            0.599,
+            0.386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.3. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = 0"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.394,
+            0.871,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) e _ { 0 } = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = \\chi _ { \\Delta } ( N ) \\in W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " .Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a separating vector, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " The reverse implication is clear."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.449,
+            0.871,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.4. Definition. A scalar-valued spectral measure for N is a positive Borel measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " and E are mutually absolutely continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.524,
+            0.872,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So Proposition 8.3 says that scalar-valued spectral measures exist. It will be shown (8.9) that every scalar-valued spectral measure is defined by (8.2) where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " . In the process additional information is obtained about a normal operator and its functional calculus."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.595,
+            0.871,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { I f } h \\in { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { h } \\equiv E _ { h , h }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { h } \\equiv \\mathrm { c l } \\left[ W ^ { * } ( N ) h \\right]"
+            },
+            {
+              "type": "text",
+              "content": " . Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is the smallest reducing subspace for N that contains h. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h } \\equiv N | \\mathcal { H } _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-cyclic normal operator with *-cyclic vector h. The uniqueness of the spectral measure for a normal operator implies that the spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) | \\mathcal { H } _ { h } |"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi _ { \\Delta } ( N _ { h } ) = \\chi _ { \\Delta } ( N ) | \\mathcal { H } _ { h } = E ( \\Delta ) | \\mathcal { H } _ { h } |"
+            },
+            {
+              "type": "text",
+              "content": " Thus Theorem 3.4 implies there is a unique isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } : \\mathcal { H } _ { h } \\to L ^ { 2 } ( \\mu _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } { \\dot { h } } = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } N _ { h } U _ { h } ^ { - 1 } f = z f"
+            },
+            {
+              "type": "text",
+              "content": " for all f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " . The notation of this paragraph is used repeatedly in this section."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.741,
+            0.873,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The way to understand what is going on is to consider each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " as a localization of N. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is unitarily equivalent to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " we can agree that we thoroughly understand the local behavior of N. Can we put together this local behavior of N to understand the global behavior of N? This is precisely what is done in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\S 1 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.833,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the present section the objective is to show that if h is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , then the functional calculus for N is completely determined by the functional calculus for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " The sense in which this “determination\" is made is the following. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , then the definition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { \\pmb { h } }"
+            },
+            {
+              "type": "text",
+              "content": " shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\mathcal { H } _ { h } \\subseteq \\mathcal { H } _ { h ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }   \\in   W ^ { * } ( N ) , \\; \\mathcal { H } _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " reduces each operator in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N ) ;"
+            },
+            {
+              "type": "text",
+              "content": " thus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 301,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.056,
+            0.591,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. The Functional Calculus for Normal Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "287"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.099,
+            0.87,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "A | \\mathcal { H } _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is meaningful. It will be shown that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\rightarrow   A   |   \\mathcal { H } _ { \\pmb { h } }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " if h is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is *-cyclic, Theorem 6.6 and Corollary 6.9 show how to determine "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N _ { h } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.156,
+            0.174,
+            0.479,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We begin with a modest lemma."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.21,
+            0.87,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.5. Lemma. If h∈H and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } \\colon W ^ { * } ( N )   \\to   W ^ { * } ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( A ) = A \\left| \\mathcal { H } _ { h } \\right|"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-epimorphism that is WOT-continuous. Moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\psi   \\in   B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( \\psi ( N ) ) = \\psi ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " and if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathbb { W } ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N _ { h } ) )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( A ) = \\phi ( N _ { h } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.293,
+            0.871,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProOF. First let us see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " maps "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N _ { h } ) ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( z , \\bar { z } )"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in z and ž then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } [ p ( N , N ^ { * } ) ] = p ( N _ { h } , N _ { h } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " as an algebraic manipulation shows. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ p _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net of such polynomials such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i } ( N , N ^ { * } ) \\to A ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " , then for f, g in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { h } ,   \\langle p _ { i } ( N , N ^ { * } ) f , g \\rangle \\to \\langle A f , g \\rangle ;"
+            },
+            {
+              "type": "text",
+              "content": " thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i } ( N _ { h } , N _ { h } ^ { * } )   \\rightarrow   \\rho _ { h } ( A ) ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( A )   \\in   W ^ { * } ( N _ { h } ) ."
+            },
+            {
+              "type": "text",
+              "content": " It is left as an exercise for the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism. Also, the preceding argument can be used to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is WOT continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.422,
+            0.868,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi   \\in   { \\pmb B } ( \\sigma ( N ) ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , there is a net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ p _ { i } ( z , \\bar { z } ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " of polynomials in z and ž such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int p _ { i }   d v \\rightarrow \\int \\psi   d v"
+            },
+            {
+              "type": "text",
+              "content": " for every ν in M(σ(N)). (Why?) Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N _ { h } ) \\subseteq \\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " (Why?), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int p _ { i }   d \\eta \\to \\int \\psi"
+            },
+            {
+              "type": "text",
+              "content": " dη for every η in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( \\sigma ( N _ { h } ) )"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i } ( N , N ^ { * } )   \\rightarrow   \\psi ( N ) ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i } ( N _ { h } , N _ { h } ^ { * } ) \\rightarrow \\psi ( N _ { h } ) ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( p _ { i } ( N , N ^ { * } ) ) = p _ { i } ( N _ { h } , N _ { h } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( p _ { i } ( N , N ^ { * } ) ) \\to"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( \\psi ( N ) ) ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( \\psi ( N ) ) = \\psi ( N _ { h } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.515,
+            0.869,
+            0.589
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } : \\mathcal { H } _ { h } \\to L ^ { 2 } ( \\mu _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " be the isomorphism such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } h   =   1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } N _ { h } U _ { h } ^ { - 1 } = N _ { \\mu _ { h } } ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathbb { W } ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { h } = \\rho _ { h } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " ,then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { h } N _ { h } = N _ { h } A _ { h } ;"
+            },
+            {
+              "type": "text",
+              "content": " thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_{h}A_{h}U_{h}^{-1}\\in\\left\\{N_{\\mu_{h}}\\right\\}^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " . By Corollary 6.9, there is a φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N _ { h } ) )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { h } A _ { h } U _ { h } ^ { - 1 } = \\dot { M } _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " It follows (How?) that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { h } = \\phi ( N _ { h } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.588,
+            0.868,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is surjective note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B   \\in   W ^ { * } ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " , then (use the argument in the preceding paragraph) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\psi ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " for some ψ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N _ { h } ) )"
+            },
+            {
+              "type": "text",
+              "content": " Extend ψ to σ(N) by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi = 0"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) \\backslash \\sigma ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( N )   \\in   W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } ( \\psi ( N ) ) = \\psi ( N _ { h } ) = B ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.677,
+            0.87,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.6. Lemma. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for N and if v is a positive measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\nu } \\ll \\pmb { \\mu } _ { e } ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is an h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu = \\mu _ { h }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.74,
+            0.869,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. This proof is just an application of the Radon-Nikodym Theorem once certain identifications are made; namely, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = [ d v / d \\mu _ { e } ] ^ { 1 / 2 } \\in L ^ { 2 } ( \\mu _ { e } )"
+            },
+            {
+              "type": "text",
+              "content": " , so put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { h } = \\boldsymbol { U } _ { e } ^ { - 1 } \\boldsymbol { f }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H } _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " For any Borel set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta , v ( \\Delta ) = \\int \\chi _ { \\Delta } d v = \\int \\chi _ { \\Delta } f f d \\mu _ { e } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle M_{\\chi_{\\Delta}}f,f\\rangle=\\langle U_{e}^{-1}M_{\\chi_{\\Delta}}f,U_{e}^{-1}f\\rangle=\\langle E(\\Delta)h,h\\rangle=\\mu_{h}(\\Delta)."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.833,
+            0.546,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.7. Lemma. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N ) = \\{ \\phi ( N ) \\colon \\phi   \\in   B ( \\sigma ( N ) ) \\}"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.87,
+            0.87,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = \\left\\{ \\phi ( N ) ;   \\phi   \\in   B ( \\sigma ( N ) ) \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence  is a *-algebra and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\subseteq W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " by Proposition 8.1. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " it suffices to prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " is WOT closed. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\phi _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i } ( N )   \\rightarrow   A ( \\mathrm { W O T } ) ;"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathbb { W } ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " . By"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 302,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.136,
+            0.056,
+            0.172,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "288"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.51,
+            0.056,
+            0.873,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.1,
+            0.873,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(8.5) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i } ( N _ { h } ) \\to A | \\mathcal { H } _ { h } ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " for any h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " Also, by Lemma 8.5. for every h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( \\mathbf { C } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A | \\mathcal { H } _ { h } = \\phi _ { h } ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " Fix a separating vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N ) ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for N."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.155,
+            0.874,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i } ( N _ { h } ) \\rightarrow \\phi _ { h } ( N _ { h } ) ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i }   \\rightarrow   \\phi _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " weak* in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i }   \\rightarrow   \\phi _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " wea "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\bf k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu _ { e } )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { h }   \\ll   \\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\mu _ { h } / d \\mu _ { e } \\in L ^ { 1 } ( \\mu _ { e } ) ;"
+            },
+            {
+              "type": "text",
+              "content": " hence for any Borel set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\Delta }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.327,
+            0.217,
+            0.677,
+            0.263
+          ],
+          "image_path": "images/page_302_equation_4.jpg",
+          "content": "\\int _ { \\Delta } \\phi _ { i } d \\mu _ { h } = \\int _ { \\Delta } \\phi _ { i } \\frac { d \\mu _ { h } } { d \\mu _ { e } } d \\mu _ { e } \\rightarrow \\int _ { \\Delta } \\phi _ { e } d \\mu _ { h } ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13,
+            0.271,
+            0.222,
+            0.288
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But also"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.4,
+            0.295,
+            0.606,
+            0.341
+          ],
+          "image_path": "images/page_302_equation_6.jpg",
+          "content": "\\int _ { \\Delta } \\phi _ { i } d \\mu _ { h }   \\rightarrow   \\int _ { \\Delta } \\phi _ { h } d \\mu _ { h } ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.357,
+            0.873,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\int _ { \\Lambda } ( \\phi _ { e } - \\phi _ { h } ) d \\mu _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " for every Borel set ∆. Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { h } = \\phi _ { e } \\mathrm { ~ a . e . ~ } [ \\mu _ { h } ]"
+            },
+            {
+              "type": "text",
+              "content": " . But if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H } _ { h } ;"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle \\phi _ { h } ( N _ { h } ) g , g \\rangle = \\langle \\phi _ { h } ( N ) g , g \\rangle = \\int \\phi _ { h } d \\mu _ { g } = \\int \\phi _ { e } d \\mu _ { g }"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { g }   \\ll   \\mu _ { h ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle \\phi _ { h } ( N _ { h } ) g , g \\rangle = \\langle \\phi _ { e } ( N _ { h } ) g , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " ; that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { h } ( N _ { h } ) = \\phi _ { e } ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " In particular, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = \\phi _ { h } ( N _ { h } ) h = \\phi _ { e } ( N _ { h } ) h = \\phi _ { e } ( N ) h"
+            },
+            {
+              "type": "text",
+              "content": " Since h was arbitrary, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\phi _ { e } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.449,
+            0.873,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.8. Corollary. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } \\colon W ^ { * } ( N )   \\to   W ^ { * } ( N _ { h } )"
+            },
+            {
+              "type": "text",
+              "content": " is the *-epimorphism of Lemma 8.5, then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { h } = \\{ \\phi ( N ) : \\phi = 0 \\mathrm { ~ a . e . ~ } [ \\mu _ { h } ] \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.504,
+            0.873,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.9. Theorem. If N is a normal operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e e \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.551,
+            0.506,
+            0.568
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) e is a separating vector for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.569,
+            0.595,
+            0.586
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for N."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.586,
+            0.797,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) The map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { e } \\colon W ^ { * } ( N )   \\to W ^ { * } ( N _ { e } )"
+            },
+            {
+              "type": "text",
+              "content": " defined in (8.5) is a *-isomorphism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.604,
+            0.703,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\phi   \\in   B ( \\sigma ( N ) ) ; \\; \\phi ( N )   =   0 \\right\\} = \\left\\{ \\phi   \\in   B ( \\sigma ( N ) ) ; \\; \\phi   =   0 \\mathrm { ~ a . e . ~ } \\left[ \\mu _ { e } \\right] \\right\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.631,
+            0.453,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. (a)⇒(b): Proposition 8.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.649,
+            0.872,
+            0.705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)⇒(c): By Lemma 8.5, ρe is a *-epimorphism. By Corollary 8.8, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { e } = \\{ \\phi ( N ) : \\phi = 0 \\mathrm { ~ a . e . ~ } [ \\mu _ { e } ] \\}"
+            },
+            {
+              "type": "text",
+              "content": " . But if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = 0 \\mathrm { a . e . } [ \\mu _ { e } ] ,"
+            },
+            {
+              "type": "text",
+              "content": " (b) implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = 0"
+            },
+            {
+              "type": "text",
+              "content": " off a set ∆ such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\Delta ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N ) = \\int _ { \\Lambda } \\phi   d E = 0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.154,
+            0.704,
+            0.559,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c)⇒(d): Combine (c) with Corollary 8.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.128,
+            0.722,
+            0.872,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d)⇒(a): Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathbb { W } ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A e = 0"
+            },
+            {
+              "type": "text",
+              "content": " .By Lemma 8.7, there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in B(σ(N)) such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N ) = A ."
+            },
+            {
+              "type": "text",
+              "content": " Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\| A e \\| ^ { 2 } = \\langle A ^ { * } A e , e \\rangle = \\int | \\phi | ^ { 2 } d \\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = 0 \\mathrm { a . e . } [ \\mu _ { e } ]"
+            },
+            {
+              "type": "text",
+              "content": " . By (d), A = 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.127,
+            0.796,
+            0.873,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "These results can now be combined to yield the final statement of the functional calculus for normal operators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.125,
+            0.85,
+            0.875,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.10. The Functional Calculus for a Normal Operator. If N is a normal operator on the separable Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for N, then there is a well-defined map ρ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )   \\to   W ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " given by the formula "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\phi ) = \\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 303,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.588,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. The Functional Calculus for Normal Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "289"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.101,
+            0.534,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a *-isomorphism and an isometry;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.118,
+            0.712,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\colon ( L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , weak*) →(W*(N), WOT) is a homeomorphism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.146,
+            0.871,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": " be a separating vector such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " [by (8.6) and (8.9)]. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   B ( \\sigma ( N ) )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = 0 \\mathrm { a . e . } [ \\mu ]"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( N ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " by (8.9d); so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\phi ) = \\phi ( N )"
+            },
+            {
+              "type": "text",
+              "content": " is a well-defined map. It is left to the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a *-homomorphism. By Lemma "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 . 7 , \\rho"
+            },
+            {
+              "type": "text",
+              "content": " is surjective. Also, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( \\phi ) = \\phi ( N ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = 0"
+            },
+            {
+              "type": "text",
+              "content": " a.e. [µ] by (8.9d). Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is a *-isomorphism. By (VIII.4.8) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry. (A proof avoiding (VIII.4.8) is possible—it is left as an exercise.) This proves (a)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.256,
+            0.869,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\phi _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i } ( N )   \\rightarrow   0 ( \\mathrm { W O T } )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 1 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\geqslant 0 ,   f \\mu \\ll \\mu = \\mu _ { e }"
+            },
+            {
+              "type": "text",
+              "content": " . By Lemma 8.6 there is a vector h such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\mu = \\mu _ { h } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int \\phi _ { i } f d \\mu = \\int \\phi _ { i } d \\mu _ { h } = \\langle \\phi _ { i } ( N ) h , h \\rangle \\rightarrow 0"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i }   \\rightarrow   0   ( \\mathrm { w e a k } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . This proves half of (b); the other half is left as an exercise. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.353,
+            0.87,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.11. The Spectral Mapping Theorem. If N is a normal operator on a separable space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a"
+            },
+            {
+              "type": "text",
+              "content": " scalar-valued spectral measure for N and if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\phi ( N ) ) = t h e"
+            },
+            {
+              "type": "text",
+              "content": " μ-essential range of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.418,
+            0.87,
+            0.456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Use (8.10) and the fact (2.6) that the µ-essential range of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is the spectrum of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " as an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.476,
+            0.871,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.12. Proposition. Let N, µ, φ be as in (8.11). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = \\int z   d E ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\circ \\phi ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for φ(N) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E   \\circ   \\phi ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is its spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.533,
+            0.231,
+            0.548
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.136,
+            0.551,
+            0.84,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. What is a scalar-valued spectral measure for a diagonalizable normal operator?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.136,
+            0.577,
+            0.869,
+            0.612
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " be normal operators with scalar-valued spectral measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " What is a scalar spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { 1 } \\oplus N _ { 2 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.137,
+            0.619,
+            0.869,
+            0.653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\mu ( \\Delta ) = \\sum _ { n = 1 } ^ { \\infty } 2 ^ { - n } \\| E ( \\Delta ) e _ { n } \\| ^ { 2 } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " .Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for N."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.135,
+            0.661,
+            0.87,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Give an example of a normal operator on a nonseparable space which has no scalar-valued spectral measure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.135,
+            0.703,
+            0.781,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Prove that the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " in (8.10) is an isometry without using (VIII.4.8)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.135,
+            0.729,
+            0.376,
+            0.745
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Prove Proposition 8.12."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.135,
+            0.754,
+            0.868,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " and v are compactly supported measures on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " the following statements are equivalent: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } \\oplus N _ { \\nu }"
+            },
+            {
+              "type": "text",
+              "content": " is *-cyclic; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N _ { \\mu } \\oplus N _ { \\nu } ) = W ^ { * } ( N _ { \\mu } ) \\oplus"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N _ { v } ) ; ( \\mathrm { c } ) \\mu \\perp v ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.135,
+            0.814,
+            0.87,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If M and N are normal operators with scalar-valued spectral measures μ and v, respectively, show that the following are equivalent: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( M \\oplus N ) = W ^ { * } ( M )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W ^ { * } ( N ) ; ( \\mathsf { b } ) \\left\\{ M \\oplus N \\right\\} ^ { \\prime } = \\{ M \\} ^ { \\prime } \\oplus \\{ N \\} ^ { \\prime } ; ( \\mathsf { c } )"
+            },
+            {
+              "type": "text",
+              "content": " there is no operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "MA = AN"
+            },
+            {
+              "type": "text",
+              "content": " other than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = 0 ; ( \\mathbf { d } ) \\mu \\perp \\nu"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.135,
+            0.891,
+            0.869,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If M and N are normal operators, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( M \\oplus N ) = C ^ { * } ( M ) \\oplus C ^ { * } ( N )"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( M ) \\cap \\sigma ( N ) = \\square"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

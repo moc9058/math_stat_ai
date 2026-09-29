@@ -1,0 +1,4586 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 376,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 377,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 378,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 379,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 380,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 381,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 382,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 383,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 376,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.056,
+            0.169,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "362"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.67,
+            0.056,
+            0.87,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "XI. Fredholm Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.871,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If S is the unilateral shift, show that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " there is a rank one operator F with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| F \\| < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( S ^ { * }   \\oplus   S + F ) = \\partial \\mathbf { D } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.145,
+            0.872,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Let G be an open connected subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) \\backslash \\sigma _ { l e } ( A ) \\cup \\sigma _ { r e } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " and suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { 0 } \\in G"
+            },
+            {
+              "type": "text",
+              "content": " such that ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda _ { 0 } )   =   0 ."
+            },
+            {
+              "type": "text",
+              "content": " Show that there is a finite rank operator F such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + F - \\lambda _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is invertible. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + F - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is invertible for every λ in G."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.24,
+            0.532,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. The Components of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { I F }"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.282,
+            0.871,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the index is continuous on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { I F }"
+            },
+            {
+              "type": "text",
+              "content": " and assumes every possible value (Exercise 3.4), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " cannot be connected. What are its components?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.319,
+            0.871,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { I F }"
+            },
+            {
+              "type": "text",
+              "content": " is an open subset of a Banach space, its components are arcwise connected (Exercise IV.1.24)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.374,
+            0.876,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B { \\in } { \\mathcal { P } } { \\mathcal { F } }"
+            },
+            {
+              "type": "text",
+              "content": " , then A and B belong to the same component of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S F } i f"
+            },
+            {
+              "type": "text",
+              "content": " and only if ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\operatorname{ind}B"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.153,
+            0.429,
+            0.859,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Half of this theorem is easy. For the other half we first prove a lemma."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.466,
+            0.872,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.2. Lemma. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   =   0"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon [ 0 , 1 ]   \\to   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 0 )   =   1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 1 )   =   A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.512,
+            0.871,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. By Exercise 3.7 there is a finite-rank operator F such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + F"
+            },
+            {
+              "type": "text",
+              "content": " is invertible. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( t ) = A + t F , \\gamma ( 0 ) = A , \\gamma ( 1 ) = A + F , \\mathrm { a n d } \\gamma ( t ) \\in \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " for all t. Thus we may assume that A is invertible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.567,
+            0.871,
+            0.641
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = U | A |"
+            },
+            {
+              "type": "text",
+              "content": " be the polar decomposition of A. Because A is invertible, U is a unitary operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| A |"
+            },
+            {
+              "type": "text",
+              "content": " is invertible. Using the Spectral Theorem, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\exp ( i B )"
+            },
+            {
+              "type": "text",
+              "content": " where B is hermitian. Also, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\notin \\sigma ( | A | ) , | A | = \\int _ { [ \\delta , r ] } x   d E ( x )"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\delta < r = \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma : [ 0 , 1 ] \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.337,
+            0.648,
+            0.658,
+            0.692
+          ],
+          "image_path": "images/page_376_equation_12.jpg",
+          "content": "\\gamma ( t ) = e ^ { i t B } \\int _ { [ \\delta , r ] } x ^ { t }   d E ( x ) = e ^ { i t B } | A | ^ { t } ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.699,
+            0.871,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to check that γ is continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 0 )   =   1"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 1 )   =   A"
+            },
+            {
+              "type": "text",
+              "content": " Also, each γ(t) is invertible so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( t )   \\in   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.744,
+            0.871,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF OF THEOREM 5.1. First assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B   \\in   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\operatorname{ind}B."
+            },
+            {
+              "type": "text",
+              "content": " So there is an operator C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C B = 1 + K"
+            },
+            {
+              "type": "text",
+              "content": " for some compact operator K. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\in \\mathcal { F } _ { r }"
+            },
+            {
+              "type": "text",
+              "content": " and ind C = − ind B = − ind A. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A C { \\in } { \\mathcal { F } }"
+            },
+            {
+              "type": "text",
+              "content": " and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A C   =   0"
+            },
+            {
+              "type": "text",
+              "content": " By the preceding lemma there is a path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon [ 0 , 1 ]   \\to   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 0 )   =   1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 1 ) = A C"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( t ) = \\gamma ( t ) B - t A K"
+            },
+            {
+              "type": "text",
+              "content": " . Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A K \\in \\mathcal { B } _ { 0 } , \\rho ( t ) \\in \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " for all t in [0, 1]. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( 0 ) = B { \\mathrm { ~ a n d ~ } } \\rho ( 1 ) = A C B - A K = A ( 1 + K ) - A K = A ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.855,
+            0.874,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = - \\infty ;"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dim(\\tan A)^{\\perp} = \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " Let F be a finite-rank operator such that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A + tF) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " (Why does F exist?) This path shows that we may assume that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Let V be any isometry such that dim(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V ) ^ { \\perp } = \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and consider the polar decom-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 377,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.464,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. A Finer Analysis of the Spectrum"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.831,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "363"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.099,
+            0.869,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "position "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = U | A |"
+            },
+            {
+              "type": "text",
+              "content": " of A. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { P F }"
+            },
+            {
+              "type": "text",
+              "content": " and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = (0), \\left| A \\right|"
+            },
+            {
+              "type": "text",
+              "content": " is invertible and U is an isometry. Also, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\tan A"
+            },
+            {
+              "type": "text",
+              "content": " so (Exercise 4) there is a path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho : [ 0 , 1 ] \\to { \\mathcal { B } } ( { \\mathcal { H } } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( t )"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry for every t and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( 0 ) = U"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( 1 )   =   V ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma \\colon [ 0 , 1 ]   \\to   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " be a path such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 0 ) = | A |"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( 1 )   =   1"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( t ) = \\rho ( t ) \\gamma ( t )"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " defines a path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\colon [ 0 , 1 ]   \\to   \\mathcal { S F } ( \\mathrm { W h y ? } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( 0 ) = A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( 1 )   =   V ."
+            },
+            {
+              "type": "text",
+              "content": " Similarly, if ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = - \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , there is a path connecting B to V; so A and B belong to the same component of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { I F }"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.229,
+            0.841,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathrm{ind} B = +\\infty"
+            },
+            {
+              "type": "text",
+              "content": " , apply the preceding paragraph to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.285,
+            0.867,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3. Corollary. The component of the identity in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } , \\mathcal { F } _ { 0 } ."
+            },
+            {
+              "type": "text",
+              "content": " , is a normal sub-group of F and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } / \\mathcal { F } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is an infinite cyclic group."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.331,
+            0.867,
+            0.37
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. By Theorem 3.7, ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F }   \\to   \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": " is a group homomorphism and it is surjective (Exercise 3.4). By Theorem 5.1, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathrm { i n d } ) = \\mathcal { F } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.386,
+            0.232,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.405,
+            0.867,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let G be any topological group and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " be the component of the identity. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a normal subgroup of G."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.448,
+            0.765,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. What are the components of the set of invertible elements in C(∂D)?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.474,
+            0.867,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If S = the unilateral shift, what are the components of the set of invertible elements of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { * } ( S ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.517,
+            0.867,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. If U and V are isometries, show that there is a path consisting entirely of isometries connecting U to V if and only if dim(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ) ^ { \\perp } = \\dim ( \\operatorname { r a n } V ) ^ { \\perp }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.56,
+            0.621,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Find the components of the set of partial isometries."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.619,
+            0.649,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. A Finer Analysis of the Spectrum"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.66,
+            0.871,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section we will examine the spectrum and index more closely. For example, one question that arises: If A is semi-Fredholm and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " is chosen so that B is semi-Fredholm and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\operatorname{ind} A"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol{B} - \\boldsymbol{A} \\| < \\delta"
+            },
+            {
+              "type": "text",
+              "content": " (Corollary 3.13), how does dim ker B differ from dim ker A?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.733,
+            0.871,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Begin this investigation by associating with every bounded operator A the following number:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.295,
+            0.777,
+            0.7,
+            0.797
+          ],
+          "image_path": "images/page_377_equation_15.jpg",
+          "content": "\\gamma ( A ) = \\operatorname* { i n f } \\{ \\| A h \\| : \\| h \\| = 1 { \\mathrm { ~ a n d ~ } } h \\perp \\ker A \\} ."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.805,
+            0.873,
+            0.862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first proposition contains some elementary properties of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " and its proof is left to the reader. (Actually part (a) has appeared several times in this book under different guises.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.127,
+            0.88,
+            0.645,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.1. Proposition. Let A be a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.907,
+            0.577,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A )   >   0"
+            },
+            {
+              "type": "text",
+              "content": " if and only if A has closed range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 378,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.056,
+            0.17,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "364"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.67,
+            0.056,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "XI. Fredholm Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.099,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(A)=\\sup\\left\\{\\gamma:\\|A\\|\\geqslant\\gamma\\|h\\|\\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\ker A \\right)^{\\perp} \\left\\{ \\inf \\left\\{ \\left\\| A h \\right\\| / \\left\\| h \\right\\| \\right\\} \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in (\\ker A)^{\\perp} \\setminus \\{0\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.157,
+            0.599,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.2. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A ) = \\gamma ( A ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.184,
+            0.87,
+            0.279
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let h⊥ ker A. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A ^ { * } A h \\| = \\|   | A | A | h \\| = \\| A | A | h \\|"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| A | h \\in"
+            },
+            {
+              "type": "text",
+              "content": " cl ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*} \\left( \\mathrm{Wh}? \\right) = \\ker A^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence the definition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A ^ { * } A h \\| \\geqslant \\gamma ( A ) \\| A | h \\| = \\gamma ( A ) \\| A h \\|"
+            },
+            {
+              "type": "text",
+              "content": " ; that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A ^ { * } f \\| \\geqslant \\gamma ( A ) \\| f \\|"
+            },
+            {
+              "type": "text",
+              "content": " for every f in ran A. Since ran A is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker A ^ { * } ) ^ { \\perp } , \\gamma ( A ^ { * } ) \\geqslant \\gamma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A^{ 半半 }"
+            },
+            {
+              "type": "text",
+              "content": " , SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A ) \\geqslant \\gamma ( A ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.296,
+            0.871,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the preceding two propositions give a proof of the fact that an operator on a Hilbert space has closed range if and only if its adjoint does. See Theorem VI.1.10 and Exercise 2.1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.372,
+            0.87,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.3. Lemma. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } , \\mathcal { N } \\leqslant \\mathcal { H } , \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is finite dimensional, and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } > \\dim \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " then there is a non-zero vector m in M such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| m \\| = \\mathrm{dist}(m, \\mathcal{N})"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.418,
+            0.871,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. Let P be the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto M , so dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P(\\mathcal{N}) \\leq \\dim \\mathcal{N} < \\dim \\mathcal{M}"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( \\mathcal { N } )"
+            },
+            {
+              "type": "text",
+              "content": " is a proper subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ;"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { m } { \\in } \\mathcal { M } \\cap P ( \\mathcal { N } ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n { \\in } { \\mathcal { N } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\langle P n , m \\rangle = \\langle n , P m \\rangle = \\langle n , m \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\bot \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { m } \\| = \\mathrm { d i s t } ( \\boldsymbol { m } , \\mathcal { N } )"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.493,
+            0.651,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.4. Lemma. If h∈H, then γ(A)dist(h, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) \\leqslant \\| A h \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.52,
+            0.869,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. Let P be the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " ; then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| P h \\| = \\operatorname{dist}(h, \\operatorname{ker} A)"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A h \\| = \\| A P h \\| \\geqslant \\gamma ( A ) \\| P h \\| = \\gamma ( A ) \\mathrm { d i s t } ( h , \\ker A ) ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.575,
+            0.872,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the role of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " in the next and subsequent propositions impresses the reader as somewhat mysterious, reflect that if A is invertible, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A ) = \\| A ^ { - 1 } \\| ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 1). Now in Corollary VII.2.3, it was shown that if  is a Banach algebra, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 0 } \\in \\mathcal { A } ,"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 0 } a _ { 0 } = 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b"
+            },
+            {
+              "type": "text",
+              "content": " is left invertible whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| b \\| < \\| b _ { 0 } \\| ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Of course, a similar result holds for right invertible elements. The number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is trying to play the role of the reciprocal of the norm of a one-sided inverse."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.702,
+            0.871,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, if A is left invertible, then ran A is closed and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = (0);"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { S P }"
+            },
+            {
+              "type": "text",
+              "content": " . The next result implies that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| B \\| < \\gamma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + B"
+            },
+            {
+              "type": "text",
+              "content": " is left invertible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.777,
+            0.871,
+            0.814
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.5. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { S P }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| B \\| < \\gamma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + B \\in { \\mathcal { P } } { \\mathcal { F } }"
+            },
+            {
+              "type": "text",
+              "content": " and:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.824,
+            0.441,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A + B ) \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " dim ker A;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.842,
+            0.47,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A + B)^{\\perp} \\leqslant \\dim \\tan A^{\\perp}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.869,
+            0.617,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. First note that because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{S} \\mathcal{F}, \\gamma(A) > 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.887,
+            0.871,
+            0.943
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\boldsymbol { h } } { \\in } \\ker ( A + B )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = - B h . \\quad \\mathrm { B y }"
+            },
+            {
+              "type": "text",
+              "content": " Lemma 6.4, γ(A)dist(h, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) \\leqslant \\| B h \\| \\leqslant \\| B \\| \\| h \\| < \\gamma ( A ) \\| h \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Thus dist(h, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A )   < \\|   h"
+            },
+            {
+              "type": "text",
+              "content": " for every nonzero vector h in ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A + B )"
+            },
+            {
+              "type": "text",
+              "content": " . By Lemma 6.3, (a) holds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 379,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.464,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. A Finer Analysis of the Spectrum"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "365"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.865,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\pmb { B } \\| = \\| \\pmb { B } ^ { \\star } \\|"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(A)=\\gamma(A^{*})"
+            },
+            {
+              "type": "text",
+              "content": " , (a) implies that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( A ^ { * } + B ^ { * } \\right) \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . But this inequality is equivalent to (b)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.138,
+            0.87,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It remains to prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { r a n } ( A + B )"
+            },
+            {
+              "type": "text",
+              "content": " is closed. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { S P }"
+            },
+            {
+              "type": "text",
+              "content": " , either dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " or dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Suppose dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . It will be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + B { \\in } { \\mathcal { F } } _ { l }"
+            },
+            {
+              "type": "text",
+              "content": " by using Theorem 2.3(f) and showing that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta < \\gamma ( A ) - \\| B \\|"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ h : \\| ( A + B ) h \\| \\leqslant \\delta \\| h \\| \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " contains no infinite dimensional manifold. Indeed, if it did, it would contain a finite dimensional subspace M with dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } >"
+            },
+            {
+              "type": "text",
+              "content": " dim ker A. By Lemma 6.3 there is a non-zero vector h in M with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| = \\mathrm{dist}(h, \\ker A)"
+            },
+            {
+              "type": "text",
+              "content": " . Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| (A + B)h \\| \\leqslant \\delta \\| h \\|"
+            },
+            {
+              "type": "text",
+              "content": " , so Lemma 6.4 implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A ) \\left\\| h \\right\\| = \\gamma ( A ) \\mathrm { d i s t } ( h )"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) \\leqslant \\| A h \\| \\leqslant \\| ( A + B ) h \\| + \\| B h \\| \\leqslant ( \\delta + \\| B \\| ) \\| h \\| <"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A ) \\| { \\boldsymbol { h } } \\| ,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + B { \\in } { \\mathcal { F } } _ { l }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { r a n } ( A + B )"
+            },
+            {
+              "type": "text",
+              "content": " is closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.304,
+            0.868,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , then dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . The argument of the preceding paragraph gives that ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } + B ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " is closed. By (VI.1.10), ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A + B )"
+            },
+            {
+              "type": "text",
+              "content": " is closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.376,
+            0.87,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.6. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { S F }"
+            },
+            {
+              "type": "text",
+              "content": " and either ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " or ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| B - A \\| < \\delta ,"
+            },
+            {
+              "type": "text",
+              "content": " then dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\dim"
+            },
+            {
+              "type": "text",
+              "content": " ker A and dim ran B = dim ran A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.44,
+            0.87,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. By Proposition 6.5 and Theorem 3.12 there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| B - A \\| < \\delta ,"
+            },
+            {
+              "type": "text",
+              "content": " ,then ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\operatorname { i n d } B ,"
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " dim ker A, and dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { \\perp } \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Since one of these dimensions for A is 0, the proposition is proved. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.533,
+            0.87,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If both ker A and ran A are nonzero, then there are semi-Fredholm operators B that are arbitrarily close to A such that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B <"
+            },
+            {
+              "type": "text",
+              "content": " dim ker A (see Exercise 2). In fact, just about anything that can go wrong here does go wrong. However, dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " does behave rather nicely as a function of λ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.624,
+            0.87,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.7. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " are constant for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < | \\mu - \\lambda | < \\delta"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.669,
+            0.872,
+            0.799
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProOF. We may assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   =   0 ."
+            },
+            {
+              "type": "text",
+              "content": " We may also assume that ker A is finite dimensional. Indeed, if this is not the case, then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " must be finite dimensional and the proof that follows applies to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . But observe that if the conclusion of the theorem is demonstrated for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then it also holds for A. It follows that for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1,   A^n \\in \\mathcal{F}"
+            },
+            {
+              "type": "text",
+              "content": " (Theorem 3.7). Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{M}_{n}=\\mathrm{rank}A^{n}"
+            },
+            {
+              "type": "text",
+              "content": " is closed. Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { n + 1 } \\subseteq \\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{A} \\mathcal{M}_{n} = \\mathcal{M}_{n+1}"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\bigcap _ { n = 1 } ^ { \\infty } \\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = A \\vert \\mathcal { M }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.815,
+            0.304,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Claim. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\mathcal { M } = \\mathcal { M }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.851,
+            0.871,
+            0.945
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since ker A is finite dimensional and the spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are decreasing, there is an integer m such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { n } \\cap"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\mathcal { M } _ { m } \\cap"
+            },
+            {
+              "type": "text",
+              "content": " ker A for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant m ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant m ."
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = A f _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{m}-f_{n}\\in(\\ker A)\\cap\\mathcal{M}_{m}="
+            },
+            {
+              "type": "text",
+              "content": " (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap \\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { m } \\in \\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant m ."
+            },
+            {
+              "type": "text",
+              "content": " That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { m } \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = A f _ { m } = B f _ { m } \\in B . \\mathcal { M }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 380,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "366"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.668,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "XI. Fredholm Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.87,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal { S } \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " and ind B = dim ker B. By (3.12) and (6.5) there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | < \\delta ,"
+            },
+            {
+              "type": "text",
+              "content": " then dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\pmb { B } - \\mu ) \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " dim ker B, dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\boldsymbol { B } - \\boldsymbol { \\mu } ) ^ { \\perp } = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( B - \\mu ) ="
+            },
+            {
+              "type": "text",
+              "content": " ind B. Thus dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(B - \\mu) = \\dim"
+            },
+            {
+              "type": "text",
+              "content": " ker B for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | < \\delta ."
+            },
+            {
+              "type": "text",
+              "content": " Also, choose δ such that ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu ) ="
+            },
+            {
+              "type": "text",
+              "content": " ind A for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | < \\delta ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.173,
+            0.872,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the other hand, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " , then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu ) \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\mathit { h } } { \\in } \\ker ( \\mathbf { \\mathit { A } } - \\mathbf { \\mu } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{n}h = \\mu^{n}h,"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = A ^ { n } ( \\mu ^ { - n } h ) \\in \\mathcal { M } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for every n. Thus for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0   <   | \\mu |   <   \\delta ,"
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu ) ="
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(B - \\mu) = \\dim"
+            },
+            {
+              "type": "text",
+              "content": " ker B; that is, dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is constant for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0   <   | \\mu |   <   \\delta ."
+            },
+            {
+              "type": "text",
+              "content": " Since ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is constant for these values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ,"
+            },
+            {
+              "type": "text",
+              "content": " dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " is also constant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.284,
+            0.55,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next result is from Putnam [1968]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.32,
+            0.87,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.8. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } { \\partial } \\sigma ( A ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then either λ is an isolated point of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.365,
+            0.871,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PrOOF. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } { \\partial } \\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " but λ is not a point of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda \\in \\mathcal { P F }"
+            },
+            {
+              "type": "text",
+              "content": " . By the preceding theorem, there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\mu \\in \\mathcal { P F }"
+            },
+            {
+              "type": "text",
+              "content": " and dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\mu ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " are constant for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < | \\mu - \\lambda | < \\delta ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } { \\partial } \\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , there is a v with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < | \\lambda - v | < \\delta"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - v"
+            },
+            {
+              "type": "text",
+              "content": " is invertible. Therefore ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A - \\mu) = (0) = \\mathrm{ran}(A - \\mu)^{\\perp}   for   0 < |\\lambda - \\mu| < \\delta."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\mu \\in \\mathcal { P F }"
+            },
+            {
+              "type": "text",
+              "content": " for these values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " and hence has closed range. It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\mu"
+            },
+            {
+              "type": "text",
+              "content": " is invertible whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0   <   | \\lambda - \\mu |   <   \\delta"
+            },
+            {
+              "type": "text",
+              "content": " This says that λ is an isolated point of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.153,
+            0.531,
+            0.624,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What happens if λ is an isolated point of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.567,
+            0.87,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.9. Proposition. If λ is an isolated point of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.613,
+            0.335,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.631,
+            0.576,
+            0.648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) The Riesz idempotent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " has finite rank."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.649,
+            0.454,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda \\in \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A - \\lambda) = 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.676,
+            0.317,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise 4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.713,
+            0.529,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n { \\in } \\mathbb { Z } \\cup \\{ \\pm \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.251,
+            0.74,
+            0.74,
+            0.759
+          ],
+          "image_path": "images/page_380_equation_14.jpg",
+          "content": "P _ { n } ( A ) \\equiv \\{ \\lambda \\in \\sigma ( A ) : A - \\lambda \\in \\mathcal { S F } \\mathrm { a n d } \\mathrm { i n d } ( A - \\lambda ) = n \\} ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.767,
+            0.871,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq 0,   P_n(A)"
+            },
+            {
+              "type": "text",
+              "content": " is an open subset of the plane; the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 0 } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " consists of an open set together with some isolated points of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, Proposition 6.9 can be used to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 0 } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " contains precisely the isolated points of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " for which the Riesz idempotent has finite rank. The proof of the next result is easy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.877,
+            0.868,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.10. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { e } ( A ) = [ \\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A ) ] \\cup P _ { + \\infty } ( A ) \\cup"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { - \\infty } ( A )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 381,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.056,
+            0.462,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. A Finer Analysis of the Spectrum"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.831,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "367"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.867,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.11. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then the Weyl spectrum of A, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { w } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.347,
+            0.127,
+            0.641,
+            0.147
+          ],
+          "image_path": "images/page_381_equation_3.jpg",
+          "content": "\\sigma _ { w } ( A ) = \\cap \\{ \\sigma ( A + K ) : K \\in \\mathcal { B } _ { 0 } \\} ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.156,
+            0.869,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { e } ( A + K ) = \\sigma _ { e } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " for every compact operator, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { w } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is nonempty and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { e } ( A ) \\subseteq \\sigma _ { w } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " . The way to think of the Weyl spectrum is that it is the largest part of the spectrum of A that remains unchanged under compact perturbations. It is clear that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { w } ( A ) = \\sigma _ { w } ( A + K )"
+            },
+            {
+              "type": "text",
+              "content": " for every K in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { w } ( A ) \\subseteq \\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " . The following is a result of Schechter [1965]."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.265,
+            0.726,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.12. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { w } ( A ) = \\sigma _ { e } ( A ) \\cup \\bigcup _ { n \\neq 0 } P _ { n } ( A ) ."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.292,
+            0.868,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\equiv \\sigma_{e}(A) \\cup \\bigcup_{n \\neq 0} P_{n}(A) \\subseteq \\sigma_{w}(A)"
+            },
+            {
+              "type": "text",
+              "content": " . Now suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\neq X"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - \\lambda \\in \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " and ind "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda )   =   0"
+            },
+            {
+              "type": "text",
+              "content": " By Exercise 3.7 there is a finite rank operator F such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + F - \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " is invertible. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\sigma(A + F)"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\not \\in \\sigma _ { w } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.368,
+            0.869,
+            0.461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So for every operator A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " there is a spectral picture for A (a term coined in Pearcy [1978]). There are the open sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ P_{n}(A): 0 < |n| \\leq \\infty \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P_{0}(A)=G_{0}\\cup D"
+            },
+            {
+              "type": "text",
+              "content": " where D consists of isolated points λ for which dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\lambda ) = n _ { \\lambda } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , and there is the remainder of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , which is the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { l e } ( A ) \\cap \\sigma _ { r e } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " . The next result is due to Conway [1985]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.478,
+            0.87,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.13. Proposition. Let K be a compact subset of C, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ G _ { n } : - \\infty \\leqslant n \\leqslant \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " be disjoint open subsets of K (some possibly empty), let D be a subset of the set of isolated points of K, and for each λ in D let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n _ { \\lambda } { \\in } \\{ 1 , 2 , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then there is an operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = K , P _ { n } ( A ) = G _ { n } \\mathit { f o r } 0 < | n | \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 0 } ( A ) = G _ { 0 } \\cup D ,"
+            },
+            {
+              "type": "text",
+              "content": " and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ( \\lambda ) = n _ { \\lambda } \\; f o r"
+            },
+            {
+              "type": "text",
+              "content": " every λ in D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.589,
+            0.871,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We prove only a special case of this result; the general case is left to the reader. Let K be any compact subset of C and let G be an open subset of K. Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H = \\mathrm{int}[\\mathrm{cl} G];"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\subseteq H"
+            },
+            {
+              "type": "text",
+              "content": " , but it may be that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H \\neq G"
+            },
+            {
+              "type": "text",
+              "content": " . However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial H = \\partial [ \\mathrm { c l }   H ]"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T f = z f"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { a } ^ { 2 } ( H )"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H = P _ { - 1 } ( T ) , \\; \\sigma ( T ) = \\mathrm { c l }   H ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { l e } ( T ) \\cap \\sigma _ { r e } ( T ) = \\partial H = \\partial [ \\operatorname { c l } G ]"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\lambda _ { k } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a countable dense subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\backslash G"
+            },
+            {
+              "type": "text",
+              "content": " and let N be the diagonalizable normal operator with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { p } ( N ) = \\{ \\lambda _ { k } \\}"
+            },
+            {
+              "type": "text",
+              "content": " and such that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( N - \\lambda _ { k } ) = \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda_{k}.  If  0 < n \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = N \\oplus T ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = K , P _ { - n } ( A ) = G"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\backslash G = \\sigma_{le}(A) \\cap \\sigma_{re}(A)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.762,
+            0.233,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.779,
+            0.667,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If A is an invertible operator, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma ( A ) = \\| A ^ { - 1 } \\| ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.796,
+            0.872,
+            0.849
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " and suppose that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " and ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { A } ^ { \\perp } \\neq ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Show that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " there is an operator B in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| B - A \\| < \\delta ."
+            },
+            {
+              "type": "text",
+              "content": " , dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B <"
+            },
+            {
+              "type": "text",
+              "content": " dim ker A, and dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { B } ^ { \\perp } <"
+            },
+            {
+              "type": "text",
+              "content": " dim ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.855,
+            0.872,
+            0.891
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { S P }"
+            },
+            {
+              "type": "text",
+              "content": " , show that there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A - \\mu) = \\dim"
+            },
+            {
+              "type": "text",
+              "content": " ker A and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tan(A - \\mu)^{\\perp} = \\dim \\tan A^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mu | < \\delta"
+            },
+            {
+              "type": "text",
+              "content": " if ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq \\mathbf{r}\\mathbf{a}\\mathbf{n} \\cdot A^{\\mathbf{n}}"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.901,
+            0.361,
+            0.917
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Prove Proposition 6.9."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 382,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.058,
+            0.169,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "368"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.669,
+            0.056,
+            0.868,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "XI. Fredholm Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.103,
+            0.366,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Prove Proposition 6.10"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.128,
+            0.87,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   \\in   \\partial P _ { n } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq 0 ."
+            },
+            {
+              "type": "text",
+              "content": " ,show that ran(A — λ) is not closed. What happens if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   =   0 ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.155,
+            0.867,
+            0.172
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. (Stampfli [1974].) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a K in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A + K ) = \\sigma _ { w } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.18,
+            0.369,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Prove Proposition 6.13."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.207,
+            0.87,
+            0.257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. (Conway [1985].) If L and R are nonempty compact subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a bounded operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { l } ( A )   =   L"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { r } ( A ) = R"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { o } L \\subseteq R"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial R \\subseteq L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 383,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.1,
+            0.311,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "APPENDIX A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.128,
+            0.135,
+            0.366,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Preliminaries"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.42,
+            0.871,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As was stated in the Preface, the prerequisites for understanding this book are a good course in measure and integration theory and, as a corequisite, analytic function theory. In this and the succeeding appendices an attempt is made to fill in some of the gaps and standardize some notation. These sections are not meant to be a substitute for serious study of these topics."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.512,
+            0.873,
+            0.642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Section 1 of this appendix some results from infinite dimensional linear algebra are set forth. Most of this is meant as review. Proposition 1.4, however, seems to be a fact that is not stressed or covered in courses but that is used often in functional analysis. Section 2 on topology is presented mainly to discuss nets. This topic is often not covered in the basic courses and it is especially useful in discussing various ideas and proving results in functional analysis."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.672,
+            0.391,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Linear Algebra"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.712,
+            0.872,
+            0.786
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let x be a vector space over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F } = \\mathbf { R }"
+            },
+            {
+              "type": "text",
+              "content": " or C. A subset E of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is linearly independent if for any finite subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , \\ldots , e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of E and for any finite set of scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { 1 } , \\ldots , \\alpha _ { n } \\} , \\mathrm { i f } \\sum _ { k = 1 } ^ { n } \\alpha _ { k } e _ { k } = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } = \\cdots = \\alpha _ { n } = 0"
+            },
+            {
+              "type": "text",
+              "content": " A Hamel basis is a maximal linearly independent subset of ¿."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.804,
+            0.871,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Proposition. If E is a linearly independent subset of X, then E is a Hamel basis if and only if every vector x in X can be written as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = \\sum_{k = 1}^{n} \\alpha_{k} e_{k}"
+            },
+            {
+              "type": "text",
+              "content": " for scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , \\ldots , e _ { n } \\} \\subseteq E"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.868,
+            0.871,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Suppose E is a basis and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } { \\mathcal { X } } ,   x { \\notin } E ."
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E \\cup \\{ x \\}"
+            },
+            {
+              "type": "text",
+              "content": " is not linearly independent. Thus there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 0 } , \\alpha _ { 1 } , \\ldots , \\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in F and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 1 } , \\ldots , e _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in E such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\alpha _ { 0 } x + \\alpha _ { 1 } e _ { 1 } + \\cdots + \\alpha _ { n } e _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 0 } \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " (Why?) Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { x = \\sum _ { k = 1 } ^ { n } ( - \\alpha _ { k } / \\alpha _ { 0 } ) e _ { k } } \\end{array}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

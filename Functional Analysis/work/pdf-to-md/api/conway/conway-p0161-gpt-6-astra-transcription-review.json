@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 161,
+  "model": "gpt-6-astra",
+  "seconds": 10.81,
+  "input_tokens": 3759,
+  "output_tokens": 295,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\mathcal A=\\\\mathcal A^{\\\\perp\\\\perp}\",\n      \"correction\": \"\\\\mathcal A={}^\\\\perp\\\\mathcal A^\\\\perp\",\n      \"note\": \"At the end of the corollary proof, the first perpendicular is a left superscript, not a second right superscript.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

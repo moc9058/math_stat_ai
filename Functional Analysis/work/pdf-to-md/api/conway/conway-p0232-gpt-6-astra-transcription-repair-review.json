@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 232,
+  "model": "gpt-6-astra",
+  "seconds": 9.98,
+  "input_tokens": 3629,
+  "output_tokens": 211,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"each $A_n\\\\in\\\\mathcal{B}_0(\\\\mathcal{X}_n)$\",\n      \"correction\": \"each $A_n\\\\in\\\\mathcal{B}_0(\\\\mathcal{X})$\",\n      \"location\": \"Exercise 3, final sentence\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

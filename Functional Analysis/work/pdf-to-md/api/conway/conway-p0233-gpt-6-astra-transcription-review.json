@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 233,
+  "model": "gpt-6-astra",
+  "seconds": 14.58,
+  "input_tokens": 3406,
+  "output_tokens": 368,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\sigma(a)\\\\ne\\\\varnothing\",\n      \"correction\": \"\\\\sigma(a)\\\\ne\\\\square\",\n      \"note\": \"The image visibly prints a hollow square, not an empty-set glyph.\"\n    }\n  ],\n  \"uncertain_regions\": [\n    \"In the proof of 8.1, the printed hollow square likely represents the empty set; human review should determine whether to preserve it literally or normalize it.\"\n  ]\n}"
+}

@@ -1,0 +1,18 @@
+precise norm; the topological ones depend only on the equivalence class of norms (see Exercise 4).
+
+**1.6. Example.** Let $X$ be any Hausdorff space (all spaces in this book are assumed to be Hausdorff unless the contrary is specified) and let $C_b(X)=$ all continuous functions $f:X\to\mathbb F$ such that $\|f\|\equiv\sup\{|f(x)|:x\in X\}<\infty$. For $f,g$ in $C_b(X)$, define $(f+g):X\to\mathbb F$ by $(f+g)(x)=f(x)+g(x)$; for $\alpha$ in $\mathbb F$ define $(\alpha f)(x)=\alpha f(x)$. Then $C_b(X)$ is a Banach space.
+
+The proofs of the statements in (1.6) are all routine except, perhaps, for the fact that $C_b(X)$ is complete. To see this, let $\{f_n\}$ be a Cauchy sequence in $C_b(X)$. So if $\varepsilon>0$, there is an integer $N_\varepsilon$ such that for $n,m\geqslant N_\varepsilon$,
+$\varepsilon>\|f_n-f_m\|=\sup\{|f_n(x)-f_m(x)|:x\in X\}$. In particular, for any $x$ in $X$, $|f_n(x)-f_m(x)|\leqslant\|f_n-f_m\|<\varepsilon$ when $n,m\geqslant N_\varepsilon$. So $\{f_n(x)\}$ is a Cauchy sequence in $\mathbb F$. Let $f(x)=\lim_{n\to\infty}f_n(x)$ if $x\in X$. Now fix $x$ in $X$. If $n,m\geqslant N_\varepsilon$, then $|f(x)-f_n(x)|\leqslant|f(x)-f_m(x)|+\|f_m-f_n\|<|f(x)-f_m(x)|+\varepsilon$. Letting $m\to\infty$ gives that $|f(x)-f_n(x)|\leqslant\varepsilon$ when $n\geqslant N_\varepsilon$. This is independent of $x$. Hence $\|f-f_n\|\leqslant\varepsilon$ for $n\geqslant N_\varepsilon$.
+
+What has been just shown is that $\|f-f_n\|\to0$ as $n\to\infty$. Note that this implies that $f_n(x)\to f(x)$ uniformly on $X$. It is standard that $f$ is continuous. Also, $\|f\|\leqslant\|f-f_n\|+\|f_n\|<\infty$. Hence $f\in C_b(X)$ and so $C_b(X)$ is complete.
+
+Note that a linear subspace $\mathcal Y$ of a Banach space $\mathcal X$ that is topologically closed is also a Banach space if it has the norm of $\mathcal X$.
+
+**1.7. Proposition.** *If $X$ is a locally compact space and $C_0(X)=$ all continuous functions $f:X\to\mathbb F$ such that for all $\varepsilon>0$, $\{x\in X:|f(x)|\geqslant\varepsilon\}$ is compact, then $C_0(X)$ is a closed subspace of $C_b(X)$ and hence is a Banach space.*
+
+**Proof.** That $C_0(X)$ is a linear manifold in $C_b(X)$ is left as an exercise. It will only be shown that $C_0(X)$ is closed in $C_b(X)$. Let $\{f_n\}\subseteq C_0(X)$ and suppose $f_n\to f$ in $C_b(X)$. If $\varepsilon>0$, there is an integer $N$ such that $\|f_n-f\|<\varepsilon/2$; that is, $|f_n(x)-f(x)|<\varepsilon/2$ for all $n\geqslant N$ and $x$ in $X$. If $|f(x)|\geqslant\varepsilon$, then $\varepsilon\leqslant|f(x)-f_n(x)+f_n(x)|\leqslant\varepsilon/2+|f_n(x)|$ for $n\geqslant N$; so $|f_n(x)|\geqslant\varepsilon/2$ for $n\geqslant N$. Thus, $\{x\in X:|f(x)|\geqslant\varepsilon\}\subseteq\{x\in X:|f_N(x)|\geqslant\varepsilon/2\}$ so that $f\in C_0(X)$. ■
+
+The space $C_0(X)$ is the set of continuous functions on $X$ that *vanish at infinity*. If $X=\mathbb R$, then $C_0(\mathbb R)=$ all of the continuous functions $f:\mathbb R\to\mathbb F$ such that $\lim_{x\to\pm\infty}f(x)=0$. If $X$ is compact, $C_0(X)=C_b(X)\equiv C(X)$.
+
+If $I$ is any set, then give $I$ the discrete topology. Hence $I$ becomes locally compact. Also any function on $I$ is continuous. Rather than $C_b(I)$, the customary notation is $\ell^\infty(I)$. That is, $\ell^\infty(I)=$ all bounded functions $f:I\to\mathbb F$ with $\|f\|=\sup\{|f(i)|:i\in I\}$. $c_0(I)$ consists of all functions $f:I\to\mathbb F$ such that for every $\varepsilon>0$, $\{i\in I:|f(i)|\geqslant\varepsilon\}$ is finite. If $I=\mathbb N$, the usual notation for these spaces is $\ell^\infty$ and $c_0$. Note that $\ell^\infty$ consists of all bounded sequences of scalars and $c_0$ consists of all sequences that converge to 0.

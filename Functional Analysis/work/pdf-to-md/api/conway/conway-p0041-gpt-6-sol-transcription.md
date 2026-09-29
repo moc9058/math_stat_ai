@@ -1,0 +1,19 @@
+# CHAPTER II
+
+# Operators on Hilbert Space
+
+A large area of current research interest is centered around the theory of operators on Hilbert space. Several other chapters in this book will be devoted to this topic.
+
+There is a marked contrast here between Hilbert spaces and the Banach spaces that are studied in the next chapter. Essentially all of the information about the geometry of Hilbert space is contained in the preceding chapter. The geometry of Banach space lies in darkness and has attracted the attention of many talented research mathematicians. However, the theory of linear operators (linear transformations) on a Banach space has very few general results, whereas Hilbert space operators have an elegant and well-developed general theory. Indeed, the reason for this dichotomy is related to the opposite status of the geometric considerations. Questions concerning operators on Hilbert space don’t necessitate or imply any geometric difficulties.
+
+In addition to the fundamentals of operators, this chapter will also present an interesting application to differential equations in Section 6.
+
+## §1. Elementary Properties and Examples
+
+The proof of the next proposition is similar to that of Proposition I.3.1 and is left to the reader.
+
+**1.1. Proposition.** *Let $\mathcal{H}$ and $\mathcal{K}$ be Hilbert spaces and $A\colon\mathcal{H}\to\mathcal{K}$ a linear transformation. The following statements are equivalent.*
+
+(a) *$A$ is continuous.*
+
+(b) *$A$ is continuous at $0$.*

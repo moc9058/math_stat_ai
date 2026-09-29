@@ -1,0 +1,5693 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 48,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 49,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 50,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 51,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 52,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 53,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 54,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 55,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 48,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.156,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "34"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.584,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.869,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " However, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is the transpose of A and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } \\neq A"
+            },
+            {
+              "type": "text",
+              "content": " . Indeed, for any operator A on an R-Hilbert space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , g \\rangle \\in \\mathbb { R }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.156,
+            0.459,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.13. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   A = A^*"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.335,
+            0.182,
+            0.658,
+            0.202
+          ],
+          "image_path": "images/page_48_equation_4.jpg",
+          "content": "\\| A \\| = \\sup \\left\\{ \\left| \\langle A h, h \\rangle \\right| : \\| h \\| = 1 \\right\\}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.209,
+            0.87,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{Put} M = \\sup \\{ | \\langle A h , h \\rangle | : \\| h \\| = 1 \\}. \\mathrm{If} \\| h \\| = 1."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\langle A h , h \\rangle | \\leqslant \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M \\leqslant \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " . On the other hand, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| { \\boldsymbol { h } } \\| = \\| { \\boldsymbol { g } } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.203,
+            0.256,
+            0.807,
+            0.298
+          ],
+          "image_path": "images/page_48_equation_6.jpg",
+          "content": "\\begin{align*}\\langle A(h \\pm g), h \\pm g \\rangle = \\langle Ah, h \\rangle \\pm \\langle Ah, g \\rangle \\pm \\langle Ag, h \\rangle + \\langle Ag, g \\rangle \\\\= \\langle Ah, h \\rangle \\pm \\langle Ah, g \\rangle \\pm \\langle g, A^*h \\rangle + \\langle Ag, g \\rangle.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.303,
+            0.389,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , this implies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.206,
+            0.331,
+            0.74,
+            0.35
+          ],
+          "image_path": "images/page_48_equation_8.jpg",
+          "content": "\\langle A ( h \\pm g ) , h \\pm g \\rangle = \\langle A h , h \\rangle \\pm 2 \\mathrm { R e } \\langle A h , g \\rangle + \\langle A g , g \\rangle ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.358,
+            0.727,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Subtracting one of these two equations from the other gives"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.24,
+            0.385,
+            0.758,
+            0.405
+          ],
+          "image_path": "images/page_48_equation_10.jpg",
+          "content": "4 \\mathrm { R e } \\left\\langle A h , g \\right\\rangle = \\left\\langle A ( h + g ) , h + g \\right\\rangle - \\left\\langle A ( h - g ) , h - g \\right\\rangle ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.412,
+            0.873,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now it is easy to verify that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\langle A f , f \\rangle | \\leqslant M \\| f \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " for any f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " .Hence using the parallelogram law we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.302,
+            0.457,
+            0.698,
+            0.521
+          ],
+          "image_path": "images/page_48_equation_12.jpg",
+          "content": "\\begin{align*}4\\operatorname{Re}\\langle A h, g \\rangle & \\leqslant M(\\| h + g \\|^2 + \\| h - g \\|^2) \\\\& = 2M(\\| h \\|^2 + \\| g \\|^2) \\\\& = 4M\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.532,
+            0.872,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since h and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " are unit vectors. Now suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , g \\rangle = e ^ { i \\theta } | \\langle A h , g \\rangle | ."
+            },
+            {
+              "type": "text",
+              "content": " Replacing h in the inequality above with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { - i \\theta } \\vec { h }"
+            },
+            {
+              "type": "text",
+              "content": " gives "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\langle A h , g \\rangle | \\leqslant M"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } \\| = \\| \\boldsymbol { g } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " Taking the supremum over all g gives "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\boldsymbol{h} \\| \\leqslant M"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { h } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| \\leqslant M"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.621,
+            0.755,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.14. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   \\boldsymbol{A} = \\boldsymbol{A}^*"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all h, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   =   0"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.658,
+            0.871,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding corollary is not true unless "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , as the example given after Proposition 2.12 shows. However, if a complex Hilbert space is present, this hypothesis can be deleted."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.73,
+            0.871,
+            0.768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.15. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a C-Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle = 0   f o r"
+            },
+            {
+              "type": "text",
+              "content": " all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   =   0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.152,
+            0.786,
+            0.545,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of (2.15) is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.803,
+            0.872,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a C-Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B   =   ( A + A ^ { * } ) / 2"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = ( A - A ^ { * } ) / 2 i"
+            },
+            {
+              "type": "text",
+              "content": " are self-adjoint and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = B + i C"
+            },
+            {
+              "type": "text",
+              "content": " . The operators B and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c"
+            },
+            {
+              "type": "text",
+              "content": " are called, respectively, the real and imaginary parts of A."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.127,
+            0.877,
+            0.803,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.16. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , the following statement are equivalent."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.127,
+            0.904,
+            0.29,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is normal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 49,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.055,
+            0.415,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Adjoint of an Operator"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.843,
+            0.056,
+            0.868,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "35"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.407,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\bar { h } \\| = \\| A ^ { * } h \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all h."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.161,
+            0.119,
+            0.853,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If H is a C-Hilbert space, then these statements are also equivalent to:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.137,
+            0.597,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) The real and imaginary parts of A commute."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.164,
+            0.871,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { I f } \\quad h \\in { \\mathcal { H } } ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\boldsymbol{h} \\|^2 - \\| A^* \\boldsymbol{h} \\|^2 = \\langle A \\boldsymbol{h}, A \\boldsymbol{h} \\rangle - \\langle A^* \\boldsymbol{h}, A^* \\boldsymbol{h} \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\langle ( A ^ { * } A - A A ^ { * } ) h , h \\right\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A - A A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is hermitian, the equivalence of (a) and (b) follows from Corollarv 2.14."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.219,
+            0.813,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B , C"
+            },
+            {
+              "type": "text",
+              "content": " are real and imaginary parts of A, then a calculation yields"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.352,
+            0.251,
+            0.645,
+            0.27
+          ],
+          "image_path": "images/page_49_equation_7.jpg",
+          "content": "A ^ { * } A = B ^ { 2 } - i C B + i B C + C ^ { 2 } ,"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.353,
+            0.274,
+            0.644,
+            0.293
+          ],
+          "image_path": "images/page_49_equation_8.jpg",
+          "content": "A A ^ { * } = B ^ { 2 } + i C B - i B C + C ^ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.307,
+            0.868,
+            0.326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = AA^{*}"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "CB = BC"
+            },
+            {
+              "type": "text",
+              "content": " , and so (a) and (c) are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.363,
+            0.808,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.17. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.391,
+            0.333,
+            0.408
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is an isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.409,
+            0.255,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A = I ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.427,
+            0.515,
+            0.446
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , A g \\rangle = \\langle h , g \\rangle \\; { \\it f o r ~ a l l ~ } h , g { \\it i n ~ } \\mathcal { H } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.454,
+            0.87,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. The proof that (a) and (c) are equivalent was seen in Proposition I.5.2. Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A ^ { * } A h , g \\rangle = \\langle A h , A g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Hence (b) and (c) are easily seen to be equivalent. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.531,
+            0.856,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.18. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.558,
+            0.327,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = AA^{*} = I."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.578,
+            0.64,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) A is unitary. (That is, A is a surjective isometry.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.128,
+            0.596,
+            0.396,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) A is a normal isometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.127,
+            0.622,
+            0.467,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a) \\Rightarrow (b);"
+            },
+            {
+              "type": "text",
+              "content": " Proposition I.5.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.125,
+            0.641,
+            0.871,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)⇒(c): By (2.17), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A = I ."
+            },
+            {
+              "type": "text",
+              "content": " But it is easy to see that the fact that A is a surjective isometry implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is also. Hence by (2.17) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = (A^{-1})^{*}A^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A^{*})^{-1}A^{-1}=(AA^{*})^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " ; this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*}A = A\\overline{A^{*}} = I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.126,
+            0.694,
+            0.871,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(c) \\Rightarrow (a)"
+            },
+            {
+              "type": "text",
+              "content": " By (2.17), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } A = I ."
+            },
+            {
+              "type": "text",
+              "content": " Since A is also normal, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A A ^ { * } = A ^ { * } A = I"
+            },
+            {
+              "type": "text",
+              "content": " and so A is surjective. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.154,
+            0.748,
+            0.802,
+            0.768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We conclude with a very important, though easily proved, result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.126,
+            0.785,
+            0.632,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.19. Theorem. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   A \\in \\mathcal{B}(\\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " , then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( \\operatorname{rank} A^* )^{\\perp}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.126,
+            0.813,
+            0.869,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If h∈ker A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , A ^ { * } g \\rangle = \\langle A h , g \\rangle = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " so ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { A } \\subseteq"
+            },
+            {
+              "type": "text",
+              "content": " (ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . On the other hand, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\perp \\tan A^{*}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , g \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h , A ^ { * } g \\rangle = 0 ;"
+            },
+            {
+              "type": "text",
+              "content": " so (ran A*)⊥ ⊆ ker A. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.125,
+            0.886,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two facts should be noted. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = A"
+            },
+            {
+              "type": "text",
+              "content": " , it also holds that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\operatorname { r a n } A ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Second, it is not true that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker A ) ^ { \\perp } = \\operatorname { r a n } A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " since ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " may not"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 50,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.157,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "36"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.102,
+            0.868,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "be closed. All that can be said is that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker A ) ^ { \\perp } = \\operatorname { c l } ( \\operatorname { r a n } A ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " and (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A^{*} )^{\\perp} = \\mathrm{cl} \\left( \\mathrm{rank} A \\right)"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.151,
+            0.233,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.137,
+            0.17,
+            0.368,
+            0.187
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove Proposition 2.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.137,
+            0.196,
+            0.368,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Prove Proposition 2.6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.136,
+            0.222,
+            0.491,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Verify the statement in Example 2.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.135,
+            0.247,
+            0.491,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Verify the statement in Example 2.9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.135,
+            0.274,
+            0.645,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Find the adjoint of a diagonal operator (Exercise 1.8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.135,
+            0.3,
+            0.871,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Let S be the unilateral shift and compute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S S ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { * } S ."
+            },
+            {
+              "type": "text",
+              "content": " Also compute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { n } S ^ { * n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { * n } S ^ { n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.136,
+            0.343,
+            0.871,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Compute the adjoint of the Volterra operator V (1.7) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V + V ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . What is ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( V + V ^ { * } ) ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.135,
+            0.385,
+            0.873,
+            0.42
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Where was the hypothesis that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space over C used in the proof of Proposition 2.12?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.134,
+            0.427,
+            0.868,
+            0.462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = B + i C ."
+            },
+            {
+              "type": "text",
+              "content": " where B and C are hermitian and prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A + A ^ { * } ) / 2 ,   C = ( A - A ^ { * } ) / 2 i ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.471,
+            0.379,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Prove Proposition 2.15."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.496,
+            0.869,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If A and B are self-adjoint, show that AB is self-adjoint if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.522,
+            0.873,
+            0.59
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum _ { n = 0 } ^ { \\infty } \\alpha _ { n } z ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " be a power series with radius of convergence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R , 0 < R \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\pmb { A } \\| < R"
+            },
+            {
+              "type": "text",
+              "content": " , show that there is an operator T in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\mathcal { H } , \\langle T h , g \\rangle = \\sum _ { n = 0 } ^ { \\infty } \\alpha _ { n } \\langle A ^ { n } h , g \\rangle } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " . [If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) = \\sum \\alpha_n z^n"
+            },
+            {
+              "type": "text",
+              "content": " , the operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is usually denoted by f(A).]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.597,
+            0.868,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Let A and T be as in Exercise 12 and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\| T - \\sum _ { k = 0 } ^ { n } \\alpha _ { k } A ^ { k } \\| \\rightarrow 0 } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\to \\infty"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BA = AB,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B T = T B ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.126,
+            0.639,
+            0.811,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) = \\exp z = \\sum_{n = 0}^{\\infty} z^n / n!"
+            },
+            {
+              "type": "text",
+              "content": " and A is hermitian, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( i A )"
+            },
+            {
+              "type": "text",
+              "content": " is unitary."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.127,
+            0.665,
+            0.872,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. If A is a normal operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " show that A is injective if and only if A has dense range. Give an example of an operator B such that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " but ran B is not dense. Give an example of an operator C such that C is surjective but ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\neq ( 0 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.126,
+            0.741,
+            0.871,
+            0.791
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " be a multiplication operator (1.5) and show that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }   =   0"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\{ x : \\phi ( x ) = 0 \\} ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " Give necessary and sufficient conditions on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " that ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " be closed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 20,
+          "bbox": [
+            0.124,
+            0.821,
+            0.787,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§3. Projections and Idempotents; Invariant and Reducing Subspaces"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.124,
+            0.886,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.1. Definition. An idempotent on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded linear operator E on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { 2 } = E .   \\mathbf { A }"
+            },
+            {
+              "type": "text",
+              "content": " projection is an idempotent P such that ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P = ( \\tan P ) ^ { \\perp }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 51,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.74,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§3. Projections and Idempotents; Invariant and Reducing Subspaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.057,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "37"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.101,
+            0.87,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { \\mathcal { M } }"
+            },
+            {
+              "type": "text",
+              "content": " is a projection (Theorem I.2.7). It is not difficult to construct an idempotent that is not a projection (Exercise 1)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.138,
+            0.871,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let E be any idempotent and set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } = \\ker E ."
+            },
+            {
+              "type": "text",
+              "content": " Since E is continuous, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is a closed subspace of . Notice that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( I - E ) ^ { 2 } = I - 2 E + E ^ { 2 } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{I}-2 \\boldsymbol{E}+\\boldsymbol{E}=\\boldsymbol{I}-\\boldsymbol{E};"
+            },
+            {
+              "type": "text",
+              "content": " thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I - E"
+            },
+            {
+              "type": "text",
+              "content": " is also an idempotent. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = (I - E)h ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h - E h ,"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E h = h ."
+            },
+            {
+              "type": "text",
+              "content": " So ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E \\supseteq \\ker ( I - E )"
+            },
+            {
+              "type": "text",
+              "content": " . On the other hand, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = E g"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E h = E ^ { 2 } g = E g = h ;"
+            },
+            {
+              "type": "text",
+              "content": " hence ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = \\ker ( I - E )"
+            },
+            {
+              "type": "text",
+              "content": " Similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { r a n } ( I - E ) = \\ker E ."
+            },
+            {
+              "type": "text",
+              "content": " These facts are recorded here."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.266,
+            0.869,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.2. Proposition. (a) E is an idempotent if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I - E"
+            },
+            {
+              "type": "text",
+              "content": " is an idempotent. (b) ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = \\ker ( I - E )"
+            },
+            {
+              "type": "text",
+              "content": " , ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = \\operatorname { r a n } ( I - E ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , and both ran E and ker E are closed linear subspaces of H. (c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } = \\ker E ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\cap \\mathcal { N } = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N } = \\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.358,
+            0.87,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of part (c) is left as an exercise. There is also a converse to (c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } , \\mathcal { N } \\leq \\mathcal { H } , \\mathcal { M } \\cap \\mathcal { N } = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N } = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is an idempotent E such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } = \\ker E ;"
+            },
+            {
+              "type": "text",
+              "content": " moreover, E is unique. The difficult part in proving this converse is to show that E is bounded. The same fact is true in more generality (for Banach spaces) and so this proof will be postponed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.468,
+            0.869,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we turn our attention to projections, which are peculiar to Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.523,
+            0.87,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.3. Proposition. If E is an idempotent on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.569,
+            0.333,
+            0.587
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) E is a projection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.588,
+            0.626,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) E is the orthogonal projection of  onto ran E."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.606,
+            0.252,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E \\parallel = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.625,
+            0.309,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) E is hermitian."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.642,
+            0.285,
+            0.658
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) E is normal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.659,
+            0.432,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(f) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle E h , h \\rangle \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.686,
+            0.871,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a) \\Rightarrow (b);"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P = P_{\\mathcal{M}} \\quad  If   h \\in \\mathcal{H},   P h ="
+            },
+            {
+              "type": "text",
+              "content": " the unique vector in M such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h - P h \\in \\mathcal{M}^{\\perp} = (\\mathrm{ran}   E)^{\\perp} = \\mathrm{ker}   E"
+            },
+            {
+              "type": "text",
+              "content": " by (a). But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h - E h = ( I - E ) h \\in"
+            },
+            {
+              "type": "text",
+              "content": " ker E. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E h = P h"
+            },
+            {
+              "type": "text",
+              "content": " by uniqueness."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.152,
+            0.741,
+            0.809,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "$( \\mathsf { b } ) { \\Rightarrow } ( \\mathsf { c } ) { : } \\mathrm { ~ B y ~ } ( \\mathrm { I } . 2 . 7 ) , \\; \\| \\: E \\: \\| \\leqslant 1$"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E h = h"
+            },
+            {
+              "type": "text",
+              "content": " for h in ran E, so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| E \\| = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.759,
+            0.87,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(c) \\Rightarrow (a):  Let   h \\in (kerE)^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " . Now ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( I - E ) = \\ker E ,"
+            },
+            {
+              "type": "text",
+              "content": " so h — Eh∈ker E. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\langle h - E h , h \\rangle = \\| h \\| ^ { 2 } - \\langle E h , h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| ^ { 2 } = \\langle E h , h \\rangle \\leqslant \\| E h \\| \\| h \\| \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . So for h in (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ) ^ { \\perp } , \\quad \\| E h \\| = \\| h \\| = \\langle E h , h \\rangle ^ { 1 / 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . But then for h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\ker E ) ^ { \\perp }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.265,
+            0.841,
+            0.73,
+            0.86
+          ],
+          "image_path": "images/page_51_equation_17.jpg",
+          "content": "\\| h - E h \\| ^ { 2 } = \\| h \\| ^ { 2 } - 2 \\operatorname { R e } \\langle E h , h \\rangle + \\| E h \\| ^ { 2 } = 0 ."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.868,
+            0.87,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, (ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ) ^ { \\perp } \\subseteq \\ker ( I - E ) = \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " . On the other hand, if geran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { g } = \\boldsymbol { g } _ { 1 } + \\boldsymbol { g } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { 1 }   \\in   \\ker E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_{2} \\in (\\ker E)^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = E g = E g _ { 2 } = g _ { 2 } ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E \\subseteq ( \\ker E ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = ( \\ker E ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " and E is a projection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 52,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.058,
+            0.156,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "38"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.867,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( b ) \\Rightarrow ( f ) :"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = h _ { 1 } + h _ { 2 } ,   h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " eran E, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 } \\in"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = ( \\tan E ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle E h , h \\rangle = \\langle E ( h _ { 1 } + h _ { 2 } ) , h _ { 1 } + h _ { 2 } \\rangle = \\langle E h _ { 1 } , h _ { 1 } \\rangle = \\langle h _ { 1 } , h _ { 1 } \\rangle = \\| h _ { 1 } \\| ^ { 2 } \\geqslant 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.138,
+            0.869,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(f) \\Rightarrow (a);"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 }   \\in   \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 } \\in \\ker E ."
+            },
+            {
+              "type": "text",
+              "content": " Then by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant \\langle E(h_1 + h_2),"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } + h _ { 2 } \\rangle = \\langle h _ { 1 } , h _ { 1 } \\rangle + \\langle h _ { 1 } , h _ { 2 } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\left\\| h _ { 1 } \\right\\| ^ { 2 } \\leqslant \\left\\langle h _ { 1 } , h _ { 2 } \\right\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in ran E and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in ker E. If there are such "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h _ { 1 } , h _ { 2 } \\rangle = \\bar { \\alpha } \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k_{2} = - 2\\alpha^{- 1}\\left\\| h_{1} \\right\\|^{2}h_{2}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in this inequality, we obtain "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\left\\| h _ { 1 } \\right\\| ^ { 2 } \\leqslant - 2 \\left\\| h _ { 1 } \\right\\| ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h _ { 1 } , h _ { 2 } \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 }   \\in   \\operatorname { r a n } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 2 } { \\in } { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " ker E. That is, E is a projection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.247,
+            0.87,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(a) \\Rightarrow (d)"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { h } = \\boldsymbol { h } _ { 1 } + \\boldsymbol { h } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { g } = \\boldsymbol { g } _ { 1 } + \\boldsymbol { g } _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , g _ { 1 } { \\in } { \\mathrm { r a n } } E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{2},g_{2}\\in \\ker E=(\\operatorname{ran}E)^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle E h , g \\rangle = \\langle h _ { 1 } , g _ { 1 } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle E ^ { * } h , g \\rangle = \\langle h , E g \\rangle = \\langle h _ { 1 } , g _ { 1 } \\rangle = \\langle E h , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = E ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.305,
+            0.298,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d)⇒(e): clear."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.321,
+            0.869,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e)⇒(a): By (2.16), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   E h   \\| = \\|   E ^ { * } h   \\|"
+            },
+            {
+              "type": "text",
+              "content": " for every h. Hence ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = \\ker E ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . But by (2.19), ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E^{*} = (\\tan E)^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " , so E is a projection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.377,
+            0.869,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that by part (b) of the preceding proposition, if E is a projection and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\operatorname { r a n } E ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E = P _ { \\mathcal { M } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.413,
+            0.871,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let P be a projection with ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P = \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P = \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " . So both "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " are closed subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and, hence, are also Hilbert spaces. As in (I.6.1), we can form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\oplus \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U : { \\mathcal { M } } \\oplus { \\mathcal { N } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ( h \\oplus g ) = h + g"
+            },
+            {
+              "type": "text",
+              "content": " for h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } ,"
+            },
+            {
+              "type": "text",
+              "content": " then it is easy to see that U is an isomorphism. Making this identification, we will often write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\mathcal { M } \\oplus \\mathcal { N }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.153,
+            0.505,
+            0.58,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "More generally, the following will be used."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.54,
+            0.872,
+            0.576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.4. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { M } _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a collection of pairwise orthogonal subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.422,
+            0.573,
+            0.578,
+            0.592
+          ],
+          "image_path": "images/page_52_equation_11.jpg",
+          "content": "\\oplus _ { i } \\mathcal { M } _ { i } \\equiv \\nabla _ { i } \\mathcal { M } _ { i } ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.153,
+            0.599,
+            0.717,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If M and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " are two closed linear subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.397,
+            0.626,
+            0.604,
+            0.644
+          ],
+          "image_path": "images/page_52_equation_13.jpg",
+          "content": "\\mathcal { M } \\ominus \\mathcal { N } \\equiv \\mathcal { M } \\cap \\mathcal { N } ^ { \\perp } ."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.653,
+            0.649,
+            0.671
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is called the orthogonal difference of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.671,
+            0.873,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } , \\mathcal { N } \\leqslant \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\bot \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is closed. (Why?) Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\oplus \\mathcal { N } = \\mathcal { M } + \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " . The same is true, of course, for any finite collection of pairwise orthogonal subspaces but not for infinite collections."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.744,
+            0.872,
+            0.801
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.5. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is an invariant subspace for A if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . In other words, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\mathcal { M } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " . Say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a reducing subspace for A if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\mathcal { M } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } \\mathcal { M } ^ { \\perp } \\subseteq \\mathcal { M } ^ { \\perp }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.126,
+            0.818,
+            0.872,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\mathcal { M } \\oplus \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then A can be written as a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2"
+            },
+            {
+              "type": "text",
+              "content": " matrix with operator entries,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.428,
+            0.857,
+            0.576,
+            0.898
+          ],
+          "image_path": "images/page_52_equation_18.jpg",
+          "content": "A = { \\left[ \\begin{matrix} { W } & { X } \\\\ { Y } & { Z } \\end{matrix} \\right] } ,"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.127,
+            0.903,
+            0.758,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W   \\in   \\mathcal { B } ( \\mathcal { M } ) , \\; X   \\in   \\mathcal { B } ( \\mathcal { M } ^ { \\perp } , \\mathcal { M } ) , \\; Y   \\in   \\mathcal { B } ( \\mathcal { M } , \\mathcal { M } ^ { \\perp } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z \\in \\mathcal { B } ( \\mathcal { M } ^ { \\perp } )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 53,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.055,
+            0.743,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§3. Projections and Idempotents; Invariant and Reducing Subspaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.846,
+            0.056,
+            0.871,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "39"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.7. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If A \\in \\mathcal{B}(\\mathcal{H}), \\mathcal{M} \\leq \\mathcal{H}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P = P _ { \\mathcal { M } } ,"
+            },
+            {
+              "type": "text",
+              "content": " then statements (a) through (c) are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.147,
+            0.372,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) M is invariant for A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.165,
+            0.279,
+            0.182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PAP = AP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.183,
+            0.311,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) In "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 3 . 6 ) , \\; Y = 0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.21,
+            0.605,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, statements (d) through (g) are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.238,
+            0.304,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) M reduces A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.257,
+            0.265,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PA = AP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.275,
+            0.4,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(f) In (3.6), Y and X are 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.293,
+            0.497,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(g) M is invariant for both A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.32,
+            0.87,
+            0.356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. (a)⇒(b): If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , PheM. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A P h \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " Hence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P(APh) = APh"
+            },
+            {
+              "type": "text",
+              "content": " That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PAP = AP"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.357,
+            0.871,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)⇒(c): If P is represented as a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2"
+            },
+            {
+              "type": "text",
+              "content": " operator matrix relative to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\mathcal { M } \\oplus \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.432,
+            0.4,
+            0.566,
+            0.446
+          ],
+          "image_path": "images/page_53_equation_13.jpg",
+          "content": "P = { \\left[ \\begin{matrix} { I } & { 0 } \\\\ { 0 } & { 0 } \\end{matrix} \\right] } ."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.446,
+            0.202,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.323,
+            0.462,
+            0.671,
+            0.507
+          ],
+          "image_path": "images/page_53_equation_15.jpg",
+          "content": "PAP = \\begin{bmatrix} W & 0 \\\\ 0 & 0 \\end{bmatrix} = AP = \\begin{bmatrix} W & 0 \\\\ Y & 0 \\end{bmatrix}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.127,
+            0.514,
+            0.227,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y   =   0 ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.152,
+            0.533,
+            0.484,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c)⇒(a): If Y = 0 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { M } ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.328,
+            0.559,
+            0.666,
+            0.603
+          ],
+          "image_path": "images/page_53_equation_18.jpg",
+          "content": "\\boldsymbol { A } \\boldsymbol { h } = \\left[ \\begin{array} { c c } { \\boldsymbol { W } } & { \\boldsymbol { X } } \\\\ { 0 } & { \\boldsymbol { Z } } \\end{array} \\right] \\left[ \\begin{array} { c } { \\boldsymbol { h } } \\\\ { 0 } \\end{array} \\right] = \\left[ \\begin{array} { c } { \\boldsymbol { W } \\boldsymbol { h } } \\\\ { 0 } \\end{array} \\right] \\in \\mathcal { M } ."
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.126,
+            0.61,
+            0.871,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "(d) \\Rightarrow (c);"
+            },
+            {
+              "type": "text",
+              "content": " Since both M and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " are invariant for A, (b) implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AP = PAP"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(I - P) = (I - P)A(I - P)"
+            },
+            {
+              "type": "text",
+              "content": " . Multiplying this second equation gives "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - AP = A - AP - PA + PAP."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PA = PAP = AP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.152,
+            0.665,
+            0.328,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e)⇒(f): Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.152,
+            0.683,
+            0.424,
+            0.701
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(f)⇒(g): If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = Y = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.297,
+            0.708,
+            0.697,
+            0.751
+          ],
+          "image_path": "images/page_53_equation_22.jpg",
+          "content": "A = \\left[ \\begin{matrix} { W } & { 0 } \\\\ { 0 } & { Z } \\\\ \\end{matrix} \\right] \\quad \\mathrm { a n d } \\quad A ^ { * } = \\left[ \\begin{matrix} { W ^ { * } } & { 0 } \\\\ { 0 } & { Z ^ { * } } \\\\ \\end{matrix} \\right] ."
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.127,
+            0.759,
+            0.54,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By (c), M is invariant for both A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.125,
+            0.777,
+            0.867,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(g)⇒(d): If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathcal { M } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle g , A h \\rangle = \\langle A ^ { * } g , h \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } g \\in { \\mathcal { M } }"
+            },
+            {
+              "type": "text",
+              "content": " Since g was an arbitrary vector in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ,   A h \\in \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A M ^ { \\perp } \\subseteq \\mathcal { M } ^ { \\perp }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.125,
+            0.833,
+            0.871,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If M reduces A, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = Y = 0"
+            },
+            {
+              "type": "text",
+              "content": " in (3.6). This says that a study of A is reduced to the study of the smaller operators W and Z. This is the reason for the terminology."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.126,
+            0.888,
+            0.871,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and M is an invariant subspace for A, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\vert \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is used to denote the restriction of A to M. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A | \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is the operator on M defined"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 54,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.159,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "40"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.588,
+            0.055,
+            0.87,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.868,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A \\mid \\mathcal { M } ) h = A h"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " .Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } | \\mathcal { M } \\in \\mathcal { B } ( \\mathcal { M } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| \\mathcal { M } \\| \\leqslant \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " Also, if M is invariant for A and A has the representation (3.6) with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y   =   0"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = A \\vert \\mathcal { M }"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.179,
+            0.232,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.134,
+            0.198,
+            0.869,
+            0.251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be the two-dimensional real Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\mathbb { R } ^ { 2 } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\equiv \\left\\{ ( x , 0 ) \\in \\mathbb { R } ^ { 2 } : x \\in \\mathbb { R } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } \\equiv \\{ ( x , x \\tan \\theta ) : x \\in \\mathbb { R } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\theta < \\frac { 1 } { 2 } \\pi"
+            },
+            {
+              "type": "text",
+              "content": " . Find a formula for the idempotent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { \\theta }"
+            },
+            {
+              "type": "text",
+              "content": " with ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { \\theta } = \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { \\theta }   =   \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " . Šhow that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| E _ { \\theta } \\| = ( \\sin \\theta ) ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.135,
+            0.258,
+            0.393,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Prove Proposition 3.2 (c)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.134,
+            0.283,
+            0.868,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { M } _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a collection of closed subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\{ \\mathcal { M } _ { i } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i { \\in } I \\} = [ \\vee \\{ { \\mathcal { M } } _ { i } { : } i { \\in } I \\} ] ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\cap \\{ \\mathcal { M } _ { i } \\colon i { \\in } I \\} ] ^ { \\perp } = \\vee \\; \\{ \\mathcal { M } _ { i } ^ { \\perp } \\colon i { \\in } I \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.134,
+            0.327,
+            0.871,
+            0.397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let P and Q be projections. Show: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P + Q"
+            },
+            {
+              "type": "text",
+              "content": " is a projection if and only if ran P ⊥ ran Q. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P + Q"
+            },
+            {
+              "type": "text",
+              "content": " is a projection, then ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(P + Q) = \\mathrm{ran} P + \\mathrm{ran} Q"
+            },
+            {
+              "type": "text",
+              "content": " and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(P + Q) = \\ker P \\cap"
+            },
+            {
+              "type": "text",
+              "content": " ker Q. (b) PQ is a projection if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PQ = QP"
+            },
+            {
+              "type": "text",
+              "content": " If PQ is a projection, then ran PQ = ran P∩ ran Q and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PQ = \\ker P + \\ker Q."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.134,
+            0.404,
+            0.87,
+            0.472
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Generalize Exercise 4 as follows. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { M } _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a collection of subspaces of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { i } \\bot \\mathcal { M } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\neq j ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " be the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and show that for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } , \\sum \\{ P _ { i } h \\colon i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " converges to Ph, where P is the projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vee \\left\\{ { \\mathcal { M } } _ { i } ; i { \\in } I \\right\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.134,
+            0.479,
+            0.87,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If P and Q are projections, then the following statements are equivalent. (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P - Q"
+            },
+            {
+              "type": "text",
+              "content": " is a projection. (b) ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\subseteq \\operatorname { r a n } P"
+            },
+            {
+              "type": "text",
+              "content": " (c) PQ = Q. (d) QP = Q. If P − Q is a projection, then ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(P - Q) = (\\mathrm{ran} P) \\ominus (\\mathrm{ran} Q)"
+            },
+            {
+              "type": "text",
+              "content": " and ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( P - Q ) = \\mathrm { r a n } \\; Q + \\mathrm { k e r } \\; P ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.136,
+            0.538,
+            0.87,
+            0.589
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let P and Q be projections. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PQ = QP"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P + Q - PQ"
+            },
+            {
+              "type": "text",
+              "content": " is a projection. If this is the case, then ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(P + Q - PQ) = \\tan P + \\tan Q"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ker(P + Q - PQ) = \\ker P \\cap \\ker Q."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.134,
+            0.597,
+            0.628,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Give an example of two noncommuting projections."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.133,
+            0.622,
+            0.869,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and let N = graph "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { H } } \\oplus { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } = \\{ h \\oplus A h \\colon h { \\in } \\mathcal { H } \\}"
+            },
+            {
+              "type": "text",
+              "content": " Because A is continuous and linear, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { N } \\leqslant \\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } = \\mathcal { H } \\oplus ( 0 ) \\leq \\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Prove the following statements. (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\cap \\mathcal { N } = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " if and only if ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if ran A is dense in f. (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N } = \\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if A is surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.715,
+            0.869,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Find two closed linear subspaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } , \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " of an infinite dimensional Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\cap \\mathcal { N } = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , but "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } + \\mathcal { N } \\neq \\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.757,
+            0.87,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Define A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { Z } ) \\to l ^ { 2 } ( \\mathbb { Z } )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(\\ldots,\\alpha_{-1},\\alpha_{0},\\alpha_{1},\\ldots)=(\\ldots,\\alpha_{-1},\\alpha_{0},\\alpha_{1},\\ldots),"
+            },
+            {
+              "type": "text",
+              "content": " where  sits above the coefficient in the 0-place. Find an invariant subspace of A that does not reduce A. This operator is called the bilateral shift."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.817,
+            0.869,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\mathbf { A r e a }"
+            },
+            {
+              "type": "text",
+              "content": " measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { D }   \\equiv   \\{ z   \\in   \\mathbb { C } \\colon | z | < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " and define A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )   \\to   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Af)(z) = zf(z)  for  |z| < 1"
+            },
+            {
+              "type": "text",
+              "content": " and f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . Find a nontrivial reducing subspace for A and an invariant subspace that does not reduce A."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 55,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.348,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Compact Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.845,
+            0.057,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "41"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.096,
+            0.463,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. Compact Operators"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.129,
+            0.873,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It turns out that most of the statements about linear transformations on finite dimensional spaces have nice generalizations to a certain class of operators on infinite dimensional spaces—namely, to the compact operators, Let ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " denote the closed unit ball in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.219,
+            0.871,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1. Definition. A linear transformation T: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is compact if T(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " has compact closure in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " The set of compact operators from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } ) = \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.294,
+            0.553,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.2. Proposition. (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } ) \\subseteq \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.312,
+            0.871,
+            0.349
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a linear space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if\\{T_n\\}\\subseteq\\mathcal{B}_0(\\mathcal{H},\\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { n } - T \\| \\to 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13,
+            0.348,
+            0.862,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{B}(\\mathcal{H}),   B \\in \\mathcal{B}(\\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then TA and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B T \\in \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.375,
+            0.872,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. (a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then cl[T(ball )] is compact in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Hence there is a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that T(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ) \\subseteq \\{ k \\in \\mathcal { H } : \\| k \\| \\leqslant C \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T \\| \\leqslant C ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.432,
+            0.873,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) It is left to the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a linear space. For the second part of (b), it will be shown that T(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is totally bounded. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a complete metric space, this is equivalent to showing that T(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " has compact closure. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and choose n such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T - T _ { n } \\| < \\varepsilon / 3"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is compact, there are vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , \\ldots , h _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " in ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n } ("
+            },
+            {
+              "type": "text",
+              "content": " ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ) \\subseteq \\bigcup _ { j = 1 } ^ { m } B ( T _ { n } h _ { j } ; \\varepsilon / 3 )"
+            },
+            {
+              "type": "text",
+              "content": " . So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| h \\| \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " with二 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n } h _ { j } - T _ { n } h \\parallel < \\varepsilon / 3"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.22,
+            0.568,
+            0.795,
+            0.631
+          ],
+          "image_path": "images/page_55_equation_10.jpg",
+          "content": "\\begin{align*}\\|   T h_j - T h   \\| & \\leqslant \\|   T h_j - T_n h_j \\| + \\|   T_n h_j - T_n h   \\| + \\|   T_n h - T h   \\| \\\\& < 2 \\|   T - T_n   \\| + \\varepsilon / 3 \\\\& < \\varepsilon.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.641,
+            0.473,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence T(ball "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ) \\subseteq \\bigcup _ { j = 1 } ^ { m } B ( T h _ { j } ; \\varepsilon ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.156,
+            0.66,
+            0.517,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of (c) is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.695,
+            0.873,
+            0.751
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.3. Definition. An operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " has finite rank if ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is finite dimensional. The set of continuous finite rank operators is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } ) ;   \\mathcal { B } _ { 0 0 } ( \\mathcal { H } ) = \\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.768,
+            0.872,
+            0.824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a linear space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } ) \\subseteq"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 2). Before giving other examples of compact operators, however, the next result should be proved."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.841,
+            0.811,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.4. Theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.131,
+            0.869,
+            0.305,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.131,
+            0.888,
+            0.314,
+            0.905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.131,
+            0.905,
+            0.857,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) There is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ T _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of operators of finite rank such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T - T _ { n } \\| \\to 0 ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

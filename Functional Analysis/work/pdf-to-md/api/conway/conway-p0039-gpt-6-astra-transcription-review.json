@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 39,
+  "model": "gpt-6-astra",
+  "seconds": 9.05,
+  "input_tokens": 3522,
+  "output_tokens": 321,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"If $\\\\mathcal H$ and $\\\\mathcal H$ are Hilbert spaces\",\n      \"correction\": \"If $\\\\mathcal H$ and $\\\\mathcal K$ are Hilbert spaces\"\n    },\n    {\n      \"candidate_fragment\": \"$\\\\mathcal H\\\\oplus\\\\mathcal H=\\\\{h\\\\oplus k:h\\\\in\\\\mathcal H,\\\\ k\\\\in\\\\mathcal H\\\\}$\",\n      \"correction\": \"$\\\\mathcal H\\\\oplus\\\\mathcal K=\\\\{h\\\\oplus k:h\\\\in\\\\mathcal H,\\\\ k\\\\in\\\\mathcal K\\\\}$\"\n    },\n    {\n      \"candidate_fragment\": \"an inner product on $\\\\mathcal H\\\\oplus\\\\mathcal H$ and that $\\\\mathcal H\\\\oplus\\\\mathcal H$ is complete\",\n      \"correction\": \"an inner product on $\\\\mathcal H\\\\oplus\\\\mathcal K$ and that $\\\\mathcal H\\\\oplus\\\\mathcal K$ is complete\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

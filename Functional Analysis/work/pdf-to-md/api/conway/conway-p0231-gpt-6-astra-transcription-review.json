@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 231,
+  "model": "gpt-6-astra",
+  "seconds": 12.59,
+  "input_tokens": 3845,
+  "output_tokens": 367,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"Let $v$ be the positive integer ... $(A_\\\\lambda-\\\\lambda)^v=0$ ... $(A_\\\\lambda-\\\\lambda)^{v-1}$\",\n      \"correction\": \"Use Greek $\\\\nu$, not Latin $v$, for the integer and its four occurrences in exponents.\"\n    },\n    {\n      \"candidate_fragment\": \"$\\\\mathcal X_\\\\lambda\\\\cap\\\\mathcal X_\\\\Delta=(0)$\",\n      \"correction\": \"$\\\\mathcal X_\\\\Delta\\\\cap\\\\mathcal X_\\\\lambda=(0)$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

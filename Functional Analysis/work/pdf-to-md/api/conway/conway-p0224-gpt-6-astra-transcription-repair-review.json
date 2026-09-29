@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 224,
+  "model": "gpt-6-astra",
+  "seconds": 13.46,
+  "input_tokens": 4004,
+  "output_tokens": 349,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\geq\\\\|S_px\\\\|_p-|\\\\lambda|\\\\|x\\\\|_p=\",\n      \"correction\": \"\\\\geq\\\\bigl|\\\\|S_px\\\\|_p-|\\\\lambda|\\\\|x\\\\|_p\\\\bigr|=\",\n      \"description\": \"Missing outer absolute-value bars in the norm inequality.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

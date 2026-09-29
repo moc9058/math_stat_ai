@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 350,
+  "model": "gpt-6-luna",
+  "seconds": 18.14,
+  "input_tokens": 3452,
+  "output_tokens": 834,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"for f in $\\\\mathcal{D}_{\\\\alpha}$\",\n      \"correction\": \"for $f$ in $\\\\mathcal{D}_a$,\"\n    },\n    {\n      \"candidate_fragment\": \"for every f in $\\\\mathcal{D}_{a^{\\\\cdot}}\\\\mathbf{A}\\\\mathbf{s}$ in (1.11), it follows\",\n      \"correction\": \"for every $f$ in $\\\\mathcal{D}_a$. As in (1.11), it follows\"\n    },\n    {\n      \"candidate_fragment\": \"$H - i g$ is coñstant\",\n      \"correction\": \"$H - ig$ is constant\"\n    },\n    {\n      \"candidate_fragment\": \"$f' [\\\\bar{H} - (\\\\bar{\\\\imath}\\\\bar{g})]$\",\n      \"correction\": \"$f'[\\\\bar{H} - \\\\overline{ig}]$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

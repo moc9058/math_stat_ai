@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 329,
+  "model": "gpt-6-astra",
+  "seconds": 15.04,
+  "input_tokens": 3774,
+  "output_tokens": 478,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"\\\\operatorname{gra}A^*=\\\\operatorname{gra}A\\\\oplus\\\\mathcal H_+\\\\oplus\\\\mathcal H_-\",\n      \"correction\": \"\\\\operatorname{gra}A^*=\\\\operatorname{gra}A\\\\oplus\\\\mathcal K_+\\\\oplus\\\\mathcal K_-\"\n    },\n    {\n      \"candidate\": \"\\\\mathcal G=\\\\operatorname{gra}B\\\\cap(\\\\mathcal H_+\\\\oplus\\\\mathcal H_-)\",\n      \"correction\": \"\\\\mathcal G=\\\\operatorname{gra}B\\\\cap(\\\\mathcal K_+\\\\oplus\\\\mathcal K_-)\"\n    },\n    {\n      \"candidate\": \"k\\\\in\\\\mathcal H_+\\\\oplus\\\\mathcal H_-\",\n      \"correction\": \"k\\\\in\\\\mathcal K_+\\\\oplus\\\\mathcal K_-\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

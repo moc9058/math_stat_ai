@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 91,
+  "model": "gpt-6-astra",
+  "seconds": 8.92,
+  "input_tokens": 3367,
+  "output_tokens": 238,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\|F\\\\|=\\\\sup_\\\\mu\\\\|F(\\\\mu)\\\\|_\\\\infty<\\\\infty\",\n      \"correction\": \"\\\\|F\\\\|\\\\equiv\\\\sup_\\\\mu\\\\|F(\\\\mu)\\\\|_\\\\infty<\\\\infty\",\n      \"location\": \"Lemma 5.11, displayed formula\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

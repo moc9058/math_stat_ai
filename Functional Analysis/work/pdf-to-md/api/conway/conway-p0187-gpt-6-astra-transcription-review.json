@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 187,
+  "model": "gpt-6-astra",
+  "seconds": 21.49,
+  "input_tokens": 3517,
+  "output_tokens": 609,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [],\n  \"uncertain_regions\": [\n    {\n      \"candidate_fragment\": \"T^*(\\\\delta_{y_i})\\\\to T^*(\\\\delta_y)\",\n      \"location\": \"Proof of Claim 2.2, after “Hence”\",\n      \"note\": \"The first delta subscript appears to be y rather than y_i in the image, but the small print is not clear enough to confirm. Check against a higher-resolution image.\"\n    }\n  ]\n}"
+}

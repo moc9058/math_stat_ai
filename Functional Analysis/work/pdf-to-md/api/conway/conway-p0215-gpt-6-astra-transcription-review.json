@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 215,
+  "model": "gpt-6-astra",
+  "seconds": 12.14,
+  "input_tokens": 3341,
+  "output_tokens": 279,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"K\\\\subseteq\\\\operatorname{ins}\\\\Gamma\",\n      \"correction\": \"K\\\\subset\\\\operatorname{ins}\\\\Gamma\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\mathbb{C}\\\\setminus G\\\\subseteq\\\\operatorname{out}\\\\Gamma\",\n      \"correction\": \"\\\\mathbb{C}\\\\setminus G\\\\subset\\\\operatorname{out}\\\\Gamma\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

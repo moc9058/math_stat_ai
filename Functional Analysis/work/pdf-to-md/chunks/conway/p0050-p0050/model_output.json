@@ -1,0 +1,1030 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": null,
+      "authors": [],
+      "subject": null,
+      "keywords": [],
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "identifiers": [],
+      "publisher": null,
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 49,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0",
+  "schema": "docvortex.model",
+  "pages": [
+    [
+      {
+        "type": "header",
+        "bbox": [
+          0.126,
+          0.055,
+          0.415,
+          0.072
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "§2. The Adjoint of an Operator"
+          }
+        ]
+      },
+      {
+        "type": "page_number",
+        "bbox": [
+          0.843,
+          0.056,
+          0.868,
+          0.07
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "35"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.099,
+          0.407,
+          0.118
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.125,
+              0.098,
+              0.406,
+              0.121
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(b) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| A \\bar { h } \\| = \\| A ^ { * } h \\|"
+          },
+          {
+            "type": "text",
+            "content": " for all h."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.161,
+          0.119,
+          0.853,
+          0.137
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.168,
+              0.119,
+              0.85,
+              0.136
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "If H is a C-Hilbert space, then these statements are also equivalent to:"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.137,
+          0.597,
+          0.156
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.132,
+              0.138,
+              0.594,
+              0.155
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(c) The real and imaginary parts of A commute."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.164,
+          0.871,
+          0.216
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.164,
+              0.866,
+              0.183
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.183,
+              0.867,
+              0.2
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.202,
+              0.438,
+              0.217
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "PROOF. "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { I f } \\quad h \\in { \\mathcal { H } } ."
+          },
+          {
+            "type": "text",
+            "content": " then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\| A \\boldsymbol{h} \\|^2 - \\| A^* \\boldsymbol{h} \\|^2 = \\langle A \\boldsymbol{h}, A \\boldsymbol{h} \\rangle - \\langle A^* \\boldsymbol{h}, A^* \\boldsymbol{h} \\rangle ="
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\left\\langle ( A ^ { * } A - A A ^ { * } ) h , h \\right\\rangle"
+          },
+          {
+            "type": "text",
+            "content": " . Since "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * } A - A A ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " is hermitian, the equivalence of (a) and (b) follows from Corollarv 2.14."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.151,
+          0.219,
+          0.813,
+          0.239
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.154,
+              0.218,
+              0.809,
+              0.237
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "B , C"
+          },
+          {
+            "type": "text",
+            "content": " are real and imaginary parts of A, then a calculation yields"
+          }
+        ]
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.352,
+          0.251,
+          0.645,
+          0.27
+        ],
+        "content": "A ^ { * } A = B ^ { 2 } - i C B + i B C + C ^ { 2 } ,",
+        "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCAAkAWcDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKKACivkL/AILUf8FVvAn/AASd/Y71L4xXKWWpeO9cEmm/DfwzdSHF/qJUZnlVSGNtbhhLLgjPyRhlaVTXa/s0/Hz9ob4p/wDBKr4eftO6J4f0nxb8UfEfwK0fxJHp2o3sel2Wq6zcaTDcsjyKuy2jeZzyAFUH+EDIAPoiiv58fAX/AAcwfta6x/wUn8RaRp3wiS91nVfAVl4S0z4Pat8X9Gt/CWm+KYbwNdahHqpcQtGYg4GGaR3cxl8ImP6AfDd1rd74dsL3xNpttZ6lNZRPqFpZXhuIYJygMkccpRDKitkByilgAdq5wAC7RXnv7Vf7Tvwj/Y0/Z78VftMfHPxCmm+GfCWlvd30uR5k75CxW8SkjfNLIyRRp/E8ijvXzN/wQV/4KIfFz/gqB+yH4q/an+LthZafJdfFnWNP8PaNYRKE0vSoobRre1LgAzOokYtK3LsxOFG1VAPtuiiigAooooAKK/PD/g5R/bw/aX/4J1/sR+G/j7+yl8YofDPim7+Ilpoa6fdeH7PUYtVgntbmV12XETsjx/ZwwdCBgsrBiylfLv8Agpd+0Z/wV2/4JU/sTeCf27dZ/bX8PfEC40680i2+JPw48UfDnSrK1vZ7vAkSyubLy5kCPlNoMjEAy52qy0AfoF+2N+3T+zV+wh4BtviD+0b41uNPi1GaSHRtK0rSbjUNR1SVE3ulva2yPJJtX5mbARAQWZQRWn+yT+2B+zp+3P8ABPTv2hf2XPiZaeKfCuoyPCl7bxyRSW86Y8y3nhlVZIJVyMo6g4ZWGVZSeV8Sftf/AAJ8Efs4eCP20vix4fj0XU/F3hjTo/Cuh3CRyazdXmqxQTxaHaZCtJcSzCFCg2qWiV32rGWXz3/gj7+xzbfsXfBnxz4Z8Ta/4ffx58QfiZqnj/x94d8N6lHcWvh261RlaDT4tiqfLit4Y4w5RRIySMoC4AAPreiiigAooooAKK8f8Iaj+2zP+2h4ssfF9h8Oz8BovCtr/wAIjdadPcnxJ/bW6Pz1ulY+SIMGbG0Bvli5OXr5n/aP/wCCqvxc+Lf7dL/8Es/+CYPhnQdd+IukWb3fxT+JvidJJ9B+H9qpRWBgiZWvrzLqoh3oqyOiMW/e+UAffFFfC/7Wv7NP/BYLwR+zD4j+IH7OX/BUPWfEXxG8OaFeahpnh2T4N+HktPEE0cTMLOONYGlikYAiM+Y/7wpuBBIr6H1vVPi94E/YIl8Q/GL4vR+HPHeg/Chbzxb44ttPtpY7HVbfThJd3vkvE0LRiZJHKbNu3IUDggA9hor8eP8Agj/8Zf8Ags9/wVN/YP8AEH7X/iv/AIKSweAdVtfEd9YeDLCz+FWgXWn3sdtbp5kt8HgEoQzOyARtGU8kud4YLX0t/wAG83/BTz40f8FTP2JNU+LH7QXhrSbXxZ4R8a3HhrUtU0GExWmsCO2tp0uljJIjcrcBXVTtLJuUKGCKAfeNFFefax+058K9D/ag0P8AZCv729HjPxD4MvvFGnW62TG3On2lzBbzM0vRX8y4jwvcZPbkA9BooooAKK8X/Y98T/t2eJbr4in9tv4ZeBvDcNn4+vLf4ZjwXqsty194eXAgnu/MZsTNycjyyckGGPaN351eF/2t/wDgqP8AtNf8F4/jD/wTU+Cn7eTeHPhv8ONIGuzeIP8AhWehahd2oaGwf+z9zQqrhbi9MW5vn2QsG+cF6AP19or8uP2MP+Cjv7e/wz/4LZ+KP+CP37YHxH8L/F3TX8OSa54e+IXh/wAORaVe6XGLNLpIr23tiYkDIdhUgMHkiYOVkVK9g/4KLf8ABV3x58KP2lfDP/BM/wDYC+H2meOv2jPG1ot0qa4ZToXgzTyCxv8AVGg/eY8tWdYlIO3YzH54klAPueivhPxD/wAE7/8AgqTH8NLj4gaL/wAFofH0vxbi06W5gtR4H0FPCUt75YK2v9nmyMi2+d0fmGVpMMJMFlwfoP8A4Jz6v+054i/Yb+GHiX9s2W5PxR1Twpb33jSO90uOxngvJsymGS3jRFheNXSNkCjDIQRnNAHtNFFeefCr9p/4WfGT4zfE34D+Dbi+PiD4S6vp2neLorqzMcSy32nw39uYXyRIphmUE8EMrDGMEgHodFFcZ+0L+0D8Iv2Vvgr4j/aF+PPjO28P+EfCmnNe61qt0CRFGCFVVVQWeR3ZURFBZ3dVUEkCgDs6K/NT9lT4rf8ABUH/AILLW0v7UXhD46ah+y9+zzfzTweANF8P+GrDUPF3i6zBeNtQubq/hlh09GK7ovIjY8sAWCpM/oHwa+CP/BWX9nb/AIKL+Avh/wCLP23db+MP7PeqeEdbv9duPFPgzSLXUtLvbaOCG3tZ7y0tozN5ktzHNGw2MwhnDAhMsAd58ff+C3P/AATL/Zj/AGptP/Y5+M37TGn6X42vLmK2vIUsLiaz0m4lCmGG9uo0MNq7h1O12GxSGk2Kyk/V9fn9/wAFcf2dvgj+2F8H7n/gld8DvBfhqLxP408Z6b4q+IOpaZDbwDwLpX9qLqN/r93II2EV1d+XPbwq2Jbl7qVhmKKdl++tMis4NNt4dPnaW3SBFgla4aUugUbSXYkuSMfMSSepJoAnooooAK5r4yfGD4c/s/8Awr1740/FzxRb6L4a8M6ZLf6xqVyTtihQZOAOXdjhVRQWdmVVBLAHpa+Xvjh+zv8Atb/tD/t3eBNS+Ill8PG/Zx+H066/baIutXj63rfiRIW+x3V3btafZzBZznzIoRL/AKwRXBdnjWFAD8lP+CpH7XPwE/aw/wCCYH7R37WnxYsfFOmfFn4lXWkeHvht4V8RfD7V7X/hFfB9l4ntZrO0+0SWxtY571bW51KaQTfvGljhBIgRa/Wb/gnX8KvAfxz/AOCLvwL+DPxS0M6n4b8U/s2eGNK17Tlu5rc3VpPoVtHLH5kLpIm5GI3IysM8EVzX/BdP9kj9sD9vb9hbVP2N/wBk3RvALDxzqdlF4u1jxx4gu7M6bZ213BeRvbR29vL5rtNboGLsNqggJIXzH6t/wTQ+FXx2+Af7Cvww/Z9/aL8K6BpXiX4feDdN8MSjw1r8mo2t5DYWkVrHdCSS3hKNIse4xbWCZxvbsAfLR/4Nuv2H9Q/a91Lx5r/wj8IT/BCf4J23grTfhLDYXEUlrqEWqC9OqC9SUTCbAdfNVxM3nSbnIJz+g/gvwd4b+Hfg7Sfh/wCDdMFlpGhaZBp+lWayM4gtoY1jij3OSzbUVRliScckmtOvm3/gpR4Z/b4+KHwiHwT/AGHtJ0HTpPFEsVp4s8caj4yk0y/0fTGlAuhpyx20p+1vDvWOZioiL7gCwGAD5Z+Pv/BRP9kv4w/t16/rPxaHjrX/AIafs8aXMvhAeFvhnrmuaNrnjSSOVL3UftWnWdxbFtNg/wBFi87/AFc91dyAfu0ccf8A8GafiO01v/glT4l0+2s7iI6d8adXikaZQFkL2GmygoR1AEgBOByDX6NeNvhV4p+Fn7Kt18Ff2LfAXhHTL/SvDI0jwTo2s6nPpmlWC+X5SF5bW3nlVY1JfCxlnZcFk3Fx8o/8G9//AATI/as/4JQfszeMP2cP2lPF3gbxBDq3jiTxFomqeDdcvrkp51pbW8sEkd1ZwCMA2quGRm3GV8hcAsAfY37Ro+JB+CXiH/hUXxa8PeBfEgs1OleLPFeki+07TnEikvPAZod6ldyf6xcFw3zY2n4U8VaV/wAFbtUikudL/wCC7f7OWj7I1IWy+E9hsyu8klp9QlIDbhk9vLXAHzbv0D+KHwt+HHxr+H+q/Cn4u+B9L8S+GtctTbaxoWtWaXFreREg7JI3BVhkA89CAe1eD6d/wRo/4JOaVqqa1Z/8E5vg358bFl83wBYyJkgjlHjKnr0IoA8C/Zstv+Cy3i7xlpjab/wVr/Zh+KPhK31e1uNavtH8DLJfy2eVMtui2NyIU3DcquWzyGz/AA1+idfOMn/BID/glk3jS0+IVt/wT5+EVpq9hJFJZ3Wn+BbK2EMkbB0kWOKNUDqyghtueOtfRshcIxiUFsHaGbAJ9zg4oA/F7/g6M0fxL+1r+2j+xp/wTZ8C+K5NMu/GPji41XVbuCPzmsImmtraK98k4VzFENQcBjzsYZUEk+W/8FyPh9+1H+xr+1Z8Av2h/wDgqV+0jJ+0v+zEfHkcGpeApfDtvoi2N6ltJ+9msLPbDfMqGWZGcneI5IHCJIC/v/xb/wCCfP8AwWL+JH/BaXw3/wAFZP8AhQ/wXns/A3h+bQvCHge/+LV+hjtWtbyATzXMemkeZuvppSqx7eQnJHmH1f4w/wDBIb9qv/gph+1D4E+Nv/BVv4neAbXwH8LL43nhH4N/CKa/urLVLotE7XOpX1/FCz7mjCGKOADywFDqWkLAH1Z+1B/wTo/Yd/brHh/VP2pPgBpfjeHw/ZNH4cg1S6ukgsYpdpYxwxyoiMwVAW27iEUE4UAa/wCyb+wj+yJ+wtoeseG/2SfgRovgay1+7judZg0gSH7XLGpRGcyOx+VWYAZwMn1NetgBQFUYA6AUUAcL+0T8dYf2d/hzJ8RZvhJ468bbLpIF0L4d+Gn1XUnLKx3iBWX5BtwWJABZR3r56t/+Cu6XNo97H/wTF/a/CJ1WT4JlHPzBeEa6DHlh0HTJ6AkfX9FAHyr8LP8AgqavxT8caJ4Hi/4Jz/tU+HzreowWq6v4p+D5srGxWV9onuZWuf3MSj5nJBZR1XPFfVLokilHUMrDBBGQRS1neL7bXL3wnqln4YaIalLp06aeZ7hoUE5jYR7pEVmRd2MsqsQOQCRigD8ov+CCH/CJ+DPCn7eP7cfwr8JQWujah8bvEMPhXSbZ5FtXsdGt5p4PLLgkB/teD8vGAMYAA4v/AIMyvD8Hjv4AfH79rrxhcyah458c/Fw2niLV58F7hYrSO93dOC0+o3DN2Py+lfZn/BED/gm/+0f/AME2f2Qbf9nT9o/41eFfFPk3F7LFo/hLRXFnHJc3c08s895cqs99M6yImTHCiJGqbHIMreD/ALM3/BLL/goJ/wAEc/2oPHWu/wDBM/T/AIf/ABH+AnxHv4tS1H4XeO/FNzpGq6DdqWULZ3a280bIqPtDyBmdEVHXdGsrgH6nV8Y/8HCnxvufgD/wRv8Ajr4v07VPst7qnhNfD9mwmKM51K5hsHCkAnd5VxKf+AnkdR634G0D9r343+L9L8RftHeGPD3w68LaJdfa4fBfhPxfNq97rV5G4MEl9efZbZIrVCpkFrErmVvKMkiqslu/yh/wcG/8E5v+Cj3/AAVP+Emi/sz/ALNWo/CnQPAeneIYNZ1S+8TeKtQTU9VuY4XjjjMEWnPFBDGZZWP76RpD5Zwm3aQD4Z0L/gml/wAFPfht/wAG5Wm+OPgB/wAFL9Z0TwhP8J7nxpr3waPg6xsY5NMu1fUrq3i1dNt4paCSRmjclJSxjyiHFfo//wAG4PxO/Z/+Kv8AwSQ+G2ufs8/Bu08C2VilxpviPRbMs6y6zbuI7u7MrkvMZyFl3OSQHCZwgrz/AONn7Ev/AAWc/bS/Y4sv2D/iF4s+A/wR8C3mh2eh+K9a8FajqviHV7zS4YYo2tYYbi3toYUkClXPmliF2ggMS32l+xF+xr8GP2Av2Y/C/wCyp8BdLlg8P+GLMxrcXbK1zf3DsXmu52UANLJIzOxAAGQAAoAABm/tg/txeBv2LrHSNT8dfBb4seK7bVxOftPw1+G99r8dj5QTH2prVCIC7OqIGILnOOFYr+XPxf8A+C2XwiH/AAWq+E/xxn/Yr/aHSx074Ga5ox0PUPhJPFrsst5dW90lza2LyB5YVS3KPKpwPNPUAmv2vr5J+JXwk+Lmp/8ABbT4WfGzQPh/eTeDtK/Z88T6Vr/iaSNxa29xNqmmyQWyuF2+exTcIyQTGsjD/VnIBv8A7FH/AAVB+G37cnjzVPh/4M/Zm+OvgqfStL+3Saj8TvhbdaNYzL5ip5UdwzMhl+bIjJBZVYjO1sdt/wAFB9d8LeFP2FfjB4x8axyPpmifDbWdTuUh1KazZvs1nLOoE0LLJGd0a8qwNew184f8Fcv2XvjV+2l/wTn+KP7Ln7PWuaRp/i3xlo0Flp1xrs7xWpQXcEk8buiuU3wpKgbacFhx3AB5X/wbifDvXvhz/wAEa/g5c+MNZv77U/EmmXviK9u9TldpGW9vZ54juk+Yr5DRYJ4I5BIIr84P+CKv7PP7Xn7e37U/7Zf7ev7Lf7d978HtR8SfE290fTdZh+H9j4givbeS9lvUX/TAiqIoRbIuwBtsmWA+UH9TPAH7OX7dvwQ/4Jcad+yx8NNR+G8/xSt/BUfhrRriDULzTPDvheFLAWcMsEi2893cmJY1lJdQ8s0jnMSbUX5g/wCCWP8AwTr/AOCzn/BLD9i/WP2Uvg74c/Zf1LU7zxde6zB4w1/xt4gZXeeGCINJaQ6UvmbRCoB86PhQCvcgHj3/AAbPXw+GP/BSH9qn9l39rXw1J4l/aY0bU7i9134w319Nd3Gs6PFc21vJbBpWIhj817WdAgUukyq3FvGFp/8ABtV9j/aI/wCCvn7b37XPxT1X+0PHNl4kbStMM5d2ttPutUvd6RknARE06yhQdVRAo4Jz9yf8Eg/+COWn/wDBN7UvHvx6+L3xil+Jnxs+LGovfePfHElkbaHLzNO9vbRFjhDM7OznBchPlQKqjyT4kf8ABJT9t39jj/gpL4n/AOCj3/BJjxv4CubT4pOV+Kvwg+I0tzZWF27sJZLm2urdJCrtMGlXKKYnlkx5iSNGAD9OaK+d/B+jf8FA/j9bQ6H+0r4W+H/wo8NFlOs6d8P/ABre+INW1lA/zWwu5rGxj06FwAHZFuJXjdlRrd8SD6FgggtYEtraFI440CxxxqAqqBgAAdAB2oA+S/2p/wDgr/8ADL9k74z6x8FfFP7HH7R/im40aO2eXxB4C+EFxqmk3AmhSVfJukkCyY37GwPldHX+GvgT9h3/AILhfDTwJ/wUC/a7+Inir9if9o25Txz4v8MX2n6T4f8AhRPeahpdvbaJHZRjUbYSB7OSZYBNGGyHViQflr9sq+Pf2Dvg38V/B3/BSb9tP4y+NPhfd6L4d8ceMfByeEdZv7Hyn1qOx8OwwXEkb5Ilt0kbahHAdpQcMGUAHsP7F37Zfhf9tz4bX3xP8JfBP4neB7Sy1ZrAWHxS8FS6Jd3RVEczQxyM3mQ5cpvB+8jjHFfmv/wejfEbxl4d/wCCefw8+G2h6hLa6R4s+K8Ca+8eQJo7eyuZYoX7FPM2y4P8UCnsa/Ymvnj/AIKhf8E4fg9/wVN/ZI1j9lj4vahPpfn3UWpeGvEtnAss+h6pCHWG6SNiBINskkbxkrvjlkUMjEOoB6z8AfhT4M+BPwL8G/BT4ciL+wPCXhaw0fRmgA2vbW1ukMbDBIOVQHOTnOcnrXXV8IfsceBf+C4/7I/wu0j9nL4m+FvgR8Y9H8M6YNJ8L+OT4+1TQdQa2hEcdq+oQtplyrlYwwcxEsdo5Y5Z/q34HfC34heFp9S+IXxr8fJr/jLX0iTUF0sSwaRpdvEWMVnY2zuxRFLszzuTNO7FmKosMMIB8s/F3/g3K/4JX/HT4r+KvjR8Tvhf4x1LXvGuqvqHiieT4oa2E1CVmJIdftXKDJVU+6i4VQAAB9seE/Cvh7wL4W0zwT4S0qOx0rR9PhsdMsoc7Le3iQRxxrkk4VFUDPpWhXxf/wAFWf2gf+Ci/wCzH8Qvgz8T/wBki18A6x4AvfHGn+HPiD4O8QSMusa9canqNpaW0dgdvDRo9xKSrZVVeR0dIzgA+0KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACuf8AEvwq+HPjPxn4f+IXizwdY6lrPhR7h/Dd9exeY2myToscssIb5UlKLs8wDeEZ1BAdwxRQB0FFFFAH/9k="
+      },
+      {
+        "type": "equation",
+        "bbox": [
+          0.353,
+          0.274,
+          0.644,
+          0.293
+        ],
+        "content": "A A ^ { * } = B ^ { 2 } + i C B - i B C + C ^ { 2 } .",
+        "image_base64": "data:image/jpeg;base64,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"
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.124,
+          0.307,
+          0.868,
+          0.326
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.128,
+              0.308,
+              0.866,
+              0.324
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Hence "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A^{*}A = AA^{*}"
+          },
+          {
+            "type": "text",
+            "content": " if and only if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "CB = BC"
+          },
+          {
+            "type": "text",
+            "content": " , and so (a) and (c) are equivalent."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.362,
+          0.808,
+          0.381
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.364,
+              0.805,
+              0.38
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "2.17. Proposition. If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+          },
+          {
+            "type": "text",
+            "content": " , the following statements are equivalent."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.391,
+          0.333,
+          0.408
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.392,
+              0.33,
+              0.408
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(a) A is an isometry."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.409,
+          0.255,
+          0.425
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.125,
+              0.406,
+              0.25,
+              0.429
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(b) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * } A = I ."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.427,
+          0.515,
+          0.446
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.127,
+              0.424,
+              0.513,
+              0.449
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(c) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\langle A h , A g \\rangle = \\langle h , g \\rangle \\; { \\it f o r ~ a l l ~ } h , g { \\it i n ~ } \\mathcal { H } ."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.454,
+          0.87,
+          0.509
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.131,
+              0.456,
+              0.865,
+              0.471
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.473,
+              0.865,
+              0.491
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.493,
+              0.865,
+              0.509
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "PRooF. The proof that (a) and (c) are equivalent was seen in Proposition I.5.2. Note that if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "h , g \\in \\mathcal { H }"
+          },
+          {
+            "type": "text",
+            "content": " , then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\langle A ^ { * } A h , g \\rangle = \\langle A h , A g \\rangle"
+          },
+          {
+            "type": "text",
+            "content": " . Hence (b) and (c) are easily seen to be equivalent. ■"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.531,
+          0.856,
+          0.551
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.531,
+              0.854,
+              0.55
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "2.18. Proposition. If "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+          },
+          {
+            "type": "text",
+            "content": " , then the following statements are equivalent."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.558,
+          0.327,
+          0.575
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.127,
+              0.557,
+              0.321,
+              0.579
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(a) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A^{*}A = AA^{*} = I."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.578,
+          0.64,
+          0.595
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.13,
+              0.579,
+              0.637,
+              0.594
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(b) A is unitary. (That is, A is a surjective isometry.)"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.128,
+          0.596,
+          0.396,
+          0.614
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.131,
+              0.597,
+              0.392,
+              0.614
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(c) A is a normal isometry."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.127,
+          0.622,
+          0.467,
+          0.64
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.623,
+              0.465,
+              0.64
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "PROOF. "
+          },
+          {
+            "type": "equation_inline",
+            "content": "(a) \\Rightarrow (b);"
+          },
+          {
+            "type": "text",
+            "content": " Proposition I.5.2."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.641,
+          0.871,
+          0.694
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.159,
+              0.641,
+              0.869,
+              0.657
+            ]
+          },
+          {
+            "bbox": [
+              0.13,
+              0.658,
+              0.866,
+              0.675
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.676,
+              0.678,
+              0.693
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "(b)⇒(c): By (2.17), "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * } A = I ."
+          },
+          {
+            "type": "text",
+            "content": " But it is easy to see that the fact that A is a surjective isometry implies that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { - 1 }"
+          },
+          {
+            "type": "text",
+            "content": " is also. Hence by (2.17) "
+          },
+          {
+            "type": "equation_inline",
+            "content": "I = (A^{-1})^{*}A^{-1}"
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "(A^{*})^{-1}A^{-1}=(AA^{*})^{-1}"
+          },
+          {
+            "type": "text",
+            "content": " ; this implies that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A^{*}A = A\\overline{A^{*}} = I"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.694,
+          0.871,
+          0.731
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.157,
+              0.694,
+              0.873,
+              0.712
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.713,
+              0.869,
+              0.731
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "equation_inline",
+            "content": "(c) \\Rightarrow (a)"
+          },
+          {
+            "type": "text",
+            "content": " By (2.17), "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * } A = I ."
+          },
+          {
+            "type": "text",
+            "content": " Since A is also normal, "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A A ^ { * } = A ^ { * } A = I"
+          },
+          {
+            "type": "text",
+            "content": " and so A is surjective. ■"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.154,
+          0.748,
+          0.802,
+          0.768
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.158,
+              0.748,
+              0.797,
+              0.767
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "We conclude with a very important, though easily proved, result."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.785,
+          0.632,
+          0.804
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.129,
+              0.786,
+              0.626,
+              0.804
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "2.19. Theorem. "
+          },
+          {
+            "type": "equation_inline",
+            "content": "If   A \\in \\mathcal{B}(\\mathcal{H})"
+          },
+          {
+            "type": "text",
+            "content": " , then ker "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A = ( \\operatorname{rank} A^* )^{\\perp}"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.126,
+          0.813,
+          0.869,
+          0.869
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.13,
+              0.813,
+              0.866,
+              0.831
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.831,
+              0.866,
+              0.85
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.85,
+              0.869,
+              0.867
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "PROOF. If h∈ker A and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g \\in \\mathcal { H }"
+          },
+          {
+            "type": "text",
+            "content": " then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\langle h , A ^ { * } g \\rangle = \\langle A h , g \\rangle = 0 ,"
+          },
+          {
+            "type": "text",
+            "content": " so ker "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\mathbf { A } \\subseteq"
+          },
+          {
+            "type": "text",
+            "content": " (ran "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * } ) ^ { \\perp }"
+          },
+          {
+            "type": "text",
+            "content": " . On the other hand, if "
+          },
+          {
+            "type": "equation_inline",
+            "content": "h \\perp \\tan A^{*}"
+          },
+          {
+            "type": "text",
+            "content": " and "
+          },
+          {
+            "type": "equation_inline",
+            "content": "g \\in \\mathcal { H }"
+          },
+          {
+            "type": "text",
+            "content": " , then "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\langle A h , g \\rangle ="
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "\\langle h , A ^ { * } g \\rangle = 0 ;"
+          },
+          {
+            "type": "text",
+            "content": " so "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\operatorname { r a n } A ^ { * } ) ^ { \\perp } \\subseteq \\ker A"
+          },
+          {
+            "type": "text",
+            "content": " ■"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.125,
+          0.886,
+          0.871,
+          0.924
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.16,
+              0.887,
+              0.866,
+              0.904
+            ]
+          },
+          {
+            "bbox": [
+              0.129,
+              0.904,
+              0.87,
+              0.923
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Two facts should be noted. Since "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * * } = A"
+          },
+          {
+            "type": "text",
+            "content": " , it also holds that ker "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * } ="
+          },
+          {
+            "type": "text",
+            "content": " "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\operatorname { r a n } A ) ^ { \\perp }"
+          },
+          {
+            "type": "text",
+            "content": " . Second, it is not true that "
+          },
+          {
+            "type": "equation_inline",
+            "content": "( \\ker A ) ^ { \\perp } = \\operatorname { r a n } A ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " since ran "
+          },
+          {
+            "type": "equation_inline",
+            "content": "A ^ { * }"
+          },
+          {
+            "type": "text",
+            "content": " may not"
+          }
+        ]
+      }
+    ]
+  ],
+  "page_index_map": [
+    49
+  ]
+}

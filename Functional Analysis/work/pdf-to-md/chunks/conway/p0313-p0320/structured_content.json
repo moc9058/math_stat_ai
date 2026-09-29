@@ -1,0 +1,1326 @@
+{
+  "pages": [
+    {
+      "page_idx": 312,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.129,
+            0.056,
+            0.166,
+            0.07
+          ],
+          "content": "298"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.504,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.099,
+            0.869,
+            0.136
+          ],
+          "content": "for N. Thus, if $\\sigma ( N ) = \\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots , \\lambda _ { n } \\}$ , where $\\lambda _ { i } \\neq \\lambda _ { j }$ for $i   \\neq   j ,$ then (10.2) becomes"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.128,
+            0.145,
+            0.619,
+            0.164
+          ],
+          "content": "N \\cong D _ { 1 } \\oplus D _ { 2 } \\oplus \\cdots \\oplus D _ { m } ,\\tag{10.14}",
+          "image_source": "images/page_312_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.172,
+            0.871,
+            0.228
+          ],
+          "content": "where $D _ { 1 } = \\mathrm { d i a g } ( \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots , \\lambda _ { n } )$ and, for $k \\geqslant 2 , D _ { k }$ is a diagonalizable operator whose diagonal consists of one, and only one, of each of the eigenvalues of N having multiplicity at least k."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.229,
+            0.872,
+            0.302
+          ],
+          "content": "There is another decomposition for normal operators that furnishes a complete set of unitary invariants and has a connection with the concept of multiplicity. For normal operators on a finite dimensional space, this decomposition takes on the following form."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.302,
+            0.872,
+            0.433
+          ],
+          "content": "Let $\\Lambda _ { k } = \\mathrm { t h } \\mathbf { e }$ eigenvalues of N having multiplicity k. So for λ in $\\Lambda _ { k } ,$ dim ker $( N - \\lambda ) = k .$ If $\\Lambda _ { k } = \\{ \\lambda _ { j } ^ { ( k ) } : 1 \\leqslant j \\leqslant m _ { k } \\}$ , let $N _ { k }$ be the diagonalizable operator on a $k m _ { k }$ dimensional space whose diagonal contains each $\\lambda _ { i } ^ { ( k ) }$ repeated k times. So $N \\cong { \\overline { { N } } } _ { 1 } \\oplus { \\overline { { N } } } _ { 2 } \\oplus \\cdots \\oplus { \\overline { { N } } } _ { p } ,$ if $\\sigma ( N ) = \\Lambda _ { 1 } \\cup \\cdots \\cup \\Lambda _ { p } .$ Now $\\sigma ( N _ { k } ) = \\Lambda _ { k }$ and each eigenvalue of $N _ { k }$ has multiplicity k. Thus $\\dot { N _ { k } } \\cong A _ { k } ^ { ( k ) }$ where $A _ { k }$ is a diagonalizable operator on an $m _ { k }$ dimensional space with $\\sigma ( A _ { k } ) = \\Lambda _ { k }$ . Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.127,
+            0.439,
+            0.629,
+            0.462
+          ],
+          "content": "N \\cong A _ { 1 } \\oplus A _ { 2 } ^ { ( 2 ) } \\oplus \\cdots \\oplus A _ { p } ^ { ( p ) } ,\\tag{10.15}",
+          "image_source": "images/page_312_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.468,
+            0.429,
+            0.487
+          ],
+          "content": "and $\\sigma ( A _ { i } ) \\cap \\sigma ( A _ { j } ) = \\square$ for $i \\neq j .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.487,
+            0.871,
+            0.524
+          ],
+          "content": "Now the big advantage of the decomposition (10.15) is that it permits a discussion of $\\{ N \\} ^ { \\prime }$ . Because the spectra of the operators $A _ { k }$ are disjoint,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.531,
+            0.67,
+            0.552
+          ],
+          "content": "\\{ N \\} ^ { \\prime }   =   \\{ N _ { 1 } \\} ^ { \\prime }   \\oplus   \\{ N _ { 2 } \\} ^ { \\prime }   \\oplus   \\cdots   \\oplus   \\{ N _ { p } \\} ^ { \\prime } .",
+          "image_source": "images/page_312_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.556,
+            0.871,
+            0.596
+          ],
+          "content": "(Why?) If $\\mathcal { H } _ { j } ^ { ( k ) } = \\ker ( N - \\lambda _ { j } ^ { ( k ) } )$ , then dim $\\mathcal { H } _ { j } ^ { ( k ) } = k$ and $\\scriptstyle \\bigoplus _ { j = 1 } ^ { m _ { k } } { \\mathcal { H } } _ { j } ^ { ( k ) } =$ the domain of $N _ { k }$ Since $\\left( \\hat { \\lambda } _ { i } ^ { ( k ) } \\neq \\hat { \\lambda } _ { j } ^ { ( k ) } \\right.$ for $i   \\neq   j ,$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.602,
+            0.658,
+            0.625
+          ],
+          "content": "\\{ N _ { k } \\} ^ { \\prime } = \\mathcal { B } ( \\mathcal { H } _ { 1 } ^ { ( k ) } ) \\oplus \\cdots \\oplus \\mathcal { B } ( \\mathcal { H } _ { m _ { k } } ^ { ( k ) } ) ,",
+          "image_source": "images/page_312_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.629,
+            0.658,
+            0.649
+          ],
+          "content": "and each $\\mathcal { B } ( \\mathcal { H } _ { j } ^ { ( k ) } )$ is isomorphic to the $k \\times k$ matrices."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.649,
+            0.871,
+            0.722
+          ],
+          "content": "The decomposition of an arbitrary normal operator that is analogous to decomposition (10.15) for finite dimensional normal operators is contained in the next result. The corresponding discussion of the commutant will follow this theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.749,
+            0.87,
+            0.787
+          ],
+          "content": "10.16. Theorem. If N is a normal operator, then there are mutually singular measures $\\mu _ { \\infty } ,   \\mu _ { 1 } ,   \\mu _ { 2 } , \\ldots$ (some of which may be zero) such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.794,
+            0.64,
+            0.817
+          ],
+          "content": "N \\cong N _ { \\mu _ { 1 } } ^ { ( \\infty ) } \\oplus N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } ^ { ( 2 ) } \\oplus \\cdots .",
+          "image_source": "images/page_312_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.823,
+            0.869,
+            0.861
+          ],
+          "content": "If M is another normal operator with corresponding measures $\\nu _ { \\infty } ,   \\nu _ { 1 } ,   \\nu _ { 2 } , \\ldots ,$ then $N \\cong M$ if and only $if \\left[ \\mu_{n} \\right] = \\left[ v_{n} \\right]$ for $1 \\leqslant n \\leqslant \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.868,
+            0.871,
+            0.925
+          ],
+          "content": "PROOF. Let $\\mu$ be a scalar-valued spectral measure for N and let $\\{ \\Delta _ { n } \\}$ be the sequence of Borel subsets of $\\sigma ( N )$ obtained in Corollary 10.12. Put $\\Sigma _ { \\infty } = \\bigcap _ { n = 1 } ^ { \\infty } \\Delta _ { n }$ and $\\Sigma _ { n } = \\Delta _ { n } \\backslash \\Delta _ { n + 1 }$ for $1 \\leqslant n < \\infty;$ let $\\mu _ { n } = \\mu | \\Sigma _ { n } , 1 \\leqslant n \\leqslant \\infty$ . Put"
+        }
+      ]
+    },
+    {
+      "page_idx": 313,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.554,
+            0.073
+          ],
+          "content": "§10. Multiplicity Theory for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.833,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": "299"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.868,
+            0.175
+          ],
+          "continues_prev": true,
+          "content": "$v _ { n } = \\mu | \\Delta _ { n } , \\quad 1 \\leqslant n < \\infty$ Now $\\Delta _ { n } = \\Sigma _ { \\infty } \\cup ( \\Delta _ { n } \\setminus \\Delta _ { n + 1 } ) \\cup ( \\Delta _ { n + 1 } \\setminus \\Delta _ { n + 2 } ) \\cup \\cdots =$ $\\textstyle \\sum _ { \\infty } \\cup \\sum _ { n } \\cup \\sum _ { n   +   1 } \\cup \\cdots$ . Hence $y _ { n } = \\mu _ { \\infty } + \\mu _ { n } + \\mu _ { n + 1 } + \\cdots$ and the measures $\\mu _ { \\infty } ,$ $\\mu _ { n } , \\mu _ { n + 1 } , \\ldots$ are pairwise singular. Hence $N _ { v _ { n } } \\cong N _ { \\mu _ { x } } \\oplus N _ { \\mu _ { n } } \\oplus N _ { \\mu _ { n + 1 } } \\cdots$ Combining this with Corollary 10.12 gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.266,
+            0.184,
+            0.794,
+            0.273
+          ],
+          "content": "\\begin{align*}N \\cong &   N_{\\mathfrak{v}_1} \\oplus N_{\\mathfrak{v}_2} \\oplus N_{\\mathfrak{v}_3} \\oplus \\cdots \\\\\\cong &   (N_{\\mu_x} \\oplus N_{\\mu_1} \\oplus N_{\\mu_2} \\oplus \\cdots) \\oplus (N_{\\mu_x} \\oplus N_{\\mu_2} \\oplus N_{\\mu_3} \\oplus \\cdots) \\\\&   \\oplus (N_{\\mu_x} \\oplus N_{\\mu_3} \\oplus N_{\\mu_4} \\oplus \\cdots) \\oplus \\cdots \\\\\\cong &   N_{\\mu_x}^{(\\infty)} \\oplus N_{\\mu_1} \\oplus N_{\\mu_2}^{(2)} \\oplus N_{\\mu_3}^{(3)} \\oplus \\cdots.\\end{align*}",
+          "image_source": "images/page_313_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.279,
+            0.833,
+            0.299
+          ],
+          "content": "The proof of the uniqueness part of the theorem is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.314,
+            0.868,
+            0.351
+          ],
+          "content": "Note that the form of the normal operator presented in Example 10.13 is the form of the operator given in the conclusion of the preceding theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.351,
+            0.87,
+            0.536
+          ],
+          "content": "Now to discuss $\\{ N \\} ^ { \\prime }$ . Fix a compactly supported positive Borel measure μ on C and let $\\mathcal { H } _ { n }$ be an n-dimensional Hilbert space, $1 \\leqslant n \\leqslant \\infty$ . Define a function $f \\colon \\mathbf { C } \\to \\mathcal { H } _ { n }$ to be a Borel function if $z \\mapsto \\langle f ( z ) , g \\rangle$ is a Borel function for each g in $\\mathcal { H } _ { n } . \\mathrm { I f } f : \\mathbb { C } \\to \\mathcal { H } _ { n }$ is a Borel function and $\\{ e _ { j } \\}$ is an orthonormal basis for $\\mathcal { H } _ { n }$ then $\\| f ( z ) \\| ^ { 2 } = \\textstyle \\sum _ { j } | \\langle f ( z ) , e _ { j } \\rangle | ^ { 2 }$ sO $z \\to \\| f ( z ) \\| ^ { 2 }$ is a Borel function. Let $L ^ { 2 } ( \\mu ;   \\mathcal { H } _ { n } )$ be the space of all Borel functions $f \\colon \\mathbb { C }   \\to   \\mathcal { H } _ { n }$ such that $\\| f \\| ^ { 2 } \\equiv \\int \\| f ( z ) \\| ^ { 2 } d \\mu ( z ) < \\infty$ , where two functions agreeing a.e. [μ] are identified. If f and $g \\in L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) , \\langle f , g \\rangle \\equiv \\int \\langle f ( z ) , g ( z ) \\rangle   d \\mu ( z )$ defines an inner product on $L ^ { 2 } ( \\mu ;   \\mathcal { H } _ { n } )$ It is not difficult to show that $L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } )$ is a Hilbert space."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.126,
+            0.553,
+            0.845,
+            0.573
+          ],
+          "level": 2,
+          "content": "10.17. Proposition. If N is multiplication by z on $L ^ { 2 } ( \\mu ;   \\mathcal { H } _ { n } ) .$ , then $N \\cong N _ { \\mu } ^ { ( n ) } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.58,
+            0.868,
+            0.637
+          ],
+          "content": "PROOF. Let $\\{ e _ { j } ; 1 \\leqslant j \\leqslant n \\}$ be an orthonormal basis for $\\mathcal { H } _ { n }$ and define U: $L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) \\to \\widetilde { L ^ { 2 } ( \\mu ) ^ { ( n ) } }$ by $U f = ( \\langle f ( \\cdot ) , e _ { 1 } \\rangle , \\langle f ( \\cdot ) , e _ { 2 } \\rangle , \\ldots )$ . Then U is an isomorphism and $U N U ^ { - 1 } = N _ { \\mu } ^ { ( n ) }$ . The details are left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.65,
+            0.869,
+            0.742
+          ],
+          "content": "Combining the preceding proposition with Proposition 6.1(b), we can find $\\{ N \\} ^ { \\prime } ;$ namely, $\\left\\{ N _ { \\mu } ^ { ( n ) } \\right\\} ^ { \\prime } = \\mathrm { a l l }$ matrices $( T _ { i j } )$ on $\\mathcal { B } ( L ^ { 2 } ( \\mu ) ^ { ( n ) } )$ such that $T _ { i j } { \\in } \\{ N _ { \\mu } \\} ^ { \\prime }$ for all i, j. By Corollary $6.9, \\left\\{ N_{\\mu}^{(n)} \\right\\}' = \\mathrm{ma}$ trices $( M _ { \\phi _ { i j } } )$ that belong to $\\mathcal { B } ( L ^ { 2 } ( \\mu ) ^ { ( n ) } )$ such that $\\phi _ { i j } { \\in } L ^ { \\infty } ( \\mu )$ . Now the idea is to use Proposition 10.17 to bring this back to $\\mathcal { B } ( L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) )$ and describe $\\{ N \\} ^ { \\prime }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.741,
+            0.871,
+            0.851
+          ],
+          "content": "A function φ: $\\mathbb { C } \\rightarrow \\mathcal { B } ( \\mathcal { H } _ { n } )$ is defined to be a Borel function if for each f and g in $\\mathcal { H } _ { n } ,   z \\mapsto \\langle \\phi ( z ) f , g \\rangle$ is a Borel function. If $\\{ f _ { j } \\}$ is a countable dense subset of the unit ball of $\\mathcal { H } _ { n } , \\| \\phi ( z ) \\| = \\sup \\left\\{ \\left| \\zeta \\phi ( z ) f _ { i } \\right| , f _ { j } \\right\\rangle : 1 \\leqslant i , j < \\infty \\}$ , SO $z   \\mapsto   \\|   \\phi ( z )   \\|$ is a Borel function. Let $L ^ { \\infty } ( \\mu ; { \\mathcal { B } } ( { \\mathcal { H } } _ { n } ) )$ be the equivalence classes of bounded Borel functions from C into $\\mathcal { B } ( \\mathcal { H } _ { n } )$ furnished with the μ-essential supremum norm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.851,
+            0.869,
+            0.925
+          ],
+          "content": "If $\\phi \\in L ^ { \\infty } ( \\mu ; { \\mathcal { B } } ( { \\mathcal { H } } _ { n } ) )$ and $f   \\in   L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) ,$ let $\\begin{array} { r } { f ( z )   =   \\sum f _ { j } ( z ) e _ { j } , } \\end{array}$ where $\\left\\{ e _ { j } \\right\\}$ is an orthonormal basis for $\\mathcal { H } _ { n }$ and $f _ { j } ( z ) = \\langle f ( z ) , e _ { j } \\rangle , \\mathrm { s o } \\sum | f _ { j } ( z ) | ^ { 2 } = \\| f ( z ) \\| ^ { 2 } .$ Thus $\\begin{array} { r } { \\phi ( z ) f ( z ) = \\sum _ { j } f _ { j } ( z ) \\phi ( z ) e _ { j } . } \\end{array}$ So for any e in $\\mathcal { H } _ { n } , \\dot { \\langle } \\phi ( z ) f ( z ) , e \\rangle = \\sum f _ { j } ( z ) \\langle \\phi ( z ) e _ { j } , e \\rangle$ is a Borel function. It is easy to check that $\\phi f \\in L^{2}(\\mu; \\mathcal{H}_{n})$ and"
+        }
+      ]
+    },
+    {
+      "page_idx": 314,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.133,
+            0.056,
+            0.169,
+            0.071
+          ],
+          "content": "300"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.506,
+            0.056,
+            0.87,
+            0.073
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.099,
+            0.871,
+            0.156
+          ],
+          "continues_prev": true,
+          "content": "$\\|   \\phi f   \\| \\leqslant \\|   \\phi   \\| _ { \\infty }   \\|   f   \\|$ . Let $M _ { \\phi } : L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) \\to L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } )$ be defined by $M _ { \\phi }   f = \\phi f$ Combined with the preceding remarks, the following result can be shown to hold. (The proof is left to the reader.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.172,
+            0.758,
+            0.192
+          ],
+          "content": "10.18. Proposition. If N is multiplication by z on $L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.344,
+            0.2,
+            0.655,
+            0.22
+          ],
+          "content": "\\{ N \\} ^ { \\prime }   =   \\{ M _ { \\phi } \\colon \\phi   \\in   L ^ { \\infty } ( \\mu ;   \\mathcal { B } ( \\mathcal { H } _ { n } ) ) \\} .",
+          "image_source": "images/page_314_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.227,
+            0.616,
+            0.249
+          ],
+          "content": "Also, | $\\| M _ { \\phi } \\| = \\| \\phi \\| _ { \\infty }$ for every φ in $L ^ { \\infty } ( \\mu ; { \\mathcal { B } } ( { \\mathcal { H } } _ { n } ) )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.265,
+            0.873,
+            0.321
+          ],
+          "content": "The next lemma is a consequence of Proposition 6.10 and the fact that unitarily equivalent normal operators have mutually absolutely continuous scalar-valued spectral measures."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.338,
+            0.871,
+            0.377
+          ],
+          "content": "10.19. Lemma. $I f N _ { 1 }$ and $N _ { 2 }$ are normal operators with mutually singular scalar spectral measures and $X N _ { 1 } = N _ { 2 } X$ , then $X = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.393,
+            0.871,
+            0.448
+          ],
+          "content": "Using the observation made prior to Corollary 6.8, the preceding lemma implies that $\\{ N _ { 1 } \\oplus N _ { 2 } \\} ^ { \\prime } = \\{ N _ { 1 } \\} ^ { \\prime } \\oplus \\{ N _ { 2 } \\} ^ { \\prime }$ whenever $N _ { 1 }$ and $N _ { 2 }$ are as in the lemma."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.448,
+            0.871,
+            0.504
+          ],
+          "content": "The next theorem of this section can be proved by piecing together Theorem 10.16 and the remaining results of this section. The details are left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.521,
+            0.871,
+            0.56
+          ],
+          "content": "10.20. Theorem. If N is a normal operator on $\\mathcal { H }$ , there are mutually singular measures $\\mu _ { \\infty } , \\mu _ { 1 } , \\mu _ { 2 } , \\ldots$ and an isomorphism"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.261,
+            0.568,
+            0.735,
+            0.588
+          ],
+          "content": "U \\colon { \\mathcal { H } } \\to L ^ { 2 } ( \\mu _ { \\infty } ;   { \\mathcal { H } } _ { \\infty } ) \\oplus L ^ { 2 } ( \\mu _ { 1 } ) \\oplus L ^ { 2 } ( \\mu _ { 2 } ;   { \\mathcal { H } } _ { 2 } ) \\oplus \\cdots",
+          "image_source": "images/page_314_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.587,
+            0.223,
+            0.605
+          ],
+          "content": "such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.605,
+            0.653,
+            0.624
+          ],
+          "content": "U N U ^ { - 1 } = N _ { \\infty } \\oplus N _ { 1 } \\oplus N _ { 2 } \\oplus \\cdots",
+          "image_source": "images/page_314_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.632,
+            0.627,
+            0.652
+          ],
+          "content": "where $N _ { n } =$ multiplication by z on $L ^ { 2 } ( \\mu _ { n } ; \\mathcal { H } _ { n } )$ Also,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.262,
+            0.659,
+            0.758,
+            0.703
+          ],
+          "content": "\\begin{align*}\\{ \\boldsymbol{N}_{\\infty} \\oplus \\boldsymbol{N}_{1} \\oplus \\boldsymbol{N}_{2} \\oplus \\cdots \\}' = &   L^{\\infty}(\\mu_{\\infty}; \\mathcal{B}(\\mathcal{H}_{\\infty})) \\oplus L^{\\infty}(\\mu_{1}) \\\\& \\oplus L^{\\infty}(\\mu_{2}; \\mathcal{B}(\\mathcal{H}_{2})) \\oplus \\cdots   .\\end{align*}",
+          "image_source": "images/page_314_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.712,
+            0.87,
+            0.841
+          ],
+          "content": "Using the notation of the preceding theorem, if $\\mu$ is a scalar-valued spectral measure for N, then there are pairwise disjoint Borel sets $\\Delta _ { \\infty } ,   \\Delta _ { 1 } , \\ldots$ . such that $[ \\mu _ { n } ] = [ \\mu | \\Delta _ { n } ]$ Define a function $m _ { N } \\colon \\mathbb { C } \\to \\{ 0 , 1 , \\ldots \\infty \\}$ by letting $m _ { N } = \\infty \\chi _ { \\Delta _ { x } } + \\chi _ { \\Delta _ { 1 } } + 2 \\chi _ { \\Delta _ { 2 } } + \\cdots$ . As it stands the definition of $m _ { N }$ depends on the choice of the sets $\\{ \\Delta _ { n } \\}$ as well as N. However, any two choices of the sets $\\{ \\Delta _ { n } \\}$ differ from one another by sets of μ-measure zero. The function $m _ { N }$ is called the multiplicity function for N. Note that $m _ { N }$ is a Borel function."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.84,
+            0.869,
+            0.915
+          ],
+          "content": "If m: $\\mathfrak { C }   \\rightarrow   \\{ \\infty , 0 , 1 , 2 , \\ldots \\}$ is a Borel function and is a compactly supported $\\mu$ measure such that $\\mu ( \\{ z \\colon m ( z ) = 0 \\} ) = 0 ,$ let $\\Delta _ { n } = \\{ z ;   m ( z ) = n \\} ,   n = \\infty ,   1 , 2 , \\ldots .$ If $N _ { n } = N _ { \\mu | \\Delta _ { n } }$ , then $N = N _ { \\infty } ^ { ( \\infty ) } \\oplus N _ { 1 } \\oplus N _ { 2 } ^ { ( 2 ) } \\oplus \\cdots$ is a normal operator whose spectral measure is $\\mu$ and whose multiplicity function agrees with m a.e. [μ]."
+        }
+      ]
+    },
+    {
+      "page_idx": 315,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.554,
+            0.073
+          ],
+          "content": "§10. Multiplicity Theory for Normal Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.834,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": "301"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.873,
+            0.158
+          ],
+          "content": "10.21. Theorem. Two normal operators are unitarily equivalent if and only if they have the same scalar-valued spectral measure $\\mu$ and their multiplicity functions are equal a.e. [µ]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.175,
+            0.871,
+            0.286
+          ],
+          "content": "There is some notation that is used by many and we should mention its connection with what we have just finished. Suppose m: $\\mathbb { C }   \\rightarrow   \\{ \\infty , 1 , 2 , \\ldots \\}$ is a Borel function and $\\mu$ is a compactly supported measure on C such that $\\mu ( \\{ z \\colon m ( z ) = 0 \\} ) = 0$ . If $z \\in \\mathbf { C }$ let $\\mathcal { H } ( z )$ be a Hilbert space of dimension m(z). The direct integral of the spaces $\\mathcal { H } ( z )$ , denoted by $\\int \\mathcal { H } ( z )   d \\mu ( z )$ , is precisely the space"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.263,
+            0.292,
+            0.734,
+            0.312
+          ],
+          "content": "L ^ { 2 } ( \\mu | \\Delta _ { \\infty } ;   \\mathcal { H } _ { \\infty } )   \\oplus   L ^ { 2 } ( \\mu | \\Delta _ { 1 } )   \\oplus   L ^ { 2 } ( \\mu | \\Delta _ { 2 } ;   \\mathcal { H } _ { 2 } )   \\oplus \\cdots ,",
+          "image_source": "images/page_315_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.32,
+            0.871,
+            0.432
+          ],
+          "content": "where $\\Delta _ { n } = \\{ z : m ( z ) = n \\}$ and dim $\\mathcal { H } _ { n } = n . \\mathrm { I f }   \\phi \\colon \\mathbb { C } \\to \\mathcal { B } ( \\mathcal { H } _ { \\infty } ) \\cup \\mathcal { B } ( \\mathbb { C } ) \\cup \\mathcal { B } ( \\mathcal { H } _ { 2 } ) \\cup \\cdots$ such that $\\phi ( z ) \\in \\mathcal { B } ( \\mathcal { H } _ { n } )$ when $z { \\in } \\Delta _ { n } , \\phi { : } \\Delta _ { n } \\to { \\mathcal { B } } ( { \\mathcal { H } } _ { n } )$ is a Borel function, and there is a constant M such that $\\| \\phi ( z ) \\| \\leqslant M \\; { \\mathrm { a . e . } }$ [μ], then $\\int \\phi ( z )   d \\mu ( z )$ denotes the operator $M _ { \\phi | \\mathbf { \\Delta } _ { \\mathtt { x } } } \\oplus \\cdots$ as in (10.20). Although the direct integral notation is quite suggestive, one must revert to the notation of (10.20) to produce proofs."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.448,
+            0.872,
+            0.597
+          ],
+          "content": "Remarks. There are several sources for multiplicity theory. Most begin by proving Theorem 10.16. This is done for nonseparable spaces in Halmos [1951] and Brown [1974]. Another source is Arveson [1976], where the theory is set in the context of C\\*-algebras which is its proper milieu. Also, Arveson shows that the theory can be applied to some non-normal operators. The details of this more general multiplicity theory are carried out in Ernest [1976] as part of a more general classification scheme. Another source for multiplicity theory is Dunford and Schwartz [1963]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.596,
+            0.874,
+            0.76
+          ],
+          "content": "By Theorem 4.6, every normal operator is unitarily equivalent to a multiplication operator $M _ { \\phi }$ on $L ^ { 2 } ( X , \\Omega , \\mu )$ for some measure space $( X , \\Omega , \\mu ) .$ The scalar-valued spectral measure for $M _ { \\phi }$ is $\\mu \\circ \\phi ^ { - 1 }$ What is the multiplicity function for $M _ { \\phi } ?$ One is tempted to say that $m _ { { \\cal M } _ { \\phi } } ( z ) =$ the number of points in $\\phi ^ { - 1 } ( z )$ . This is not quite correct. The answer can be found in Abrahamse and Kriete [1973]. Also, Abrahamse [1978] contains a survey of spectral multiplicity for normal operators treated from this point of view. An especially accessible and readable account of this can be found in Kriete [1986]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.785,
+            0.236,
+            0.802
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.804,
+            0.875,
+            0.855
+          ],
+          "content": "1. Let A and B be operators on $\\mathcal { H }$ and $\\mathcal { H }$ , respectively. Let $\\mathcal { H } _ { 0 }$ and $\\mathcal { H } _ { 0 }$ be reducing subspaces for A and B and suppose that $A \\cong B | \\mathcal { H } _ { 0 }$ and $B \\cong A \\vert \\mathcal { H } _ { 0 }$ . Show that $A \\cong B ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.866,
+            0.874,
+            0.918
+          ],
+          "content": "2. Let $\\mu _ { 1 } , \\mu _ { 2 } , \\ldots$ be compactly supported measures on C such that $\\mu _ { n + 1 } \\ll \\mu _ { n }$ for all n. Show that if M is any normal operator whose spectral measure is absolutely continuous with respect to each $\\mu _ { n } ,$ then $N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } \\oplus \\cdots \\cong ( N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } \\oplus \\cdots ) \\oplus M .$"
+        }
+      ]
+    },
+    {
+      "page_idx": 316,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13,
+            0.057,
+            0.165,
+            0.072
+          ],
+          "content": "302"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.503,
+            0.056,
+            0.866,
+            0.072
+          ],
+          "content": "IX. Normal Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.1,
+            0.774,
+            0.119
+          ],
+          "content": "3. If µ = Lebesgue measure on [0, 1], show that $N _ { \\mu } \\cong N _ { \\mu } ^ { p }$ for $0 < p < \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.126,
+            0.869,
+            0.162
+          ],
+          "content": "4. Let μ = Lebesgue measure on [0, 1] and characterize the functions $\\phi$ in $L ^ { \\infty } ( \\mu )$ such that $N _ { \\mu } \\cong \\phi ( N _ { \\mu } ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.17,
+            0.855,
+            0.189
+          ],
+          "content": "5. Let µ = area measure on D and show that $N _ { \\mu }$ and $N _ { \\mu } ^ { 2 }$ are not unitarily equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.195,
+            0.867,
+            0.232
+          ],
+          "content": "6. Let µ = Lebesgue measure on [0, 1] and let v = Lebesgue measure on [ - 1, 1]. Show that $N _ { y } ^ { 2 }   \\cong   N _ { \\mu }   \\oplus   N _ { \\mu ^ { * } }$ How about $N _ { y } ^ { 3 } { } _ { \\bullet } ^ { ? }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.238,
+            0.869,
+            0.273
+          ],
+          "content": "7. Let $\\mu$ be Lebesgue measure on R and N = multiplication by sin x on $L ^ { 2 } ( \\mu )$ . Find the decompositions of N obtained in Theorem 10.1 and 10.16."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.281,
+            0.869,
+            0.318
+          ],
+          "content": "8. If $\\mu$ is Lebesgue measure on R and N = multiplication by $e ^ { i x }$ on $L ^ { 2 } ( \\mu ) ,$ show that $N \\cong N _ { m } ^ { ( \\infty ) }$ where m = arc length measure on ∂D."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.324,
+            0.869,
+            0.359
+          ],
+          "content": "9. Define $U \\colon L ^ { 2 } ( \\mathbb { R } ) \\to L ^ { 2 } ( \\mathbb { R } ) \\mathrm { ~ b y ~ } ( U f ) ( t ) = f ( t - 1 )$ . Show that $U$ is unitary and find its scalar-valued spectral measure and multiplicity function."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.367,
+            0.87,
+            0.401
+          ],
+          "content": "10. Represent N as in Theorem 10.1 and find the corresponding representation for N⊕ $N = N ^ { ( 2 ) } ;$ for $N ^ { ( 3 ) }$ , for $N ^ { ( \\infty ) }$ (Are you surprised by the result for $N ^ { ( \\infty ) } ? )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.41,
+            0.623,
+            0.427
+          ],
+          "content": "11. Prove the results and solve the exercises from §II.8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.435,
+            0.871,
+            0.487
+          ],
+          "content": "12. Let N be a normal operator and show that $N \\cong N ^ { ( 2 ) }$ if and only if there is a \\*-cyclic normal operator M such that $N \\cong M ^ { ( \\infty ) }$ . What does this say about the multiplicity function for N?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.495,
+            0.87,
+            0.547
+          ],
+          "content": "13. Let $( X , \\Omega , \\mu )$ be a measure space such that $L ^ { 2 } ( \\mu )$ is separable, let $\\phi   \\in   L ^ { \\infty } ( \\mu )$ , and let $N = M _ { \\phi }$ on $L ^ { 2 } ( \\mu )$ . Find the decompositions of N obtained in Theorems 10.1 and 10.16."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.555,
+            0.87,
+            0.624
+          ],
+          "content": "14. Let $\\mu$ be a compactly supported measure on $\\mathbf { c } , \\phi$ a bounded Borel function on C, and suppose $\\{ \\Delta _ { n } \\}$ are pairwise disjoint Borel sets such that φ is one-to-one on each $\\Delta _ { n }$ and $\\mu(\\mathbb{C} \\setminus \\bigcup_{n = 1}^{\\infty} \\Delta_{n}) = 0.$ Let $\\phi _ { n } = \\phi \\chi _ { \\Delta _ { n } }$ and $\\mu _ { n }   =   \\mu ^ { \\circ } \\phi _ { n } ^ { - 1 }$ for $n \\geqslant 1$ . Prove that $M _ { \\phi }$ on $L ^ { 2 } ( \\mu )$ is unitarily equivalent to $\\oplus _ { n = 1 } ^ { \\infty } N _ { \\mu _ { n } } .$"
+        }
+      ]
+    },
+    {
+      "page_idx": 317,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.126,
+            0.098,
+            0.535,
+            0.167
+          ],
+          "level": 1,
+          "content": "CHAPTER X Unbounded Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.43,
+            0.871,
+            0.485
+          ],
+          "content": "It is unfortunate for the world we live in that all of the operators that arise naturally are not bounded. But that is indeed the case. Thus it is important to study such operators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.485,
+            0.871,
+            0.577
+          ],
+          "content": "The idea here is not to study an arbitrary linear transformation on a Hilbert space. In fact, such a study is the province of linear algebra rather than analysis. The operators that are to be studied do possess certain properties that connect them to the underlying Hilbert space. The properties that will be isolated are inspired by natural examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.577,
+            0.718,
+            0.596
+          ],
+          "content": "All Hilbert spaces in this chapter are assumed separable."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.644,
+            0.613,
+            0.669
+          ],
+          "level": 2,
+          "content": "§1. Basic Properties and Examples"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.684,
+            0.871,
+            0.722
+          ],
+          "content": "The first relaxation in the concept of operator is not to assume that the operators are defined everywhere on the Hilbert space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.739,
+            0.872,
+            0.814
+          ],
+          "content": "1.1. Definition. If $\\mathcal { H } , \\mathcal { H }$ are Hilbert spaces, a linear operator $A : \\mathcal { H } \\rightarrow \\mathcal { H }$ is a function whose domain of definition is a linear manifold, dom A, in $\\mathcal { H }$ and such that $A(\\alpha f + \\beta g) = \\alpha A f + \\beta A g$ for $f , g$ in dom A and $\\alpha , \\beta$ in C. A is bounded if there is a constant $c   >   0$ such that $\\| A f \\| \\leqslant c \\| f \\|$ for all f in dom A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.831,
+            0.872,
+            0.905
+          ],
+          "content": "Note that if A is bounded, then A can be extended to a bounded linear operator on cl[dom $A ]$ and then extended to $\\mathcal { H }$ by letting A be 0 on (dom $A ) ^ { \\perp }$ . So unless it is specified to the contrary, a bounded operator will always be assumed to be defined on all of $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.904,
+            0.872,
+            0.923
+          ],
+          "content": "If A is a linear operator from $\\mathcal { H }$ into $\\mathcal { H } ,$ then A is also a linear operator"
+        }
+      ]
+    },
+    {
+      "page_idx": 318,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.168,
+            0.072
+          ],
+          "content": "304"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.634,
+            0.056,
+            0.871,
+            0.072
+          ],
+          "content": "X. Unbounded Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.87,
+            0.155
+          ],
+          "continues_prev": true,
+          "content": "from cl[dom $[ A ]$ into $\\mathcal { H }$ . So we will often only consider those A such that dom A is dense in $\\mathcal { H } ;$ such an operator A is said to be densely defined. $\\mathcal { B } ( \\mathcal { H } )$ still denotes the bounded operators defined on $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.155,
+            0.871,
+            0.212
+          ],
+          "content": "If $A , B$ are linear operators from $\\mathcal { H }$ into $\\varkappa$ , then $A + B$ is defined with dom $(A + B) = \\mathrm{dom} A \\cap$ dom B. If $B : \\mathcal { H } \\to \\mathcal { H }$ and $A \\colon { \\mathcal { H } } \\to { \\mathcal { L } } ,$ then $A B$ is a linear operator from $\\mathcal { H }$ into $\\mathcal { L }$ with dom $(AB) = B^{-1}(\\mathrm{dom} A)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.225,
+            0.871,
+            0.281
+          ],
+          "content": "1.2. Definition. If A, B are operators from $\\mathcal { H }$ into $\\mathcal { H }$ , then A is an extension of B if dom $B \\subseteq \\dim A$ and $A h = B h$ whenever hedom B. In symbols this is denoted by $B \\subseteq A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.299,
+            0.871,
+            0.336
+          ],
+          "content": "Note that if $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , then the only extension of A is itself. So this concept is only of value for unbounded operators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.337,
+            0.541,
+            0.355
+          ],
+          "content": "If $A : { \\mathcal { H } } \\to { \\mathcal { H } }$ , the graph of A is the set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31,
+            0.364,
+            0.685,
+            0.383
+          ],
+          "content": "\\mathrm{grad} A \\equiv \\{ h \\oplus A h \\in \\mathcal{H} \\oplus \\mathcal{H} : h \\in \\mathrm{dom} A \\}.",
+          "image_source": "images/page_318_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.391,
+            0.672,
+            0.41
+          ],
+          "content": "It is easy to see that $B \\subseteq A$ if and only if gra $B \\subseteq \\operatorname { g r a } A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.425,
+            0.871,
+            0.516
+          ],
+          "content": "1.3. Definition. An operator $A : \\mathcal { H } \\rightarrow \\mathcal { H }$ is closed if its graph is closed in $\\mathcal { H } \\oplus \\mathcal { H }$ . An operator is closable if it has a closed extension. Let $\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } ) =$ the collection of all closed densely defined operators from $\\mathcal { H }$ into X. Let $\\mathcal { C } ( \\mathcal { H } ) =$ $\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )$ . (It should be emphasized that the operators in $\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )$ are densely defined.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.516,
+            0.872,
+            0.7
+          ],
+          "content": "When is a subset of $\\mathcal { H } \\oplus \\mathcal { H }$ a graph of an operator from $\\mathcal { H }$ into $\\mathcal { H } ?$ If ${ \\mathcal { G } } = \\operatorname { g r a } A$ for some $A : \\mathcal { H } \\rightarrow \\mathcal { H }$ , then $\\pmb { \\mathscr { G } }$ is a submanifold of $\\mathcal { H } \\oplus \\mathcal { H }$ such that if $k \\in \\mathcal { H }$ and $\\mathbf { 0 }   \\oplus   k   \\in   \\mathcal { G } ,$ then $k   =   0 ,$ The converse is also true. That $\\mathbf { i s } ,$ suppose that G is a submanifold of $\\mathcal { H } \\oplus \\mathcal { H }$ such that if $k \\in \\mathcal { H }$ and $0 \\oplus k \\in { \\mathcal { G } } ,$ then $k   =   0 .$ Let $\\mathcal { D } = \\{ h \\in \\mathcal { H } :$ there exists a k in $\\mathcal { H }$ with h⊕k in $\\{ \\theta \\}$ . If $h { \\in } { \\mathcal { D } }$ and $k _ { 1 } , k _ { 2 } { \\in } \\mathcal { H }$ such that $h \\oplus k _ { 1 } , h \\oplus k _ { 2 } \\in \\mathcal { G }$ , then $0 \\oplus (k_1 - k_2) = h \\oplus k_1 - h \\oplus k_2 \\in \\mathcal{G}$ Hence $k _ { 1 } = k _ { 2 }$ . That is, for every h in $\\mathcal { D }$ there is a unique k in $\\varkappa$ such that $h \\oplus k \\in { \\mathcal { G } } ;$ denote k by $k = A h .$ It is easy to check that A is a linear map and ${ \\mathcal { G } } = \\operatorname { g r a } A$ . This gives an internal characterization of graphs that will be useful in the next proposition."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.713,
+            0.87,
+            0.751
+          ],
+          "content": "1.4. Proposition. An operator $A : \\mathcal { H } \\to \\mathcal { H }$ is closable if and only if cl[gra A] is a graph."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.759,
+            0.87,
+            0.797
+          ],
+          "content": "PRooF. Let cl[gra A] be a graph. That is, there is an operator B: $\\mathcal { H } \\rightarrow \\mathcal { H }$ such that gra $B = \\mathrm{cl} \\left[ \\mathrm{grad} A \\right]$ . Clearly gra $A \\subseteq \\operatorname { g r a } B ,$ sO $A$ is closable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.797,
+            0.872,
+            0.852
+          ],
+          "content": "Now assume that A is closable; that is, there is a closed operator $B : \\mathcal { H } \\to \\mathcal { H }$ with $A \\subseteq B .$ If 0 ⊕ k∈cl[gra A], 0⊕ k∈gra B and hence $k   =   0$ . By the remarks preceding this proposition, cl[gra A] is a graph."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.868,
+            0.85,
+            0.888
+          ],
+          "content": "If A is closable, call the operator whose graph is cl[gra A] the closure of A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.904,
+            0.632,
+            0.923
+          ],
+          "content": "1.5. Definition. If $A : \\mathcal { H } \\rightarrow \\mathcal { H }$ is densely defined, let"
+        }
+      ]
+    },
+    {
+      "page_idx": 319,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.125,
+            0.056,
+            0.441,
+            0.073
+          ],
+          "content": "§1. Basic Properties and Examples"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.832,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": "305"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.099,
+            0.848,
+            0.119
+          ],
+          "content": "dom $A ^ { * }   =   \\{ k   \\in   \\mathcal { H } \\colon h     \\mapsto   \\langle A h , k \\rangle$ is a bounded linear functional on dom $\\left. A \\right\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.127,
+            0.87,
+            0.184
+          ],
+          "content": "Because dom A is dense in $\\mathcal { H } ,$ if k∈dom $A ^ { * }$ , then there is a unique vector f in $\\mathcal { H }$ such that $\\langle A h , k \\rangle = \\langle h , f \\rangle$ for all h in dom A. Denote this unique vector $f$ by $f = A ^ { * } k$ Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.192,
+            0.593,
+            0.211
+          ],
+          "content": "\\langle A h , k \\rangle = \\langle h , A ^ { * } k \\rangle",
+          "image_source": "images/page_319_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.224,
+            0.453,
+            0.243
+          ],
+          "content": "for h in dom A and k in dom $A ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.26,
+            0.766,
+            0.28
+          ],
+          "content": "1.6. Proposition. If A: $\\mathcal { H } \\rightarrow \\mathcal { H }$ is a densely defined operator, then:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.289,
+            0.399,
+            0.306
+          ],
+          "content": "(a) $A ^ { * }$ is a closed operator;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.307,
+            0.636,
+            0.325
+          ],
+          "content": "(b) $A ^ { * }$ is densely defined if and only if A is closable;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.326,
+            0.62,
+            0.344
+          ],
+          "content": "(c) if A is closable, then its closure is $( A ^ { * } ) ^ { * } \\equiv A ^ { * * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.352,
+            0.846,
+            0.372
+          ],
+          "content": "Before proving this, a lemma is needed which will also be useful later."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.389,
+            0.87,
+            0.428
+          ],
+          "content": "1.7. Lemma. $If A: \\mathcal{H} \\rightarrow \\mathcal{H}$ is densely defined and J: $\\mathcal { H } \\oplus \\mathcal { H } \\rightarrow \\mathcal { H } \\oplus \\mathcal { H }$ is defined by $J ( h \\oplus k ) = ( - k ) \\oplus h$ , then J is an isomorphism and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.396,
+            0.438,
+            0.607,
+            0.458
+          ],
+          "content": "\\mathrm{grad} A^{*} = \\left[ J \\mathrm{grad} A \\right]^{\\perp}.",
+          "image_source": "images/page_319_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.468,
+            0.87,
+            0.525
+          ],
+          "content": "PRooF. It is clear that J is an isomorphism. To prove the formula for gra $A ^ { * }$ note that gra $A ^ { * } = \\{ k \\oplus A ^ { * } k \\in { \\mathcal { H } } \\oplus { \\mathcal { H } }$ k∈dom $\\{ A ^ { * } \\}$ . So if kedom $A ^ { * }$ and hedom A,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.252,
+            0.533,
+            0.744,
+            0.575
+          ],
+          "content": "\\begin{align*}\\langle k \\oplus A^* k, J(h \\oplus A h) \\rangle &= \\langle k \\oplus A^* k, -A h \\oplus h \\rangle \\\\&= -\\langle k, A h \\rangle + \\langle A^* k, h \\rangle = 0.\\end{align*}",
+          "image_source": "images/page_319_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.588,
+            0.869,
+            0.645
+          ],
+          "content": "Thus gra $A ^ { * } \\subseteq [ J \\operatorname { g r a } A ] ^ { \\perp }$ . Conversely, if $k \\oplus f \\in [J \\operatorname{grad} A]^{\\perp}$ , then for every h is dom $A,0=\\zeta k\\dot{\\oplus}f,-A\\dot{h}\\oplus h\\rangle=-\\zeta k,A\\dot{h}\\rangle+\\zeta f,\\ \\mathrm{so}\\ \\langle A\\dot{h},k\\rangle=\\langle h,f\\rangle$ By definition kedom $A ^ { * }$ and $A ^ { * } k = f .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.652,
+            0.871,
+            0.706
+          ],
+          "content": "PRoOF OF PRoPOsITION 1.6. The proof of (a) is clear from Lemma 1.7. For the remainder of the proof notice that because the mapJ in (1.7) is an isomorphism, $J ^ { * } = J ^ { - 1 }$ and so $J ^ { * } ( k \\oplus h ) = h \\oplus ( - k )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.706,
+            0.872,
+            0.816
+          ],
+          "content": "(b) Assume A is closable and let $k_{0} \\in (\\mathrm{dom} A^{*})^{\\perp}$ . We want to show that $k _ { 0 } = 0$ Thus $k _ { 0 } \\oplus 0 \\in [ \\mathrm { g r a }   A ^ { \\star } ] ^ { \\perp } = [ J   \\mathrm { g r a }   A ] ^ { \\perp \\perp } = \\mathrm { c l } [ J   \\mathrm { g r a }   A ] = J [ \\mathrm { c l } ( \\mathrm { g r a }   A ) ]$ $\\mathrm{So} 0 \\oplus -k_0 = J^*(k_0 \\oplus 0) \\in J^*J[(\\mathrm{grad} A)] = \\mathrm{cl}(\\mathrm{grad} A)$ . But because A is closable, cl(gra A) is a graph; hence $k _ { 0 }   =   0$ . For the converse, assume dom $A ^ { * }$ is dense in $\\mathcal { H }$ Thus $A ^ { * * } \\equiv ( A ^ { * } ) ^ { * }$ is defined. By (a), $A ^ { * * }$ is a closed operator. It is easy to see that $A \\subseteq A ^ { * * }$ , so A has a closed extension."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.814,
+            0.873,
+            0.892
+          ],
+          "content": "(c) Note that by Lemma 1.7 gra $A ^ { * * } = [ J ^ { * }   \\mathtt { g r a }   A ^ { * } ] ^ { \\perp } = [ J ^ { * } [ J   \\mathtt { g r a }   A ] ^ { \\perp } ] ^ { \\perp }$ But for any linear manifold $\\mathcal { M }$ and any isomorphism $J , ( J \\mathcal { M } ) ^ { \\perp } = J ( \\mathcal { M } ^ { \\perp } )$ Hence $J ^ { * } [ ( J \\mathcal { M } ) ^ { \\perp } ] = \\mathcal { M } ^ { \\perp }$ and, thus, $[ J ^ { * } [ J . \\mathcal { M } ] ^ { \\perp } ] ^ { \\perp } = \\mathcal { M } ^ { \\perp \\perp } = \\mathcal { \\mathrm { c l } } . \\mathcal { M }$ .Putting ${ \\mathcal { M } } = \\operatorname { g r a } A$ gives that gra $A ^ { * * } = \\mathbf { c l }$ gra A. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.908,
+            0.757,
+            0.927
+          ],
+          "content": "1.8. Corollary. $If A \\in \\mathcal{C}(\\mathcal{H}, \\mathcal{H}),$ then $A ^ { * } \\in \\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )$ and $A ^ { * * } = A$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 312,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 313,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 314,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 315,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 316,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 317,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 318,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 319,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

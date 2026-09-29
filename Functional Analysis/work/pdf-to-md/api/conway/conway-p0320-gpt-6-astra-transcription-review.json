@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 320,
+  "model": "gpt-6-astra",
+  "seconds": 16.37,
+  "input_tokens": 3700,
+  "output_tokens": 759,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\operatorname{dom}A^*=\\\\{k\\\\in\\\\mathcal H:\",\n      \"correction\": \"\\\\operatorname{dom}A^*=\\\\{k\\\\in\\\\mathcal K:\"\n    },\n    {\n      \"candidate_fragment\": \"1.6. Proposition. If $A:\\\\mathcal H\\\\to\\\\mathcal H$\",\n      \"correction\": \"1.6. Proposition. If $A:\\\\mathcal H\\\\to\\\\mathcal K$\"\n    },\n    {\n      \"candidate_fragment\": \"1.7. Lemma. If $A:\\\\mathcal H\\\\to\\\\mathcal H$\",\n      \"correction\": \"1.7. Lemma. If $A:\\\\mathcal H\\\\to\\\\mathcal K$\"\n    },\n    {\n      \"candidate_fragment\": \"J:\\\\mathcal H\\\\oplus\\\\mathcal H\\\\to\\\\mathcal H\\\\oplus\\\\mathcal H\",\n      \"correction\": \"J:\\\\mathcal H\\\\oplus\\\\mathcal K\\\\to\\\\mathcal K\\\\oplus\\\\mathcal H\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\operatorname{gra}A^*=\\\\{k\\\\oplus A^*k\\\\in\\\\mathcal H\\\\oplus\\\\mathcal H:\",\n      \"correction\": \"\\\\operatorname{gra}A^*=\\\\{k\\\\oplus A^*k\\\\in\\\\mathcal K\\\\oplus\\\\mathcal H:\"\n    },\n    {\n      \"candidate_fragment\": \"For the converse, assume $\\\\operatorname{dom}A^*$ is dense in $\\\\mathcal H$.\",\n      \"correction\": \"For the converse, assume $\\\\operatorname{dom}A^*$ is dense in $\\\\mathcal K$.\"\n    },\n    {\n      \"candidate_fragment\": \"If $A\\\\in\\\\mathcal C(\\\\mathcal H,\\\\mathcal H)$, then $A^*\\\\in\\\\mathcal C(\\\\mathcal H,\\\\mathcal H)$\",\n      \"correction\": \"If $A\\\\in\\\\mathcal C(\\\\mathcal H,\\\\mathcal K)$, then $A^*\\\\in\\\\mathcal C(\\\\mathcal K,\\\\mathcal H)$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

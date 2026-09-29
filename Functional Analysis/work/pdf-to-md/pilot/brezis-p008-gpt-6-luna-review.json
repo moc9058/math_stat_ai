@@ -1,0 +1,9 @@
+{
+  "book": "Brezis",
+  "pdf_page": 8,
+  "model": "gpt-6-luna",
+  "seconds": 15.15,
+  "input_tokens": 2662,
+  "output_tokens": 540,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"onedimensional PDEs\",\n      \"correction\": \"one-dimensional PDEs\"\n    },\n    {\n      \"candidate\": \"neverending PDE formulas\",\n      \"correction\": \"never-ending PDE formulas\"\n    },\n    {\n      \"candidate\": \"Page text begins with “This book has its roots...”\",\n      \"correction\": \"The visible heading “Preface” is missing.\"\n    },\n    {\n      \"candidate\": \"No page number\",\n      \"correction\": \"The visible folio “vii” is missing.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

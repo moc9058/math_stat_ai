@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 42,
+  "model": "gpt-6-astra",
+  "seconds": 10.4,
+  "input_tokens": 3491,
+  "output_tokens": 349,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\alpha_{ij}=\\\\langle Ae_j,\\\\varepsilon_i\\\\rangle\",\n      \"correction\": \"a_{ij}=\\\\langle Ae_j,\\\\varepsilon_i\\\\rangle\",\n      \"location\": \"Example 1.3, entry definition\"\n    },\n    {\n      \"candidate_fragment\": \"l^2\\\\equiv l^2(\\\\mathbb N)\",\n      \"correction\": \"l^2=l^2(\\\\mathbb N)\",\n      \"location\": \"Example 1.4, opening sentence\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

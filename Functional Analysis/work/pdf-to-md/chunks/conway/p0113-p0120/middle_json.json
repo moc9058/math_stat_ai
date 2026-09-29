@@ -1,0 +1,4636 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 112,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 113,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 114,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 115,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 116,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 117,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 118,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 119,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 112,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.153,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "98"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.691,
+            0.056,
+            0.866,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "III. Banach Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.135,
+            0.1,
+            0.867,
+            0.169
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. If (S, d) is a metric space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space, say that a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon S   \\to   { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " is a Lipschitz function if there is a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f(s) - f(t) \\| \\leq M d(s,t)"
+            },
+            {
+              "type": "text",
+              "content": " for all s,t in S. Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon  { \\mathcal { S } }   \\to    { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " is a function such that for all L in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\circ f \\colon \\mathbb { S } \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is Lipschitz, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon S   \\to   { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " is a Lipschitz function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.176,
+            0.87,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Let ¿ be a Banach space and suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence in X such that for each x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " there are unique scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lim_{n \\to \\infty} \\| x - \\sum_{k=1}^n \\alpha_k x_k \\| = 0"
+            },
+            {
+              "type": "text",
+              "content": " Such a sequence is called a Schauder basis. (a) Prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is separable. (b) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } = \\{ \\{ \\alpha _ { n } \\} \\in \\mathbb { F } ^ { \\mathbb { N } } : \\sum _ { n = 1 } ^ { \\infty } \\alpha _ { n } x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " converges in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mathcal { X } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = \\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { g }"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| y \\| = \\sup_{n} \\| \\sum_{k=1}^{n} \\alpha_{k} x_{k} \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Show that Y is a Banach space. (c) Show that there is a bounded bijection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " (d) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } \\colon { \\mathcal { X } }   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{n}(\\sum_{k = 1}^{\\infty} \\alpha_{k}x_{k}) = \\alpha_{n}."
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } \\in \\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . (e) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n } \\phi"
+            },
+            {
+              "type": "text",
+              "content": " the closed linear span of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { k } : k \\neq n \\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 113,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.123,
+            0.098,
+            0.538,
+            0.166
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER IV Locally Convex Spaces"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.124,
+            0.428,
+            0.871,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A topological vector space is a generalization of the concept of a Banach space. The locally convex spaces are encountered repeatedly when discussing weak topologies on a Banach space, sets of operators on Hilbert space, or the theory of distributions. This book will only skim the surface of this theory, but it will treat locally convex spaces in sufficient detail as to enable the reader to understand the use of these spaces in the three areas of analysis just mentioned. For more details on this theory, see Bourbaki [1967], Robertson and Robertson [1966], or Schaefer [1971]."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.625,
+            0.698,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.665,
+            0.871,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A topological vector space is a vector space that is also a topological space such that the linear structure and the topological structure are vitally connected."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.737,
+            0.871,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Definition. A topological vector space (TVS) is a vector space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " together with a topology such that with respect to this topology"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.783,
+            0.779,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) the map of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\times \\mathcal { X }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y ) { \\mapsto }   x + y"
+            },
+            {
+              "type": "text",
+              "content": " is continuous;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.802,
+            0.749,
+            0.821
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) the map of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } \\times \\mathcal { X }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha , x ) { \\mapsto } \\alpha x"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.154,
+            0.829,
+            0.819,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that a normed space is a TVS (Proposition III.1.3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.847,
+            0.872,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a vector space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " is a family of seminorms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " be the topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { I }"
+            },
+            {
+              "type": "text",
+              "content": " that has as a subbase the sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x : p ( x - x _ { 0 } ) < \\varepsilon \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "$p { \\in } { \\mathcal { P } } , \\: x _ { 0 } { \\in } { \\mathcal { X } }$"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " Thus a subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is open if and only if for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { n }   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 114,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.057,
+            0.166,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "100"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.62,
+            0.055,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.869,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\bigcap_{j = 1}^{n} \\left\\{ x \\in \\mathcal{X} : p_{j}(x - x_{0}) < \\varepsilon_{j} \\right\\} \\subseteq U"
+            },
+            {
+              "type": "text",
+              "content": " . It is not difficult to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " with this topology is a TVS (Exercise 2)"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.155,
+            0.869,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2. Definition. A locally convex space (LCS) is a TVS whose topology is defined by a family of seminorms "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcap_{p \\in \\mathcal{P}} \\{x: p(x) = 0\\} = (0)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.21,
+            0.87,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The attitude that has been adopted in this book is that all topological spaces are Hausdorff. The condition in Definition 1.2 that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcap_{p \\in \\mathcal{P}} \\{ x: p(x) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\} = ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " is imposed precisely so that the topology defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " be Hausdorff. In fact, suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\neq y ."
+            },
+            {
+              "type": "text",
+              "content": " Then there is a p in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(x - y) \\neq 0;"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(x - y) > \\varepsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\{ z : p ( x - z ) < \\frac { 1 } { 2 } \\varepsilon \\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = \\{ z : p ( y - z ) < \\frac { 1 } { 2 } \\varepsilon \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\cap V = \\square"
+            },
+            {
+              "type": "text",
+              "content": " and U and V are neighborhoods of x and y, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.321,
+            0.871,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If X is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   x + x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " ; also, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha { \\in } \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\neq 0,   x \\mapsto \\alpha x"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 4). Thus the topology of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " looks the same at any point. This might make the next statement less surprising."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.412,
+            0.871,
+            0.45
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3. Proposition. Let X be a TVS and let p be a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . The following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.46,
+            0.319,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) p is continuous"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.478,
+            0.403,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\in \\mathcal { X } : p ( x ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " is open."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.496,
+            0.385,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in \\mathrm{int} \\left\\{ x \\in \\mathcal{X} : p(x) < 1 \\right\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.514,
+            0.384,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in \\mathrm{int} \\left\\{ x \\in \\mathcal{X} : p(x) \\leq 1 \\right\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.534,
+            0.363,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) p is continuous at 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.55,
+            0.704,
+            0.568
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(f) There is a continuous seminorm q on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leqslant q ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.586,
+            0.539,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. It is clear that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathrm { a } )   \\Rightarrow   ( \\mathrm { b } )   \\Rightarrow   ( \\mathrm { c } )   \\Rightarrow   ( \\mathrm { d } ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.603,
+            0.87,
+            0.658
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) implies (e): Clearly (d) implies that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0 , 0 \\in \\mathrm { i n t } \\left\\{ x \\in \\mathcal { X } : p ( x ) \\leq \\varepsilon \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " so if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a net in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " that converges to 0 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{i} \\in \\left\\{ x: p(x) \\leq \\varepsilon \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\geqslant i _ { 0 } ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x _ { i } ) \\leqslant \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\geqslant i _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . So p is continuous at 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.658,
+            0.869,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) implies (a): If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }   \\to   x _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| p ( x ) - p ( x _ { i } ) | \\leqslant p ( x - x _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - x _ { i }   \\to   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " (e) implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x - x _ { i } )   \\rightarrow   0"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x _ { i } )   \\to   p ( x ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.694,
+            0.871,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly (a) implies (f). So it remains to show that (f) implies (e). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( x _ { i } )   \\to   0 ."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant p(x_{i}) \\leqslant q(x_{i}),"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x _ { i } )   \\to   0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.124,
+            0.749,
+            0.873,
+            0.825
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4. Proposition. If X is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are continuous seminorms, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } + \\cdots + p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { m a x } _ { i } ( p _ { i } ( x ) )"
+            },
+            {
+              "type": "text",
+              "content": " are continuous seminorms. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\; \\{ p _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a family of continuous seminorms such that there is a continuous seminorm q with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i }   \\leqslant   q"
+            },
+            {
+              "type": "text",
+              "content": " for all i, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   \\operatorname* { s u p } _ { i } \\{ p _ { i } ( x ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " defines a continuous seminorm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.127,
+            0.832,
+            0.299,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.125,
+            0.868,
+            0.873,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " is a family of seminorms of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " that makes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " into a LCS, it is often convenient to enlarge "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " by assuming that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " is closed under the formation of finite sums and supremums of bounded families [as in (1.4)]. Sometimes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 115,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.055,
+            0.497,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.836,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "101"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.871,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "it is convenient to assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " consists of all continuous seminorms. In either case the resulting topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " remains unchanged."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.155,
+            0.871,
+            0.229
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5. Example. Let X be completely regular and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( X ) = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " continuous functions from X into F. If K is a compact subset of X, define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { K } ( f ) = \\operatorname* { s u p } \\{ | f ( x ) | : x \\in K \\}"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ p _ { \\kappa } ; K \\right."
+            },
+            {
+              "type": "text",
+              "content": " compact in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a family of semi-norms that makes C(X) into a LCS."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.246,
+            0.871,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.6. Example. Let G be an open subset of C and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( G )"
+            },
+            {
+              "type": "text",
+              "content": " be the subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { \\mathfrak { C } } ( G )"
+            },
+            {
+              "type": "text",
+              "content": " consisting of all analytic functions on G. Define the seminorms of (1.5) on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( G )"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( G )"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS. Also, the topology defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( G )"
+            },
+            {
+              "type": "text",
+              "content": " by these seminorms is the topology of uniform convergence on compact subsets—the usual topology for discussing analytic functions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.357,
+            0.871,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.7. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a normed space. For each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { x ^ { * } } ( x ) = | x ^ { * } ( x ) |"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { x ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " is a seminorm and if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }   =   \\left\\{ p _ { x ^ { * } } \\colon x ^ { * } { \\in } \\mathcal { X } ^ { * } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " makes X into a LCS. The topology defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " by these seminorms is called the weak topology and is often denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } , \\mathcal { X } ^ { * } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.449,
+            0.87,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.8. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a normed space and for each x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { x } \\colon { \\mathcal { X } } ^ { * } \\to"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { x } ( x ^ { * } ) = | x ^ { * } ( x ) |"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { x }"
+            },
+            {
+              "type": "text",
+              "content": " is a seminorm and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P } = \\{ p _ { x } ; x { \\in } \\mathcal { X } \\}"
+            },
+            {
+              "type": "text",
+              "content": " makes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " into a LCS. The topology defined by these seminorms is called the weak-star (or weak* or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { w k ^ { * } } )"
+            },
+            {
+              "type": "text",
+              "content": " topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " . It is often denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\mathcal { X } ^ { * } , \\mathcal { X } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.537,
+            0.871,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " with its weak topology and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " with its wea "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\bf k } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " topology are very important and will be explored in depth in Chapter V."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.574,
+            0.871,
+            0.648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall the definition of convex set from (I.2.4). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b   \\in   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , then the line segment from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a"
+            },
+            {
+              "type": "text",
+              "content": " to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " is defined as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ] \\equiv \\{ t b + ( 1 - t ) a \\colon 0 \\leqslant t \\leqslant 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So a set A is convex if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ] \\subseteq { \\pmb A }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b   \\in   A"
+            },
+            {
+              "type": "text",
+              "content": " . The proof of the next result is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.664,
+            0.871,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.9. Proposition. (a) A set A is convex if and only if whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } , \\ldots , x _ { n } { \\in } { \\pmb A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } , \\ldots , t _ { n } \\in [ 0 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { j }   t _ { j }   = 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { j }   t _ { j } x _ { j } { \\in } { \\pmb { A } } ."
+            },
+            {
+              "type": "text",
+              "content": " (b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a collection of convex sets, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigcap _ { i } A _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is convex."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.736,
+            0.872,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.10. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , the convex hull of A, denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { c o } ( A ) ,"
+            },
+            {
+              "type": "text",
+              "content": " is the intersection of all convex sets that contain A. If ¿ is a TVS, then the closed convex hull of A is the intersection of all closed convex subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " that contain A; it is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\mathbf { c o } } } } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.832,
+            0.871,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since a vector space is itself convex, each subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is contained in a convex set. This fact and Proposition 1.9(b) imply that co(A) is well defined and convex. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\mathbf { c o } } } } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is a closed convex set."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.886,
+            0.872,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a normed space, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\colon \\|   x   \\| \\leqslant 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x \\colon \\|   x   \\| < 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " are both convex sets. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathcal{X}^*, \\quad \\{x: |f(x)| \\leq 1\\}, \\quad \\{x: \\operatorname{Re} f(x) \\leq 1\\}, \\quad \\{x: \\operatorname{Re} f(x) > 1\\}"
+            },
+            {
+              "type": "text",
+              "content": " are"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 116,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.056,
+            0.167,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "102"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.621,
+            0.055,
+            0.869,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.869,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "all convex. In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is a real linear map and C is a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { - 1 } ( C )"
+            },
+            {
+              "type": "text",
+              "content": " is convex in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.154,
+            0.871,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.11. Proposition. Let X be a TVS and let A be a convex subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " Then (a) cl A is convex; (b) if a∈int A and b∈cl A, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ) \\equiv \\{ t b + ( 1 - t )"
+            },
+            {
+              "type": "text",
+              "content": " a: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t < 1 \\} \\subseteq"
+            },
+            {
+              "type": "text",
+              "content": " int A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.218,
+            0.87,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a { \\in } A"
+            },
+            {
+              "type": "text",
+              "content": " , b∈cl A, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x _ { i } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " be a net in A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }   \\rightarrow   b"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t x _ { i } + ( 1 - t ) a \\rightarrow t b + ( 1 - t ) a ."
+            },
+            {
+              "type": "text",
+              "content": " This shows that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.303,
+            0.264,
+            0.691,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "b in cl A and a in A imply "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ a , b ] \\subseteq { \\mathrm { c l } } A ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.291,
+            0.872,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using (1.12) it is easy to show that cl A is convex. To prove (b), fix t, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < t < 1"
+            },
+            {
+              "type": "text",
+              "content": " , and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = t b + ( 1 - t ) a ,"
+            },
+            {
+              "type": "text",
+              "content": " where a∈int A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b { \\in } \\mathbf { c l } A ."
+            },
+            {
+              "type": "text",
+              "content": " There is an open set V in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in V"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + V \\subseteq A. (\\mathrm{Why?})"
+            },
+            {
+              "type": "text",
+              "content": " Hence for any d in A"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.337,
+            0.359,
+            0.662,
+            0.425
+          ],
+          "image_path": "images/page_116_equation_7.jpg",
+          "content": "\\begin{aligned} A & \\supseteq t d + (1 - t)(a + V) \\\\& = t(d - b) + t b + (1 - t)(a + V) \\\\& = \\left[ t(d - b) + (1 - t)V \\right] + c.\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.435,
+            0.871,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If it can be shown that there is an element d in A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 { \\in } t ( d - b ) +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 - t ) V = U ,"
+            },
+            {
+              "type": "text",
+              "content": " then the preceding inclusion shows that c∈int A since U is open (Exercise "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 )"
+            },
+            {
+              "type": "text",
+              "content": " . Note that the finding of such a d in A is equivalent to finding a d such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in t^{-1}(1 - t)V + (d - b)"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d { \\in } b - t ^ { - 1 } ( 1 - t ) V ."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in - t ^ { - 1 } ( 1 - t ) V"
+            },
+            {
+              "type": "text",
+              "content": " and this set is open. Since b∈cl A, d can be found in A.■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.548,
+            0.722,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.13. Corollary. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\mathbf { c o } } } } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is the closure of co(A)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.583,
+            0.872,
+            0.674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " is balanced if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha x { \\in } A"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . A set A is absorbing if for each x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t x { \\in } A"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " Note that an absorbing set must contain the origin. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\dot { \\mathit { a } } } \\mathbf { \\in } \\mathbf { \\mathit { A } } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then A is absorbing at a if the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A - a"
+            },
+            {
+              "type": "text",
+              "content": " is absorbing. Equivalently, A is absorbing at a if for every x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + t x { \\in } { \\pmb { A } }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t < \\varepsilon"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.674,
+            0.873,
+            0.767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If X is a vector space and p is a seminorm, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = \\{ x : p ( x ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a convex balanced set that is absorbing at each of its points. It is rather remarkable that the converse of this is true. This fact will be used to give an abstract formulation of a LCS and also to explore some geometric consequences of the Hahn-Banach Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.784,
+            0.872,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.14. Proposition. If X is a vector space over F and V is a nonempty convex, balanced set that is absorbing at each of its points, then there is a unique seminorm p on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = \\{ x \\in \\mathcal { X } : p ( x ) < 1 \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.847,
+            0.356,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\mathbf { x } )"
+            },
+            {
+              "type": "text",
+              "content": " by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.351,
+            0.874,
+            0.647,
+            0.894
+          ],
+          "image_path": "images/page_116_equation_14.jpg",
+          "content": "p ( x ) = \\operatorname* { i n f } \\{ t \\colon t \\geqslant 0 { \\mathrm { ~ a n d ~ } } x \\in t V \\} ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.901,
+            0.872,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since V is absorbing, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } = \\bigcup _ { n = 1 } ^ { \\infty } n V ,"
+            },
+            {
+              "type": "text",
+              "content": " so that the set whose infimum is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " is"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 117,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.497,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.836,
+            0.057,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "103"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.871,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "nonempty. Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( 0 ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " To see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\alpha x ) = | \\alpha | p ( x ) ."
+            },
+            {
+              "type": "text",
+              "content": " , we can suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " Hence, because V is balanced,"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.341,
+            0.145,
+            0.651,
+            0.344
+          ],
+          "image_path": "images/page_117_equation_3.jpg",
+          "content": "\\begin{aligned} p(\\alpha x) &= \\inf \\left\\{ t \\geqslant 0; \\alpha x \\in \\boldsymbol{t} V \\right\\} \\\\&= \\inf \\left\\{ t \\geqslant 0; x \\in \\boldsymbol{t} \\left( \\frac{1}{\\alpha} V \\right) \\right\\} \\\\&= \\inf \\left\\{ t \\geqslant 0; x \\in \\boldsymbol{t} \\left( \\frac{1}{|\\alpha|} V \\right) \\right\\} \\\\&= |\\alpha| \\inf \\left\\{ \\frac{t}{|\\alpha|}; x \\in \\frac{t}{|\\alpha|} V \\right\\} \\\\&= |\\alpha|   p(x).\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.353,
+            0.87,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To complete the proof that p is a seminorm, note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b   \\in   V ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.267,
+            0.392,
+            0.731,
+            0.435
+          ],
+          "image_path": "images/page_117_equation_5.jpg",
+          "content": "\\alpha a + \\beta b = (\\alpha + \\beta) \\left( \\frac{\\alpha}{\\alpha + \\beta} a + \\frac{\\beta}{\\alpha + \\beta} b \\right) \\in (\\alpha + \\beta) V"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.442,
+            0.868,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "by the convexity of V. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y \\in \\mathcal { X } , p ( x ) = \\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( y ) = \\beta ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } ( { \\pmb { \\alpha } } + { \\delta } ) V"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y { \\in } ( \\beta + \\delta ) V ."
+            },
+            {
+              "type": "text",
+              "content": " (Why?) Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + y { \\in } ( \\alpha + \\delta ) V + ( \\beta + \\delta ) V ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha + \\beta + 2 \\delta ) V"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise 11). Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta   \\rightarrow   0"
+            },
+            {
+              "type": "text",
+              "content": " shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(x + y) \\leqslant \\alpha + \\beta = p(x) +"
+            },
+            {
+              "type": "text",
+              "content": " p(y)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.516,
+            0.869,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It remains to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = \\{ x : p ( x ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) = \\alpha < 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha < \\beta < 1"
+            },
+            {
+              "type": "text",
+              "content": " implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } \\beta V \\subseteq V"
+            },
+            {
+              "type": "text",
+              "content": " since V is balanced. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\supseteq \\{ x \\colon p ( x ) < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   V ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )   \\leqslant   1"
+            },
+            {
+              "type": "text",
+              "content": " . Since V is absorbing at x, there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < t < \\varepsilon ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + t x = y   \\in   V ."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = (1 + t)^{-1} y, \\quad y \\in V."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(x)=(1+t)^{-1}p(y)\\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 + t ) ^ { - 1 } < 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.154,
+            0.608,
+            0.464,
+            0.626
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Uniqueness follows by (III.1.4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.637,
+            0.87,
+            0.673
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The seminorm p defined in the preceding proposition is called the Minkowski function of V or the gauge of V."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.673,
+            0.87,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if X is a TVS space and V is an open set in , then V is absorbing at each of its points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.709,
+            0.871,
+            0.746
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using Proposition 1.14, the following characterization of a LCS can be obtained. The proof is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.763,
+            0.871,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.15. Proposition. Let X be a TVS and let U be the collection of all open convex balanced subsets of X. Then X is locally convex if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i f q"
+            },
+            {
+              "type": "text",
+              "content": " is a basis for the neighborhood system at 0."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.837,
+            0.232,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.136,
+            0.856,
+            0.87,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let X be a TVS and let U be all the open sets containing 0. Prove the following. (a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U { \\in } { \\mathcal { U } }"
+            },
+            {
+              "type": "text",
+              "content": " , there is a V in U such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V + V \\subseteq U"
+            },
+            {
+              "type": "text",
+              "content": " (b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U { \\in } { \\mathcal { U } }"
+            },
+            {
+              "type": "text",
+              "content": " , there is a V in U such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\subseteq U"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha V \\subseteq V"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha | \\leqslant 1 . ( V"
+            },
+            {
+              "type": "text",
+              "content": " is balanced.) (Hint: If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W { \\in } { \\mathcal { U } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha W \\subseteq U"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha | \\leqslant \\varepsilon ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon W \\subseteq \\beta U \\mathrm { f o r } | \\beta | \\geqslant 1 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 118,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "104"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.622,
+            0.056,
+            0.87,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IV. Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.137,
+            0.101,
+            0.411,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Show that a LCS is a TVS."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.136,
+            0.126,
+            0.871,
+            0.179
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS but do not assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is Hausdorff. (a) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is Hausdorff if and only if the singleton set {0} is closed. (b) If X is Hausdorff, show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a regular topological space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.134,
+            0.186,
+            0.87,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a TVS. Show: (a) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } { \\in } { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\mapsto   x + x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism of X onto X; (b) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " the map x→αx is a homeomorphism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.135,
+            0.229,
+            0.368,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Prove Proposition 1.4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.133,
+            0.255,
+            0.871,
+            0.291
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Verify the statements made in Example 1.5. Show that a net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in C(X) converges to f if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i }   \\rightarrow   f"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on compact subsets of X."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.134,
+            0.298,
+            0.871,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Show that the space H(G) defined in (1.6) is complete. (Every Cauchy net converges.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.134,
+            0.341,
+            0.871,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Verify the statements made in Example 1.7. Give a basis for the neighborhood system at 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.133,
+            0.385,
+            0.553,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Verify the statements made in Example 1.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.411,
+            0.368,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Prove Proposition 1.9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.439,
+            0.871,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Show that if A is a convex set and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha A + \\beta A = (\\alpha + \\beta)A"
+            },
+            {
+              "type": "text",
+              "content": " , Give an example of a nonconvex set A for which this is untrue."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.126,
+            0.481,
+            0.871,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. If ¿ is a TVS and A is closed, show that A is convex if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle { \\frac { 1 } { 2 } } ( x + y ) \\in { \\pmb A }"
+            },
+            {
+              "type": "text",
+              "content": " whenever x and y∈A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.524,
+            0.871,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Let s = the space of all sequences of scalars. Thus s = all functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\colon \\mathbf { N }   \\to   \\mathbf { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " Define addition and scalar multiplication in the usual way. If x, y∈s, define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.367,
+            0.567,
+            0.662,
+            0.606
+          ],
+          "image_path": "images/page_118_equation_14.jpg",
+          "content": "d(x,y)=\\sum_{n = 1}^{\\infty}2^{- n}\\frac{\\left | x(n) - y(n) \\right | }{1 + \\left | x(n) - y(n) \\right | }"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.158,
+            0.613,
+            0.871,
+            0.647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": " is a metric on s and that with this topology s is a TVS. Also show that s is complete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.654,
+            0.871,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a finite measure space, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " be the space of Ω-measurable functions, and identify two functions that agree a.e. [μ]. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g \\in { \\mathcal { M } }"
+            },
+            {
+              "type": "text",
+              "content": " , define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.4,
+            0.696,
+            0.629,
+            0.737
+          ],
+          "image_path": "images/page_118_equation_17.jpg",
+          "content": "d ( f , g ) = \\int \\frac { | f - g | } { 1 + | f - g | } d \\mu ."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.157,
+            0.744,
+            0.871,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then d is a metric on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( d , d )"
+            },
+            {
+              "type": "text",
+              "content": " is a complete TVS. Is there a relationship between this example and the space s of Exercise 13?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.125,
+            0.787,
+            0.781,
+            0.806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. If X is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " , then cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\cap \\left\\{ A + V : \\right."
+            },
+            {
+              "type": "text",
+              "content": " 0∈V and V is open}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.125,
+            0.813,
+            0.871,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS and M is a closed linear space, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " with the quotient topology is a TVS. If p is a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vec { p }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } / \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{p}(x + \\mathcal{M}) = \\inf \\left\\{ p(x + y) : y \\in \\mathcal{M} \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { p }"
+            },
+            {
+              "type": "text",
+              "content": " is a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / M"
+            },
+            {
+              "type": "text",
+              "content": " Show that if X is a LCS, then so is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / \\mathcal { M }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.125,
+            0.888,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { X } _ { i } ; i { \\in } I \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a family of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { T V S ^ { \\prime } } \\mathbf { s } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   =   \\Pi \\{ \\mathcal { X } _ { i } ;   i   \\in   I \\}"
+            },
+            {
+              "type": "text",
+              "content": " with the product topology is a TVS. If each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS, then so is X. If X is a LCS, must each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " be a LCS?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 119,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.609,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Metrizable and Normable Locally Convex Spaces"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "105"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.101,
+            0.87,
+            0.136
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a finite-dimensional vector space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } _ { 1 } , \\mathcal { T } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are two topologies on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " that make "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " into a TVS, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } _ { 1 } = \\mathcal { T } _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.143,
+            0.87,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is a finite dimensional linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is closed and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y } + \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is closed for any closed subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { g }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.186,
+            0.871,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be any infinite dimensional vector space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T }"
+            },
+            {
+              "type": "text",
+              "content": " be the collection of all subsets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   W ,"
+            },
+            {
+              "type": "text",
+              "content": " then there is a convex balanced set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + U \\subseteq W"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\cap \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " open in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " for every finite dimensional linear manifold "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " (Each such "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is given its usual topology.) Show: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathcal { X } , \\mathcal { T } )"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS; (b) a set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F r \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is closed for every finite dimensional subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " of x; (c) if Y is a topological space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon { \\mathcal { X } } \\to Y"
+            },
+            {
+              "type": "text",
+              "content": " (not necessarily linear), then f is continuous if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { i f } f | \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is continuous for every finite dimensional space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ; ( \\mathbf { d } )"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is a linear map, then T is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.347,
+            0.871,
+            0.415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21. Let X be a locally compact space and for each φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { \\phi } ( f ) = \\| \\phi f \\| _ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is a seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta = \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " topology defined by these seminorms. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( C _ { b } ( X ) , \\beta )"
+            },
+            {
+              "type": "text",
+              "content": " is a LCS that is complete. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta"
+            },
+            {
+              "type": "text",
+              "content": " is called the strict topology."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.424,
+            0.871,
+            0.476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < p < 1"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { p } = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " sequences x such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{n = 1}^{\\infty}|x(n)|^{p} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { d ( x , y ) = \\sum _ { n = 1 } ^ { \\infty } | x ( n ) - y ( n ) | ^ { p } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " (no pth root). Then d is a metric and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( l ^ { p } , d )"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS that is not locally convex."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.485,
+            0.871,
+            0.537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "23. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and @ be locally convex spaces and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " be a linear transformation. Show that T is continuous if and only if for every continuous seminorm "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { y }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\circ T"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous seminorm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.544,
+            0.871,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "24. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " be a LCS and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " be an open connected subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " Show that G is arcwise connected."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.627,
+            0.85,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. Metrizable and Normable Locally Convex Spaces"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.668,
+            0.872,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Which LCS's are metrizable? That is, which have a topology which is defined by a metric? Which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { L C S ^ { \\prime } s }"
+            },
+            {
+              "type": "text",
+              "content": " have a topology that is defined by a norm? Both are interesting questions and both answers could be useful."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.723,
+            0.872,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " is a family of seminorms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a TVS, say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            },
+            {
+              "type": "text",
+              "content": " determines the topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " if the topology of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is the same as the topology induced "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.796,
+            0.871,
+            0.836
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { 1 } , p _ { 2 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence of seminorms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int_{n = 1}^{\\infty} \\left\\{ x: p_{n}(x) = 0 \\right\\} = (0)"
+            },
+            {
+              "type": "text",
+              "content": " . For x and y in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " , define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.352,
+            0.849,
+            0.648,
+            0.893
+          ],
+          "image_path": "images/page_119_equation_13.jpg",
+          "content": "d(x,y)=\\sum_{n = 1}^{\\infty}2^{- n}\\frac{p_{n}(x - y)}{1 + p_{n}(x - y)}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.13,
+            0.907,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then d is a metric on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " and the topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " defined by d is the topology"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

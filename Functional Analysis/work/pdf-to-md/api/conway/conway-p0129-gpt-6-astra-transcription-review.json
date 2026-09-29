@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 129,
+  "model": "gpt-6-astra",
+  "seconds": 9.7,
+  "input_tokens": 3538,
+  "output_tokens": 282,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"\\\\int_\\\\gamma f=\\\\int_0^1 f(\\\\gamma(t))\\\\,d\\\\gamma(t)\",\n      \"correction\": \"\\\\int_\\\\gamma f\\\\equiv\\\\int_0^1 f(\\\\gamma(t))\\\\,d\\\\gamma(t)\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

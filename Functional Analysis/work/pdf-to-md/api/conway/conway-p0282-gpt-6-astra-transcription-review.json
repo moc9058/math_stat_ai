@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 282,
+  "model": "gpt-6-astra",
+  "seconds": 12.39,
+  "input_tokens": 4147,
+  "output_tokens": 343,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"|\\\\langle Ae_i,e_i\\\\rangle|\\\\leq\\\\frac12(\\\\|Be_i\\\\|^2+\\\\|Ce_i\\\\|^2)\",\n      \"correction\": \"|\\\\langle Ae_i,e_i\\\\rangle|=\\\\frac12(\\\\|Be_i\\\\|^2+\\\\|Ce_i\\\\|^2)\",\n      \"location\": \"Exercise 20(a), hint\",\n      \"note\": \"The image prints an equals sign, even though the inequality is mathematically appropriate.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

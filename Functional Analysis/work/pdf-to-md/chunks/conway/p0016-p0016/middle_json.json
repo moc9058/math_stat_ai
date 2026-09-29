@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.124,
+            0.099,
+            0.286,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER I"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.124,
+            0.134,
+            0.387,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hilbert Spaces"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.427,
+            0.871,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Hilbert space is the abstraction of the finite-dimensional Euclidean spaces of geometry. Its properties are very regular and contain few surprises, though the presence of an infinity of dimensions guarantees a certain amount of surprise. Historically, it was the properties of Hilbert spaces that guided mathematicians when they began to generalize. Some of the properties and results seen in this chapter and the next will be encountered in more general settings later in this book, or we shall see results that come close to these but fail to achieve the full power possible in the setting of Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.619,
+            0.695,
+            0.644
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.659,
+            0.869,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Throughout this book F will denote either the real field, R, or the complex field, C."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.713,
+            0.871,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a vector space over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " a semi-inner product on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a function u: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\times \\mathcal { X }   \\rightarrow   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y , z"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " , the following are satisfied:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.778,
+            0.483,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( \\alpha x + \\beta y , z ) = \\alpha u ( x , z ) + \\beta u ( y , z ) ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.797,
+            0.483,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( x , \\alpha y + \\beta z ) = \\bar { \\alpha } u ( x , y ) + \\bar { \\beta } u ( x , z ) ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.816,
+            0.272,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( x , x ) \\geqslant 0 ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.836,
+            0.314,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( x , y ) = u ( y , x ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.863,
+            0.871,
+            0.919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, for α in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F } , { \\bar { \\alpha } } = \\alpha { \\mathrm { ~ i f ~ } } \\mathbf { F } = \\mathbf { R }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": " is the complex conjugate of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F } = \\mathbf { C } . \\mathbf { I f }   \\alpha   \\in   \\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " the statement that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " means that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha { \\in } \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " and αis non-negative. Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha   =   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then property (a) implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u(0,y)=u(\\alpha \\cdot 0,y)="
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 266,
+  "model": "gpt-6-astra",
+  "seconds": 13.86,
+  "input_tokens": 3742,
+  "output_tokens": 419,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"$f(a)=\\\\langle\\\\pi(a)e,e\\\\rangle$\",\n      \"correction\": \"$f(a)\\\\equiv\\\\langle\\\\pi(a)e,e\\\\rangle$\"\n    },\n    {\n      \"candidate_fragment\": \"If $\\\\langle\\\\phi+\\\\mathcal L,\\\\psi+\\\\mathcal L\\\\rangle=\\\\int\\\\phi\\\\bar\\\\psi\\\\,d\\\\mu$\",\n      \"correction\": \"If $\\\\langle\\\\phi+\\\\mathcal L,\\\\psi+\\\\mathcal L\\\\rangle\\\\equiv\\\\int\\\\phi\\\\bar\\\\psi\\\\,d\\\\mu$\"\n    },\n    {\n      \"candidate_fragment\": \"$\\\\langle\\\\cdot,\\\\cdot\\\\rangle$ is a well-defined inner product\",\n      \"correction\": \"$\\\\langle\\\\cdot;\\\\cdot\\\\rangle$ is a well-defined inner product\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

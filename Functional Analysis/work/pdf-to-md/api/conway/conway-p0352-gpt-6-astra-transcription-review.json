@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 352,
+  "model": "gpt-6-astra",
+  "seconds": 9.44,
+  "input_tokens": 3292,
+  "output_tokens": 225,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"(ix)^m\\\\left(\\\\frac{d}{dx}\\\\right)^n\\\\hat\\\\phi\",\n      \"correction\": \"(ix)^m\\\\left(\\\\frac{d}{dx}\\\\right)\\\\hat\\\\phi\",\n      \"note\": \"In equation 6.8, the image shows no superscript n on the left-hand differentiation operator. The candidate silently corrects an apparent source typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

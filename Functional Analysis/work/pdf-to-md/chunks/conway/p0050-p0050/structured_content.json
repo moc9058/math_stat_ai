@@ -1,0 +1,306 @@
+{
+  "pages": [
+    {
+      "page_idx": 49,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.055,
+            0.415,
+            0.072
+          ],
+          "content": "§2. The Adjoint of an Operator"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.843,
+            0.056,
+            0.868,
+            0.07
+          ],
+          "content": "35"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.099,
+            0.407,
+            0.118
+          ],
+          "content": "(b) $\\| A \\bar { h } \\| = \\| A ^ { * } h \\|$ for all h."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.119,
+            0.853,
+            0.137
+          ],
+          "content": "If H is a C-Hilbert space, then these statements are also equivalent to:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.137,
+            0.597,
+            0.156
+          ],
+          "content": "(c) The real and imaginary parts of A commute."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.164,
+            0.871,
+            0.216
+          ],
+          "content": "PROOF. $\\mathbf { I f } \\quad h \\in { \\mathcal { H } } .$ then $\\| A \\boldsymbol{h} \\|^2 - \\| A^* \\boldsymbol{h} \\|^2 = \\langle A \\boldsymbol{h}, A \\boldsymbol{h} \\rangle - \\langle A^* \\boldsymbol{h}, A^* \\boldsymbol{h} \\rangle =$ $\\left\\langle ( A ^ { * } A - A A ^ { * } ) h , h \\right\\rangle$ . Since $A ^ { * } A - A A ^ { * }$ is hermitian, the equivalence of (a) and (b) follows from Corollarv 2.14."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.219,
+            0.813,
+            0.239
+          ],
+          "content": "If $B , C$ are real and imaginary parts of A, then a calculation yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.251,
+            0.645,
+            0.27
+          ],
+          "content": "A ^ { * } A = B ^ { 2 } - i C B + i B C + C ^ { 2 } ,",
+          "image_source": "images/page_49_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.274,
+            0.644,
+            0.293
+          ],
+          "content": "A A ^ { * } = B ^ { 2 } + i C B - i B C + C ^ { 2 } .",
+          "image_source": "images/page_49_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.307,
+            0.868,
+            0.326
+          ],
+          "content": "Hence $A^{*}A = AA^{*}$ if and only if $CB = BC$ , and so (a) and (c) are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.362,
+            0.808,
+            0.381
+          ],
+          "content": "2.17. Proposition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,$ , the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.391,
+            0.333,
+            0.408
+          ],
+          "content": "(a) A is an isometry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.409,
+            0.255,
+            0.425
+          ],
+          "content": "(b) $A ^ { * } A = I .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.427,
+            0.515,
+            0.446
+          ],
+          "content": "(c) $\\langle A h , A g \\rangle = \\langle h , g \\rangle \\; { \\it f o r ~ a l l ~ } h , g { \\it i n ~ } \\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.454,
+            0.87,
+            0.509
+          ],
+          "content": "PRooF. The proof that (a) and (c) are equivalent was seen in Proposition I.5.2. Note that if $h , g \\in \\mathcal { H }$ , then $\\langle A ^ { * } A h , g \\rangle = \\langle A h , A g \\rangle$ . Hence (b) and (c) are easily seen to be equivalent. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.531,
+            0.856,
+            0.551
+          ],
+          "content": "2.18. Proposition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,$ , then the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.558,
+            0.327,
+            0.575
+          ],
+          "content": "(a) $A^{*}A = AA^{*} = I.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.578,
+            0.64,
+            0.595
+          ],
+          "content": "(b) A is unitary. (That is, A is a surjective isometry.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.596,
+            0.396,
+            0.614
+          ],
+          "content": "(c) A is a normal isometry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.622,
+            0.467,
+            0.64
+          ],
+          "content": "PROOF. $(a) \\Rightarrow (b);$ Proposition I.5.2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.641,
+            0.871,
+            0.694
+          ],
+          "content": "(b)⇒(c): By (2.17), $A ^ { * } A = I .$ But it is easy to see that the fact that A is a surjective isometry implies that $A ^ { - 1 }$ is also. Hence by (2.17) $I = (A^{-1})^{*}A^{-1}$ $(A^{*})^{-1}A^{-1}=(AA^{*})^{-1}$ ; this implies that $A^{*}A = A\\overline{A^{*}} = I$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.694,
+            0.871,
+            0.731
+          ],
+          "content": "$(c) \\Rightarrow (a)$ By (2.17), $A ^ { * } A = I .$ Since A is also normal, $A A ^ { * } = A ^ { * } A = I$ and so A is surjective. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.748,
+            0.802,
+            0.768
+          ],
+          "content": "We conclude with a very important, though easily proved, result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.785,
+            0.632,
+            0.804
+          ],
+          "content": "2.19. Theorem. $If   A \\in \\mathcal{B}(\\mathcal{H})$ , then ker $A = ( \\operatorname{rank} A^* )^{\\perp}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.813,
+            0.869,
+            0.869
+          ],
+          "content": "PROOF. If h∈ker A and $g \\in \\mathcal { H }$ then $\\langle h , A ^ { * } g \\rangle = \\langle A h , g \\rangle = 0 ,$ so ker $\\mathbf { A } \\subseteq$ (ran $A ^ { * } ) ^ { \\perp }$ . On the other hand, if $h \\perp \\tan A^{*}$ and $g \\in \\mathcal { H }$ , then $\\langle A h , g \\rangle =$ $\\langle h , A ^ { * } g \\rangle = 0 ;$ so $( \\operatorname { r a n } A ^ { * } ) ^ { \\perp } \\subseteq \\ker A$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.886,
+            0.871,
+            0.924
+          ],
+          "content": "Two facts should be noted. Since $A ^ { * * } = A$ , it also holds that ker $A ^ { * } =$ $( \\operatorname { r a n } A ) ^ { \\perp }$ . Second, it is not true that $( \\ker A ) ^ { \\perp } = \\operatorname { r a n } A ^ { * }$ since ran $A ^ { * }$ may not"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 49,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

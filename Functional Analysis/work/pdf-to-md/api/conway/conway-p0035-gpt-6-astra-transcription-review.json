@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 35,
+  "model": "gpt-6-astra",
+  "seconds": 8.66,
+  "input_tokens": 3332,
+  "output_tokens": 206,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"5.3. Example. Define\",\n      \"correction\": \"5.3. Example. Definite\",\n      \"note\": \"The image reads “Definite,” apparently a typo in the source.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

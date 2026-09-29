@@ -1,0 +1,4311 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 40,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 41,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 42,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 43,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 44,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 45,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 46,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 47,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 40,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.099,
+            0.298,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER II"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.128,
+            0.133,
+            0.625,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Operators on Hilbert Space"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.428,
+            0.872,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A large area of current research interest is centered around the theory of operators on Hilbert space. Several other chapters in this book will be devoted to this topic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.484,
+            0.871,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is a marked contrast here between Hilbert spaces and the Banach spaces that are studied in the next chapter. Essentially all of the information about the geometry of Hilbert space is contained in the preceding chapter. The geometry of Banach space lies in darkness and has attracted the attention of many talented research mathematicians. However, the theory of linear operators (linear transformations) on a Banach space has very few general results, whereas Hilbert space operators have an elegant and well-developed general theory. Indeed, the reason for this dichotomy is related to the opposite status of the geometric considerations. Questions concerning operators on Hilbert space don't necessitate or imply any geometric difficulties."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.664,
+            0.87,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In addition to the fundamentals of operators, this chapter will also present an interesting application to differential equations in Section 6."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.742,
+            0.695,
+            0.767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.783,
+            0.87,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the next proposition is similar to that of Proposition I.3.1 and is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.837,
+            0.87,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Proposition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be Hilbert spaces and A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " a linear transformation. The following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.883,
+            0.322,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) A is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.901,
+            0.367,
+            0.919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) A is continuous at 0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 41,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.055,
+            0.497,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.842,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.101,
+            0.456,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) A is continuous at some point."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.123,
+            0.118,
+            0.791,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) There is a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\boldsymbol{h} \\| \\leqslant c \\| \\boldsymbol{h} \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.155,
+            0.274,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As in (I.3.3), if"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.323,
+            0.182,
+            0.671,
+            0.203
+          ],
+          "image_path": "images/page_41_equation_5.jpg",
+          "content": "\\| A \\| = \\sup \\{ \\| A h \\| : h \\in \\mathcal{H},   \\| h \\| \\leqslant 1 \\},"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.201,
+            0.177,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.323,
+            0.218,
+            0.718,
+            0.285
+          ],
+          "image_path": "images/page_41_equation_7.jpg",
+          "content": "\\begin{aligned}\\| A \\| &= \\sup \\{ \\| A h \\| : \\| h \\| = 1 \\} \\\\&= \\sup \\{ \\| A h \\| / \\| h \\| : h \\neq 0 \\} \\\\&= \\inf \\{ c > 0 : \\| A h \\| \\leqslant c \\| h \\| , h   in   \\mathcal{H} \\}.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.292,
+            0.869,
+            0.385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A h \\| \\leqslant \\| A \\| \\| h \\|. \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " is called the norm of A and a linear transformation with finite norm is called bounded. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " be the set of bounded linear transformations from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " .For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } ) \\equiv \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathbb { F } ) = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " the bounded linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.402,
+            0.871,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2. Proposition. (a) If A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H}),"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A + B \\| \\leqslant \\| A \\| + \\| B \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.44,
+            0.806,
+            0.458
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\int   \\alpha \\in \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\alpha \\boldsymbol{A} \\right\\| = \\left| \\alpha \\right| \\left\\| \\boldsymbol{A} \\right\\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.458,
+            0.862,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { L } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BA \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{L})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\boldsymbol{B} \\boldsymbol{A} \\right\\| \\leqslant \\left\\| \\boldsymbol{B} \\right\\| \\left\\| \\boldsymbol{A} \\right\\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.486,
+            0.871,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Only (c) will be proved; the rest of the proof is left to the reader. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| B k \\| \\leqslant \\| B \\| \\| k \\|"
+            },
+            {
+              "type": "text",
+              "content": " Hence, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = A h \\in \\mathcal{H}"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\boldsymbol{B} \\boldsymbol{A} \\boldsymbol{h} \\right\\| \\leqslant \\left\\| \\boldsymbol{B} \\right\\| \\left\\| \\boldsymbol{A} \\boldsymbol{h} \\right\\| \\leqslant \\left\\| \\boldsymbol{B} \\right\\| \\left\\| \\boldsymbol{A} \\right\\| \\left\\| \\boldsymbol{h} \\right\\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.558,
+            0.871,
+            0.633
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By virtue of preceding proposition, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d ( A , B ) = \\| A - B \\|"
+            },
+            {
+              "type": "text",
+              "content": " defines a metric on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . So it makes sense to consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " as a metric space. This will not be examined closely until later in the book, but later in this chapter the idea of the convergence of a sequence of operators will be used."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.648,
+            0.872,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3. Example. If dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = n < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = m < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , \\ldots , e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { m } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . It can be shown that every linear transformation from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is bounded (Exercise 3). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant n, 1 \\leqslant i \\leqslant m,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { i j } = \\langle A e _ { j } , \\varepsilon _ { i } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Then the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\times n"
+            },
+            {
+              "type": "text",
+              "content": " matrix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\pmb { \\alpha } _ { i j } )"
+            },
+            {
+              "type": "text",
+              "content": " represents A and every such matrix represents an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.775,
+            0.873,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } \\equiv l ^ { 2 } ( \\mathbb { N } )"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e _ { 1 } , e _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " .be its usual basis. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( l ^ { 2 } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i j } = \\langle A e _ { j } , e _ { i } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . The infinite matrix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\pmb { \\alpha } _ { i j } )"
+            },
+            {
+              "type": "text",
+              "content": " represents A as finite matrices represent operators on finite dimensional spaces. However, this representation has limited value unless the matrix has a special form. One difficulty is that it is unknown how to find the norm of A in terms of the entries in the matrix. In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 < n < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , there is no known formula for the norm of an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\times n"
+            },
+            {
+              "type": "text",
+              "content": " matrix in terms of its entries. (This restriction on the values of n is due to our inability to solve polynomial equations of degree greater than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 . )"
+            },
+            {
+              "type": "text",
+              "content": " See"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 42,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.058,
+            0.156,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "28"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.123,
+            0.101,
+            0.87,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 11. A sufficient condition for the boundedness of an infinite matrix that is useful is known. (See Exercise 9.) Another sufficient condition for a matrix to be bounded can be found on page 61 of Maddox [1980]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.175,
+            0.868,
+            0.233
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5. Theorem. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = L ^ { 2 } ( X , \\Omega , \\mu ) \\equiv L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { \\infty } ( \\mu ) ."
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } { : } L ^ { 2 } ( \\mu )   \\to   L ^ { 2 } ( \\mu ) b y M _ { \\phi } f = \\phi f"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } { \\in } { \\mathcal { B } } ( L ^ { 2 } ( \\mu ) )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   M _ { \\phi } \\| = \\|   \\phi   \\| _ { \\infty }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.239,
+            0.731,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| _ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " is the µ-essential supremum norm. That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.263,
+            0.266,
+            0.73,
+            0.308
+          ],
+          "image_path": "images/page_42_equation_5.jpg",
+          "content": "\\begin{align*}\\| \\phi \\|_{\\infty} & \\equiv \\inf \\left\\{ \\sup \\left\\{ | \\phi(x) | : x \\neq N \\right\\} : N \\in \\Omega, \\mu(N) = 0 \\right\\} \\\\& = \\inf \\left\\{ c > 0 : \\mu( \\left\\{ x \\in X : | \\phi(x) | > c \\right\\} ) = 0 \\right\\}.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.123,
+            0.312,
+            0.871,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| _ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " is the infimum of all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | \\leqslant c"
+            },
+            {
+              "type": "text",
+              "content": " a.e. [μ] and, moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | \\leqslant \\| \\phi \\| _ { \\infty } { \\mathrm { ~ a . e . ~ } } [ \\mu ]"
+            },
+            {
+              "type": "text",
+              "content": " Thus we can, and do, assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded measurable function and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | \\leqslant \\| \\phi \\| _ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " for all x. So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int | \\phi f | ^ { 2 } d \\mu \\leqslant \\| \\phi \\| _ { \\infty } ^ { 2 } \\int | f | ^ { 2 } d \\mu."
+            },
+            {
+              "type": "text",
+              "content": " That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } { \\in } { \\mathcal { B } } ( L ^ { 2 } ( \\mu ) )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| M _ { \\phi } \\| \\leqslant \\| \\phi \\| _ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ."
+            },
+            {
+              "type": "text",
+              "content": " , the σ-finiteness of the measure space implies that there is a set ∆ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega , 0 < \\mu ( \\Delta ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi ( x ) | \\geqslant \\|   \\phi   \\| _ { \\infty } - \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta . ( \\mathrm { W h y ? } ) \\mathrm { I f } f = ( \\mu ( \\Delta ) ) ^ { - 1 / 2 } \\chi _ { \\Delta } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| _ { 2 } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| M _ { \\phi } \\| ^ { 2 } \\geqslant \\| \\phi f \\| _ { 2 } ^ { 2 } = ( \\mu ( \\Delta ) ) ^ { - 1 } \\int _ { \\Delta } | \\phi | ^ { 2 } d \\mu \\geqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\parallel   \\phi   \\parallel _ { \\infty } - \\varepsilon ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   \\to   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " we get that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| M _ { \\phi } \\| \\geqslant \\| \\phi \\| _ { \\infty } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.478,
+            0.871,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is called a multiplication operator. The function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is its symbol."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.515,
+            0.873,
+            0.642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the measure space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is not "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\text {-f} \\mathrm { n i t e }"
+            },
+            {
+              "type": "text",
+              "content": " then the conclusion of Theorem 1.5 is not necessarily valid. Indeed, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega = \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " Borel subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " onΩ by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) ="
+            },
+            {
+              "type": "text",
+              "content": " the Lebesgue measure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\notin \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\Delta ) = \\infty"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 { \\in } \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " This measure has an infinite atom at 0 and, therefore, is not σ-finite. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi = \\chi _ { \\{ 0 \\} }"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi \\| _ { \\infty } = 1"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\infty > \\int | f | ^ { 2 } d \\mu \\geqslant | f ( 0 ) | ^ { 2 } \\mu ( \\{ 0 \\} )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence every function in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " vanishes at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 ."
+            },
+            {
+              "type": "text",
+              "content": " Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|   M _ { \\phi } \\| < \\|   \\phi   \\| _ { \\infty } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.641,
+            0.873,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are more general measure spaces for which (1.5) is valid—the decomposable measure spaces (see Kelley [1966])."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.695,
+            0.871,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.6. Theorem. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a measure space and suppose k: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\times X \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Omega } \\times \\mathbf { \\Omega } ."
+            },
+            {
+              "type": "text",
+              "content": " -measurable function for which there are constants "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.35,
+            0.737,
+            0.649,
+            0.827
+          ],
+          "image_path": "images/page_42_equation_11.jpg",
+          "content": "\\begin{align*}\\int_{X} |k(x,y)|   d\\mu(y) \\leqslant c_1 \\quad  a.e.   [\\mu], \\\\\\int_{X} |k(x,y)|   d\\mu(x) \\leqslant c_2 \\quad  a.e.   [\\mu].\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.832,
+            0.44,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If K: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ) \\to L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.36,
+            0.856,
+            0.638,
+            0.897
+          ],
+          "image_path": "images/page_42_equation_13.jpg",
+          "content": "( K f ) ( x ) = \\int k ( x , y ) f ( y ) d \\mu ( y ) ,"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.904,
+            0.68,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "then K is a bounded linear operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| K \\| \\leqslant ( c _ { 1 } c _ { 2 } ) ^ { 1 / 2 }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 43,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.125,
+            0.056,
+            0.495,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.84,
+            0.056,
+            0.866,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "29"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.866,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Actually it must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K f   \\in   L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , but this will follow from the argument that demonstrates the boundedness of K. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu )"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.258,
+            0.143,
+            0.825,
+            0.335
+          ],
+          "image_path": "images/page_43_equation_3.jpg",
+          "content": "\\begin{align*}|Kf(x)| & \\leqslant \\int |k(x,y)|   |f(y)|   d\\mu(y) \\\\& = \\int |k(x,y)|^{1/2} |k(x,y)|^{1/2} |f(y)|   d\\mu(y) \\\\& \\leqslant \\left[ \\int |k(x,y)|   d\\mu(y) \\right]^{1/2} \\left[ \\int |k(x,y)|   |f(y)|^2   d\\mu(y) \\right]^{1/2} \\\\& \\leqslant c_1^{1/2} \\left[ \\int |k(x,y)|   |f(y)|^2   d\\mu(y) \\right]^{1/2}.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.339,
+            0.197,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.181,
+            0.363,
+            0.666,
+            0.484
+          ],
+          "image_path": "images/page_43_equation_5.jpg",
+          "content": "\\begin{align*}\\int |Kf(x)|^2   d\\mu(x) & \\leqslant c_1 \\int |k(x,y)|   |f(y)|^2   d\\mu(y)   d\\mu(x) \\\\& = c_1 \\int |f(y)|^2 \\int |k(x,y)|   d\\mu(x)   d\\mu(y) \\\\& \\leqslant c_1 c_2   \\|f\\|^2.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.491,
+            0.867,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now this shows that the formula used to define K fis finite a.e. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\mu ] , K f \\in L ^ { 2 } ( \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| K f \\| ^ { 2 } \\leqslant c _ { 1 } c _ { 2 } \\| f \\| ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.546,
+            0.87,
+            0.601
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The operator described above is called an integral operator and the function k is called its kernel. There are conditions on the kernel other than the one in (1.6) that will imply that K is bounded."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.601,
+            0.87,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A particular example of an integral operator is the Volterra operator defined below."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.653,
+            0.871,
+            0.711
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.7. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\colon [ 0 , 1 ] \\times [ 0 , 1 ]   \\to   \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " be the characteristic function of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ ( x , y ) ;   y < x \\}"
+            },
+            {
+              "type": "text",
+              "content": " . The corresponding operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\colon L ^ { 2 } ( 0 , 1 ) \\to L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V f(x)=\\int_{0}^{1} k(x, y) f(y) d y"
+            },
+            {
+              "type": "text",
+              "content": " is called the Volterra operator. Note that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.406,
+            0.715,
+            0.593,
+            0.76
+          ],
+          "image_path": "images/page_43_equation_10.jpg",
+          "content": "V f ( x ) = \\int _ { 0 } ^ { x } f ( y )   d y ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.767,
+            0.872,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another example of an operator was defined in Example 1.5.3. The nonsurjective isometry defined there is called the unilateral shift. It will be studied in more detail later in this book. Note that any isometry is a bounded operator with norm 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.86,
+            0.236,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.139,
+            0.878,
+            0.37,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Prove Proposition 1.1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.139,
+            0.904,
+            0.371,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Prove Proposition 1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 44,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.157,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "30"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.057,
+            0.868,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.138,
+            0.102,
+            0.871,
+            0.153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { 1 } , e _ { 2 } , \\ldots , \\}"
+            },
+            {
+              "type": "text",
+              "content": " is an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and for each n there is a vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A e _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum \\| A e _ { n } \\| < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Show that A has an unique extension to a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.135,
+            0.16,
+            0.869,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Proposition 1.2 says that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d(A,B)=\\left\\|A-B\\right\\|"
+            },
+            {
+              "type": "text",
+              "content": " is a metric on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is complete relative to this metric."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.137,
+            0.204,
+            0.871,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Show that a multiplication operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } \\left( 1 . 5 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " satisfies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } ^ { 2 } = M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is a characteristic function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.136,
+            0.247,
+            0.871,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a σ-finite measure space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 1 } , k _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " be two kernels satisfying the hypothesis of (1.6). Define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.295,
+            0.292,
+            0.737,
+            0.332
+          ],
+          "image_path": "images/page_44_equation_6.jpg",
+          "content": "\\mathbf { k } \\colon X \\times X \\to \\mathbb { F } \\quad { \\mathrm { b y } } \\quad k ( x , y ) = \\int k _ { 1 } ( x , z ) k _ { 2 } ( z , y )   d \\mu ( z ) ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.159,
+            0.344,
+            0.871,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Show that k also satisfies the hypothesis of (1.6). (b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ,   K _ { 1 } ,   K _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are the integral operators with kernels "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k , k _ { 1 } , k _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = K _ { 1 } K _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . What does this remind you of? Is more going on than an analogy?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.135,
+            0.402,
+            0.871,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is a measure space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k { \\in } L ^ { 2 } ( \\mu \\times \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , show that k defines a bounded integral operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.136,
+            0.446,
+            0.872,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the usual basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a sequence of scalars. Show that there is a bounded operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A e _ { n } = \\alpha _ { n } e _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all n if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is uniformly bounded, in which case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| = \\sup \\left\\{ | \\alpha _ { n } | : n \\geqslant 1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . This type of operator is called a diagonal operator or is said to be diagonalizable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.135,
+            0.522,
+            0.87,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. (Schur test) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\alpha _ { i j } \\right\\} _ { i , j = 1 } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " be an infinite matrix such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i j }   \\geqslant   0"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i , j"
+            },
+            {
+              "type": "text",
+              "content": " and such that there are scalars "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i } > 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta , \\gamma   >   0"
+            },
+            {
+              "type": "text",
+              "content": " with"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.446,
+            0.569,
+            0.583,
+            0.605
+          ],
+          "image_path": "images/page_44_equation_11.jpg",
+          "content": "\\sum _ { i \\; = \\; 1 } ^ { \\infty } \\alpha _ { i j } p _ { i } \\leqslant \\beta p _ { j } ,"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.445,
+            0.614,
+            0.574,
+            0.65
+          ],
+          "image_path": "images/page_44_equation_12.jpg",
+          "content": "\\sum _ { j = 1 } ^ { \\infty } \\alpha _ { i j } p _ { j } \\leqslant \\gamma p _ { i } ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.158,
+            0.663,
+            0.869,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i , j \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Show that there is an operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { N } )"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\langle A e _ { j } , e _ { i } \\right\\rangle = \\alpha _ { i j }"
+            },
+            {
+              "type": "text",
+              "content": " and二 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\parallel ^ { 2 } \\leqslant \\beta \\gamma"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.126,
+            0.706,
+            0.87,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. (Hilbert matrix) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A e _ { j } , e _ { i } \\rangle = ( i + j + 1 ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant i , j < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " defines a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ( \\mathbb { N } \\cup \\{ 0 \\} )"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| { \\pmb A } \\| \\leqslant \\pi ."
+            },
+            {
+              "type": "text",
+              "content": " (See also Choi [1983] and Redheffer and Volkmann [1983].)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.764,
+            0.866,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{A} = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}"
+            },
+            {
+              "type": "text",
+              "content": " put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = [ | a | ^ { 2 } + | b | ^ { 2 } + | c | ^ { 2 } + | d | ^ { 2 } ] ^ { 1 / 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| ="
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.16,
+            0.811,
+            0.513,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2}(\\alpha^{2}+\\sqrt{\\alpha^{4}-4\\delta^{2}})"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta ^ { 2 } = \\operatorname* { d e t } A ^ { * } A ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.127,
+            0.838,
+            0.871,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. (Direct sum of operators) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\mathcal { H } _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a collection of Hilbert spaces and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\oplus _ { i } \\mathcal { H } _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": " Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { i } \\in \\mathcal { B } ( \\mathcal { H } _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": " for all i. Show that there is a bounded operator A on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A | \\mathcal { H } _ { i } = \\overline { { A } } _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " for all i if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { s u p } _ { i } \\| A _ { i } \\| < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . In this case, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| = \\sup_{i} \\| A_i \\|"
+            },
+            {
+              "type": "text",
+              "content": " . The operator A is called the direct sum of the operators "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A _ { i } \\}"
+            },
+            {
+              "type": "text",
+              "content": " and is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { A } = \\oplus _ { i } \\pmb { A } _ { i }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 45,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.055,
+            0.418,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Adjoint of an Operator"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.845,
+            0.057,
+            0.869,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "31"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.102,
+            0.873,
+            0.171
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. (Bari [1951]) Call a sequence of vectors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in a Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " a Bessel sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { i f } \\sum | \\langle f , f _ { n } \\rangle | ^ { 2 } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " for every f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " .Show that a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " of vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a Bessel sequence if and only if the infinite matrix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\langle f _ { m } , f _ { n } \\rangle )"
+            },
+            {
+              "type": "text",
+              "content": " defines a bounded operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " (Also see Shapiro and Shields [1961], p. 524.)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.234,
+            0.573,
+            0.259
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Adjoint of an Operator"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.275,
+            0.871,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces, a function u: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\times \\mathcal { H } \\rightarrow"
+            },
+            {
+              "type": "text",
+              "content": " F is a sesquilinear form if for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } , k , f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.322,
+            0.483,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( \\alpha h + \\beta g , k ) = \\alpha u ( h , k ) + \\beta u ( g , k ) ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.341,
+            0.488,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( h , \\alpha k + \\beta f ) = \\bar { \\alpha } u ( h , k ) + \\bar { \\beta } u ( h , f ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.377,
+            0.872,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The prefix “sesqui\" is used because the function is linear in one variable but (for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F } = \\mathbf { C } )"
+            },
+            {
+              "type": "text",
+              "content": " only conjugate linear in the other. (“Sesqui\" means "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\text{\" one-and-a-half.\" }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.432,
+            0.871,
+            0.486
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A sesquilinear form is bounded if there is a constant M such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| u ( h , k ) | \\leqslant M \\| h \\| \\| k \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " The constant M is called a bound for u."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.487,
+            0.872,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Sesquilinear forms are used to study operators. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( h , k ) \\equiv \\langle A h , k \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded sesquilinear form. Also, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( h , k ) \\equiv \\langle h , B k \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded sesquilinear form. Are there any more? Are these two forms related?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.578,
+            0.871,
+            0.615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2. Theorem. If u: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\times \\mathcal { H } \\rightarrow \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded sesquilinear form with bound M, then there are unique operators A in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and B in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.366,
+            0.623,
+            0.635,
+            0.641
+          ],
+          "image_path": "images/page_45_equation_11.jpg",
+          "content": "u ( h , k ) = \\langle A h , k \\rangle = \\langle h , B k \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.65,
+            0.59,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| ,   \\| B \\| \\leqslant M ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.676,
+            0.874,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Only the existence of A will be shown. For each h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { h } ;"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }   \\rightarrow   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { h } ( k ) = \\overline { { u ( h , k ) } }"
+            },
+            {
+              "type": "text",
+              "content": " . Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { h }"
+            },
+            {
+              "type": "text",
+              "content": " is linear and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| L _ { h } ( k ) | \\leqslant M \\| h \\| \\| k \\|"
+            },
+            {
+              "type": "text",
+              "content": " . By the Riesz Representation Theorem there is a unique vector f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle k , f \\rangle = L _ { h } ( k ) = \\overline { { u ( h , k ) } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\parallel f \\parallel \\leqslant M \\parallel h \\parallel"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h   =   f"
+            },
+            {
+              "type": "text",
+              "content": " . It is left as an exercise to show that A is linear (use the uniqueness part of the Riesz Theorem). Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , k \\rangle = \\langle \\overline { { k , A h } } \\rangle = \\langle \\overline { { k , f } } \\rangle = u ( h , k )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.795,
+            0.872,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{1} \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ( h , k ) = \\langle A _ { 1 } h , k \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h - A _ { 1 } h , k \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ;"
+            },
+            {
+              "type": "text",
+              "content": " thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h - A _ { 1 } h = 0"
+            },
+            {
+              "type": "text",
+              "content": " for all h. Thus, A is unique."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.85,
+            0.873,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.4. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{B}(\\mathcal{H}, \\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " , then the unique operator B in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (2.3) is called the adjoint of A and is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.129,
+            0.887,
+            0.872,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The adjoint of an operator will usually be used for operators in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " rather than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . There is one notable exception."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 46,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.057,
+            0.159,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "32"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.588,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.5. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then U is an isomorphism if and only if U is invertible and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U ^ { - 1 } = U ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.147,
+            0.295,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.18,
+            0.873,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From now on we will examine and prove results for the adjoint of operators in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . Often, as in the next proposition, there are analogous results for the adjoint of operators in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . This simplification is justified, however, by the cleaner statements that result. Also, the interested reader will have no trouble formulating the more general statement when it is needed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.291,
+            0.587,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.6. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A,B \\in \\mathcal{B}(\\mathcal{H})"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbf { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.318,
+            0.386,
+            0.336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha A + B ) ^ { * } = { \\bar { \\alpha } } A ^ { * } + B ^ { * } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.337,
+            0.311,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A B ) ^ { * } = B ^ { * } A ^ { * } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.355,
+            0.334,
+            0.372
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } \\equiv ( A ^ { * } ) ^ { * } = A ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.372,
+            0.871,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f A"
+            },
+            {
+              "type": "text",
+              "content": " is invertible in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is its inverse, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is invertible and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A^{*})^{-1} = (A^{-1})^{*}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.419,
+            0.872,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the preceding proposition is left as an exercise, but a word about part (d) might be helpful. The hypothesis that A is invertible in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " means that there is an operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A A ^ { - 1 } = A ^ { - 1 } A = I"
+            },
+            {
+              "type": "text",
+              "content": " It is a remarkable fact that if A is only assumed to be bijective, then A is invertible in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . This is a consequence of the Open Mapping Theorem which will be proved later."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.546,
+            0.674,
+            0.565
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.7. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { I f } \\; A   \\in   \\mathcal { B } ( \\mathcal { H } ) , \\; \\| A \\| = \\| A ^ { \\star } \\| = \\| A ^ { \\star } A \\| ^ { 1 / 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.572,
+            0.871,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\quad  in  \\quad \\mathcal{H}, \\quad \\| h \\| \\leqslant 1, \\quad \\| A h \\|^2 = \\langle A h, A h \\rangle = \\langle A^* A h, h \\rangle \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A ^ { \\star } A h \\| \\; \\| h \\| \\leqslant \\| A ^ { \\star } A \\| \\leqslant \\| A ^ { \\star } \\| \\; \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| ^ { 2 } \\leqslant \\| A ^ { * } A \\| \\leqslant \\| A ^ { * } \\| \\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " Using the two ends of this string of inequalities gives "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol { A } \\| \\leqslant \\| \\boldsymbol { A } ^ { * } \\|"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\|"
+            },
+            {
+              "type": "text",
+              "content": " is cancelled. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " and so if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is substituted for A, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\left. A ^ { * } \\right\\| \\leqslant \\left\\| \\left. A ^ { * * } \\right\\| = \\left\\| \\left. A \\right. \\right\\| \\right. \\right."
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| { \\boldsymbol { A } } \\| = \\| { \\boldsymbol { A } } ^ { \\star } \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Thus the string of inequalities becomes a string of equalities and the proof is complete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.699,
+            0.871,
+            0.756
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.8. Example. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma - \\mathrm { f i n i t e }"
+            },
+            {
+              "type": "text",
+              "content": " measure space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " be the multiplication operator with symbol φ (1.5). Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\bar { \\phi } } ,"
+            },
+            {
+              "type": "text",
+              "content": " the multi-plication operator with symbol "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\phi } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.773,
+            0.871,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If an operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": " is presented by a matrix, then its adjoint is represented by the conjuagate transpose of the matrix."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.828,
+            0.871,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.9. Example. If K is the integral operator with kernel k as in (1.6), then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is the integral operator with kernel "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ^ { * } ( x , y ) \\equiv \\widehat { k ( y , x ) }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.884,
+            0.871,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.10. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f S \\colon l ^ { 2 } \\to l ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(\\alpha_{1},\\alpha_{2},\\ldots)=(0,\\alpha_{1},\\alpha_{2},\\ldots)"
+            },
+            {
+              "type": "text",
+              "content": " , then S is an isometry and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { * } ( \\alpha _ { 1 } , \\alpha _ { 2 } , \\ldots ) = ( \\alpha _ { 2 } , \\alpha _ { 3 } , \\ldots ) ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 47,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.417,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§2. The Adjoint of an Operator"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.058,
+            0.869,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "33"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.128,
+            0.102,
+            0.871,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. It has already been mentioned that S is an isometry (I.5.3). For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\beta _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { 2 } , \\left\\langle S ^ { * } \\left( \\alpha _ { n } \\right) , \\left( \\beta _ { n } \\right) \\right\\rangle = \\left\\langle \\left( \\alpha _ { n } \\right) , S \\left( \\beta _ { n } \\right) \\right\\rangle = \\left\\langle \\left( \\alpha _ { 1 } , \\alpha _ { 2 } , \\ldots \\right) , \\left( 0 , \\beta _ { 1 } , \\beta _ { 2 } , \\ldots \\right) \\right\\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{2}\\bar{\\beta}_{1} + \\alpha_{3}\\bar{\\beta}_{2} + \\cdots = \\langle (\\alpha_{2},\\alpha_{3},\\ldots),(\\beta_{1},\\beta_{2},\\ldots) \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " . Since this holds for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\beta _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " the result is proved. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.193,
+            0.87,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The operator S in (2.10) is called the unilateral shift and the operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is called the backward shift"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.23,
+            0.871,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The operation of taking the adjoint of an operator is, as the reader may have seen from the examples above, analogous to taking the conjugate of a complex number. It is good to keep the analogy in mind, but do not become too religious about it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.317,
+            0.869,
+            0.355
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.11. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then: (a) is hermitian or self-adjoint if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } = A ."
+            },
+            {
+              "type": "text",
+              "content": " (b) A is normal if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A A ^ { * } = A ^ { * } A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.373,
+            0.871,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the analogy between the adjoint and the complex conjugate, hermitian operators become the analogues of real numbers and, by (2.5), unitaries are the analogues of complex numbers of modulus 1. Normal operators, as we shall see, are the true analogues of complex numbers. Notice that hermitian and unitary operators are normal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.464,
+            0.871,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In light of (2.8), every multiplication operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is normal; "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is hermitian if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " is real-valued; "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is unitary if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\phi | \\equiv 1"
+            },
+            {
+              "type": "text",
+              "content": " a.e. [μ]. By (2.9), an integral operator K with kernel k is hermitian if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{if} k(x, y) = k(y, x) \\mathrm{a.e.} [\\mu \\times \\mu]"
+            },
+            {
+              "type": "text",
+              "content": " . The unilateral shift is not normal (Exercise 6)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.128,
+            0.556,
+            0.871,
+            0.594
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.12. Proposition. If  is a C-Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then A is hermitian if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\langle A h, h \\rangle \\in \\mathbb{R}"
+            },
+            {
+              "type": "text",
+              "content": " for all h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.605,
+            0.835,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle = \\langle h , A h \\rangle = \\langle \\widetilde { A h , h } \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle \\in \\mathbb { R }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.623,
+            0.871,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the converse, assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is real for every h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , g \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A ( h + \\alpha g ) , h + \\alpha g \\rangle = \\langle A h , h \\rangle + \\bar { \\alpha } \\langle A h , g \\rangle + \\alpha \\langle A g , h \\rangle +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha | ^ { 2 } \\langle A g , g \\rangle \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " . So this expression equals its complex conjugate. Using the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A g , g \\rangle \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " yields"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.229,
+            0.704,
+            0.706,
+            0.745
+          ],
+          "image_path": "images/page_47_equation_11.jpg",
+          "content": "\\begin{align*}\\alpha \\langle A g, h \\rangle + \\bar{\\alpha} \\langle A h, g \\rangle = & \\bar{\\alpha} \\langle h, A g \\rangle + \\alpha \\langle g, A h \\rangle \\\\= & \\bar{\\alpha} \\langle A^* h, g \\rangle + \\alpha \\langle A^* g, h \\rangle.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.748,
+            0.77,
+            0.768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By first taking "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = 1"
+            },
+            {
+              "type": "text",
+              "content": " and then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = i ,"
+            },
+            {
+              "type": "text",
+              "content": " we obtain the two equations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.264,
+            0.776,
+            0.688,
+            0.796
+          ],
+          "image_path": "images/page_47_equation_13.jpg",
+          "content": "\\langle A g , h \\rangle + \\langle A h , g \\rangle = \\langle A ^ { * } h , g \\rangle + \\langle A ^ { * } g , h \\rangle ,"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.247,
+            0.799,
+            0.727,
+            0.819
+          ],
+          "image_path": "images/page_47_equation_14.jpg",
+          "content": "i \\langle A g , h \\rangle - i \\langle A h , g \\rangle = - i \\langle A ^ { * } h , g \\rangle + i \\langle A ^ { * } g , h \\rangle ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.826,
+            0.699,
+            0.846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A little arithmetic implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A g , h \\rangle = \\langle A ^ { * } g , h \\rangle , \\mathrm { s o } A = A ^ { * } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.863,
+            0.871,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding proposition is false if it is only assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is an R-Hilbert space. For example, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{A} = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , h \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " for"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

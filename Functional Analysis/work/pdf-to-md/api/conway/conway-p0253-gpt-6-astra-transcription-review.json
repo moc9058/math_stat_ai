@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 253,
+  "model": "gpt-6-astra",
+  "seconds": 8.8,
+  "input_tokens": 3379,
+  "output_tokens": 227,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"for every $f$ in $C(\\\\sigma(a)$).\",\n      \"correction\": \"for every $f$ in $C(\\\\sigma(a))$.\",\n      \"issue\": \"The closing parenthesis of C(σ(a)) is outside math mode.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

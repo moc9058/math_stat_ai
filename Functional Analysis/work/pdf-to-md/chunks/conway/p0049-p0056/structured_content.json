@@ -1,0 +1,1839 @@
+{
+  "pages": [
+    {
+      "page_idx": 48,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.129,
+            0.057,
+            0.156,
+            0.072
+          ],
+          "content": "34"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.584,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.869,
+            0.139
+          ],
+          "content": "all h in $\\mathbb { R } ^ { 2 }$ However, $A ^ { * }$ is the transpose of A and so $A ^ { * } \\neq A$ . Indeed, for any operator A on an R-Hilbert space, $\\langle A h , g \\rangle \\in \\mathbb { R }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.156,
+            0.459,
+            0.175
+          ],
+          "level": 2,
+          "content": "2.13. Proposition. $If   A = A^*$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.182,
+            0.658,
+            0.202
+          ],
+          "content": "\\| A \\| = \\sup \\left\\{ \\left| \\langle A h, h \\rangle \\right| : \\| h \\| = 1 \\right\\}.",
+          "image_source": "images/page_48_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.209,
+            0.87,
+            0.249
+          ],
+          "content": "PROOF. $\\mathrm{Put} M = \\sup \\{ | \\langle A h , h \\rangle | : \\| h \\| = 1 \\}. \\mathrm{If} \\| h \\| = 1.$ then $| \\langle A h , h \\rangle | \\leqslant \\| A \\|$ hence $M \\leqslant \\| A \\|$ . On the other hand, if $\\| { \\boldsymbol { h } } \\| = \\| { \\boldsymbol { g } } \\| = 1$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.203,
+            0.256,
+            0.807,
+            0.298
+          ],
+          "content": "\\begin{align*}\\langle A(h \\pm g), h \\pm g \\rangle = \\langle Ah, h \\rangle \\pm \\langle Ah, g \\rangle \\pm \\langle Ag, h \\rangle + \\langle Ag, g \\rangle \\\\= \\langle Ah, h \\rangle \\pm \\langle Ah, g \\rangle \\pm \\langle g, A^*h \\rangle + \\langle Ag, g \\rangle.\\end{align*}",
+          "image_source": "images/page_48_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.303,
+            0.389,
+            0.322
+          ],
+          "content": "Since $A = A ^ { * }$ , this implies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.206,
+            0.331,
+            0.74,
+            0.35
+          ],
+          "content": "\\langle A ( h \\pm g ) , h \\pm g \\rangle = \\langle A h , h \\rangle \\pm 2 \\mathrm { R e } \\langle A h , g \\rangle + \\langle A g , g \\rangle .",
+          "image_source": "images/page_48_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.358,
+            0.727,
+            0.377
+          ],
+          "content": "Subtracting one of these two equations from the other gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24,
+            0.385,
+            0.758,
+            0.405
+          ],
+          "content": "4 \\mathrm { R e } \\left\\langle A h , g \\right\\rangle = \\left\\langle A ( h + g ) , h + g \\right\\rangle - \\left\\langle A ( h - g ) , h - g \\right\\rangle .",
+          "image_source": "images/page_48_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.412,
+            0.873,
+            0.451
+          ],
+          "content": "Now it is easy to verify that $| \\langle A f , f \\rangle | \\leqslant M \\| f \\| ^ { 2 }$ for any f in $\\mathcal { H }$ .Hence using the parallelogram law we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.302,
+            0.457,
+            0.698,
+            0.521
+          ],
+          "content": "\\begin{align*}4\\operatorname{Re}\\langle A h, g \\rangle & \\leqslant M(\\| h + g \\|^2 + \\| h - g \\|^2) \\\\& = 2M(\\| h \\|^2 + \\| g \\|^2) \\\\& = 4M\\end{align*}",
+          "image_source": "images/page_48_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.532,
+            0.872,
+            0.605
+          ],
+          "content": "since h and $g$ are unit vectors. Now suppose $\\langle A h , g \\rangle = e ^ { i \\theta } | \\langle A h , g \\rangle | .$ Replacing h in the inequality above with $e ^ { - i \\theta } \\vec { h }$ gives $| \\langle A h , g \\rangle | \\leqslant M$ if $\\| \\boldsymbol { h } \\| = \\| \\boldsymbol { g } \\| = 1$ Taking the supremum over all g gives $\\| A \\boldsymbol{h} \\| \\leqslant M$ when $\\| \\boldsymbol { h } \\| = 1$ . Thus $\\| A \\| \\leqslant M$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.125,
+            0.621,
+            0.755,
+            0.64
+          ],
+          "level": 2,
+          "content": "2.14. Corollary. $If   \\boldsymbol{A} = \\boldsymbol{A}^*$ and $\\langle A h , h \\rangle = 0$ for all h, then $A   =   0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.658,
+            0.871,
+            0.714
+          ],
+          "content": "The preceding corollary is not true unless $A = A ^ { * }$ , as the example given after Proposition 2.12 shows. However, if a complex Hilbert space is present, this hypothesis can be deleted."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.73,
+            0.871,
+            0.768
+          ],
+          "content": "2.15. Proposition. If $\\mathcal { H }$ is a C-Hilbert space and $A \\in \\mathcal { B } ( \\mathcal { H } )$ such that $\\langle A h , h \\rangle = 0   f o r$ all h in $\\mathcal { H }$ , then $A   =   0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.786,
+            0.545,
+            0.803
+          ],
+          "content": "The proof of (2.15) is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.803,
+            0.872,
+            0.86
+          ],
+          "content": "If $\\mathcal { H }$ is a C-Hilbert space and $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , then $B   =   ( A + A ^ { * } ) / 2$ and $C = ( A - A ^ { * } ) / 2 i$ are self-adjoint and $A = B + i C$ . The operators B and $c$ are called, respectively, the real and imaginary parts of A."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.877,
+            0.803,
+            0.896
+          ],
+          "level": 2,
+          "content": "2.16. Proposition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , the following statement are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.904,
+            0.29,
+            0.922
+          ],
+          "content": "(a) A is normal."
+        }
+      ]
+    },
+    {
+      "page_idx": 49,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.055,
+            0.415,
+            0.072
+          ],
+          "content": "§2. The Adjoint of an Operator"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.843,
+            0.056,
+            0.868,
+            0.07
+          ],
+          "content": "35"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.099,
+            0.407,
+            0.118
+          ],
+          "content": "(b) $\\| A \\bar { h } \\| = \\| A ^ { * } h \\|$ for all h."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.119,
+            0.853,
+            0.137
+          ],
+          "content": "If H is a C-Hilbert space, then these statements are also equivalent to:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.137,
+            0.597,
+            0.156
+          ],
+          "content": "(c) The real and imaginary parts of A commute."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.164,
+            0.871,
+            0.216
+          ],
+          "content": "PROOF. $\\mathbf { I f } \\quad h \\in { \\mathcal { H } } .$ then $\\| A \\boldsymbol{h} \\|^2 - \\| A^* \\boldsymbol{h} \\|^2 = \\langle A \\boldsymbol{h}, A \\boldsymbol{h} \\rangle - \\langle A^* \\boldsymbol{h}, A^* \\boldsymbol{h} \\rangle =$ $\\left\\langle ( A ^ { * } A - A A ^ { * } ) h , h \\right\\rangle$ . Since $A ^ { * } A - A A ^ { * }$ is hermitian, the equivalence of (a) and (b) follows from Corollarv 2.14."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.219,
+            0.813,
+            0.239
+          ],
+          "content": "If $B , C$ are real and imaginary parts of A, then a calculation yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.251,
+            0.645,
+            0.27
+          ],
+          "content": "A ^ { * } A = B ^ { 2 } - i C B + i B C + C ^ { 2 } ,",
+          "image_source": "images/page_49_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.274,
+            0.644,
+            0.293
+          ],
+          "content": "A A ^ { * } = B ^ { 2 } + i C B - i B C + C ^ { 2 } .",
+          "image_source": "images/page_49_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.307,
+            0.868,
+            0.326
+          ],
+          "content": "Hence $A^{*}A = AA^{*}$ if and only if $CB = BC$ , and so (a) and (c) are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.363,
+            0.808,
+            0.381
+          ],
+          "content": "2.17. Proposition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,$ , the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.391,
+            0.333,
+            0.408
+          ],
+          "content": "(a) A is an isometry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.409,
+            0.255,
+            0.425
+          ],
+          "content": "(b) $A ^ { * } A = I .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.427,
+            0.515,
+            0.446
+          ],
+          "content": "(c) $\\langle A h , A g \\rangle = \\langle h , g \\rangle \\; { \\it f o r ~ a l l ~ } h , g { \\it i n ~ } \\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.454,
+            0.87,
+            0.509
+          ],
+          "content": "PRooF. The proof that (a) and (c) are equivalent was seen in Proposition I.5.2. Note that if $h , g \\in \\mathcal { H }$ , then $\\langle A ^ { * } A h , g \\rangle = \\langle A h , A g \\rangle$ . Hence (b) and (c) are easily seen to be equivalent. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.531,
+            0.856,
+            0.551
+          ],
+          "content": "2.18. Proposition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,$ , then the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.558,
+            0.327,
+            0.575
+          ],
+          "content": "(a) $A^{*}A = AA^{*} = I.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.578,
+            0.64,
+            0.595
+          ],
+          "content": "(b) A is unitary. (That is, A is a surjective isometry.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.596,
+            0.396,
+            0.614
+          ],
+          "content": "(c) A is a normal isometry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.622,
+            0.467,
+            0.64
+          ],
+          "content": "PROOF. $(a) \\Rightarrow (b);$ Proposition I.5.2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.641,
+            0.871,
+            0.694
+          ],
+          "content": "(b)⇒(c): By (2.17), $A ^ { * } A = I .$ But it is easy to see that the fact that A is a surjective isometry implies that $A ^ { - 1 }$ is also. Hence by (2.17) $I = (A^{-1})^{*}A^{-1}$ $(A^{*})^{-1}A^{-1}=(AA^{*})^{-1}$ ; this implies that $A^{*}A = A\\overline{A^{*}} = I$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.694,
+            0.871,
+            0.731
+          ],
+          "content": "$(c) \\Rightarrow (a)$ By (2.17), $A ^ { * } A = I .$ Since A is also normal, $A A ^ { * } = A ^ { * } A = I$ and so A is surjective. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.748,
+            0.802,
+            0.768
+          ],
+          "content": "We conclude with a very important, though easily proved, result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.785,
+            0.632,
+            0.804
+          ],
+          "content": "2.19. Theorem. $If   A \\in \\mathcal{B}(\\mathcal{H})$ , then ker $A = ( \\operatorname{rank} A^* )^{\\perp}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.813,
+            0.869,
+            0.869
+          ],
+          "content": "PROOF. If h∈ker A and $g \\in \\mathcal { H }$ then $\\langle h , A ^ { * } g \\rangle = \\langle A h , g \\rangle = 0 ,$ so ker $\\mathbf { A } \\subseteq$ (ran $A ^ { * } ) ^ { \\perp }$ . On the other hand, if $h \\perp \\tan A^{*}$ and $g \\in \\mathcal { H }$ , then $\\langle A h , g \\rangle =$ $\\langle h , A ^ { * } g \\rangle = 0 ;$ so (ran A\\*)⊥ ⊆ ker A. ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.886,
+            0.871,
+            0.924
+          ],
+          "content": "Two facts should be noted. Since $A ^ { * * } = A$ , it also holds that ker $A ^ { * } =$ $( \\operatorname { r a n } A ) ^ { \\perp }$ . Second, it is not true that $( \\ker A ) ^ { \\perp } = \\operatorname { r a n } A ^ { * }$ since ran $A ^ { * }$ may not"
+        }
+      ]
+    },
+    {
+      "page_idx": 50,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.157,
+            0.072
+          ],
+          "content": "36"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.586,
+            0.056,
+            0.868,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.102,
+            0.868,
+            0.139
+          ],
+          "continues_prev": true,
+          "content": "be closed. All that can be said is that $( \\ker A ) ^ { \\perp } = \\operatorname { c l } ( \\operatorname { r a n } A ^ { * } )$ and (ker $A^{*} )^{\\perp} = \\mathrm{cl} \\left( \\mathrm{rank} A \\right)$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.151,
+            0.233,
+            0.167
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.17,
+            0.368,
+            0.187
+          ],
+          "content": "1. Prove Proposition 2.5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.196,
+            0.368,
+            0.213
+          ],
+          "content": "2. Prove Proposition 2.6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.222,
+            0.491,
+            0.239
+          ],
+          "content": "3. Verify the statement in Example 2.8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.247,
+            0.491,
+            0.265
+          ],
+          "content": "4. Verify the statement in Example 2.9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.274,
+            0.645,
+            0.292
+          ],
+          "content": "5. Find the adjoint of a diagonal operator (Exercise 1.8)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.3,
+            0.871,
+            0.333
+          ],
+          "content": "6. Let S be the unilateral shift and compute $S S ^ { * }$ and $S ^ { * } S .$ Also compute $S ^ { n } S ^ { * n }$ and $S ^ { * n } S ^ { n }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.343,
+            0.871,
+            0.378
+          ],
+          "content": "7. Compute the adjoint of the Volterra operator V (1.7) and $V + V ^ { * }$ . What is ran $( V + V ^ { * } ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.385,
+            0.873,
+            0.42
+          ],
+          "content": "8. Where was the hypothesis that $\\mathcal { H }$ is a Hilbert space over C used in the proof of Proposition 2.12?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.427,
+            0.868,
+            0.462
+          ],
+          "content": "9. Suppose $A = B + i C .$ where B and C are hermitian and prove that $B =$ $( A + A ^ { * } ) / 2 ,   C = ( A - A ^ { * } ) / 2 i .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.471,
+            0.379,
+            0.488
+          ],
+          "content": "10. Prove Proposition 2.15."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.496,
+            0.869,
+            0.514
+          ],
+          "content": "11. If A and B are self-adjoint, show that AB is self-adjoint if and only if $AB = BA$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.522,
+            0.873,
+            0.59
+          ],
+          "content": "12. Let $\\sum _ { n = 0 } ^ { \\infty } \\alpha _ { n } z ^ { n }$ be a power series with radius of convergence $R , 0 < R \\leqslant \\infty$ . If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ and $\\| \\pmb { A } \\| < R$ , show that there is an operator T in $\\mathcal { B } ( \\mathcal { H } )$ such that for any $h , g$ in $\\begin{array} { r } { \\mathcal { H } , \\langle T h , g \\rangle = \\sum _ { n = 0 } ^ { \\infty } \\alpha _ { n } \\langle A ^ { n } h , g \\rangle } \\end{array}$ . [If $f(z) = \\sum \\alpha_n z^n$ , the operator $T$ is usually denoted by f(A).]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.597,
+            0.868,
+            0.63
+          ],
+          "content": "13. Let A and T be as in Exercise 12 and show that $\\begin{array} { r } { \\| T - \\sum _ { k = 0 } ^ { n } \\alpha _ { k } A ^ { k } \\| \\rightarrow 0 } \\end{array}$ as $n \\to \\infty$ If $BA = AB,$ show that $B T = T B .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.639,
+            0.811,
+            0.657
+          ],
+          "content": "14. If $f(z) = \\exp z = \\sum_{n = 0}^{\\infty} z^n / n!$ and A is hermitian, show that $f ( i A )$ is unitary."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.665,
+            0.872,
+            0.733
+          ],
+          "content": "15. If A is a normal operator on $\\mathcal { H } ,$ show that A is injective if and only if A has dense range. Give an example of an operator B such that ker $B = ( 0 )$ but ran B is not dense. Give an example of an operator C such that C is surjective but ker $C \\neq ( 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.741,
+            0.871,
+            0.791
+          ],
+          "content": "16. Let $M _ { \\phi }$ be a multiplication operator (1.5) and show that ker $M _ { \\phi }   =   0$ if and only if $\\mu ( \\{ x : \\phi ( x ) = 0 \\} ) = 0$ Give necessary and sufficient conditions on $\\phi$ that ran $M _ { \\phi }$ be closed."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.821,
+            0.787,
+            0.869
+          ],
+          "level": 2,
+          "content": "§3. Projections and Idempotents; Invariant and Reducing Subspaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.886,
+            0.871,
+            0.924
+          ],
+          "content": "3.1. Definition. An idempotent on $\\mathcal { H }$ is a bounded linear operator E on $\\mathcal { H }$ such that $E ^ { 2 } = E .   \\mathbf { A }$ projection is an idempotent P such that ker $P = ( \\tan P ) ^ { \\perp }$"
+        }
+      ]
+    },
+    {
+      "page_idx": 51,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.74,
+            0.073
+          ],
+          "content": "§3. Projections and Idempotents; Invariant and Reducing Subspaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.057,
+            0.869,
+            0.071
+          ],
+          "content": "37"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.101,
+            0.87,
+            0.138
+          ],
+          "content": "If $\\mathcal { M } \\leqslant \\mathcal { H }$ , then $P _ { \\mathcal { M } }$ is a projection (Theorem I.2.7). It is not difficult to construct an idempotent that is not a projection (Exercise 1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.138,
+            0.871,
+            0.249
+          ],
+          "content": "Let E be any idempotent and set $\\mathcal { M } = \\operatorname { r a n } E$ and $\\mathcal { N } = \\ker E .$ Since E is continuous, $\\mathcal { N }$ is a closed subspace of . Notice that $( I - E ) ^ { 2 } = I - 2 E + E ^ { 2 } =$ $\\boldsymbol{I}-2 \\boldsymbol{E}+\\boldsymbol{E}=\\boldsymbol{I}-\\boldsymbol{E};$ thus $I - E$ is also an idempotent. Also, $0 = (I - E)h =$ $h - E h ,$ if and only if $E h = h .$ So ran $E \\supseteq \\ker ( I - E )$ . On the other hand, if $h \\in \\operatorname { r a n } E$ $h = E g$ and so $E h = E ^ { 2 } g = E g = h ;$ hence ran $E = \\ker ( I - E )$ Similarly, $\\operatorname { r a n } ( I - E ) = \\ker E .$ These facts are recorded here."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.266,
+            0.869,
+            0.338
+          ],
+          "content": "3.2. Proposition. (a) E is an idempotent if and only if $I - E$ is an idempotent. (b) ran $E = \\ker ( I - E )$ , ker $E = \\operatorname { r a n } ( I - E ) ,$ , and both ran E and ker E are closed linear subspaces of H. (c) If $\\mathcal { M } = \\operatorname { r a n } E$ and $\\mathcal { N } = \\ker E .$ then $\\mathcal { M } \\cap \\mathcal { N } = ( 0 )$ and $\\mathcal { M } + \\mathcal { N } = \\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.358,
+            0.87,
+            0.467
+          ],
+          "content": "The proof of part (c) is left as an exercise. There is also a converse to (c) If $\\mathcal { M } , \\mathcal { N } \\leq \\mathcal { H } , \\mathcal { M } \\cap \\mathcal { N } = ( 0 )$ , and $\\mathcal { M } + \\mathcal { N } = \\mathcal { H }$ , then there is an idempotent E such that $\\mathcal { M } = \\operatorname { r a n } E$ and $\\mathcal { N } = \\ker E ;$ moreover, E is unique. The difficult part in proving this converse is to show that E is bounded. The same fact is true in more generality (for Banach spaces) and so this proof will be postponed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.468,
+            0.869,
+            0.505
+          ],
+          "content": "Now we turn our attention to projections, which are peculiar to Hilbert space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.523,
+            0.87,
+            0.56
+          ],
+          "content": "3.3. Proposition. If E is an idempotent on $\\mathcal { H }$ and $E \\neq 0 ,$ the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.569,
+            0.333,
+            0.587
+          ],
+          "content": "(a) E is a projection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.588,
+            0.626,
+            0.606
+          ],
+          "content": "(b) E is the orthogonal projection of  onto ran E."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.606,
+            0.252,
+            0.623
+          ],
+          "content": "(c) $E \\parallel = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.625,
+            0.309,
+            0.64
+          ],
+          "content": "(d) E is hermitian."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.642,
+            0.285,
+            0.658
+          ],
+          "content": "(e) E is normal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.659,
+            0.432,
+            0.677
+          ],
+          "content": "(f) $\\langle E h , h \\rangle \\geqslant 0$ for all h in $\\mathcal { H } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.686,
+            0.871,
+            0.74
+          ],
+          "content": "PROOF. $(a) \\Rightarrow (b);$ Let $\\mathcal { M } = \\operatorname { r a n } E$ and $P = P_{\\mathcal{M}} \\quad  If   h \\in \\mathcal{H},   P h =$ the unique vector in M such that $h - P h \\in \\mathcal{M}^{\\perp} = (\\mathrm{ran}   E)^{\\perp} = \\mathrm{ker}   E$ by (a). But $h - E h = ( I - E ) h \\in$ ker E. Hence $E h = P h$ by uniqueness."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.741,
+            0.809,
+            0.759
+          ],
+          "content": "$$( \\mathsf { b } ) { \\Rightarrow } ( \\mathsf { c } ) { : } \\mathrm { ~ B y ~ } ( \\mathrm { I } . 2 . 7 ) , \\; \\| \\: E \\: \\| \\leqslant 1$$ . But $E h = h$ for h in ran E, so $\\| E \\| = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.759,
+            0.87,
+            0.833
+          ],
+          "content": "$(c) \\Rightarrow (a):  Let   h \\in (kerE)^{\\perp}$ . Now ran $( I - E ) = \\ker E ,$ so h — Eh∈ker E. Hence $0 = \\langle h - E h , h \\rangle = \\| h \\| ^ { 2 } - \\langle E h , h \\rangle$ Hence $\\| h \\| ^ { 2 } = \\langle E h , h \\rangle \\leqslant \\| E h \\| \\| h \\| \\leqslant$ $\\| h \\| ^ { 2 }$ . So for h in (ker $E ) ^ { \\perp } , \\quad \\| E h \\| = \\| h \\| = \\langle E h , h \\rangle ^ { 1 / 2 }$ . But then for h in $( \\ker E ) ^ { \\perp }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.265,
+            0.841,
+            0.73,
+            0.86
+          ],
+          "content": "\\| h - E h \\| ^ { 2 } = \\| h \\| ^ { 2 } - 2 \\operatorname { R e } \\langle E h , h \\rangle + \\| E h \\| ^ { 2 } = 0 .",
+          "image_source": "images/page_51_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.868,
+            0.87,
+            0.924
+          ],
+          "content": "That is, (ker $E ) ^ { \\perp } \\subseteq \\ker ( I - E ) = \\operatorname { r a n } E$ . On the other hand, if geran $E ,$ $\\boldsymbol { g } = \\boldsymbol { g } _ { 1 } + \\boldsymbol { g } _ { 2 }$ , where $g _ { 1 }   \\in   \\ker E$ and $g_{2} \\in (\\ker E)^{\\perp}$ . Thus $g = E g = E g _ { 2 } = g _ { 2 } ;$ that is, ran $E \\subseteq ( \\ker E ) ^ { \\perp }$ . Therefore ran $E = ( \\ker E ) ^ { \\perp }$ and E is a projection."
+        }
+      ]
+    },
+    {
+      "page_idx": 52,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.058,
+            0.156,
+            0.072
+          ],
+          "content": "38"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.586,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.1,
+            0.867,
+            0.138
+          ],
+          "content": "$( b ) \\Rightarrow ( f ) :$ If $h \\in \\mathcal { H }$ , write $h = h _ { 1 } + h _ { 2 } ,   h _ { 1 }$ eran E, $h _ { 2 } \\in$ ker $E = ( \\tan E ) ^ { \\perp }$ . Hence $\\langle E h , h \\rangle = \\langle E ( h _ { 1 } + h _ { 2 } ) , h _ { 1 } + h _ { 2 } \\rangle = \\langle E h _ { 1 } , h _ { 1 } \\rangle = \\langle h _ { 1 } , h _ { 1 } \\rangle = \\| h _ { 1 } \\| ^ { 2 } \\geqslant 0.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.138,
+            0.869,
+            0.249
+          ],
+          "content": "$(f) \\Rightarrow (a);$ Let $h _ { 1 }   \\in   \\operatorname { r a n } E$ and $h _ { 2 } \\in \\ker E .$ Then by $0 \\leqslant \\langle E(h_1 + h_2),$ $h _ { 1 } + h _ { 2 } \\rangle = \\langle h _ { 1 } , h _ { 1 } \\rangle + \\langle h _ { 1 } , h _ { 2 } \\rangle$ . Hence $- \\left\\| h _ { 1 } \\right\\| ^ { 2 } \\leqslant \\left\\langle h _ { 1 } , h _ { 2 } \\right\\rangle$ for all $h _ { 1 }$ in ran E and $h _ { 2 }$ in ker E. If there are such $h _ { 1 }$ and $h _ { 2 }$ with $\\langle h _ { 1 } , h _ { 2 } \\rangle = \\bar { \\alpha } \\neq 0 ,$ then substituting $k_{2} = - 2\\alpha^{- 1}\\left\\| h_{1} \\right\\|^{2}h_{2}$ for $h _ { 2 }$ in this inequality, we obtain $- \\left\\| h _ { 1 } \\right\\| ^ { 2 } \\leqslant - 2 \\left\\| h _ { 1 } \\right\\| ^ { 2 } ,$ a contradiction. Hence $\\langle h _ { 1 } , h _ { 2 } \\rangle = 0$ whenever $h _ { 1 }   \\in   \\operatorname { r a n } E$ and $h _ { 2 } { \\in } { 1 }$ ker E. That is, E is a projection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.247,
+            0.87,
+            0.305
+          ],
+          "content": "$(a) \\Rightarrow (d)$ Let $h , g \\in \\mathcal { H }$ and put $\\boldsymbol { h } = \\boldsymbol { h } _ { 1 } + \\boldsymbol { h } _ { 2 }$ and $\\boldsymbol { g } = \\boldsymbol { g } _ { 1 } + \\boldsymbol { g } _ { 2 } ,$ where $h _ { 1 } , g _ { 1 } { \\in } { \\mathrm { r a n } } E$ and $h_{2},g_{2}\\in \\ker E=(\\operatorname{ran}E)^{\\perp}$ . Hence $\\langle E h , g \\rangle = \\langle h _ { 1 } , g _ { 1 } \\rangle$ . Also, $\\langle E ^ { * } h , g \\rangle = \\langle h , E g \\rangle = \\langle h _ { 1 } , g _ { 1 } \\rangle = \\langle E h , g \\rangle$ . Thus $E = E ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.305,
+            0.298,
+            0.321
+          ],
+          "content": "(d)⇒(e): clear."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.321,
+            0.869,
+            0.36
+          ],
+          "content": "(e)⇒(a): By (2.16), $\\|   E h   \\| = \\|   E ^ { * } h   \\|$ for every h. Hence ker $E = \\ker E ^ { * }$ . But by (2.19), ker $E^{*} = (\\tan E)^{\\perp}$ , so E is a projection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.377,
+            0.869,
+            0.414
+          ],
+          "content": "Note that by part (b) of the preceding proposition, if E is a projection and $\\mathcal { M } = \\operatorname { r a n } E ,$ then $E = P _ { \\mathcal { M } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.413,
+            0.871,
+            0.505
+          ],
+          "content": "Let P be a projection with ran $P = \\mathcal { M }$ and ker $P = \\mathcal { N }$ . So both $\\mathcal { M }$ and $\\mathcal { N }$ are closed subspaces of $\\mathcal { H }$ and, hence, are also Hilbert spaces. As in (I.6.1), we can form $\\mathcal { M } \\oplus \\mathcal { N }$ . If $U : { \\mathcal { M } } \\oplus { \\mathcal { N } } \\to { \\mathcal { H } }$ is defined by $U ( h \\oplus g ) = h + g$ for h in $\\mathcal { M }$ and $g$ in $\\mathcal { N } ,$ then it is easy to see that U is an isomorphism. Making this identification, we will often write $\\mathcal { H } = \\mathcal { M } \\oplus \\mathcal { N }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.505,
+            0.58,
+            0.524
+          ],
+          "content": "More generally, the following will be used."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.54,
+            0.872,
+            0.576
+          ],
+          "content": "3.4. Definition. If $\\{ \\mathcal { M } _ { i } \\}$ is a collection of pairwise orthogonal subspaces of $\\mathcal { H } ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.422,
+            0.573,
+            0.578,
+            0.592
+          ],
+          "content": "\\oplus _ { i } \\mathcal { M } _ { i } \\equiv \\nabla _ { i } \\mathcal { M } _ { i } .",
+          "image_source": "images/page_52_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.599,
+            0.717,
+            0.618
+          ],
+          "content": "If M and $\\mathcal { N }$ are two closed linear subspaces of $\\mathcal { H } ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.397,
+            0.626,
+            0.604,
+            0.644
+          ],
+          "content": "\\mathcal { M } \\ominus \\mathcal { N } \\equiv \\mathcal { M } \\cap \\mathcal { N } ^ { \\perp } .",
+          "image_source": "images/page_52_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.653,
+            0.649,
+            0.671
+          ],
+          "content": "This is called the orthogonal difference of $\\mathcal { M }$ and $\\mathcal { N } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.671,
+            0.873,
+            0.728
+          ],
+          "content": "Note that if $\\mathcal { M } , \\mathcal { N } \\leqslant \\mathcal { H }$ and $\\mathcal { M } \\bot \\mathcal { N }$ , then $\\mathcal { M } + \\mathcal { N }$ is closed. (Why?) Hence $\\mathcal { M } \\oplus \\mathcal { N } = \\mathcal { M } + \\mathcal { N }$ . The same is true, of course, for any finite collection of pairwise orthogonal subspaces but not for infinite collections."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.744,
+            0.872,
+            0.801
+          ],
+          "content": "3.5. Definition. If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ and $\\mathcal { M } \\leqslant \\mathcal { H }$ , say that $\\mathcal { M }$ is an invariant subspace for A if $A h \\in \\mathcal { M }$ whenever $h \\in \\mathcal { M }$ . In other words, if $A \\mathcal { M } \\subseteq \\mathcal { M }$ . Say that $\\mathcal { M }$ is a reducing subspace for A if $\\mathcal { A } \\mathcal { M } \\subseteq \\mathcal { M }$ and $\\mathcal { A } \\mathcal { M } ^ { \\perp } \\subseteq \\mathcal { M } ^ { \\perp }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.818,
+            0.872,
+            0.855
+          ],
+          "content": "If $\\mathcal { M } \\leqslant \\mathcal { H }$ , then $\\mathcal { H } = \\mathcal { M } \\oplus \\mathcal { M } ^ { \\perp }$ . If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ , then A can be written as a $2 \\times 2$ matrix with operator entries,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.428,
+            0.857,
+            0.576,
+            0.898
+          ],
+          "content": "A = { \\left[ \\begin{matrix} { W } & { X } \\\\ { Y } & { Z } \\end{matrix} \\right] } ,",
+          "image_source": "images/page_52_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.903,
+            0.758,
+            0.922
+          ],
+          "content": "where $W   \\in   \\mathcal { B } ( \\mathcal { M } ) , \\; X   \\in   \\mathcal { B } ( \\mathcal { M } ^ { \\perp } , \\mathcal { M } ) , \\; Y   \\in   \\mathcal { B } ( \\mathcal { M } , \\mathcal { M } ^ { \\perp } ) ,$ and $Z \\in \\mathcal { B } ( \\mathcal { M } ^ { \\perp } )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 53,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.055,
+            0.743,
+            0.073
+          ],
+          "content": "§3. Projections and Idempotents; Invariant and Reducing Subspaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.846,
+            0.056,
+            0.871,
+            0.07
+          ],
+          "content": "39"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "content": "3.7. Proposition. $If A \\in \\mathcal{B}(\\mathcal{H}), \\mathcal{M} \\leq \\mathcal{H}$ , and $P = P _ { \\mathcal { M } } ,$ then statements (a) through (c) are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.147,
+            0.372,
+            0.165
+          ],
+          "content": "(a) M is invariant for A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.165,
+            0.279,
+            0.182
+          ],
+          "content": "(b) $PAP = AP.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.183,
+            0.311,
+            0.201
+          ],
+          "content": "(c) In $( 3 . 6 ) , \\; Y = 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.21,
+            0.605,
+            0.23
+          ],
+          "content": "Also, statements (d) through (g) are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.238,
+            0.304,
+            0.256
+          ],
+          "content": "(d) M reduces A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.257,
+            0.265,
+            0.274
+          ],
+          "content": "(e) $PA = AP.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.275,
+            0.4,
+            0.292
+          ],
+          "content": "(f) In (3.6), Y and X are 0."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.293,
+            0.497,
+            0.312
+          ],
+          "content": "(g) M is invariant for both A and $A ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.32,
+            0.87,
+            0.356
+          ],
+          "content": "PROOF. (a)⇒(b): If $h \\in \\mathcal { H }$ , PheM. So $A P h \\in \\mathcal { M }$ Hence, $P(APh) = APh$ That is, $PAP = AP$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.357,
+            0.871,
+            0.394
+          ],
+          "content": "(b)⇒(c): If P is represented as a $2 \\times 2$ operator matrix relative to $\\mathcal { H } = \\mathcal { M } \\oplus \\mathcal { M } ^ { \\perp }$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.432,
+            0.4,
+            0.566,
+            0.446
+          ],
+          "content": "P = { \\left[ \\begin{matrix} { I } & { 0 } \\\\ { 0 } & { 0 } \\end{matrix} \\right] } .",
+          "image_source": "images/page_53_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.446,
+            0.202,
+            0.464
+          ],
+          "content": "Hence,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.323,
+            0.462,
+            0.671,
+            0.507
+          ],
+          "content": "PAP = \\begin{bmatrix} W & 0 \\\\ 0 & 0 \\end{bmatrix} = AP = \\begin{bmatrix} W & 0 \\\\ Y & 0 \\end{bmatrix}.",
+          "image_source": "images/page_53_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.514,
+            0.227,
+            0.531
+          ],
+          "content": "So $Y   =   0 ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.533,
+            0.484,
+            0.552
+          ],
+          "content": "(c)⇒(a): If Y = 0 and $h \\in \\mathcal { M } ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.559,
+            0.666,
+            0.603
+          ],
+          "content": "\\boldsymbol { A } \\boldsymbol { h } = \\left[ \\begin{array} { c c } { \\boldsymbol { W } } & { \\boldsymbol { X } } \\\\ { 0 } & { \\boldsymbol { Z } } \\end{array} \\right] \\left[ \\begin{array} { c } { \\boldsymbol { h } } \\\\ { 0 } \\end{array} \\right] = \\left[ \\begin{array} { c } { \\boldsymbol { W } \\boldsymbol { h } } \\\\ { 0 } \\end{array} \\right] \\in \\mathcal { M } .",
+          "image_source": "images/page_53_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.61,
+            0.871,
+            0.665
+          ],
+          "content": "$(d) \\Rightarrow (c);$ Since both M and $\\mathcal { M } ^ { \\perp }$ are invariant for A, (b) implies that $AP = PAP$ and $A(I - P) = (I - P)A(I - P)$ . Multiplying this second equation gives $A - AP = A - AP - PA + PAP.$ Thus $PA = PAP = AP.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.665,
+            0.328,
+            0.682
+          ],
+          "content": "(e)⇒(f): Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.683,
+            0.424,
+            0.701
+          ],
+          "content": "(f)⇒(g): If $X = Y = 0 ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.297,
+            0.708,
+            0.697,
+            0.751
+          ],
+          "content": "A = \\left[ \\begin{matrix} { W } & { 0 } \\\\ { 0 } & { Z } \\\\ \\end{matrix} \\right] \\quad \\mathrm { a n d } \\quad A ^ { * } = \\left[ \\begin{matrix} { W ^ { * } } & { 0 } \\\\ { 0 } & { Z ^ { * } } \\\\ \\end{matrix} \\right] .",
+          "image_source": "images/page_53_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.759,
+            0.54,
+            0.777
+          ],
+          "content": "By (c), M is invariant for both A and $A ^ { * } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.777,
+            0.867,
+            0.815
+          ],
+          "content": "(g)⇒(d): If $h \\in \\mathcal { M } ^ { \\perp }$ and $g \\in \\mathcal { M } _ { 1 }$ then $\\langle g , A h \\rangle = \\langle A ^ { * } g , h \\rangle = 0$ since $A ^ { * } g \\in { \\mathcal { M } }$ Since g was an arbitrary vector in $\\mathcal { M } ,   A h \\in \\mathcal { M } ^ { \\perp }$ . That is, $A M ^ { \\perp } \\subseteq \\mathcal { M } ^ { \\perp }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.833,
+            0.871,
+            0.887
+          ],
+          "content": "If M reduces A, then $X = Y = 0$ in (3.6). This says that a study of A is reduced to the study of the smaller operators W and Z. This is the reason for the terminology."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.888,
+            0.871,
+            0.925
+          ],
+          "content": "If $A   \\in   \\mathcal { B } ( \\mathcal { H } )$ and M is an invariant subspace for A, then $A \\vert \\mathcal { M }$ is used to denote the restriction of A to M. That is, $A | \\mathcal { M }$ is the operator on M defined"
+        }
+      ]
+    },
+    {
+      "page_idx": 54,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.159,
+            0.07
+          ],
+          "content": "40"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.588,
+            0.055,
+            0.87,
+            0.072
+          ],
+          "content": "II. Operators on Hilbert Space"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.868,
+            0.156
+          ],
+          "continues_prev": true,
+          "content": "by $( A \\mid \\mathcal { M } ) h = A h$ whenever $h \\in \\mathcal { M }$ .Note that $\\mathcal { A } | \\mathcal { M } \\in \\mathcal { B } ( \\mathcal { M } )$ and $\\| A \\| \\mathcal { M } \\| \\leqslant \\| A \\|$ Also, if M is invariant for A and A has the representation (3.6) with $Y   =   0$ then $W = A \\vert \\mathcal { M }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.179,
+            0.232,
+            0.196
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.198,
+            0.869,
+            0.251
+          ],
+          "content": "1. Let $\\mathcal { H }$ be the two-dimensional real Hilbert space $\\begin{array} { r } { \\mathbb { R } ^ { 2 } , } \\end{array}$ let $\\mathcal { M } \\equiv \\left\\{ ( x , 0 ) \\in \\mathbb { R } ^ { 2 } : x \\in \\mathbb { R } \\right\\}$ and let $\\mathcal { N } \\equiv \\{ ( x , x \\tan \\theta ) : x \\in \\mathbb { R } \\}$ , where $0 < \\theta < \\frac { 1 } { 2 } \\pi$ . Find a formula for the idempotent $E _ { \\theta }$ with ran $E _ { \\theta } = \\mathcal { M }$ and ker $E _ { \\theta }   =   \\mathcal { N }$ . Šhow that $\\| E _ { \\theta } \\| = ( \\sin \\theta ) ^ { - 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.258,
+            0.393,
+            0.276
+          ],
+          "content": "2. Prove Proposition 3.2 (c)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.283,
+            0.868,
+            0.32
+          ],
+          "content": "3. Let $\\{ \\mathcal { M } _ { i } ; i { \\in } I \\}$ be a collection of closed subspaces of $\\mathcal { H }$ and show that $n \\{ \\mathcal { M } _ { i } ^ { \\perp }$ $i { \\in } I \\} = [ \\vee \\{ { \\mathcal { M } } _ { i } { : } i { \\in } I \\} ] ^ { \\perp }$ and $[ \\cap \\{ \\mathcal { M } _ { i } \\colon i { \\in } I \\} ] ^ { \\perp } = \\vee \\; \\{ \\mathcal { M } _ { i } ^ { \\perp } \\colon i { \\in } I \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.327,
+            0.871,
+            0.397
+          ],
+          "content": "4. Let P and Q be projections. Show: (a) $P + Q$ is a projection if and only if ran P ⊥ ran Q. If $P + Q$ is a projection, then ran $(P + Q) = \\mathrm{ran} P + \\mathrm{ran} Q$ and ker $(P + Q) = \\ker P \\cap$ ker Q. (b) PQ is a projection if and only if $PQ = QP$ If PQ is a projection, then ran PQ = ran P∩ ran Q and ker $PQ = \\ker P + \\ker Q.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.404,
+            0.87,
+            0.472
+          ],
+          "content": "5. Generalize Exercise 4 as follows. Suppose $\\{ \\mathcal { M } _ { i } ; i { \\in } I \\}$ is a collection of subspaces of $\\mathcal { H }$ such that $\\mathcal { M } _ { i } \\bot \\mathcal { M } _ { j }$ if $i \\neq j .$ Let $P _ { i }$ be the projection of $\\mathcal { H }$ onto $\\mathcal { M } _ { i }$ and show that for all h in $\\mathcal { H } , \\sum \\{ P _ { i } h \\colon i { \\in } I \\}$ converges to Ph, where P is the projection of $\\mathcal { H }$ onto $\\vee \\left\\{ { \\mathcal { M } } _ { i } ; i { \\in } I \\right\\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.479,
+            0.87,
+            0.531
+          ],
+          "content": "6. If P and Q are projections, then the following statements are equivalent. (a) $P - Q$ is a projection. (b) ran $Q \\subseteq \\operatorname { r a n } P$ (c) PQ = Q. (d) QP = Q. If P − Q is a projection, then ran $(P - Q) = (\\mathrm{ran} P) \\ominus (\\mathrm{ran} Q)$ and ker $( P - Q ) = \\mathrm { r a n } \\; Q + \\mathrm { k e r } \\; P .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.538,
+            0.87,
+            0.589
+          ],
+          "content": "7. Let P and Q be projections. Show that $PQ = QP$ if and only if $P + Q - PQ$ is a projection. If this is the case, then ran $(P + Q - PQ) = \\tan P + \\tan Q$ and $\\ker(P + Q - PQ) = \\ker P \\cap \\ker Q.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.597,
+            0.628,
+            0.614
+          ],
+          "content": "8. Give an example of two noncommuting projections."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.622,
+            0.869,
+            0.707
+          ],
+          "content": "9. Let $A \\in \\mathcal { B } ( \\mathcal { H } )$ and let N = graph $A \\subseteq { \\mathcal { H } } \\oplus { \\mathcal { H } }$ That is, $\\mathcal { N } = \\{ h \\oplus A h \\colon h { \\in } \\mathcal { H } \\}$ Because A is continuous and linear, $\\mathcal { N } \\leqslant \\mathcal { H } \\oplus \\mathcal { H }$ Let $\\mathcal { M } = \\mathcal { H } \\oplus ( 0 ) \\leq \\mathcal { H } \\oplus \\mathcal { H }$ Prove the following statements. (a) $\\mathcal { M } \\cap \\mathcal { N } = ( 0 )$ if and only if ker $A = ( 0 )$ (b) $\\mathcal { M } + \\mathcal { N }$ is dense in $\\mathcal { H } \\oplus \\mathcal { H }$ if and only if ran A is dense in f. (c) $\\mathcal { M } + \\mathcal { N } = \\mathcal { H } \\oplus \\mathcal { H }$ if and only if A is surjective."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.715,
+            0.869,
+            0.749
+          ],
+          "content": "10. Find two closed linear subspaces $\\mathcal { M } , \\mathcal { N }$ of an infinite dimensional Hilbert space $\\mathcal { H }$ such that $\\mathcal { M } \\cap \\mathcal { N } = ( 0 )$ and $\\mathcal { M } + \\mathcal { N }$ is dense in $\\mathcal { H }$ , but $\\mathcal { M } + \\mathcal { N } \\neq \\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.757,
+            0.87,
+            0.809
+          ],
+          "content": "11. Define A: $l ^ { 2 } ( \\mathbb { Z } ) \\to l ^ { 2 } ( \\mathbb { Z } )$ by $A(\\ldots,\\alpha_{-1},\\alpha_{0},\\alpha_{1},\\ldots)=(\\ldots,\\alpha_{-1},\\alpha_{0},\\alpha_{1},\\ldots),$ where  sits above the coefficient in the 0-place. Find an invariant subspace of A that does not reduce A. This operator is called the bilateral shift."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.817,
+            0.869,
+            0.869
+          ],
+          "content": "12. Let $\\mu = \\mathbf { A r e a }$ measure on $\\mathbb { D }   \\equiv   \\{ z   \\in   \\mathbb { C } \\colon | z | < 1 \\}$ and define A: $L ^ { 2 } ( \\mu )   \\to   L ^ { 2 } ( \\mu )$ by $(Af)(z) = zf(z)  for  |z| < 1$ and f in $L ^ { 2 } ( \\mu )$ . Find a nontrivial reducing subspace for A and an invariant subspace that does not reduce A."
+        }
+      ]
+    },
+    {
+      "page_idx": 55,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.131,
+            0.056,
+            0.348,
+            0.073
+          ],
+          "content": "§4. Compact Operators"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.057,
+            0.87,
+            0.071
+          ],
+          "content": "41"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.096,
+            0.463,
+            0.12
+          ],
+          "level": 2,
+          "content": "§4. Compact Operators"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.129,
+            0.873,
+            0.203
+          ],
+          "content": "It turns out that most of the statements about linear transformations on finite dimensional spaces have nice generalizations to a certain class of operators on infinite dimensional spaces—namely, to the compact operators, Let ball $\\mathcal { H }$ denote the closed unit ball in $\\mathcal { H }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.219,
+            0.871,
+            0.277
+          ],
+          "content": "4.1. Definition. A linear transformation T: $\\mathcal { H } \\rightarrow \\mathcal { H }$ is compact if T(ball $\\mathcal { H } )$ has compact closure in $\\mathcal { H }$ The set of compact operators from $\\mathcal { H }$ into $\\mathcal { H }$ is denoted by $\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$ and $\\mathcal { B } _ { 0 } ( \\mathcal { H } ) = \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.294,
+            0.553,
+            0.312
+          ],
+          "content": "4.2. Proposition. (a) $\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } ) \\subseteq \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.312,
+            0.871,
+            0.349
+          ],
+          "content": "(b) $\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$ is a linear space and $if\\{T_n\\}\\subseteq\\mathcal{B}_0(\\mathcal{H},\\mathcal{H})$ and $T \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ such that $\\| T _ { n } - T \\| \\to 0 ,$ then $T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.348,
+            0.862,
+            0.368
+          ],
+          "content": "(c) If $A \\in \\mathcal{B}(\\mathcal{H}),   B \\in \\mathcal{B}(\\mathcal{H})$ , and $T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$ , then TA and $B T \\in \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.375,
+            0.872,
+            0.431
+          ],
+          "content": "PROOF. (a) If $T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$ , then cl[T(ball )] is compact in $\\mathcal { H }$ Hence there is a constant $C > 0$ such that T(ball $\\mathcal { H } ) \\subseteq \\{ k \\in \\mathcal { H } : \\| k \\| \\leqslant C \\}$ . Thus $\\| T \\| \\leqslant C .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.432,
+            0.873,
+            0.562
+          ],
+          "content": "(b) It is left to the reader to show that $\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$ is a linear space. For the second part of (b), it will be shown that T(ball $\\mathcal { H } )$ is totally bounded. Since $\\mathcal { H }$ is a complete metric space, this is equivalent to showing that T(ball $\\mathcal { H } )$ has compact closure. Let $\\varepsilon   >   0$ and choose n such that $\\| T - T _ { n } \\| < \\varepsilon / 3$ Since $T _ { n }$ is compact, there are vectors $h _ { 1 } , \\ldots , h _ { m }$ in ball $\\mathcal { H }$ such that $T _ { n } ($ ball $\\mathcal { H } ) \\subseteq \\bigcup _ { j = 1 } ^ { m } B ( T _ { n } h _ { j } ; \\varepsilon / 3 )$ . So if $\\| h \\| \\leqslant 1$ , there is an $h _ { j }$ with二 $T _ { n } h _ { j } - T _ { n } h \\parallel < \\varepsilon / 3$ . Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22,
+            0.568,
+            0.795,
+            0.631
+          ],
+          "content": "\\begin{align*}\\|   T h_j - T h   \\| & \\leqslant \\|   T h_j - T_n h_j \\| + \\|   T_n h_j - T_n h   \\| + \\|   T_n h - T h   \\| \\\\& < 2 \\|   T - T_n   \\| + \\varepsilon / 3 \\\\& < \\varepsilon.\\end{align*}",
+          "image_source": "images/page_55_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.641,
+            0.473,
+            0.66
+          ],
+          "content": "Hence T(ball $\\mathcal { H } ) \\subseteq \\bigcup _ { j = 1 } ^ { m } B ( T h _ { j } ; \\varepsilon ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.66,
+            0.517,
+            0.677
+          ],
+          "content": "The proof of (c) is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.695,
+            0.873,
+            0.751
+          ],
+          "content": "4.3. Definition. An operator $T$ on $\\mathcal { H }$ has finite rank if ran $T$ is finite dimensional. The set of continuous finite rank operators is denoted by $\\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } ) ;   \\mathcal { B } _ { 0 0 } ( \\mathcal { H } ) = \\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.768,
+            0.872,
+            0.824
+          ],
+          "content": "It is easy to see that $\\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } )$ is a linear space and $\\mathcal { B } _ { 0 0 } ( \\mathcal { H } , \\mathcal { H } ) \\subseteq$ $\\mathcal { B } _ { 0 } ( \\mathcal { H } , \\mathcal { H } )$ (Exercise 2). Before giving other examples of compact operators, however, the next result should be proved."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.841,
+            0.811,
+            0.86
+          ],
+          "content": "4.4. Theorem. If $T \\in \\mathcal { B } ( \\mathcal { H } , \\mathcal { H } )$ , the following statements are equivalent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.869,
+            0.305,
+            0.887
+          ],
+          "content": "(a) $T$ is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.888,
+            0.314,
+            0.905
+          ],
+          "content": "(b) $T ^ { * }$ is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.905,
+            0.857,
+            0.925
+          ],
+          "content": "(c) There is a sequence $\\{ T _ { n } \\}$ of operators of finite rank such that $\\| T - T _ { n } \\| \\to 0 .$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 48,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 49,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 50,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 51,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 52,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 53,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 54,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 55,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

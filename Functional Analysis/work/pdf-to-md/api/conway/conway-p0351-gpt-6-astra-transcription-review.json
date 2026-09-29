@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 351,
+  "model": "gpt-6-astra",
+  "seconds": 12.97,
+  "input_tokens": 3502,
+  "output_tokens": 331,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"t^{-1}[Vf-f]\",\n      \"correction\": \"t^{-1}[V^t f-f]\",\n      \"description\": \"Missing superscript t on V in the opening norm estimate.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

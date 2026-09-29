@@ -1,0 +1,207 @@
+{
+  "pages": [
+    {
+      "page_idx": 89,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.337,
+            0.073
+          ],
+          "content": "§5. Linear Functionals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": "75"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.099,
+            0.871,
+            0.211
+          ],
+          "content": "it suffices, since $C _ { b } ( B )$ is complete (1.6), to show that $\\rho ( \\mathcal { X } ^ { * } )$ is closed. Let $\\left\\{ f _ { n } \\right\\} \\subseteq { \\mathcal { X } } ^ { * }$ and suppose $g   \\in   \\bar { C } _ { b } ( B )$ such that $\\| \\rho ( f _ { n } ) - g \\| \\to 0$ as $n   \\rightarrow   \\infty$ . Let $x { \\in } { \\mathcal { X } }$ . If $\\alpha , \\beta \\in \\mathbb { F } , \\alpha , \\beta \\neq 0 ,$ such that αx, $\\beta x { \\in } B ,$ then $\\alpha ^ { - 1 } g ( \\alpha x ) =$ lim $\\alpha^{-1} f_n(\\alpha x) =$ lim $\\beta ^ { - 1 } f _ { n } ( \\beta x ) = \\beta ^ { - 1 } g ( \\beta x )$ . Define $f \\colon { \\mathcal { X } }   \\to   \\mathbb { F }$ by letting $f(x) = \\alpha^{-1} g(\\alpha x)$ for any $\\alpha \\neq 0$ such that $\\alpha x { \\in } B .$ It is left as an exercise for the reader to show that $f \\in \\mathcal { X } ^ { * }$ and $\\rho ( f )   =   g$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.227,
+            0.629,
+            0.245
+          ],
+          "content": "Compare the preceding result with Exercise 2.1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.246,
+            0.871,
+            0.303
+          ],
+          "content": "It should be emphasized that it is not assumed in the preceding proposition that $\\mathcal { X }$ is complete. In fact, if $\\mathcal { X }$ is a normed space and $\\hat { \\mathcal { X } }$ is its completion (Exercise 1.16), then $\\mathcal { X } ^ { * }$ and $\\hat { \\mathcal { X } } ^ { * }$ are isometrically isomorphic (Exercise 2.2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.319,
+            0.874,
+            0.358
+          ],
+          "content": "5.5. Theorem. Let $( X , \\Omega , \\mu )$ be a measure space and let $1 < p < \\infty$ . If $1 / p + 1 / q = 1$ and $g   \\in   L ^ { q } ( X , \\Omega , \\mu ) ,$ define $F _ { g } \\colon L ^ { p } ( \\mu ) \\to \\mathbb { F } \\; b y$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.416,
+            0.364,
+            0.579,
+            0.407
+          ],
+          "content": "F _ { g } ( f ) = \\int f g   d \\mu .",
+          "image_source": "images/page_89_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.413,
+            0.87,
+            0.452
+          ],
+          "content": "Then $F _ { g } \\in L ^ { p } ( \\mu ) ^ { * }$ and the map $g   \\mapsto   F _ { g }$ defines an isometric isomorphism of $L ^ { \\pmb { q } } ( \\mu )$ onto $L ^ { p } ( \\mu ) ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.469,
+            0.87,
+            0.526
+          ],
+          "content": "Since this theorem is often proved in courses in measure and integration the proof of this result, as well as the next two, is contained in the Appendix. See Appendix B for the proofs of (5.5) and (5.6)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.542,
+            0.87,
+            0.58
+          ],
+          "content": "5.6. Theorem. $I f ( X , \\Omega , \\mu )$ is a σ-finite measure space and $g { \\in } L ^ { \\infty } ( X , \\Omega , \\mu )$ , define $F _ { g } : L ^ { 1 } ( \\mu ) \\to \\mathbb { F } b y$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.416,
+            0.586,
+            0.578,
+            0.629
+          ],
+          "content": "F _ { g } ( f ) = \\int f g   d \\mu .",
+          "image_source": "images/page_89_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.635,
+            0.869,
+            0.673
+          ],
+          "content": "Then $F _ { g }   \\in   L ^ { 1 } ( \\mu ) ^ { * }$ and the map $g   \\mapsto   F _ { g }$ defines an isometric isomorphism of $L ^ { \\infty } ( \\mu )$ onto $L ^ { 1 ^ { \\circ } } ( \\mu ) ^ { * }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.69,
+            0.87,
+            0.764
+          ],
+          "content": "Note that when $p = 2$ in Theorem 5.5, there is a little difference between (5.5) and (I.3.5) owing to the absence of a complex conjugate in (5.5). Also, note that (5.6) is false if the measure space is not assumed to be σ-finite (Exercise 3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.763,
+            0.871,
+            0.82
+          ],
+          "content": "If X is a locally compact space, M(X) denotes the space of all F-valued regular Borel measures on X with the total variation norm. See Appendix C for the definitions as well as the proof of the next theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.845,
+            0.871,
+            0.883
+          ],
+          "content": "5.7. Riesz Representation Theorem. If X is a locally compact space and $\\mu { \\in } M ( X ) ,$ , define $F _ { \\mu } \\colon C _ { 0 } ( X ) \\to \\mathbb { F } \\; b y$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.423,
+            0.889,
+            0.575,
+            0.932
+          ],
+          "content": "F _ { \\mu } ( f ) = \\int f d \\mu .",
+          "image_source": "images/page_89_equation_15.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 89,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

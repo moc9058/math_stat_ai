@@ -1,0 +1,5195 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 72,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 73,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 74,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 75,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 76,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 77,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 78,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 79,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 72,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.056,
+            0.155,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "58"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.585,
+            0.056,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.869,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.14. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\iint T"
+            },
+            {
+              "type": "text",
+              "content": " is a compact normal operator, then T is positive if and only if all its eigenvalues are non-negative real numbers."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.152,
+            0.868,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\pmb { T } = \\sum _ { 1 } ^ { \\infty } \\lambda _ { n } \\pmb { P } _ { n } . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in P _ { n } \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| { \\pmb h } \\| = 1 ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T h = \\lambda _ { n } h ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } = \\langle T h , h \\rangle \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Conversely, assume each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = h _ { 0 } + \\sum _ { n = 1 } ^ { \\infty } h _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " ,where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 0 } \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": " ker T and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { n }   \\in   P _ { n } \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " for n ≥ 1. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { T h = \\sum _ { 1 } ^ { \\infty } \\lambda _ { n } h _ { n } . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle T h , h \\rangle = \\langle \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } h _ { n } , h _ { 0 } + \\sum _ { m = 1 } ^ { \\infty } h _ { m } \\rangle = \\sum _ { n = 1 } ^ { \\infty } \\sum _ { m = 0 } ^ { \\infty } \\lambda _ { n } \\langle h _ { n } , h _ { m } \\rangle ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } \\| h _ { n } \\| ^ { 2 } \\geqslant 0 } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle h _ { n } , h _ { m } \\rangle = 0"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq m ."
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.264,
+            0.87,
+            0.301
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.15. Theorem. If T is a compact self-adjoint operator, then there are unique positive compact operators A, B such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A - B"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA = 0"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.31,
+            0.871,
+            0.421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = \\sum_{n = 1}^{\\infty} \\lambda_{n} P_{n}"
+            },
+            {
+              "type": "text",
+              "content": " as in (7.6). Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi , \\psi \\colon \\mathbb { C }   \\to   \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( \\lambda _ { n } ) = \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } > 0 , \\phi ( z ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " otherwise; "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( \\lambda _ { n } ) = - \\lambda _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } < 0 , \\psi ( z ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " otherwise. Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\psi ( T ) ."
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\sum \\left\\{ \\lambda_{n} P_{n} : \\lambda_{n} > 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\sum \\left\\{ - \\lambda _ { n } P _ { n } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } < 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A - B"
+            },
+            {
+              "type": "text",
+              "content": " Since φψ = 0. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = BA = 0"
+            },
+            {
+              "type": "text",
+              "content": " by (7.11a). Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi , \\psi \\geqslant 0 , A , B \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " by the preceding proposition. It remains to show that A, B are unique."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.421,
+            0.871,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = C - D"
+            },
+            {
+              "type": "text",
+              "content": " where C, D are compact positive operators and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C D ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D C   =   0"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to check that C and D commute with T. Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { 0 }   =   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 0 } = \\mathrm { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " projection of  onto ker T. Thus C and D are reduced by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n } \\mathcal { H } \\equiv \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { n } = C | \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { n } = D | \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { n } D _ { n } = D _ { n } C _ { n } = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } P _ { n } = T \\left| \\mathcal { H } _ { n } = C _ { n } - D _ { n } \\right|"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { n } , D _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are positive. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n }   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { n } D _ { n } = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{n} \\supseteq \\mathrm{cl}\\left[ \\mathrm{ran}   D_{n} \\right] = \\left( \\mathrm{ker}   D_{n} \\right)^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{h} \\in (\\ker D_n)^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } { \\pmb h } = - D _ { n } { \\pmb h }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } \\| h \\| ^ { 2 } = - \\langle D _ { n } h , h \\rangle \\leqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h   =   0"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n }   >   0"
+            },
+            {
+              "type": "text",
+              "content": " That is, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { n } = \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D_{n}=0=B|\\mathcal{H}_{n}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{n}=\\lambda_{n}P_{n}=A|\\mathcal{H}_{n}."
+            },
+            {
+              "type": "text",
+              "content": " Similarly, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } < 0 , C _ { n } = 0 = A \\left| \\mathcal { H } _ { n } \\right."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D_{n}=-\\lambda_{n}P_{n}=B|\\mathcal{H}_{n}"
+            },
+            {
+              "type": "text",
+              "content": " On "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal{H}_{0}, \\quad T \\mid \\mathcal{H}_{0} = 0 ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } - D _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } = D _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " .But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = C _ { 0 } D _ { 0 } = C _ { 0 } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = \\langle C _ { 0 } ^ { 2 } h , h \\rangle = \\| C _ { 0 } h \\| ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{0}=0=A \\left | \\mathcal{H}_{0} \\right."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D_{0}=0=B|\\mathcal{H}_{0}"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = B ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.639,
+            0.871,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Positive operators are analogous to positive numbers. With this in mind, the next result seems reasonable."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.694,
+            0.871,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.16. Theorem. If T is a positive compact operator, then there is a unique positive compact operator A such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { 2 } = T"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.739,
+            0.871,
+            0.813
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = \\sum_{n = 1}^{\\infty} \\lambda_{n} P_{n}"
+            },
+            {
+              "type": "text",
+              "content": " as in the Spectral Theorem. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\geqslant 0 , \\lambda _ { n } > 0"
+            },
+            {
+              "type": "text",
+              "content": " for all n (7.14). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\phi } ( \\lambda _ { n } ) = \\lambda _ { n } ^ { 1 / 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " otherwise; put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\geqslant 0 ; A = \\sum _ { 1 } ^ { \\infty } \\lambda _ { n } ^ { 1 / 2 } P _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " so that A is compact; and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { 2 } = T"
+            },
+            {
+              "type": "text",
+              "content": " The proof of uniqueness is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.832,
+            0.232,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.137,
+            0.85,
+            0.871,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ P _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence of pairwise orthogonal nonzero projections and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P = \\sum P _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| P - \\sum_{j = 1}^{n} P_{j} \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " for all n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.136,
+            0.892,
+            0.871,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. If  is separable, show that the definitions of a diagonalizable operator in (4.6) and (7.3) are equivalent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 73,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.056,
+            0.587,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§7. The Spectral Theorem and Functional Calculus"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.841,
+            0.056,
+            0.866,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "59"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.132,
+            0.102,
+            0.866,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\pmb { A } = \\sum \\pmb { \\alpha } _ { i } \\pmb { P } _ { i } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " as in (7.3), show that A is compact if and only if: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }   =   0"
+            },
+            {
+              "type": "text",
+              "content": " for all but a countable number of i; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " has finite rank whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }   \\neq   0 ;"
+            },
+            {
+              "type": "text",
+              "content": " (c) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { 1 } , \\alpha _ { 2 } , \\ldots \\} = \\{ \\alpha _ { i } ;   \\alpha _ { i } \\neq 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { n }   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.133,
+            0.162,
+            0.364,
+            0.179
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Prove Proposition 7.4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.133,
+            0.187,
+            0.853,
+            0.206
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { A } = \\bigoplus _ { i } \\alpha _ { i } \\boldsymbol { P } _ { i } ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { A } ^ { \\star } = \\bigoplus _ { i } \\bar { \\alpha } _ { i } \\boldsymbol { P } _ { i } ,"
+            },
+            {
+              "type": "text",
+              "content": " A is normal, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A \\| = \\sup \\{ | \\alpha _ { i } | : i \\in I \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.133,
+            0.214,
+            0.58,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Give the remaining details in the proof of (7.6)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.133,
+            0.239,
+            0.865,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A"
+            },
+            {
+              "type": "text",
+              "content": " for every compact operator T, show that A is a multiple of the identity operator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.133,
+            0.283,
+            0.867,
+            0.335
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Suppose T is a compact normal operator on a C-Hilbert space such that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\lambda ) \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " for all λ in C. Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbb { C } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.133,
+            0.343,
+            0.866,
+            0.379
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Prove a converse to Exercise 8: if T is a compact normal operator such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A \\in { \\mathcal { B } } ( { \\mathcal { H } } ) : A T = T A \\} = \\{ \\phi ( T ) : \\phi \\in l ^ { \\infty } ( \\mathbb { C } ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\lambda )   \\leqslant   1"
+            },
+            {
+              "type": "text",
+              "content": " for all λ in C."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.385,
+            0.869,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Let T be a compact normal operator and show that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T - \\lambda ) \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " for all λ in C if and only if there is a vector h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p ( T ) h \\colon p"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in one variable} is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . (Such a vector h is called a cyclic vector for T.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.468,
+            0.869,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": " be the unit point mass at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda ;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": " is the measure on C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { \\lambda } ( \\Delta ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta _ { \\lambda } ( \\Delta ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " if λ∉∆. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded sequence of distinct complex numbers and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\alpha _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence of real numbers with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { n }   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum _ { n } \\alpha _ { n } < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\mu = \\sum _ { n = 1 } ^ { \\infty } \\alpha _ { n } \\delta _ { \\lambda _ { n } } ; } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a finite measure. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in l ^ { \\infty } ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " the multiplication operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T : L ^ { 2 } ( \\mu ) \\to L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Tf)(\\lambda_n) = \\lambda_n f(\\lambda_n)."
+            },
+            {
+              "type": "text",
+              "content": " Prove: (a) T is a normal operator; (b) T has a cyclic vector (see Exercise 10); (c) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbb { C } ) ;"
+            },
+            {
+              "type": "text",
+              "content": " (d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is compact if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n }   \\to   0 . ( \\mathbf { e } )"
+            },
+            {
+              "type": "text",
+              "content": " If T is compact, find all of the cyclic vectors for T. (f) If T is compact, find the decomposition (7.7) for T."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.628,
+            0.87,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Using the notation of Theorem 7.11, give necessary and sufficient conditions on T and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " be compact. (Hint: consider separately the cases where ker T is finite or infinite dimensional.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.687,
+            0.556,
+            0.704
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Prove the uniqueness part of Theorem 7.16."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.713,
+            0.454,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } ( \\mathcal { H } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * } T \\geqslant 0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.739,
+            0.871,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. Let T be a compact normal operator and show that there is a compact positive operator A and a unitary operator U such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = U A = A U"
+            },
+            {
+              "type": "text",
+              "content": " . discuss the uniqueness of A and U."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.797,
+            0.871,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. (Polar decomposition of compact operators.) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and let A be the unique positive square root of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ^ { * } T \\left[ ( 7 . 1 6 ) \\right."
+            },
+            {
+              "type": "text",
+              "content": " and Exercise 14]. (a) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { A } \\mathbf { h } \\parallel = \\| \\mathbf { \\nabla } \\mathbf { T } \\mathbf { h } \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all h in . (b) Show that there is a unique oprator U such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\boldsymbol{U} \\boldsymbol{h} \\| = \\| \\boldsymbol{h} \\|"
+            },
+            {
+              "type": "text",
+              "content": " when h⊥ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ,   U h   =   0"
+            },
+            {
+              "type": "text",
+              "content": " when h∈ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U A = T"
+            },
+            {
+              "type": "text",
+              "content": " (c) If U and A are as in (a) and (b), show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = A U"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " is normal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.129,
+            0.891,
+            0.871,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. Prove the following uniqueness statement for the functional calculus (7.11). If T is a compact normal operator on a C-Hilbert space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and τ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbb { C } ) \\to { \\mathcal { B } } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 74,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.135,
+            0.056,
+            0.161,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "60"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.59,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.165,
+            0.1,
+            0.873,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a multiplicative linear map such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\tau ( \\phi ) \\| = \\operatorname* { s u p } \\{ | \\phi ( \\lambda ) | : \\lambda \\in \\sigma _ { p } ( T ) \\} , \\tau ( 1 ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( \\psi ) = T"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( z ) = z \\mathrm { o n } \\sigma _ { p } ( T ) \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( \\phi ) = \\phi ( T )"
+            },
+            {
+              "type": "text",
+              "content": " for every φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( \\mathbb { C } )"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.127,
+            0.172,
+            0.669,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8*. Unitary Equivalence for Compact Normal Operators"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.239,
+            0.873,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Section I.5 the concept of an isomorphism between Hilbert spaces was defined as the natural equivalence relation on Hilbert spaces. This equivalence relation between the spaces induces a natural equivalence relation between the operators on the spaces."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.327,
+            0.873,
+            0.384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.1. Definition. If A, B are bounded operators on Hilbert spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi , \\pi"
+            },
+            {
+              "type": "text",
+              "content": " , then A and B are unitarily equivalent if there is an isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U : { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U A U ^ { - 1 } = B"
+            },
+            {
+              "type": "text",
+              "content": " In symbols this is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cong B"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.397,
+            0.871,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Some of the elementary properties of unitary equivalence are contained in Exercises 1 and 2. Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U A U ^ { - 1 } = B ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U A = B U"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.434,
+            0.873,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The purpose of this section is to give necessary and sufficient conditions that two compact normal operators be unitarily equivalent. Later, in Section IX.10, necessary and sufficient conditions that any two normal operators be unitarily equivalent are given and the results of this section are subsumed by those of that section."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.541,
+            0.871,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.2. Definition. If T is a compact operator, the multiplicity function for T is the cardinal number valued function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T }"
+            },
+            {
+              "type": "text",
+              "content": " defined for every complex number λ by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } ( \\lambda ) = \\dim \\ker ( T - \\lambda )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.609,
+            0.87,
+            0.646
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } ( \\lambda ) \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " for all λ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } ( \\lambda ) > 0"
+            },
+            {
+              "type": "text",
+              "content": " if and only if λ is an eigenvalue for T. Note that by Proposition 4.13 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } ( \\lambda ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\neq 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.646,
+            0.871,
+            0.756
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If, T, S are compact operators on Hilbert spaces and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { U } T U ^ { - 1 } = S ."
+            },
+            {
+              "type": "text",
+              "content": " then U ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(T - \\lambda) = \\ker(S - \\lambda)"
+            },
+            {
+              "type": "text",
+              "content": " for every λ in C. In fact, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T h = \\lambda h ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S U h = U T h = \\lambda U h"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U h \\in \\ker ( S - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k { \\in } \\ker ( S - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { h } = \\boldsymbol { U } ^ { - 1 } \\boldsymbol { k }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T h = T U ^ { - 1 } k = U ^ { - 1 } S k = \\lambda h"
+            },
+            {
+              "type": "text",
+              "content": " In particular, it must be that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T }   =   m _ { S }"
+            },
+            {
+              "type": "text",
+              "content": " . If S and T are normal, this condition is also sufficient for unitary equivalence."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.768,
+            0.871,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.3. Theorem. Two compact normal operators are unitarily equivalent if and only if they have the same multiplicity function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.815,
+            0.871,
+            0.885
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Let T, S be compact normal operators on Hilbert spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa , \\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong S ,"
+            },
+            {
+              "type": "text",
+              "content": " then it has already been shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } = m _ { S ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " Suppose now that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } = m _ { S }"
+            },
+            {
+              "type": "text",
+              "content": " . We must manufacture a unitary operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U : { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U T U ^ { - 1 }   =   S"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.887,
+            0.869,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\bar { T } = \\sum _ { n = 1 } ^ { \\infty } \\lambda _ { n } P _ { n } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S = \\sum _ { n = 1 } ^ { \\infty } \\mu _ { n } Q _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " as in the Spectral Theorem (7.6). So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq m ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } \\neq \\lambda _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { n } \\neq \\mu _ { m } ,"
+            },
+            {
+              "type": "text",
+              "content": " and each of the projections "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q _ { n }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 75,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.639,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§8. Unitary Equivalence for Compact Normal Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.843,
+            0.057,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "61"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.101,
+            0.867,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has finite rank. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { 0 } , Q _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " be the projections of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa , \\pi"
+            },
+            {
+              "type": "text",
+              "content": " onto ker T, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { S } ;"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol{P}_{0}=(\\sum_{1}^{\\infty} \\boldsymbol{P}_{n})^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q _ { 0 } = ( \\sum _ { 1 } ^ { \\infty } Q _ { n } ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { 0 } = \\mu _ { 0 } = 0 ."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.138,
+            0.867,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } = m _ { S } , \\; 0 < m _ { T } ( \\lambda _ { n } ) = m _ { S } ( \\lambda _ { n } ) ."
+            },
+            {
+              "type": "text",
+              "content": " Hence there is a unique "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { j } = \\lambda _ { n ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon  { \\mathbb { N } }   \\to    { \\mathbb { N } }"
+            },
+            {
+              "type": "text",
+              "content": " by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { \\pi ( n ) } = \\lambda _ { n ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( 0 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " . Note that π is one-to-one. Also, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < m _ { S } ( \\mu _ { n } ) = m _ { T } ( \\mu _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " for every n there is a j such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( j )   =   n"
+            },
+            {
+              "type": "text",
+              "content": " Thus π: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { N } \\cup \\{ 0 \\} \\to \\mathbb { N } \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a bijection or permutation. Since dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P_{n}=m_{T}(\\lambda_{n})=m_{S}(\\mu_{\\pi(n)})=\\dim Q_{\\pi(n)}"
+            },
+            {
+              "type": "text",
+              "content": " , there is an isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n } ; P _ { n } { \\mathcal { H } } \\to"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q _ { \\pi ( n ) } \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\geqslant   0 ."
+            },
+            {
+              "type": "text",
+              "content": " Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widehat { U } : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { n } \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and extending by linearity. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\bigoplus_{n = 0}^{\\infty} U_{n}"
+            },
+            {
+              "type": "text",
+              "content": " It is easy to check that U is an isomorphism. Also, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in P_n \\mathcal{H}, n \\geqslant 0"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U T h = \\lambda _ { n } U h = \\mu _ { \\pi ( n ) } U h = S U h ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U T U ^ { - 1 } = S"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.318,
+            0.87,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If V is the Volterra operator, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { V } \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": " (4.11) and V and the zero operator are definitely not unitarily equivalent, so the preceding theorem only applies to compact normal operators. There are no known necessary and sufficient conditions for two arbitrary compact operators to be unitarily equivalent. In fact, there are no known necessary and sufficient conditions that two arbitrary operators on a finite-dimensional space be unitarily equivalent."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.462,
+            0.233,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.138,
+            0.481,
+            0.776,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Show that “unitary equivalence\" is an equivalence relation on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.138,
+            0.504,
+            0.87,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U : { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " be an isomorphism and define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho : \\mathcal { B } ( \\mathcal { H } ) \\to \\mathcal { B } ( \\mathcal { H } ) \\mathrm { b y } \\rho ( A ) = U A U ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " Prove: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\rho ( A ) \\| = \\| A \\| , \\rho ( A ^ { * } ) = \\rho ( A ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism between the two algebras "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A ) \\in \\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } _ { 0 } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " (c) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A T = T A"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( T ) \\rho ( A ) = \\rho ( A ) \\rho ( T )"
+            },
+            {
+              "type": "text",
+              "content": " (d) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then M is invariant (reducing) for A if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " is invariant (reducing) for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.138,
+            0.613,
+            0.87,
+            0.662
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Say that an operator A on  is irreducible if the only reducing subspaces for A are (0) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . Prove: (a) The Volterra operator is irreducible. (b) The unilateral shift is irreducible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.138,
+            0.668,
+            0.87,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = \\oplus \\left\\{ A _ { i } ; i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\oplus \\left\\{ B _ { i } ; i { \\in } I \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " where each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is irreducible (Exercise 3). Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cong B"
+            },
+            {
+              "type": "text",
+              "content": " if and only if there is a bijection π: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I   \\rightarrow   I"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { i } \\mathop { \\cong } B _ { \\pi ( i ) } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.138,
+            0.728,
+            0.87,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If T is a compact normal operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T }   =   m"
+            },
+            {
+              "type": "text",
+              "content": " is its multiplicity function, prove: (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ \\lambda : m(\\lambda) > 0 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is countable and 0 is its only possible cluster point; (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m ( \\lambda ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " Show that if m: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C }   \\rightarrow   \\mathbb { N }   \\cup   \\{ 0 , \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " is any function satisfying (a) and (b), then there is a compact normal operator T such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T }   =   m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.138,
+            0.804,
+            0.871,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Show that two projections P and Q are unitarily equivalent if and only if dim(ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P)=\\dim(\\tan Q)"
+            },
+            {
+              "type": "text",
+              "content": " and dim(ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ) = \\dim ( \\ker Q )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.139,
+            0.847,
+            0.87,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 ) \\to L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Af)(x) = xf(x)"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " and x in (0, 1). Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cong A ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.138,
+            0.89,
+            0.871,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Say that a compact normal operator T is simple if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T } \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . (See Exercises 7.10 and 7.11.) Show that every compact normal operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " on a separable Hilbert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 76,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.057,
+            0.155,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "62"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.056,
+            0.866,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "II. Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.16,
+            0.101,
+            0.867,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "space is unitarily equivalent to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bigoplus _ { n = 1 } ^ { \\infty } T _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " where each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a simple compact normal operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T _ { n } } \\geqslant m _ { T _ { n + 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " for all n. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { n } \\| \\to 0 ."
+            },
+            {
+              "type": "text",
+              "content": " (Of course, there may only be a finite number of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n ^ { * } } )"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.133,
+            0.16,
+            0.867,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Using the notation of Exercise 8, suppose also that S is a compact normal operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S \\cong \\oplus _ { n = 1 } ^ { \\infty } S _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a simple compact normal operator and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { S _ { n } } \\geqslant m _ { S _ { n + 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " for all n. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong S"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n }   \\cong   { \\mathcal { S } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.22,
+            0.869,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. If T is a compact normal operator on a separable Hilbert space, show that there are simple compact normal operators "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 1 } , \\; T _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong 0 \\oplus T _ { 1 } \\oplus T _ { 2 } ^ { ( 2 ) } \\oplus"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 2 } ^ { ( 3 ) } \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " , where: (a) for any operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A, A^{(n)} \\equiv A \\oplus \\cdots \\oplus A"
+            },
+            {
+              "type": "text",
+              "content": " (n times); (b) 0 is the zero operator on an infinite dimensional space; (c) for n ≠ k, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { T _ { n } } m _ { T _ { k } }   \\equiv   0 ;"
+            },
+            {
+              "type": "text",
+              "content": " and (d) if ker T is infinite dimensional, then ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n }   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " for all n. (Of course not all of the summands need be present.) Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| T _ { n } \\|   \\to   0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.33,
+            0.869,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Using the notation of Exercise 10, let S be a compact normal operator and let 0⊕ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { S } } _ { 1 } \\oplus { \\mathcal { S } } _ { 2 } ^ { ( 2 ) } \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " . be the corresponding decomposition. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong S"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { n } \\stackrel { - } { \\cong } S _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and ker T and ker S have the same dimension."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.389,
+            0.87,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. If T is a non-zero compact normal operator, show that T and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\oplus T"
+            },
+            {
+              "type": "text",
+              "content": " are not unitarily equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.433,
+            0.87,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Give an example of a nontrivial operator T such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong T \\oplus T"
+            },
+            {
+              "type": "text",
+              "content": " . Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong T \\oplus T ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong T \\oplus T \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " . Characterize the diagonalizable normal operators T such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\cong T \\oplus T"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.493,
+            0.868,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " be the space defined in Example I.1.8 and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon { \\mathcal { H } }   \\to   L ^ { 2 } ( 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": " be the isomorphism defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U f = f ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " (Exercise I.1.4). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Af)(x) = xf(x)"
+            },
+            {
+              "type": "text",
+              "content": " for f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " what is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U A U ^ { - 1 } ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 77,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.098,
+            0.397,
+            0.166
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER III Banach Spaces"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.126,
+            0.429,
+            0.872,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The concept of a Banach space is a generalization of Hilbert space. A Banach space assumes that there is a norm on the space relative to which the space is complete, but it is not assumed that the norm is defined in terms of an inner product. There are many examples of Banach spaces that are not Hilbert spaces, so that the generalization is quite useful."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.548,
+            0.698,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.586,
+            0.87,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a vector space over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } ,"
+            },
+            {
+              "type": "text",
+              "content": " a seminorm is a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\colon { \\mathcal { X } }   \\to   [ 0 , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": " having the properties:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.63,
+            0.536,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(x + y) \\leqslant p(x) + p(y)"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.649,
+            0.566,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\alpha x ) = | \\alpha | p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { F }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.675,
+            0.815,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows from (b) that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( 0 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " A norm is a seminorm p such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.702,
+            0.327,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = 0   if   p(x) = 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.154,
+            0.729,
+            0.498,
+            0.748
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Usually a norm is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\cdot \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.154,
+            0.748,
+            0.854,
+            0.766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The norm on a Hilbert space is a norm. Also, the norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " is a norm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.154,
+            0.767,
+            0.77,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " has a norm, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d ( x , y ) = \\| x - y \\|"
+            },
+            {
+              "type": "text",
+              "content": " defines a metric on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.803,
+            0.871,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2. Definition. A normed space is a pair "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( { \\mathcal { X } } , \\| \\cdot \\| ) ,"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a vector space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\cdot \\|"
+            },
+            {
+              "type": "text",
+              "content": " is a norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . A Banach space is a normed space that is complete with respect to the metric defined by the norm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.876,
+            0.577,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3. Proposition. If X is a normed space, then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.127,
+            0.904,
+            0.772,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } \\times \\mathcal { X }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y ) { \\mapsto } x + y"
+            },
+            {
+              "type": "text",
+              "content": " is continuous;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.127,
+            0.922,
+            0.744,
+            0.941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { F } \\times \\mathcal { X }   \\rightarrow   \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha , x ) { \\mapsto } \\alpha x"
+            },
+            {
+              "type": "text",
+              "content": " is continuous."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 78,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.136,
+            0.056,
+            0.162,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "64"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.699,
+            0.056,
+            0.875,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "III. Banach Spaces"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.101,
+            0.872,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n }   \\to   x"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { n }   \\rightarrow   y _ { \\ast }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| (x_n + y_n) - (x + y) \\| = \\| (x_n - x) + (y_n - y) \\| \\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x_n - x \\| + \\| y_n - y \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . This proves (a). The proof of (b) is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.153,
+            0.173,
+            0.469,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next lemma is quite useful."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.206,
+            0.873,
+            0.244
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4. Lemma. If p and q are seminorms on a vector space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13,
+            0.253,
+            0.527,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) \\leqslant q ( x ) { \\it ~ f o r ~ a l l ~ } x . { \\it ~ ( T h a t ~ i s , ~ } p \\leqslant q . { \\it ) }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.272,
+            0.523,
+            0.291
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\in \\mathcal { X } : q ( x ) < 1 \\} \\subseteq \\{ x \\in \\mathcal { X } : p ( x ) < 1 \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.29,
+            0.436,
+            0.308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b′) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) < 1 { \\it ~ w h e n e v e r ~ } q ( x ) < 1 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.132,
+            0.308,
+            0.45,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x : q(x) \\leqslant 1 \\} \\subseteq \\{ x : p(x) \\leqslant 1 \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.327,
+            0.436,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c') "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) \\leq 1 { \\mathrm { ~ w h e n e v e r ~ } } q ( x ) \\leq 1 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.345,
+            0.45,
+            0.364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\colon q ( x ) < 1 \\} \\subseteq \\{ x \\colon p ( x ) \\leqslant 1 \\} ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.364,
+            0.434,
+            0.382
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d') "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) \\leq 1 { \\mathrm { ~ w h e n e v e r ~ } } q ( x ) < 1 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.39,
+            0.872,
+            0.446
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF. It is clear that (b) and (b'), (c) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( c ^ { \\prime } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and (d) and (d’) are equivalent. It is also clear that (a) implies all of the remaining conditions and that both (b) and (c) imply (d). It remains to show that (d) implies (a)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.445,
+            0.871,
+            0.503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Assume that (d) holds and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( x ) = \\alpha . \\mathrm { I f } \\varepsilon > 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q((\\alpha + \\varepsilon)^{-1}x) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x + \\varepsilon)^{-1} \\alpha < 1. \\mathrm{By} (\\mathrm{d}), 1 \\geqslant p((x + \\varepsilon)^{-1}x) = (x + \\varepsilon)^{-1}p(x), \\mathrm{so} p(x) \\leqslant x + \\varepsilon = q(x) + \\varepsilon."
+            },
+            {
+              "type": "text",
+              "content": " Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   \\to   0"
+            },
+            {
+              "type": "text",
+              "content": " shows (a)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.519,
+            0.872,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\cdot \\right\\| _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\| \\cdot \\right\\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are two norms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " they are said to be equivalent norms if they define the same topology on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.573,
+            0.873,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\cdot \\| _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\cdot \\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are two norms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,"
+            },
+            {
+              "type": "text",
+              "content": " , then these norms are equivalent if and only if there are positive constants c and C such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.379,
+            0.618,
+            0.619,
+            0.637
+          ],
+          "image_path": "images/page_78_equation_16.jpg",
+          "content": "c \\left\\| x \\right\\|_1 \\leqslant \\left\\| x \\right\\|_2 \\leqslant C \\left\\| x \\right\\|_1"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.124,
+            0.636,
+            0.269,
+            0.655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.663,
+            0.87,
+            0.701
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Suppose there are constants c and C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\left\\| x \\right\\|_1 \\leqslant \\left\\| x \\right\\|_2 \\leqslant C \\left\\| x \\right\\|"
+            },
+            {
+              "type": "text",
+              "content": " 1 for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            },
+            {
+              "type": "text",
+              "content": " Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ,   \\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.256,
+            0.709,
+            0.741,
+            0.73
+          ],
+          "image_path": "images/page_78_equation_19.jpg",
+          "content": "\\{ x \\in \\mathcal { X } : \\| x - x _ { 0 } \\| _ { 1 } < \\varepsilon / C \\} \\subseteq \\{ x \\in \\mathcal { X } : \\| x - x _ { 0 } \\| _ { 2 } < \\varepsilon \\} ,"
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.269,
+            0.733,
+            0.74,
+            0.753
+          ],
+          "image_path": "images/page_78_equation_20.jpg",
+          "content": "\\{ x \\in \\mathcal { X } : \\| x - x _ { 0 } \\| _ { 2 } < c \\varepsilon \\} \\subseteq \\{ x \\in \\mathcal { X } : \\| x - x _ { 0 } \\| _ { 1 } < \\varepsilon \\} ."
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.124,
+            0.76,
+            0.874,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This shows that the two topologies are the same. Now assume that the two norms are equivalent. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ x \\colon \\left\\|   x   \\right\\| _ { 1 }   <   1 \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is an open neighborhood of 0 in the topology defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\cdot \\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore there is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x : \\| x \\| _ { 2 } < r \\} \\subseteq \\{ x : \\| x \\| _ { 1 } < 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( x ) = r ^ { - 1 } \\left\\| x \\right\\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) = \\| x \\| _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " ,the preceding lemma implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x \\| _ { 1 } \\leqslant r ^ { - 1 } \\| x \\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\left\\|   x   \\right\\| _ { 1 } \\leqslant \\left\\|   x   \\right\\| _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = r"
+            },
+            {
+              "type": "text",
+              "content": " The other inequality is left to the reader. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.124,
+            0.888,
+            0.873,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are two types of properties of a Banach space: those that are topological and those that are metric. The metric properties depend on the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 79,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.498,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Elementary Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.057,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "65"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.1,
+            0.872,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "precise norm; the topological ones depend only on the equivalence class of norms (see Exercise 4)."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.161,
+            0.871,
+            0.255
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.6. Example. Let X be any Hausdorff space (all spaces in this book are assumed to be Hausdorff unless the contrary is specified) and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X ) = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " continuous functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon X \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| \\equiv \\sup \\{ | f ( x ) | : x \\in X \\} < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( f + g ) \\colon X \\to \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(f + g)(x) = f(x) + g(x);"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " in F define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha f ) ( x ) = \\alpha f ( x )"
+            },
+            {
+              "type": "text",
+              "content": " .Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.271,
+            0.872,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proofs of the statements in (1.6) are all routine except, perhaps, for the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is complete. To see this, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a Cauchy sequence in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " So if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " there is an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\varepsilon }"
+            },
+            {
+              "type": "text",
+              "content": " such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , m \\geqslant N _ { \\varepsilon } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > \\| f_n - f_m \\| = \\sup \\{ | f_n(x) - f_m(x) | : x \\in X \\}"
+            },
+            {
+              "type": "text",
+              "content": " . In particular, for any x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X, \\left| f_{n}(x) - f_{m}(x) \\right| \\leqslant \\left\\| f_{n} - f_{m} \\right\\| < \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , m \\geqslant N _ { \\varepsilon } ."
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } ( x ) \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a Cauchy sequence in F. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x) = \\lim_{n \\to \\infty} f_n(x)"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x { \\in } X"
+            },
+            {
+              "type": "text",
+              "content": " . Now fix x in X. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , m \\geqslant N _ { \\varepsilon } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f _ { n } ( x ) | \\leqslant | f ( x ) - f _ { m } ( x ) | + \\| f _ { m } - f _ { n } \\| < | f ( x ) - f _ { m } ( x ) | + \\varepsilon ."
+            },
+            {
+              "type": "text",
+              "content": " Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " gives that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) - f _ { n } ( x ) | \\leqslant \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant N _ { \\varepsilon }"
+            },
+            {
+              "type": "text",
+              "content": " . This is independent of x. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f - f _ { n } \\| \\leqslant \\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant N _ { \\varepsilon }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.438,
+            0.871,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What has been just shown is that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f - f _ { n } \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Note that this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( x )   \\to   f ( x )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on X. It is standard that f is continuous. Also, |l "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| \\leqslant \\| f - f_n \\| + \\| f_n \\| < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is complete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.493,
+            0.871,
+            0.53
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that a linear subspace "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Y }"
+            },
+            {
+              "type": "text",
+              "content": " of a Banach space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " that is topologically closed is also a Banach space if it has the norm of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.553,
+            0.874,
+            0.609
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.7. Proposition. If X is a locally compact space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X ) = a l l"
+            },
+            {
+              "type": "text",
+              "content": " continuous functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon X   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0, \\left\\{ x \\in X: \\left| f(x) \\right| \\geqslant \\varepsilon \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is compact, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is a closed subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and hence is a Banach space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.615,
+            0.874,
+            0.726
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. That "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is a linear manifold in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is left as an exercise. It will only be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\} \\subseteq C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n }   \\rightarrow   f"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " , there is an integer N such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { n } - f \\| < \\varepsilon / 2 ;"
+            },
+            {
+              "type": "text",
+              "content": " that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| f_{n}(x) - f(x) \\right| < \\varepsilon / 2"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant N"
+            },
+            {
+              "type": "text",
+              "content": " and x in X. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f ( x ) | \\geqslant \\varepsilon ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon \\leqslant | f ( x ) - f _ { n } ( x ) + f _ { n } ( x ) | \\leqslant \\varepsilon / 2 + | f _ { n } ( x ) |"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant N ;"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| f _ { n } ( x ) | \\geqslant \\varepsilon / 2"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant N"
+            },
+            {
+              "type": "text",
+              "content": " Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x \\in X : | f ( x ) | \\geqslant \\varepsilon \\} \\subseteq \\{ x \\in X : | f _ { N } ( x ) | \\geqslant \\varepsilon / 2 \\}"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   { \\cal C } _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.742,
+            0.874,
+            0.798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X )"
+            },
+            {
+              "type": "text",
+              "content": " is the set of continuous functions on X that vanish at infinity. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( \\mathbb { R } ) = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " of the continuous functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathbb { R }   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that lim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\iota _ { x \\to \\pm \\infty } f ( x ) = 0 } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " . If X is compact, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 0 } ( X ) = C _ { b } ( X ) \\equiv C ( X )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.798,
+            0.876,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If I is any set, then give I the discrete topology. Hence I becomes locally compact. Also any function on I is continuous. Rather than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { b } ( I )"
+            },
+            {
+              "type": "text",
+              "content": " , the customary notation is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( I )"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty } ( I ) = a \\mathrm { l l }"
+            },
+            {
+              "type": "text",
+              "content": " bounded functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon I   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| = \\sup \\{ | f ( i ) | : i \\in I \\} . c _ { 0 } ( I )"
+            },
+            {
+              "type": "text",
+              "content": " consists of all functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon I   \\to   \\mathbb { F }"
+            },
+            {
+              "type": "text",
+              "content": " such that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0,\\left\\{ i \\in I:\\left| f(i) \\right| \\geqslant \\varepsilon \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is finite. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = \\mathbf { N }"
+            },
+            {
+              "type": "text",
+              "content": " , the usual notation for these spaces is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " consists of all bounded sequences of scalars and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " consists of all sequences that converge to 0."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

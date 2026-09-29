@@ -1,0 +1,9 @@
+{
+  "book": "Brezis",
+  "pdf_page": 16,
+  "model": "gpt-6-luna",
+  "seconds": 9.64,
+  "input_tokens": 2748,
+  "output_tokens": 553,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate_fragment\": \"A standalone “(1)” appears before the first displayed equation.\",\n      \"correction\": \"Remove it; the first displayed equation is numbered (1).\"\n    },\n    {\n      \"candidate_fragment\": \"The first displayed equation ends with \\\\tag{2}.\",\n      \"correction\": \"Number it (1).\"\n    },\n    {\n      \"candidate_fragment\": \"The second displayed equation has no number.\",\n      \"correction\": \"Number it (2).\"\n    },\n    {\n      \"candidate_fragment\": \"\\\\mathrm { Z o r n ^ { \\\\circ } s } lemma\",\n      \"correction\": \"Zorn’s lemma\"\n    },\n    {\n      \"candidate_fragment\": \"g ( x ) = f ( x )   ∀ x ∈ G , ,\",\n      \"correction\": \"g(x) = f(x) ∀x ∈ G,\"\n    },\n    {\n      \"candidate_fragment\": \"a n d\",\n      \"correction\": \"and\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

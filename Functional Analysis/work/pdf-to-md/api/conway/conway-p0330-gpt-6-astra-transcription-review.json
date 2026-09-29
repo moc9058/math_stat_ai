@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 330,
+  "model": "gpt-6-astra",
+  "seconds": 9.0,
+  "input_tokens": 3570,
+  "output_tokens": 214,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"\\\\mathcal D_\\\\lambda=\\\\{\",\n      \"correction\": \"\\\\mathcal D_\\\\lambda\\\\equiv\\\\{\"\n    },\n    {\n      \"candidate\": \"=if'+\\\\alpha ie^x-i\\\\lambda\\\\alpha e^{-x};\",\n      \"correction\": \"=if'+\\\\alpha ie^x-i\\\\lambda\\\\alpha e^{-x},\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

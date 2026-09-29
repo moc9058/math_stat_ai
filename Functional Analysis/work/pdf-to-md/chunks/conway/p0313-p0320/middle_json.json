@@ -1,0 +1,4563 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 312,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 313,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 314,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 315,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 316,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 317,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 318,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 319,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 312,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.166,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "298"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.504,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.099,
+            0.869,
+            0.136
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for N. Thus, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) = \\{ \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots , \\lambda _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { i } \\neq \\lambda _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\neq   j ,"
+            },
+            {
+              "type": "text",
+              "content": " then (10.2) becomes"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.145,
+            0.619,
+            0.164
+          ],
+          "image_path": "images/page_312_equation_3.jpg",
+          "content": "N \\cong D _ { 1 } \\oplus D _ { 2 } \\oplus \\cdots \\oplus D _ { m } ,\\tag{10.14}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.172,
+            0.871,
+            0.228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { 1 } = \\mathrm { d i a g } ( \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " and, for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geqslant 2 , D _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " is a diagonalizable operator whose diagonal consists of one, and only one, of each of the eigenvalues of N having multiplicity at least k."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.229,
+            0.872,
+            0.302
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is another decomposition for normal operators that furnishes a complete set of unitary invariants and has a connection with the concept of multiplicity. For normal operators on a finite dimensional space, this decomposition takes on the following form."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.302,
+            0.872,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda _ { k } = \\mathrm { t h } \\mathbf { e }"
+            },
+            {
+              "type": "text",
+              "content": " eigenvalues of N having multiplicity k. So for λ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda _ { k } ,"
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( N - \\lambda ) = k ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda _ { k } = \\{ \\lambda _ { j } ^ { ( k ) } : 1 \\leqslant j \\leqslant m _ { k } \\}"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " be the diagonalizable operator on a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k m _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " dimensional space whose diagonal contains each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { i } ^ { ( k ) }"
+            },
+            {
+              "type": "text",
+              "content": " repeated k times. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\cong { \\overline { { N } } } _ { 1 } \\oplus { \\overline { { N } } } _ { 2 } \\oplus \\cdots \\oplus { \\overline { { N } } } _ { p } ,"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N ) = \\Lambda _ { 1 } \\cup \\cdots \\cup \\Lambda _ { p } ."
+            },
+            {
+              "type": "text",
+              "content": " Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N _ { k } ) = \\Lambda _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " and each eigenvalue of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " has multiplicity k. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { N _ { k } } \\cong A _ { k } ^ { ( k ) }"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " is a diagonalizable operator on an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " dimensional space with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A _ { k } ) = \\Lambda _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.439,
+            0.629,
+            0.462
+          ],
+          "image_path": "images/page_312_equation_7.jpg",
+          "content": "N \\cong A _ { 1 } \\oplus A _ { 2 } ^ { ( 2 ) } \\oplus \\cdots \\oplus A _ { p } ^ { ( p ) } ,\\tag{10.15}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.468,
+            0.429,
+            0.487
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A _ { i } ) \\cap \\sigma ( A _ { j } ) = \\square"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\neq j ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.487,
+            0.871,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now the big advantage of the decomposition (10.15) is that it permits a discussion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ N \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Because the spectra of the operators "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " are disjoint,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.326,
+            0.531,
+            0.67,
+            0.552
+          ],
+          "image_path": "images/page_312_equation_10.jpg",
+          "content": "\\{ N \\} ^ { \\prime }   =   \\{ N _ { 1 } \\} ^ { \\prime }   \\oplus   \\{ N _ { 2 } \\} ^ { \\prime }   \\oplus   \\cdots   \\oplus   \\{ N _ { p } \\} ^ { \\prime } ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.556,
+            0.871,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Why?) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { j } ^ { ( k ) } = \\ker ( N - \\lambda _ { j } ^ { ( k ) } )"
+            },
+            {
+              "type": "text",
+              "content": " , then dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { j } ^ { ( k ) } = k"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\bigoplus _ { j = 1 } ^ { m _ { k } } { \\mathcal { H } } _ { j } ^ { ( k ) } ="
+            },
+            {
+              "type": "text",
+              "content": " the domain of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\hat { \\lambda } _ { i } ^ { ( k ) } \\neq \\hat { \\lambda } _ { j } ^ { ( k ) } \\right."
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i   \\neq   j ,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.338,
+            0.602,
+            0.658,
+            0.625
+          ],
+          "image_path": "images/page_312_equation_12.jpg",
+          "content": "\\{ N _ { k } \\} ^ { \\prime } = \\mathcal { B } ( \\mathcal { H } _ { 1 } ^ { ( k ) } ) \\oplus \\cdots \\oplus \\mathcal { B } ( \\mathcal { H } _ { m _ { k } } ^ { ( k ) } ) ,"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.629,
+            0.658,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } _ { j } ^ { ( k ) } )"
+            },
+            {
+              "type": "text",
+              "content": " is isomorphic to the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\times k"
+            },
+            {
+              "type": "text",
+              "content": " matrices."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.123,
+            0.649,
+            0.871,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The decomposition of an arbitrary normal operator that is analogous to decomposition (10.15) for finite dimensional normal operators is contained in the next result. The corresponding discussion of the commutant will follow this theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.749,
+            0.87,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.16. Theorem. If N is a normal operator, then there are mutually singular measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { \\infty } ,   \\mu _ { 1 } ,   \\mu _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " (some of which may be zero) such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.355,
+            0.794,
+            0.64,
+            0.817
+          ],
+          "image_path": "images/page_312_equation_16.jpg",
+          "content": "N \\cong N _ { \\mu _ { 1 } } ^ { ( \\infty ) } \\oplus N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } ^ { ( 2 ) } \\oplus \\cdots ."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.124,
+            0.823,
+            0.869,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If M is another normal operator with corresponding measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu _ { \\infty } ,   \\nu _ { 1 } ,   \\nu _ { 2 } , \\ldots ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\cong M"
+            },
+            {
+              "type": "text",
+              "content": " if and only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "if \\left[ \\mu_{n} \\right] = \\left[ v_{n} \\right]"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant n \\leqslant \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.868,
+            0.871,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " be a scalar-valued spectral measure for N and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be the sequence of Borel subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( N )"
+            },
+            {
+              "type": "text",
+              "content": " obtained in Corollary 10.12. Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma _ { \\infty } = \\bigcap _ { n = 1 } ^ { \\infty } \\Delta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma _ { n } = \\Delta _ { n } \\backslash \\Delta _ { n + 1 }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant n < \\infty;"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { n } = \\mu | \\Sigma _ { n } , 1 \\leqslant n \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Put"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 313,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.554,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§10. Multiplicity Theory for Normal Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.833,
+            0.056,
+            0.869,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "299"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.868,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "v _ { n } = \\mu | \\Delta _ { n } , \\quad 1 \\leqslant n < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n } = \\Sigma _ { \\infty } \\cup ( \\Delta _ { n } \\setminus \\Delta _ { n + 1 } ) \\cup ( \\Delta _ { n + 1 } \\setminus \\Delta _ { n + 2 } ) \\cup \\cdots ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { \\infty } \\cup \\sum _ { n } \\cup \\sum _ { n   +   1 } \\cup \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { n } = \\mu _ { \\infty } + \\mu _ { n } + \\mu _ { n + 1 } + \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " and the measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { \\infty } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { n } , \\mu _ { n + 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " are pairwise singular. Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { v _ { n } } \\cong N _ { \\mu _ { x } } \\oplus N _ { \\mu _ { n } } \\oplus N _ { \\mu _ { n + 1 } } \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " Combining this with Corollary 10.12 gives"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.266,
+            0.184,
+            0.794,
+            0.273
+          ],
+          "image_path": "images/page_313_equation_3.jpg",
+          "content": "\\begin{align*}N \\cong &   N_{\\mathfrak{v}_1} \\oplus N_{\\mathfrak{v}_2} \\oplus N_{\\mathfrak{v}_3} \\oplus \\cdots \\\\\\cong &   (N_{\\mu_x} \\oplus N_{\\mu_1} \\oplus N_{\\mu_2} \\oplus \\cdots) \\oplus (N_{\\mu_x} \\oplus N_{\\mu_2} \\oplus N_{\\mu_3} \\oplus \\cdots) \\\\&   \\oplus (N_{\\mu_x} \\oplus N_{\\mu_3} \\oplus N_{\\mu_4} \\oplus \\cdots) \\oplus \\cdots \\\\\\cong &   N_{\\mu_x}^{(\\infty)} \\oplus N_{\\mu_1} \\oplus N_{\\mu_2}^{(2)} \\oplus N_{\\mu_3}^{(3)} \\oplus \\cdots.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.279,
+            0.833,
+            0.299
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the uniqueness part of the theorem is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.314,
+            0.868,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the form of the normal operator presented in Example 10.13 is the form of the operator given in the conclusion of the preceding theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.351,
+            0.87,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now to discuss "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ N \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Fix a compactly supported positive Borel measure μ on C and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " be an n-dimensional Hilbert space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant n \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Define a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathbf { C } \\to \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " to be a Borel function if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\mapsto \\langle f ( z ) , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function for each g in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n } . \\mathrm { I f } f : \\mathbb { C } \\to \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f ( z ) \\| ^ { 2 } = \\textstyle \\sum _ { j } | \\langle f ( z ) , e _ { j } \\rangle | ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\to \\| f ( z ) \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ;   \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " be the space of all Borel functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathbb { C }   \\to   \\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| ^ { 2 } \\equiv \\int \\| f ( z ) \\| ^ { 2 } d \\mu ( z ) < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , where two functions agreeing a.e. [μ] are identified. If f and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) , \\langle f , g \\rangle \\equiv \\int \\langle f ( z ) , g ( z ) \\rangle   d \\mu ( z )"
+            },
+            {
+              "type": "text",
+              "content": " defines an inner product on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ;   \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " It is not difficult to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " is a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.126,
+            0.553,
+            0.845,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.17. Proposition. If N is multiplication by z on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ;   \\mathcal { H } _ { n } ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\cong N _ { \\mu } ^ { ( n ) } ,"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.58,
+            0.868,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ e _ { j } ; 1 \\leqslant j \\leqslant n \\}"
+            },
+            {
+              "type": "text",
+              "content": " be an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and define U: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) \\to \\widetilde { L ^ { 2 } ( \\mu ) ^ { ( n ) } }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U f = ( \\langle f ( \\cdot ) , e _ { 1 } \\rangle , \\langle f ( \\cdot ) , e _ { 2 } \\rangle , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " . Then U is an isomorphism and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U N U ^ { - 1 } = N _ { \\mu } ^ { ( n ) }"
+            },
+            {
+              "type": "text",
+              "content": " . The details are left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.65,
+            0.869,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Combining the preceding proposition with Proposition 6.1(b), we can find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ N \\} ^ { \\prime } ;"
+            },
+            {
+              "type": "text",
+              "content": " namely, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ N _ { \\mu } ^ { ( n ) } \\right\\} ^ { \\prime } = \\mathrm { a l l }"
+            },
+            {
+              "type": "text",
+              "content": " matrices "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T _ { i j } )"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( L ^ { 2 } ( \\mu ) ^ { ( n ) } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { i j } { \\in } \\{ N _ { \\mu } \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " for all i, j. By Corollary "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6.9, \\left\\{ N_{\\mu}^{(n)} \\right\\}' = \\mathrm{ma}"
+            },
+            {
+              "type": "text",
+              "content": " trices "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( M _ { \\phi _ { i j } } )"
+            },
+            {
+              "type": "text",
+              "content": " that belong to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( L ^ { 2 } ( \\mu ) ^ { ( n ) } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { i j } { \\in } L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . Now the idea is to use Proposition 10.17 to bring this back to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) )"
+            },
+            {
+              "type": "text",
+              "content": " and describe "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ N \\} ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.741,
+            0.871,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A function φ: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } \\rightarrow \\mathcal { B } ( \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " is defined to be a Borel function if for each f and g in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n } ,   z \\mapsto \\langle \\phi ( z ) f , g \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a countable dense subset of the unit ball of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n } , \\| \\phi ( z ) \\| = \\sup \\left\\{ \\left| \\zeta \\phi ( z ) f _ { i } \\right| , f _ { j } \\right\\rangle : 1 \\leqslant i , j < \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " , SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z   \\mapsto   \\|   \\phi ( z )   \\|"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu ; { \\mathcal { B } } ( { \\mathcal { H } } _ { n } ) )"
+            },
+            {
+              "type": "text",
+              "content": " be the equivalence classes of bounded Borel functions from C into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " furnished with the μ-essential supremum norm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.851,
+            0.869,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in L ^ { \\infty } ( \\mu ; { \\mathcal { B } } ( { \\mathcal { H } } _ { n } ) )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { f ( z )   =   \\sum f _ { j } ( z ) e _ { j } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ e _ { j } \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " is an orthonormal basis for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { j } ( z ) = \\langle f ( z ) , e _ { j } \\rangle , \\mathrm { s o } \\sum | f _ { j } ( z ) | ^ { 2 } = \\| f ( z ) \\| ^ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\phi ( z ) f ( z ) = \\sum _ { j } f _ { j } ( z ) \\phi ( z ) e _ { j } . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " So for any e in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n } , \\dot { \\langle } \\phi ( z ) f ( z ) , e \\rangle = \\sum f _ { j } ( z ) \\langle \\phi ( z ) e _ { j } , e \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function. It is easy to check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi f \\in L^{2}(\\mu; \\mathcal{H}_{n})"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 314,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.056,
+            0.169,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "300"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.506,
+            0.056,
+            0.87,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.099,
+            0.871,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\|   \\phi f   \\| \\leqslant \\|   \\phi   \\| _ { \\infty }   \\|   f   \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } : L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) \\to L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }   f = \\phi f"
+            },
+            {
+              "type": "text",
+              "content": " Combined with the preceding remarks, the following result can be shown to hold. (The proof is left to the reader.)"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.172,
+            0.758,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.18. Proposition. If N is multiplication by z on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ; \\mathcal { H } _ { n } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.344,
+            0.2,
+            0.655,
+            0.22
+          ],
+          "image_path": "images/page_314_equation_4.jpg",
+          "content": "\\{ N \\} ^ { \\prime }   =   \\{ M _ { \\phi } \\colon \\phi   \\in   L ^ { \\infty } ( \\mu ;   \\mathcal { B } ( \\mathcal { H } _ { n } ) ) \\} ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.227,
+            0.616,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, | "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| M _ { \\phi } \\| = \\| \\phi \\| _ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": " for every φ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu ; { \\mathcal { B } } ( { \\mathcal { H } } _ { n } ) )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.265,
+            0.873,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next lemma is a consequence of Proposition 6.10 and the fact that unitarily equivalent normal operators have mutually absolutely continuous scalar-valued spectral measures."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.338,
+            0.871,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.19. Lemma. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f N _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are normal operators with mutually singular scalar spectral measures and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X N _ { 1 } = N _ { 2 } X"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.393,
+            0.871,
+            0.448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the observation made prior to Corollary 6.8, the preceding lemma implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ N _ { 1 } \\oplus N _ { 2 } \\} ^ { \\prime } = \\{ N _ { 1 } \\} ^ { \\prime } \\oplus \\{ N _ { 2 } \\} ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are as in the lemma."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.124,
+            0.448,
+            0.871,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next theorem of this section can be proved by piecing together Theorem 10.16 and the remaining results of this section. The details are left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.521,
+            0.871,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.20. Theorem. If N is a normal operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , there are mutually singular measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { \\infty } , \\mu _ { 1 } , \\mu _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " and an isomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.261,
+            0.568,
+            0.735,
+            0.588
+          ],
+          "image_path": "images/page_314_equation_11.jpg",
+          "content": "U \\colon { \\mathcal { H } } \\to L ^ { 2 } ( \\mu _ { \\infty } ;   { \\mathcal { H } } _ { \\infty } ) \\oplus L ^ { 2 } ( \\mu _ { 1 } ) \\oplus L ^ { 2 } ( \\mu _ { 2 } ;   { \\mathcal { H } } _ { 2 } ) \\oplus \\cdots"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.587,
+            0.223,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.345,
+            0.605,
+            0.653,
+            0.624
+          ],
+          "image_path": "images/page_314_equation_13.jpg",
+          "content": "U N U ^ { - 1 } = N _ { \\infty } \\oplus N _ { 1 } \\oplus N _ { 2 } \\oplus \\cdots"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.632,
+            0.627,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { n } ="
+            },
+            {
+              "type": "text",
+              "content": " multiplication by z on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu _ { n } ; \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " Also,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.262,
+            0.659,
+            0.758,
+            0.703
+          ],
+          "image_path": "images/page_314_equation_15.jpg",
+          "content": "\\begin{align*}\\{ \\boldsymbol{N}_{\\infty} \\oplus \\boldsymbol{N}_{1} \\oplus \\boldsymbol{N}_{2} \\oplus \\cdots \\}' = &   L^{\\infty}(\\mu_{\\infty}; \\mathcal{B}(\\mathcal{H}_{\\infty})) \\oplus L^{\\infty}(\\mu_{1}) \\\\& \\oplus L^{\\infty}(\\mu_{2}; \\mathcal{B}(\\mathcal{H}_{2})) \\oplus \\cdots   .\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.712,
+            0.87,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the notation of the preceding theorem, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a scalar-valued spectral measure for N, then there are pairwise disjoint Borel sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { \\infty } ,   \\Delta _ { 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\mu _ { n } ] = [ \\mu | \\Delta _ { n } ]"
+            },
+            {
+              "type": "text",
+              "content": " Define a function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { N } \\colon \\mathbb { C } \\to \\{ 0 , 1 , \\ldots \\infty \\}"
+            },
+            {
+              "type": "text",
+              "content": " by letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { N } = \\infty \\chi _ { \\Delta _ { x } } + \\chi _ { \\Delta _ { 1 } } + 2 \\chi _ { \\Delta _ { 2 } } + \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " . As it stands the definition of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { N }"
+            },
+            {
+              "type": "text",
+              "content": " depends on the choice of the sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " as well as N. However, any two choices of the sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " differ from one another by sets of μ-measure zero. The function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { N }"
+            },
+            {
+              "type": "text",
+              "content": " is called the multiplicity function for N. Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { N }"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.124,
+            0.84,
+            0.869,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If m: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { C }   \\rightarrow   \\{ \\infty , 0 , 1 , 2 , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function and is a compactly supported "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " measure such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\{ z \\colon m ( z ) = 0 \\} ) = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n } = \\{ z ;   m ( z ) = n \\} ,   n = \\infty ,   1 , 2 , \\ldots ."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { n } = N _ { \\mu | \\Delta _ { n } }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = N _ { \\infty } ^ { ( \\infty ) } \\oplus N _ { 1 } \\oplus N _ { 2 } ^ { ( 2 ) } \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " is a normal operator whose spectral measure is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " and whose multiplicity function agrees with m a.e. [μ]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 315,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.128,
+            0.056,
+            0.554,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§10. Multiplicity Theory for Normal Operators"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.834,
+            0.056,
+            0.867,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "301"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.873,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.21. Theorem. Two normal operators are unitarily equivalent if and only if they have the same scalar-valued spectral measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " and their multiplicity functions are equal a.e. [µ]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.175,
+            0.871,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is some notation that is used by many and we should mention its connection with what we have just finished. Suppose m: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C }   \\rightarrow   \\{ \\infty , 1 , 2 , \\ldots \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is a compactly supported measure on C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ( \\{ z \\colon m ( z ) = 0 \\} ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " be a Hilbert space of dimension m(z). The direct integral of the spaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " , denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int \\mathcal { H } ( z )   d \\mu ( z )"
+            },
+            {
+              "type": "text",
+              "content": " , is precisely the space"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.263,
+            0.292,
+            0.734,
+            0.312
+          ],
+          "image_path": "images/page_315_equation_4.jpg",
+          "content": "L ^ { 2 } ( \\mu | \\Delta _ { \\infty } ;   \\mathcal { H } _ { \\infty } )   \\oplus   L ^ { 2 } ( \\mu | \\Delta _ { 1 } )   \\oplus   L ^ { 2 } ( \\mu | \\Delta _ { 2 } ;   \\mathcal { H } _ { 2 } )   \\oplus \\cdots ,"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.32,
+            0.871,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n } = \\{ z : m ( z ) = n \\}"
+            },
+            {
+              "type": "text",
+              "content": " and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { n } = n . \\mathrm { I f }   \\phi \\colon \\mathbb { C } \\to \\mathcal { B } ( \\mathcal { H } _ { \\infty } ) \\cup \\mathcal { B } ( \\mathbb { C } ) \\cup \\mathcal { B } ( \\mathcal { H } _ { 2 } ) \\cup \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z ) \\in \\mathcal { B } ( \\mathcal { H } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z { \\in } \\Delta _ { n } , \\phi { : } \\Delta _ { n } \\to { \\mathcal { B } } ( { \\mathcal { H } } _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " is a Borel function, and there is a constant M such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\phi ( z ) \\| \\leqslant M \\; { \\mathrm { a . e . } }"
+            },
+            {
+              "type": "text",
+              "content": " [μ], then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int \\phi ( z )   d \\mu ( z )"
+            },
+            {
+              "type": "text",
+              "content": " denotes the operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi | \\mathbf { \\Delta } _ { \\mathtt { x } } } \\oplus \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " as in (10.20). Although the direct integral notation is quite suggestive, one must revert to the notation of (10.20) to produce proofs."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.448,
+            0.872,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remarks. There are several sources for multiplicity theory. Most begin by proving Theorem 10.16. This is done for nonseparable spaces in Halmos [1951] and Brown [1974]. Another source is Arveson [1976], where the theory is set in the context of C*-algebras which is its proper milieu. Also, Arveson shows that the theory can be applied to some non-normal operators. The details of this more general multiplicity theory are carried out in Ernest [1976] as part of a more general classification scheme. Another source for multiplicity theory is Dunford and Schwartz [1963]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.596,
+            0.874,
+            0.76
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Theorem 4.6, every normal operator is unitarily equivalent to a multiplication operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " for some measure space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu ) ."
+            },
+            {
+              "type": "text",
+              "content": " The scalar-valued spectral measure for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\circ \\phi ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " What is the multiplicity function for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi } ?"
+            },
+            {
+              "type": "text",
+              "content": " One is tempted to say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { { \\cal M } _ { \\phi } } ( z ) ="
+            },
+            {
+              "type": "text",
+              "content": " the number of points in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ^ { - 1 } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " . This is not quite correct. The answer can be found in Abrahamse and Kriete [1973]. Also, Abrahamse [1978] contains a survey of spectral multiplicity for normal operators treated from this point of view. An especially accessible and readable account of this can be found in Kriete [1986]."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.132,
+            0.785,
+            0.236,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.141,
+            0.804,
+            0.875,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let A and B be operators on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , respectively. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " be reducing subspaces for A and B and suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cong B | \\mathcal { H } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\cong A \\vert \\mathcal { H } _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cong B ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14,
+            0.866,
+            0.874,
+            0.918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { 1 } , \\mu _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " be compactly supported measures on C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { n + 1 } \\ll \\mu _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all n. Show that if M is any normal operator whose spectral measure is absolutely continuous with respect to each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } \\oplus \\cdots \\cong ( N _ { \\mu _ { 1 } } \\oplus N _ { \\mu _ { 2 } } \\oplus \\cdots ) \\oplus M ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 316,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.057,
+            0.165,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "302"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.503,
+            0.056,
+            0.866,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IX. Normal Operators on Hilbert Space"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.138,
+            0.1,
+            0.774,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If µ = Lebesgue measure on [0, 1], show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } \\cong N _ { \\mu } ^ { p }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < p < \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.137,
+            0.126,
+            0.869,
+            0.162
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let μ = Lebesgue measure on [0, 1] and characterize the functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } \\cong \\phi ( N _ { \\mu } ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.136,
+            0.17,
+            0.855,
+            0.189
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Let µ = area measure on D and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { \\mu } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are not unitarily equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.135,
+            0.195,
+            0.867,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Let µ = Lebesgue measure on [0, 1] and let v = Lebesgue measure on [ - 1, 1]. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { y } ^ { 2 }   \\cong   N _ { \\mu }   \\oplus   N _ { \\mu ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " How about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { y } ^ { 3 } { } _ { \\bullet } ^ { ? }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.135,
+            0.238,
+            0.869,
+            0.273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " be Lebesgue measure on R and N = multiplication by sin x on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . Find the decompositions of N obtained in Theorem 10.1 and 10.16."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.135,
+            0.281,
+            0.869,
+            0.318
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is Lebesgue measure on R and N = multiplication by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { i x }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu ) ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\cong N _ { m } ^ { ( \\infty ) }"
+            },
+            {
+              "type": "text",
+              "content": " where m = arc length measure on ∂D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.134,
+            0.324,
+            0.869,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\colon L ^ { 2 } ( \\mathbb { R } ) \\to L ^ { 2 } ( \\mathbb { R } ) \\mathrm { ~ b y ~ } ( U f ) ( t ) = f ( t - 1 )"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " is unitary and find its scalar-valued spectral measure and multiplicity function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.367,
+            0.87,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Represent N as in Theorem 10.1 and find the corresponding representation for N⊕ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = N ^ { ( 2 ) } ;"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { ( 3 ) }"
+            },
+            {
+              "type": "text",
+              "content": " , for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { ( \\infty ) }"
+            },
+            {
+              "type": "text",
+              "content": " (Are you surprised by the result for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { ( \\infty ) } ? )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.41,
+            0.623,
+            0.427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Prove the results and solve the exercises from §II.8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.435,
+            0.871,
+            0.487
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Let N be a normal operator and show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\cong N ^ { ( 2 ) }"
+            },
+            {
+              "type": "text",
+              "content": " if and only if there is a *-cyclic normal operator M such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\cong M ^ { ( \\infty ) }"
+            },
+            {
+              "type": "text",
+              "content": " . What does this say about the multiplicity function for N?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.495,
+            0.87,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\Omega , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " be a measure space such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is separable, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi   \\in   L ^ { \\infty } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " , and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " . Find the decompositions of N obtained in Theorems 10.1 and 10.16."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.555,
+            0.87,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " be a compactly supported measure on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { c } , \\phi"
+            },
+            {
+              "type": "text",
+              "content": " a bounded Borel function on C, and suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\Delta _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " are pairwise disjoint Borel sets such that φ is one-to-one on each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu(\\mathbb{C} \\setminus \\bigcup_{n = 1}^{\\infty} \\Delta_{n}) = 0."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { n } = \\phi \\chi _ { \\Delta _ { n } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu _ { n }   =   \\mu ^ { \\circ } \\phi _ { n } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . Prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 2 } ( \\mu )"
+            },
+            {
+              "type": "text",
+              "content": " is unitarily equivalent to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\oplus _ { n = 1 } ^ { \\infty } N _ { \\mu _ { n } } ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 317,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.126,
+            0.098,
+            0.535,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHAPTER X Unbounded Operators"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.125,
+            0.43,
+            0.871,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is unfortunate for the world we live in that all of the operators that arise naturally are not bounded. But that is indeed the case. Thus it is important to study such operators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.485,
+            0.871,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The idea here is not to study an arbitrary linear transformation on a Hilbert space. In fact, such a study is the province of linear algebra rather than analysis. The operators that are to be studied do possess certain properties that connect them to the underlying Hilbert space. The properties that will be isolated are inspired by natural examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.153,
+            0.577,
+            0.718,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "All Hilbert spaces in this chapter are assumed separable."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.644,
+            0.613,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Basic Properties and Examples"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.684,
+            0.871,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first relaxation in the concept of operator is not to assume that the operators are defined everywhere on the Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.739,
+            0.872,
+            0.814
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } , \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " are Hilbert spaces, a linear operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a function whose domain of definition is a linear manifold, dom A, in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(\\alpha f + \\beta g) = \\alpha A f + \\beta A g"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in dom A and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta"
+            },
+            {
+              "type": "text",
+              "content": " in C. A is bounded if there is a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A f \\| \\leqslant c \\| f \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all f in dom A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.831,
+            0.872,
+            0.905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if A is bounded, then A can be extended to a bounded linear operator on cl[dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ]"
+            },
+            {
+              "type": "text",
+              "content": " and then extended to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " by letting A be 0 on (dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ) ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . So unless it is specified to the contrary, a bounded operator will always be assumed to be defined on all of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.155,
+            0.904,
+            0.872,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A is a linear operator from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " then A is also a linear operator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 318,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.057,
+            0.168,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "304"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.634,
+            0.056,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X. Unbounded Operators"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.87,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "from cl[dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ A ]"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . So we will often only consider those A such that dom A is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ;"
+            },
+            {
+              "type": "text",
+              "content": " such an operator A is said to be densely defined. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " still denotes the bounded operators defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.155,
+            0.871,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B"
+            },
+            {
+              "type": "text",
+              "content": " are linear operators from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A + B"
+            },
+            {
+              "type": "text",
+              "content": " is defined with dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A + B) = \\mathrm{dom} A \\cap"
+            },
+            {
+              "type": "text",
+              "content": " dom B. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : \\mathcal { H } \\to \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\colon { \\mathcal { H } } \\to { \\mathcal { L } } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B"
+            },
+            {
+              "type": "text",
+              "content": " is a linear operator from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": " with dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(AB) = B^{-1}(\\mathrm{dom} A)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.225,
+            0.871,
+            0.281
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2. Definition. If A, B are operators from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then A is an extension of B if dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq \\dim A"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A h = B h"
+            },
+            {
+              "type": "text",
+              "content": " whenever hedom B. In symbols this is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.299,
+            0.871,
+            0.336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , then the only extension of A is itself. So this concept is only of value for unbounded operators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.337,
+            0.541,
+            0.355
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : { \\mathcal { H } } \\to { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " , the graph of A is the set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.31,
+            0.364,
+            0.685,
+            0.383
+          ],
+          "image_path": "images/page_318_equation_7.jpg",
+          "content": "\\mathrm{grad} A \\equiv \\{ h \\oplus A h \\in \\mathcal{H} \\oplus \\mathcal{H} : h \\in \\mathrm{dom} A \\}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.391,
+            0.672,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq A"
+            },
+            {
+              "type": "text",
+              "content": " if and only if gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq \\operatorname { g r a } A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.123,
+            0.425,
+            0.871,
+            0.516
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3. Definition. An operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is closed if its graph is closed in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " . An operator is closable if it has a closed extension. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } ) ="
+            },
+            {
+              "type": "text",
+              "content": " the collection of all closed densely defined operators from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into X. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C } ( \\mathcal { H } ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " . (It should be emphasized that the operators in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " are densely defined.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.516,
+            0.872,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When is a subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " a graph of an operator from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ?"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { G } } = \\operatorname { g r a } A"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\mathscr { G } }"
+            },
+            {
+              "type": "text",
+              "content": " is a submanifold of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { 0 }   \\oplus   k   \\in   \\mathcal { G } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k   =   0 ,"
+            },
+            {
+              "type": "text",
+              "content": " The converse is also true. That "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { i s } ,"
+            },
+            {
+              "type": "text",
+              "content": " suppose that G is a submanifold of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\in \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\oplus k \\in { \\mathcal { G } } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k   =   0 ."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D } = \\{ h \\in \\mathcal { H } :"
+            },
+            {
+              "type": "text",
+              "content": " there exists a k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " with h⊕k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\theta \\}"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h { \\in } { \\mathcal { D } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 1 } , k _ { 2 } { \\in } \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\oplus k _ { 1 } , h \\oplus k _ { 2 } \\in \\mathcal { G }"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\oplus (k_1 - k_2) = h \\oplus k_1 - h \\oplus k_2 \\in \\mathcal{G}"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 1 } = k _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . That is, for every h in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { D }"
+            },
+            {
+              "type": "text",
+              "content": " there is a unique k in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\oplus k \\in { \\mathcal { G } } ;"
+            },
+            {
+              "type": "text",
+              "content": " denote k by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = A h ."
+            },
+            {
+              "type": "text",
+              "content": " It is easy to check that A is a linear map and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { G } } = \\operatorname { g r a } A"
+            },
+            {
+              "type": "text",
+              "content": " . This gives an internal characterization of graphs that will be useful in the next proposition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.713,
+            0.87,
+            0.751
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4. Proposition. An operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\to \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is closable if and only if cl[gra A] is a graph."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.759,
+            0.87,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. Let cl[gra A] be a graph. That is, there is an operator B: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = \\mathrm{cl} \\left[ \\mathrm{grad} A \\right]"
+            },
+            {
+              "type": "text",
+              "content": " . Clearly gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq \\operatorname { g r a } B ,"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " is closable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.797,
+            0.872,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now assume that A is closable; that is, there is a closed operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : \\mathcal { H } \\to \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq B ."
+            },
+            {
+              "type": "text",
+              "content": " If 0 ⊕ k∈cl[gra A], 0⊕ k∈gra B and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k   =   0"
+            },
+            {
+              "type": "text",
+              "content": " . By the remarks preceding this proposition, cl[gra A] is a graph."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.152,
+            0.868,
+            0.85,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A is closable, call the operator whose graph is cl[gra A] the closure of A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.904,
+            0.632,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A : \\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is densely defined, let"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 319,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.125,
+            0.056,
+            0.441,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§1. Basic Properties and Examples"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.832,
+            0.056,
+            0.868,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "305"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.135,
+            0.099,
+            0.848,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }   =   \\{ k   \\in   \\mathcal { H } \\colon h     \\mapsto   \\langle A h , k \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded linear functional on dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left. A \\right\\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.122,
+            0.127,
+            0.87,
+            0.184
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because dom A is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ,"
+            },
+            {
+              "type": "text",
+              "content": " if k∈dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a unique vector f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle A h , k \\rangle = \\langle h , f \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " for all h in dom A. Denote this unique vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = A ^ { * } k"
+            },
+            {
+              "type": "text",
+              "content": " Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.4,
+            0.192,
+            0.593,
+            0.211
+          ],
+          "image_path": "images/page_319_equation_4.jpg",
+          "content": "\\langle A h , k \\rangle = \\langle h , A ^ { * } k \\rangle"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.224,
+            0.453,
+            0.243
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for h in dom A and k in dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.26,
+            0.766,
+            0.28
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.6. Proposition. If A: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\rightarrow \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is a densely defined operator, then:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.289,
+            0.399,
+            0.306
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is a closed operator;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.307,
+            0.636,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is densely defined if and only if A is closable;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.326,
+            0.62,
+            0.344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) if A is closable, then its closure is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A ^ { * } ) ^ { * } \\equiv A ^ { * * }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.152,
+            0.352,
+            0.846,
+            0.372
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Before proving this, a lemma is needed which will also be useful later."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.389,
+            0.87,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.7. Lemma. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If A: \\mathcal{H} \\rightarrow \\mathcal{H}"
+            },
+            {
+              "type": "text",
+              "content": " is densely defined and J: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } \\oplus \\mathcal { H } \\rightarrow \\mathcal { H } \\oplus \\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J ( h \\oplus k ) = ( - k ) \\oplus h"
+            },
+            {
+              "type": "text",
+              "content": " , then J is an isomorphism and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.396,
+            0.438,
+            0.607,
+            0.458
+          ],
+          "image_path": "images/page_319_equation_12.jpg",
+          "content": "\\mathrm{grad} A^{*} = \\left[ J \\mathrm{grad} A \\right]^{\\perp}."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.468,
+            0.87,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. It is clear that J is an isomorphism. To prove the formula for gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " note that gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } = \\{ k \\oplus A ^ { * } k \\in { \\mathcal { H } } \\oplus { \\mathcal { H } }"
+            },
+            {
+              "type": "text",
+              "content": " k∈dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ A ^ { * } \\}"
+            },
+            {
+              "type": "text",
+              "content": " . So if kedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and hedom A,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.252,
+            0.533,
+            0.744,
+            0.575
+          ],
+          "image_path": "images/page_319_equation_14.jpg",
+          "content": "\\begin{align*}\\langle k \\oplus A^* k, J(h \\oplus A h) \\rangle &= \\langle k \\oplus A^* k, -A h \\oplus h \\rangle \\\\&= -\\langle k, A h \\rangle + \\langle A^* k, h \\rangle = 0.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.124,
+            0.588,
+            0.869,
+            0.645
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } \\subseteq [ J \\operatorname { g r a } A ] ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " . Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\oplus f \\in [J \\operatorname{grad} A]^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " , then for every h is dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A,0=\\zeta k\\dot{\\oplus}f,-A\\dot{h}\\oplus h\\rangle=-\\zeta k,A\\dot{h}\\rangle+\\zeta f,\\ \\mathrm{so}\\ \\langle A\\dot{h},k\\rangle=\\langle h,f\\rangle"
+            },
+            {
+              "type": "text",
+              "content": " By definition kedom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } k = f ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.652,
+            0.871,
+            0.706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRoOF OF PRoPOsITION 1.6. The proof of (a) is clear from Lemma 1.7. For the remainder of the proof notice that because the mapJ in (1.7) is an isomorphism, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J ^ { * } = J ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J ^ { * } ( k \\oplus h ) = h \\oplus ( - k )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.126,
+            0.706,
+            0.872,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Assume A is closable and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k_{0} \\in (\\mathrm{dom} A^{*})^{\\perp}"
+            },
+            {
+              "type": "text",
+              "content": " . We want to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 } = 0"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 } \\oplus 0 \\in [ \\mathrm { g r a }   A ^ { \\star } ] ^ { \\perp } = [ J   \\mathrm { g r a }   A ] ^ { \\perp \\perp } = \\mathrm { c l } [ J   \\mathrm { g r a }   A ] = J [ \\mathrm { c l } ( \\mathrm { g r a }   A ) ]"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{So} 0 \\oplus -k_0 = J^*(k_0 \\oplus 0) \\in J^*J[(\\mathrm{grad} A)] = \\mathrm{cl}(\\mathrm{grad} A)"
+            },
+            {
+              "type": "text",
+              "content": " . But because A is closable, cl(gra A) is a graph; hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { 0 }   =   0"
+            },
+            {
+              "type": "text",
+              "content": " . For the converse, assume dom "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is dense in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } \\equiv ( A ^ { * } ) ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " is defined. By (a), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " is a closed operator. It is easy to see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq A ^ { * * }"
+            },
+            {
+              "type": "text",
+              "content": " , so A has a closed extension."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.129,
+            0.814,
+            0.873,
+            0.892
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) Note that by Lemma 1.7 gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = [ J ^ { * }   \\mathtt { g r a }   A ^ { * } ] ^ { \\perp } = [ J ^ { * } [ J   \\mathtt { g r a }   A ] ^ { \\perp } ] ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " But for any linear manifold "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " and any isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J , ( J \\mathcal { M } ) ^ { \\perp } = J ( \\mathcal { M } ^ { \\perp } )"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J ^ { * } [ ( J \\mathcal { M } ) ^ { \\perp } ] = \\mathcal { M } ^ { \\perp }"
+            },
+            {
+              "type": "text",
+              "content": " and, thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ J ^ { * } [ J . \\mathcal { M } ] ^ { \\perp } ] ^ { \\perp } = \\mathcal { M } ^ { \\perp \\perp } = \\mathcal { \\mathrm { c l } } . \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " .Putting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { M } } = \\operatorname { g r a } A"
+            },
+            {
+              "type": "text",
+              "content": " gives that gra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = \\mathbf { c l }"
+            },
+            {
+              "type": "text",
+              "content": " gra A. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.908,
+            0.757,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.8. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If A \\in \\mathcal{C}(\\mathcal{H}, \\mathcal{H}),"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * } \\in \\mathcal { C } ( \\mathcal { H } , \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { * * } = A"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

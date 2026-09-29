@@ -1,0 +1,156 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.099,
+            0.286,
+            0.12
+          ],
+          "content": "CHAPTER I"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.124,
+            0.134,
+            0.387,
+            0.165
+          ],
+          "level": 1,
+          "content": "Hilbert Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.427,
+            0.871,
+            0.575
+          ],
+          "content": "A Hilbert space is the abstraction of the finite-dimensional Euclidean spaces of geometry. Its properties are very regular and contain few surprises, though the presence of an infinity of dimensions guarantees a certain amount of surprise. Historically, it was the properties of Hilbert spaces that guided mathematicians when they began to generalize. Some of the properties and results seen in this chapter and the next will be encountered in more general settings later in this book, or we shall see results that come close to these but fail to achieve the full power possible in the setting of Hilbert space."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.619,
+            0.695,
+            0.644
+          ],
+          "level": 2,
+          "content": "§1. Elementary Properties and Examples"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.659,
+            0.869,
+            0.696
+          ],
+          "content": "Throughout this book F will denote either the real field, R, or the complex field, C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.713,
+            0.871,
+            0.769
+          ],
+          "content": "1.1. Definition. If $\\mathcal { X }$ is a vector space over $\\mathbb { F } ,$ a semi-inner product on $\\mathcal { X }$ is a function u: $\\mathcal { X } \\times \\mathcal { X }   \\rightarrow   \\mathbb { F }$ such that for all $\\alpha , \\beta$ in $\\mathbb { F } ,$ and $x , y , z$ in $\\mathcal { X }$ , the following are satisfied:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.778,
+            0.483,
+            0.796
+          ],
+          "content": "(a) $u ( \\alpha x + \\beta y , z ) = \\alpha u ( x , z ) + \\beta u ( y , z ) ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.797,
+            0.483,
+            0.815
+          ],
+          "content": "(b) $u ( x , \\alpha y + \\beta z ) = \\bar { \\alpha } u ( x , y ) + \\bar { \\beta } u ( x , z ) ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.816,
+            0.272,
+            0.833
+          ],
+          "content": "(c) $u ( x , x ) \\geqslant 0 ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.836,
+            0.314,
+            0.855
+          ],
+          "content": "(d) $u ( x , y ) = u ( y , x ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.863,
+            0.871,
+            0.919
+          ],
+          "content": "Here, for α in $\\mathbf { F } , { \\bar { \\alpha } } = \\alpha { \\mathrm { ~ i f ~ } } \\mathbf { F } = \\mathbf { R }$ and $\\bar { \\alpha }$ is the complex conjugate of $\\alpha$ if $\\mathbf { F } = \\mathbf { C } . \\mathbf { I f }   \\alpha   \\in   \\mathbf { C } ,$ the statement that $\\alpha \\geqslant 0$ means that $\\alpha { \\in } \\mathbb { R }$ and αis non-negative. Note that if $\\alpha   =   0 ,$ then property (a) implies that $u(0,y)=u(\\alpha \\cdot 0,y)=$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

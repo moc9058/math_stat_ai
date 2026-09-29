@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 21,
+  "model": "gpt-6-luna",
+  "seconds": 11.9,
+  "input_tokens": 3444,
+  "output_tokens": 798,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"ProoF.\",\n      \"correction\": \"PROOF.\"\n    },\n    {\n      \"candidate\": \"\\\\int_{B(a;r)}^{r} f\",\n      \"correction\": \"\\\\iint_{B(a;r)} f\"\n    },\n    {\n      \"candidate\": \"\\\\int_{B(a;r)} f \\\\cdot 1\",\n      \"correction\": \"\\\\iint_{B(a;r)} f \\\\cdot 1\"\n    },\n    {\n      \"candidate\": \"\\\\int_{B(a;r)} |f|^2\",\n      \"correction\": \"\\\\iint_{B(a;r)} |f|^2\"\n    },\n    {\n      \"candidate\": \"\\\\int_{B(a;r)} 1^2\",\n      \"correction\": \"\\\\iint_{B(a;r)} 1^2\"\n    },\n    {\n      \"candidate\": \"\\\\tilde{B}(a;r) \\\\subseteq G\",\n      \"correction\": \"\\\\bar{B}(a;r) \\\\subseteq G\"\n    },\n    {\n      \"candidate\": \"f \\\\in \\\\bar{L_a^2(G)}\",\n      \"correction\": \"f \\\\in L_a^2(G)\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

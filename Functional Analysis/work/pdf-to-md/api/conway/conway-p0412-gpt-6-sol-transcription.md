@@ -1,0 +1,103 @@
+multiplicity, 60, 280, 293, 300  
+multiplicity function, 60, 300  
+mutually absolutely continuous, 269  
+mutually singular, 378
+
+$N_\mu$, 265, 269, 270, 279, 326  
+natural map, 89  
+negative part, 241  
+net, 371  
+noncontracting family, 153  
+norm, 4, 12, 27, 63, 68  
+&emsp;equivalent, 64  
+&emsp;essential supremum, 28  
+normable, 107  
+normal, 33, 234, 319  
+normed space, 63  
+normal operator, 33
+
+One parameter unitary group, 329  
+one point compactification, 67, 222  
+open half-space, 109  
+open line segment, 141  
+Open Mapping Theorem, 90  
+order unit, 86  
+ordered by inclusion, 371  
+ordered by reverse inclusion, 371  
+ordered vector space, 86  
+orthogonal, 7  
+orthogonal difference, 38  
+orthogonal projection, 10, 37  
+orthonormal subset, 14  
+outside of curve, 200
+
+Pairwise orthogonal, 54  
+Parallelogram Law, 8  
+Parseval’s Identity, 17  
+partial isometry, 240, 242, 314  
+partition of the identity, 54  
+partition of unity, 139  
+$p$-diameter, 152  
+Plancherel’s Theorem, 341  
+Plancherel’s transform, 341  
+point spectrum, 208  
+Poisson kernel, 195  
+polar, 126  
+polar decomposition, 59, 242, 266, 327  
+polar identity, 4  
+polynomially convex, 206  
+polynomially convex hull, 206  
+Pontryagin Duality Theorem, 229  
+positive element in a $C^*$-algebra, 240  
+positive functional, 87, 250
+
+positive linear map, 57, 87  
+positive measure, 378  
+positive operator, 57, 87  
+positive part, 241  
+positively oriented, 200  
+prepolar, 126  
+Principle of Uniform Boundedness, 95, 97, 127  
+probability measure, 81, 147  
+product of normed spaces, 72  
+projection, 10, 37  
+proximinal, 133  
+PUB, 95  
+Pythagorean Theorem, 7
+
+Quotient map, 370  
+quotient space, 70, 128, 370
+
+Radical, 220  
+Radon–Nikodym derivative, 380  
+Radon–Nikodym Theorem, 380  
+range of an operator, 370  
+rapidly decreasing function, 336  
+rational generator set, 222  
+real part of an operator, 34  
+reducing subspace, 38  
+reductive operator, 290  
+reflexive operator, 291  
+reflexive space, 89, 132  
+regular Borel measure, 380  
+representation, 248  
+resolvent, 198  
+resolvent identity, 198  
+resolvent set, 195, 307  
+restriction of an operator, 39  
+retract, 149  
+retraction, 69  
+Riemann–Lebesgue Lemma, 22, 338  
+Riesz Functional Calculus, 201, 266  
+Riesz idempotent, 210, 266, 366  
+Riesz Representation Theorem, 11, 75, 389  
+right essential spectrum, 358  
+right Fredholm operator, 349  
+right ideal, 191  
+right invertible, 191  
+right modular ideal, 194  
+right modular unit, 194  
+right resolvent set, 195  
+right spectrum, 195  
+Runge’s Theorem, 83  
+Ryll–Nardzewski Fixed Point Theorem, 153

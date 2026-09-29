@@ -1,0 +1,1460 @@
+{
+  "pages": [
+    {
+      "page_idx": 208,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.132,
+            0.057,
+            0.167,
+            0.072
+          ],
+          "content": "194"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.482,
+            0.055,
+            0.87,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.213
+          ],
+          "content": "ProOF. We have already seen that $\\alpha / M$ is a Banach space and, as was mentioned prior to the statement of the theorem, $\\alpha / M$ is an algebra. If $x , y   \\in   \\mathcal { A }$ and $u , v \\in \\mathcal { M }$ then $(x + u)(y + v) = xy + (xv + uv + uv) \\in xy + \\mathcal{M}$ Hence $\\| (x + \\mathcal{M})(y + \\mathcal{M}) \\| = \\| xy + \\mathcal{M} \\| \\leqslant \\| (x + u)(y + v) \\| \\leqslant \\| x + u \\| \\| y + v \\|$ Taking the infimum over all u, v in M gives that $\\| ( x + \\mathcal { M } ) ( y + \\mathcal { M } ) \\| \\leq \\| x + \\mathcal { M } \\|$ $\\| y + \\mathcal { M } \\|$ . The remainder of the proof is left to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.229,
+            0.871,
+            0.321
+          ],
+          "content": "It may be that $\\alpha / M$ has an identity even if $\\varkappa$ does not. For example, let $\\mathcal { A } = C _ { 0 } ( \\mathbb { R } )$ and let $\\mathcal { M } = \\{ \\phi \\in C _ { 0 } ( \\mathbb { R } ) : \\phi ( x ) = 0$ when $| x | \\leqslant 1 \\}$ . If $\\phi _ { 0 } \\in C _ { 0 } ( \\mathbb { R } )$ such that $\\phi _ { 0 } ( x ) = 1$ for $| x | \\leqslant 1$ , then $\\phi _ { 0 } + \\mathcal { M }$ is an identity for $\\sigma / d$ . In fact, if $\\phi \\in C _ { 0 } ( \\mathbb { R } ) , \\quad ( \\phi \\phi _ { 0 } - \\phi ) ( x ) = 0 \\quad \\mathrm { i f } \\quad | x | \\leqslant 1$ . Hence $( \\phi + \\mathcal { M } ) ( \\phi _ { 0 } + \\mathcal { M } ) = \\phi + \\mathcal { M }$ (see Exercises 6 through 9)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.339,
+            0.233,
+            0.356
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.358,
+            0.871,
+            0.41
+          ],
+          "content": "1. Let $\\varkappa$ be a Banach algebra and let $\\mathcal { L }$ be all of the closed left ideals in $\\varkappa$ If $I _ { 1 } ,$ $I _ { 2 } \\in \\mathcal { L } ,$ define $I_{1} \\lor I_{2} \\equiv \\mathrm{cl}(I_{1} + I_{2})$ and $I _ { 1 } \\wedge I _ { 2 } = I _ { 1 } \\cap I _ { 2 }$ . Show that with these definitions $\\mathcal { L }$ is a complete lattice with a largest and a smallest element."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.417,
+            0.871,
+            0.486
+          ],
+          "content": "2. Let X be locally compact. For every open subset U of X, let $I ( U ) = \\{ \\phi \\in C _ { 0 } ( X ) \\}$ $\\phi = 0 \\mathrm { o n } X \\backslash U \\}$ . Show that $U   \\mapsto   I ( U )$ is a lattice monomorphism of the collection of open subsets of X into the lattice of close ideals of $C _ { 0 } ( X )$ . (It is, in fact, surjective, but the proof of that should wait.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.494,
+            0.871,
+            0.546
+          ],
+          "content": "3. Let $( X , \\Omega , \\mu )$ be a σ-finite measure space and let I be an ideal in $L ^ { \\infty } ( X , \\Omega , \\mu )$ that is weak\\* closed. Show that there is a set ∆ in Ω such that $I = \\{ \\phi \\in L ^ { \\infty } ( X , \\Omega , \\mu ) :$ $\\phi   =   0$ a.e. on $\\Delta \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.55,
+            0.871,
+            0.61
+          ],
+          "content": "4. Let $\\mathcal { A } = \\left\\{ \\left[ \\begin{matrix} { \\alpha } & { 0 } \\\\ { \\beta } & { \\alpha } \\\\ \\end{matrix} \\right] : \\alpha , \\beta \\in \\mathbb { F } \\right\\}$ and let $\\mathcal { M } = \\left\\{ \\left[ \\begin{matrix} { 0 } & { 0 } \\\\ { \\beta } & { 0 } \\\\ \\end{matrix} \\right] : \\beta { \\in } \\mathbb { F } \\right\\}$ . Show that $\\alpha$ is a Banach algebra and M is a maximal ideal in $\\varkappa$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.618,
+            0.806,
+            0.636
+          ],
+          "content": "5. Show that for $n \\geqslant 1,   M_n(\\mathbb{C})$ has no nontrivial ideals. How about $M _ { n } ( \\mathbb { R } ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.644,
+            0.871,
+            0.812
+          ],
+          "content": "6. Let $\\varkappa$ be a Banach algebra but do not assume that $\\alpha$ has an identity. If I is a left ideal of $\\alpha ,$ say that I is a modular left ideal if there is a u in $\\varkappa$ such that $\\mathcal { A } ( 1 - u ) \\equiv \\{ a - a u : a \\in \\mathcal { A } \\} \\subseteq I ;$ call such an element u of $\\varkappa$ a right modular unit for I. Similarly, define right modular ideals and left modular units. Prove the following. (a) If u is a right modular unit for the left ideal I and $u { \\in } I ,$ then $I = \\mathcal { A }$ (b) Maximal modular left ideals are maximal left ideals. (c) If I is a proper modular left ideal, then I is contained in a maximal left ideal. (d) If I is a proper modular left ideal and u is a modular right unit for I, then $\\| \\boldsymbol { u } - \\boldsymbol { x } \\| \\geqslant 1$ for all x in I and cl I is a proper modular left ideal. (e) Every maximal modular left ideal of $\\alpha$ is closed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.821,
+            0.872,
+            0.922
+          ],
+          "content": "7. Using the terminology of Exercise 6, let I be an ideal of $\\varkappa$ Show: (a) if u is a right modular unit for I and v is a left modular unit for I, then $u - v   \\in   I ,$ (b) If I is closed, $\\mathcal { A } / I$ has an identity if and only if there is a right modular unit and a left modular unit for I. Call an ideal I such that $\\mathcal { A } / I$ has an identity a modular ideal. An element u such that $u + I$ is an identity for $\\mathcal { A } / I$ is called a modular identity for I."
+        }
+      ]
+    },
+    {
+      "page_idx": 209,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.13,
+            0.056,
+            0.296,
+            0.073
+          ],
+          "content": "§3. The Spectrum"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.836,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": "195"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.102,
+            0.868,
+            0.188
+          ],
+          "content": "8. If $\\varkappa$ is a Banach algebra, a net $\\{ e _ { i } \\}$ in $\\varkappa$ is called an approximate identity for A if $\\operatorname { s u p } _ { i } \\| e _ { i } \\| < \\infty$ and for each a in $\\mathcal { A } ,   e _ { i } a   \\rightarrow   a$ and $a e _ { i }   \\rightarrow   a .$ Show that $\\varkappa$ has an approximate identity if and only if there is a bounded subset E of  such that for every $\\varepsilon   >   0$ and for every a in $\\varkappa$ there is an e in E with $\\| a e - a \\| + \\| e a - a \\| < \\varepsilon .$ See Wichmann [1973] for more information."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.195,
+            0.83,
+            0.213
+          ],
+          "content": "9. Show that if X is locally compact, then $C _ { 0 } ( X )$ has an approximate identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.221,
+            0.794,
+            0.239
+          ],
+          "content": "10. If  is a Hilbert space, show that $\\mathcal { B } _ { 0 } ( \\mathcal { H } )$ has an approximate identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.247,
+            0.867,
+            0.318
+          ],
+          "content": "11. If G is a locally compact group, show that $L ^ { 1 } ( G ) ( 1 . 1 1 )$ has an approximate identity. [Hint: Let $\\mathcal { U } = \\mathrm { a l l }$ neighborhoods U of the identity e of G such that cl U is compact. Order U by reverse inclusion. For U in $q ,$ let $f _ { U } = m ( U ) ^ { - 1 } \\chi _ { U }$ . Then $\\{ f _ { v } : U { \\in } { \\mathcal { U } } \\}$ is an approximate identity for $L ^ { 1 } ( G ) . ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.324,
+            0.867,
+            0.36
+          ],
+          "content": "12. For $0 < r < 1$ , let $P _ { r } : \\partial \\mathbb { D } \\to [ 0 , \\infty )$ defined by $P _ { r } ( z ) = \\sum _ { n = - \\infty } ^ { \\infty } r ^ { | n | } z ^ { n }$ (the Poisson kernel). Show that $\\{ P _ { r } \\}$ is an approximate identity for $L ^ { 1 } ( \\partial \\hat { \\mathbf { D } } )$ (under convolution)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.367,
+            0.866,
+            0.402
+          ],
+          "content": "13. If $\\mathcal { H }$ is a Hilbert space and P is a projection, show that $\\mathcal { B } _ { 0 } ( \\mathcal { H } ) P$ is a closed modular left ideal of $\\mathcal { B } _ { 0 } ( \\mathcal { H } )$ . What is the associated right modular unit?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.41,
+            0.563,
+            0.428
+          ],
+          "content": "14. Find the minimal proper left ideals of $M _ { n } ( \\mathbb { F } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.435,
+            0.866,
+            0.471
+          ],
+          "content": "15. Find the minimal closed proper left ideals of $\\mathcal { B } _ { 0 } ( \\mathcal { H } ) , \\mathcal { H }$ a Hilbert space. How about for $\\mathcal { B } _ { 0 } ( \\mathcal { X } ) ,   \\mathcal { X }$ a Banach space?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.478,
+            0.81,
+            0.497
+          ],
+          "content": "16. What are the maximal modular left ideals of $\\mathcal { B } _ { 0 } ( \\mathcal { H } ) , \\mathcal { H }$ a Hilbert space?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.539,
+            0.377,
+            0.563
+          ],
+          "level": 2,
+          "content": "§3. The Spectrum"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.578,
+            0.868,
+            0.615
+          ],
+          "content": "3.1. Definition. If  is a Banach algebra with identity and $a \\in \\mathcal { A } _ { j }$ the spectrum of a, denoted by $\\sigma ( a ) .$ , is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.315,
+            0.623,
+            0.677,
+            0.642
+          ],
+          "content": "\\sigma ( a ) = \\{ \\alpha \\in \\mathbb { F } \\colon a - \\alpha { \\mathrm { ~ i s ~ n o t ~ i n v e r t i b l e } } \\} .",
+          "image_source": "images/page_209_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.649,
+            0.869,
+            0.686
+          ],
+          "content": "The left spectrum, $\\sigma _ { l } ( a ) ,$ , is the set $\\{ \\alpha { \\in } \\mathbb { F } \\colon a - \\alpha$ is not left invertible}; the right spectrum, $\\sigma _ { \\pmb { r } } ( a ) ,$ is defined similarly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.686,
+            0.869,
+            0.724
+          ],
+          "content": "The resolvent set of a is defined by $\\rho(a) = \\mathbb{F} \\backslash \\sigma(a)$ . The left and right resolvents of a are $\\rho _ { l } ( a ) = \\mathbb { F } \\backslash \\sigma _ { l } ( a )$ and $\\rho _ { r } ( a ) = \\mathbb { F } \\backslash \\sigma _ { r } ( a )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.74,
+            0.871,
+            0.816
+          ],
+          "content": "3.2. Example. Let X be compact. If $f   \\in   { \\cal C } ( X ) ,$ then $\\sigma ( f )   =   f ( X )$ In fact, if $\\alpha = f ( x _ { 0 } ) ,$ , then $f - \\alpha$ has a zero and cannot be invertible. So $f ( X ) \\subseteq \\sigma ( f )$ . On the other hand, if $\\alpha \\notin f ( \\mathbf { X } ) , f - \\alpha$ is a nonvanishing continuous function on X. Hence $(f - \\alpha)^{-1} \\in C(X)$ and so $f - \\alpha$ is invertible. Thus $\\alpha \\notin \\sigma ( f )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.832,
+            0.872,
+            0.925
+          ],
+          "content": "3.3. Example. If X is a Banach space and $A   \\in   \\mathcal { B } ( \\mathcal { X } )$ , then $\\sigma(A) = \\{ \\alpha \\in \\mathbb{F} :$ either ker $( A - \\alpha ) \\neq ( 0 )$ or ra $\\tan ( A - \\alpha ) \\neq X$ . In fact, this means that $\\rho(A)=\\mathbb{F}\\backslash\\sigma(A)=$ $\\{ \\alpha { \\in } \\mathbb { F } \\colon A - \\alpha$ is bijective}. If $\\alpha   \\in   \\rho ( A ) ,$ , there is an operator T in $\\mathcal { B } ( \\mathcal { X } )$ such that $T(A - \\alpha) = (A - \\alpha)T = 1;$ clearly, $A - \\alpha$ is bijective. On the other hand, if $A - \\alpha$ is bijective, $( A - \\alpha ) ^ { - 1 } \\in { \\mathcal { B } } ( { \\mathcal { X } } )$ by the Inverse Mapping Theorem."
+        }
+      ]
+    },
+    {
+      "page_idx": 210,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.134,
+            0.056,
+            0.17,
+            0.07
+          ],
+          "content": "196"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.485,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.1,
+            0.872,
+            0.173
+          ],
+          "content": "3.4. Example. If $\\mathcal { H }$ is a Hilbert space and $A   \\in   \\mathcal { B } ( \\mathcal { H } ) ,$ then $\\sigma _ { l } ( A ) = \\{ \\alpha \\in \\mathbb { F } :$ inf{ $\\left\\{ ( A - \\alpha ) h   \\| \\colon   \\|   h   \\| = 1 \\right\\} = 0 \\}$ . In fact, suppose $B \\in \\mathcal { B } ( \\mathcal { H } )$ such that $B(A - \\alpha) = 1.  If  \\|h\\| = 1$ , then $1 = \\| \\boldsymbol{h} \\| = \\| \\boldsymbol{B}(\\boldsymbol{A} - \\boldsymbol{\\alpha})\\boldsymbol{h} \\| \\leqslant \\| \\boldsymbol{B} \\| \\| (\\boldsymbol{A} - \\boldsymbol{\\alpha})\\boldsymbol{h} \\|$ . So $\\| ( A - \\alpha ) h \\| \\geqslant \\| B \\| ^ { - 1 }$ whenever $\\| \\boldsymbol { h } \\| = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.173,
+            0.875,
+            0.321
+          ],
+          "content": "Conversely, suppose $\\| ( A - \\alpha ) h \\| \\geqslant \\delta > 0$ whenever $\\| h \\| = 1$ . Note that ker $(A - \\alpha) = (0)$ . It will now be shown that ran(A — α) is closed. In fact, assume that $( A - \\alpha ) f _ { n } \\to g .$ Then $\\delta \\left\\| f _ { n } - f _ { m } \\right\\| \\leqslant \\left\\| ( A - \\alpha ) ( f _ { n } - f _ { m } ) \\right\\| = \\left\\| ( A - \\alpha ) f _ { n } - \\alpha \\right\\|$ $(A - \\alpha)f_m \\parallel . \\quad  Thus  \\quad \\{f_n\\}$ is a Cauchy sequence. $\\begin{array} { r l } { \\mathbf { L e t } } & { { } f _ { n }   \\rightarrow   f . } \\end{array}$ Then $g = \\lim (A - \\alpha) f_n = (A - \\alpha) f;$ hence $g { \\in } \\operatorname { r a n } ( A - \\alpha )$ Let $\\mathcal{H} = \\mathrm{ran}(A - \\alpha);$ sO $( A - \\alpha ) : \\mathcal { H } \\rightarrow \\mathcal { H }$ is a bijection. Thus $( A - \\alpha ) ^ { - 1 } : \\mathcal { H } \\to \\mathcal { H }$ is bounded. Define $B : \\mathcal { H } \\to \\mathcal { H }$ by letting $B(k + h) = (A - \\alpha)^{-1}k$ when $k \\in \\mathcal { H }$ and $h \\in \\mathcal { H } ^ { \\perp }$ . Thus $B   \\in   \\mathcal { B } ( \\mathcal { H } )$ and $B ( A - \\alpha ) = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.341,
+            0.874,
+            0.421
+          ],
+          "content": "3.5. Example. If $\\mathcal { A } = M _ { 2 } ( \\mathbb { R } )$ and $\\boldsymbol{A} = \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$ then $\\sigma(A)=\\square$ . In fact, $A   -   \\alpha$ is not invertible if and only if $0 = \\det(A - \\alpha) = \\alpha^2 + 1$ , which is impossible in R."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.44,
+            0.871,
+            0.478
+          ],
+          "content": "The phenomenon of the last example does not occur if $\\varkappa$ is a Banach algebra over C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.494,
+            0.871,
+            0.551
+          ],
+          "content": "3.6. Theorem. If A is a Banach algebra over C with an identity, then for each a in ${ \\mathcal { A } } , \\sigma ( a )$ is a nonempty compact subset $\\mathbf { o f } \\mathbf { C } .$ Moreover, $if \\left| \\alpha \\right| > \\left\\| a \\right\\|, \\alpha \\notin \\sigma(a)$ and $z { \\mapsto } ( z - a ) ^ { - 1 }$ is an A-valued analytic function defined on $\\rho ( a )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.567,
+            0.872,
+            0.75
+          ],
+          "content": "Before beginning the proof, a few words on vector-valued analytic functions are in order. If G is a region in C and X is a Banach space, define the derivative of $f \\colon G   \\to   { \\mathcal { X } }$ at $z _ { 0 }$ to be $\\lim_{h \\to 0} h^{-1} \\left[ f(z_0 + h) - f(z_0) \\right]$ if the limit exists. Say that f is analytic if f has a continuous derivative on G. The whole theory of analytic functions transfers to this situation. The statements and proofs of such theorems as Cauchy's Integral Formula, Liouville's Theorem, etc., transfer verbatim. Also, $f \\colon G   \\to   { \\mathcal { X } }$ is analytic if and only if for each $z _ { 0 }$ in G there is a sequence $x _ { 0 } , \\quad x _ { 1 } , \\quad x _ { 2 } , \\ldots$ in X such that $f(z) = \\sum_{k = 0}^{\\infty} (z - z_0)^k x_k$ whenever $z   \\in   { \\pmb B } ( z _ { 0 } ; r )$ , where $\\boldsymbol{r} = \\mathrm{dist}(z_0, \\partial G)$ . Moreover, the convergence is. uniform on compact subsets of $B ( z _ { 0 } ; r )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.75,
+            0.872,
+            0.787
+          ],
+          "content": "There is also a way of obtaining the vector-valued case as a consequence of the scalar-valued case (see Exercise 4)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.795,
+            0.871,
+            0.851
+          ],
+          "content": "PROOF OF THEOREM 3.6. If $| \\alpha | > \\| a \\|$ , then $\\alpha - a = \\alpha(1 - a/\\alpha)$ and $\\| a / \\alpha \\| < 1$ By Corollary $2 . 3 , \\; ( 1 - a / \\alpha )$ is invertible. Hence $\\alpha - a$ is invertible and so α∉σ(a). Thus $\\sigma ( a ) \\subseteq \\{ \\alpha \\in \\mathbb { C } : | \\alpha | \\leqslant \\| a \\| \\}$ and $\\sigma ( a )$ is bounded."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.851,
+            0.871,
+            0.905
+          ],
+          "content": "Let G be the set of invertible elements of $\\varkappa$ The map $\\alpha \\mapsto ( \\alpha - a )$ is a continuous function of $\\mathbb { C } \\rightarrow \\mathcal { A }$ Since G is open and $\\rho ( a )$ is the inverse image of G under this map, $\\rho ( a )$ is open. Thus $\\sigma ( a ) = \\mathbf { C } \\backslash \\rho ( a )$ is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.904,
+            0.867,
+            0.924
+          ],
+          "content": "Define $F \\colon \\rho ( a )   \\to   { \\mathcal { A } }$ by $F(z) = (z - a)^{-1}$ . In the identity $x ^ { - 1 } - y ^ { - 1 } =$"
+        }
+      ]
+    },
+    {
+      "page_idx": 211,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.295,
+            0.073
+          ],
+          "content": "§3. The Spectrum"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.835,
+            0.056,
+            0.871,
+            0.07
+          ],
+          "content": "197"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.1,
+            0.871,
+            0.138
+          ],
+          "continues_prev": true,
+          "content": "$x ^ { -   1 } ( y - x ) y ^ { -   1 }$ , let $x = ( \\alpha + h - a )$ and $y = ( \\alpha - a )$ , where $\\alpha   \\in   \\rho ( a )$ and $h \\in \\mathbf { C }$ such that $h \\neq 0$ and $\\alpha + h \\in \\rho ( a )$ This gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.276,
+            0.145,
+            0.72,
+            0.215
+          ],
+          "content": "\\frac{F(\\alpha + h) - F(\\alpha)}{h} = \\frac{(\\alpha + h - a)^{-1}(-h)(\\alpha - a)^{-1}}{h} \\\\= - (\\alpha + h - a)^{-1}(\\alpha - a)^{-1}.",
+          "image_source": "images/page_211_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.226,
+            0.678,
+            0.246
+          ],
+          "content": "Since $( \\alpha + h - a ) ^ { - 1 } \\rightarrow ( \\alpha - a ) ^ { - 1 }$ as $h   \\rightarrow   0 ,   F ^ { \\prime } ( \\alpha )$ exists and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.254,
+            0.598,
+            0.274
+          ],
+          "content": "F ^ { \\prime } ( \\alpha ) = - ( \\alpha - a ) ^ { - 2 } .",
+          "image_source": "images/page_211_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.283,
+            0.713,
+            0.301
+          ],
+          "content": "Clearly $F ^ { \\prime } \\colon \\rho ( a )   \\to   { \\mathcal { A } }$ is continuous, so F is analytic on $\\rho ( a ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.303,
+            0.871,
+            0.357
+          ],
+          "content": "From the first paragraph of the proof and Corollary 2.3, if $| z | > \\| a \\|$ , then $F(z) = z^{-1}(1 - a/z)^{-1}$ . But as $z   \\to   \\infty , ( 1 - a / z )   \\to   1$ and so $( 1 - a / z ) ^ { - 1 } \\rightarrow 1$ . Thus $F(z) \\to 0   as   z \\to \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.358,
+            0.871,
+            0.414
+          ],
+          "content": "Therefore if $\\rho ( a ) = \\mathbb { C }$ , F is an entire function that vanishes at $\\infty$ By Liouville's Theorem F is constant. Since $F ^ { \\prime } \\neq 0 ,$ , this is a contradiction. Thus $\\rho ( a ) \\neq \\mathbb { C } ,$ or $\\sigma ( a ) \\neq \\Box$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.431,
+            0.871,
+            0.469
+          ],
+          "content": "Because the spectrum of an element of a complex Banach algebra is not empty, the following assumption is made."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.485,
+            0.871,
+            0.522
+          ],
+          "content": "Assumption. Henceforward, all Banach spaces and all Banach algebras are over C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.54,
+            0.871,
+            0.579
+          ],
+          "content": "3.7. Definition. If  is a Banach algebra with identity and $a \\in \\mathcal { A } _ { 2 }$ the spectral radius of $a ,   r ( a ) ,$ , is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.382,
+            0.587,
+            0.614,
+            0.607
+          ],
+          "content": "r ( a ) = \\operatorname* { s u p } \\{ | \\alpha | : \\alpha \\in \\sigma ( a ) \\} .",
+          "image_source": "images/page_211_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.614,
+            0.871,
+            0.65
+          ],
+          "content": "Because $\\sigma ( a ) \\neq \\Box$ and is bounded, $r ( a )$ is well defined and finite; because $\\sigma ( a )$ is compact, this supremum is attained."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.651,
+            0.871,
+            0.71
+          ],
+          "content": "Let $\\mathcal { A } = M _ { 2 } ( \\pmb { \\mathbb { C } } )$ and let $\\boldsymbol{A} = \\begin{bmatrix} 0 & 0 \\\\ 1 & 0 \\end{bmatrix}$ Then $A ^ { 2 }   =   0$ and $\\sigma ( A ) = \\{ 0 \\}$ ; so $r ( A ) = 0$ So it is possible to have $r(A)=0$ with $A \\neq 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.726,
+            0.871,
+            0.762
+          ],
+          "content": "3.8. Proposition. If A is a Banach algebra with identity and $a \\in \\mathcal { A } _ { i }$ lim $\\| \\boldsymbol { a } ^ { n } \\| ^ { 1 / n }$ exists and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41,
+            0.772,
+            0.587,
+            0.791
+          ],
+          "content": "r(a) = \\lim_{n \\to \\infty} \\|a^n\\|^{1/n}.",
+          "image_source": "images/page_211_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.8,
+            0.872,
+            0.875
+          ],
+          "content": "PROOF. Let $G = \\{ z \\in \\mathbb { C } : z = 0 { \\mathrm { ~ o r ~ } } z ^ { - 1 } \\in \\rho ( a ) \\}$ . Define $f \\colon G   \\to   { \\mathcal { A } }$ by $f ( 0 )   =   0$ and for $z \\ne 0,\\; f(z) = (z^{-1} - a)^{-1}$ . Since $(a - \\alpha)^{-1} \\rightarrow 0$ as $\\alpha   \\to   \\infty .$ , f is analytic on $G ,$ and so f has a power series expansion. In fact, by Corollary 2.3, for $| z | < \\| a \\| ^ { - 1 }$ 2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.324,
+            0.883,
+            0.667,
+            0.923
+          ],
+          "content": "f(z)=\\sum_{n = 0}^{\\infty}a^{n}/(z^{- 1})^{n + 1}=z\\sum_{n = 0}^{\\infty}z^{n}a^{n}.",
+          "image_source": "images/page_211_equation_18.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 212,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.056,
+            0.166,
+            0.071
+          ],
+          "content": "198"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.482,
+            0.055,
+            0.867,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.1,
+            0.868,
+            0.173
+          ],
+          "content": "From complex variable theory, this power series converges for $| z | <$ $R \\equiv \\mathrm{dist}(0, \\partial G) = \\mathrm{dist}(0, \\sigma(a)^{-1})$ (Here $\\sigma ( a ) ^ { - 1 } = \\{ z ^ { - 1 } : z \\in \\sigma ( a ) \\}$ . Thus $R =$ inf $\\{ | \\alpha | : \\alpha ^ { - 1 } \\in \\sigma ( a ) \\} = r ( a ) ^ { - 1 }$ . Also, from the theory of power series, $R^{-1} = \\lim \\sup \\| a^n \\|^{1/n}$ Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.391,
+            0.181,
+            0.605,
+            0.2
+          ],
+          "content": "r(a) = \\lim \\sup \\| a^n \\|^{1/n}.",
+          "image_source": "images/page_212_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.207,
+            0.871,
+            0.34
+          ],
+          "content": "Now if $\\alpha \\in \\mathbf { C }$ and $n \\geqslant 1,\\quad \\alpha^{n}-a^{n}=(\\alpha-a)(\\alpha^{n-1}+\\alpha^{n-2}a+\\cdots+a^{n-1})=$ $( \\alpha ^ { n - 1 } + \\alpha ^ { n - 2 } a + \\cdots + a ^ { n - 1 } ) ( \\alpha - a ) . \\mathrm { S o ~ i f ~ } \\alpha ^ { n } - a ^ { n }$ is invertible, $\\alpha - a$ is invertible and $( \\alpha - a ) ^ { - 1 } = ( \\alpha ^ { n } - a ^ { n } ) ^ { - 1 } ( \\alpha ^ { n - 1 } + \\cdots + a ^ { n - 1 } )$ . So for α in $\\sigma ( a ) ,   \\alpha ^ { n } - a ^ { n }$ is not invertible for every $n \\geqslant 1$ . By Theorem $3.6, \\left| \\alpha \\right|^{n} \\leqslant \\left\\| a^{n} \\right\\|$ . Hence $| \\alpha | \\leqslant \\| a ^ { n } \\| ^ { 1 / n }$ for all $n \\geqslant 1$ and α in $\\sigma ( a ) .$ So if $\\alpha \\in \\sigma(a), |\\alpha| \\leqslant \\liminf \\|a^n\\|^{1/n}$ .Taking the supremum over all α in σ(a) gives that $r(a) \\leqslant \\lim$ inf $\\| a ^ { n } \\| ^ { 1 / n } \\leq$ lim sup $\\| a ^ { n } \\| ^ { 1 / n } =$ $r ( a )$ . So $r(a) = \\lim \\| a^n \\|^{1/n}$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.127,
+            0.357,
+            0.826,
+            0.375
+          ],
+          "level": 2,
+          "content": "3.9. Proposition. Let A be a Banach algebra with identity and let $a \\in \\mathcal { A }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.384,
+            0.592,
+            0.403
+          ],
+          "content": "(a) If $\\alpha   \\in   \\rho ( a ) ,$ then dist $( \\alpha , \\sigma ( a ) ) \\geqslant \\| ( \\alpha - a ) ^ { - 1 } \\| ^ { - 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.403,
+            0.338,
+            0.422
+          ],
+          "content": "(b) If α, $\\beta   \\in   \\rho ( a ) ,$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.252,
+            0.435,
+            0.753,
+            0.479
+          ],
+          "content": "\\begin{aligned}(\\alpha - a)^{-1} - (\\beta - a)^{-1} &= (\\beta - \\alpha)(\\alpha - a)^{-1}(\\beta - a)^{-1} \\\\&= (\\beta - \\alpha)(\\beta - a)^{-1}(\\alpha - a)^{-1}.\\end{aligned}",
+          "image_source": "images/page_212_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.493,
+            0.871,
+            0.586
+          ],
+          "content": "PRoOF. (a) By Corollary 2.3, if $\\alpha \\in \\rho ( a )$ and $\\| x - ( \\alpha - a ) \\| < \\| ( \\alpha - a ) ^ { - 1 } \\| ^ { - 1 } ,$ x is invertible. So if $\\beta \\in \\mathbf { C }$ and $| \\beta | < \\| ( \\alpha - a ) ^ { - 1 } \\| ^ { - 1 } , ( \\beta + \\alpha - a )$ is invertible; that is, $\\alpha + \\beta \\in \\rho ( a )$ . Hence dist $( \\alpha , \\sigma ( a ) ) \\geqslant \\| ( \\alpha - a ) ^ { - 1 } \\| ^ { - 1 } . ( b )$ This follows by letting $x = a - a$ and $y   =   \\beta - a$ in the identity $x^{-1}-y^{-1}=x^{-1}(y-x)y^{-1}=$ $y ^ { - 1 } ( y - x ) x ^ { - 1 }$ ■"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.602,
+            0.871,
+            0.64
+          ],
+          "content": "The identity in part (b) of the preceding proposition is called the resolvent identit y and the function $\\alpha \\mapsto ( \\alpha - a ) ^ { - 1 } { \\mathrm { ~ o f ~ } } \\rho ( a ) \\to { \\mathcal { A } }$ is called the resolvent of a."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.657,
+            0.233,
+            0.673
+          ],
+          "level": 2,
+          "content": "EXERCISES"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.675,
+            0.871,
+            0.71
+          ],
+          "content": "1. Let S be the unilateral shift on $l ^ { 2 }$ (II.2.10). Show that S is left invertible but not right invertible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.718,
+            0.871,
+            0.754
+          ],
+          "content": "2. If $\\alpha$ is a Banach algebra with identity and $a \\in \\mathcal { A }$ and is nilpotent (that is, $a ^ { n }   =   0$ for some n), then $\\sigma ( a ) = \\{ 0 \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.761,
+            0.871,
+            0.847
+          ],
+          "content": "3. Let $( X , \\Omega , \\mu )$ be a $\\sigma - \\mathrm{finite}$ measure space and let $\\mathcal { A } = L ^ { \\infty } ( X , \\Omega , \\mu )$ (1.6). If $\\phi \\in \\mathcal { A } ,$ show that the following are equivalent: (a) α∈σ(φ); (b) 0 = sup {inf $\\begin{array} { r } { \\{ | \\phi ( x ) - \\alpha | : } \\end{array}$ $x { \\in } { \\pmb { X } } \\backslash { \\pmb { \\Delta } } \\} { \\colon } { \\pmb { \\Delta } } { \\in } { \\pmb { \\Omega } }$ and $\\mu ( \\Delta ) = 0 \\} ; ( c )$ if $\\varepsilon > 0 , \\mu ( \\{ x { \\in } X { : } | \\phi ( x ) - \\alpha | < \\varepsilon \\} ) > 0 ;$ (d) if ν is the measure defined on the Borel subsets of C by $v ( \\Delta ) = \\mu ( \\phi ^ { - 1 } ( \\Delta ) )$ , then α∈the support of v."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.855,
+            0.871,
+            0.921
+          ],
+          "content": "4. If G is an open subset of C and $f \\colon G   \\to   { \\mathcal { X } }$ is a function such that for each $x ^ { * }$ in ${ \\mathcal { X } } ^ { * } , x ^ { * } \\circ f { \\colon } G { \\to } { \\mathbb { C } }$ is analytic, then f is analytic. If the word “continuous\" is substituted for both occurrences of the word “analytic\", is the preceding statement still true?"
+        }
+      ]
+    },
+    {
+      "page_idx": 213,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.129,
+            0.056,
+            0.442,
+            0.072
+          ],
+          "content": "§4. The Riesz Functional Calculus"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.836,
+            0.056,
+            0.871,
+            0.07
+          ],
+          "content": "199"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.1,
+            0.871,
+            0.136
+          ],
+          "content": "5. If  is a Banach algebra with identity, $\\left\\{ a _ { n } \\right\\} \\subseteq \\mathcal { A } , a _ { n } \\rightarrow a , \\alpha _ { n } \\in \\sigma ( a _ { n } ) ,$ and $\\alpha _ { n } \\to \\alpha _ { 1 }$ then α∈σ(a)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.143,
+            0.871,
+            0.194
+          ],
+          "content": "6. If  is a Banach algebra with identity and $r \\colon { \\mathcal { A } }   \\to   [ 0 , \\infty )$ is the spectral radius, show that r is upper semicontinuous. If $a   \\in   \\mathcal { A }$ such that $r ( a )   =   0 .$ , show that r is continuous at a."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.203,
+            0.871,
+            0.272
+          ],
+          "content": "7. If  is a Banach algebra with identity, a, b∈, and α is a nonzero scalar such that $( x - a b )$ is invertible, show that $( \\alpha - b a )$ is invertible and $( \\alpha - b a ) ^ { - 1 } =$ $\\alpha^{-1} + \\alpha^{-1} b (\\alpha - ab)^{-1} a.$ Show that $\\sigma ( a b ) \\cup \\{ 0 \\} = \\sigma ( b a ) \\cup \\{ 0 \\}$ and give an example such that $\\sigma ( a b ) \\neq \\sigma ( b a )$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.124,
+            0.326,
+            0.609,
+            0.35
+          ],
+          "level": 2,
+          "content": "§4. The Riesz Functional Calculus"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.374,
+            0.869,
+            0.429
+          ],
+          "content": "Before coming to the main course of this section, it is necessary to have an appetizer from complex analysis. Many of these topics can be found in Conway [1978] with complete proofs. Only a few results are presented here."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.428,
+            0.869,
+            0.466
+          ],
+          "content": "If $\\gamma$ is a closed rectifiable curve in C and $a \\notin \\{ \\gamma \\} \\equiv \\{ \\gamma ( t ) ; \\; 0 \\leqslant t \\leqslant 1 \\}$ , then the winding number $o f \\gamma$ about a is defined to be the number"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.384,
+            0.473,
+            0.61,
+            0.517
+          ],
+          "content": "n ( \\gamma ; a ) = \\frac { 1 } { 2 \\pi i } \\int _ { \\gamma } \\frac { 1 } { z - a } d z .",
+          "image_source": "images/page_213_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.524,
+            0.869,
+            0.562
+          ],
+          "content": "The number $n ( \\gamma ; a )$ is always an integer and is constant on each component of $\\mathbf { C } \\backslash \\{ \\gamma \\}$ and vanishes on the unbounded component of $\\mathbf { C } \\backslash \\{ \\gamma \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.562,
+            0.87,
+            0.653
+          ],
+          "content": "Let G be an open subset of C and let $\\mathcal { X }$ be a Banach space. If $f \\colon G   \\to   { \\mathcal { X } }$ is analytic and $x ^ { * } { \\in } { \\mathcal { X } } ^ { * }$ , then $z \\mapsto \\langle f ( z ) , x ^ { * } \\rangle$ is analytic on G and its derivative is $\\langle f ^ { \\prime } ( z ) , x ^ { * } \\rangle$ . By Exercise 4 of the preceding section, if $f \\colon G   \\to   { \\mathcal { X } }$ is a function such that $z \\mapsto \\langle f ( z ) , x ^ { * } \\rangle$ is analytic for each $x ^ { * }$ in $\\mathcal { X } ^ { * }$ , then $f \\colon G   \\to   \\mathcal { X }$ is analytic. These facts will help in discussing and proving many of the results below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.652,
+            0.872,
+            0.707
+          ],
+          "content": "If γ is a rectifiable curve in G and f is a continuous function defined in a neighborhood of $\\{ \\gamma \\}$ with values in $\\mathcal { X } ,$ then $\\int _ { \\gamma } f$ can be defined as for a scalar-valued $f$ as the limit in $\\mathcal { X }$ of sums of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.373,
+            0.722,
+            0.623,
+            0.755
+          ],
+          "content": "\\sum _ { j } \\left[ \\gamma ( t _ { j } ) - \\gamma ( t _ { j - 1 } ) \\right] f ( \\gamma ( t _ { j } ) ) ,",
+          "image_source": "images/page_213_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.762,
+            0.871,
+            0.806
+          ],
+          "content": "where $\\{ t _ { 0 } , t _ { 1 } , \\ldots , t _ { n } \\}$ is a partition of [0, 1]. Hence $\\int _ { \\gamma } f = \\int _ { 0 } ^ { 1 } f ( \\gamma ( t ) ) d \\gamma ( t ) \\in \\mathcal { X }$ . It is easy to see that for every $x ^ { * }$ in $\\mathcal { X } ^ { * } , \\langle \\int _ { \\gamma } f , x ^ { * } \\rangle = \\int _ { \\gamma } \\langle f ( \\cdot ) , x ^ { * } \\rangle$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.822,
+            0.872,
+            0.88
+          ],
+          "content": "4.1. Cauchy's Theorem. If X is a Banach space, G is an open subset of $\\mathbf { c } , f :$ $G   \\rightarrow   \\mathcal { X }$ is an analytic function, and $\\gamma _ { 1 } , \\ldots , \\gamma _ { m }$ are closed rectifiable curves in G such that $\\begin{array} { r } { \\sum _ { j = 1 } ^ { m } n ( \\gamma _ { j } ; a ) = 0 } \\end{array}$ for all a in $\\mathbf { C } \\backslash G ,$ then $\\scriptstyle \\sum _ { j = 1 } ^ { m } \\int _ { \\gamma _ { j } } f \\; = \\; 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.885,
+            0.871,
+            0.924
+          ],
+          "content": "PROOF. If $x ^ { * } { \\in } { \\mathcal { X } } ^ { * }$ then $\\left\\langle \\sum_{j = 1}^{m} \\int_{\\gamma_{j}} f(x^{*}) = \\sum_{j = 1}^{m} \\int_{\\gamma_{j}} \\left\\langle f(\\cdot), x^{*} \\right\\rangle = 0 \\right.$ by the scalar-valued version of Cauchy's Theorem. Hence $\\sum _ { j = 1 } ^ { m } \\int _ { \\gamma _ { j } } f = 0$ ■"
+        }
+      ]
+    },
+    {
+      "page_idx": 214,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13,
+            0.056,
+            0.168,
+            0.071
+          ],
+          "content": "200"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.482,
+            0.055,
+            0.87,
+            0.073
+          ],
+          "content": "VII. Banach Algebras and Spectral Theory"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.873,
+            0.157
+          ],
+          "content": "4.2. Cauchy's Integral Formula. If X is a Banach space, G is an open subset of $\\mathbb { C } , f \\colon G   \\to   \\mathcal { X }$ is analytic, γ is a closed rectifiable curve in G such that $n ( \\gamma ; a ) = 0$ for every a in $\\mathbf { C } \\backslash G ,$ , and $\\lambda \\in G \\backslash \\{ \\gamma \\}$ , then for every integer $k \\geqslant 0 .$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.303,
+            0.163,
+            0.693,
+            0.207
+          ],
+          "content": "n ( \\gamma ; \\lambda ) f ^ { ( k ) } ( \\lambda ) = \\frac { k ! } { 2 \\pi i } \\int _ { \\gamma } ( z - \\lambda ) ^ { - ( k + 1 ) } f ( z ) d z.",
+          "image_source": "images/page_214_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.224,
+            0.872,
+            0.281
+          ],
+          "content": "4.3. Definition. A closed rectifiable curve $\\gamma$ is positively oriented if for every a in $G \\backslash \\{ \\gamma \\} ,   n ( \\gamma ; a )$ is either 0 or 1. In this case the inside of $\\gamma ,$ denoted by ins $\\gamma ,$ is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.288,
+            0.645,
+            0.309
+          ],
+          "content": "\\mathrm { i n s }   \\gamma \\equiv \\{ a { \\in } \\mathbb { C } \\backslash \\{ \\gamma \\} { : } ~ n ( \\gamma ; a ) = 1 \\} .",
+          "image_source": "images/page_214_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.317,
+            0.609,
+            0.336
+          ],
+          "content": "The outside of $\\gamma ,$ denoted by out $\\gamma ,$ is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.344,
+            0.648,
+            0.364
+          ],
+          "content": "\\mathrm { o u t }   \\gamma \\equiv \\{ a { \\in } \\mathfrak { C } \\backslash \\{ \\gamma \\} { : } n ( \\gamma ; a ) = 0 \\} .",
+          "image_source": "images/page_214_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.371,
+            0.402,
+            0.39
+          ],
+          "content": "Thus $\\mathbf { \\bar { C } } = \\{ \\gamma \\} \\cup \\operatorname { i n s } \\gamma \\cup \\operatorname { o u t } \\gamma$ \\_4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.39,
+            0.873,
+            0.481
+          ],
+          "content": "A curve $\\gamma \\colon [ 0 , 1 ]   \\to   \\mathbb { C }$ is simple if $\\gamma ( s ) = \\gamma ( t )$ implies that either $s = t { \\mathrm { ~ o r ~ } } s = 0$ and $t = 1$ . The Jordan Curve Theorem says that if $\\gamma$ is a simple closed rectifiable curve, then $\\mathbf { C } \\backslash \\{ \\gamma \\}$ has two components and $\\{ y \\}$ is the boundary of each. Hence $n ( \\gamma ; a )$ takes on only two values and one of these must be 0; the other must be $\\pm   1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.481,
+            0.872,
+            0.555
+          ],
+          "content": "If $\\mathbf { \\Gamma } = \\{ \\gamma _ { 1 } , \\ldots , \\gamma _ { m } \\}$ is a collection of closed rectifiable curves, then Γ is positively oriented if: (a) $\\{ \\gamma _ { i } \\} \\cap \\{ \\gamma _ { j } \\} = \\square$ for $i \\neq j ;$ (b) for $a$ in $\\mathbf{C} \\setminus \\bigcup_{j = 1}^{m} \\{ \\gamma_{j} \\}$ $\\begin{array} { r } { n ( \\Gamma ; a ) \\equiv \\sum _ { j = 1 } ^ { m } n ( \\gamma _ { j } ; a ) } \\end{array}$ is either 0 or 1; (c) each $\\gamma _ { j }$ is a simple curve. The inside of Γ, ins Γ, is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.562,
+            0.61,
+            0.582
+          ],
+          "content": "\\mathrm { i n s }   \\pmb { \\Gamma } \\equiv \\{ a \\colon n ( \\Gamma ; a ) = 1 \\} .",
+          "image_source": "images/page_214_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.589,
+            0.5,
+            0.609
+          ],
+          "content": "The outside of Γ, out Γ, is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.382,
+            0.617,
+            0.612,
+            0.636
+          ],
+          "content": "\\mathrm { o u t   } \\Gamma \\equiv \\{ a ; n ( \\Gamma ; a ) = 0 \\} .",
+          "image_source": "images/page_214_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.152,
+            0.642,
+            0.423,
+            0.664
+          ],
+          "content": "\\mathrm { L e t } \\{ \\Gamma \\} \\equiv \\cup \\{ \\gamma _ { j } \\colon 1 \\leqslant j \\leqslant m \\} .",
+          "image_source": "images/page_214_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.68,
+            0.871,
+            0.756
+          ],
+          "content": "4.4. Proposition. If G is an open subset of C and K is a compact subset of G, then there is a positively oriented system of curves $\\Gamma = \\{ \\gamma _ { 1 } , \\ldots , \\gamma _ { m } \\}$ in $G \\backslash K$ such that $K \\subseteq \\operatorname { i n s } \\Gamma$ and $\\mathbf { C } \\backslash G \\subseteq \\mathrm { o u t }   \\Gamma$ . The curves $\\gamma _ { 1 } { , \\ldots , } \\gamma _ { m }$ can be found such that they are infinitely differentiable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.773,
+            0.87,
+            0.809
+          ],
+          "content": "The proof of this proposition can be found on p. 195 of Conway [1978], though some details are missing."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.809,
+            0.645,
+            0.83
+          ],
+          "content": "If $\\mathbf { \\Gamma } = \\{ \\gamma _ { 1 } , \\ldots , \\gamma _ { m } \\}$ and each $\\gamma _ { j }$ is rectifiable, define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.419,
+            0.835,
+            0.581,
+            0.881
+          ],
+          "content": "\\int _ { \\Gamma } f = \\sum _ { j = 1 } ^ { m } \\int _ { \\gamma _ { j } } f",
+          "image_source": "images/page_214_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.886,
+            0.645,
+            0.905
+          ],
+          "content": "whenever f is continuous in a neighborhood of $\\{ \\Gamma \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.905,
+            0.871,
+            0.925
+          ],
+          "content": "Let $\\alpha$ be a Banach algebra with identity and let $a \\in \\mathcal { A }$ One of the principal"
+        }
+      ]
+    },
+    {
+      "page_idx": 215,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.156,
+            0.167,
+            0.172
+          ],
+          "content": "4.5"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.128,
+            0.056,
+            0.441,
+            0.073
+          ],
+          "content": "§4. The Riesz Functional Calculus"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.834,
+            0.056,
+            0.869,
+            0.071
+          ],
+          "content": "201"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.099,
+            0.87,
+            0.138
+          ],
+          "content": "uses of Proposition 4.4 in this book will occur when $K = \\sigma ( a )$ If $f \\colon G   \\to   \\mathbb { C }$ is analytic and $\\sigma ( a ) \\subseteq G$ , we will define an element $f ( a )$ in $\\varkappa$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.354,
+            0.144,
+            0.637,
+            0.187
+          ],
+          "content": "f(a) = \\frac{1}{2\\pi i} \\int_{\\Gamma} f(z)(z - a)^{-1} dz",
+          "image_source": "images/page_215_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.195,
+            0.87,
+            0.252
+          ],
+          "content": "where Γ is as in Proposition 4.4 with $K = \\sigma ( a )$ . But first it must be shown that (4.5) does not depend on the choice of Γ. That is, it must be shown that $f ( a )$ is well defined."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.269,
+            0.87,
+            0.344
+          ],
+          "content": "4.6. Proposition. Let A be a Banach algebra with identity, let $a \\in \\mathcal { A } _ { 2 }$ and let G be an open subset of C such that $\\sigma ( a ) \\subseteq G$ If $\\Gamma = \\{ \\gamma _ { 1 } , \\ldots , \\gamma _ { m } \\}$ and $\\Lambda = \\{ \\lambda _ { 1 } , \\ldots , \\lambda _ { k } \\}$ are two positively oriented collections of curves in G such that $\\sigma ( a ) \\in \\mathrm { i n s }   \\Gamma \\subseteq G$ and $\\sigma ( a ) \\in \\mathrm { i n s }   \\Lambda \\subseteq G$ and if $f \\colon G \\to \\mathbb { C }$ is analytic, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.303,
+            0.349,
+            0.691,
+            0.394
+          ],
+          "content": "\\int _ { \\Gamma } f ( z ) ( z - a ) ^ { - 1 } d z = \\int _ { \\Lambda } f ( z ) ( z - a ) ^ { - 1 } d z.",
+          "image_source": "images/page_215_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.401,
+            0.869,
+            0.513
+          ],
+          "content": "PROOF. For $1 \\leqslant j \\leqslant k ,$ let $\\gamma _ { m + j } = \\lambda _ { j } ^ { - 1 }$ ; that is, $\\gamma _ { m + j } ( t ) = \\lambda _ { j } ( 1 - t )$ for $0 \\leqslant t \\leqslant 1$ If $z \\notin G \\setminus \\sigma(a),$ then either $z \\in \\dot { \\mathbb { C } } \\setminus G$ or $z   \\in   \\sigma ( a )$ If $\\dot { z \\in \\mathbb { C } \\setminus G } ,$ then $\\begin{array} { r } { \\sum _ { j = 1 } ^ { m + k } n ( \\gamma _ { j } ; z ) = } \\end{array}$ $n ( \\Gamma ; z ) - n ( \\Lambda ; z ) = 0 - 0 = 0$ If $z   \\in   \\sigma ( a ) ,$ then $\\begin{array} { r } { \\sum _ { j = 1 } ^ { m + k } n ( \\gamma _ { j } ; z ) = n ( \\Gamma ; z ) - n ( \\dot { \\Lambda } ; z ) = } \\end{array}$ $1 - 1 = 0 .$ Thus $\\Sigma \\equiv \\left\\{ \\gamma _ { j } ; 1 \\leqslant j \\leqslant m + k \\right\\}$ is a system of closed curves in $U = G \\backslash \\sigma(a)$ such that $n ( \\Sigma ; z ) = 0$ for all z in $\\mathbf { C } \\backslash U .$ Since $z \\mapsto f ( z ) ( z - a ) ^ { - 1 }$ is analytic on U, Cauchy's Theorem implies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.183,
+            0.519,
+            0.81,
+            0.564
+          ],
+          "content": "0 = \\int _ { \\Sigma } f ( z ) ( z - a ) ^ { - 1 } d z = \\int _ { \\Gamma } f ( z ) ( z - a ) ^ { - 1 } d z - \\int _ { \\Lambda } f ( z ) ( z - a ) ^ { - 1 } d z.",
+          "image_source": "images/page_215_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.571,
+            0.872,
+            0.682
+          ],
+          "content": "As was pointed out before, Proposition 4.6 implies that (4.5) gives a well-defined element $f ( a )$ of $\\mathcal { A }$ whenever f is analytic in a neighborhood of σ(a). Let Hol $( a ) = a ! !$ of the functions that are analytic in a neighborhood of $\\sigma ( a )$ . Note that Hol(a) is an algebra where if $f ,   g \\in \\mathrm { H o l } ( a )$ and $f$ and $g$ have domains $D ( f )$ and $D ( g )$ , then $f g$ and $f + g$ have domain $D ( f ) \\cap D ( g )$ . Hol(a) is not, however, a Banach algebra."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.697,
+            0.87,
+            0.734
+          ],
+          "content": "4.7. The Riesz Functional Calculus. Let  be a Banach algebra with identity and let $a   \\in   \\mathcal { A }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.743,
+            0.771,
+            0.761
+          ],
+          "content": "(a) The map $f   \\mapsto   f ( a )$ of $\\operatorname { H o l } ( a )   \\to   { \\mathcal { A } }$ is an algebra homomorphism."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.761,
+            0.87,
+            0.798
+          ],
+          "content": "(b) If $f(z) = \\sum_{k = 0}^{\\infty} \\alpha_{k} z^{k}$ has radius of convergence $> r ( a )$ , then $f \\in \\operatorname{HCl}(a)$ and $f(a)=\\sum_{k = 0}^{\\infty}\\alpha_{k}a^{k}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.798,
+            0.405,
+            0.816
+          ],
+          "content": "(c) $I f f ( z ) \\equiv 1$ , then $f ( a ) = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.816,
+            0.442,
+            0.835
+          ],
+          "content": "(d) If f(z) = z for all $z ,   f ( a )   =   a .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.835,
+            0.87,
+            0.874
+          ],
+          "content": "(e) $I f f , f _ { 1 } , f _ { 2 } , \\ldots$ are all analytic on $G ,   \\sigma ( a ) \\subseteq G ,$ and $f _ { n } ( z )   \\to   f ( z )$ uniformly on compact subsets of $G ,$ then $\\| f _ { n } ( a ) - f ( a ) \\| \\to 0$ as $n   \\to   \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.885,
+            0.875,
+            0.923
+          ],
+          "content": "PROOF. (a) Let $f ,   g \\in \\mathrm{HCl}(a)$ and let G be an open neighborhood of $\\sigma ( a )$ on which both $f$ and g are analytic. Let $\\Gamma$ be a positively oriented system of"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 208,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 209,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 210,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 211,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 212,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 213,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 214,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 215,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

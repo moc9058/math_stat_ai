@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 355,
+  "model": "gpt-6-astra",
+  "seconds": 7.21,
+  "input_tokens": 3226,
+  "output_tokens": 160,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"\\\\omega(y)=\\\\sup\\\\{|f(x-y)-f(x)|:x\\\\in\\\\mathbb R\\\\}\",\n      \"correction\": \"\\\\omega(y)=\\\\sup\\\\{|f(x-y)-f(x)|:y\\\\in\\\\mathbb R\\\\}\",\n      \"note\": \"The image prints y after the colon, even though this appears to be a textbook typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 308,
+  "model": "gpt-6-astra",
+  "seconds": 9.51,
+  "input_tokens": 3474,
+  "output_tokens": 283,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"N_n\\\\cong N_{\\\\mu_n}, where\",\n      \"correction\": \"N_n=N_{\\\\mu_n}, where\"\n    },\n    {\n      \"candidate\": \"Let $N_2=N|\\\\mathcal H_1^\\\\perp$\",\n      \"correction\": \"Let $N_2\\\\equiv N|\\\\mathcal H_1^\\\\perp$\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}

@@ -1,0 +1,5393 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "languages": [
+        "en"
+      ],
+      "created_at": "2013-02-05T05:36:51+08:00",
+      "modified_at": "2013-02-07T16:55:10+08:00",
+      "creator_application": "Adobe Acrobat 8.0",
+      "producer_application": "Acrobat Distiller 9.4.0 (Windows)",
+      "page_count": 416,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 216,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 217,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 218,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 219,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 220,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 221,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 222,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        },
+        {
+          "page_idx": 223,
+          "width_pt": 439.3699951171875,
+          "height_pt": 666.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 216,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.056,
+            0.168,
+            0.07
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "202"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.484,
+            0.056,
+            0.871,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.099,
+            0.87,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "closed curves in G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\subseteq \\operatorname { i n s } \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " Let Λ be a positively oriented system of closed curves in G such that (ins "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma ) \\cup \\{ \\Gamma \\} = \\mathrm { c l } ( \\mathrm { i n s }   \\Gamma ) \\subseteq \\mathrm { i n s }   \\Lambda"
+            },
+            {
+              "type": "text",
+              "content": " Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.21,
+            0.151,
+            0.781,
+            0.398
+          ],
+          "image_path": "images/page_216_equation_3.jpg",
+          "content": "\\begin{align*}f(a)g(a) &= - \\frac{1}{4\\pi^2} \\Bigg[ \\int_{\\Gamma} f(z)(z - a)^{-1} dz \\Bigg] \\Bigg[ \\int_{\\Lambda} g(\\zeta)(\\zeta - a)^{-1} d\\zeta \\Bigg] \\\\&= - \\frac{1}{4\\pi^2} \\Bigg]_{\\Gamma} \\int_{\\Lambda} f(z)g(\\zeta)(z - a)^{-1}(\\zeta - a)^{-1} d\\zeta dz \\\\(b)] &= - \\frac{1}{4\\pi^2} \\int_{\\Gamma} \\int_{\\Lambda} f(z)g(\\zeta) \\Bigg[ \\frac{(z - a)^{-1} - (\\zeta - a)^{-1}}{\\zeta - z} \\Bigg] d\\zeta dz \\\\&= - \\frac{1}{4\\pi^2} \\int_{\\Gamma} f(z) \\Bigg[ \\int_{\\Lambda} \\frac{g(\\zeta)}{\\zeta - z} d\\zeta \\Bigg] (z - a)^{-1} dz \\\\&\\quad + \\frac{1}{4\\pi^2} \\int_{\\Lambda} g(\\zeta) \\Bigg[ \\int_{\\Gamma} \\frac{f(z)}{\\zeta - z} dz \\Bigg] (\\zeta - a)^{-1} d\\zeta.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.264,
+            0.233,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[by (3.9b"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.123,
+            0.414,
+            0.867,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda , \\zeta \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": " out Γ and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { \\Gamma } [ f ( z ) / ( \\zeta - z ) ] d z = 0"
+            },
+            {
+              "type": "text",
+              "content": " (Cauchy's Theorem). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z   \\in   \\left\\{ \\Gamma \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " , then z∈ins Λ and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { \\Lambda } \\left[ g ( \\zeta ) / ( \\zeta - z ) \\right] d \\zeta = 2 \\pi i g ( z )"
+            },
+            {
+              "type": "text",
+              "content": " Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.317,
+            0.465,
+            0.666,
+            0.537
+          ],
+          "image_path": "images/page_216_equation_6.jpg",
+          "content": "\\begin{aligned}f(a)g(a) = & \\frac{1}{2\\pi i}\\int_{\\Gamma}f(z)g(z)(z - a)^{-1}dz \\\\= & (fg)(a).\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.549,
+            0.748,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\alpha f + \\beta g ) ( a ) = \\alpha f ( a ) + \\beta g ( a )"
+            },
+            {
+              "type": "text",
+              "content": " is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.567,
+            0.869,
+            0.604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) and (d). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) = z^k, \\; k \\geqslant 0."
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(t) = R \\exp(2 \\pi i t)"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant t \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R > \\| a \\| . \\mathrm { S o } \\sigma ( a ) \\subset \\mathrm { i n s } \\gamma ,"
+            },
+            {
+              "type": "text",
+              "content": " and hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.342,
+            0.612,
+            0.642,
+            0.755
+          ],
+          "image_path": "images/page_216_equation_9.jpg",
+          "content": "\\begin{aligned}f(a) &= \\frac{1}{2\\pi i}\\int_{\\gamma}z^{k}(z - a)^{- 1}dz \\\\&= \\frac{1}{2\\pi i}\\int_{\\gamma}z^{k - 1}\\left( 1 - \\frac{a}{z} \\right)^{- 1}dz \\\\&= \\frac{1}{2\\pi i}\\int_{\\gamma}z^{k - 1}\\sum_{n = 0}^{\\infty}a^{n}/z^{n}dz,\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.121,
+            0.762,
+            0.867,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| a / z \\| < 1"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| z | = R"
+            },
+            {
+              "type": "text",
+              "content": " .Since this infinite series converges uniformly for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\mathbf { o n } \\gamma ."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.333,
+            0.807,
+            0.65,
+            0.852
+          ],
+          "image_path": "images/page_216_equation_11.jpg",
+          "content": "f(a) = \\sum_{n = 0}^{\\infty} \\left[ \\frac{1}{2\\pi i} \\int_{\\gamma} \\frac{1}{z^{n - k + 1}} dz \\right] a^n."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12,
+            0.866,
+            0.866,
+            0.904
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq k ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z ^ { - ( n - k + 1 ) }"
+            },
+            {
+              "type": "text",
+              "content": " has a primitive and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int_{\\gamma} z^{-(n-k+1)} dz = 0"
+            },
+            {
+              "type": "text",
+              "content": " . For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = k"
+            },
+            {
+              "type": "text",
+              "content": " this integral becomes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int_{\\gamma} z^{-1}   dz = 2 \\pi i."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(a) = a^{k}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.147,
+            0.904,
+            0.867,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma = \\{ \\gamma _ { 1 } , \\ldots , \\gamma _ { m } \\}"
+            },
+            {
+              "type": "text",
+              "content": " be a positively oriented system of closed curves in"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 217,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.125,
+            0.056,
+            0.438,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§4. The Riesz Functional Calculus"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.831,
+            0.057,
+            0.867,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "203"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.1,
+            0.563,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "G such that σ(a) ⊆ ins Γ. Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant k \\leqslant m;"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.261,
+            0.124,
+            0.744,
+            0.271
+          ],
+          "image_path": "images/page_217_equation_3.jpg",
+          "content": "\\begin{align*}& \\left\\| \\int_{\\gamma_k} f_n(z)(z-a)^{-1} dz - \\int_{\\gamma_k} f(z)(z-a)^{-1} dz \\right\\| \\\\& \\quad = \\left\\| \\int_{0}^{1} \\left[ f_n(\\gamma_k(t)) - f(\\gamma_k(t)) \\right] \\left[ \\gamma_k(t) - a \\right]^{-1} d\\gamma_k(t) \\right\\| \\\\& \\quad \\leqslant \\int_{0}^{1} \\left| f_n(\\gamma_k(t)) - f(\\gamma_k(t)) \\right| \\left\\| \\left[ \\gamma_k(t) - a \\right]^{-1} \\right\\| d|\\gamma_k|(t).\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.287,
+            0.868,
+            0.326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\mapsto \\| \\left[ \\gamma _ { k } ( t ) - a \\right] ^ { - 1 } \\|"
+            },
+            {
+              "type": "text",
+              "content": " is continuous on [0, 1] and hence bounded by some constant, say M. Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.284,
+            0.34,
+            0.709,
+            0.414
+          ],
+          "image_path": "images/page_217_equation_5.jpg",
+          "content": "\\begin{align*}\\left\\| \\int_{\\gamma_k} f_n(z)(z-a)^{-1} dz - \\int_{\\gamma_k} f(z)(a-a)^{-1} dz \\right\\| \\\\\\leq M \\| \\gamma_k \\| \\max \\left\\{ |f_n(z) - f(z)| : z \\in \\{\\gamma_k\\} \\right\\},\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.421,
+            0.868,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| \\gamma _ { k } \\|"
+            },
+            {
+              "type": "text",
+              "content": " is the total variation (length) of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " . By hypothesis it follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { n } ( a ) - f ( a ) \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n   \\to   \\infty"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.458,
+            0.869,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(z) = \\sum_{k = 0}^{n} \\alpha_{k} z^{k}"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial, then (a), (c), and (d) combine to give that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(a)=\\sum_{k = 0}^{n}\\alpha_{k}a^{k}"
+            },
+            {
+              "type": "text",
+              "content": " . Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( z ) = \\sum _ { k = 0 } ^ { \\infty } \\alpha _ { k } z ^ { k }"
+            },
+            {
+              "type": "text",
+              "content": " have radius of convergence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R > r ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , the spectral radius of a. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n}(z)=\\sum_{k = 0}^{n}\\alpha_{k}z^{k}, p_{n}(z) \\rightarrow f(z)"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on compact subsets of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ z \\colon | z | < R \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . By (e), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( a )   \\to   f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . So (b) follows. ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.549,
+            0.871,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Riesz Functional Calculus is used in the study of Banach algebras and is especially useful in the study of linear operators on a Banach space (Sections 6 and 7). Now our attention must focus on the basic properties of this functional calculus. The first such property is its uniqueness."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.64,
+            0.871,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.8. Proposition. Let A be a Banach algebra with identity and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau \\colon \\mathrm { H o l } ( a ) \\to { \\mathcal { A } }"
+            },
+            {
+              "type": "text",
+              "content": " be a homomorphism such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a) \\tau(1) = 1, (b) \\tau(z) = a, (c) if \\{f_n\\}"
+            },
+            {
+              "type": "text",
+              "content": " is a sequence of analytic functions on an open set G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\subseteq G"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( z )   \\to   f ( z )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on compact subsets of G, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f _ { n } ) \\to \\tau ( f )"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f )   =   f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " for every f in Hol(a)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.128,
+            0.739,
+            0.872,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. The proof uses Runge's Theorem (III.8.1), but first it must be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f ) = f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " whenever f is a rational function. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1 , \\tau ( z ^ { n } ) = \\tau ( z ) ^ { n } = a ^ { n } ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( p ) = p ( a )"
+            },
+            {
+              "type": "text",
+              "content": " for any polynomial p. Let q be a polynomial such that q never vanishes on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) ,"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / q \\in \\mathrm { H o l } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = \\tau(1) = \\tau(q \\cdot q^{-1}) = \\tau(q)\\tau(q^{-1}) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( a ) \\tau ( q ^ { -   1 } )"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( a )"
+            },
+            {
+              "type": "text",
+              "content": " is invertible and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( a ) ^ { - 1 } = \\tau ( q ^ { - 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " . But using the Riesz Functional Calculus, a similar argument shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ( a ) ^ { - 1 } = ( 1 / q ) ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( q ^ { - 1 } ) = ( 1 / q ) ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = p / q ,"
+            },
+            {
+              "type": "text",
+              "content": " where p and q are polynomials and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " never vanishes on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) , \\tau ( f ) = \\tau ( p \\cdot q ^ { - 1 } ) = \\tau ( p ) \\tau ( q ^ { - 1 } ) = p ( a ) ( 1 / q ) ( a ) = f ( a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.888,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(a)"
+            },
+            {
+              "type": "text",
+              "content": " and suppose f is analytic on an open set G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) \\subseteq G"
+            },
+            {
+              "type": "text",
+              "content": " . By Runge's theorem there are rational functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ f _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in Hol(a) such"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 218,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.135,
+            0.056,
+            0.172,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "204"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.486,
+            0.056,
+            0.874,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13,
+            0.1,
+            0.873,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( z )   \\to   f ( z )"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on compact subsets of G. By (c) of the hypothesis, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f _ { n } ) \\to \\tau ( f )"
+            },
+            {
+              "type": "text",
+              "content": " . But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f _ { n } ) = f _ { n } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { n } ( a )   \\to   f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " by (4.7e). Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f )   =   f ( a )"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.129,
+            0.155,
+            0.875,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A fact that has been implicit in the manipulations involving the functional calculus is that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( a )"
+            },
+            {
+              "type": "text",
+              "content": " commute for all f and g in Hol(a). In fact, if τ: Hol "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a )   \\to   \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau ( f ) = f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) g ( a ) = \\tau ( f g ) = \\tau ( g f ) = g ( a ) f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Still more can be said."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.129,
+            0.248,
+            0.815,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.9. Proposition. If a, b∈, ab = ba, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(a)"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) b = b f ( a )"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.284,
+            0.874,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PRooF. An algebraic exercise demonstrates that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(a)b = bf(a) \\;  if  \\; f"
+            },
+            {
+              "type": "text",
+              "content": " is a rational function with poles off "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a )"
+            },
+            {
+              "type": "text",
+              "content": " The general result now follows by Runge's Theorem."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.358,
+            0.783,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.10. The Spectral Mapping Theorem. If a∈ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(a)."
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.417,
+            0.386,
+            0.582,
+            0.405
+          ],
+          "image_path": "images/page_218_equation_7.jpg",
+          "content": "\\sigma ( f ( a ) ) = f ( \\sigma ( a ) ) ."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.127,
+            0.413,
+            0.872,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha   \\in   \\sigma ( a ) ."
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in \\mathrm{HCl}(a)"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) - f(\\alpha) = (z - \\alpha)g(z)"
+            },
+            {
+              "type": "text",
+              "content": " . If it were the case that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( \\alpha ) \\notin \\sigma ( f ( a ) ) ."
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": " would be invertible with inverse "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( a ) [ f ( a ) - f ( \\alpha ) ] ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(\\alpha) \\in \\sigma(f(a));"
+            },
+            {
+              "type": "text",
+              "content": " that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{is}, f(\\sigma(a)) \\in \\sigma(f(a))"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.468,
+            0.872,
+            0.507
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conversely, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta \\notin f ( \\sigma ( a ) ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(z) = \\left[ f(z) - \\beta \\right]^{-1} \\in \\mathrm{Hol}(a)"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(a)[f(a) - \\beta] = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta { \\notin } \\sigma ( f ( a ) ) ,"
+            },
+            {
+              "type": "text",
+              "content": " ; that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( f ( a ) ) \\subseteq f ( \\sigma ( a ) )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.522,
+            0.872,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This section closes with an application of the functional calculus that is typical."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.577,
+            0.873,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.11. Proposition. Suppose a∈ and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a ) = F _ { 1 } \\cup F _ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are disjoint nonempty closed sets. Then there is a nontrivial idempotent e in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.128,
+            0.641,
+            0.401,
+            0.658
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) if ba = ab, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b e = e b ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.659,
+            0.804,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } = a e"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 2 } = a ( 1 - e ) ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = a _ { 1 } + a _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{1}a_{2}=a_{2}a_{1}=0;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.677,
+            0.491,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a _ { 1 } ) = F _ { 1 } \\cup \\{ 0 \\} , \\sigma ( a _ { 2 } ) = F _ { 2 } \\cup \\{ 0 \\} ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.127,
+            0.704,
+            0.871,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 } ,   G _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " be disjoint open subsets of C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { j }   \\subset   G _ { j } ,   j   =   1 , 2 ."
+            },
+            {
+              "type": "text",
+              "content": " Let Γ be a positively oriented system of closed curves in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { F } _ { 1 } \\in \\mathrm { i n s }   \\Gamma ,   \\boldsymbol { F } _ { 2 } \\in \\mathrm { o u t }   \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " . If f = the characteristic function of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G_{1}, f \\in \\mathrm{HCl}(a);"
+            },
+            {
+              "type": "text",
+              "content": " let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e   =   f ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { 2 } = f ,   e ^ { 2 } = e ."
+            },
+            {
+              "type": "text",
+              "content": " Part (a) follows from (4.9)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.778,
+            0.873,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ( 1 - e ) = 0 = ( 1 - e ) e"
+            },
+            {
+              "type": "text",
+              "content": " . Hence (b) is immediate. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 } ( z ) = z f ( z ) ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 2 } ( z ) = z ( 1 - f ( z ) )"
+            },
+            {
+              "type": "text",
+              "content": " . It follows from (4.7a) that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { j } = f _ { j } ( a ) , \\; j = 1 , 2"
+            },
+            {
+              "type": "text",
+              "content": " Hence the Spectral Mapping Theorem implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a _ { j } ) = f _ { j } ( \\sigma ( a ) ) = F _ { j } \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . The proof that e is neither 0 nor 1 is left to the reader."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.126,
+            0.869,
+            0.873,
+            0.925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Part (c) of the preceding proposition has the somewhat unattractive conclusion that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a _ { 1 } ) = F _ { 1 } \\cup \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": " . It would be much neater if the conclusion were that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( a _ { 1 } )   =   F _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . This is, in a sense, the case. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } ( 1 - e ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 219,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.055,
+            0.562,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Dependence of the Spectrum on the Algebra"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "205"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.1,
+            0.871,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "1 - e \\neq 0 , a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " cannot be invertible. However, consider the algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 } \\equiv \\{ b \\in \\mathcal { A } :"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b = b a"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b e = e b = b \\}"
+            },
+            {
+              "type": "text",
+              "content": " . It is left to the reader to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach algebra and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": " is the identity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { A } } _ { 1 } . \\mathrm { ~ I f ~ } a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is considered as an element of the algebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , then its spectrum as an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . This is an illustration of how the spectrum depends on the Banach algebra (the subject of the next section; also see Exercise 9)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.22,
+            0.232,
+            0.236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.137,
+            0.24,
+            0.87,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { A } } = C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " , X compact (see Example 3.2). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g { \\in } C ( X )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(g)"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( g ) = f \\circ g ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.137,
+            0.283,
+            0.87,
+            0.318
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let a be a nilpotent element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f , g"
+            },
+            {
+              "type": "text",
+              "content": " in Hol(a), give a necessary and sufficient condition on f and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a ) = g ( a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.138,
+            0.326,
+            0.87,
+            0.361
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in M_{d}(\\mathbb{C})"
+            },
+            {
+              "type": "text",
+              "content": " . Give a necessary and sufficient condition on f in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { H o l } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( A ) = 0 ."
+            },
+            {
+              "type": "text",
+              "content": " (Hint: Consider the Jordan canonical form for A.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.138,
+            0.369,
+            0.871,
+            0.405
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach algebra with identity, a∈, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(a),"
+            },
+            {
+              "type": "text",
+              "content": " and g is analytic in a neighborhood of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( \\sigma ( a ) )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\circ f \\in \\mathrm{HCl}(a)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(f(a)) = g^{\\circ}f(a)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.138,
+            0.412,
+            0.871,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } ) ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } \\leqslant \\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\alpha ) ^ { - 1 } \\mathcal { M } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " for all α in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( A ) \\mathcal { M } \\subseteq \\mathcal { M }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(A)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.138,
+            0.455,
+            0.87,
+            0.491
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(A)"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(A)^{*} = f(A^{*})"
+            },
+            {
+              "type": "text",
+              "content": " (See (6.1) below.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.138,
+            0.498,
+            0.87,
+            0.537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. If  is a Hilbert space, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(A)"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( A ) ^ { * } = { \\widetilde { f } } ( A ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde{f}(z) = \\overline{f(\\bar{z})} ( See (6.1) below. )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.137,
+            0.545,
+            0.871,
+            0.58
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. If ª€ is a Hilbert space, A is a normal operator on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } ."
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\mathrm{HCl}(A)"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is normal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.137,
+            0.587,
+            0.871,
+            0.67
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. Let X be a Banach space and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " . Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( A ) = F _ { 1 } \\cup F _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { 1 } , F _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are disjoint closed subsets of C, then there are topologically complementary subspaces "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X } _ { 1 } , \\mathcal { X } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " such that (a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\mathcal { X } _ { j }   \\in   \\mathcal { X } _ { j } \\; ( j   =   1 , 2 )"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "BA = AB;"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { j } = A \\left| \\mathcal { X } _ { j } , \\sigma ( A _ { j } ) = F _ { j } ; \\right."
+            },
+            {
+              "type": "text",
+              "content": " (c) there is an invertible operator R: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }   \\rightarrow   \\mathcal { X } _ { 1 }   \\oplus   _ { 1 } \\mathcal { X } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R A R ^ { - 1 } = A _ { 1 } \\oplus A _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.679,
+            0.871,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in M_{d}(\\mathbb{C}), \\sigma(A) = \\{ \\alpha_{1}, \\ldots, \\alpha_{n} \\}"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } \\neq \\alpha _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\neq j ."
+            },
+            {
+              "type": "text",
+              "content": " Show that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant n"
+            },
+            {
+              "type": "text",
+              "content": " there is a matrix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { j }"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { d _ { j } } ( \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { \\sigma } ( A _ { j } ) = \\{ \\alpha _ { j } \\}"
+            },
+            {
+              "type": "text",
+              "content": " and A is similar to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\pmb A } _ { 1 } \\oplus \\cdots \\oplus { \\pmb A } _ { n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.737,
+            0.871,
+            0.773
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. If  is a Banach algebra, I is an ideal of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " (not necessarily closed), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\in   I"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in \\operatorname{HCl}(a)"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( 0 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( a )   \\in   I ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.802,
+            0.798,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Dependence of the Spectrum on the Algebra"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.843,
+            0.871,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial \\mathbf { D } = \\{ z \\in \\mathbb { C } : | z | = 1 \\}"
+            },
+            {
+              "type": "text",
+              "content": " , let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { B } } = \\operatorname { t h e }"
+            },
+            {
+              "type": "text",
+              "content": " uniform closure of the polynomials in C(∂ID). (Here “polynomial\" means a polynomial in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z . )"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } = C ( \\partial \\mathbf { D } )"
+            },
+            {
+              "type": "text",
+              "content": " , then the spectrum of z as an element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is ∂D (Example 3.2). That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.436,
+            0.908,
+            0.562,
+            0.927
+          ],
+          "image_path": "images/page_219_equation_17.jpg",
+          "content": "\\sigma _ { \\mathcal { A } } ( z ) = \\partial \\mathbb { D } ."
+        }
+      ]
+    },
+    {
+      "page_idx": 220,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.133,
+            0.058,
+            0.17,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "206"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.484,
+            0.057,
+            0.871,
+            0.075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.102,
+            0.871,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " and so it has a spectrum as an element of this algebra; denote this spectrum by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { B } } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " . There is no reason to believe that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { B } } ( z ) = \\sigma _ { \\mathcal { A } } ( z )"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, they are not equal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.126,
+            0.175,
+            0.871,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1. Example. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } ="
+            },
+            {
+              "type": "text",
+              "content": " the closure in C(∂D) of the polynomials in z, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( z ) = \\mathrm { c l } \\mathbb { D }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.212,
+            0.873,
+            0.398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To see this first note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| z \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " , so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { B } } ( z ) \\subseteq \\mathrm { c l }   \\mathbb { D }"
+            },
+            {
+              "type": "text",
+              "content": " by Theorem 3.6. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\neq \\sigma _ { \\mathcal { A } } ( z ) ,"
+            },
+            {
+              "type": "text",
+              "content": " ,there is an f in  such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(z - \\lambda)f = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Note that this implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda | < 1"
+            },
+            {
+              "type": "text",
+              "content": " . Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in { \\mathcal { B } } ,"
+            },
+            {
+              "type": "text",
+              "content": " there is a sequence of polynomials "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }   \\rightarrow   f"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on ∂D. Thus for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon   >   0"
+            },
+            {
+              "type": "text",
+              "content": " there is a N such that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m,n \\geqslant N, \\varepsilon > \\|p_n - p_m\\|_{\\partial \\mathbb{D}} \\equiv \\sup \\left\\{ |p_n(z) - p_n(z)| : z \\in \\partial \\mathbb{D} \\right\\}"
+            },
+            {
+              "type": "text",
+              "content": " . By the Maximum Principle, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > \\| p _ { n } - p _ { m } \\| _ { \\mathrm { c l }   \\mathbb { D } }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m , n \\geqslant N ."
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(z) = \\lim_{n \\to \\infty} p_n(z)"
+            },
+            {
+              "type": "text",
+              "content": " is analytic on D and continuous on cl D; also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g | \\partial \\mathbf { D } = f ."
+            },
+            {
+              "type": "text",
+              "content": " By the same argument, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( z ) ( z - \\lambda ) \\to 1"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on ∂D, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n } ( z ) ( z - \\lambda ) \\to 1"
+            },
+            {
+              "type": "text",
+              "content": " uniformly on D. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( z ) ( z - \\lambda ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " on ID. But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 = g(\\lambda)(\\lambda - \\lambda) = 0,"
+            },
+            {
+              "type": "text",
+              "content": " a contradiction. Thus, cl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { D } \\subseteq \\sigma _ { \\mathcal { B } } ( z )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.415,
+            0.875,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus the spectrum not only depends on the element of the algebra, but also on the algebra. Precisely how this dependence occurs is given below, but it can be said that the example above is typical, both in its statement and its proof, of the general situation. To phrase these results it is necessary to introduce the polynomially convex hull of a compact subset of C."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.526,
+            0.613,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.2. Definition. If A is a set and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon A   \\to   \\mathbb { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " , define"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.377,
+            0.552,
+            0.628,
+            0.573
+          ],
+          "image_path": "images/page_220_equation_7.jpg",
+          "content": "\\| f \\| _ { A } \\equiv \\sup \\{ | f ( z ) | : z \\in A \\}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.579,
+            0.875,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If K is a compact subset of C, define the polynomially convex hull of K to be the set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.258,
+            0.624,
+            0.744,
+            0.645
+          ],
+          "image_path": "images/page_220_equation_9.jpg",
+          "content": "K ^ { \\star } \\equiv \\{ z \\in \\mathbb { C } : | p ( z ) | \\leqslant \\| p \\| _ { K } { \\mathrm { ~ f o r ~ e v e r y ~ p o l y n o m i a l ~ } } p \\} ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13,
+            0.652,
+            0.567,
+            0.671
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The set K is polynomially convex if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = K ^ { \\star }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.688,
+            0.876,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the polynomially convex hull of ∂D is cl D. This is, again, quite typical. If K is any compact set, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash K"
+            },
+            {
+              "type": "text",
+              "content": " has a countable number of components, only one of which is unbounded. The bounded components are sometimes called the holes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ;"
+            },
+            {
+              "type": "text",
+              "content": " a few pictures should convince the reader of the appropriateness of this terminology."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.798,
+            0.876,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3. Proposition. If K is a compact subset of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash K ^ { \\wedge }"
+            },
+            {
+              "type": "text",
+              "content": " is the unbounded component of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash K"
+            },
+            {
+              "type": "text",
+              "content": " . Hence K is polynomially convex "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i f"
+            },
+            {
+              "type": "text",
+              "content": " and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash K"
+            },
+            {
+              "type": "text",
+              "content": " is connected."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.131,
+            0.862,
+            0.875,
+            0.937
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { U } _ { 0 } , \\boldsymbol { U } _ { 1 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " .be the components of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } \\backslash K ."
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is unbounded. Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L = \\mathbb { C } \\backslash U _ { 0 } ;"
+            },
+            {
+              "type": "text",
+              "content": " hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L = K \\cup \\bigcup_{n = 1}^{\\infty} U_{n}"
+            },
+            {
+              "type": "text",
+              "content": " Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\subseteq K ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is a bounded open set and a topological argument implies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial U _ { n }   \\subset   K"
+            },
+            {
+              "type": "text",
+              "content": " . By the Maximum Principle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { n } \\subseteq K ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\subseteq K ^ { \\star }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 221,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.561,
+            0.074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§5. Dependence of the Spectrum on the Algebra"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.056,
+            0.87,
+            0.071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "207"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.1,
+            0.87,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha { \\in } { \\boldsymbol { U } } _ { 0 } ,   ( z - \\alpha ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is analytic in a neighborhood of L. By (III.8.5), there is a sequence of polynomials "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| p _ { n } - ( z - \\alpha ) ^ { - 1 } \\| _ { L } \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q _ { n } = ( z - \\alpha ) p _ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| q _ { n } - 1 \\| _ { L } \\to 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Thus for large "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , \\| q _ { n } - 1 \\| _ { L } < 1 / 2"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\subset L"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| q _ { n } ( \\alpha ) - 1 | = 1"
+            },
+            {
+              "type": "text",
+              "content": " , this implies that α∉ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { \\star } \\subseteq L"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.193,
+            0.869,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.4. Theorem. If A and B are Banach algebras with a common identity such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } \\subseteq \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a { \\in } { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " , then"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.239,
+            0.509,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) \\subseteq \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and ∂σ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ( a ) \\subseteq \\partial \\sigma _ { \\mathcal { A } } ( a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.127,
+            0.259,
+            0.321,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) ^ { \\star } = \\sigma _ { \\mathcal { A } } ( a ) ^ { \\star }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.128,
+            0.276,
+            0.781,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) If G is a hole of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) ."
+            },
+            {
+              "type": "text",
+              "content": " , then either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\subseteq \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\cap \\sigma _ { \\mathcal { B } } ( a ) = \\square"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.127,
+            0.295,
+            0.828,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) If B is the closure in A of all polynomials in a, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { B } } ( a ) = \\sigma _ { \\mathcal { A } } ( a ) ^ { \\star }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.126,
+            0.321,
+            0.87,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. (a) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\not \\in \\sigma _ { \\mathcal { B } } ( a ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , then there is a b in  such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b(a - \\alpha) = (a - \\alpha)b = 1"
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B } \\subseteq \\mathcal { A } , \\alpha \\notin \\sigma _ { \\mathcal { A } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " . Now assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   \\in   \\partial \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Since int "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) \\subseteq \\operatorname { i n t } \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " it suffices to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } \\sigma _ { \\mathcal { A } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\sigma _ { \\mathcal { A } } ( a ) ;"
+            },
+            {
+              "type": "text",
+              "content": " there is thus an x in such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x(a - \\lambda) = (a - \\lambda)x = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } \\partial \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " , there is a sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ \\lambda _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } \\backslash \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } \\to \\lambda"
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - \\lambda _ { n } ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " be the inverse of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " in B; so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - \\lambda _ { n } ) ^ { - 1 } \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " .Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { n } \\rightarrow \\lambda , ( a - \\lambda _ { n } ) \\rightarrow ( a - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " . By Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2.2,(a-\\lambda_{n})^{-1}\\to x"
+            },
+            {
+              "type": "text",
+              "content": " Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " since  is complete. This contradicts the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   \\in   \\sigma _ { \\mathcal { B } } ( a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.154,
+            0.451,
+            0.758,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) This is a consequence of (a) and the Maximum Principle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.469,
+            0.868,
+            0.544
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) Let G be a hole of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 } = G \\cap \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 2 } = G \\backslash \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G   =   G _ { 1 }   \\cup   G _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 }   \\cap   G _ { 2 }   =   \\square"
+            },
+            {
+              "type": "text",
+              "content": " . Clearly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is open. On the other hand, the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial \\sigma _ { \\mathcal { A } } ( a ) \\subseteq \\sigma _ { \\mathcal { A } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\cap \\sigma _ { \\mathcal { A } } ( a ) = \\square"
+            },
+            {
+              "type": "text",
+              "content": " implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 } = G \\cap \\mathrm { i n t } \\sigma _ { \\mathcal { B } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " is open. Because G is connected, either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is empty."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.544,
+            0.871,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) Let  be as in (d). From (a) and (b) it is known that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) \\subseteq \\sigma _ { \\mathcal { B } } ( a ) \\subseteq \\sigma _ { \\mathcal { A } } ( a ) ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Fix λ in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\notin \\sigma _ { \\mathcal { B } } ( a ) , ( a - \\lambda ) ^ { - 1 } \\in \\mathcal { B } \\subseteq \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " Hence there is a sequence of polynomials "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { n } ( a ) \\to ( a - \\lambda ) ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q_{n}(z) = (z - \\lambda)p_{n}(z)"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| q _ { n } ( a ) - 1 \\| \\to 0"
+            },
+            {
+              "type": "text",
+              "content": " . By the Spectral Mapping Theorem, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( q _ { n } ( a ) ) = q _ { n } ( \\sigma _ { \\mathcal { A } } ( a ) )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } \\sigma _ { \\mathcal { A } } ( a ) ^ { \\wedge }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.301,
+            0.643,
+            0.697,
+            0.769
+          ],
+          "image_path": "images/page_221_equation_12.jpg",
+          "content": "\\begin{align*}\\| q_n(a) - 1 \\| & \\geqslant r(q_n(a) - 1) \\\\& = \\sup \\left\\{ |z - 1| \\colon z { \\in } \\sigma_{\\mathcal{A}}(q_n(a)) \\right\\} \\\\& = \\sup \\left\\{ |q_n(w) - 1| \\colon w { \\in } \\sigma_{\\mathcal{A}}(a) \\right\\} \\\\& \\geqslant |q_n(\\lambda) - 1| \\\\& = 1.\\end{align*}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.78,
+            0.362,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is a contradiction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.806,
+            0.232,
+            0.822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISES"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.825,
+            0.871,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If K is a compact subset of C, let P(K) be the closure of the polynomials in C(K). Show that the identity map on polynomials extends to an isometric isomorphism of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( K )"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( K ^ { \\prec } )"
+            },
+            {
+              "type": "text",
+              "content": " 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.884,
+            0.871,
+            0.938
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. If K is a compact subset of C, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ( K )"
+            },
+            {
+              "type": "text",
+              "content": " be the closure in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( K )"
+            },
+            {
+              "type": "text",
+              "content": " of all rational functions with poles off K. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f   \\in   R ( K )"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma_{R(K)}(f) = f(K). \\mathrm{If} f \\in P(K)"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { { } _ { P ( K ) } } ( f ) = \\hat { f } ( K ^ { \\star } )"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { f }"
+            },
+            {
+              "type": "text",
+              "content": " is a natural extension of f to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { \\star }"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 222,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.057,
+            0.164,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "208"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.479,
+            0.056,
+            0.867,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "VII. Banach Algebras and Spectral Theory"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.126,
+            0.102,
+            0.863,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } , \\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " be as in Theorem 5.4. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a { \\in } { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) \\subseteq \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) = \\sigma _ { \\mathcal { A } } ( a ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.127,
+            0.869,
+            0.182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varkappa"
+            },
+            {
+              "type": "text",
+              "content": " be a Banach algebra with identity and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G _ { 1 } , G _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " are the holes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant n_{1} \\leqslant n_{2}, \\ldots,"
+            },
+            {
+              "type": "text",
+              "content": " show that there is a subalgebra "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pmb { \\mathscr { B } }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nsim"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a { \\in } { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma_{\\mathcal{A}}(a) = \\sigma_{\\mathcal{A}}(a) \\cup \\bigcup_{k = 1}^{\\infty} G_{n_k}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.187,
+            0.87,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } , \\mathcal { B } ,"
+            },
+            {
+              "type": "text",
+              "content": " and a are as in Theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 . 4 , \\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": " is not abelian, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { B }"
+            },
+            {
+              "type": "text",
+              "content": " is a maximal abelian subalgebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": " show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { \\mathcal { A } } ( a ) = \\sigma _ { \\mathcal { B } } ( a )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.124,
+            0.23,
+            0.871,
+            0.266
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. If K is a nonempty compact subset of C that is polynomially convex, show that the components of int K are simply connected."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.313,
+            0.68,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Spectrum of a Linear Operator"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.354,
+            0.609,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of the first result is left as an exercise."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.391,
+            0.293,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.1. Proposition."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.419,
+            0.664,
+            0.437
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) If X is a Banach space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{B}(\\mathcal{X}), \\sigma(A^*) = \\sigma(A)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.124,
+            0.437,
+            0.871,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If H is a Hilbert space and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\in \\mathcal{B}(\\mathcal{H}), \\sigma(A^*) = \\sigma(A)^*"
+            },
+            {
+              "type": "text",
+              "content": " , where for any subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta { \\it o f } \\mathbb { C } ,   \\Delta ^ { * } \\equiv \\{ \\bar { z } { : } z { \\in } \\Delta \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.492,
+            0.873,
+            0.565
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section only results about operators on Banach spaces will be given. For the corresponding results about operators on a Hilbert space involving the adjoint, the reader is asked to supply the details. The preceding proposition should be kept in mind as a model of the probable differences."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.153,
+            0.565,
+            0.851,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section and the next "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " always denotes a Banach space over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.6,
+            0.828,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.2. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " , the point spectrum of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , \\sigma _ { p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.339,
+            0.628,
+            0.658,
+            0.647
+          ],
+          "image_path": "images/page_222_equation_14.jpg",
+          "content": "\\sigma _ { p } ( A ) \\equiv \\{ \\lambda \\in \\mathbb { C } : \\ker ( A - \\lambda ) \\neq ( 0 ) \\} ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.126,
+            0.655,
+            0.872,
+            0.71
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As in the case of operators on a Hilbert space, elements of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " are called eigenvalues. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   \\in   \\sigma _ { p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " , non-zero vectors in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ker ( A - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " are called eigenvectors; ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is called the eigenspace of A at λ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.126,
+            0.728,
+            0.871,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.3. Definition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   { \\mathcal { B } } ( { \\mathcal { X } } ) ."
+            },
+            {
+              "type": "text",
+              "content": " , the approximate point spectrum of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , \\sigma _ { a p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.214,
+            0.774,
+            0.636,
+            0.794
+          ],
+          "image_path": "images/page_222_equation_17.jpg",
+          "content": "\\sigma _ { a p } ( A ) \\equiv \\{ \\lambda \\in \\mathbb { C } : \\mathrm { t h e r e ~ i s ~ a ~ s e q u e n c e } \\{ x _ { n } \\} \\mathrm { ~ i n ~ } \\mathcal { X }"
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.312,
+            0.796,
+            0.784,
+            0.816
+          ],
+          "image_path": "images/page_222_equation_18.jpg",
+          "content": "\\mathrm { s u c h } \\mathrm { t h a t } \\left\\| x _ { n } \\right\\| = 1 \\mathrm { f o r } \\mathrm { a l l } n \\mathrm { a n d } \\left\\| ( A - \\lambda ) x _ { n } \\right\\| \\rightarrow 0 \\}."
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.129,
+            0.825,
+            0.38,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { p } ( A ) \\subseteq \\sigma _ { a p } ( A ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.127,
+            0.861,
+            0.857,
+            0.88
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.4. Proposition. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\in   \\mathcal { B } ( \\mathcal { X } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\mathbf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " , the following statements are equivalent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.129,
+            0.889,
+            0.262,
+            0.907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) λ∉ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { a p } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.128,
+            0.907,
+            0.566,
+            0.924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ker(A - \\lambda) = (0)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { r a n } ( A - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is closed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 223,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.129,
+            0.056,
+            0.486,
+            0.073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§6. The Spectrum of a Linear Operator"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.835,
+            0.057,
+            0.871,
+            0.072
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "209"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.101,
+            0.79,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) There is a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| ( A - \\lambda ) x \\| \\geqslant c \\| x \\|"
+            },
+            {
+              "type": "text",
+              "content": " for all x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.129,
+            0.581,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ProoF. Clearly it may be assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda   =   0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.126,
+            0.147,
+            0.869,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a)⇒(c): Suppose (c) fails to hold; then for every n there is a non-zero vector "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A x _ { \\mathfrak { n } } \\| \\leqslant \\| x _ { \\mathfrak { n } } \\| / \\mathfrak { n }"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { n } = x _ { n } / \\| x _ { n } \\| , \\| y _ { n } \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A y _ { n } \\| \\to 0 ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0   \\in   \\sigma _ { a p } ( A )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.202,
+            0.869,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c)⇒(b): Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A x \\| \\geqslant c \\| x \\|"
+            },
+            {
+              "type": "text",
+              "content": " . Clearly ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Ax_{n} \\rightarrow y,\\left\\| x_{n} - x_{m} \\right\\| \\leq"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { - 1 } \\left\\| A x _ { n } - A x _ { m } \\right\\|"
+            },
+            {
+              "type": "text",
+              "content": " , SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ x _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " is a Cauchy sequence. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = \\lim_{n \\to \\infty} x_n;"
+            },
+            {
+              "type": "text",
+              "content": " therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A x = y"
+            },
+            {
+              "type": "text",
+              "content": " and ran A is closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.257,
+            0.87,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)⇒(a): Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { B } } = \\operatorname { r a n } A ;"
+            },
+            {
+              "type": "text",
+              "content": " sO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\colon { \\mathcal { X } }   \\to   { \\mathcal { Y } }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous bijection. By the Inverse Mapping Theorem, there is a bounded operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\colon { \\mathcal { G } }   \\to   { \\mathcal { X } }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B A x = x"
+            },
+            {
+              "type": "text",
+              "content": " for all x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { X }"
+            },
+            {
+              "type": "text",
+              "content": " . Thus if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|x\\| = 1, \\; 1 = \\|BAx\\| \\leqslant \\|B\\| \\|Ax\\|"
+            },
+            {
+              "type": "text",
+              "content": " . That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| A x \\| \\geqslant \\| B \\| ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " whenever "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x \\| = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 { \\notin } \\sigma _ { a p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " ■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.35,
+            0.869,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It may be that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is empty, but it will be shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { a p } ( A )"
+            },
+            {
+              "type": "text",
+              "content": " is never empty. The first statement follows from the next result (or from other examples that have been presented); the second statement will be proved later."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.422,
+            0.867,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.5. Proposition. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   1 \\leq p \\leq \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S \\colon l ^ { p }   \\to   l ^ { p }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(x_{1},x_{2},\\ldots)=(0,x_{1},x_{2},\\ldots)"
+            },
+            {
+              "type": "text",
+              "content": " Then σ(S) = cl D, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { p } ( S ) = \\square"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { a p } ( S ) = \\partial \\mathbf { D }"
+            },
+            {
+              "type": "text",
+              "content": " . Moreover, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathit { f o r \\quad } | \\lambda | < 1"
+            },
+            {
+              "type": "text",
+              "content": " ran "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( S - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " is closed and dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ l ^ { p } / \\mathrm { r a n } ( S - \\dot { \\lambda } ) \\right] = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.127,
+            0.487,
+            0.869,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { p }"
+            },
+            {
+              "type": "text",
+              "content": " be the shift on lP. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " , define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { p } \\colon l ^ { p }   \\to   l ^ { p }"
+            },
+            {
+              "type": "text",
+              "content": " by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { p } ( x _ { 1 } , x _ { 2 } , \\ldots ) = ( x _ { 2 } , x _ { 3 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " . It is easy to check that for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / p + 1 / q = 1 , S _ { p } ^ { * } = T _ { q }"
+            },
+            {
+              "type": "text",
+              "content": " . Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| S _ { p } \\| = 1 , \\sigma ( S _ { p } ) \\in \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.126,
+            0.543,
+            0.869,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = (x_1, x_2, \\ldots) \\in l^p, \\quad \\lambda \\neq 0."
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { p } x = \\lambda x , \\quad 0 = \\lambda x _ { 1 } , \\quad x _ { 1 } = \\lambda x _ { 2 } , \\ldots ."
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 = x _ { 1 } = x _ { 2 } = \\cdots ."
+            },
+            {
+              "type": "text",
+              "content": " Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { p }"
+            },
+            {
+              "type": "text",
+              "content": " is an isometry, ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { p }   =   ( 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { p } ( S _ { p } ) = \\Box"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.126,
+            0.596,
+            0.87,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda | < 1"
+            },
+            {
+              "type": "text",
+              "content": " Put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { \\lambda } = ( 1 , \\lambda , \\lambda ^ { 2 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| x _ { \\lambda } \\| _ { p } ^ { p } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\sum _ { n = 0 } ^ { \\infty } | \\lambda ^ { p } | ^ { n } < \\infty } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { p } x _ { \\lambda } = ( \\lambda , \\lambda ^ { 2 } , \\ldots ) = \\lambda x _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda { \\in } \\sigma _ { p } ( T _ { p } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { \\lambda } \\in \\ker ( T _ { p } - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / p + 1 / q = 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { q } = S _ { p } ^ { * } ;"
+            },
+            {
+              "type": "text",
+              "content": " SO "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf{D} \\in \\sigma(T_q) = \\sigma(S_p)"
+            },
+            {
+              "type": "text",
+              "content": " Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { S _ { \\infty } } = T _ { 1 } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { D } \\subseteq \\sigma ( S _ { \\infty } )"
+            },
+            {
+              "type": "text",
+              "content": " . Thus for all p, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\vec { \\mathbf { D } } \\subseteq \\sigma ( S _ { p } ) \\subseteq \\mathbf { c l }"
+            },
+            {
+              "type": "text",
+              "content": " D. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( \\bar { S } _ { p } )"
+            },
+            {
+              "type": "text",
+              "content": " is necessarily closed, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma ( S _ { p } ) ="
+            },
+            {
+              "type": "text",
+              "content": " cl D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.127,
+            0.686,
+            0.869,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { I f } \\left| \\lambda \\right| \\neq 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in l ^ { p } , \\left\\| \\left( S _ { p } - \\lambda \\right) x \\right\\| _ { p } = \\left\\| S _ { p } x - \\lambda x \\right\\| _ { p } \\geqslant \\left| \\left\\| S _ { p } x \\right\\| _ { p } - \\left| \\lambda \\right| \\left\\| x \\right\\| _ { p } \\right| ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\left\\| x \\right\\|_p - \\left| \\lambda \\right| \\left\\| x \\right\\|_p \\right| = \\left| 1 - \\left| \\dot{\\lambda} \\right| \\right| \\left\\| x \\right\\|_p . \\mathrm{By} (6.4), \\lambda \\notin \\sigma_{ap}^{'}(S_p)"
+            },
+            {
+              "type": "text",
+              "content": " Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { a p } ( S ) \\subseteq \\partial \\mathbb { D } ."
+            },
+            {
+              "type": "text",
+              "content": " The fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { \\sigma _ { a p } } ( S _ { p } ) = \\partial \\mathbf { D }"
+            },
+            {
+              "type": "text",
+              "content": " follows from the next proposition (6.7)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.126,
+            0.741,
+            0.872,
+            0.89
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\lambda | < 1 ;"
+            },
+            {
+              "type": "text",
+              "content": " ; we will show that dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T _ { p } - \\lambda ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " . Indeed, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   ^ { l ^ { p } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { p } x = \\lambda x"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x_{2},x_{3},\\ldots)=(\\lambda x_{1},\\lambda x_{2},\\ldots)"
+            },
+            {
+              "type": "text",
+              "content": " So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n + 1 } = \\lambda x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for all n. Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n + 1 } = \\lambda ^ { n } x _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " . That is, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { \\lambda } = ( 1 , \\lambda , \\lambda ^ { 2 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = x _ { 1 } x _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": " Since it has already been shown that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { \\lambda } \\in \\ker ( T _ { p } - \\lambda )"
+            },
+            {
+              "type": "text",
+              "content": " , we have that the dimension of this kernel is 1. Therefore, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant p < \\infty, \\; 1 = \\dim"
+            },
+            {
+              "type": "text",
+              "content": " ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( T _ { q } - \\lambda ) ="
+            },
+            {
+              "type": "text",
+              "content": " dim ker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( S _ { p } ^ { * } - \\lambda \\right) = \\dim \\left[ \\operatorname { r a n } \\left( S _ { p } - \\lambda \\right) ^ { \\perp } \\right] \\left( \\operatorname { V I } . 1 . 8 \\right) = \\dim \\left[ l ^ { p } / \\operatorname { r a n } \\left( S _ { p } - \\lambda \\right) \\right] ^ { * } \\left( \\operatorname { W h y } ? \\right)"
+            },
+            {
+              "type": "text",
+              "content": " But this implies that dim "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ l ^ { \\dot { p } } / \\mathrm { r a n } ( S _ { p } - \\lambda ) \\right] = 1"
+            },
+            {
+              "type": "text",
+              "content": " , completing the proof for the case where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is finite. The proof for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p   =   \\infty"
+            },
+            {
+              "type": "text",
+              "content": " is similar and is left to the reader.■"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.128,
+            0.907,
+            0.871,
+            0.926
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.6. Corollary. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "If   1 \\leqslant p \\leqslant \\infty"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\colon l ^ { p } { \\to } l ^ { p }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T ( x _ { 1 } , x _ { 2 } , \\ldots ) = ( x _ { 2 } , x _ { 3 } , \\ldots ) ,"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

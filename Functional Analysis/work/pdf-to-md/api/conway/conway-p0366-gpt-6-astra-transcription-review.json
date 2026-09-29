@@ -1,0 +1,9 @@
+{
+  "book": "Conway",
+  "pdf_page": 366,
+  "model": "gpt-6-astra",
+  "seconds": 17.35,
+  "input_tokens": 3682,
+  "output_tokens": 479,
+  "review": "{\n  \"safe_to_accept\": false,\n  \"errors\": [\n    {\n      \"candidate\": \"\\\\mathcal M_\\\\delta^\\\\perp=E[0,\\\\delta]\\\\mathcal H\",\n      \"correction\": \"\\\\mathcal M_\\\\delta^\\\\perp=E[0,\\\\delta]h\",\n      \"note\": \"The image prints lowercase h here, apparently a source typo.\"\n    },\n    {\n      \"candidate\": \"sequence, $\\\\{e_n\\\\}$ such that\",\n      \"correction\": \"sequence, $\\\\{e_n\\\\}$ usch that\",\n      \"note\": \"The image prints 'usch'; the candidate silently corrects this source typo.\"\n    }\n  ],\n  \"uncertain_regions\": []\n}"
+}
