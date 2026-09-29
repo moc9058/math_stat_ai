@@ -1,7 +1,5 @@
 # IX. Normal Operators on Hilbert Space
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-270"></a>
 # CHAPTER IX
@@ -68,6 +66,8 @@ $$
 
 
 <a id="pdf-page-272"></a>
+§1. Spectral Measures and Representations of Abelian $C^*$-Algebras  257
+
 Then $d_s$ and $d_w$ are metrics on $\mathcal B(\mathcal H)$. It is left as an exercise to show that $d_s$ and $d_w$ define the SOT and WOT on bounded subsets of $\mathcal B(\mathcal H)$. ■
 
 **1.4. Example.** Let $(X,\Omega,\mu)$ be a $\sigma$-finite measure space. If $\phi\in L^\infty(\mu)$, let $M_\phi$ be the multiplication operator on $L^2(\mu)$. Then a net $\{\phi_i\}$ in $L^\infty(\mu)$ converges weak* to $\phi$ if and only if $M_{\phi_i}\to M_\phi$ (WOT). In fact, if $f,g\in L^2(\mu)$ and $\phi_i\to\phi$ weak* in $L^\infty(\mu)$, then $\langle M_{\phi_i}f,g\rangle=\int\phi_i f\bar g\,d\mu\to\int\phi f\bar g\,d\mu=\langle M_\phi f,g\rangle$ since $f\bar g\in L^1(\mu)$. Conversely, if $M_{\phi_i}\to M_\phi$ (WOT) and $f\in L^1(\mu)$, then $f=g_1\bar g_2$, where $g_1,g_2\in L^2(\mu)$. (Why?) So $\int\phi_i f\,d\mu=\langle M_{\phi_i}g_1,g_2\rangle\to\langle M_\phi g_1,g_2\rangle=\int\phi f\,d\mu$.
@@ -76,7 +76,7 @@ Then $d_s$ and $d_w$ are metrics on $\mathcal B(\mathcal H)$. It is left as an e
 
 In light of (1.5), a spectral measure for $(X,\Omega,\mathcal H)$ could be defined as a SOT-countably additive projection-valued measure.
 
-**1.6. Example.** Let $X$ be a compact set, $\Omega=$ the Borel subsets of $X$, $\mu=$ a measure on $\Omega$, and $\mathcal H=L^2(\mu)$. For $\Delta$ in $\Omega$, let $E(\Delta)=$ multiplication by $\chi_\Delta$, the characteristic function of $\Delta$. $E$ is a spectral measure for $(X,\Omega,\mathcal H)$.
+**1.6. Example.** Let $X$ be a compact set. $\Omega=$ the Borel subsets of $X$, $\mu=$ a measure on $\Omega$, and $\mathcal H=L^2(\mu)$. For $\Delta$ in $\Omega$, let $E(\Delta)=$ multiplication by $\chi_\Delta$, the characteristic function of $\Delta$. $E$ is a spectral measure for $(X,\Omega,\mathcal H)$.
 
 **1.7. Example.** If $E$ is a spectral measure for $(X,\Omega,\mathcal H)$, the *inflation*, $E^{(n)}$, of $E$, defined by $E^{(n)}(\Delta)=E(\Delta)^{(n)}$, is a spectral measure for $(X,\Omega,\mathcal H^{(n)})$.
 
@@ -92,38 +92,25 @@ $$
 
 *defines a countably additive measure on $\Omega$ with total variation $\leq\|g\|\|h\|$.*
 
-**Proof.** That $\mu=E_{g,h}$, as defined above, is a countably additive measure is left for the reader to verify. If $\Delta_1,\ldots,\Delta_n$ are pairwise disjoint sets in $\Omega$, let $\alpha_j\in\mathbb C$ such that $|\alpha_j|=1$ and $|\langle E(\Delta_j)g,h\rangle|=\alpha_j\langle E(\Delta_j)g,h\rangle$. So
-$$
-\sum_j|\mu(\Delta_j)|
-=\sum_j\alpha_j\langle E(\Delta_j)g,h\rangle
-=\left\langle\sum_j E(\Delta_j)\alpha_jg,h\right\rangle
-\leq\left\|\sum_j E(\Delta_j)\alpha_jg\right\|\|h\|.
-$$
-Now $\{E(\Delta_j)\alpha_jg:1\leq j\leq n\}$ is a finite sequence of pairwise orthogonal vectors so that
-$$
-\left\|\sum_j E(\Delta_j)\alpha_jg\right\|^2
-=\sum_j\|E(\Delta_j)g\|^2
-=\left\|E\left(\bigcup_{j=1}^n\Delta_j\right)g\right\|^2
-\leq\|g\|^2;
-$$
-hence $\sum_j|\mu(\Delta_j)|\leq\|g\|\|h\|$. Thus $\|\mu\|\leq\|g\|\|h\|$. ■
+**PROOF.** That $\mu=E_{g,h}$ as defined above, is a countably additive measure is left for the reader to verify. If $\Delta_1,\ldots,\Delta_n$ are pairwise disjoint sets in $\Omega$, let $\alpha_j\in\mathbb C$ such that $|\alpha_j|=1$ and $|\langle E(\Delta_j)g,h\rangle|=\alpha_j\langle E(\Delta_j)g,h\rangle$. So $\sum_j|\mu(\Delta_j)|=\sum_j\alpha_j\langle E(\Delta_j)g,h\rangle=\langle\sum_j E(\Delta_j)\alpha_jg,h\rangle\leq\|\sum_j E(\Delta_j)\alpha_jg\|\|h\|$. Now $\{E(\Delta_j)\alpha_jg:1\leq j\leq n\}$ is a finite sequence of pairwise orthogonal vectors so that $\|\sum_j E(\Delta_j)\alpha_jg\|^2=\sum_j\|E(\Delta_j)g\|^2=\|E(\bigcup_{j=1}^n\Delta_j)g\|^2\leq\|g\|^2$; hence $\sum_j|\mu(\Delta_j)|\leq\|g\|\|h\|$. Thus $\|\mu\|\leq\|g\|\|h\|$. ■
 
 It is possible to use spectral measures to define representations. The next
 
 
 
 <a id="pdf-page-273"></a>
+258  
+IX. Normal Operators on Hilbert Space
+
 result is crucial for this purpose. It tells us how to integrate with respect to a spectral measure.
 
-**1.10. Proposition.** *If $E$ is a spectral measure for $(X,\Omega,\mathcal H)$ and $\phi:X\to\mathbb C$ is a bounded $\Omega$-measurable function, then there is a unique operator $A$ in $\mathcal B(\mathcal H)$ such that if $\varepsilon>0$ and $\{\Delta_1,\ldots,\Delta_n\}$ is an $\Omega$-partition of $X$ with $\sup\{|\phi(x)-\phi(x')|:x,x'\in\Delta_k\}<\varepsilon$ for $1\leq k\leq n$, then for any $x_k$ in $\Delta_k$,
+**1.10. Proposition.** *If $E$ is a spectral measure for $(X,\Omega,\mathcal H)$ and $\phi:X\to\mathbb C$ is a bounded $\Omega$-measurable function, then there is a unique operator $A$ in $\mathcal B(\mathcal H)$ such that if $\varepsilon>0$ and $\{\Delta_1,\ldots,\Delta_n\}$ is an $\Omega$-partition of $X$ with $\sup\{|\phi(x)-\phi(x')|:x,x'\in\Delta_k\}<\varepsilon$ for $1\leq k\leq n$, then for any $x_k$ in $\Delta_k$,*
 
 $$
 \left\|A-\sum_{k=1}^{n}\phi(x_k)E(\Delta_k)\right\|<\varepsilon.
 $$
 
-*
-
-**Proof.** Define $B(g,h)=\int\phi\,dE_{g,h}$ for $g,h$ in $\mathcal H$. By the preceding lemma it is easy to see that $B$ is a sesquilinear form with $|B(g,h)|\leq\|\phi\|_\infty\|g\|\|h\|$. Hence there is a unique operator $A$ such that $B(g,h)=\langle Ag,h\rangle$ for all $g$ and $h$ in $\mathcal H$.
+**Proof.** Define $B(g,h)\equiv\int\phi\,dE_{g,h}$ for $g,h$ in $\mathcal H$. By the preceding lemma it is easy to see that $B$ is a sesquilinear form with $|B(g,h)|\leq\|\phi\|_\infty\|g\|\|h\|$. Hence there is a unique operator $A$ such that $B(g,h)=\langle Ag,h\rangle$ for all $g$ and $h$ in $\mathcal H$.
 
 Let $\{\Delta_1,\ldots,\Delta_n\}$ be an $\Omega$-partition satisfying the condition in the statement of the proposition. If $g$ and $h$ are arbitrary vectors in $\mathcal H$ and $x_k\in\Delta_k$ for $1\leq k\leq n$, then
 
@@ -220,7 +207,7 @@ Representation Theorem for linear functionals on $C(X)$. We wish to extend $\rho
 If $g,h\in\mathcal{H}$, then $u\mapsto\langle\rho(u)g,h\rangle$ is a linear functional on $C(X)$ with norm $\leq\|g\|\|h\|$. Hence there is a unique measure, $\mu_{g,h}$ in $M(X)$ such that
 
 $$
-\langle\rho(u)g,h\rangle=\int u\,d\mu_{g,h}. \tag{1.15}
+\langle\rho(u)g,h\rangle=\int u\,d\mu_{g,h} \tag{1.15}
 $$
 
 for all $u$ in $C(X)$. It is easy to verify that the map $(g,h)\mapsto\mu_{g,h}$ is sesquilinear (use uniqueness) and $\|\mu_{g,h}\|\leq\|g\|\|h\|$. Now fix $\phi$ in $B(X)$ and define $[g,h]=\int\phi\,d\mu_{g,h}$. Then $[\cdot,\cdot]$ is a sesquilinear form and $|[g,h]|\leq\|\phi\|\|g\|\|h\|$. Hence there is a unique bounded operator $A$ such that $[g,h]=\langle Ag,h\rangle$ and $\|A\|\leq\|\phi\|$ (II.2.2). Denote the operator $A$ by $\tilde{\rho}(\phi)$. So $\tilde{\rho}:B(X)\to\mathcal{B}(\mathcal{H})$ is a well-defined function, $\|\tilde{\rho}(\phi)\|\leq\|\phi\|$, and for all $g,h$ in $\mathcal{H}$,
@@ -229,7 +216,7 @@ $$
 \langle\tilde{\rho}(\phi)g,h\rangle=\int\phi\,d\mu_{g,h}. \tag{1.16}
 $$
 
-**1.17. Claim.** $\tilde{\rho}:B(X)\to\mathcal{B}(\mathcal{H})$ is a representation and $\tilde{\rho}|_{C(X)}=\rho$.
+**1.17. Claim.** $\tilde{\rho}:B(X)\to\mathcal{B}(\mathcal{H})$ is a representation and $\tilde{\rho}|C(X)=\rho$.
 
 The fact that $\tilde{\rho}(u)=\rho(u)$ whenever $u\in C(X)$ follows immediately from (1.15) and (1.16). If $\phi\in B(X)$, consider $\phi$ as an element of $M(X)^*$ $(=C(X)^{**})$; that is, $\phi$ corresponds to the linear functional $\mu\mapsto\int\phi\,d\mu$. By Proposition V.4.1, $\{u\in C(X):\|u\|\leq\|\phi\|\}$ is $\sigma(M(X)^*,M(X))$ dense in $\{L\in M(X)^*:\|L\|\leq\|\phi\|\}$. Thus there is a net $\{u_i\}$ in $C(X)$ such that $\|u_i\|\leq\|\phi\|$ for all $u_i$ and $\int u_i\,d\mu\to\int\phi\,d\mu$ for every $\mu$ in $M(X)$. If $\psi\in B(X)$, then $\psi\mu\in M(X)$ whenever $\mu\in M(X)$. Hence $\int u_i\psi\,d\mu\to\int\phi\psi\,d\mu$ for every $\psi$ in $B(X)$ and $\mu$ in $M(X)$. By (1.16), $\tilde{\rho}(u_i\psi)\to\tilde{\rho}(\phi\psi)$ (WOT) for all $\psi$ in $B(X)$. In particular, if $\psi\in C(X)$, then $\tilde{\rho}(\phi\psi)=\operatorname{WOT}-\lim\tilde{\rho}(u_i\psi)=\operatorname{WOT}-\lim\rho(u_i)\rho(\psi)=\tilde{\rho}(\phi)\rho(\psi)$. That is,
 
@@ -246,7 +233,6 @@ $$
 whenever $\phi,\psi\in B(X)$.
 
 The proof that $\tilde{\rho}$ is linear is immediate by (1.16). To see that $\tilde{\rho}(\phi)^*=\tilde{\rho}(\bar{\phi})$. Let $\{u_i\}$ be the net obtained in the preceding paragraph. If $\mu\in M(X)$, let $\bar{\mu}$ be the measure defined by $\bar{\mu}(\Delta)=\overline{\mu(\Delta)}$. Then $\rho(u_i)\to\tilde{\rho}(\phi)$ (WOT) and so $\rho(u_i)^*\to\tilde{\rho}(\phi)^*$ (WOT). But $\int\bar{u}_i\,d\mu=\overline{\int u_i\,d\bar{\mu}}\to\overline{\int\phi\,d\bar{\mu}}=\int\bar{\phi}\,d\mu$ for every measure
-
 
 
 <a id="pdf-page-276"></a>
@@ -492,28 +478,32 @@ Throughout these exercises, $N$ is a normal operator on $\mathcal H$ with spectr
 
 
 <a id="pdf-page-282"></a>
+## §2. The Spectral Theorem
+
+267
+
 $1\leq j,k\leq d$. Show that there is a subset $X$ of $\mathbb C^d$ and a spectral measure $E$ defined on the Borel subsets of $X$ such that $N_k=\int z_k\,dE(z)$ for $1\leq k\leq d$ ($z_k=$ the $k$th coordinate function) (see Exercise VIII.2.2).
 
-18. If $N_1,\ldots,N_d$ are as in Exercise 17 and each is compact, show that there is a basis for $\mathcal H$ consisting of eigenvectors for each $N_k$. (This is the *simultaneous diagonalization* of $N_1,\ldots,N_d$.)
+18. If $N_1,\ldots,N_d$ are as in Exercise 17 and each is compact, show that there is a basis for $\mathcal H$ consisting of eigenvectors for each $N_k$. (This is the *simultaneous diagonalization of $N_1,\ldots,N_d$*.)
 
 19. This exercise gives the properties of Hilbert–Schmidt operators (defined below). (a) If $\{e_i\}$ and $\{f_j\}$ are two orthonormal bases for $\mathcal H$ and $A\in\mathcal B(\mathcal H)$, then
-   $$
-   \sum_i\|Ae_i\|^2=\sum_j\|Af_j\|^2=\sum_i\sum_j|\langle Ae_i,f_j\rangle|^2.
-   $$
+$$
+\sum_i\|Ae_i\|^2=\sum_j\|Af_j\|^2=\sum_i\sum_j|\langle Ae_i,f_j\rangle|^2.
+$$
 
-   (b) If $A\in\mathcal B(\mathcal H)$ and $\{e_i\}$ is a basis for $\mathcal H$, define
-   $$
-   \|A\|_2=\left[\sum_i\|Ae_i\|^2\right]^{1/2}.
-   $$
+(b) If $A\in\mathcal B(\mathcal H)$ and $\{e_i\}$ is a basis for $\mathcal H$, define
+$$
+\|A\|_2=\left[\sum_i\|Ae_i\|^2\right]^{1/2}.
+$$
 
-   By (a) $\|A\|_2$ is independent of the basis chosen and hence is well defined. If $\|A\|_2<\infty$, $A$ is called a *Hilbert–Schmidt operator*. $\mathcal B_2=\mathcal B_2(\mathcal H)$ denotes the set of all Hilbert–Schmidt operators. (c) $\|A\|\leq\|A\|_2$ for every $A$ in $\mathcal B(\mathcal H)$ and $\|\cdot\|_2$ is a norm on $\mathcal B_2$. (d) If $T\in\mathcal B=\mathcal B(\mathcal H)$ and $A\in\mathcal B_2$, then $\|TA\|_2\leq\|T\|\|A\|_2$, $\|A^*\|_2=\|A\|_2$, and $\|AT\|_2\leq\|A\|_2\|T\|$. (e) $\mathcal B_2$ is an ideal of $\mathcal B$ that contains $\mathcal B_{00}$, the finite-rank operators. (f) $A\in\mathcal B_2$ if and only if $|A|\equiv(A^*A)^{1/2}\in\mathcal B_2$; in this case $\|A\|_2=\||A|\|_2$. (g) $\mathcal B_2\subseteq\mathcal B_0$; moreover, if $A$ is a compact operator and $\lambda_1,\lambda_2,\ldots$ are the eigenvalues of $|A|$, each repeated as often as its multiplicity, then $A\in\mathcal B_2(\mathcal H)$ iff $\sum_{n=1}^{\infty}\lambda_n^2<\infty$. In this case, $\|A\|_2=(\sum\lambda_n^2)^{1/2}$. (h) If $(X,\Omega,\mu)$ is a measure space and $k\in L^2(\mu\times\mu)$, let $K:L^2(\mu)\to L^2(\mu)$ be the integral operator with kernel $k$. Then $K\in\mathcal B_2(L^2(\mu))$ and $\|K\|_2=\|k\|_2$ (see Proposition II.4.7 and Lemma II.4.8). (i) Interpret part (h) for a purely atomic measure space. More information on $\mathcal B_2$ is contained in the next exercise.
+By (a) $\|A\|_2$ is independent of the basis chosen and hence is well defined. If $\|A\|_2<\infty$, $A$ is called a *Hilbert–Schmidt operator*. $\mathcal B_2=\mathcal B_2(\mathcal H)$ denotes the set of all Hilbert–Schmidt operators. (c) $\|A\|\leq\|A\|_2$ for every $A$ in $\mathcal B(\mathcal H)$ and $\|\cdot\|_2$ is a norm on $\mathcal B_2$. (d) If $T\in\mathcal B=\mathcal B(\mathcal H)$ and $A\in\mathcal B_2$, then $\|TA\|_2\leq\|T\|\|A\|_2$, $\|A^*\|_2=\|A\|_2$, and $\|AT\|_2\leq\|A\|_2\|T\|$. (e) $\mathcal B_2$ is an ideal of $\mathcal B$ that contains $\mathcal B_{00}$, the finite-rank operators. (f) $A\in\mathcal B_2$ if and only if $|A|\equiv(A^*A)^{1/2}\in\mathcal B_2$; in this case $\|A\|_2=\||A|\|_2$. (g) $\mathcal B_2\subseteq\mathcal B_0$; moreover, if $A$ is a compact operator and $\lambda_1,\lambda_2,\ldots$ are the eigenvalues of $|A|$, each repeated as often as its multiplicity, then $A\in\mathcal B_2(\mathcal H)$ iff $\sum_{n=1}^{\infty}\lambda_n^2<\infty$. In this case, $\|A\|_2=(\sum\lambda_n^2)^{1/2}$. (h) If $(X,\Omega,\mu)$ is a measure space and $k\in L^2(\mu\times\mu)$, let $K:L^2(\mu)\to L^2(\mu)$ be the integral operator with kernel $k$. Then $K\in\mathcal B_2(L^2(\mu))$ and $\|K\|_2=\|k\|_2$ (see Proposition II.4.7 and Lemma II.4.8). (i) Interpret part (h) for a purely atomic measure space. More information on $\mathcal B_2$ is contained in the next exercise.
 
-20. This exercise discusses trace-class operators (defined below) and assumes a knowledge of Exercise 19. $\mathcal B_1(\mathcal H)=\{AB:A\text{ and }B\in\mathcal B_2(\mathcal H)\}$. Operators belonging to $\mathcal B_1(\mathcal H)$ are called *trace-class operators* and $\mathcal B_1(\mathcal H)=\mathcal B_1$ is called the trace class. (a) If $A\in\mathcal B_1(\mathcal H)$ and $\{e_i\}$ is a basis, then $\sum|\langle Ae_i,e_i\rangle|<\infty$. Moreover, the sum $\sum\langle Ae_i,e_i\rangle$ is independent of the choice of basis. (Hint: If $A=C^*B$, $B,C$ in $\mathcal B_2$, show that $|\langle Ae_i,e_i\rangle|\leq\frac12(\|Be_i\|^2+\|Ce_i\|^2)$.) (b) If $\{e_i\}$ is a basis for $\mathcal H$, define $\operatorname{tr}:\mathcal B_1\to\mathbb C$ by
-   $$
-   \operatorname{tr}(A)=\sum_i\langle Ae_i,e_i\rangle.
-   $$
+20. This exercise discusses trace-class operators (defined below) and assumes a knowledge of Exercise 19. $\mathcal B_1(\mathcal H)=\{AB:A\text{ and }B\in\mathcal B_2(\mathcal H)\}$. Operators belonging to $\mathcal B_1(\mathcal H)$ are called *trace-class operators* and $\mathcal B_1(\mathcal H)=\mathcal B_1$ is called the trace class. (a) If $A\in\mathcal B_1(\mathcal H)$ and $\{e_i\}$ is a basis, then $\sum|\langle Ae_i,e_i\rangle|<\infty$. Moreover, the sum $\sum\langle Ae_i,e_i\rangle$ is independent of the choice of basis. (Hint: If $A=C^*B$, $B,C$ in $\mathcal B_2$, show that $|\langle Ae_i,e_i\rangle|=\frac12(\|Be_i\|^2+\|Ce_i\|^2)$.) (b) If $\{e_i\}$ is a basis for $\mathcal H$, define $\operatorname{tr}:\mathcal B_1\to\mathbb C$ by
+$$
+\operatorname{tr}(A)=\sum_i\langle Ae_i,e_i\rangle.
+$$
 
-   By (a) the definition of $\operatorname{tr}(A)$ does not depend on the choice of a basis; $\operatorname{tr}(A)$ is called the *trace* of $A$. If $\dim\mathcal H<\infty$, then $\operatorname{tr}(A)$ is precisely the sum of the diagonal terms of any matrix representation of $A$. (c) If $A\in\mathcal B(\mathcal H)$, then the following are equivalent: (1) $A\in\mathcal B_1$; (2) $|A|=(A^*A)^{1/2}\in\mathcal B_1$; (3) $|A|^{1/2}\in\mathcal B_2$; (4) $\operatorname{tr}(|A|)<\infty$. (d) If $A\in\mathcal B_1$ and $T\in\mathcal B$, then $AT$ and $TA$ are in $\mathcal B_1$ and $\operatorname{tr}(AT)=\operatorname{tr}(TA)$. Moreover, $\operatorname{tr}:\mathcal B_1\to\mathbb C$ is a positive linear functional such that if $A\in\mathcal B_1$, $A\geq0$, and $\operatorname{tr}(A)=0$, then $A=0$. (e) If $A\in\mathcal B_1$, define $\|A\|_1\equiv\operatorname{tr}(|A|)$. If $A\in\mathcal B_1$ and $T\in\mathcal B$, show that $|\operatorname{tr}(TA)|\leq\|T\|\|A\|_1$. (f) $\|A\|_1=\|A^*\|_1$ if $A\in\mathcal B_1$. (g) If $T\in\mathcal B$ and $A\in\mathcal B_1$, then $\|TA\|_1\leq\|T\|\|A\|_1$ and $\|AT\|_1\leq\|T\|\|A\|_1$. (h) $\|\cdot\|_1$ is a norm on $\mathcal B_1$. It is called the *trace norm*. (i) $\mathcal B_1$ is an ideal in $\mathcal B(\mathcal H)$ that contains $\mathcal B_{00}$. (j) If $A\in\mathcal B_1$
+By (a) the definition of $\operatorname{tr}(A)$ does not depend on the choice of a basis; $\operatorname{tr}(A)$ is called the *trace* of $A$. If $\dim\mathcal H<\infty$, then $\operatorname{tr}(A)$ is precisely the sum of the diagonal terms of any matrix representation of $A$. (c) If $A\in\mathcal B(\mathcal H)$, then the following are equivalent: (1) $A\in\mathcal B_1$; (2) $|A|=(A^*A)^{1/2}\in\mathcal B_1$; (3) $|A|^{1/2}\in\mathcal B_2$; (4) $\operatorname{tr}(|A|)<\infty$. (d) If $A\in\mathcal B_1$ and $T\in\mathcal B$, then $AT$ and $TA$ are in $\mathcal B_1$ and $\operatorname{tr}(AT)=\operatorname{tr}(TA)$. Moreover, $\operatorname{tr}:\mathcal B_1\to\mathbb C$ is a positive linear functional such that if $A\in\mathcal B_1$, $A\geq0$, and $\operatorname{tr}(A)=0$, then $A=0$. (e) If $A\in\mathcal B_1$, define $\|A\|_1\equiv\operatorname{tr}(|A|)$. If $A\in\mathcal B_1$ and $T\in\mathcal B$, show that $|\operatorname{tr}(TA)|\leq\|T\|\|A\|_1$. (f) $\|A\|_1=\|A^*\|_1$ if $A\in\mathcal B_1$. (g) If $T\in\mathcal B$ and $A\in\mathcal B_1$, then $\|TA\|_1\leq\|T\|\|A\|_1$ and $\|AT\|_1\leq\|T\|\|A\|_1$. (h) $\|\cdot\|_1$ is a norm on $\mathcal B_1$. It is called the *trace norm*. (i) $\mathcal B_1$ is an ideal in $\mathcal B(\mathcal H)$ that contains $\mathcal B_{00}$. (j) If $A\in\mathcal B_1$
 
 
 
@@ -872,7 +862,7 @@ The next result will enable us to solve a number of problems concerning normal o
 
 **6.7. The Fuglede–Putnam Theorem.** *If $N$ and $M$ are normal operators on $\mathcal H$ and $\mathcal K$, and $B:\mathcal K\to\mathcal H$ is an operator such that $NB=BM$, then $N^{*}B=BM^{*}$.*
 
-**Proof.** Note that it follows from the hypothesis that $N^{k}B=BM^{k}$ for all $k\geq0$. So if $p(z)$ is a polynomial, $p(N)B=Bp(M)$. Since for a fixed $z$ in $\mathbb C$, $\exp(izN)$ and $\exp(izM)$ are limits of polynomials in $N$ and $M$, respectively, it follows that $\exp(i\bar zN)B=B\exp(i\bar zM)$ for all $z$ in $\mathbb C$. Equivalently, $B=e^{-i\bar zN}Be^{i\bar zM}$. Because $\exp(X+Y)=(\exp X)(\exp Y)$ when $X$ and $Y$ commute, the fact that $N$ and $M$ are normal implies that
+**Proof.** Note that it follows from the hypothesis that $N^{k}B=BM^{k}$ for all $k\geq0$. So if $p(z)$ is a polynomial, $p(N)B=Bp(M)$. Since for a fixed $z$ in $\mathbb C$, $\exp(i\bar zN)$ and $\exp(i\bar zM)$ are limits of polynomials in $N$ and $M$, respectively, it follows that $\exp(i\bar zN)B=B\exp(i\bar zM)$ for all $z$ in $\mathbb C$. Equivalently, $B=e^{-i\bar zN}Be^{i\bar zM}$. Because $\exp(X+Y)=(\exp X)(\exp Y)$ when $X$ and $Y$ commute, the fact that $N$ and $M$ are normal implies that
 
 $$
 \begin{aligned}
@@ -887,7 +877,6 @@ But for every $z$ in $\mathbb C$, $zN^{*}+\bar zN$ and $zM^{*}+\bar zM$ are herm
 Thus, $0=f'(z)=-iN^{*}e^{-izN^{*}}Be^{izM^{*}}+ie^{-izN^{*}}BM^{*}e^{izM^{*}}$. Putting $z=0$ gives $0=-iN^{*}B+iBM^{*}$, whence the theorem. ■
 
 This theorem was originally proved in Fuglede [1950] under the
-
 
 
 <a id="pdf-page-294"></a>
@@ -1153,7 +1142,9 @@ In the present section the objective is to show that if $h$ is a separating vect
 
 
 <a id="pdf-page-302"></a>
-$A|_{\mathcal H_h}$ is meaningful. It will be shown that the map $A\mapsto A|_{\mathcal H_h}$ is a $*$-isomorphism of $W^*(N)$ onto $W^*(N_h)$ if $h$ is a separating vector for $W^*(N)$. Since $N_h$ is $*$-cyclic, Theorem 6.6 and Corollary 6.9 show how to determine $W^*(N_h)$.
+§8. The Functional Calculus for Normal Operators  287
+
+$A|_{\mathcal H_h}$ is meaningful. It will be shown that the map $A\to A|_{\mathcal H_h}$ is a $*$-isomorphism of $W^*(N)$ onto $W^*(N_h)$ if $h$ is a separating vector for $W^*(N)$. Since $N_h$ is $*$-cyclic, Theorem 6.6 and Corollary 6.9 show how to determine $W^*(N_h)$.
 
 We begin with a modest lemma.
 
@@ -1169,7 +1160,7 @@ Finally, to show that $\rho_h$ is surjective note that if $B\in W^*(N_h)$, then 
 
 **8.6. Lemma.** *If $e\in\mathcal H$ such that $\mu_e$ is a scalar-valued spectral measure for $N$ and if $\nu$ is a positive measure on $\sigma(N)$ such that $\nu\ll\mu_e$, then there is an $h$ in $\mathcal H_e$ such that $\nu=\mu_h$.*
 
-**Proof.** This proof is just an application of the Radon–Nikodym Theorem once certain identifications are made; namely, $f=[d\nu/d\mu_e]^{1/2}\in L^2(\mu_e)$, so put $h=U_e^{-1}f$. Hence $h\in\mathcal H_e$. For any Borel set $\Delta$, $\nu(\Delta)=\int\chi_\Delta\,d\nu=\int\chi_\Delta ff\,d\mu_e=\langle M_{\chi_\Delta}f,f\rangle=\langle U_e^{-1}M_{\chi_\Delta}f,U_e^{-1}f\rangle=\langle E(\Delta)h,h\rangle=\mu_h(\Delta)$. $\blacksquare$
+**Proof.** This proof is just an application of the Radon–Nikodym Theorem once certain identifications are made; namely, $f=[d\nu/d\mu_e]^{1/2}\in L^2(\mu_e)$, so put $h=U_e^{-1}f$. Hence $h\in\mathcal H_e$. For any Borel set $\Delta$, $\nu(\Delta)=\int\chi_\Delta\,d\nu=\int\chi_\Delta f\bar f\,d\mu_e=\langle M_{\chi_\Delta}f,f\rangle=\langle U_e^{-1}M_{\chi_\Delta}f,U_e^{-1}f\rangle=\langle E(\Delta)h,h\rangle=\mu_h(\Delta)$. $\blacksquare$
 
 **8.7. Lemma.** $W^*(N)=\{\phi(N):\phi\in B(\sigma(N))\}$.
 
@@ -1312,16 +1303,13 @@ Now we return to the general case. By (7.9) and (8.9) there is a separating vect
 
 
 <a id="pdf-page-307"></a>
-$$
-\mathcal H=\bigvee\{N^{*k}N^je:k,j\geq 0\}.
-$$
-Clearly $\mathcal H$ reduces $N$ and $N|_{\mathcal H}$ is $*$-cyclic. Hence $\mathcal H$ reduces $A$ and $A|_{\mathcal H}=\phi(N|_{\mathcal H})$. By the preceding paragraph $\phi\in P^\infty(\mu)$. $\blacksquare$
+$\mathcal K=\bigvee\{N^{*k}N^je:k,j\geq 0\}$. Clearly $\mathcal K$ reduces $N$ and $N|_{\mathcal K}$ is $*$-cyclic. Hence $\mathcal K$ reduces $A$ and $A|_{\mathcal K}=\phi(N|_{\mathcal K})$. By the preceding paragraph $\phi\in P^\infty(\mu)$. $\blacksquare$
 
 An immediate consequence of the preceding theorem is the first step in the characterization of reductive normal operators.
 
 **9.6. Corollary.** *If $N$ is a normal operator and $\mu$ is a scalar-valued spectral measure for $N$, then $N$ is reductive if and only if $P^\infty(\mu)=L^\infty(\mu)$.*
 
-**Proof.** If $\mathcal M\in\operatorname{Lat}N$, then $\mathcal M\in\operatorname{Lat}\phi(N)$ for every $\phi$ in $P^\infty(\mu)$. So if $P^\infty(\mu)=L^\infty(\mu)$, $\bar z\in P^\infty(\mu)$ and, hence, $\mathcal M\in\operatorname{Lat}N^*$ whenever $\mathcal M\in\operatorname{Lat}N$.
+**PROOF.** If $\mathcal M\in\operatorname{Lat}N$, then $\mathcal M\in\operatorname{Lat}\phi(N)$ for every $\phi$ in $P^\infty(\mu)$. So if $P^\infty(\mu)=L^\infty(\mu)$, $\bar z\in P^\infty(\mu)$ and, hence, $\mathcal M\in\operatorname{Lat}N^*$ whenever $\mathcal M\in\operatorname{Lat}N$.
 
 Now suppose $N$ is reductive. This means that $\operatorname{Lat}N\subseteq\operatorname{Lat}N^*$. By the preceding theorem, this implies $N^*\in W(N)$; equivalently, $\bar z\in P^\infty(\mu)$. Since $P^\infty(\mu)$ is an algebra, every polynomial in $z$ and $\bar z$ belongs to $P^\infty(\mu)$. By taking weak* limits this implies that $P^\infty(\mu)=L^\infty(\mu)$. $\blacksquare$
 
@@ -1346,28 +1334,29 @@ Are there any reductive operators that are not normal? This natural and seemingl
 7. With the notation of Exercise 6, show that if $\mathcal R$ is a reducing subspace for $N_\mu$ and $P^2(\mu)\subseteq\mathcal R$, then $\mathcal R=L^2(\mu)$.
 
 
-
 <a id="pdf-page-308"></a>
+§10. Multiplicity Theory for Normal Operators  293
+
 ## §10. Multiplicity Theory for Normal Operators: A Complete Set of Unitary Invariants
 
 Throughout this section only separable Hilbert spaces are considered.
 
 When are two normal operators unitarily equivalent? The answer to this question must be given in the following way: to each normal operator we must attach a collection of objects such that two normal operators are unitarily equivalent if and only if the two collections are equal (or equivalent). Furthermore, it should be easier to verify that these collections are equivalent than to verify that the normal operators are equivalent. This is contained in the following result due to Hellinger [1907]. Note that it generalizes Theorem 3.6.
 
-**10.1. Theorem.** (a) If $N$ is a normal operator, then there is a sequence (possibly finite) of measures $\{\mu_n\}$ on $\mathbb C$ such that $\mu_{n+1}\ll\mu_n$ for all $n$ and
+**10.1. Theorem.** (a) *If $N$ is a normal operator, then there is a sequence (possibly finite) of measures $\{\mu_n\}$ on $\mathbb C$ such that $\mu_{n+1}\ll\mu_n$ for all $n$ and*
 
 $$
-\tag{10.2}
+\tag*{10.2}
 N\cong N_{\mu_1}\oplus N_{\mu_2}\oplus\cdots.
 $$
 
-(b) If $N$ and $\{\mu_n\}$ are as in (a) and $M\cong N_{\nu_1}\oplus N_{\nu_2}\oplus\cdots$, where $\nu_{n+1}\ll\nu_n$ for all $n$, then $N\cong M$ if and only if $[\mu_n]=[\nu_n]$ for all $n$.
+(b) *If $N$ and $\{\mu_n\}$ are as in (a) and $M\cong N_{\nu_1}\oplus N_{\nu_2}\oplus\cdots$, where $\nu_{n+1}\ll\nu_n$ for all $n$, then $N\cong M$ if and only if $[\mu_n]=[\nu_n]$ for all $n$.*
 
 The proof of this theorem requires several lemmas. Before beginning, we will examine a couple of false starts for a proof. This will cause us to arrive at the correct strategy for a proof and show us the necessity for some of the lemmas.
 
-Let $N=\int z\,dE(z)$. If $e\in\mathcal H$ and $\mathcal H_e=\mathrm{cl}[W^*(N)e]$, then $N|\mathcal H_e$ is a *-cyclic normal operator. An application of Zorn’s Lemma and the separability of $\mathcal H$ produces a maximal sequence $\{e_n\}$ in $\mathcal H$ such that $\mathcal H_{e_n}\perp\mathcal H_{e_m}$. By the maximality of $\{e_n\}$, $\mathcal H=\bigoplus_n\mathcal H_{e_n}$. If $N_n=N|\mathcal H_{e_n}$, $N_n\cong N_{\mu_n}$, where $\mu_n(\Delta)=\|E(\Delta)e_n\|^2$; thus $N\cong\bigoplus_nN_{\mu_n}$. The trouble here is that $\mu_{n+1}$ is not necessarily absolutely continuous with respect to $\mu_n$. Just using Zorn’s Lemma to produce the sequence $\{\mu_n\}$ eliminates any possibility of having $\{\mu_n\}$ canonical and producing the unitary invariant desired for normal operators. Let’s try again.
+Let $N=\int z\,dE(z)$. If $e\in\mathcal H$ and $\mathcal H_e=\operatorname{cl}[W^*(N)e]$, then $N|\mathcal H_e$ is a $*$-cyclic normal operator. An application of Zorn’s Lemma and the separability of $\mathcal H$ produces a maximal sequence $\{e_n\}$ in $\mathcal H$ such that $\mathcal H_{e_n}\perp\mathcal H_{e_m}$. By the maximality of $\{e_n\}$, $\mathcal H=\bigoplus_n\mathcal H_{e_n}$. If $N_n=N|\mathcal H_{e_n}$, $N_n=N_{\mu_n}$, where $\mu_n(\Delta)=\|E(\Delta)e_n\|^2$; thus $N\cong\bigoplus_nN_{\mu_n}$. The trouble here is that $\mu_{n+1}$ is not necessarily absolutely continuous with respect to $\mu_n$. Just using Zorn’s Lemma to produce the sequence $\{\mu_n\}$ eliminates any possibility of having $\{\mu_n\}$ canonical and producing the unitary invariant desired for normal operators. Let’s try again.
 
-Note that if $\mu_{n+1}\ll\mu_n$ for all $n$ in (10.2), then $\mu_n\ll\mu_1$ for all $n$. This in turn implies that $\mu_1$ is a scalar-valued spectral measure for $N$. Using Lemma 8.6 we are thus led to choose $\mu_1$ as follows. Let $e_1$ be a separating vector for $W^*(N)$; this exists by Corollary 7.9 and the separability of $\mathcal H$. Put $\mu_1(\Delta)=\|E(\Delta)e_1\|^2$. If $\mathcal H_1=\mathrm{cl}[W^*(N)e_1]$, then $N|\mathcal H_1\cong N_{\mu_1}$. Let $N_2=N|\mathcal H_1^\perp$; so $N_2$ is normal. A pair of easy exercises shows that the spectral measure $E_2$ for $N_2$ is given by $E_2(\Delta)=E(\Delta)|\mathcal H_1^\perp$ and $W^*(N_2)=W^*(N)|\mathcal H_1^\perp$ $(\equiv\{A\in\mathcal B(\mathcal H_1^\perp):A=T|\mathcal H_1^\perp\text{ for some }T\text{ in }W^*(N)\})$. Let $e_2$ be a separating vector for $W^*(N_2)$ and put $\mu_2(\Delta)=\|E_2(\Delta)e_2\|^2$. By the easy exercises above, $\mu_2(\Delta)=\|E(\Delta)e_2\|^2$, so that $\mu_2\ll\mu_1$, and $\mathcal H_2\equiv\mathrm{cl}[W^*(N)e_2]=\mathrm{cl}[W^*(N_2)e_2]\leqslant\mathcal H_1^\perp$. Also, $N|\mathcal H_2\cong N_{\mu_2}$.
+Note that if $\mu_{n+1}\ll\mu_n$ for all $n$ in (10.2), then $\mu_n\ll\mu_1$ for all $n$. This in turn implies that $\mu_1$ is a scalar-valued spectral measure for $N$. Using Lemma 8.6 we are thus led to choose $\mu_1$ as follows. Let $e_1$ be a separating vector for $W^*(N)$; this exists by Corollary 7.9 and the separability of $\mathcal H$. Put $\mu_1(\Delta)=\|E(\Delta)e_1\|^2$. If $\mathcal H_1=\operatorname{cl}[W^*(N)e_1]$. then $N|\mathcal H_1\cong N_{\mu_1}$. Let $N_2\equiv N|\mathcal H_1^\perp$; so $N_2$ is normal. A pair of easy exercises shows that the spectral measure $E_2$ for $N_2$ is given by $E_2(\Delta)=E(\Delta)|\mathcal H_1^\perp$ and $W^*(N_2)=W^*(N)|\mathcal H_1^\perp$ $(\equiv\{A\in\mathcal B(\mathcal H_1^\perp):A=T|\mathcal H_1^\perp\text{ for some }T\text{ in }W^*(N)\})$. Let $e_2$ be a separating vector for $W^*(N_2)$ and put $\mu_2(\Delta)=\|E_2(\Delta)e_2\|^2$. By the easy exercises above, $\mu_2(\Delta)=\|E(\Delta)e_2\|^2$, so that $\mu_2\ll\mu_1$, and $\mathcal H_2\equiv\operatorname{cl}[W^*(N)e_2]=\operatorname{cl}[W^*(N_2)e_2]\leqslant\mathcal H_1^\perp$. Also, $N|\mathcal H_2\cong N_{\mu_2}$.
 
 
 

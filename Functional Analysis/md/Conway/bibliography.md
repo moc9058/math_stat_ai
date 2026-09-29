@@ -1,7 +1,5 @@
 # Bibliography
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-399"></a>
 # Bibliography

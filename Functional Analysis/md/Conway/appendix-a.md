@@ -1,7 +1,5 @@
 # Appendix A. Preliminaries
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-384"></a>
 # APPENDIX A

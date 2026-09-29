@@ -1,7 +1,5 @@
 # II. Operators on Hilbert Space
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-41"></a>
 # CHAPTER II
@@ -159,8 +157,6 @@ Another example of an operator was defined in Example 1.5.3. The nonsurjective i
 
 
 <a id="pdf-page-45"></a>
-30　　　　　　　　　　　　　　　　　II. Operators on Hilbert Space
-
 3. Suppose $\{e_1,e_2,\ldots\}$ is an orthonormal basis for $\mathcal H$ and for each $n$ there is a vector $Ae_n$ in $\mathcal H$ such that $\sum\|Ae_n\|<\infty$. Show that $A$ has an unique extension to a bounded operator on $\mathcal H$.
 
 4. Proposition 1.2 says that $d(A,B)=\|A-B\|$ is a metric on $\mathcal B(\mathcal H,\mathcal K)$. Show that $\mathcal B(\mathcal H,\mathcal K)$ is complete relative to this metric.
@@ -190,7 +186,6 @@ Another example of an operator was defined in Example 1.5.3. The nonsurjective i
 11. If $A=\begin{bmatrix}a&b\\c&d\end{bmatrix}$, put $\alpha=[|a|^2+|b|^2+|c|^2+|d|^2]^{1/2}$ and show that $\|A\|=\frac12(\alpha^2+\sqrt{\alpha^4-4\delta^2})$, where $\delta^2=\det A^*A$.
 
 12. (Direct sum of operators) Let $\{\mathcal H_i\}$ be a collection of Hilbert spaces and let $\mathcal H=\bigoplus_i\mathcal H_i$. Suppose $A_i\in\mathcal B(\mathcal H_i)$ for all $i$. Show that there is a bounded operator $A$ on $\mathcal H$ such that $A|_{\mathcal H_i}=A_i$ for all $i$ if and only if $\sup_i\|A_i\|<\infty$. In this case, $\|A\|=\sup_i\|A_i\|$. The operator $A$ is called the *direct sum* of the operators $\{A_i\}$ and is denoted by $A=\bigoplus_i A_i$.
-
 
 
 <a id="pdf-page-46"></a>
@@ -516,8 +511,6 @@ That is, $(\ker E)^\perp\subseteq\ker(I-E)=\operatorname{ran}E$. On the other ha
 
 
 <a id="pdf-page-53"></a>
-38  II. Operators on Hilbert Space
-
 $(b)\Rightarrow(f)$: If $h\in\mathcal H$, write $h=h_1+h_2$, $h_1\in\operatorname{ran}E$, $h_2\in\ker E=(\operatorname{ran}E)^\perp$. Hence $\langle Eh,h\rangle=\langle E(h_1+h_2),h_1+h_2\rangle=\langle Eh_1,h_1\rangle=\langle h_1,h_1\rangle=\|h_1\|^2\geq 0$.
 
 $(f)\Rightarrow(a)$: Let $h_1\in\operatorname{ran}E$ and $h_2\in\ker E$. Then by (f), $0\leq\langle E(h_1+h_2),h_1+h_2\rangle=\langle h_1,h_1\rangle+\langle h_1,h_2\rangle$. Hence $-\|h_1\|^2\leq\langle h_1,h_2\rangle$ for all $h_1$ in $\operatorname{ran}E$ and $h_2$ in $\ker E$. If there are such $h_1$ and $h_2$ with $\langle h_1,h_2\rangle=\bar\alpha\neq 0$, then substituting $k_2=-2\alpha^{-1}\|h_1\|^2h_2$ for $h_2$ in this inequality, we obtain $-\|h_1\|^2\leq-2\|h_1\|^2$, a contradiction. Hence $\langle h_1,h_2\rangle=0$ whenever $h_1\in\operatorname{ran}E$ and $h_2\in\ker E$. That is, $E$ is a projection.
@@ -555,7 +548,6 @@ $$
 A=\begin{bmatrix}W&X\\Y&Z\end{bmatrix},\tag{3.6}
 $$
 where $W\in\mathcal B(\mathcal M)$, $X\in\mathcal B(\mathcal M^\perp,\mathcal M)$, $Y\in\mathcal B(\mathcal M,\mathcal M^\perp)$, and $Z\in\mathcal B(\mathcal M^\perp)$.
-
 
 
 <a id="pdf-page-54"></a>
@@ -696,8 +688,6 @@ It is easy to see that $\mathcal B_{00}(\mathcal H,\mathcal K)$ is a linear spac
 
 
 <a id="pdf-page-57"></a>
-42  II. Operators on Hilbert Space
-
 **Proof.** (c) $\Rightarrow$ (a): This is immediate from (4.2b) and the fact that $\mathcal B_{00}(\mathcal H,\mathcal K)\subseteq\mathcal B_0(\mathcal H,\mathcal K)$.
 
 (a) $\Rightarrow$ (c): Since $\operatorname{cl}[T(\operatorname{ball}\mathcal H)]$ is compact, it is separable. Therefore $\operatorname{cl}(\operatorname{ran}T)=\mathcal L$ is a separable subspace of $\mathcal K$. Let $\{e_1,e_2,\ldots\}$ be a basis for $\mathcal L$ and let $P_n$ be the orthogonal projection of $\mathcal K$ onto $\bigvee\{e_j:1\leq j\leq n\}$. Put $T_n=P_nT$; note that each $T_n$ has finite rank. It will be shown that $\|T_n-T\|\to0$, but first we prove the following:
@@ -730,7 +720,6 @@ A fact emerged in the proof that (a) implies (c) in the preceding theorem that i
 **4.6. Proposition.** *Let $\mathcal H$ be a separable Hilbert space with basis $\{e_n\}$; let $\{\alpha_n\}\subseteq\mathbb F$ with $M=\sup\{|\alpha_n|:n\geq1\}<\infty$. If $Ae_n=\alpha_ne_n$ for all $n$, then $A$ extends by linearity to a bounded operator on $\mathcal H$ with $\|A\|=M$. The operator $A$ is compact if and only if $\alpha_n\to0$ as $n\to\infty$.*
 
 **Proof.** The fact that $A$ is bounded and $\|A\|=M$ is an exercise; such an operator is said to be diagonalizable (see Exercise 1.8). Let $P_n$ be the projection of $\mathcal H$ onto $\bigvee\{e_1,\ldots,e_n\}$. Then $A_n=A-AP_n$ is seen to be diagonalizable with $A_ne_j=\alpha_je_j$ if $j>n$ and $A_ne_j=0$ if $j\leq n$. So $AP_n\in\mathcal B_{00}(\mathcal H)$ and $\|A_n\|=\sup\{|\alpha_j|:j>n\}$. If $\alpha_n\to0$, then $\|A_n\|\to0$ and so $A$ is compact since
-
 
 
 <a id="pdf-page-58"></a>
@@ -851,8 +840,6 @@ It will be proved in a later chapter that if $\lambda\notin\sigma_p(T)$ and $\la
 
 
 <a id="pdf-page-61"></a>
-46  II. Operators on Hilbert Space
-
 5. Show that no nonzero multiplication operator on $L^2(0,1)$ is compact.
 
 6. Show that if $T:\mathcal H\to\mathcal H$ is a compact operator and $\{e_n\}$ is any orthonormal sequence in $\mathcal H$, then $\|Te_n\|\to 0$. Is the converse true?
@@ -886,7 +873,6 @@ T=\sum_{n=1}^{\infty}\lambda_nP_n, \tag*{5.2}
 $$
 
 *where the series converges to $T$ in the metric defined by the norm of $\mathcal B(\mathcal H)$. [Of course, (5.2) may be only a finite sum.]*
-
 
 
 <a id="pdf-page-62"></a>

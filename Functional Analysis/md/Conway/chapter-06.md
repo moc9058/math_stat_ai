@@ -1,7 +1,5 @@
 # VI. Linear Operators on a Banach Space
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-181"></a>
 # CHAPTER VI
@@ -78,7 +76,7 @@ Hence $\|A^*y^*\|\leq\|A\|$ if $y^*\in\operatorname{ball}\mathcal Y^*$, so that 
 
 
 <a id="pdf-page-183"></a>
-$(A^*)^*=A^{**}$ can be defined,
+$(A^*)^*\equiv A^{**}$ can be defined,
 
 $$
 A^{**}:\mathcal X^{**}\to\mathcal Y^{**},
@@ -109,9 +107,9 @@ That is, $A^{**}|_{\mathcal X}=A$. This is the first part of the next propositio
 
 (b) $\|A^*\|=\|A\|$;
 
-(c) if $A$ is invertible, then $A^*$ is invertible and $(A^*)^{-1}=(A^{-1})^*$;
+(c) *if $A$ is invertible, then $A^*$ is invertible and $(A^*)^{-1}=(A^{-1})^*$;*
 
-(d) if $\mathcal Z$ is a Banach space and $B\in\mathcal B(\mathcal Y,\mathcal Z)$, then $(BA)^*=A^*B^*$.
+(d) *if $\mathcal Z$ is a Banach space and $B\in\mathcal B(\mathcal Y,\mathcal Z)$, then $(BA)^*=A^*B^*$.*
 
 **Proof.** Part (a) was proved above. It was shown that $\|A^*\|\leqslant\|A\|$. Thus $\|A^{**}\|\leqslant\|A^*\|$. So if $x\in\operatorname{ball}\mathcal X$, then (a) implies that $\|Ax\|=\|A^{**}x\|\leqslant\|A^{**}\|\leqslant\|A^*\|$. Hence $\|A\|\leqslant\|A^*\|$.
 
@@ -134,7 +132,6 @@ Compare (1.5) and (1.6) with (II.2.8) and (II.2.9) to see the contrast between t
 **1.8. Proposition.** *If $A\in\mathcal B(\mathcal X,\mathcal Y)$, then $\ker A^*=(\operatorname{ran}A)^\perp$ and $\ker A={}^{\perp}(\operatorname{ran}A^*)$.*
 
 The proof of this useful result is similar to that of Proposition II.2.19 and is left to the reader.
-
 
 
 <a id="pdf-page-184"></a>
@@ -160,15 +157,21 @@ This section concludes with the following useful result that seems to be somewha
 
 **1.10. Theorem.** *If $\mathcal{X}$ and $\mathcal{Y}$ are Banach spaces and $A\in\mathcal{B}(\mathcal{X},\mathcal{Y})$, then the following statements are equivalent.*
 
-(a) $\operatorname{ran}A$ is closed.  
-(b) $\operatorname{ran}A^*$ is weak* closed.  
-(c) $\operatorname{ran}A^*$ is norm closed.
+(a) $\operatorname{ran}A$ *is closed.*  
+(b) $\operatorname{ran}A^*$ *is weak$^*$ closed.*  
+(c) $\operatorname{ran}A^*$ *is norm closed.*
 
 **Proof.** It is clear that (b) implies (c), so it will be shown that (a) implies (b) and (c) implies (a). Before this is done, it will be shown that it suffices to prove the theorem under the additional hypothesis that $A$ is injective and has dense range.
 
 Let $\mathcal{L}=\operatorname{cl}(\operatorname{ran}A)$. Thus $A:\mathcal{X}\to\mathcal{L}$ induces a bounded linear map $B:\mathcal{X}/\ker A\to\mathcal{L}$ defined by $B(x+\ker A)=Ax$. If $Q:\mathcal{X}\to\mathcal{X}/\ker A$ is the natural map, the diagram
 
-![](assets/p0184-page_183_image_14.jpg)
+$$
+\begin{array}{ccccc}
+\mathcal{X}&\xrightarrow{\ A\ }&\mathcal{L}&\hookrightarrow&\mathcal{Y}\\
+{\scriptstyle Q}\searrow&&\nearrow{\scriptstyle B}&&\\
+&\mathcal{X}/\ker A&&&
+\end{array}
+$$
 
 commutes. (Why is $B$ bounded?) It is easy to see that $B$ is injective and that $B$ has dense range. In fact, $\operatorname{ran}B=\operatorname{ran}A$, so $\operatorname{ran}A$ is closed if and only if $\operatorname{ran}B$ is closed. Let’s examine $B^*:\mathcal{L}^*\to(\mathcal{X}/\ker A)^*$. By (V.2.2), $(\mathcal{X}/\ker A)^*=(\ker A)^\perp=\operatorname{wk}^*\operatorname{cl}(\operatorname{ran}A^*)\subseteq\mathcal{X}^*$ by (1.8). Also by (V.2.3), since $\mathcal{L}\leq\mathcal{Y}$, $\mathcal{L}^*=\mathcal{Y}^*/\mathcal{L}^\perp=\mathcal{Y}^*/(\operatorname{ran}A)^\perp=\mathcal{Y}^*/\ker A^*$ by (1.8). Thus,
 
@@ -176,9 +179,12 @@ $$
 B^*:\mathcal{Y}^*/\ker A^*\to(\ker A)^\perp.
 $$
 
+![](assets/p0184-page_183_image_14.jpg)
 
 
 <a id="pdf-page-185"></a>
+170 $\qquad$ VI. Linear Operators on a Banach Space
+
 **1.11. Claim.** $B^*(y^*+\ker A^*)=A^*y^*$ for all $y^*$ in $\mathcal Y^*$.
 
 To see this, let $x\in\mathcal X$ and $y^*\in\mathcal Y^*$. Making the appropriate identifications as in (V.2.2) and (V.2.3) gives
@@ -193,7 +199,7 @@ $$
 &=\langle x+\ker A,A^*y^*\rangle.
 \end{aligned}
 $$
-Since $x$ was arbitrary, (1.11) is established.
+Since $x$ was arbitrary. (1.11) is established.
 
 Note that Claim 1.11 implies that $\operatorname{ran}B^*=\operatorname{ran}A^*$. Hence $\operatorname{ran}A^*$ is weak* (resp., norm) closed if and only if $\operatorname{ran}B^*$ is weak* (resp., norm) closed.
 
@@ -203,7 +209,7 @@ This discussion shows that the theorem is equivalent to the analogous theorem in
 
 (c)$\Rightarrow$(b): Since $\operatorname{ran}A$ is dense in $\mathcal Y$, $\ker A^*=(\operatorname{ran}A)^\perp$ (1.8) $=(0)$. Thus $A^*:\mathcal Y^*\to\operatorname{ran}A^*$ is a bijection. Since $\operatorname{ran}A^*$ is norm closed, it is a Banach space. By the Inverse Mapping Theorem, there is a constant $c>0$ such that $\|A^*y^*\|\geqslant c\|y^*\|$ for all $y^*$ in $\mathcal Y^*$.
 
-To show that $\operatorname{ran}A^*$ is weak* closed, the Krein–Smulian Theorem (V.12.6) will be used. Thus suppose $\{A^*y_i^*\}$ is a net in $\operatorname{ran}A^*$ with $\|A^*y_i^*\|\leqslant1$ such that $A^*y_i^*\to x^*$ $\sigma(\mathcal X^*,\mathcal X)$ for some $x^*$ in $\mathcal X^*$. Thus $\|y_i^*\|\leqslant c^{-1}$ for all $y_i^*$. By Alaoglu’s Theorem there is a $y^*$ in $\mathcal Y^*$ such that $y_i^*\xrightarrow{\mathrm{cl}}y^*$ $\sigma(\mathcal Y^*,\mathcal Y)$. Thus (1.3), $A^*y_i^*\xrightarrow{\mathrm{cl}}A^*y^*$ $\sigma(\mathcal X^*,\mathcal X)$, and so $x^*=A^*y^*\in\operatorname{ran}A^*$. By (V.12.6), $\operatorname{ran}A^*$ is weak* closed.
+To show that $\operatorname{ran}A^*$ is weak* closed, the Krein–Smulian Theorem (V.12.6) will be used. Thus suppose $\{A^*y_i^*\}$ is a net in $\operatorname{ran}A^*$ with $\|A^*y_i^*\|\leqslant1$ such that $A^*y_i^*\to x^*$ $\sigma(\mathcal X^*,\mathcal X)$ for some $x^*$ in $\mathcal X^*$. Thus $\|y_i^*\|\leqslant c^{-1}$ for all $y_i^*$. By Alaoglu’s Theorem there is a $y^*$ in $\mathcal Y^*$ such that $y_i^*\xrightarrow[\mathrm{cl}]{}y^*$ $\sigma(\mathcal Y^*,\mathcal Y)$. Thus (1.3), $A^*y_i^*\xrightarrow[\mathrm{cl}]{}A^*y^*$ $\sigma(\mathcal X^*,\mathcal X)$, and so $x^*=A^*y^*\in\operatorname{ran}A^*$. By (V.12.6), $\operatorname{ran}A^*$ is weak* closed.
 
 (b)$\Rightarrow$(a): Since $\operatorname{ran}A^*$ is weak* closed, $\operatorname{ran}A^*=(\ker A)^\perp=\mathcal X^*$. Also $\ker A^*=(\operatorname{ran}A)^\perp=(0)$ since $A$ has dense range. Thus $A^*$ is a bijection and is thus invertible. By Proposition 1.9, $A$ is invertible and thus has closed range. $\blacksquare$
 
@@ -212,11 +218,17 @@ A proof that condition (c) in the preceding theorem implies (a) which avoids the
 ## EXERCISES
 
 1. Prove Proposition 1.3.
+
 2. Complete the proof of Proposition 1.4.
+
 3. Verify the statement made in (1.5).
+
 4. Verify the statement made in (1.6).
+
 5. Verify the statement made in (1.7).
+
 6. Let $1\leqslant p<\infty$ and define $S:l^p\to l^p$ by $S(\alpha_1,\alpha_2,\ldots)=(0,\alpha_1,\alpha_2,\ldots)$. Compute $S^*$.
+
 7. Let $A\in\mathcal B(c_0)$ and for $n\geqslant1$, define $e_n$ in $c_0$ by $e_n(n)=1$ and $e_n(m)=0$ for $m\neq n$. Put $\alpha_{mn}=(Ae_n)(m)$ for $m,n\geqslant1$. Prove: (a) $M\equiv\sup_m\sum_{n=1}^{\infty}|\alpha_{mn}|<\infty$; (b) for every
 
 
@@ -238,18 +250,17 @@ $$
 
 defines a bounded operator $A$ on $l^1$ and $\|A\|=M$. Find $A^*$.
 
-9. (Bonsall [1986]) Let $\mathcal X$ be a Banach space, $Z$ a nonempty set, and $u:Z\to\mathcal X$. If there are positive constants $M_1$ and $M_2$ such that (i) $\|u(z)\|\leqslant M_1$ for all $z$ in $Z$ and (ii) for every $x^*$ in $\mathcal X^*$, $\sup\{|\langle u(z),x^*\rangle|:z\in Z\}\geqslant M_2\|x^*\|$; then for every $x$ in $\mathcal X$ there is an $f$ in $l^1(Z)$ such that $(*)\ x=\sum\{f(z)u(z):z\in Z\}$ and $M_2\inf\|f\|_1\leqslant\|x\|\leqslant M_1\inf\|f\|_1$, where the infimum is taken over all $f$ in $l^1(Z)$ such that $(*)$ holds. (Hint: define $T:l^1(Z)\to\mathcal X$ by $Tf=\sum\{f(z)u(z):z\in Z\}$.)
+9. (Bonsall [1986]) Let $\mathcal X$ be a Banach space, $Z$ a nonempty set, and $u:Z\to\mathcal X$. If there are positive constants $M_1$ and $M_2$ such that (i) $\|u(z)\|\leqslant M_1$ for all $z$ in $Z$ and (ii) for every $x^*$ in $\mathcal X$, $\sup\{|\langle u(z),x^*\rangle|:z\in Z\}\geqslant M_2\|x^*\|$; then for every $x$ in $\mathcal X$ there is an $f$ in $l^1(Z)$ such that $(*)x=\sum\{f(z)u(z):z\in Z\}$ and $M_2\inf\|f\|_1\leqslant\|x\|\leqslant M_1\inf\|f\|_1$, where the infimum is taken over all $f$ in $l^1(Z)$ such that $(*)$ holds. (Hint: define $T:l^1(Z)\to\mathcal X$ by $Tf=\sum\{f(z)u(z):z\in Z\}$.)
 
-10. (Bonsall [1986]) Let $m$ be normalized Lebesgue measure on $\partial\mathbf D$ and for $|z|<1$ and $|w|=1$ let $p_z(w)=(1-|z|^2)/|1-\bar zw|^2$. So $p_z$ is the Poisson kernel. Show that if $f\in L^1(m)$, then there is a sequence $\{z_n\}\subseteq\mathbf D$ and a sequence $\{\lambda_n\}$ in $l^1$ such that $(*)\ f=\sum_{n=1}^{\infty}\lambda_np_{z_n}$. Moreover, $\|f\|_1=\inf\sum_{n=1}^{\infty}|\lambda_n|$, where the infimum is taken over all $\{\lambda_n\}$ in $l^1$ such that $(*)$ holds. (Hint: use Exercise 9.)
+10. (Bonsall [1986]) Let $m$ be normalized Lebesgue measure on $\partial\mathbb D$ and for $|z|<1$ and $|w|=1$ let $p_z(w)=(1-|z|^2)/|1-\bar zw|^2$. So $p_z$ is the Poisson kernel. Show that if $f\in L^1(m)$, then there is a sequence $\{z_n\}\subseteq\mathbb D$ and a sequence $\{\lambda_n\}$ in $l^1$ such that $(*)f=\sum_{n=1}^{\infty}\lambda_np_{z_n}$. Moreover, $\|f\|_1=\inf\sum_{n=1}^{\infty}|\lambda_n|$, where the infimum is taken over all $\{\lambda_n\}$ in $l^1$ such that $(*)$ holds. (Hint: use Exercise 9.)
 
 11. If $\mathcal X$ and $\mathcal Y$ are Banach spaces and $B\in\mathcal B(\mathcal Y^*,\mathcal X^*)$, then there is an operator $A$ in $\mathcal B(\mathcal X,\mathcal Y)$ such that $B=A^*$ if and only if $B$ is wk*-continuous.
 
-12. If $\mathcal X$ is a Banach space and $\mathcal M$ and $\mathcal N$ are closed subspaces, show that the following statements are equivalent. (a) $\mathcal M+\mathcal N$ is closed. (b) the range of the linear transformation $x\to(x+\mathcal M)\oplus(x+\mathcal N)$ from $\mathcal X$ into $\mathcal X/\mathcal M\oplus\mathcal X/\mathcal N$ is closed. (c) $\mathcal M^\perp+\mathcal N^\perp$ is norm closed in $\mathcal X^*$; (d) $\mathcal M^\perp+\mathcal N^\perp$ is weak* closed in $\mathcal X^*$.
+12. If $\mathcal X$ is a Banach space and $\mathcal M$ and $\mathcal N$ are closed subspaces, show that the following statements are equivalent. (a) $\mathcal M+\mathcal N$ is closed. (b) the range of the linear transformation $x\to(x+\mathcal M)\oplus(x+\mathcal N)$ from $\mathcal X$ into $\mathcal X/\mathcal M\oplus\mathcal X/\mathcal N$ is closed. (c) $\mathcal M^\perp+\mathcal N^\perp$ is norm closed in $\mathcal X^*$. (d) $\mathcal M^\perp+\mathcal N^\perp$ is weak* closed in $\mathcal X^*$.
 
 ## §2*. The Banach–Stone Theorem
 
 As an application of the adjoint of a linear map, the isometries between spaces of the form $C(X)$ and $C(Y)$ will be characterized. Note that if $X$ and $Y$ are compact spaces, $\tau:Y\to X$ is continuous map, and $Af=f\circ\tau$ for $f$ in $C(X)$, then (III.2.4) $A$ is a bounded linear map and $\|A\|=1$. Moreover, $A$ is an isometry if and only if $\tau$ is surjective. If $A$ is a surjective isometry, then $\tau$ must be a homeomorphism. Indeed, suppose $A$ is a surjective isometry; it must be shown that $\tau$ is injective. If $y_0,y_1\in Y$ and $y_0\neq y_1$, then there is a $g$
-
 
 
 <a id="pdf-page-187"></a>
@@ -268,8 +279,7 @@ $$
 **Proof.** Consider $T^*:M(Y)\to M(X)$. Because $T$ is a surjective isometry, $T^*$ is also. (Verify.) Thus $T^*$ is a weak* homeomorphism of ball $M(Y)$ onto ball $M(X)$ that distributes over convex combinations. Hence (Why?)
 
 $$
-T^*(\operatorname{ext}[\operatorname{ball}M(Y)])
-=\operatorname{ext}[\operatorname{ball}M(X)].
+T^*(\operatorname{ext}[\operatorname{ball}M(Y)])=\operatorname{ext}[\operatorname{ball}M(X)].
 $$
 
 By Theorem V.8.4 this implies that for every $y$ in $Y$ there is a unique $\tau(y)$ in $X$ and a unique scalar $\alpha(y)$ such that $|\alpha(y)|=1$ and
@@ -282,7 +292,7 @@ By the uniqueness, $\alpha:Y\to\mathbb F$ and $\tau:Y\to X$ are well-defined fun
 
 **2.2. Claim.** $\alpha:Y\to\mathbb F$ is continuous.
 
-If $\{y_i\}$ is a net in $Y$ and $y_i\to y$, then $\delta_{y_i}\to\delta_y$ weak* in $M(Y)$. Hence $\alpha(y_i)\delta_{\tau(y_i)}=T^*(\delta_{y_i})\to T^*(\delta_y)=\alpha(y)\delta_{\tau(y)}$ weak* in $M(X)$. In particular, $\alpha(y_i)=\langle 1,T^*(\delta_{y_i})\rangle\to\langle 1,T^*(\delta_y)\rangle=\alpha(y)$, proving (2.2).
+If $\{y_i\}$ is a net in $Y$ and $y_i\to y$, then $\delta_{y_i}\to\delta_y$ weak* in $M(Y)$. Hence $\alpha(y_i)\delta_{\tau(y_i)}=T^*(\delta_y)\to T^*(\delta_y)=\alpha(y)\delta_{\tau(y)}$ weak* in $M(X)$. In particular, $\alpha(y_i)=\langle 1,T^*(\delta_{y_i})\rangle\to\langle 1,T^*(\delta_y)\rangle=\alpha(y)$, proving (2.2).
 
 **2.3. Claim.** $\tau:Y\to X$ is a homeomorphism.
 
@@ -291,7 +301,6 @@ As in the proof of (2.2), if $y_i\to y$ in $Y$, then $\alpha(y_i)\delta_{\tau(y_
 If $y_1,y_2\in Y$ and $y_1\ne y_2$, then $\overline{\alpha(y_1)}\delta_{y_1}\ne\overline{\alpha(y_2)}\delta_{y_2}$. Since $T^*$ is injective, it is easy to see that $\tau(y_1)\ne\tau(y_2)$ and so $\tau$ is one-to-one. If $x\in X$, then the fact that $T^*$ is surjective implies that there is a $\mu$ in $M(Y)$ such that $T^*\mu=\delta_x$. It must be that $\mu\in\operatorname{ext}[\operatorname{ball}M(Y)]$ (Why?), so that $\mu=\beta\delta_y$ for some $y$ in $Y$ and $\beta$ in $\mathbb F$ with $|\beta|=1$. Thus $\delta_x=T^*(\beta\delta_y)=\beta\alpha(y)\delta_{\tau(y)}$. Hence $\beta=\overline{\alpha(y)}$ and $\tau(y)=x$. Therefore $\tau:Y\to X$ is a continuous bijection and hence must be a homeomorphism (A.2.8). This establishes (2.3).
 
 If $f\in C(X)$ and $y\in Y$, then $T(f)(y)=\langle Tf,\delta_y\rangle=\langle f,T^*\delta_y\rangle=\langle f,\alpha(y)\delta_{\tau(y)}\rangle=\alpha(y)f(\tau(y))$. $\blacksquare$
-
 
 
 <a id="pdf-page-188"></a>
@@ -373,7 +382,7 @@ Let $\mathcal{B}_{00}(\mathcal{X},\mathcal{Y})=$ the bounded operators $T:\mathc
 
 
 <a id="pdf-page-190"></a>
-It was shown in (II.4.4) that if $\mathcal H$ is a Hilbert space, then $\mathcal B_0(\mathcal H)$ is indeed the closure of $\mathcal B_{00}(\mathcal H)$. Note that the availability of an orthonormal basis in a Hilbert space played a significant role in the proof of this theorem. There is a concept of a basis for a Banach space called a Schauder basis. Any Banach space $\mathcal X$ with a Schauder basis has the property that $\mathcal B_{00}(\mathcal X)$ is dense in $\mathcal B_0(\mathcal X)$. Enflo [1973] gave an example of a separable reflexive Banach space $\mathcal X$ for which $\mathcal B_{00}(\mathcal X)$ is not dense in $\mathcal B_0(\mathcal X)$, and, hence, $\mathcal X$ has no Schauder basis. Davie [1973] and [1975] have simplifications of Enflo’s proof. For the classical Banach spaces, however, every compact operator is the limit of a sequence of finite-rank operators.
+It was shown in (II.4.4) that if $\mathcal H$ is a Hilbert space, then $\mathcal B_0(\mathcal H)$ is indeed the closure of $\mathcal B_{00}(\mathcal H)$. Note that the availability of an orthonormal basis in a Hilbert space played a significant role in the proof of this theorem. There is a concept of a basis for a Banach space called a Schauder basis. Any Banach space $\mathcal X$ with a Schauder basis has the property that $\mathcal B_{00}(\mathcal X)$ is dense in $\mathcal B_0(\mathcal X)$. Enflo [1973] gave an example of a separable reflexive Banach space $\mathcal X$ for which $\mathcal B_{00}(\mathcal X)$ is not dense in $\mathcal B_0(\mathcal X)$, and, hence, $\mathcal H$ has no Schauder basis. Davie [1973] and [1975] have simplifications of Enflo’s proof. For the classical Banach spaces, however, every compact operator is the limit of a sequence of finite-rank operators.
 
 The remainder of this section is devoted to proving that for $X$ compact, $\mathcal B_{00}(C(X))$ is dense in $\mathcal B_0(C(X))$. This begins with material that may be familiar to many readers but will be presented for those who are unacquainted with it.
 
@@ -383,7 +392,7 @@ Note that for a single function $f$ in $C(X)$, $\mathcal F=\{f\}$ is equicontinu
 
 **3.8. The Arzela–Ascoli Theorem.** *If $X$ is compact and $\mathcal F\subseteq C(X)$, then $\mathcal F$ is totally bounded if and only if $\mathcal F$ is bounded and equicontinuous.*
 
-**Proof.** Suppose $\mathcal F$ is totally bounded. It is easy to see that $\mathcal F$ is bounded. If $\varepsilon>0$, then there are $f_1,\ldots,f_n$ in $\mathcal F$ such that $\mathcal F\subseteq\bigcup_{k=1}^{n}\{f\in C(X):\|f-f_k\|<\varepsilon/3\}$. If $x_0\in X$, let $U$ be an open neighborhood of $x_0$ such that for $1\leq k\leq n$ and $x$ in $U$, $|f_k(x)-f_k(x_0)|<\varepsilon/3$. If $f\in\mathcal F$, let $f_k$ be such that $\|f-f_k\|<\varepsilon/3$. Then for $x$ in $U$,
+PROOF. Suppose $\mathcal F$ is totally bounded. It is easy to see that $\mathcal F$ is bounded. If $\varepsilon>0$, then there are $f_1,\ldots,f_n$ in $\mathcal F$ such that $\mathcal F\subseteq\bigcup_{k=1}^{n}\{f\in C(X):\|f-f_k\|<\varepsilon/3\}$. If $x_0\in X$, let $U$ be an open neighborhood of $x_0$ such that for $1\leq k\leq n$ and $x$ in $U$, $|f_k(x)-f_k(x_0)|<\varepsilon/3$. If $f\in\mathcal F$, let $f_k$ be such that $\|f-f_k\|<\varepsilon/3$. Then for $x$ in $U$,
 
 $$
 \begin{aligned}
@@ -399,7 +408,6 @@ Hence $\mathcal F$ is equicontinuous.
 Now assume that $\mathcal F$ is equicontinuous and $\mathcal F\subseteq\operatorname{ball}C(X)$. Let $\varepsilon>0$. For each $x$ in $X$, let $U_x$ be an open neighborhood of $x$ such that $|f(x)-f(y)|<\varepsilon/3$ for $f$ in $\mathcal F$ and $y$ in $U_x$. Now $\{U_x:x\in X\}$ is an open covering of $X$. Since $X$ is compact, there are points $x_1,\ldots,x_n$ in $X$ such that $X=\bigcup_{j=1}^{n}U_{x_j}$.
 
 Let $\{\alpha_1,\ldots,\alpha_m\}\subseteq\mathbb D$ such that $\operatorname{cl}\mathbb D\subseteq\bigcup_{k=1}^{m}\{\alpha:|\alpha-\alpha_k|<\varepsilon/6\}$. Consider the collection $B$ of those ordered $n$-tuples $b=(\beta_1,\ldots,\beta_n)$ for which there is a function $f_b$ in $\mathcal F$ such that $|f_b(x_j)-\beta_j|<\varepsilon/6$ for $1\leq j\leq n$. Note that $B$ is
-
 
 
 <a id="pdf-page-191"></a>
@@ -538,7 +546,7 @@ It is necessary at this point to return to the geometry of Banach spaces to prov
 
 **4.8. Mazur’s Theorem.** *If $\mathcal{X}$ is a Banach space and $K$ is a compact subset of $\mathcal{X}$, then $\overline{\operatorname{co}}(K)$ is compact.*
 
-**Proof.** It suffices to show that $\overline{\operatorname{co}}(K)$ is totally bounded. Let $\varepsilon>0$ and choose $x_1,\ldots,x_n$ in $K$ such that $K\subseteq\bigcup_{j=1}^{n}B(x_j;\varepsilon/4)$. Put $C=\operatorname{co}\{x_1,\ldots,x_n\}$. It is easy to see that $C$ is compact (Exercise V.7.8). Hence there are vectors $y_1,\ldots,y_m$ in $C$ such that $C\subseteq\bigcup_{i=1}^{m}B(y_i;\varepsilon/4)$. If $w\in\overline{\operatorname{co}}(K)$, there is a $z$ in $\operatorname{co}(K)$ with $\|w-z\|<\varepsilon/4$. Thus $z=\sum_{p=1}^{l}\alpha_p k_p$, where $k_p\in K$, $\alpha_p\geq 0$, and $\sum\alpha_p=1$. Now for each $k_p$ there is an $x_{j(p)}$ with $\|k_p-x_{j(p)}\|<\varepsilon/4$. Therefore
+**PROOF.** It suffices to show that $\overline{\operatorname{co}}(K)$ is totally bounded. Let $\varepsilon>0$ and choose $x_1,\ldots,x_n$ in $K$ such that $K\subseteq\bigcup_{j=1}^{n}B(x_j;\varepsilon/4)$. Put $C=\operatorname{co}\{x_1,\ldots,x_n\}$. It is easy to see that $C$ is compact (Exercise V.7.8). Hence there are vectors $y_1,\ldots,y_m$ in $C$ such that $C\subseteq\bigcup_{i=1}^{m}B(y_i;\varepsilon/4)$. If $w\in\overline{\operatorname{co}}(K)$, there is a $z$ in $\operatorname{co}(K)$ with $\|w-z\|<\varepsilon/4$. Thus $z=\sum_{p=1}^{l}\alpha_p k_p$, where $k_p\in K$, $\alpha_p\geq 0$, and $\sum\alpha_p=1$. Now for each $k_p$ there is an $x_{j(p)}$ with $\|k_p-x_{j(p)}\|<\varepsilon/4$. Therefore
 
 $$
 \begin{aligned}
@@ -555,15 +563,14 @@ The next result is from Lomonosov [1973]. When it appeared it caused great excit
 
 **4.9. Lomonosov’s Lemma.** *If $\mathcal{A}$ is a subalgebra of $\mathcal{B}(\mathcal{X})$ such that $1\in\mathcal{A}$ and $\operatorname{Lat}\mathcal{A}=\{(0),\mathcal{X}\}$ and if $K$ is a nonzero compact operator on $\mathcal{X}$, then there is an $A$ in $\mathcal{A}$ such that $\ker(AK-1)\ne(0)$.*
 
-**Proof.** It may be assumed that $\|K\|=1$. Fix $x_0$ in $\mathcal{X}$ such that $\|Kx_0\|>1$ and put $S=\{x\in\mathcal{X}:\|x-x_0\|\leq 1\}$. It is easy to check that
+**PROOF.** It may be assumed that $\|K\|=1$. Fix $x_0$ in $\mathcal{X}$ such that $\|Kx_0\|>1$ and put $S=\{x\in\mathcal{X}:\|x-x_0\|\leq 1\}$. It is easy to check that
 
 $$
-\tag{4.10}
-0\notin S\quad\text{and}\quad 0\notin\operatorname{cl}K(S).
+\tag*{4.10}
+0\notin S\ \text{and}\ 0\notin\operatorname{cl}K(S).
 $$
 
 Now if $x\in\mathcal{X}$ and $x\ne 0$, $\operatorname{cl}\{Tx:T\in\mathcal{A}\}$ is an invariant subspace for $\mathcal{A}$ (because $\mathcal{A}$ is an algebra) that contains the nonzero vector $x$ (because $1\in\mathcal{A}$). By hypothesis, $\operatorname{cl}\{Tx:T\in\mathcal{A}\}=\mathcal{X}$. By (4.10) this says that for every $y$ in $\operatorname{cl}K(S)$ there is a $T$ in $\mathcal{A}$ with $\|Ty-x_0\|<1$. Equivalently,
-
 
 
 <a id="pdf-page-196"></a>
@@ -661,16 +668,15 @@ Recall that in a reflexive Banach space the weak closure of any bounded set is w
 
 (a) *If either $\mathcal X$ or $\mathcal Y$ is reflexive, then every operator in $\mathcal B(\mathcal X,\mathcal Y)$ is weakly compact.*
 
-(b) *If $T:\mathcal X\to\mathcal Y$ is weakly compact and $A\in\mathcal B(\mathcal Y,\mathcal X)$, then $AT$ is weakly compact.*
+(b) *If $T:\mathcal X\to\mathcal Y$ is weakly compact and $A\in\mathcal B(\mathcal Y,\mathcal Z)$, then $AT$ is weakly compact.*
 
-(c) *If $T:\mathcal X\to\mathcal Y$ is weakly compact and $B\in\mathcal B(\mathcal X,\mathcal X)$, then $TB$ is weakly compact.*
+(c) *If $T:\mathcal X\to\mathcal Y$ is weakly compact and $B\in\mathcal B(\mathcal Z,\mathcal X)$, then $TB$ is weakly compact.*
 
 This proposition shows that assuming that an operator is weakly compact is not that strong an assumption. For example, if $\mathcal X$ is reflexive, every operator in $\mathcal B(\mathcal X)$ is weakly compact. In particular, every operator on a Hilbert space is weakly compact. So any theorem about weakly compact operators is a theorem about all operators on a reflexive space.
 
 In fact, there is a degree of validity for the converse of this statement. In a certain sense, theorems about operators on reflexive spaces are also theorems about weakly compact operators. The precise meaning of this statement is the content of Theorem 5.4 below. But before we begin to prove this, a lemma is needed.
 
 Let $\mathcal Y$ be a Banach space and let $W$ be a bounded convex balanced subset of $\mathcal Y$. For $n>1$ put $U_n=2^nW+2^{-n}\operatorname{int}[\operatorname{ball}\mathcal Y]$. Let $p_n=$ the gauge of $U_n$ (IV.1.14). Because $U_n\supseteq 2^{-n}\operatorname{int}[\operatorname{ball}\mathcal Y]$, it is easy to check that $p_n$ is a norm on $\mathcal Y$. In fact, $p_n$ and $\|\cdot\|$ are equivalent norms. To see this note that if $\|y\|<1$, then $2^{-n}y\in U_n$ so that $p_n(y)<2^n$. Hence $p_n(y)\leqslant 2^n\|y\|$. Also, because $W$ is bounded, $U_n$ must be bounded; let $M>\sup\{\|y\|:y\in U_n\}$. So if $p_n(y)<1$, $\|y\|<M$. Thus $\|y\|\leqslant Mp_n(y)$, and $\|\cdot\|$ and $p_n$ are equivalent norms.
-
 
 
 <a id="pdf-page-199"></a>

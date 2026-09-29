@@ -1,7 +1,5 @@
 # Appendix C. The Dual of C0(X)
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-393"></a>
 APPENDIX C

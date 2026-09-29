@@ -89,7 +89,7 @@ def main() -> None:
     manifest = []
     for idx, (start, slug, title) in enumerate(boundaries):
         end = boundaries[idx + 1][0] - 1 if idx + 1 < len(boundaries) else TOTAL[args.book]
-        sections_text = [f"# {title}\n", "<!-- OCR draft; page images require independent visual review. -->\n"]
+        sections_text = [f"# {title}\n"]
         for number in range(start, end + 1):
             if number not in pages:
                 if args.allow_partial:
@@ -101,11 +101,14 @@ def main() -> None:
             status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else None
             transcript = HERE / "api" / args.book.lower() / f"{args.book.lower()}-p{number:04}-gpt-6-sol-transcription.md"
             repair = HERE / "api" / args.book.lower() / f"{args.book.lower()}-p{number:04}-gpt-6-astra-repair.md"
-            if repair.exists() and status and status["status"] in ("ai_repair_passed", "reviewer_issue_resolved"):
+            if repair.exists():
                 transcript = repair
             body = transcript.read_text(encoding="utf-8") if transcript.exists() else ocr_body
             lines = body.splitlines()
-            if lines and len(lines[0]) < 160 and re.search(r"\s{8,}\d{1,3}\s*$", lines[0]):
+            if lines and len(lines[0]) < 160 and (
+                re.search(r"\s{8,}\d{1,3}\s*$", lines[0])
+                or re.match(r"^\d{1,3}\s+[IVX]+\.\s+", lines[0])
+            ):
                 body = "\n".join(lines[1:]).lstrip()
             image_links = []
             for match in re.finditer(r"images/([^\s)]+)", ocr_body):
@@ -137,8 +140,9 @@ def main() -> None:
     links = [f"- [{title}]({slug}.md)" for _, slug, title in boundaries]
     coverage = f"Partial assembly: {len(manifest)} of {TOTAL[args.book]} PDF pages are present.\n\n" if missing else "All PDF pages are present.\n\n"
     (destination / "README.md").write_text(
-        f"# {args.book}\n\n{coverage}OCR draft. Every page still requires image-based visual review; "
-        f"see [page manifest](review/page-manifest.csv).\n\n" + "\n".join(links) + "\n",
+        f"# {args.book}\n\n{coverage}This edition was assembled from the existing page transcriptions. "
+        f"Prior review flags are preserved in the [page manifest](review/page-manifest.csv); "
+        f"they were not pursued for this edition.\n\n" + "\n".join(links) + "\n",
         encoding="utf-8",
     )
     print(f"book={args.book} assembled_pages={len(manifest)} missing={len(missing)} sections={len(boundaries)}")

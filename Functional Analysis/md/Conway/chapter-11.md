@@ -1,7 +1,5 @@
 # XI. Fredholm Theory
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-362"></a>
 # CHAPTER XI

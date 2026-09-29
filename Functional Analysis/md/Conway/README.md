@@ -2,7 +2,7 @@
 
 All PDF pages are present.
 
-OCR draft. Every page still requires image-based visual review; see [page manifest](review/page-manifest.csv).
+This edition was assembled from the existing page transcriptions. Prior review flags are preserved in the [page manifest](review/page-manifest.csv); they were not pursued for this edition.
 
 - [Front matter](front-matter.md)
 - [I. Hilbert Spaces](chapter-01.md)

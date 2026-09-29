@@ -1,7 +1,5 @@
 # IV. Locally Convex Spaces
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-114"></a>
 # CHAPTER IV
@@ -92,8 +90,6 @@ If $\mathcal{X}$ is a normed space, then $\{x:\|x\|\leq1\}$ and $\{x:\|x\|<1\}$ 
 
 
 <a id="pdf-page-117"></a>
-102  IV. Locally Convex Spaces
-
 all convex. In fact, if $T:\mathscr{X}\to\mathscr{Y}$ is a real linear map and $C$ is a convex subset of $\mathscr{Y}$, then $T^{-1}(C)$ is convex in $\mathscr{X}$.
 
 **1.11. Proposition.** *Let $\mathscr{X}$ be a TVS and let $A$ be a convex subset of $\mathscr{X}$. Then (a) $\operatorname{cl}A$ is convex; (b) if $a\in\operatorname{int}A$ and $b\in\operatorname{cl}A$, then $[a,b)\equiv\{tb+(1-t)a:0\leq t<1\}\subseteq\operatorname{int}A$.*
@@ -132,7 +128,6 @@ p(x)=\inf\{t:t\geq0\text{ and }x\in tV\}.
 $$
 
 Since $V$ is absorbing, $\mathscr{X}=\bigcup_{n=1}^{\infty}nV$, so that the set whose infimum is $p(x)$ is
-
 
 
 <a id="pdf-page-118"></a>
@@ -522,8 +517,6 @@ Also note that this says that the only continuous linear functional on $L^p(0,1)
 
 
 <a id="pdf-page-129"></a>
-114  IV. Locally Convex Spaces
-
 14. Give an example of a TVS $\mathcal X$ that is not locally convex and a subspace $\mathcal Y$ of $\mathcal X$ such that there is a continuous linear functional $f$ on $\mathcal Y$ with no continuous extension to $\mathcal X$.
 
 15. Let $\mathcal X$ be a real LCS and let $A$ and $B$ be disjoint compact convex subsets of $\mathcal X$. Suppose $\mathcal Y$ is a subspace of $\mathcal X$ and $f_0:\mathcal Y\to\mathbb R$ is a continuous linear functional such that $f_0(a)<0$ for $a$ in $A\cap\mathcal Y$ and $f_0(b)>0$ for $b$ in $B\cap\mathcal Y$. Show by an example that it is not always possible to extend $f_0$ to a continuous linear functional on $\mathcal X$ such that $f(a)<0$ or $a$ in $A$ and $f(b)>0$ for $b$ in $B$. (Hint: Let $\mathcal X=\mathbb R^3$ and let $\mathcal Y$ be the plane.)
@@ -543,7 +536,6 @@ Define $F:C(K)\to\mathbb F$ as follows. If $g\in C(K)$, let $\tilde g$ be any co
 If $\gamma:[0,1]\to\mathbb C$ is a rectifiable curve and $f$ is a continuous function defined on the trace of $\gamma$, $\gamma([0,1])$, then $\int_\gamma f$ is the line integral of $f$ over $\gamma$. That is, $\int_\gamma f\equiv\int_0^1 f(\gamma(t))\,d\gamma(t)$. (See Conway [1978].) The next result generalizes to arbitrary regions in the plane, but for simplicity it is stated only for the disk $\mathbb D$. Recall the definition of $H(\mathbb D)$ from Example 1.6.
 
 **4.2. Proposition.** *$L\in H(\mathbb D)^*$ if and only if there is an $r<1$ and a unique function*
-
 
 
 <a id="pdf-page-130"></a>

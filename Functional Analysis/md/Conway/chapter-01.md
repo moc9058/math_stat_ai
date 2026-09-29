@@ -1,7 +1,5 @@
 # I. Hilbert Spaces
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-16"></a>
 CHAPTER I

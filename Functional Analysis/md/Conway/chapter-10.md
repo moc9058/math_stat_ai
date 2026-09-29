@@ -1,7 +1,5 @@
 # X. Unbounded Operators
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-318"></a>
 # CHAPTER X

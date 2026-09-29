@@ -1,7 +1,5 @@
 # Index
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-409"></a>
 # Index

@@ -1,7 +1,5 @@
 # Appendix B. The Dual of l1
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-390"></a>
 # APPENDIX B

@@ -1,7 +1,5 @@
 # III. Banach Spaces
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-78"></a>
 # CHAPTER III
@@ -39,8 +37,6 @@ If $\mathcal{X}$ has a norm, then $d(x,y)=\|x-y\|$ defines a metric on $\mathcal
 
 
 <a id="pdf-page-79"></a>
-64　　　　　　　　　　　　　　　　　III. Banach Spaces
-
 **Proof.** If $x_n\to x$ and $y_n\to y$, then $\|(x_n+y_n)-(x+y)\|=\|(x_n-x)+(y_n-y)\|\leq\|x_n-x\|+\|y_n-y\|\to0$ as $n\to\infty$. This proves (a). The proof of (b) is left to the reader. $\blacksquare$
 
 The next lemma is quite useful.
@@ -90,7 +86,6 @@ $$
 This shows that the two topologies are the same. Now assume that the two norms are equivalent. Hence $\{x:\|x\|_1<1\}$ is an open neighborhood of $0$ in the topology defined by $\|\cdot\|_2$. Therefore there is an $r>0$ such that $\{x:\|x\|_2<r\}\subseteq\{x:\|x\|_1<1\}$. If $q(x)=r^{-1}\|x\|_2$ and $p(x)=\|x\|_1$, the preceding lemma implies $\|x\|_1\leq r^{-1}\|x\|_2$ or $c\|x\|_1\leq\|x\|_2$, where $c=r$. The other inequality is left to the reader. $\blacksquare$
 
 There are two types of properties of a Banach space: those that are topological and those that are metric. The metric properties depend on the
-
 
 
 <a id="pdf-page-80"></a>
@@ -519,8 +514,6 @@ $$
 
 
 <a id="pdf-page-91"></a>
-76  III. Banach Spaces
-
 *Then $F_\mu\in C_0(X)^*$ and the map $\mu\to F_\mu$ is an isometric isomorphism of $M(X)$ onto $C_0(X)^*$.*
 
 There are special cases of these theorems that deserve to be pointed out.
@@ -554,7 +547,6 @@ $$
 **Proof.** It is easy to see that $\Phi_F$ is linear. Also, $|\Phi_F(\mu)|\leq\int|F(\mu)|\,d|\mu|\leq\|F(\mu)\|_\infty\|\mu\|\leq\|F\|\|\mu\|$. Thus $\Phi_F\in M(X)^*$ and $\|\Phi_F\|\leq\|F\|$.
 
 Now fix $\Phi$ in $M(X)^*$. If $\mu\in M(X)$ and $f\in L^1(|\mu|)$, then $\nu=f\mu\in M(X)$. (That is, $\nu(\Delta)=\int_\Delta f\,d\mu$ for every Borel set $\Delta$.) Also $\|\nu\|=\int|f|\,d|\mu|$. In fact, the
-
 
 
 <a id="pdf-page-92"></a>
@@ -668,8 +660,6 @@ This introduces a certain symmetry in the definitions of the norms in $\mathcal 
 
 
 <a id="pdf-page-95"></a>
-80　　　　　　　　　　　　　　　　　III. Banach Spaces
-
 that $|g(x_n+\mathcal M)|\to 1$ and $\|x_n+\mathcal M\|<1$ for all $n$. Let $y_n\in\mathcal M$ such that $\|x_n+y_n\|<1$. Then $|f(x_n+y_n)|=d^{-1}|g(x_n+\mathcal M)|\to d^{-1}$, so $\|f\|=d^{-1}$. ■
 
 To prove the Hahn–Banach Theorem, we first show that we can extend the functional to a space of one dimension more.
@@ -713,7 +703,6 @@ $$
 so (6.12) is satisfied. If $\alpha_0$ is chosen with $\sup\{f(y_2)-q(-x_0+y_2):y_2\in\mathcal M\}\leq\alpha_0\leq\inf\{-f(y_1)+q(x_0+y_1):y_1\in\mathcal M\}$ and $F(tx_0+y)\equiv t\alpha_0+f(y_1)$, $F$ satisfies the conclusion of (6.2). ■
 
 **Proof of the Hahn–Banach Theorem.** Let $\mathcal S$ be the collection of all pairs $(\mathcal M_1,f_1)$, where $\mathcal M_1$ is a linear manifold in $\mathcal X$ such that $\mathcal M_1\supseteq\mathcal M$ and $f_1:\mathcal M_1\to\mathbb R$ is a linear functional with $f_1|_{\mathcal M}=f$ and $f_1\leq q$ on $\mathcal M_1$. If $(\mathcal M_1,f_1)$ and $(\mathcal M_2,f_2)\in\mathcal S$, define $(\mathcal M_1,f_1)\lesssim(\mathcal M_2,f_2)$ to mean that $\mathcal M_1\subseteq\mathcal M_2$ and $f_2|_{\mathcal M_1}=f_1$. So $(\mathcal S,\lesssim)$ is a partially ordered set. Suppose $\mathcal C=\{(\mathcal M_i,f_i):i\in I\}$ is a chain in $\mathcal S$. If $\mathcal N\equiv\bigcup\{\mathcal M_i:i\in I\}$, then the fact that $\mathcal C$ is a chain implies that $\mathcal N$ is a linear manifold. Define $F:\mathcal N\to\mathbb R$ by setting $F(x)=f_i(x)$ if $x\in\mathcal M_i$.
-
 
 
 <a id="pdf-page-96"></a>
@@ -1084,7 +1073,7 @@ A discussion of reflexivity is best pursued after the weak topology is understoo
 
 3. Let $\mathcal{M}\leqslant\mathcal{X}$ and let $\rho_{\mathcal{X}}:\mathcal{X}\to\mathcal{X}^{**}$ and $\rho_{\mathcal{M}}:\mathcal{M}\to\mathcal{M}^{**}$ be the natural maps. If $i:\mathcal{M}\to\mathcal{X}$ is the inclusion map, show that there is an isometry $\phi:\mathcal{M}^{**}\to\mathcal{X}^{**}$ such that the diagram
 
-   [FIGURE: Commutative square with $\mathcal{X}$ at upper left, $\mathcal{X}^{**}$ at upper right, $\mathcal{M}$ at lower left, and $\mathcal{M}^{**}$ at lower right. The horizontal arrows point right and are labeled $\rho_{\mathcal{X}}$ (top) and $\rho_{\mathcal{M}}$ (bottom); the vertical arrows point up and are labeled $i$ (left) and $\phi$ (right).]
+   ![Commutative square for the double dual inclusion](assets/conway-p0105-diagram.png)
 
    commutes. Prove that $\phi(\mathcal{M}^{**})=(\mathcal{M}^{\perp})^{\perp}\equiv\{x^{**}\in\mathcal{X}^{**}:x^{**}(\mathcal{M}^{\perp})=0\}$.
 
@@ -1167,8 +1156,6 @@ Let $\mathscr{X}=$ all functions $f:[0,1]\to\mathbb{F}$ such that the derivative
 
 
 <a id="pdf-page-107"></a>
-92  III. Banach Spaces
-
 $(f_n,f_n')\to(f,g)$ in $\mathscr X\times\mathscr Y$, then $f_n'\to g$ uniformly on $[0,1]$. Hence
 
 $$
@@ -1196,7 +1183,6 @@ PROOF. Exercise 3.
 Note that (12.7) underlines the advantage of the Closed Graph Theorem. To show that $A$ is continuous, it suffices to show that if $x_n\to0$, then $Ax_n\to0$. By (12.7) this is eased by allowing us to assume that $\{Ax_n\}$ is convergent.
 
 It is possible to give a measure-theoretic solution to Exercise 2.3, but here is one using the Closed Graph Theorem. Let $(X,\Omega,\mu)$ be a $\sigma$-finite measure space, $1\leq p\leq\infty$, and $\phi:X\to\mathbb F$ an $\Omega$-measurable function such that $\phi f\in L^p(\mu)$ whenever $f\in L^p(\mu)$. Define $A:L^p(\mu)\to L^p(\mu)$ by $Af=\phi f$. Thus $A$ is linear and well defined. Suppose $f_n\to0$ and $\phi f_n\to g$ in $L^p(\mu)$. If $1\leq p<\infty$, then $f_n\to0$ in measure. By a theorem of Riesz, there is a subsequence $\{f_{n_k}\}$ such that $f_{n_k}(x)\to0$ a.e. $[\mu]$. Hence $\phi(x)f_{n_k}(x)\to0$ a.e. $[\mu]$. This implies $g=0$ and so gra $A$ is closed. If $p=\infty$, then $f_n(x)\to0$ a.e. $[\mu]$ and the same argument implies gra $A$ is closed. By the Closed Graph Theorem, $A$ is bounded. Clearly, it may be assumed that $\|A\|=1$. If $\delta>0$, let $E$ be a measurable subset of
-
 
 
 <a id="pdf-page-108"></a>
@@ -1238,8 +1224,6 @@ If $\mathcal X$ is a Banach space and $\mathcal M\leq\mathcal X$, say that $\mat
 
 
 <a id="pdf-page-109"></a>
-94                                                        III. Banach Spaces
-
 If $\mathcal M$ is a linear manifold in a vector space $\mathcal X$ (a Banach space or not), then a Hamel-basis argument can be fashioned to produce a linear manifold $\mathcal N$ such that $\mathcal M\cap\mathcal N=(0)$ and $\mathcal M+\mathcal N=\mathcal X$. So the requirement in the definition that $\mathcal M$ and $\mathcal N$ be closed subspaces of the Banach space $\mathcal X$ makes the existence problem more interesting. Also, since we are dealing with the category of Banach spaces, all definitions should involve only objects in that category.
 
 If $\mathcal M$ and $\mathcal N$ are algebraically complemented closed subspaces of a normed space $\mathcal X$, then $A:\mathcal M\oplus_1\mathcal N\to\mathcal X$ defined by $A(m\oplus n)=m+n$ is a linear bijection. Also, $\|A(m\oplus n)\|=\|m+n\|\leqslant\|m\|+\|n\|=\|m\oplus n\|$. Hence $A$ is bounded. Say that $\mathcal M$ and $\mathcal N$ are *topologically complemented* if $A$ is a homeomorphism; equivalently, if $\lvert\!\lVert m+n\rVert\!\rvert=\|m\|+\|n\|$ is an equivalent norm. If $\mathcal X$ is a Banach space, then the Inverse Mapping Theorem implies $A$ is a homeomorphism. This proves the following.
@@ -1257,7 +1241,6 @@ A result due to R.S. Phillips [1940] is that $c_0$ is not complemented in $l^\in
 Lindenstrauss [1967] showed that if $\mathcal M$ is an infinite dimensional subspace of $l^\infty$ that is complemented in $l^\infty$, then $\mathcal M$ is isomorphic to $l^\infty$. This same result holds if $l^\infty$ is replaced by $l^p$, $1\leqslant p<\infty$, $c$, or $c_0$.
 
 Does there exist a Banach space $\mathcal X$ such that every closed subspace of $\mathcal X$ is complemented? Of course, if $\mathcal X$ is a Hilbert space, then this is true. But are there any Banach spaces that have this property and are not Hilbert spaces? Lindenstrauss and Tzafriri [1971] proved that if $\mathcal X$ is a Banach space and every subspace of $\mathcal X$ is complemented, then $\mathcal X$ is isomorphic to a Hilbert space.
-
 
 
 <a id="pdf-page-110"></a>

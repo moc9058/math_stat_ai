@@ -1,7 +1,5 @@
 # VII. Banach Algebras and Spectral Theory for Operators on a Banach Space
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-202"></a>
 CHAPTER VII
@@ -234,11 +232,11 @@ Two facts surfaced in the preceding proofs that are worth recording for the futu
 
 **2.3. Corollary.** *Let $\mathcal A$ be a Banach algebra with identity.*
 
-(a) If $\|a-1\|<1$, then $a^{-1}=\sum_{k=0}^{\infty}(1-a)^k$.
+(a) *If $\|a-1\|<1$, then $a^{-1}=\sum_{k=0}^{\infty}(1-a)^k$.*
 
-(b) If $b_0a_0=1$ and $\|a-a_0\|<\|b_0\|^{-1}$, then $a$ is left invertible.
+(b) *If $b_0a_0=1$ and $\|a-a_0\|<\|b_0\|^{-1}$, then $a$ is left invertible.*
 
-A maximal ideal is a proper ideal that is contained in no larger proper ideal.
+A *maximal ideal* is a proper ideal that is contained in no larger proper ideal.
 
 **2.4. Corollary.** *If $\mathcal A$ is a Banach algebra with identity, then*
 
@@ -246,7 +244,7 @@ A maximal ideal is a proper ideal that is contained in no larger proper ideal.
 
 (b) *a maximal left, right, or bilateral ideal is closed.*
 
-**Proof.** (a) Let $\mathcal M$ be a proper left ideal and let $G_l$ be the set of left-invertible elements in $\mathcal A$. It follows that $\mathcal M\cap G_l=\varnothing$. (See the introduction to this section.) Thus $\mathcal M\subseteq\mathcal A\setminus G_l$. By the preceding theorem, $\mathcal A\setminus G_l$ is closed. Hence $\operatorname{cl}\mathcal M\subseteq\mathcal A\setminus G_l$; and thus $\operatorname{cl}\mathcal M\ne\mathcal A$. It is easy to check that $\operatorname{cl}\mathcal M$ is an ideal. The proof of the remainder of (a) is similar.
+**Proof.** (a) Let $\mathcal M$ be a proper left ideal and let $G_l$ be the set of left-invertible elements in $\mathcal A$. It follows that $\mathcal M\cap G_l=\square$. (See the introduction to this section.) Thus $\mathcal M\subseteq\mathcal A\setminus G_l$. By the preceding theorem, $\mathcal A\setminus G_l$ is closed. Hence $\operatorname{cl}\mathcal M\subseteq\mathcal A\setminus G_l$; and thus $\operatorname{cl}\mathcal M\ne\mathcal A$. It is easy to check that $\operatorname{cl}\mathcal M$ is an ideal. The proof of the remainder of (a) is similar.
 
 (b) If $\mathcal M$ is a maximal left ideal, $\operatorname{cl}\mathcal M$ is a proper left ideal by (a). Hence $\mathcal M=\operatorname{cl}\mathcal M$ by maximality. ■
 
@@ -259,7 +257,6 @@ The proof of the preceding proposition is an exercise in the application of Zorn
 Let $\mathcal A$ be a Banach algebra and let $\mathcal M$ be a proper closed ideal. Note that $\mathcal A/\mathcal M$ becomes an algebra. Indeed, $(x+\mathcal M)(y+\mathcal M)=xy+\mathcal M$ is a well-defined multiplication on $\mathcal A/\mathcal M$. (Why?)
 
 **2.6. Theorem.** *If $\mathcal A$ is a Banach algebra and $\mathcal M$ is a proper closed ideal in $\mathcal A$, then $\mathcal A/\mathcal M$ is a Banach algebra. If $\mathcal A$ has an identity, so does $\mathcal A/\mathcal M$.*
-
 
 
 <a id="pdf-page-209"></a>
@@ -478,21 +475,21 @@ by the scalar-valued version of Cauchy’s Theorem. Hence $\sum_{j=1}^m\int_{\ga
 
 
 <a id="pdf-page-215"></a>
-**4.2. Cauchy’s Integral Formula.** If $\mathcal{X}$ is a Banach space, $G$ is an open subset of $\mathbb{C}$, $f:G\to\mathcal{X}$ is analytic, $\gamma$ is a closed rectifiable curve in $G$ such that $n(\gamma;a)=0$ for every $a$ in $\mathbb{C}\setminus G$, and $\lambda\in G\setminus\{\gamma\}$, then for every integer $k\geq 0$,
+**4.2. Cauchy’s Integral Formula.** *If $\mathcal{X}$ is a Banach space, $G$ is an open subset of $\mathbb{C}$, $f:G\to\mathcal{X}$ is analytic, $\gamma$ is a closed rectifiable curve in $G$ such that $n(\gamma;a)=0$ for every $a$ in $\mathbb{C}\setminus G$, and $\lambda\in G\setminus\{\gamma\}$, then for every integer $k\geq 0$,*
 
 $$
 n(\gamma;\lambda)f^{(k)}(\lambda)
 =\frac{k!}{2\pi i}\int_\gamma (z-\lambda)^{-(k+1)}f(z)\,dz.
 $$
 
-**4.3. Definition.** A closed rectifiable curve $\gamma$ is *positively oriented* if for every $a$ in $G\setminus\{\gamma\}$, $n(\gamma;a)$ is either 0 or 1. In this case the *inside* of $\gamma$, denoted by ins $\gamma$, is defined by
+**4.3. Definition.** A closed rectifiable curve $\gamma$ is *positively oriented* if for every $a$ in $G\setminus\{\gamma\}$, $n(\gamma;a)$ is either 0 or 1. In this case the *inside* of $\gamma$, denoted by $\operatorname{ins}\gamma$, is defined by
 
 $$
 \operatorname{ins}\gamma\equiv
 \{a\in\mathbb{C}\setminus\{\gamma\}:n(\gamma;a)=1\}.
 $$
 
-The *outside* of $\gamma$, denoted by out $\gamma$, is defined by
+The *outside* of $\gamma$, denoted by $\operatorname{out}\gamma$, is defined by
 
 $$
 \operatorname{out}\gamma\equiv
@@ -503,13 +500,13 @@ Thus $\mathbb{C}=\{\gamma\}\cup\operatorname{ins}\gamma\cup\operatorname{out}\ga
 
 A curve $\gamma:[0,1]\to\mathbb{C}$ is *simple* if $\gamma(s)=\gamma(t)$ implies that either $s=t$ or $s=0$ and $t=1$. The Jordan Curve Theorem says that if $\gamma$ is a simple closed rectifiable curve, then $\mathbb{C}\setminus\{\gamma\}$ has two components and $\{\gamma\}$ is the boundary of each. Hence $n(\gamma;a)$ takes on only two values and one of these must be 0; the other must be $\pm1$.
 
-If $\Gamma=\{\gamma_1,\ldots,\gamma_m\}$ is a collection of closed rectifiable curves, then $\Gamma$ is *positively oriented* if: (a) $\{\gamma_i\}\cap\{\gamma_j\}=\square$ for $i\ne j$; (b) for $a$ in $\mathbb{C}\setminus\bigcup_{j=1}^{m}\{\gamma_j\}$, $n(\Gamma;a)\equiv\sum_{j=1}^{m}n(\gamma_j;a)$ is either 0 or 1; (c) each $\gamma_j$ is a simple curve. The *inside* of $\Gamma$, ins $\Gamma$, is defined by
+If $\Gamma=\{\gamma_1,\ldots,\gamma_m\}$ is a collection of closed rectifiable curves, then $\Gamma$ is *positively oriented* if: (a) $\{\gamma_i\}\cap\{\gamma_j\}=\square$ for $i\ne j$; (b) for $a$ in $\mathbb{C}\setminus\bigcup_{j=1}^{m}\{\gamma_j\}$, $n(\Gamma;a)\equiv\sum_{j=1}^{m}n(\gamma_j;a)$ is either 0 or 1; (c) each $\gamma_j$ is a simple curve. The *inside* of $\Gamma$, $\operatorname{ins}\Gamma$, is defined by
 
 $$
 \operatorname{ins}\Gamma\equiv\{a:n(\Gamma;a)=1\}.
 $$
 
-The *outside* of $\Gamma$, out $\Gamma$, is defined by
+The *outside* of $\Gamma$, $\operatorname{out}\Gamma$, is defined by
 
 $$
 \operatorname{out}\Gamma\equiv\{a:n(\Gamma;a)=0\}.
@@ -517,7 +514,7 @@ $$
 
 Let $\{\Gamma\}\equiv\bigcup\{\gamma_j:1\leq j\leq m\}$.
 
-**4.4. Proposition.** If $G$ is an open subset of $\mathbb{C}$ and $K$ is a compact subset of $G$, then there is a positively oriented system of curves $\Gamma=\{\gamma_1,\ldots,\gamma_m\}$ in $G\setminus K$ such that $K\subseteq\operatorname{ins}\Gamma$ and $\mathbb{C}\setminus G\subseteq\operatorname{out}\Gamma$. The curves $\gamma_1,\ldots,\gamma_m$ can be found such that they are infinitely differentiable.
+**4.4. Proposition.** *If $G$ is an open subset of $\mathbb{C}$ and $K$ is a compact subset of $G$, then there is a positively oriented system of curves $\Gamma=\{\gamma_1,\ldots,\gamma_m\}$ in $G\setminus K$ such that $K\subseteq\operatorname{ins}\Gamma$ and $\mathbb{C}\setminus G\subseteq\operatorname{out}\Gamma$. The curves $\gamma_1,\ldots,\gamma_m$ can be found such that they are infinitely differentiable.*
 
 The proof of this proposition can be found on p. 195 of Conway [1978], though some details are missing.
 
@@ -530,7 +527,6 @@ $$
 whenever $f$ is continuous in a neighborhood of $\{\Gamma\}$.
 
 Let $\mathcal{A}$ be a Banach algebra with identity and let $a\in\mathcal{A}$. One of the principal
-
 
 
 <a id="pdf-page-216"></a>
@@ -704,12 +700,11 @@ This section closes with an application of the functional calculus that is typic
 
 (c) *$\sigma(a_1)=F_1\cup\{0\}$, $\sigma(a_2)=F_2\cup\{0\}$.*
 
-**Proof.** Let $G_1,G_2$ be disjoint open subsets of $\mathbb C$ such that $F_j\subseteq G_j$, $j=1,2$. Let $\Gamma$ be a positively oriented system of closed curves in $G_1$ such that $F_1\subseteq\operatorname{ins}\Gamma$, $F_2\subseteq\operatorname{out}\Gamma$. If $f=$ the characteristic function of $G_1$, $f\in\operatorname{Hol}(a)$; let $e=f(a)$. Since $f^2=f$, $e^2=e$. Part (a) follows from (4.9).
+**Proof.** Let $G_1,G_2$ be disjoint open subsets of $\mathbb C$ such that $F_j\subset G_j$, $j=1,2$. Let $\Gamma$ be a positively oriented system of closed curves in $G_1$ such that $F_1\subseteq\operatorname{ins}\Gamma$, $F_2\subseteq\operatorname{out}\Gamma$. If $f=$ the characteristic function of $G_1$, $f\in\operatorname{Hol}(a)$; let $e=f(a)$. Since $f^2=f$, $e^2=e$. Part (a) follows from (4.9).
 
 Note that $e(1-e)=0=(1-e)e$. Hence (b) is immediate. Let $f_1(z)=zf(z)$, $f_2(z)=z(1-f(z))$. It follows from (4.7a) that $a_j=f_j(a)$, $j=1,2$. Hence the Spectral Mapping Theorem implies that $\sigma(a_j)=f_j(\sigma(a))=F_j\cup\{0\}$. The proof that $e$ is neither 0 nor 1 is left to the reader. $\blacksquare$
 
 Part (c) of the preceding proposition has the somewhat unattractive conclusion that $\sigma(a_1)=F_1\cup\{0\}$. It would be much neater if the conclusion were that $\sigma(a_1)=F_1$. This is, in a sense, the case. Since $a_1(1-e)=0$ and
-
 
 
 <a id="pdf-page-220"></a>
@@ -754,8 +749,7 @@ Now $z\in\mathcal B$ and so it has a spectrum as an element of this algebra; den
 
 **5.1. Example.** If $\mathcal B=$ the closure in $C(\partial\mathbb D)$ of the polynomials in $z$, then $\sigma_{\mathcal B}(z)=\operatorname{cl}\mathbb D$.
 
-To see this first note that $\|z\|=1$, so that $\sigma_{\mathcal B}(z)\subseteq\operatorname{cl}\mathbb D$ by Theorem 3.6. If $|\lambda|\leqslant1$ and $\lambda\notin\sigma_{\mathcal B}(z)$, there is an $f$ in $\mathcal B$ such that $(z-\lambda)f=1$. Note that this implies that $|\lambda|<1$. Because $f\in\mathcal B$, there is a sequence of polynomials $\{p_n\}$ such that $p_n\to f$ uniformly on $\partial\mathbb D$. Thus for every $\varepsilon>0$ there is an $N$ such that for $m,n\geqslant N$,
-$\varepsilon>\|p_n-p_m\|_{\partial\mathbb D}\equiv\sup\{|p_n(z)-p_n(z)|:z\in\partial\mathbb D\}$. By the Maximum Principle, $\varepsilon>\|p_n-p_m\|_{\operatorname{cl}\mathbb D}$ for $m,n\geqslant N$. Thus $g(z)=\lim p_n(z)$ is analytic on $\mathbb D$ and continuous on $\operatorname{cl}\mathbb D$; also, $g|_{\partial\mathbb D}=f$. By the same argument, since $p_n(z)(z-\lambda)\to1$ uniformly on $\partial\mathbb D$, $p_n(z)(z-\lambda)\to1$ uniformly on $\mathbb D$. Thus $g(z)(z-\lambda)=1$ on $\mathbb D$. But $1=g(\lambda)(\lambda-\lambda)=0$, a contradiction. Thus, $\operatorname{cl}\mathbb D\subseteq\sigma_{\mathcal B}(z)$.
+To see this first note that $\|z\|=1$, so that $\sigma_{\mathcal B}(z)\subseteq\operatorname{cl}\mathbb D$ by Theorem 3.6. If $|\lambda|\leqslant1$ and $\lambda\notin\sigma_{\mathcal B}(z)$, there is an $f$ in $\mathcal B$ such that $(z-\lambda)f=1$. Note that this implies that $|\lambda|<1$. Because $f\in\mathcal B$, there is a sequence of polynomials $\{p_n\}$ such that $p_n\to f$ uniformly on $\partial\mathbb D$. Thus for every $\varepsilon>0$ there is an $N$ such that for $m,n\geqslant N$, $\varepsilon>\|p_n-p_m\|_{\partial\mathbb D}\equiv\sup\{|p_n(z)-p_n(z)|:z\in\partial\mathbb D\}$. By the Maximum Principle, $\varepsilon>\|p_n-p_m\|_{\operatorname{cl}\mathbb D}$ for $m,n\geqslant N$. Thus $g(z)=\lim p_n(z)$ is analytic on $\mathbb D$ and continuous on $\operatorname{cl}\mathbb D$; also, $g|_{\partial\mathbb D}=f$. By the same argument, since $p_n(z)(z-\lambda)\to1$ uniformly on $\partial\mathbb D$, $p_n(z)(z-\lambda)\to1$ uniformly on $\mathbb D$. Thus $g(z)(z-\lambda)=1$ on $\mathbb D$. But $1=g(\lambda)(\lambda-\lambda)=0$, a contradiction. Thus, $\operatorname{cl}\mathbb D\subseteq\sigma_{\mathcal B}(z)$.
 
 Thus the spectrum not only depends on the element of the algebra, but also on the algebra. Precisely how this dependence occurs is given below, but it can be said that the example above is typical, both in its statement and its proof, of the general situation. To phrase these results it is necessary to introduce the polynomially convex hull of a compact subset of $\mathbb C$.
 
@@ -765,20 +759,19 @@ $$
 \|f\|_A\equiv\sup\{|f(z)|:z\in A\}.
 $$
 
-If $K$ is a compact subset of $\mathbb C$, define the *polynomially convex hull* of $K$ to be the set $\widehat K$ given by
+If $K$ is a compact subset of $\mathbb C$, define the *polynomially convex hull* of $K$ to be the set $K^\wedge$ given by
 
 $$
-\widehat K\equiv\{z\in\mathbb C:|p(z)|\leqslant\|p\|_K\text{ for every polynomial }p\}.
+K^\wedge\equiv\{z\in\mathbb C:|p(z)|\leqslant\|p\|_K\text{ for every polynomial }p\}.
 $$
 
-The set $K$ is *polynomially convex* if $K=\widehat K$.
+The set $K$ is *polynomially convex* if $K=K^\wedge$.
 
 Note that the polynomially convex hull of $\partial\mathbb D$ is $\operatorname{cl}\mathbb D$. This is, again, quite typical. If $K$ is any compact set, then $\mathbb C\setminus K$ has a countable number of components, only one of which is unbounded. The bounded components are sometimes called the *holes* of $K$; a few pictures should convince the reader of the appropriateness of this terminology.
 
-**5.3. Proposition.** *If $K$ is a compact subset of $\mathbb C$, then $\mathbb C\setminus\widehat K$ is the unbounded component of $\mathbb C\setminus K$. Hence $K$ is polynomially convex if and only if $\mathbb C\setminus K$ is connected.*
+**5.3. Proposition.** *If $K$ is a compact subset of $\mathbb C$, then $\mathbb C\setminus K^\wedge$ is the unbounded component of $\mathbb C\setminus K$. Hence $K$ is polynomially convex if and only if $\mathbb C\setminus K$ is connected.*
 
-**Proof.** Let $U_0,U_1,\ldots$ be the components of $\mathbb C\setminus K$, where $U_0$ is unbounded. Put $L=\mathbb C\setminus U_0$; hence $L=K\cup\bigcup_{n=1}^{\infty}U_n$. Clearly $K\subseteq\widehat K$. If $n\geqslant1$, then $U_n$ is a bounded open set and a topological argument implies $\partial U_n\subseteq K$. By the Maximum Principle $U_n\subseteq\widehat K$. Thus, $L\subseteq\widehat K$.
-
+**Proof.** Let $U_0,U_1,\ldots$ be the components of $\mathbb C\setminus K$, where $U_0$ is unbounded. Put $L=\mathbb C\setminus U_0$; hence $L=K\cup\bigcup_{n=1}^{\infty}U_n$. Clearly $K\subseteq K^\wedge$. If $n\geqslant1$, then $U_n$ is a bounded open set and a topological argument implies $\partial U_n\subset K$. By the Maximum Principle $U_n\subseteq K^\wedge$. Thus, $L\subseteq K^\wedge$.
 
 
 <a id="pdf-page-222"></a>
@@ -825,12 +818,9 @@ This is a contradiction. ■
 <a id="pdf-page-223"></a>
 3. Let $\mathcal A,\mathcal B$ be as in Theorem 5.4. If $a\in\mathcal B$ and $\sigma_{\mathcal A}(a)\subseteq\mathbb R$, show that $\sigma_{\mathcal B}(a)=\sigma_{\mathcal A}(a)$.
 
-4. Let $\mathcal A$ be a Banach algebra with identity and let $a\in\mathcal A$. If $G_1,G_2,\ldots$ are the holes of $\sigma_{\mathcal A}(a)$ and $1\leq n_1\leq n_2,\ldots$, show that there is a subalgebra $\mathcal B$ of $\mathcal A$ such that $a\in\mathcal B$ and
-   $$
-   \sigma_{\mathcal B}(a)=\sigma_{\mathcal A}(a)\cup\bigcup_{k=1}^{\infty}G_{n_k}.
-   $$
+4. Let $\mathcal A$ be a Banach algebra with identity and let $a\in\mathcal A$. If $G_1,G_2,\ldots$ are the holes of $\sigma_{\mathcal A}(a)$ and $1\leq n_1\leq n_2,\ldots$, show that there is a subalgebra $\mathcal B$ of $\mathcal A$ such that $a\in\mathcal B$ and $\sigma_{\mathcal B}(a)=\sigma_{\mathcal A}(a)\cup\bigcup_{k=1}^{\infty}G_{n_k}$.
 
-5. If $\mathcal A,\mathcal B$, and $a$ are as in Theorem 5.4, $\mathcal A$ is not abelian, and $\mathcal B$ is a maximal abelian subalgebra of $\mathcal A$, show that $\sigma_{\mathcal B}(a)=\sigma_{\mathcal A}(a)$.
+5. If $\mathcal A,\mathcal B$, and $a$ are as in Theorem 5.4, $\mathcal A$ is not abelian, and $\mathcal B$ is a maximal abelian subalgebra of $\mathcal A$, show that $\sigma_{\mathcal A}(a)=\sigma_{\mathcal B}(a)$.
 
 6. If $K$ is a nonempty compact subset of $\mathbb C$ that is polynomially convex, show that the components of $\operatorname{int}K$ are simply connected.
 
@@ -871,8 +861,7 @@ Note that $\sigma_p(A)\subseteq\sigma_{ap}(A)$.
 
 (a) $\lambda\notin\sigma_{ap}(A)$.
 
-(b) $\ker(A-\lambda)=(0)$ and $\operatorname{ran}(A-\lambda)$ is closed.
-
+(b) $\ker(A-\lambda)=(0)$ *and* $\operatorname{ran}(A-\lambda)$ *is closed*.
 
 
 <a id="pdf-page-224"></a>
@@ -888,34 +877,19 @@ Note that $\sigma_p(A)\subseteq\sigma_{ap}(A)$.
 
 It may be that $\sigma_p(A)$ is empty, but it will be shown that $\sigma_{ap}(A)$ is never empty. The first statement follows from the next result (or from other examples that have been presented); the second statement will be proved later.
 
-**6.5. Proposition.** *If $1\leq p\leq\infty$, define $S:l^p\to l^p$ by $S(x_1,x_2,\ldots)=(0,x_1,x_2,\ldots)$. Then $\sigma(S)=\operatorname{cl}\mathbb D$, $\sigma_p(S)=\varnothing$, and $\sigma_{ap}(S)=\partial\mathbb D$. Moreover, for $|\lambda|<1$, $\operatorname{ran}(S-\lambda)$ is closed and $\dim[l^p/\operatorname{ran}(S-\lambda)]=1$.*
+**6.5. Proposition.** *If $1\leq p\leq\infty$, define $S:l^p\to l^p$ by $S(x_1,x_2,\ldots)=(0,x_1,x_2,\ldots)$. Then $\sigma(S)=\operatorname{cl}\mathbb D$, $\sigma_p(S)=\square$, and $\sigma_{ap}(S)=\partial\mathbb D$. Moreover, for $|\lambda|<1$, $\operatorname{ran}(S-\lambda)$ is closed and $\dim[l^p/\operatorname{ran}(S-\lambda)]=1$.*
 
 **Proof.** Let $S_p$ be the shift on $l^p$. For $1\leq p\leq\infty$, define $T_p:l^p\to l^p$ by $T_p(x_1,x_2,\ldots)=(x_2,x_3,\ldots)$. It is easy to check that for $1\leq p<\infty$ and $1/p+1/q=1$, $S_p^*=T_q$. Since $\|S_p\|=1$, $\sigma(S_p)\subseteq\operatorname{cl}\mathbb D$.
 
-Suppose $x=(x_1,x_2,\ldots)\in l^p$, $\lambda\neq0$. If $S_px=\lambda x$, $0=\lambda x_1$, $x_1=\lambda x_2,\ldots$. Hence $0=x_1=x_2=\cdots$. Since $S_p$ is an isometry, $\ker S_p=(0)$. Thus $\sigma_p(S_p)=\varnothing$.
+Suppose $x=(x_1,x_2,\ldots)\in l^p$, $\lambda\neq0$. If $S_px=\lambda x$, $0=\lambda x_1$, $x_1=\lambda x_2,\ldots$. Hence $0=x_1=x_2=\cdots$. Since $S_p$ is an isometry, $\ker S_p=(0)$. Thus $\sigma_p(S_p)=\square$.
 
 Let $1\leq p\leq\infty$ and $|\lambda|<1$. Put $x_\lambda=(1,\lambda,\lambda^2,\ldots)$. Then $\|x_\lambda\|_p^p=\sum_{n=0}^{\infty}|\lambda^p|^n<\infty$. Also, $T_px_\lambda=(\lambda,\lambda^2,\ldots)=\lambda x_\lambda$. Hence $\lambda\in\sigma_p(T_p)$ and $x_\lambda\in\ker(T_p-\lambda)$. If $1\leq p<\infty$ and $1/p+1/q=1$, $T_q=S_p^*$; so $\mathbb D\subseteq\sigma(T_q)=\sigma(S_p)$. Also, $S_\infty=T_1^*$, so $\mathbb D\subseteq\sigma(S_\infty)$. Thus for all $p$, $\mathbb D\subseteq\sigma(S_p)\subseteq\operatorname{cl}\mathbb D$. Since $\sigma(S_p)$ is necessarily closed, $\sigma(S_p)=\operatorname{cl}\mathbb D$.
 
-If $|\lambda|\neq1$ and $x\in l^p$,
-$$
-\|(S_p-\lambda)x\|_p=\|S_px-\lambda x\|_p
-\geq\bigl|\|S_px\|_p-|\lambda|\|x\|_p\bigr|
-=\bigl|\|x\|_p-|\lambda|\|x\|_p\bigr|
-=\bigl|1-|\lambda|\bigr|\|x\|_p.
-$$
-By (6.4), $\lambda\notin\sigma_{ap}(S_p)$. Hence $\sigma_{ap}(S)\subseteq\partial\mathbb D$. The fact that $\sigma_{ap}(S_p)=\partial\mathbb D$ follows from the next proposition (6.7).
+If $|\lambda|\neq1$ and $x\in l^p$, $\|(S_p-\lambda)x\|_p=\|S_px-\lambda x\|_p\geq\bigl|\|S_px\|_p-|\lambda|\|x\|_p\bigr|=\bigl|\|x\|_p-|\lambda|\|x\|_p\bigr|=\bigl|1-|\lambda|\bigr|\|x\|_p$. By (6.4), $\lambda\notin\sigma_{ap}(S_p)$. Hence $\sigma_{ap}(S)\subseteq\partial\mathbb D$. The fact that $\sigma_{ap}(S_p)=\partial\mathbb D$ follows from the next proposition (6.7).
 
-Fix $|\lambda|<1$; we will show that $\dim\ker(T_p-\lambda)=1$ for $1\leq p\leq\infty$. Indeed, if $x\in l^p$ and $T_px=\lambda x$, then $(x_2,x_3,\ldots)=(\lambda x_1,\lambda x_2,\ldots)$. So $x_{n+1}=\lambda x_n$ for all $n$. Thus $x_{n+1}=\lambda^n x_1$ for $n\geq1$. That is, if $x_\lambda=(1,\lambda,\lambda^2,\ldots)$, then $x=x_1x_\lambda$. Since it has already been shown that $x_\lambda\in\ker(T_p-\lambda)$, we have that the dimension of this kernel is 1. Therefore, if $1\leq p<\infty$,
-$$
-1=\dim\ker(T_q-\lambda)
-=\dim\ker(S_p^*-\lambda)
-=\dim[\operatorname{ran}(S_p-\lambda)^\perp]\quad(\mathrm{VI}.1.8)
-=\dim[l^p/\operatorname{ran}(S_p-\lambda)]^*\quad(\text{Why?})
-$$
-But this implies that $\dim[l^p/\operatorname{ran}(S_p-\lambda)]=1$, completing the proof for the case where $p$ is finite. The proof for $p=\infty$ is similar and is left to the reader. ■
+Fix $|\lambda|<1$; we will show that $\dim\ker(T_p-\lambda)=1$ for $1\leq p\leq\infty$. Indeed, if $x\in l^p$ and $T_px=\lambda x$, then $(x_2,x_3,\ldots)=(\lambda x_1,\lambda x_2,\ldots)$. So $x_{n+1}=\lambda x_n$ for all $n$. Thus $x_{n+1}=\lambda^n x_1$ for $n\geq1$. That is, if $x_\lambda=(1,\lambda,\lambda^2,\ldots)$, then $x=x_1x_\lambda$. Since it has already been shown that $x_\lambda\in\ker(T_p-\lambda)$, we have that the dimension of this kernel is 1. Therefore, if $1\leq p<\infty$, $1=\dim\ker(T_q-\lambda)=\dim\ker(S_p^*-\lambda)=\dim[\operatorname{ran}(S_p-\lambda)^\perp]$ (VI.1.8) $=\dim[l^p/\operatorname{ran}(S_p-\lambda)]^*$ (Why?). But this implies that $\dim[l^p/\operatorname{ran}(S_p-\lambda)]=1$, completing the proof for the case where $p$ is finite. The proof for $p=\infty$ is similar and is left to the reader. ■
 
 **6.6. Corollary.** *If $1\leq p\leq\infty$ and $T:l^p\to l^p$ is defined by $T(x_1,x_2,\ldots)=(x_2,x_3,\ldots)$,*
-
 
 
 <a id="pdf-page-225"></a>
@@ -923,7 +897,7 @@ But this implies that $\dim[l^p/\operatorname{ran}(S_p-\lambda)]=1$, completing 
 
 The next result shows that if $S$ is as in (6.5), then $\partial\mathbb D\subseteq\sigma_{ap}(S)$.
 
-**6.7. Proposition.** If $A\in\mathcal B(\mathcal X)$, then $\partial\sigma(A)\subseteq\sigma_{ap}(A)$.
+**6.7. Proposition.** *If $A\in\mathcal B(\mathcal X)$, then $\partial\sigma(A)\subseteq\sigma_{ap}(A)$.*
 
 **PROOF.** Let $\lambda\in\partial\sigma(A)$ and let $\{\lambda_n\}\subseteq\mathbb C\setminus\sigma(A)$ such that $\lambda_n\to\lambda$.
 
@@ -948,12 +922,11 @@ $$
 E(\Delta)=E(\Delta;A)=\frac{1}{2\pi i}\int_\Gamma(z-A)^{-1}\,dz, \tag{6.9}
 $$
 
-where $\Gamma$ is a positively oriented Jordan system such that $\Delta\subseteq\operatorname{ins}\Gamma$ and $\sigma(A)\setminus\Delta\subseteq\operatorname{out}\Gamma$, is an idempotent. Moreover, $E(\Delta)B=BE(\Delta)$ whenever $AB=BA$ and if $\mathcal X_\Delta=E(\Delta)\mathcal X$, $\sigma(A|_{\mathcal X_\Delta})=\Delta$. Call $E(\Delta)$ the *Riesz idempotent* corresponding to $\Delta$. If $\Delta$ is a singleton set $\{\lambda\}$, let $E(\lambda)=E(\{\lambda\})$ and $\mathcal X_\lambda=\mathcal X_{\{\lambda\}}$. Note that if $\lambda$ is an isolated point of $\sigma(A)$, then $\{\lambda\}$ is a clopen subset of $\sigma(A)$.
+where $\Gamma$ is a positively oriented Jordan system such that $\Delta\subseteq\operatorname{ins}\Gamma$ and $\sigma(A)\setminus\Delta\subseteq\operatorname{out}\Gamma$, is an idempotent. Moreover, $E(\Delta)B=BE(\Delta)$ whenever $AB=BA$ and if $\mathcal X_\Delta=E(\Delta)\mathcal X$, $\sigma(A|_{\mathcal X_\Delta})=\Delta$. Call $E(\Delta)$ the *Riesz idempotent* corresponding to $\Delta$. If $\Delta=$ a singleton set $\{\lambda\}$, let $E(\lambda)=E(\{\lambda\})$ and $\mathcal X_\lambda=\mathcal X_{\{\lambda\}}$. Note that if $\lambda$ is an isolated point of $\sigma(A)$, then $\{\lambda\}$ is a clopen subset of $\sigma(A)$.
 
 **6.10. Example.** Let $\{\alpha_n\}\in l^\infty$, $1\leq p\leq\infty$, and define $A:l^p\to l^p$ by $(Ax)(n)=\alpha_nx(n)$. Then $\sigma(A)=\operatorname{cl}\{\alpha_n\}$ and $\sigma_p(A)=\{\alpha_n\}$. For each $k$, define $N_k=\{n\in\mathbb N;\ \alpha_n=\alpha_k\}$ and define $P_k:l^p\to l^p$ by $P_kx=\chi_{N_k}x$. If $\alpha_k$ is an isolated point of $\sigma(A)$, then $\{\alpha_k\}$ is a clopen subset of $\sigma(A)$ and $E(\{\alpha_k\};A)=P_k$.
 
 Suppose $A\in\mathcal B(\mathcal X)$ and $\lambda_0$ is an isolated point in $\sigma(A)$. Hence $E(\lambda_0)=E(\lambda_0;A)$ is a well-defined idempotent. Also, $\lambda_0$ is an isolated singularity of the analytic function $z\mapsto(z-A)^{-1}$ on $\mathbb C\setminus\sigma(A)$. Perhaps the nature of this singularity (pole
-
 
 
 <a id="pdf-page-226"></a>
@@ -1161,9 +1134,7 @@ The proof of the next lemma is like that of Corollary II.4.15.
 
 **7.4. Lemma.** *If $\mathcal{M}\leqslant\mathcal{N}$, $\mathcal{M}\ne\mathcal{N}$, and $\varepsilon>0$, then there is a $y$ in $\mathcal{N}$ such that $\|y\|=1$ and $\operatorname{dist}(y,\mathcal{M})\geqslant1-\varepsilon$.*
 
-**Proof.** Let $\delta(y)=\operatorname{dist}(y,\mathcal{M})$ for every $y$ in $\mathcal{N}$. Now if $y_1\in\mathcal{N}\setminus\mathcal{M}$, there is an $x_0$ in $\mathcal{M}$ such that $\delta(y_1)\leqslant\|x_0-y_1\|\leqslant(1+\varepsilon)\delta(y_1)$. Let $y_2=y_1-x_0$. Then
-$$(1+\varepsilon)\delta(y_2)=(1+\varepsilon)\inf\{\|y_2-x\|:x\in\mathcal{M}\}=(1+\varepsilon)\inf\{\|y_1-x_0-x\|:x\in\mathcal{M}\}=(1+\varepsilon)\delta(y_1)$$
-since $x_0\in\mathcal{M}$. Thus $(1+\varepsilon)\delta(y_2)>\|x_0-y_1\|=\|y_2\|$. Let $y=\|y_2\|^{-1}y_2$. So $\|y\|=1$, $y\in\mathcal{N}$, and if $x\in\mathcal{M}$, then
+**Proof.** Let $\delta(y)=\operatorname{dist}(y,\mathcal{M})$ for every $y$ in $\mathcal{N}$. Now if $y_1\in\mathcal{N}\setminus\mathcal{M}$, there is an $x_0$ in $\mathcal{M}$ such that $\delta(y_1)\leqslant\|x_0-y_1\|\leqslant(1+\varepsilon)\delta(y_1)$. Let $y_2=y_1-x_0$. Then $(1+\varepsilon)\delta(y_2)=(1+\varepsilon)\inf\{\|y_2-x\|:x\in\mathcal{M}\}=(1+\varepsilon)\inf\{\|y_1-x_0-x\|:x\in\mathcal{M}\}=(1+\varepsilon)\delta(y_1)$ since $x_0\in\mathcal{M}$. Thus $(1+\varepsilon)\delta(y_2)>\|x_0-y_1\|=\|y_2\|$. Let $y=\|y_2\|^{-1}y_2$. So $\|y\|=1$, $y\in\mathcal{N}$, and if $x\in\mathcal{M}$, then
 $$
 \begin{aligned}
 \|y-x\|&=\bigl\|\|y_2\|^{-1}y_2-x\bigr\|\\
@@ -1178,7 +1149,9 @@ If $\mathcal{M}$ and $\mathcal{N}$ are finite dimensional in the preceding lemma
 **7.5. Lemma.** *If $A\in\mathcal{B}_0(\mathcal{X})$ and $\{\lambda_n\}$ is a sequence of distinct elements in $\sigma_p(A)$, then $\lim\lambda_n=0$.*
 
 **Proof.** For each $n$ let $x_n\in\ker(A-\lambda_n)$ such that $x_n\ne0$. It follows that if $\mathcal{M}_n=\bigvee\{x_1,\ldots,x_n\}$, then $\dim\mathcal{M}_n=n$ (Exercise). Hence $\mathcal{M}_n\leqslant\mathcal{M}_{n+1}$ and $\mathcal{M}_n\ne\mathcal{M}_{n+1}$. By the preceding lemma there is a vector $y_n$ in $\mathcal{M}_n$ such that $\|y_n\|=1$ and $\operatorname{dist}(y_n,\mathcal{M}_{n-1})>\frac12$. Let $y_n=\alpha_1x_1+\cdots+\alpha_nx_n$. Hence
-$$(A-\lambda_n)y_n=\alpha_1(\lambda_1-\lambda_n)x_1+\cdots+\alpha_{n-1}(\lambda_{n-1}-\lambda_n)x_{n-1}\in\mathcal{M}_{n-1}.$$
+$$
+(A-\lambda_n)y_n=\alpha_1(\lambda_1-\lambda_n)x_1+\cdots+\alpha_{n-1}(\lambda_{n-1}-\lambda_n)x_{n-1}\in\mathcal{M}_{n-1}.
+$$
 So if $n>m$,
 $$
 \begin{aligned}
@@ -1196,13 +1169,12 @@ But the bracketed expression belongs to $\mathcal{M}_{n-1}$. Hence $\|A(\lambda_
 In fact, if $\{\lambda_n\}\subseteq\sigma(A)$ and $\lambda_n\to\lambda$, then each $\lambda_n$ belongs to either $\sigma_p(A)$ or $\sigma_p(A^*)$ (7.3). So either there is a subsequence $\{\lambda_{n_k}\}$ that is contained in $\sigma_p(A)$
 
 
-
 <a id="pdf-page-231"></a>
 or there is a subsequence contained in $\sigma_p(A^*)$. If $\{\lambda_{n_k}\}\subseteq\sigma_p(A)$, then Lemma 7.5 implies $\lambda_{n_k}\to 0$, a contradiction. If $\{\lambda_{n_k}\}\subseteq\sigma_p(A^*)$, then the fact that $A^*$ is compact gives the same contradiction. Thus $\lambda$ must be isolated if $\lambda\ne 0$.
 
 **7.7. Claim.** If $\lambda\in\sigma(A)$ and $\lambda\ne 0$, then $\lambda\in\sigma_p(A)$ and $\dim\ker(A-\lambda)<\infty$.
 
-By (7.6), $\lambda$ is an isolated point of $\sigma(A)$ so that $E(\lambda)$ can be defined as in (6.9). Let $\mathcal X_\lambda=E(\lambda)\mathcal X$ and $A_\lambda=A|_{\mathcal X_\lambda}$. By Exercise 4.9 [also see (4.11)], $\sigma(A_\lambda)=\{\lambda\}$. Thus $A_\lambda$ is an invertible compact operator. By Exercise VI.3.5, $\dim\mathcal X_\lambda<\infty$. If $n=\dim\mathcal X_\lambda$, then $A_\lambda-\lambda$ is a nilpotent operator on an $n$-dimensional space. Thus $(A_\lambda-\lambda)^n=0$. Let $v$ be the positive integer such that $(A_\lambda-\lambda)^v=0$ but $(A_\lambda-\lambda)^{v-1}\ne 0$. Let $x\in\mathcal X_\lambda$ such that $0\ne(A_\lambda-\lambda)^{v-1}x=y$; then $(A-\lambda)y=0$. Thus $\lambda\in\sigma_p(A)$.
+By (7.6), $\lambda$ is an isolated point of $\sigma(A)$ so that $E(\lambda)$ can be defined as in (6.9). Let $\mathcal X_\lambda=E(\lambda)\mathcal X$ and $A_\lambda=A|_{\mathcal X_\lambda}$. By Exercise 4.9 [also see (4.11)], $\sigma(A_\lambda)=\{\lambda\}$. Thus $A_\lambda$ is an invertible compact operator. By Exercise VI.3.5, $\dim\mathcal X_\lambda<\infty$. If $n=\dim\mathcal X_\lambda$, then $A_\lambda-\lambda$ is a nilpotent operator on an $n$-dimensional space. Thus $(A_\lambda-\lambda)^n=0$. Let $\nu=$ the positive integer such that $(A_\lambda-\lambda)^\nu=0$ but $(A_\lambda-\lambda)^{\nu-1}\ne 0$. Let $x\in\mathcal X_\lambda$ such that $0\ne(A_\lambda-\lambda)^{\nu-1}x=y$; then $(A-\lambda)y=0$. Thus $\lambda\in\sigma_p(A)$.
 
 Also, $\ker(A-\lambda)\in\operatorname{Lat}A$ and $A|_{\ker(A-\lambda)}$ is compact. But $Ax=\lambda x$ for all $x$ in $\ker(A-\lambda)$, so $\dim\ker(A-\lambda)<\infty$.
 
@@ -1221,8 +1193,9 @@ If $k$ is a Volterra kernel (6.14), then $V_k$ is a compact operator (Exercise V
 Let $V$ be the Volterra operator on $L^p(0,1)$, $1<p<\infty$. If $\lambda_1,\ldots,\lambda_n\in\mathbb C$, let $D:\mathbb C^n\to\mathbb C^n$ be defined by $D(z_1,\ldots,z_n)=(\lambda_1z_1,\ldots,\lambda_nz_n)$. Then $A=V\oplus D$ on $L^p(0,1)\oplus\mathbb C^n$ is compact and $\sigma(A)=\{0,\lambda_1,\ldots,\lambda_n\}$. So the second possibility of (7.1) occurs. If $\{\lambda_n\}\subseteq\mathbb C$ and $\lim\lambda_n=0$, then define $D:\ell^p\to\ell^p$ $(1\le p\le\infty)$ by $(Dx)(n)=\lambda_nx(n)$. If $A=V\oplus D$ on $L^p(0,1)\oplus\ell^p$, $A$ is compact and $\sigma(A)=\{0,\lambda_1,\lambda_2,\ldots\}$ (see Exercise 3).
 
 
-
 <a id="pdf-page-232"></a>
+§7. The Spectral Theory of a Compact Operator  217
+
 The next result has a number of applications in the theory of integral equations.
 
 **7.9. The Fredholm Alternative.** *If $A\in\mathcal{B}_0(\mathcal{X})$, $\lambda\in\mathbb{C}$, and $\lambda\neq 0$, then $\operatorname{ran}(A-\lambda)$ is closed and $\dim\ker(A-\lambda)=\dim\ker(A-\lambda)^*<\infty$.*
@@ -1234,8 +1207,7 @@ Also note that
 $$
 \begin{aligned}
 \mathcal{X}/\operatorname{ran}(A-\lambda)
-&=(\mathcal{X}_\Delta+\mathcal{X}_\lambda)/
-[\operatorname{ran}(A_\lambda-\lambda)+\mathcal{X}_\Delta]\\
+&=(\mathcal{X}_\Delta+\mathcal{X}_\lambda)/[\operatorname{ran}(A_\lambda-\lambda)+\mathcal{X}_\Delta]\\
 &\approx\mathcal{X}_\lambda/\operatorname{ran}(A_\lambda-\lambda).
 \end{aligned}
 $$
@@ -1245,7 +1217,7 @@ Since $\dim\mathcal{X}_\lambda<\infty$, $\dim[\mathcal{X}/\operatorname{ran}(A-\
 **7.10. Corollary.** *If $A\in\mathcal{B}_0(\mathcal{X})$, $\lambda\in\mathbb{C}$, and $\lambda\neq 0$, then for every $y$ in $\mathcal{X}$ there is an $x$ in $\mathcal{X}$ such that*
 
 $$
-(A-\lambda)x=y \tag{7.11}
+(A-\lambda)x=y \tag*{7.11}
 $$
 
 *if and only if the only vector $x$ such that $(A-\lambda)x=0$ is $x=0$. If this condition is satisfied, then the solution to (7.11) is unique.*
@@ -1260,7 +1232,7 @@ The applications of the Fredholm Alternative occur by taking the compact operato
 
 2. Let $A\in\mathcal{B}(\mathcal{X})$ and let $\lambda_1,\ldots,\lambda_n$ be distinct points in $\sigma_p(A)$. If $x_k\in\ker(A-\lambda_k)$, $1\leq k\leq n$, and $x_k\neq 0$, show that $\{x_1,\ldots,x_n\}$ is a linearly independent set.
 
-3. Let $\mathcal{X}_1,\mathcal{X}_2,\ldots$ be Banach spaces and put $\mathcal{X}=\bigoplus_p\mathcal{X}_n$. Let $A_n\in\mathcal{B}(\mathcal{X}_n)$ such that $\sup_n\|A_n\|<\infty$ and define $A:\mathcal{X}\to\mathcal{X}$ by $A\{x_n\}=\{A_nx_n\}$. Show that $A\in\mathcal{B}(\mathcal{X})$ and $\|A\|=\sup_n\|A_n\|$. Show that $A\in\mathcal{B}_0(\mathcal{X})$ if and only if each $A_n\in\mathcal{B}_0(\mathcal{X})$ and $\lim\|A_n\|=0$.
+3. Let $\mathcal{X}_1,\mathcal{X}_2\ldots$ be Banach spaces and put $\mathcal{X}=\bigoplus_p\mathcal{X}_n$. Let $A_n\in\mathcal{B}(\mathcal{X}_n)$ such that $\sup_n\|A_n\|<\infty$ and define $A:\mathcal{X}\to\mathcal{X}$ by $A\{x_n\}=\{A_nx_n\}$. Show that $A\in\mathcal{B}(\mathcal{X})$ and $\|A\|=\sup_n\|A_n\|$. Show that $A\in\mathcal{B}_0(\mathcal{X})$ if and only if each $A_n\in\mathcal{B}_0(\mathcal{X})$ and $\lim\|A_n\|=0$.
 
 4. Suppose $A\in\mathcal{B}(\mathcal{X})$ and there is a polynomial $p$ such that $p(A)\in\mathcal{B}_0(\mathcal{X})$. What can be said about $\sigma(A)$?
 
@@ -1273,24 +1245,23 @@ The applications of the Fredholm Alternative occur by taking the compact operato
 
 ## §8. Abelian Banach Algebras
 
-Recall that it is assumed that every Banach algebra is over $\mathbb C$. Also assume that all Banach algebras contain an identity.
+Recall that it is assumed that every Banach algebra is over $\mathbb{C}$. Also assume that all Banach algebras contain an identity.
 
 A *division algebra* is an algebra such that every nonzero element has a multiplicative inverse. It may seem incongruous that the first theorem in this section allows the algebra to be nonabelian. However, the conclusion is that the algebra is abelian—and much more.
 
-**8.1. The Gelfand–Mazur Theorem.** *If $\mathcal A$ is a Banach algebra that is also a division ring, then $\mathcal A=\mathbb C\;(=\{\lambda1:\lambda\in\mathbb C\})$.*
+**8.1. The Gelfand–Mazur Theorem.** *If $\mathcal{A}$ is a Banach algebra that is also a division ring, then $\mathcal{A}=\mathbb{C}\;(=\{\lambda1:\lambda\in\mathbb{C}\})$.*
 
-**Proof.** If $a\in\mathcal A$, then $\sigma(a)\ne\varnothing$. If $\lambda\in\sigma(a)$, then $a-\lambda$ has no inverse. But $\mathcal A$ is a division ring, so $a-\lambda=0$. That is, $a=\lambda$. ■
+**Proof.** If $a\in\mathcal{A}$, then $\sigma(a)\ne\square$. If $\lambda\in\sigma(a)$, then $a-\lambda$ has no inverse. But $\mathcal{A}$ is a division ring, so $a-\lambda=0$. That is, $a=\lambda$. ■
 
-As a corollary of the preceding theorem, the algebra of quaternions, $\mathbb H$, is not a Banach algebra. That is, it is impossible to put a norm on $\mathbb H$ that makes it into a Banach algebra over $\mathbb C$. Can you show this directly?
+As a corollary of the preceding theorem, the algebra of quaternions, $\mathbb{H}$, is not a Banach algebra. That is, it is impossible to put a norm on $\mathbb{H}$ that makes it into a Banach algebra over $\mathbb{C}$. Can you show this directly?
 
-**8.2. Proposition.** *If $\mathcal A$ is an abelian Banach algebra and $\mathcal M$ is a maximal ideal, then there is a homomorphism $h:\mathcal A\to\mathbb C$ such that $\mathcal M=\ker h$. Conversely, if $h:\mathcal A\to\mathbb C$ is a nonzero homomorphism, then $\ker h$ is a maximal ideal. Moreover, this correspondence $h\mapsto\ker h$ between homomorphisms and maximal ideals is bijective.*
+**8.2. Proposition.** *If $\mathcal{A}$ is an abelian Banach algebra and $\mathcal{M}$ is a maximal ideal, then there is a homomorphism $h:\mathcal{A}\to\mathbb{C}$ such that $\mathcal{M}=\ker h$. Conversely, if $h:\mathcal{A}\to\mathbb{C}$ is a nonzero homomorphism, then $\ker h$ is a maximal ideal. Moreover, this correspondence $h\mapsto\ker h$ between homomorphisms and maximal ideals is bijective.*
 
-**Proof.** If $\mathcal M$ is a maximal ideal, then $\mathcal M$ is closed (2.4b). Hence $\mathcal A/\mathcal M$ is a Banach algebra with identity. Let $\pi:\mathcal A\to\mathcal A/\mathcal M$ be the natural map. If $a\in\mathcal A$ and $\pi(a)$ is not invertible in $\mathcal A/\mathcal M$, then $\pi(\mathcal A a)=\pi(a)[\mathcal A/\mathcal M]$ is an ideal in $\mathcal A/\mathcal M$ that is proper. Let $I=\{b\in\mathcal A:\pi(b)\in\pi(\mathcal A a)\}=\pi^{-1}(\pi(\mathcal A a))$. Then $I$ is a proper ideal of $\mathcal A$ and $\mathcal M\subseteq I$. Since $\mathcal M$ is maximal, $\mathcal M=I$. Thus $\pi(a\mathcal A)\subseteq\pi(I)=\pi(\mathcal M)=(0)$. That is, $\pi(a)=0$. This says that $\mathcal A/\mathcal M$ is a field. By the Gelfand–Mazur Theorem $\mathcal A/\mathcal M=\mathbb C=\{\lambda+\mathcal M:\lambda\in\mathbb C\}$. Define $\tilde h:\mathcal A/\mathcal M\to\mathbb C$ by $\tilde h(\lambda+\mathcal M)=\lambda$ and define $h:\mathcal A\to\mathbb C$ by $h=\tilde h\circ\pi$. Then $h$ is a homomorphism and $\ker h=\mathcal M$.
+**Proof.** If $\mathcal{M}$ is a maximal ideal, then $\mathcal{M}$ is closed (2.4b). Hence $\mathcal{A}/\mathcal{M}$ is a Banach algebra with identity. Let $\pi:\mathcal{A}\to\mathcal{A}/\mathcal{M}$ be the natural map. If $a\in\mathcal{A}$ and $\pi(a)$ is not invertible in $\mathcal{A}/\mathcal{M}$, then $\pi(\mathcal{A}a)=\pi(a)[\mathcal{A}/\mathcal{M}]$ is an ideal in $\mathcal{A}/\mathcal{M}$ that is proper. Let $I=\{b\in\mathcal{A}:\pi(b)\in\pi(\mathcal{A}a)\}=\pi^{-1}(\pi(\mathcal{A}a))$. Then $I$ is a proper ideal of $\mathcal{A}$ and $\mathcal{M}\subseteq I$. Since $\mathcal{M}$ is maximal, $\mathcal{M}=I$. Thus $\pi(a\mathcal{A})\subseteq\pi(I)=\pi(\mathcal{M})=(0)$. That is, $\pi(a)=0$. This says that $\mathcal{A}/\mathcal{M}$ is a field. By the Gelfand–Mazur Theorem $\mathcal{A}/\mathcal{M}=\mathbb{C}=\{\lambda+\mathcal{M}:\lambda\in\mathbb{C}\}$. Define $\tilde h:\mathcal{A}/\mathcal{M}\to\mathbb{C}$ by $\tilde h(\lambda+\mathcal{M})=\lambda$ and define $h:\mathcal{A}\to\mathbb{C}$ by $h=\tilde h\circ\pi$. Then $h$ is a homomorphism and $\ker h=\mathcal{M}$.
 
-Conversely, suppose $h:\mathcal A\to\mathbb C$ is a nonzero homomorphism. Then $\ker h=\mathcal M$ is a nontrivial ideal and $\mathcal A/\mathcal M\approx\mathbb C$. (Why?) So $\mathcal M$ is maximal.
+Conversely, suppose $h:\mathcal{A}\to\mathbb{C}$ is a nonzero homomorphism. Then $\ker h=\mathcal{M}$ is a nontrivial ideal and $\mathcal{A}/\mathcal{M}\approx\mathbb{C}$. (Why?) So $\mathcal{M}$ is maximal.
 
-If $h,h'$ are two nonzero homomorphisms and $\ker h=\ker h'$, then there is an $\alpha$ in $\mathbb C$ such that $h=\alpha h'$ (A.1.4). But $1=h(1)=\alpha h'(1)=\alpha$, so $h=h'$. ■
-
+If $h,h'$ are two nonzero homomorphisms and $\ker h=\ker h'$, then there is an $\alpha$ in $\mathbb{C}$ such that $h=\alpha h'$ (A.1.4). But $1=h(1)=\alpha h'(1)=\alpha$, so $h=h'$. ■
 
 
 <a id="pdf-page-234"></a>

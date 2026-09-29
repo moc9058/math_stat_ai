@@ -1,7 +1,5 @@
 # V. Weak Topologies
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-139"></a>
 CHAPTER V
@@ -561,9 +559,11 @@ To obtain an idea of how large $\beta X\setminus X$ is, see Exercise 6, which in
 
 
 <a id="pdf-page-154"></a>
+§6. An Application: The Stone–Čech Compactification　139
+
 Stone–Čech compactification is the book by Gillman and Jerison [1960], though the approach to $\beta X$ is somewhat different there than here. Two recent works on the Stone–Čech compactification are Johnstone [1982] and Walker [1974].
 
-**6.4. Corollary.** *If $X$ is completely regular and $\mu\in M(\beta X)$, define $L_\mu:C_b(X)\to\mathbb F$ by*
+**6.4. Corollary.** *if $X$ is completely regular and $\mu\in M(\beta X)$, define $L_\mu:C_b(X)\to\mathbb F$ by*
 
 $$
 L_\mu(f)=\int_{\beta X}f^\beta\,d\mu
@@ -573,7 +573,7 @@ $$
 
 **Proof.** Define $V:C_b(X)\to C(\beta X)$ by $Vf=f^\beta$. It is easy to see that $V$ is linear. Considering $X$ as a subset of $\beta X$, the fact that $\beta X=\operatorname{cl}X$ implies that $V$ is an isometry. If $g\in C(\beta X)$ and $f=g|X$, then $g=f^\beta=Vf$; hence $V$ is surjective.
 
-If $\mu\in M(\beta X)=C(\beta X)^*$, it is easy to check that $L_\mu\in C_b(X)^*$ and $\|L_\mu\|=\|\mu\|$ since $V$ is an isometry. Conversely, if $L\in C_b(X)^*$, then $L\circ V^{-1}\in C(\beta X)^*$ and $\|L\circ V^{-1}\|=\|L\|$. Hence there is a $\mu$ in $M(\beta X)$ such that $\int g\,d\mu=L\circ V^{-1}(g)$ for every $g$ in $C(\beta X)$. Since $V^{-1}g=g|X$, it follows that $L=L_\mu$. ■
+If $\mu\in M(\beta X)=C(\beta X)^*$, it is easy to check that $L_\mu\in C_b(X)^*$ and $\|L_\mu\|=\|\mu\|$ since $V$ is an isometry. Conversely, if $L\in C_b(X)^*$, then $L\circ V^{-1}\in C(\beta X)^*$ and $\|L\circ V^{-1}\|=\|L\|$. Hence there is a $\mu$ in $M(\beta X)$ such that $\int g\,d\mu=L\circ V^{-1}(g)$ for every $g$ in $C(\beta X)$. Since $V^{-1}g=|X$, it follows that $L=L_\mu$. ■
 
 The next result is from topology. It may be known to the reader, but it is presented here for the convenience of those to whom it is not.
 
@@ -664,8 +664,6 @@ Recall that an open line segment is a set of the form $(x_1,x_2)\equiv\{tx_2+(1-
 
 
 <a id="pdf-page-157"></a>
-142  V. Weak Topologies
-
 last statement requires a bit of proof. Let $f\in L^1[0,1]$ such that $\|f\|_1=1$. Choose $x$ in $[0,1]$ such that $\int_0^x|f(t)|dt=\frac12$. Let $h(t)=2f(t)$ if $t\leq x$ and $0$ otherwise; let $g(t)=2f(t)$ if $t\geq x$ and $0$ otherwise. Then $\|h\|_1=\|g\|_1=1$ and $f=\frac12(h+g)$. So ball $L^1[0,1]$ has no extreme points.
 
 The next proposition is left as an exercise.
@@ -700,7 +698,6 @@ $$
 In fact, (7.5) implies that $V\cup U$ is convex so that the claim follows from the maximality of $U$.
 
 It now follows from the claim that $K\setminus U$ is a singleton. In fact, if $a,b\in K\setminus U$ and $a\neq b$, let $V_a,V_b$ be disjoint open convex subsets of $K$ such that $a\in V_a$
-
 
 
 <a id="pdf-page-158"></a>
@@ -811,7 +808,7 @@ Let $x\in X$, $x\ne x_0$. By (b) there is an $f_1$ in $\mathcal A$ such that $f_
 
 (For any bounded Borel function $h$ on $X$, $h\mu$ denotes the measure whose value at a Borel set $\Delta$ is $\int_\Delta h\,d\mu$. Note that $\|h\mu\|=\int |h|\,d|\mu|$.)
 
-Put $\alpha=\|f\mu\|=\int f\,d|\mu|$. Since $f(x_0)>0$, there is an open neighborhood $U$ of $x_0$ and an $\varepsilon>0$ such that $f(y)>\varepsilon$ for $y$ in $U$. Thus, $\alpha=\int f\,d|\mu|\geq\int_U f\,d|\mu|\geq\varepsilon|\mu|(U)>0$ since $U\cap K\ne\varnothing$. Similarly, since $f(x_0)<1$, $\alpha<1$. Therefore, $0<\alpha<1$. Also, $1-\alpha=1-\int f\,d|\mu|=\int(1-f)\,d|\mu|=\|(1-f)\mu\|$. Since
+Put $\alpha=\|f\mu\|=\int f\,d|\mu|$. Since $f(x_0)>0$, there is an open neighborhood $U$ of $x_0$ and an $\varepsilon>0$ such that $f(y)>\varepsilon$ for $y$ in $U$. Thus, $\alpha=\int f\,d|\mu|\geq\int_U f\,d|\mu|\geq\varepsilon|\mu|(U)>0$ since $U\cap K\ne\square$. Similarly, since $f(x_0)<1$, $\alpha<1$. Therefore, $0<\alpha<1$. Also, $1-\alpha=1-\int f\,d|\mu|=\int(1-f)\,d|\mu|=\|(1-f)\mu\|$. Since
 
 $$
 \mu=\alpha\left[\frac{f\mu}{\|f\mu\|}\right]+(1-\alpha)\left[\frac{(1-f)\mu}{\|(1-f)\mu\|}\right]
@@ -823,10 +820,9 @@ With an important theorem it is good to ask what happens if part of the hypothes
 
 **8.2. Corollary.** *If $X$ is compact and $\mathcal A$ is a closed subalgebra of $C(X)$ that separates the points of $X$ and is closed under complex conjugation, then either $\mathcal A=C(X)$ or there is a point $x_0$ in $X$ such that $\mathcal A=\{f\in C(X):f(x_0)=0\}$.*
 
-**Proof.** Identify $\mathbb F$ and the one-dimensional subspace of $C(X)$ consisting of the constant functions. Since $\mathcal A$ is closed, $\mathcal A+\mathbb F$ is closed (III.4.3). It is easy to see that $\mathcal A+\mathbb F$ is an algebra and satisfies the hypothesis of the Stone-Weierstrass Theorem; hence $\mathcal A+\mathbb F=C(X)$. Suppose $\mathcal A\ne C(X)$. Then $C(X)/\mathcal A$ is one dimensional; thus $\mathcal A^\perp$ is one dimensional (Theorem 2.2). Let $\mu\in\mathcal A^\perp$, $\|\mu\|=1$. If $f\in\mathcal A$, then $f\mu\in\mathcal A^\perp$; hence there is an $\alpha$ in $\mathbb F$ such that $f\mu=\alpha\mu$. This implies that each $f$ in $\mathcal A$ is constant on the support of $\mu$. But the functions in $\mathcal A$ separate the points of $X$. Hence the support of $\mu$ is a single point $x_0$ and so $\mathcal A^\perp=\{\beta\delta_{x_0}:\beta\in\mathbb F\}$. Thus $\mathcal A=\mathcal A^{\perp\perp}=\{f\in C(X):f(x_0)=0\}$. $\blacksquare$
+**Proof.** Identify $\mathbb F$ and the one-dimensional subspace of $C(X)$ consisting of the constant functions. Since $\mathcal A$ is closed, $\mathcal A+\mathbb F$ is closed (III.4.3). It is easy to see that $\mathcal A+\mathbb F$ is an algebra and satisfies the hypothesis of the Stone–Weierstrass Theorem; hence $\mathcal A+\mathbb F=C(X)$. Suppose $\mathcal A\ne C(X)$. Then $C(X)/\mathcal A$ is one dimensional; thus $\mathcal A^\perp$ is one dimensional (Theorem 2.2). Let $\mu\in\mathcal A^\perp$, $\|\mu\|=1$. If $f\in\mathcal A$, then $f\mu\in\mathcal A^\perp$; hence there is an $\alpha$ in $\mathbb F$ such that $f\mu=\alpha\mu$. This implies that each $f$ in $\mathcal A$ is constant on the support of $\mu$. But the functions in $\mathcal A$ separate the points of $X$. Hence the support of $\mu$ is a single point $x_0$ and so $\mathcal A^\perp=\{\beta\delta_{x_0}:\beta\in\mathbb F\}$. Thus $\mathcal A={}_\perp\mathcal A^\perp=\{f\in C(X):f(x_0)=0\}$. $\blacksquare$
 
 There are many examples of subalgebras of $C(X)$ that separate the points of $X$, contain the constants, but are not necessarily closed under complex
-
 
 
 <a id="pdf-page-162"></a>
@@ -877,7 +873,7 @@ $$
 \mu=\alpha\left[\frac{f\mu}{\alpha}\right]+(1-\alpha)\left[\frac{(1-f)\mu}{1-\alpha}\right].
 $$
 
-Since $\mu$ is an extreme point of ball $M(X)$ and $\alpha\ne0$, $\mu=f\mu/\alpha$. This can only happen if $f=\alpha<1$ a.e. $[\mu]$. But $f\equiv1$ on $U$ and $|\mu|(U)>0$, a contradiction. Hence $K=\{x_0\}$.
+Since $\mu$ is an extreme point of ball $M(X)$ and $\alpha\ne0$, $\mu=f\mu/\alpha$. This can only happen if $f\equiv\alpha<1$ a.e. $[\mu]$. But $f\equiv1$ on $U$ and $|\mu|(U)>0$, a contradiction. Hence $K=\{x_0\}$.
 
 Since the only measures whose support can be the singleton set $\{x_0\}$ have the form $\alpha\delta_{x_0}$, $\alpha$ in $\mathbb F$, the theorem is proved. $\blacksquare$
 
@@ -897,8 +893,7 @@ Since the only measures whose support can be the singleton set $\{x_0\}$ have th
 
 7. Let $\mathcal A$ be the uniformly closed subalgebra of $C_b(\mathbb R)$ generated by $\sin x$ and $\cos x$. Show that $\mathcal A=\{f\in C_b(\mathbb R):f(t)=f(t+2\pi)\text{ for all }t\text{ in }\mathbb R\}$.
 
-8. If $K$ is a compact subset of $\mathbb C$, $f\in C(K)$, and $\varepsilon>0$, show that there is a polynomial $p(z,\bar z)$ in $z$ and $\bar z$ such that $|f(z)-p(z,\bar z)|<\varepsilon$ for all $z$ in $K.
-
+8. If $K$ is a compact subset of $\mathbb C$, $f\in C(K)$, and $\varepsilon>0$, show that there is a polynomial $p(z,\bar z)$ in $z$ and $\bar z$ such that $|f(z)-p(z,\bar z)|<\varepsilon$ for all $z$ in $K$.
 
 
 <a id="pdf-page-164"></a>
@@ -1236,6 +1231,8 @@ $$
 
 
 <a id="pdf-page-172"></a>
+§11. An Application: Haar Measure on a Compact Group  157
+
 for $x,y$ in $G$. Hence
 
 $$
@@ -1260,7 +1257,7 @@ is a group of surjective linear isometries of $M(G)$. Let $Q=$ the probability m
 
 In fact, Lemma 11.6 implies that $\{T(\mu):T\in\mathcal{S}\}$ is weak* closed. Since each $T$ in $\mathcal{S}$ is an isometry, $T(\mu)\neq0$ for every $T$ in $\mathcal{S}$.
 
-By Claim 11.8, $\mathcal{S}$ is a noncontracting family of affine maps of $Q$ into itself. Moreover, if $T=S_0L_xR_y$ and $\{\mu_i\}$ is a net in $Q$ such that $\mu_i\to\mu(\mathrm{wk}^{*})$, then for every $f$ in $C(G)$, $\langle f,T(\mu_i)\rangle=\int f(xs^{-1}y)\,d\mu_i(s)\to\int f(xs^{-1}y)\,d\mu=\langle f,T(\mu)\rangle$. So each $T$ in $\mathcal{S}$ is $\mathrm{wk}^{*}$ continuous on $Q$. By the Ryll–Nardzewski Fixed Point Theorem, there is a measure $m$ in $Q$ such that $T(m)=m$ for all $T$ in $\mathcal{S}$.
+By Claim 11.8, $\mathcal{S}$ is a noncontracting family of affine maps of $Q$ into itself. Moreover, if $T=S_0L_xR_y$ and $\{\mu_i\}$ is a net in $Q$ such that $\mu_i\to\mu(\mathrm{wk}^{*})$, then for every $f$ in $C(G)$, $\langle f,T(\mu_i)\rangle=\int f(xs^{-1}y)\,d\mu_i(s)\to\int f(xs^{-1}y)\,d\mu=\langle f,T(\mu)\rangle$. So each $T$ in $\mathcal{S}$ in $\mathrm{wk}^{*}$ continuous on $Q$. By the Ryll–Nardzewski Fixed Point Theorem, there is a measure $m$ in $Q$ such that $T(m)=m$ for all $T$ in $\mathcal{S}$.
 
 By definition, (a) holds. Also, for any $x$ in $G$ and $f$ in $C(G)$, $\int f(xs)\,dm(s)=\langle f,L_x(m)\rangle=\int f\,dm$. By similar equations, (c) holds. Now suppose $f\in C(G)$, $f\geqslant0$, and $f\neq0$. Then there is an $\varepsilon>0$ such that $U=\{x\in G:f(x)>\varepsilon\}$ is nonempty. Since $U$ is open, $G=\bigcup\{Ux:x\in G\}$, and $G$ is compact, there are $x_1,x_2,\ldots,x_n$ in $G$ such that $G\subseteq\bigcup_{k=1}^{n}Ux_k$. (Why is $Ux$ open?) Define $g_k(x)=f(xx_k^{-1})$ and put $g=\sum_{k=1}^{n}g_k$. Then $g\in C(G)$ and $\int g\,dm=\sum_{k=1}^{n}\int g_k\,dm=n\int f\,dm$ by (c). But for any $x$ in $G$ there is an $x_k$ such that $xx_k^{-1}\in U$; hence $g(x)\geqslant g_k(x)=f(xx_k^{-1})>\varepsilon$. Thus
 
@@ -1276,7 +1273,7 @@ $$
 \begin{aligned}
 \int f\,d\mu
 &=\int\left[\int f(y)\,d\mu(y)\right]dm(x)\\
-&=\int\left[\int f(xy)\,d\mu(y)\right]dm(x).
+&=\int\left[\int f(xy)\,d\mu(y)\right]dm(x)
 \end{aligned}
 $$
 
@@ -1494,7 +1491,7 @@ The next result, presented with proof, is also called the Krein–Smulian Theore
 
 **13.4. Krein–Smulian Theorem.** *If $\mathcal X$ is a Banach space and $K$ is a weakly compact subset of $\mathcal X$, then $\overline{\operatorname{co}}(K)$ is weakly compact.*
 
-**Proof.** *Case 1:* $\mathcal X$ is separable. Endow $K$ with the relative weak topology; so $M(K)=C(K)^*$. If $\mu\in M(K)$, define $F_\mu:\mathcal X^*\to\mathbb F$ by
+**Proof.** *Case 1: $\mathcal X$ is separable.* Endow $K$ with the relative weak topology; so $M(K)=C(K)^*$. If $\mu\in M(K)$, define $F_\mu:\mathcal X^*\to\mathbb F$ by
 
 $$
 F_\mu(x^*)=\int_K\langle x,x^*\rangle\,d\mu(x).
@@ -1514,8 +1511,7 @@ In fact, this is clear. If $\mu_i\to0$ weak* in $M(K)$, then for each $x^*$ in $
 
 Let $\mathcal P=$ the probability measures on $K$. By Alaoglu’s Theorem $\mathcal P$ is weak* compact. Thus $T(\mathcal P)$ is weakly compact and convex. However, if $x\in K$, $\langle T(\delta_x),x^*\rangle=\langle x,x^*\rangle$; that is, $T(\delta_x)=x$. So $T(\mathcal P)\supseteq K$. Hence $T(\mathcal P)\supseteq\overline{\operatorname{co}}(K)$ and $\overline{\operatorname{co}}(K)$ must be compact.
 
-*Case 2:* $\mathcal X$ is arbitrary. Let $\{x_n\}$ be a sequence in $\overline{\operatorname{co}}(K)$. So for each $n$ there is a finite subset $F_n$ of $K$ such that $x_n\in\operatorname{co}(F_n)$. Let $F=\bigcup_{n=1}^{\infty}F_n$ and let $\mathcal M=\bigvee F$. Then $K_1=K\cap\mathcal M$ is weakly compact and $\{x_n\}\subseteq\overline{\operatorname{co}}(K_1)$. Since $\mathcal M$ is separable, Case 1 implies that $\overline{\operatorname{co}}(K_1)$ is weakly compact. By the Eberlein–Smulian Theorem, there is a subsequence $\{x_{n_k}\}$ and an $x$ in $\overline{\operatorname{co}}(K_1)\subseteq\overline{\operatorname{co}}(K)$ such that $x_{n_k}\to x$. Thus $\overline{\operatorname{co}}(K)$ is weakly compact. ■
-
+*Case 2: $\mathcal X$ is arbitrary.* Let $\{x_n\}$ be a sequence in $\operatorname{co}(K)$. So for each $n$ there is a finite subset $F_n$ of $K$ such that $x_n\in\operatorname{co}(F_n)$. Let $F=\bigcup_{n=1}^{\infty}F_n$ and let $\mathcal M=\bigvee F$. Then $K_1=K\cap\mathcal M$ is weakly compact and $\{x_n\}\subseteq\operatorname{co}(K_1)$. Since $\mathcal M$ is separable, Case 1 implies that $\overline{\operatorname{co}}(K_1)$ is weakly compact. By the Eberlein–Smulian Theorem, there is a subsequence $\{x_{n_k}\}$ and an $x$ in $\overline{\operatorname{co}}(K_1)\subseteq\overline{\operatorname{co}}(K)$ such that $x_{n_k}\to x$. Thus $\overline{\operatorname{co}}(K)$ is weakly compact. $\blacksquare$
 
 
 <a id="pdf-page-180"></a>

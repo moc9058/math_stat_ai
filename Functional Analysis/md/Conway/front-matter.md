@@ -1,7 +1,5 @@
 # Front matter
 
-<!-- OCR draft; page images require independent visual review. -->
-
 
 <a id="pdf-page-1"></a>
 # Graduate Texts in Mathematics
@@ -12,7 +10,7 @@ John B. Conway
 
 Second Edition
 
-[FIGURE: Springer horse-head logo to the left of the publisher’s name, near the bottom of the cover.]
+![Springer horse-head logo](assets/conway-p0001-logo.png)
 
 Springer
 
@@ -116,7 +114,7 @@ John B. Conway
 
 Second Edition
 
-[FIGURE: Springer horse logo at the lower left, immediately before the publisher name.]
+![Springer horse logo](assets/conway-p0004-logo.png)
 
 Springer
 
