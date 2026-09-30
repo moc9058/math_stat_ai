@@ -1,10 +1,22 @@
 {
   "book": "Conway",
   "pdf_page": 322,
-  "status": "needs_further_review",
+  "status": "agent_visual_review_passed",
   "safe_to_accept": false,
   "error_count": 11,
   "uncertain_count": 0,
   "transcription": "api\\conway\\conway-p0322-gpt-6-sol-transcription.md",
-  "review": "api\\conway\\conway-p0322-gpt-6-astra-transcription-review.json"
+  "review": "api\\conway\\conway-p0322-gpt-6-astra-transcription-review.json",
+  "visual_review": {
+    "reviewer": "Codex subagent review_middle",
+    "date": "2026-09-30",
+    "method": "Full-page PDF visual comparison; see audit",
+    "safe_to_accept": true,
+    "unresolved_count": 0,
+    "human_verified": false,
+    "historical_status": "needs_further_review",
+    "audit": "review/visual-review-middle.json",
+    "source_notes": [],
+    "correction_groups": 10
+  }
 }

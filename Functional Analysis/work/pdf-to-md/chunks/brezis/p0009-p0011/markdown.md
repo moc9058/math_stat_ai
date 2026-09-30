@@ -1,0 +1,25 @@
+lack of exercises. The present book contains a wealth of problems. I plan to add even more in future editions. I have also outlined some recent developments, especially in the direction of nonlinear PDEs.
+
+## Brief user’s guide
+
+1. Statements or paragraphs preceded by the bullet symbol • **are extremely important**, and it is essential to grasp them well in order to understand what comes afterward.
+
+2. Results marked by the star symbol - **can be skipped** by the beginner; they are of interest only to advanced readers.
+
+3. In each chapter I have labeled propositions, theorems, and corollaries in a continuous manner (e.g., Proposition 3.6 is followed by Theorem 3.7, Corollary 3.8, etc.). Only the remarks and the lemmas are numbered separately.
+
+4. In order to simplify the presentation I assume that all vector spaces are over R. Most of the results remain valid for vector spaces over C. I have added in Chapter 11 a short section describing similarities and differences.
+
+5. Many chapters are followed by numerous exercises. Partial solutions are pre-sented at the end of the book. More elaborate problems are proposed in a separate section called “Problems” followed by “Partial Solutions of the Problems.” The problems usually require knowledge of material coming from various chapters. I have indicated at the beginning of each problem which chapters are involved. Some exercises and problems expound results stated without details or without proofs in the body of the chapter.
+
+## Acknowledgments
+
+During the preparation of this book I received much encouragement from two dear friends and former colleagues: Ph. Ciarlet and H. Berestycki. I am very grateful to G. Tronel, M. Comte, Th. Gallouet, S. Guerre-Delabrière, O. Kavian, S. Kichenassamy, and the late Th. Lachand-Robert, who shared their “field experience” in dealing with students. S. Antman, D. Kinderlehrer, andY. Li explained to me the background and “taste” of American students. C. Jones kindly communicated to me an English translation that he had prepared for his personal use of some chapters of the original French book. I owe thanks to A. Ponce, H.-M. Nguyen, H. Castro, and H. Wang, who checked carefully parts of the book. I was blessed with two extraordinary assistants who typed most of this book at Rutgers: Barbara Miller, who is retired, and now Barbara Mastrian. I do not have enough words of praise and gratitude for their constant dedication and their professional help. They always found attractive solutions to the challenging intricacies of PDE formulas. Without their enthusiasm and patience this book would never have been finished. It has been a great pleasure, as ever, to work with Ann Kostant at Springer on this project. I have had many opportunities in the past to appreciate her long-standing commitment to the mathematical community.
+
+The author is partially supported by NSF Grant DMS-0802958.
+
+Haim Brezis
+
+Rutgers University
+
+March 2010

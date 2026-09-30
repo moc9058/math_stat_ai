@@ -10,7 +10,7 @@ $$
 \end{aligned}
 $$
 
-Put $\omega(y)=\sup\{|f(x-y)-f(x)|:x\in\mathbb R\}$. Now $f$ is uniformly continuous (Why?), so if $\varepsilon>0$, then there is a $\delta>0$ such that $\omega(y)<\varepsilon$ if $|y|<\delta$. Thus $\omega(y)\to0$ as $|y|\to0$. Moreover, the inequality above implies
+Put $\omega(y)=\sup\{|f(x-y)-f(x)|:y\in\mathbb R\}$. Now $f$ is uniformly continuous (Why?), so if $\varepsilon>0$, then there is a $\delta>0$ such that $\omega(y)<\varepsilon$ if $|y|<\delta$. Thus $\omega(y)\to0$ as $|y|\to0$. Moreover, the inequality above implies
 
 $$
 \|\psi_\varepsilon*f-f\|_\infty

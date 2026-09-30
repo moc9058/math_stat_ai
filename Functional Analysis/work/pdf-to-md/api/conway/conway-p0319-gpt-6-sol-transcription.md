@@ -1,6 +1,6 @@
 from $\operatorname{cl}[\operatorname{dom}A]$ into $\mathcal K$. So we will often only consider those $A$ such that $\operatorname{dom}A$ is dense in $\mathcal H$; such an operator $A$ is said to be *densely defined*. $\mathcal B(\mathcal H)$ still denotes the bounded operators defined on $\mathcal H$.
 
-If $A,B$ are linear operators from $\mathcal H$ into $\mathcal K$, then $A+B$ is defined with $\operatorname{dom}(A+B)=\operatorname{dom}A\cap\operatorname{dom}B$. If $B:\mathcal H\to\mathcal H$ and $A:\mathcal H\to\mathcal L$, then $AB$ is a linear operator from $\mathcal H$ into $\mathcal L$ with $\operatorname{dom}(AB)=B^{-1}(\operatorname{dom}A)$.
+If $A,B$ are linear operators from $\mathcal H$ into $\mathcal K$, then $A+B$ is defined with $\operatorname{dom}(A+B)=\operatorname{dom}A\cap\operatorname{dom}B$. If $B:\mathcal H\to\mathcal K$ and $A:\mathcal K\to\mathcal L$, then $AB$ is a linear operator from $\mathcal H$ into $\mathcal L$ with $\operatorname{dom}(AB)=B^{-1}(\operatorname{dom}A)$.
 
 **1.2. Definition.** If $A,B$ are operators from $\mathcal H$ into $\mathcal K$, then $A$ is an *extension* of $B$ if $\operatorname{dom}B\subseteq\operatorname{dom}A$ and $Ah=Bh$ whenever $h\in\operatorname{dom}B$. In symbols this is denoted by $B\subseteq A$.
 

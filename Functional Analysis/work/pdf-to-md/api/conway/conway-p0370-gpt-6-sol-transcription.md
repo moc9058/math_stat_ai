@@ -4,7 +4,7 @@ Indeed, let $A_1\equiv A|_{(\ker A)^\perp}$; so $A_1:(\ker A)^\perp\to\operatorn
 
 **Claim 3: $\mathcal N''$ is finite dimensional.**
 
-In fact, $\dim[(\ker B)^\perp\cap(\mathcal M')^\perp]<\infty$ and so $\dim[(\operatorname{ran}B)\cap(\mathcal M'')^\perp]<\infty$. This implies that $\dim\mathcal N''<\infty$. Now represent the operators as $2\times2$ matrices:
+In fact, $\dim[(\ker B)^\perp\cap\mathcal M^\perp]<\infty$ and so $\dim[(\operatorname{ran}B)\cap(\mathcal M'')^\perp]<\infty$. This implies that $\dim\mathcal N''<\infty$. Now represent the operators as $2\times2$ matrices:
 
 $$
 A=\begin{bmatrix}A_1&X\\0&A_2\end{bmatrix}:

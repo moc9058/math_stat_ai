@@ -21,4 +21,4 @@ After an examination of the statement of Theorem 10.1, it becomes clear that som
 
 Let $\eta(\Delta)=\|E(\Delta)h_1\|^2$ and let $\mathcal L=\operatorname{cl}[W^*(N)h_1]$. Hence $\eta\ll\mu$, $N$ is reduced by both $\mathcal L$ and $\mathcal G$, and $\mathcal L\perp\mathcal G$. Moreover, $N\mid\mathcal G\cong N_\mu$ and $N\mid\mathcal L\cong N_\eta$. Now the fact that $\eta\ll\mu$ implies that there is a Borel set $\Delta$ such that $[\eta]=[\mu|\Delta]$. (Why?) Hence $N\mid\mathcal L\cong N_\nu$ if $\nu=\mu|\Delta$ (Theorem 3.6). Let $U:\mathcal G\oplus\mathcal L\to L^2(\mu)\oplus L^2(\nu)$ be an isomorphism such that $U((0)\oplus\mathcal L)\subseteq(0)\oplus L^2(\nu)$ and $U(N\mid\mathcal G\oplus\mathcal L)U^{-1}=N_\mu\oplus N_\nu$. Since $e=g_1+h_1\in\mathcal G\oplus\mathcal L$, let $Ue=g\oplus h$. Because $h_1$ is a $*$-cyclic vector for $N\mid\mathcal L$, $h(z)\ne0$ a.e. $[\nu]$.
 
-This reduces the proof of this proposition to proving the next lemma.
+This reduces the proof of this proposition to proving the next lemma. $\blacksquare$

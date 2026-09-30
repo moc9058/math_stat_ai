@@ -3,8 +3,8 @@ ins $\gamma$, out $\gamma$ 200
 ins $\Gamma$, out $\Gamma$ 200  
 $\operatorname{Hol}(a)$ 201  
 $\sigma_{\mathcal A}(a)$ 205  
-$\|f\|_{\mathcal A}$ 206  
-$K^{\mathcal A}$ 206  
+$\|f\|_A$ 206  
+$K^\wedge$ 206  
 $\sigma_{\mathrm{ap}}(A)$ 208  
 $E(\Delta)=E(\Delta;A)$, $\mathcal X_\Delta$ 210  
 $E(\lambda)$, $\mathcal X_\lambda$ 210  

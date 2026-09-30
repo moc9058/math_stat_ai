@@ -23,7 +23,7 @@ We now turn our attention to the principal result of this section, Stone’s The
 
 **5.6. Stone’s Theorem.** *If $U$ is a strongly continuous one parameter unitary group, then there is a self-adjoint operator $A$ such that $U(t)=\exp(itA)$.*
 
-**Proof.** Begin by defining $\mathcal D$ to be the set of all vectors $h$ in $\mathcal H$ such that $\lim_{t\to0}t^{-1}[U(t)h-h]$ exists; since $0\in\mathcal D$, $\mathcal D\ne\varnothing$. Clearly $\mathcal D$ is a linear manifold in $\mathcal H$.
+**Proof.** Begin by defining $\mathcal D$ to be the set of all vectors $h$ in $\mathcal H$ such that $\lim_{t\to0}t^{-1}[U(t)h-h]$ exists; since $0\in\mathcal D$, $\mathcal D\ne\square$. Clearly $\mathcal D$ is a linear manifold in $\mathcal H$.
 
 **5.7. Claim.** $\mathcal D$ is dense in $\mathcal H$.
 

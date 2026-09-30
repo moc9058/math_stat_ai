@@ -1,0 +1,741 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "subject": null,
+      "keywords": [
+        "9780387709130"
+      ],
+      "description": null,
+      "languages": [],
+      "identifiers": [],
+      "publisher": null,
+      "created_at": null,
+      "modified_at": null,
+      "creator_application": null,
+      "producer_application": null,
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 9,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 10,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0",
+  "schema": "docvortex.model",
+  "pages": [
+    [
+      {
+        "type": "page_number",
+        "bbox": [
+          0.102,
+          0.041,
+          0.137,
+          0.056
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "viii"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "bbox": [
+          0.83,
+          0.041,
+          0.897,
+          0.056
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Preface"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.099,
+          0.073,
+          0.898,
+          0.129
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.105,
+              0.075,
+              0.893,
+              0.089
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.093,
+              0.89,
+              0.108
+            ]
+          },
+          {
+            "bbox": [
+              0.105,
+              0.112,
+              0.437,
+              0.126
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "lack of exercises. The present book contains a wealth of problems. I plan to add even more in future editions. I have also outlined some recent developments, especially in the direction of nonlinear PDEs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph_title",
+        "bbox": [
+          0.101,
+          0.175,
+          0.324,
+          0.197
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.103,
+              0.174,
+              0.32,
+              0.196
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Brief user’s guide"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.101,
+          0.22,
+          0.898,
+          0.274
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.103,
+              0.222,
+              0.893,
+              0.238
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.241,
+              0.893,
+              0.255
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.259,
+              0.231,
+              0.273
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "1. Statements or paragraphs preceded by the bullet symbol • "
+          },
+          {
+            "type": "text",
+            "content": "are extremely important",
+            "styles": [
+              "bold"
+            ]
+          },
+          {
+            "type": "text",
+            "content": ", and it is essential to grasp them well in order to understand what comes afterward."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.1,
+          0.275,
+          0.898,
+          0.311
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.103,
+              0.278,
+              0.895,
+              0.293
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.297,
+              0.451,
+              0.31
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "2. Results marked by the star symbol - "
+          },
+          {
+            "type": "text",
+            "content": "can be skipped",
+            "styles": [
+              "bold"
+            ]
+          },
+          {
+            "type": "text",
+            "content": " by the beginner; they are of interest only to advanced readers."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.1,
+          0.313,
+          0.898,
+          0.368
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.104,
+              0.315,
+              0.892,
+              0.329
+            ]
+          },
+          {
+            "bbox": [
+              0.133,
+              0.334,
+              0.891,
+              0.348
+            ]
+          },
+          {
+            "bbox": [
+              0.133,
+              0.352,
+              0.748,
+              0.366
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "3. In each chapter I have labeled propositions, theorems, and corollaries in a continuous manner (e.g., Proposition 3.6 is followed by Theorem 3.7, Corollary 3.8, etc.). Only the remarks and the lemmas are numbered separately."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.1,
+          0.369,
+          0.899,
+          0.423
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.104,
+              0.369,
+              0.895,
+              0.385
+            ]
+          },
+          {
+            "bbox": [
+              0.131,
+              0.387,
+              0.895,
+              0.403
+            ]
+          },
+          {
+            "bbox": [
+              0.135,
+              0.408,
+              0.754,
+              0.422
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "4. In order to simplify the presentation I assume that all vector spaces are over R. Most of the results remain valid for vector spaces over C. I have added in Chapter 11 a short section describing similarities and differences."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.1,
+          0.424,
+          0.899,
+          0.554
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.103,
+              0.425,
+              0.893,
+              0.44
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.443,
+              0.895,
+              0.459
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.463,
+              0.893,
+              0.476
+            ]
+          },
+          {
+            "bbox": [
+              0.133,
+              0.482,
+              0.891,
+              0.496
+            ]
+          },
+          {
+            "bbox": [
+              0.132,
+              0.499,
+              0.892,
+              0.514
+            ]
+          },
+          {
+            "bbox": [
+              0.133,
+              0.518,
+              0.895,
+              0.532
+            ]
+          },
+          {
+            "bbox": [
+              0.135,
+              0.537,
+              0.449,
+              0.551
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "5. Many chapters are followed by numerous exercises. Partial solutions are pre-sented at the end of the book. More elaborate problems are proposed in a separate section called “Problems” followed by “Partial Solutions of the Problems.” The problems usually require knowledge of material coming from various chapters. I have indicated at the beginning of each problem which chapters are involved. Some exercises and problems expound results stated without details or without proofs in the body of the chapter."
+          }
+        ]
+      },
+      {
+        "type": "paragraph_title",
+        "bbox": [
+          0.1,
+          0.6,
+          0.33,
+          0.62
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.104,
+              0.601,
+              0.326,
+              0.619
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Acknowledgments"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.098,
+          0.645,
+          0.9,
+          0.904
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.106,
+              0.647,
+              0.895,
+              0.662
+            ]
+          },
+          {
+            "bbox": [
+              0.103,
+              0.664,
+              0.894,
+              0.68
+            ]
+          },
+          {
+            "bbox": [
+              0.106,
+              0.684,
+              0.893,
+              0.698
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.702,
+              0.894,
+              0.717
+            ]
+          },
+          {
+            "bbox": [
+              0.107,
+              0.72,
+              0.894,
+              0.735
+            ]
+          },
+          {
+            "bbox": [
+              0.106,
+              0.738,
+              0.894,
+              0.754
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.758,
+              0.893,
+              0.772
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.776,
+              0.891,
+              0.79
+            ]
+          },
+          {
+            "bbox": [
+              0.107,
+              0.795,
+              0.891,
+              0.808
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.813,
+              0.895,
+              0.828
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.831,
+              0.895,
+              0.846
+            ]
+          },
+          {
+            "bbox": [
+              0.106,
+              0.85,
+              0.891,
+              0.864
+            ]
+          },
+          {
+            "bbox": [
+              0.106,
+              0.869,
+              0.895,
+              0.883
+            ]
+          },
+          {
+            "bbox": [
+              0.104,
+              0.886,
+              0.895,
+              0.901
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "During the preparation of this book I received much encouragement from two dear friends and former colleagues: Ph. Ciarlet and H. Berestycki. I am very grateful to G. Tronel, M. Comte, Th. Gallouet, S. Guerre-Delabrière, O. Kavian, S. Kichenassamy, and the late Th. Lachand-Robert, who shared their “field experience” in dealing with students. S. Antman, D. Kinderlehrer, andY. Li explained to me the background and “taste” of American students. C. Jones kindly communicated to me an English translation that he had prepared for his personal use of some chapters of the original French book. I owe thanks to A. Ponce, H.-M. Nguyen, H. Castro, and H. Wang, who checked carefully parts of the book. I was blessed with two extraordinary assistants who typed most of this book at Rutgers: Barbara Miller, who is retired, and now Barbara Mastrian. I do not have enough words of praise and gratitude for their constant dedication and their professional help. They always found attractive solutions to the challenging intricacies of PDE formulas. Without their enthusiasm and patience this book would never have been finished. It has been a great pleasure, as"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "bbox": [
+          0.102,
+          0.04,
+          0.172,
+          0.057
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Preface"
+          }
+        ]
+      },
+      {
+        "type": "page_number",
+        "bbox": [
+          0.875,
+          0.041,
+          0.896,
+          0.055
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "ix"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.099,
+          0.073,
+          0.899,
+          0.13
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.105,
+              0.076,
+              0.894,
+              0.089
+            ]
+          },
+          {
+            "bbox": [
+              0.105,
+              0.094,
+              0.895,
+              0.108
+            ]
+          },
+          {
+            "bbox": [
+              0.105,
+              0.114,
+              0.22,
+              0.126
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "ever, to work with Ann Kostant at Springer on this project. I have had many opportunities in the past to appreciate her long-standing commitment to the mathematical community."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.1,
+          0.145,
+          0.711,
+          0.167
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.104,
+              0.148,
+              0.707,
+              0.164
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "The author is partially supported by NSF Grant DMS-0802958."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.102,
+          0.192,
+          0.231,
+          0.211
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.106,
+              0.195,
+              0.223,
+              0.209
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Haim Brezis"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.101,
+          0.211,
+          0.289,
+          0.23
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.103,
+              0.212,
+              0.283,
+              0.229
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "Rutgers University"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "bbox": [
+          0.101,
+          0.229,
+          0.23,
+          0.248
+        ],
+        "lines": [
+          {
+            "bbox": [
+              0.104,
+              0.23,
+              0.222,
+              0.246
+            ]
+          }
+        ],
+        "content": [
+          {
+            "type": "text",
+            "content": "March 2010"
+          }
+        ]
+      }
+    ],
+    []
+  ],
+  "page_index_map": [
+    8,
+    9,
+    10
+  ]
+}

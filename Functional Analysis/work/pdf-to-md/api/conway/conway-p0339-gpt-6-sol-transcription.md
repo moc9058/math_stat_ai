@@ -34,7 +34,7 @@ $$
 
 Note that $E_n(\Delta\cap\Delta_n)$ is a projection with range in $\mathcal H_n$. Since $\mathcal H_n\perp\mathcal H_m$ for $n\neq m$, (4.14) defines a projection in $\mathcal B(\mathcal H)$. (Technically $E(\Delta)$ should be defined by $E(\Delta)=\sum_{n=1}^\infty E_n(\Delta\cap\Delta_n)P_n$. But this technicality does not add anything to understanding.)
 
-Now to show that $E$ is a spectral measure. Clearly $E(\mathbb C)=1$ and $E(\varnothing)=0$. If $\Lambda_1$ and $\Lambda_2$ are Borel subsets of $\mathbb C$, then
+Now to show that $E$ is a spectral measure. Clearly $E(\mathbb C)=1$ and $E(\square)=0$. If $\Lambda_1$ and $\Lambda_2$ are Borel subsets of $\mathbb C$, then
 
 $$
 \begin{aligned}

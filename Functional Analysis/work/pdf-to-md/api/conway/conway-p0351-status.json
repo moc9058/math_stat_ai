@@ -1,10 +1,24 @@
 {
   "book": "Conway",
   "pdf_page": 351,
-  "status": "needs_further_review",
+  "status": "agent_visual_review_passed",
   "safe_to_accept": false,
   "error_count": 1,
   "uncertain_count": 0,
   "transcription": "api\\conway\\conway-p0351-gpt-6-sol-transcription.md",
-  "review": "api\\conway\\conway-p0351-gpt-6-astra-transcription-review.json"
+  "review": "api\\conway\\conway-p0351-gpt-6-astra-transcription-review.json",
+  "visual_review": {
+    "reviewer": "Codex subagent review_middle",
+    "date": "2026-09-30",
+    "method": "Full-page PDF visual comparison; see audit",
+    "safe_to_accept": true,
+    "unresolved_count": 0,
+    "human_verified": false,
+    "historical_status": "needs_further_review",
+    "audit": "review/visual-review-middle.json",
+    "source_notes": [
+      "High-resolution crop confirms Vf, without a superscript t. Rejected historical reviewer proposal V^t f; retained Vf. The same source estimate has an unsquared L2 norm bounded by epsilon^2 |K|; preserved rather than repaired."
+    ],
+    "correction_groups": 0
+  }
 }

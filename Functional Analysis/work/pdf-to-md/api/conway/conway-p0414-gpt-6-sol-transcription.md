@@ -2,7 +2,7 @@
 
 *(continued from page ii)*
 
-76 ITAKA. Algebraic Geometry.
+76 IITAKA. Algebraic Geometry.
 
 77 HECKE. Lectures on the Theory of Algebraic Numbers.
 

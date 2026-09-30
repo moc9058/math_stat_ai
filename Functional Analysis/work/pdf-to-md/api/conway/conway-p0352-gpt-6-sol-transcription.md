@@ -17,7 +17,7 @@ belongs to $L^1(\mathbb R)$ and $\|f*g\|_1\leq\|f\|_1\|g\|_1$ if the norm of a f
 
 (b) If $\phi\in\mathcal S$, $\hat\phi\in\mathcal S$. Also for $m,n\geq0$,
 $$
-(ix)^m\left(\frac{d}{dx}\right)^n\hat\phi
+(ix)^m\left(\frac{d}{dx}\right)\hat\phi
 =\left[\left(\frac{d}{dx}\right)^m\left((-ix)^n\phi\right)\right]^{\wedge}.
 \tag{6.8}
 $$

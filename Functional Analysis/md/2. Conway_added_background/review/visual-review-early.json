@@ -1,0 +1,145 @@
+{
+  "book": "Conway",
+  "review_date": "2026-09-30",
+  "reviewer": "review_early subagent",
+  "human_verified": false,
+  "source_pdf": "Functional Analysis/source/Conway.pdf",
+  "method": "Direct visual comparison of all eight full PDF pages freshly rendered using uv-managed PyMuPDF 1.28.2; ambiguous symbols enlarged at 5x or 8x; comparison with current repair and assembled chapter text. Existing API reviews retained as historical evidence.",
+  "scope": "Assigned eight pages previously marked needs_manual_review; not a claim of new verification of the remaining book.",
+  "summary": {
+    "pages_reviewed": 8,
+    "pages_with_new_text_corrections": 2,
+    "new_text_corrections": 2,
+    "remaining_uncertain_pages": 0
+  },
+  "pages": [
+    {
+      "pdf_page": 154,
+      "printed_page": 139,
+      "changes": [],
+      "findings": [
+        "Full page matches current repair. The printed proof of Corollary 6.4 reads V^{-1}g=|X: there is no g before the restriction bar. This apparent source typo is preserved; it is not an unresolved transcription uncertainty."
+      ],
+      "source_typos": [
+        "V^{-1}g=|X omits g before the restriction bar."
+      ],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 161,
+      "printed_page": 146,
+      "changes": [
+        {
+          "before": "\\mathcal A={}_\\perp\\mathcal A^\\perp",
+          "after": "\\mathcal A=\\mathcal A^\\perp",
+          "reason": "Enlarged original PDF shows no left annihilator at all. Earlier reviews alternated left superscript/subscript and introduced a symbol absent from the source."
+        }
+      ],
+      "findings": [
+        "Full page compared. Corollary 8.2 final identity is printed A=A^perp, an apparent source typo. Removed the inserted left annihilator to preserve the printed text. Root agent independently confirmed the enlarged crop."
+      ],
+      "source_typos": [
+        "Corollary 8.2 proof identifies A with A^perp without the expected second annihilator."
+      ],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 183,
+      "printed_page": 168,
+      "changes": [],
+      "findings": [
+        "Full page matches current repair, including (A*)*≡A** and the comma after the displayed mapping. The historical missing-comma flag was already fixed."
+      ],
+      "source_typos": [],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 184,
+      "printed_page": 169,
+      "changes": [],
+      "findings": [
+        "Full page matches current repair. Theorem 1.10(b) includes weak-star; diagram correctly has an inclusion arrow. Both historical flags are resolved in the existing source."
+      ],
+      "source_typos": [
+        "Proof of Proposition 1.9 prints c^{-1}||x|| after a supremum over ||x*||≤c; retained literally rather than correcting the apparent mathematical typo."
+      ],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 215,
+      "printed_page": 200,
+      "changes": [],
+      "findings": [
+        "Full page compared. Enlarged Proposition 4.4 clearly prints subseteq in both K⊆ins Γ and C\\G⊆out Γ. Reject both historical suggestions to remove the lower bar."
+      ],
+      "source_typos": [],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 224,
+      "printed_page": 209,
+      "changes": [],
+      "findings": [
+        "Full page compared. Enlarged norm inequality clearly has outer absolute-value bars surrounding ||S_px||_p−|λ|||x||_p. Current repair is correct; first review was a false positive and repair-review flag is stale."
+      ],
+      "source_typos": [
+        "The source writes the p-th-power sum formula in a paragraph allowing p=∞; retained as printed."
+      ],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 232,
+      "printed_page": 217,
+      "changes": [],
+      "findings": [
+        "Full page matches current repair. Exercise 3 final compactness condition prints B_0(X) with no n subscript; current repair already preserves this. Historical flag is stale."
+      ],
+      "source_typos": [
+        "Exercise 3 final assertion prints A_n∈B_0(X), although the earlier domain is X_n; preserved."
+      ],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    },
+    {
+      "pdf_page": 282,
+      "printed_page": 267,
+      "changes": [
+        {
+          "before": "|\\langle Ae_i,e_i\\rangle|=\\frac12",
+          "after": "|\\langle Ae_i,e_i\\rangle|\\equiv\\frac12",
+          "reason": "Enlarged PDF clearly prints three horizontal bars in Exercise 20(a)."
+        }
+      ],
+      "findings": [
+        "Full page compared. Exercise 19(g) final sum has no n under the summation sign; reject the historical suggestion to insert it. Exercise 20(a) hint uses ≡, confirmed independently by the root agent."
+      ],
+      "source_typos": [
+        "Exercise 20(a) uses an identity/equivalence sign where the usual mathematical bound would be an inequality; preserved rather than silently corrected."
+      ],
+      "status": "agent_visual_review_passed",
+      "full_page_compared": true,
+      "assembled_text_compared": true,
+      "remaining_uncertainties": []
+    }
+  ]
+}

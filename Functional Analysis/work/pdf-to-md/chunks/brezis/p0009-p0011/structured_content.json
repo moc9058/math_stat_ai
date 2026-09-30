@@ -1,0 +1,246 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.102,
+            0.041,
+            0.137,
+            0.056
+          ],
+          "content": "viii"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.83,
+            0.041,
+            0.897,
+            0.056
+          ],
+          "content": "Preface"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.898,
+            0.129
+          ],
+          "content": "lack of exercises. The present book contains a wealth of problems. I plan to add even more in future editions. I have also outlined some recent developments, especially in the direction of nonlinear PDEs."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.175,
+            0.324,
+            0.197
+          ],
+          "level": 2,
+          "content": "Brief user’s guide"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.22,
+            0.898,
+            0.274
+          ],
+          "content": "1. Statements or paragraphs preceded by the bullet symbol • **are extremely important**, and it is essential to grasp them well in order to understand what comes afterward."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.275,
+            0.898,
+            0.311
+          ],
+          "content": "2. Results marked by the star symbol - **can be skipped** by the beginner; they are of interest only to advanced readers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.313,
+            0.898,
+            0.368
+          ],
+          "content": "3. In each chapter I have labeled propositions, theorems, and corollaries in a continuous manner (e.g., Proposition 3.6 is followed by Theorem 3.7, Corollary 3.8, etc.). Only the remarks and the lemmas are numbered separately."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.369,
+            0.899,
+            0.423
+          ],
+          "content": "4. In order to simplify the presentation I assume that all vector spaces are over R. Most of the results remain valid for vector spaces over C. I have added in Chapter 11 a short section describing similarities and differences."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.424,
+            0.899,
+            0.554
+          ],
+          "content": "5. Many chapters are followed by numerous exercises. Partial solutions are pre-sented at the end of the book. More elaborate problems are proposed in a separate section called “Problems” followed by “Partial Solutions of the Problems.” The problems usually require knowledge of material coming from various chapters. I have indicated at the beginning of each problem which chapters are involved. Some exercises and problems expound results stated without details or without proofs in the body of the chapter."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.6,
+            0.33,
+            0.62
+          ],
+          "level": 2,
+          "content": "Acknowledgments"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.645,
+            0.9,
+            0.904
+          ],
+          "content": "During the preparation of this book I received much encouragement from two dear friends and former colleagues: Ph. Ciarlet and H. Berestycki. I am very grateful to G. Tronel, M. Comte, Th. Gallouet, S. Guerre-Delabrière, O. Kavian, S. Kichenassamy, and the late Th. Lachand-Robert, who shared their “field experience” in dealing with students. S. Antman, D. Kinderlehrer, andY. Li explained to me the background and “taste” of American students. C. Jones kindly communicated to me an English translation that he had prepared for his personal use of some chapters of the original French book. I owe thanks to A. Ponce, H.-M. Nguyen, H. Castro, and H. Wang, who checked carefully parts of the book. I was blessed with two extraordinary assistants who typed most of this book at Rutgers: Barbara Miller, who is retired, and now Barbara Mastrian. I do not have enough words of praise and gratitude for their constant dedication and their professional help. They always found attractive solutions to the challenging intricacies of PDE formulas. Without their enthusiasm and patience this book would never have been finished. It has been a great pleasure, as"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.102,
+            0.04,
+            0.172,
+            0.057
+          ],
+          "content": "Preface"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.875,
+            0.041,
+            0.896,
+            0.055
+          ],
+          "content": "ix"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.899,
+            0.13
+          ],
+          "continues_prev": true,
+          "content": "ever, to work with Ann Kostant at Springer on this project. I have had many opportunities in the past to appreciate her long-standing commitment to the mathematical community."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.145,
+            0.711,
+            0.167
+          ],
+          "content": "The author is partially supported by NSF Grant DMS-0802958."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.192,
+            0.231,
+            0.211
+          ],
+          "content": "Haim Brezis"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.211,
+            0.289,
+            0.23
+          ],
+          "content": "Rutgers University"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.229,
+            0.23,
+            0.248
+          ],
+          "content": "March 2010"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": []
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 9,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 10,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

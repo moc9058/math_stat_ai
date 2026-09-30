@@ -30,4 +30,4 @@ $$
 
 Hence $\langle Af,g\rangle=\langle f,Ag\rangle$ and $A$ is symmetric.
 
-Now let $g\in\operatorname{dom}A^*$ and for $0<a<\infty$ let $\mathcal D_a=\{f\in\mathcal D:f(x)=0\text{ for }|x|\geq a\}$. The proof that $g\in\operatorname{dom}A$ follows the lines of the argument used in Example 1.11. In fact, let $h=A^*g$. So if $f\in\mathcal D_a$, then $\int f(x)\overline{h(x)}\,dx=i\int f'(x)\overline{g(x)}\,dx$. Let $H(x)=\int_0^x h(t)\,dt$. Then using integration by parts we get that
+Now let $g\in\operatorname{dom}A^*$ and for $0<a<\infty$ let $\mathcal D_a=\{f\in\mathcal D:f(x)=0\text{ for }|x|\geq a\}$. The proof that $g\in\operatorname{dom}A$ follows the lines of the argument used in Example 1.11. In fact, let $h=A^*g$. So if $f\in\mathcal D$, then $\int f(x)\overline{h(x)}\,dx=i\int f'(x)\overline{g(x)}\,dx$. Let $H(x)=\int_0^x h(t)\,dt$. Then using integration by parts we get that

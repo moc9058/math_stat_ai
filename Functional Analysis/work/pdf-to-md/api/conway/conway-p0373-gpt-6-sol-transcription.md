@@ -30,4 +30,4 @@ The proof of the next proposition is a straightforward application of the genera
 
 (e) If $K$ is a compact operator, $\sigma_{\ell e}(A+K)=\sigma_{\ell e}(A)$, $\sigma_{re}(A+K)=\sigma_{re}(A)$, and $\sigma_e(A+K)=\sigma_e(A)$.
 
-Our understanding of semi-Fredholm operators gained in the preceding sections can now be applied to better understand the essential spectrum. Indeed, $\sigma_{\ell e}(A)=\{\lambda\in\mathbb{C}:A-\lambda\notin\mathcal{SF}_\ell\}$. Thus an application of Theorem 2.3 gives us the following.
+Our understanding of semi-Fredholm operators gained in the preceding sections can now be applied to better understand the essential spectrum. Indeed, $\sigma_{\ell e}(A)=\{\lambda\in\mathbb{C}:A-\lambda\notin\mathcal{F}_\ell\}$. Thus an application of Theorem 2.3 gives us the following.

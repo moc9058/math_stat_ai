@@ -13,12 +13,12 @@ Now let $B$ be a closed symmetric extension of $A$. By Lemma 2.15 there is an $A
 **2.21. Example.** Let $A$ and $\mathcal D$ be as in Example 1.11; so $A$ is symmetric. The operator $B$ of Example 1.12 is a self-adjoint extension of $A$. Let us determine all self-adjoint extensions of $A$. To do this it is necessary to determine $\mathcal L_\pm$. Now $f\in\mathcal L_\pm$ if and only if $f\in\operatorname{dom}A^*$ and $\pm if=A^*f=if'$, so $\mathcal L_\pm=\{\alpha e^{\pm x}:\alpha\in\mathbb C\}$. Hence $n_\pm=1$. Also, the isomorphisms of $\mathcal L_+$ onto $\mathcal L_-$ are all of the form $W_\lambda e^x=\lambda e^{-x}$ where $|\lambda|=e$. If $|\lambda|=e$, let
 
 $$
-\mathcal D_\lambda=\{f+\alpha e^x+\lambda\alpha e^{-x}:\alpha\in\mathbb C,\ f\in\mathcal D\}.
+\mathcal D_\lambda\equiv\{f+\alpha e^x+\lambda\alpha e^{-x}:\alpha\in\mathbb C,\ f\in\mathcal D\}.
 $$
 
 $$
 A_\lambda(f+\alpha e^x+\lambda\alpha e^{-x})
-=if'+\alpha ie^x-i\lambda\alpha e^{-x};
+=if'+\alpha ie^x-i\lambda\alpha e^{-x},
 $$
 
 if $f\in\mathcal D$, $\alpha\in\mathbb C$.

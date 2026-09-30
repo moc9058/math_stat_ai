@@ -1,0 +1,368 @@
+{
+  "book": "Conway",
+  "reviewer": "Codex subagent review_middle",
+  "review_type": "agent_visual_review",
+  "human_verified": false,
+  "date": "2026-09-30",
+  "source": "Functional Analysis/source/Conway.pdf",
+  "method": "Rendered all 17 complete PDF pages with PyMuPDF 1.28.2 in the uv-managed virtual environment, visually compared against API Markdown and current assembled chapter page bodies, and examined 4x detail crops for pages 347,351,352. No API or .env used.",
+  "scope": "All historical flagged regions plus full-page text and mathematics comparison; typography/line-wrapping normalized by Markdown is not reproduced.",
+  "pages": [
+    {
+      "pdf_page": 308,
+      "printed_page": 293,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0308-gpt-6-astra-repair.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [],
+      "source_notes": [
+        "Existing repair accurately retains printed N_n=N_{mu_n} (equality, not unitary equivalence) and N_2 ≡ restriction. The former is mathematically suspect but source-faithful; no further edit."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 309,
+      "printed_page": 294,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0309-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "This reduces the proof of this proposition to proving the next lemma.",
+          "after": "This reduces the proof of this proposition to proving the next lemma. $\\blacksquare$"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 311,
+      "printed_page": 296,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0311-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "An examination of the equations",
+          "after": "An examination of the equation"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 316,
+      "printed_page": 301,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0316-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\mathcal H'_0",
+          "after": "\\mathcal K_0"
+        },
+        {
+          "before": "\\mathcal H'",
+          "after": "\\mathcal K"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 319,
+      "printed_page": 304,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0319-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "B:\\mathcal H\\to\\mathcal H",
+          "after": "B:\\mathcal H\\to\\mathcal K"
+        },
+        {
+          "before": "A:\\mathcal H\\to\\mathcal L",
+          "after": "A:\\mathcal K\\to\\mathcal L"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 320,
+      "printed_page": 305,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0320-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\{k\\in\\mathcal H:",
+          "after": "\\{k\\in\\mathcal K:"
+        },
+        {
+          "before": "A:\\mathcal H\\to\\mathcal H",
+          "after": "A:\\mathcal H\\to\\mathcal K"
+        },
+        {
+          "before": "J:\\mathcal H\\oplus\\mathcal H\\to\\mathcal H\\oplus\\mathcal H",
+          "after": "J:\\mathcal H\\oplus\\mathcal K\\to\\mathcal K\\oplus\\mathcal H"
+        },
+        {
+          "before": "k\\oplus A^*k\\in\\mathcal H\\oplus\\mathcal H",
+          "after": "k\\oplus A^*k\\in\\mathcal K\\oplus\\mathcal H"
+        },
+        {
+          "before": "For the converse, assume $\\operatorname{dom}A^*$ is dense in $\\mathcal H$.",
+          "after": "For the converse, assume $\\operatorname{dom}A^*$ is dense in $\\mathcal K$."
+        },
+        {
+          "before": "If $A\\in\\mathcal C(\\mathcal H,\\mathcal H)$, then $A^*\\in\\mathcal C(\\mathcal H,\\mathcal H)$",
+          "after": "If $A\\in\\mathcal C(\\mathcal H,\\mathcal K)$, then $A^*\\in\\mathcal C(\\mathcal K,\\mathcal H)$"
+        }
+      ],
+      "source_notes": [
+        "Proof 1.6(b) prints J*J[(gra A)] without cl inside the brackets; retained as printed."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 322,
+      "printed_page": 307,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0322-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "A:\\mathcal H\\to\\mathcal H$ is densely defined",
+          "after": "A:\\mathcal H\\to\\mathcal K$ is densely defined"
+        },
+        {
+          "before": "A\\in\\mathcal C(\\mathcal H,\\mathcal H)",
+          "after": "A\\in\\mathcal C(\\mathcal H,\\mathcal K)"
+        },
+        {
+          "before": "**1.14. Definition.** If $A:\\mathcal H\\to\\mathcal H$",
+          "after": "**1.14. Definition.** If $A:\\mathcal H\\to\\mathcal K$"
+        },
+        {
+          "before": "B:\\mathcal H\\to\\mathcal H",
+          "after": "B:\\mathcal K\\to\\mathcal H"
+        },
+        {
+          "before": "**1.15. Proposition.** *Let $A:\\mathcal H\\to\\mathcal H$",
+          "after": "**1.15. Proposition.** *Let $A:\\mathcal H\\to\\mathcal K$"
+        },
+        {
+          "before": "\\operatorname{ran}A=\\mathcal H",
+          "after": "\\operatorname{ran}A=\\mathcal K"
+        },
+        {
+          "before": "\\operatorname{dom}B=\\mathcal H",
+          "after": "\\operatorname{dom}B=\\mathcal K"
+        },
+        {
+          "before": "\\{Bk\\oplus k:k\\in\\mathcal H\\}",
+          "after": "\\{Bk\\oplus k:k\\in\\mathcal K\\}"
+        },
+        {
+          "before": "$Bk=A^{-1}k$ for $k$ in $\\mathcal H$ is a well-defined operator on $\\mathcal H$",
+          "after": "$Bk=A^{-1}k$ for $k$ in $\\mathcal K$ is a well-defined operator on $\\mathcal K$"
+        },
+        {
+          "before": "B\\in\\mathcal B(\\mathcal H,\\mathcal H)",
+          "after": "B\\in\\mathcal B(\\mathcal K,\\mathcal H)"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 328,
+      "printed_page": 313,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0328-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\mathcal H_+",
+          "after": "\\mathcal K_+"
+        },
+        {
+          "before": "\\mathcal H_-",
+          "after": "\\mathcal K_-"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 329,
+      "printed_page": 314,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0329-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\mathcal H_+",
+          "after": "\\mathcal K_+"
+        },
+        {
+          "before": "\\mathcal H_-",
+          "after": "\\mathcal K_-"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 330,
+      "printed_page": 315,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0330-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\mathcal D_\\lambda=\\{",
+          "after": "\\mathcal D_\\lambda\\equiv\\{"
+        },
+        {
+          "before": "=if'+\\alpha ie^x-i\\lambda\\alpha e^{-x};",
+          "after": "=if'+\\alpha ie^x-i\\lambda\\alpha e^{-x},"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 339,
+      "printed_page": 324,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0339-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "E(\\varnothing)=0",
+          "after": "E(\\square)=0"
+        }
+      ],
+      "source_notes": [
+        "PDF prints a hollow square in E(□)=0. Retained as \\square; empty-set meaning is inferred but not substituted."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 343,
+      "printed_page": 328,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0343-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "iAh. \\tag{5.2}",
+          "after": "iAh; \\tag{5.2}"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 345,
+      "printed_page": 330,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0345-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\mathcal D\\ne\\varnothing",
+          "after": "\\mathcal D\\ne\\square"
+        }
+      ],
+      "source_notes": [
+        "PDF prints a hollow square in D ≠ □. Retained as \\square; empty-set meaning is inferred but not substituted."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 347,
+      "printed_page": 332,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0347-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "\\phi(t)=-ie^{-t}",
+          "after": "\\phi(t)=-ie^{-1}"
+        },
+        {
+          "before": "\\psi(t)=ie^{-t}",
+          "after": "\\psi(t)=ie^{-1}"
+        }
+      ],
+      "source_notes": [
+        "High-resolution crop confirms e^{-1} in both phi(t) and psi(t). Restored literal source; e^{-t} would make the argument mathematically consistent but is an editorial correction."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 349,
+      "printed_page": 334,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0349-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "So if $f\\in\\mathcal D_a$, then",
+          "after": "So if $f\\in\\mathcal D$, then"
+        }
+      ],
+      "source_notes": [],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 351,
+      "printed_page": 336,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0351-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [],
+      "source_notes": [
+        "High-resolution crop confirms Vf, without a superscript t. Rejected historical reviewer proposal V^t f; retained Vf. The same source estimate has an unsquared L2 norm bounded by epsilon^2 |K|; preserved rather than repaired."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    },
+    {
+      "pdf_page": 352,
+      "printed_page": 337,
+      "status": "agent_visual_review_passed",
+      "source_md": "Functional Analysis/work/pdf-to-md/api/conway/conway-p0352-gpt-6-sol-transcription.md",
+      "assembled_matched_source_before_review": true,
+      "corrections": [
+        {
+          "before": "(ix)^m\\left(\\frac{d}{dx}\\right)^n\\hat\\phi",
+          "after": "(ix)^m\\left(\\frac{d}{dx}\\right)\\hat\\phi"
+        }
+      ],
+      "source_notes": [
+        "High-resolution crop confirms no superscript n on the left-hand derivative in (6.8). Removed silent mathematical correction; the intended nth derivative is suggested by (6.9), but the transcription follows the source."
+      ],
+      "unresolved_transcription_issues": [],
+      "human_verified": false
+    }
+  ]
+}

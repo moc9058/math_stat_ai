@@ -1,0 +1,948 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.102,
+            0.041,
+            0.12,
+            0.054
+          ],
+          "content": "2"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.041,
+            0.897,
+            0.057
+          ],
+          "content": "1 The Hahn–Banach Theorems. Introduction to the Theory of Conjugate Convex Functions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.898,
+            0.108
+          ],
+          "content": "$x \\in P$ such that $m \\leq x$ , except for $x = m$ . Note that a maximal element of P need not be an upper bound for P."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.109,
+            0.898,
+            0.146
+          ],
+          "content": "We say that P is inductive if every totally ordered subset Q in P has an upper bound."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.167,
+            0.898,
+            0.204
+          ],
+          "content": "• **Lemma 1.1 (Zorn).** Every nonempty ordered set that is inductive has a maximal element."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.224,
+            0.898,
+            0.282
+          ],
+          "content": "Zorn’s lemma follows from the axiom of choice, but we shall not discuss its derivation here; see, e.g., J. Dugundji [1], N. Dunford–J. T. Schwartz [1] (Volume 1, Theorem 1.2.7), E. Hewitt–K. Stromberg [1], S. Lang [1], and A. Knapp [1]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.3,
+            0.899,
+            0.412
+          ],
+          "content": "Remark 1. Zorn’s lemma has many important applications in analysis. It is a basic tool in proving some seemingly innocent existence statements such as “every vector space has a basis” (see Exercise 1.5) and “on any vector space there are nontrivial linear functionals.” Most analysts do not know how to prove Zorn’s lemma; but it is quite essential for an analyst to understand the statement of Zorn’s lemma and to be able to use it properly!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.432,
+            0.465,
+            0.451
+          ],
+          "content": "Proof of Lemma 1.2. Consider the set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.137,
+            0.463,
+            0.858,
+            0.531
+          ],
+          "content": "P = \\left\\{ h : D ( h ) \\subset E \\to \\mathbb { R } \\left| \\begin{aligned} & D ( h ) \\text { is a linear subspace of } E, \\\\ & h \\text { is linear, } G \\subset D ( h ), \\\\ & h \\text { extends } g, \\operatorname { and } h ( x ) \\leq p ( x ) \\quad \\forall x \\in D ( h ) \\end{aligned} \\right. \\right\\}.",
+          "image_source": "images/page_16_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.544,
+            0.43,
+            0.561
+          ],
+          "content": "On P we define the order relation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.249,
+            0.577,
+            0.745,
+            0.596
+          ],
+          "content": "( h _ { 1 } \\leq h _ { 2 } ) \\Leftrightarrow ( D ( h _ { 1 } ) \\subset D ( h _ { 2 } ) { \\mathrm { ~ a n d ~ } } h _ { 2 } { \\mathrm { ~ e x t e n d s ~ } } h _ { 1 } )   .",
+          "image_source": "images/page_16_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.611,
+            0.898,
+            0.649
+          ],
+          "content": "It is clear that P is nonempty, since $g \\in P$ . We claim that P is inductive. Indeed, let $Q \\subset P$ be a totally ordered subset; we write Q as $\\mathcal { Q } = ( h _ { i } ) _ { i \\in I }$ and we set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2,
+            0.663,
+            0.798,
+            0.702
+          ],
+          "content": "D(h) = \\bigcup_{i \\in I} D(h_i), \\quad h(x) = h_i(x) \\quad  if   x \\in D(h_i)   for some   i.",
+          "image_source": "images/page_16_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.714,
+            0.899,
+            0.786
+          ],
+          "content": "It is easy to see that the definition of h makes sense, that $h   \\in   P$ , and that h is an upper bound for $Q .$ . We may therefore apply Zorn’s lemma, and so we have a maximal element f in P. We claim that $D ( f ) = E$ , which completes the proof of Theorem 1.1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.788,
+            0.898,
+            0.843
+          ],
+          "content": "Suppose, by contradiction, that $D(f) \\neq E$ . Let x0 $\\notin D ( f )$ ; set $D(h) = D(f) +$ $\\mathbb { R } x _ { 0 }$ , and for every $x   \\in   D ( f )$ , set $h ( x   +   t x _ { 0 } )   =   f ( x )   +   t \\alpha   ( t   \\in   \\mathbb { R } )$ , where the constant $\\alpha \\in \\mathbb { R }$ will be chosen in such a way that $h \\in P$ . We must ensure that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.232,
+            0.859,
+            0.765,
+            0.878
+          ],
+          "content": "f ( x ) + t \\alpha \\leq p ( x + t x _ { 0 } ) \\quad \\forall x \\in D ( f ) \\quad { \\mathrm { a n d } } \\quad \\forall t \\in \\mathbb { R } .",
+          "image_source": "images/page_16_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.893,
+            0.465,
+            0.911
+          ],
+          "content": "In view of (1) it suffices to check that"
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.041,
+            0.816,
+            0.057
+          ],
+          "content": "1.1 The Analytic Form of the Hahn–Banach Theorem: Extension of Linear Functionals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.88,
+            0.042,
+            0.896,
+            0.054
+          ],
+          "content": "3"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.295,
+            0.069,
+            0.678,
+            0.118
+          ],
+          "content": "\\begin{cases}f(x) + \\alpha \\leq p(x + x_0) & \\forall x \\in D(f), \\\\f(x) - \\alpha \\leq p(x - x_0) & \\forall x \\in D(f).\\end{cases}",
+          "image_source": "images/page_17_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.131,
+            0.558,
+            0.149
+          ],
+          "content": "In other words, we must find some α satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.199,
+            0.164,
+            0.798,
+            0.195
+          ],
+          "content": "\\operatorname* { s u p } _ { y \\in D ( f ) } \\{ f ( y ) - p ( y - x _ { 0 } ) \\} \\leq \\alpha \\leq \\operatorname* { i n f } _ { x \\in D ( f ) } \\{ p ( x + x _ { 0 } ) - f ( x ) \\} .",
+          "image_source": "images/page_17_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.209,
+            0.326,
+            0.227
+          ],
+          "content": "Such an α exists, since"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.162,
+            0.243,
+            0.833,
+            0.263
+          ],
+          "content": "f(y) - p(y - x_0) \\leq p(x + x_0) - f(x) \\quad \\forall x \\in D(f), \\quad \\forall y \\in D(f);",
+          "image_source": "images/page_17_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.277,
+            0.403,
+            0.295
+          ],
+          "content": "indeed, it follows from (2) that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.242,
+            0.311,
+            0.755,
+            0.33
+          ],
+          "content": "f ( x ) + f ( y ) \\leq p ( x + y ) \\leq p ( x + x _ { 0 } ) + p ( y - x _ { 0 } ) .",
+          "image_source": "images/page_17_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.345,
+            0.857,
+            0.364
+          ],
+          "content": "We conclude that $f \\leq h$ ; but this is impossible, since $f$ is maximal and $h \\neq f$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.381,
+            0.897,
+            0.42
+          ],
+          "content": "We now describe some simple applications of Theorem 1.1 to the case in which E is a normed vector space $( \\mathrm { n . v . s . } )$ with norm ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.434,
+            0.897,
+            0.471
+          ],
+          "content": "**Notation.** We denote by $E ^ { \\star }$ the dual space of E, that is, the space of all continuous linear functionals on $E ;$ the (dual) norm on $E ^ { \\star }$ is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.485,
+            0.678,
+            0.528
+          ],
+          "content": "\\| f \\|_{E^{\\star}} = \\sup_{\\substack{\\| x \\| \\leq 1 \\\\ x \\in E}} | f(x) | = \\sup_{\\substack{\\| x \\| \\leq 1 \\\\ x \\in E}} f(x).\\tag{5}",
+          "image_source": "images/page_17_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.541,
+            0.77,
+            0.559
+          ],
+          "content": "When there is no confusion we shall also write $\\| f \\|$ instead of $\\| f \\| _ { E ^ { \\star } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.559,
+            0.897,
+            0.596
+          ],
+          "content": "Given $f \\in E ^ { \\star }$ and $x \\in E$ we shall often write $\\langle f , x \\rangle$ instead of $f ( x )$ ; we say that $\\langle   ,   \\rangle$ is the scalar product for the duality $E ^ { \\star } , E$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.596,
+            0.896,
+            0.634
+          ],
+          "content": "It is well known that $E ^ { \\star }$ is a Banach space, i.e., $E ^ { \\star }$ is complete (even if E is not); this follows from the fact that R is complete."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.643,
+            0.897,
+            0.68
+          ],
+          "content": "• **Corollary 1.2.** Let $G \\subset E$ be a linear subspace. If $g : G \\to \\mathbb { R }$ is a continuous linear functional, then there exists $f \\in E ^ { \\star }$ that extends g and such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.695,
+            0.655,
+            0.736
+          ],
+          "content": "\\| f \\|_{E^{\\star}} = \\sup_{\\substack{x \\in G \\\\ \\| x \\| \\leq 1}} |g(x)| = \\| g \\|_{G^{\\star}}.",
+          "image_source": "images/page_17_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.75,
+            0.576,
+            0.768
+          ],
+          "content": "Proof. Use Theorem 1.1 with $p ( x ) = \\| g \\| _ { G ^ { \\star } } \\| x \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.778,
+            0.728,
+            0.797
+          ],
+          "content": "• **Corollary 1.3.** For every $x _ { 0 } \\in E$ there exists $f _ { 0 } \\in E ^ { \\star }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.325,
+            0.81,
+            0.673,
+            0.832
+          ],
+          "content": "\\| \\mathbf { \\nabla } f _ { 0 } \\| = \\| x _ { 0 } \\| \\; a n d \\; \\langle f _ { 0 } , x _ { 0 } \\rangle = \\| x _ { 0 } \\| ^ { 2 } .",
+          "image_source": "images/page_17_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.845,
+            0.895,
+            0.865
+          ],
+          "content": "Proof. Use Corollary 1.2 with $G = \\mathbb { R } x _ { 0 }$ and $g ( t x _ { 0 } ) = t \\| x _ { 0 } \\| ^ { 2 }$ , so that $\\| g \\| _ { G ^ { \\star } } = \\| x _ { 0 } \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.874,
+            0.898,
+            0.912
+          ],
+          "content": "Remark 2. The element $f _ { 0 }$ given by Corollary 1.3 is in general not unique (try to construct an example or see Exercise 1.2). However, if $E ^ { \\star }$ is strictly con-"
+        }
+      ]
+    },
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.102,
+            0.042,
+            0.12,
+            0.054
+          ],
+          "content": "4"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.04,
+            0.897,
+            0.057
+          ],
+          "content": "1 The Hahn–Banach Theorems. Introduction to the Theory of Conjugate Convex Functions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.072,
+            0.896,
+            0.111
+          ],
+          "continues_prev": true,
+          "content": "vex<sup>2</sup>—for example if E is a Hilbert space (see Chapter 5) or if $E   =   L ^ { p } ( \\Omega )$ with $1 < p < \\infty$ (see Chapter 4)—then $f _ { 0 }$ is unique. In general, we set, for every $x _ { 0 } \\in E$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.221,
+            0.123,
+            0.775,
+            0.155
+          ],
+          "content": "F ( x _ { 0 } ) = \\left\\{ f _ { 0 } \\in E ^ { \\star } ;   \\| f _ { 0 } \\| = \\| x _ { 0 } \\| \\mathrm { ~ a n d ~ } \\langle f _ { 0 } , x _ { 0 } \\rangle = \\| x _ { 0 } \\| ^ { 2 } \\right\\} .",
+          "image_source": "images/page_18_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.167,
+            0.898,
+            0.205
+          ],
+          "content": "The (multivalued) map $x _ { 0 } \\mapsto F ( x _ { 0 } )$ is called the duality map from $E$ into $E ^ { \\star }$ ; some of its properties are described in Exercises 1.1, 1.2, and 3.28 and Problem 13."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.213,
+            0.514,
+            0.232
+          ],
+          "content": "• **Corollary 1.4.** For every $x \\in E$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.245,
+            0.682,
+            0.291
+          ],
+          "content": "\\| x \\| = \\sup_{\\substack{f \\in E^{\\star} \\\\ \\| f \\| \\leq 1}} | \\langle f, x \\rangle | = \\max_{\\substack{f \\in E^{\\star} \\\\ \\| f \\| \\leq 1}} | \\langle f, x \\rangle |.\\tag{6}",
+          "image_source": "images/page_18_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.304,
+            0.652,
+            0.324
+          ],
+          "content": "Proof. We may always assume that $x \\neq 0$ . It is clear that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.394,
+            0.338,
+            0.603,
+            0.384
+          ],
+          "content": "\\sup_{\\substack{f \\in E^{\\star} \\\\ \\|f\\| \\leq 1}} |\\langle f, x\\rangle| \\leq \\|x\\|.",
+          "image_source": "images/page_18_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.397,
+            0.898,
+            0.454
+          ],
+          "content": "On the other hand, we know from Corollary 1.3 that there is some $f _ { 0 } \\in E ^ { \\star }$ such that $\\| f _ { 0 } \\|   =   \\| x \\|$ and $\\langle f _ { 0 } , x \\rangle   =   \\| x \\| ^ { 2 }$ . Set $f _ { 1 }   =   f _ { 0 } / \\| x \\|$ , so that $\\| f _ { 1 } \\|   =   1$ and $\\langle f _ { 1 } , x \\rangle = \\| x \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.461,
+            0.898,
+            0.574
+          ],
+          "content": "Remark 3. Formula (5)—which is a definition—should not be confused with formula (6), which is a statement. In general, the “sup” in (5) is not achieved; see, e.g., Exercise 1.3. However, the “sup” in (5) is achieved if E is a reflexive Banach space (see Chapter 3); a deep result due to R. C. James asserts the converse: if E is a Banach space such that for every $f \\in E ^ { \\star }$ the sup in (5) is achieved, then E is reflexive; see, e.g., J. Diestel [1, Chapter 1] or R. Holmes [1]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.102,
+            0.619,
+            0.804,
+            0.661
+          ],
+          "level": 2,
+          "content": "1.2 The Geometric Forms of the Hahn–Banach Theorem: Separation of Convex Sets"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.686,
+            0.897,
+            0.722
+          ],
+          "content": "We start with some preliminary facts about hyperplanes. In the following, E denotes an n.v.s."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.732,
+            0.721,
+            0.751
+          ],
+          "content": "**Definition.** An affine hyperplane is a subset H of E of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.371,
+            0.765,
+            0.626,
+            0.784
+          ],
+          "content": "H = \\{ x \\in E   ;   f ( x ) = \\alpha \\} ,",
+          "image_source": "images/page_18_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.798,
+            0.897,
+            0.837
+          ],
+          "content": "where $f$ is a linear functional<sup>3</sup> that does not vanish identically and $\\alpha \\in \\mathbb { R }$ is a given constant. We write $H = [ f = \\alpha ]$ and say that $f = \\alpha$ is the equation of H."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.512,
+            0.846,
+            0.851,
+            0.861
+          ],
+          "content": "x + ( − )y < , ∈ ( , ), x, y"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.104,
+            0.861,
+            0.232,
+            0.877
+          ],
+          "content": "||x∥=∥|y∥= 1"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.27,
+            0.862,
+            0.328,
+            0.877
+          ],
+          "content": "y ;"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.309,
+            0.88,
+            0.328,
+            0.896
+          ],
+          "content": "f"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1,
+            0.844,
+            0.898,
+            0.878
+          ],
+          "content": "$^ 2 \\mathrm { ~ A ~ }$ normed space is said to be strictly convex if t 1 t 1 ∀t 0 1 ∀ with x = y = and x \t= see Exercise 1.26."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1,
+            0.878,
+            0.898,
+            0.911
+          ],
+          "content": "3 We do not assume that  is continuous (in every infinite-dimensional normed space there exist discontinuous linear functionals; see Exercise 1.5)."
+        }
+      ]
+    },
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.102,
+            0.041,
+            0.795,
+            0.057
+          ],
+          "content": "1.2 The Geometric Forms of the Hahn–Banach Theorem: Separation of Convex Sets"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.88,
+            0.042,
+            0.897,
+            0.055
+          ],
+          "content": "5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.073,
+            0.897,
+            0.109
+          ],
+          "content": "**Proposition 1.5.** The hyperplane $H = [ f = \\alpha ]$ is closed if and only if f is continuous."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.125,
+            0.898,
+            0.18
+          ],
+          "content": "Proof. It is clear that if f is continuous then H is closed. Conversely, let us assume that H is closed. The complement $H ^ { c }$ of H is open and nonempty (since f does not vanish identically). Let $x _ { 0 } \\in H ^ { c }$ , so that $f ( x _ { 0 } ) \\neq \\alpha$ , for example, $f ( x _ { 0 } ) < \\alpha$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.18,
+            0.541,
+            0.198
+          ],
+          "content": "Fix $r > 0$ such that $B ( x _ { 0 } , r ) \\subset H ^ { c }$ , where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.325,
+            0.214,
+            0.674,
+            0.233
+          ],
+          "content": "B ( x _ { 0 } , r ) = \\{ x \\in E   ;   \\| x - x _ { 0 } \\| < r \\} .",
+          "image_source": "images/page_19_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.248,
+            0.242,
+            0.265
+          ],
+          "content": "We claim that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.282,
+            0.632,
+            0.3
+          ],
+          "content": "f ( x ) < \\alpha \\quad \\forall x \\in B ( x _ { 0 } , r ) .\\tag{7}",
+          "image_source": "images/page_19_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.315,
+            0.898,
+            0.353
+          ],
+          "content": "Indeed, suppose by contradiction that $f(x_{1}) > \\alpha$ for some $x _ { 1 } \\; \\in \\; B ( x _ { 0 } , r )$ . The segment"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.353,
+            0.664,
+            0.37
+          ],
+          "content": "\\{ x _ { t } = ( 1 - t ) x _ { 0 } + t x _ { 1 }   ;   t \\in [ 0 , 1 ] \\}",
+          "image_source": "images/page_19_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.38,
+            0.898,
+            0.435
+          ],
+          "content": "is contained in $B ( x _ { 0 } , r )$ and thus $f(x_t) \\neq \\alpha,   \\forall t \\in [0,1]$ ; on the other hand, $f ( x _ { t } ) =$ α for some $t \\in [ 0 , 1 ]$ , namely $\\begin{array} { r } { t = \\frac { f ( x _ { 1 } ) - \\alpha } { f ( x _ { 1 } ) - f ( x _ { 0 } ) } } \\end{array}$ , a contradiction, and thus (7) is proved. It follows from (7) that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.45,
+            0.656,
+            0.469
+          ],
+          "content": "f ( x _ { 0 } + r z ) < \\alpha \\quad \\forall z \\in B ( 0 , 1 ) .",
+          "image_source": "images/page_19_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.483,
+            0.652,
+            0.505
+          ],
+          "content": "Consequently, f is continuous and $\\begin{array} { r } { \\| f \\| \\leq \\frac { 1 } { r } ( \\alpha - f ( x _ { 0 } ) ) } \\end{array}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.517,
+            0.896,
+            0.555
+          ],
+          "content": "**Definition.** Let A and B be two subsets of E. We say that the hyperplane $H = [ f =$ α] separates A and B if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.251,
+            0.57,
+            0.745,
+            0.594
+          ],
+          "content": "\\boxed { f ( x ) \\leq \\alpha \\quad \\forall x \\in A \\quad \\mathrm { a n d } \\quad f ( x ) \\geq \\alpha \\quad \\forall x \\in B . }",
+          "image_source": "images/page_19_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.608,
+            0.841,
+            0.627
+          ],
+          "content": "We say that H strictly separates A and B if there exists some $\\varepsilon > 0$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.231,
+            0.642,
+            0.766,
+            0.665
+          ],
+          "content": "\\boxed{f(x) \\leq \\alpha - \\varepsilon \\quad \\forall x \\in A   and   f(x) \\geq \\alpha + \\varepsilon \\quad \\forall x \\in B.}",
+          "image_source": "images/page_19_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.68,
+            0.896,
+            0.716
+          ],
+          "content": "Geometrically, the separation means that A lies in one of the half-spaces determined by H, and B lies in the other; see Figure 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.717,
+            0.612,
+            0.735
+          ],
+          "content": "Finally, we recall that a subset $A \\subset E$ is convex if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.267,
+            0.751,
+            0.73,
+            0.773
+          ],
+          "content": "\\boxed{tx + (1 - t)y \\in A \\quad \\forall x,y \\in A, \\quad \\forall t \\in [0,1].}",
+          "image_source": "images/page_19_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.788,
+            0.897,
+            0.844
+          ],
+          "content": "• **Theorem 1.6 (Hahn–Banach, first geometric form).** Let $A \\subset E$ and $B \\subset E$ be two nonempty convex subsets such that $A \\cap B = \\varnothing . A s s u m e$ that one of them is open. Then there exists a closed hyperplane that separates A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.859,
+            0.728,
+            0.877
+          ],
+          "content": "The proof of Theorem 1.6 relies on the following two lemmas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.893,
+            0.863,
+            0.912
+          ],
+          "content": "**Lemma 1.2.** Let $C \\subset E$ be an open convex set with $0 \\in C$ . For every $x \\in E$ set"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 17,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 18,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 19,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

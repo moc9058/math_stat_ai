@@ -1,0 +1,2138 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 17,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 18,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 19,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.102,
+            0.041,
+            0.12,
+            0.054
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.041,
+            0.897,
+            0.057
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 The Hahn–Banach Theorems. Introduction to the Theory of Conjugate Convex Functions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.099,
+            0.073,
+            0.898,
+            0.108
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "x \\in P"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\leq x"
+            },
+            {
+              "type": "text",
+              "content": " , except for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = m"
+            },
+            {
+              "type": "text",
+              "content": " . Note that a maximal element of P need not be an upper bound for P."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.099,
+            0.109,
+            0.898,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We say that P is inductive if every totally ordered subset Q in P has an upper bound."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.099,
+            0.167,
+            0.898,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Lemma 1.1 (Zorn).",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Every nonempty ordered set that is inductive has a maximal element."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.099,
+            0.224,
+            0.898,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Zorn’s lemma follows from the axiom of choice, but we shall not discuss its derivation here; see, e.g., J. Dugundji [1], N. Dunford–J. T. Schwartz [1] (Volume 1, Theorem 1.2.7), E. Hewitt–K. Stromberg [1], S. Lang [1], and A. Knapp [1]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.098,
+            0.3,
+            0.899,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark 1. Zorn’s lemma has many important applications in analysis. It is a basic tool in proving some seemingly innocent existence statements such as “every vector space has a basis” (see Exercise 1.5) and “on any vector space there are nontrivial linear functionals.” Most analysts do not know how to prove Zorn’s lemma; but it is quite essential for an analyst to understand the statement of Zorn’s lemma and to be able to use it properly!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1,
+            0.432,
+            0.465,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof of Lemma 1.2. Consider the set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.137,
+            0.463,
+            0.858,
+            0.531
+          ],
+          "image_path": "images/page_16_equation_8.jpg",
+          "content": "P = \\left\\{ h : D ( h ) \\subset E \\to \\mathbb { R } \\left| \\begin{aligned} & D ( h ) \\text { is a linear subspace of } E, \\\\ & h \\text { is linear, } G \\subset D ( h ), \\\\ & h \\text { extends } g, \\operatorname { and } h ( x ) \\leq p ( x ) \\quad \\forall x \\in D ( h ) \\end{aligned} \\right. \\right\\}."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1,
+            0.544,
+            0.43,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On P we define the order relation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.249,
+            0.577,
+            0.745,
+            0.596
+          ],
+          "image_path": "images/page_16_equation_10.jpg",
+          "content": "( h _ { 1 } \\leq h _ { 2 } ) \\Leftrightarrow ( D ( h _ { 1 } ) \\subset D ( h _ { 2 } ) { \\mathrm { ~ a n d ~ } } h _ { 2 } { \\mathrm { ~ e x t e n d s ~ } } h _ { 1 } )   ."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.101,
+            0.611,
+            0.898,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is clear that P is nonempty, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in P"
+            },
+            {
+              "type": "text",
+              "content": " . We claim that P is inductive. Indeed, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\subset P"
+            },
+            {
+              "type": "text",
+              "content": " be a totally ordered subset; we write Q as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Q } = ( h _ { i } ) _ { i \\in I }"
+            },
+            {
+              "type": "text",
+              "content": " and we set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.2,
+            0.663,
+            0.798,
+            0.702
+          ],
+          "image_path": "images/page_16_equation_12.jpg",
+          "content": "D(h) = \\bigcup_{i \\in I} D(h_i), \\quad h(x) = h_i(x) \\quad  if   x \\in D(h_i)   for some   i."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1,
+            0.714,
+            0.899,
+            0.786
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is easy to see that the definition of h makes sense, that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h   \\in   P"
+            },
+            {
+              "type": "text",
+              "content": " , and that h is an upper bound for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q ."
+            },
+            {
+              "type": "text",
+              "content": " . We may therefore apply Zorn’s lemma, and so we have a maximal element f in P. We claim that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D ( f ) = E"
+            },
+            {
+              "type": "text",
+              "content": " , which completes the proof of Theorem 1.1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.1,
+            0.788,
+            0.898,
+            0.843
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose, by contradiction, that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D(f) \\neq E"
+            },
+            {
+              "type": "text",
+              "content": " . Let x0 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\notin D ( f )"
+            },
+            {
+              "type": "text",
+              "content": " ; set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D(h) = D(f) +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " , and for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x   \\in   D ( f )"
+            },
+            {
+              "type": "text",
+              "content": " , set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( x   +   t x _ { 0 } )   =   f ( x )   +   t \\alpha   ( t   \\in   \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": " , where the constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " will be chosen in such a way that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in P"
+            },
+            {
+              "type": "text",
+              "content": " . We must ensure that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.232,
+            0.859,
+            0.765,
+            0.878
+          ],
+          "image_path": "images/page_16_equation_15.jpg",
+          "content": "f ( x ) + t \\alpha \\leq p ( x + t x _ { 0 } ) \\quad \\forall x \\in D ( f ) \\quad { \\mathrm { a n d } } \\quad \\forall t \\in \\mathbb { R } ."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.1,
+            0.893,
+            0.465,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In view of (1) it suffices to check that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.102,
+            0.041,
+            0.816,
+            0.057
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1 The Analytic Form of the Hahn–Banach Theorem: Extension of Linear Functionals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.88,
+            0.042,
+            0.896,
+            0.054
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.295,
+            0.069,
+            0.678,
+            0.118
+          ],
+          "image_path": "images/page_17_equation_2.jpg",
+          "content": "\\begin{cases}f(x) + \\alpha \\leq p(x + x_0) & \\forall x \\in D(f), \\\\f(x) - \\alpha \\leq p(x - x_0) & \\forall x \\in D(f).\\end{cases}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1,
+            0.131,
+            0.558,
+            0.149
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In other words, we must find some α satisfying"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.199,
+            0.164,
+            0.798,
+            0.195
+          ],
+          "image_path": "images/page_17_equation_4.jpg",
+          "content": "\\operatorname* { s u p } _ { y \\in D ( f ) } \\{ f ( y ) - p ( y - x _ { 0 } ) \\} \\leq \\alpha \\leq \\operatorname* { i n f } _ { x \\in D ( f ) } \\{ p ( x + x _ { 0 } ) - f ( x ) \\} ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.101,
+            0.209,
+            0.326,
+            0.227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Such an α exists, since"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.162,
+            0.243,
+            0.833,
+            0.263
+          ],
+          "image_path": "images/page_17_equation_6.jpg",
+          "content": "f(y) - p(y - x_0) \\leq p(x + x_0) - f(x) \\quad \\forall x \\in D(f), \\quad \\forall y \\in D(f);"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1,
+            0.277,
+            0.403,
+            0.295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "indeed, it follows from (2) that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.242,
+            0.311,
+            0.755,
+            0.33
+          ],
+          "image_path": "images/page_17_equation_8.jpg",
+          "content": "f ( x ) + f ( y ) \\leq p ( x + y ) \\leq p ( x + x _ { 0 } ) + p ( y - x _ { 0 } ) ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1,
+            0.345,
+            0.857,
+            0.364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We conclude that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\leq h"
+            },
+            {
+              "type": "text",
+              "content": " ; but this is impossible, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " is maximal and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\neq f"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.102,
+            0.381,
+            0.897,
+            0.42
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now describe some simple applications of Theorem 1.1 to the case in which E is a normed vector space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathrm { n . v . s . } )"
+            },
+            {
+              "type": "text",
+              "content": " with norm ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.1,
+            0.434,
+            0.897,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notation.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " the dual space of E, that is, the space of all continuous linear functionals on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ;"
+            },
+            {
+              "type": "text",
+              "content": " the (dual) norm on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.102,
+            0.485,
+            0.678,
+            0.528
+          ],
+          "image_path": "images/page_17_equation_12.jpg",
+          "content": "\\| f \\|_{E^{\\star}} = \\sup_{\\substack{\\| x \\| \\leq 1 \\\\ x \\in E}} | f(x) | = \\sup_{\\substack{\\| x \\| \\leq 1 \\\\ x \\in E}} f(x).\\tag{5}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1,
+            0.541,
+            0.77,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When there is no confusion we shall also write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\|"
+            },
+            {
+              "type": "text",
+              "content": " instead of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f \\| _ { E ^ { \\star } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.102,
+            0.559,
+            0.897,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in E"
+            },
+            {
+              "type": "text",
+              "content": " we shall often write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f , x \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " instead of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x )"
+            },
+            {
+              "type": "text",
+              "content": " ; we say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle   ,   \\rangle"
+            },
+            {
+              "type": "text",
+              "content": " is the scalar product for the duality "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star } , E"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.1,
+            0.596,
+            0.896,
+            0.634
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is well known that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " is a Banach space, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " is complete (even if E is not); this follows from the fact that R is complete."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.1,
+            0.643,
+            0.897,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Corollary 1.2.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " be a linear subspace. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g : G \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " is a continuous linear functional, then there exists "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " that extends g and such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.342,
+            0.695,
+            0.655,
+            0.736
+          ],
+          "image_path": "images/page_17_equation_17.jpg",
+          "content": "\\| f \\|_{E^{\\star}} = \\sup_{\\substack{x \\in G \\\\ \\| x \\| \\leq 1}} |g(x)| = \\| g \\|_{G^{\\star}}."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.101,
+            0.75,
+            0.576,
+            0.768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Use Theorem 1.1 with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x ) = \\| g \\| _ { G ^ { \\star } } \\| x \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.1,
+            0.778,
+            0.728,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Corollary 1.3.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " For every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } \\in E"
+            },
+            {
+              "type": "text",
+              "content": " there exists "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } \\in E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.325,
+            0.81,
+            0.673,
+            0.832
+          ],
+          "image_path": "images/page_17_equation_20.jpg",
+          "content": "\\| \\mathbf { \\nabla } f _ { 0 } \\| = \\| x _ { 0 } \\| \\; a n d \\; \\langle f _ { 0 } , x _ { 0 } \\rangle = \\| x _ { 0 } \\| ^ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.1,
+            0.845,
+            0.895,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Use Corollary 1.2 with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\mathbb { R } x _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ( t x _ { 0 } ) = t \\| x _ { 0 } \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| g \\| _ { G ^ { \\star } } = \\| x _ { 0 } \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.1,
+            0.874,
+            0.898,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark 2. The element "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " given by Corollary 1.3 is in general not unique (try to construct an example or see Exercise 1.2). However, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " is strictly con-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.102,
+            0.042,
+            0.12,
+            0.054
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.04,
+            0.897,
+            0.057
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 The Hahn–Banach Theorems. Introduction to the Theory of Conjugate Convex Functions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1,
+            0.072,
+            0.896,
+            0.111
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "vex"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "—for example if E is a Hilbert space (see Chapter 5) or if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E   =   L ^ { p } ( \\Omega )"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 < p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": " (see Chapter 4)—then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is unique. In general, we set, for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } \\in E"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.221,
+            0.123,
+            0.775,
+            0.155
+          ],
+          "image_path": "images/page_18_equation_3.jpg",
+          "content": "F ( x _ { 0 } ) = \\left\\{ f _ { 0 } \\in E ^ { \\star } ;   \\| f _ { 0 } \\| = \\| x _ { 0 } \\| \\mathrm { ~ a n d ~ } \\langle f _ { 0 } , x _ { 0 } \\rangle = \\| x _ { 0 } \\| ^ { 2 } \\right\\} ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.099,
+            0.167,
+            0.898,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The (multivalued) map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } \\mapsto F ( x _ { 0 } )"
+            },
+            {
+              "type": "text",
+              "content": " is called the duality map from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E"
+            },
+            {
+              "type": "text",
+              "content": " into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " ; some of its properties are described in Exercises 1.1, 1.2, and 3.28 and Problem 13."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1,
+            0.213,
+            0.514,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Corollary 1.4.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " For every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in E"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.102,
+            0.245,
+            0.682,
+            0.291
+          ],
+          "image_path": "images/page_18_equation_6.jpg",
+          "content": "\\| x \\| = \\sup_{\\substack{f \\in E^{\\star} \\\\ \\| f \\| \\leq 1}} | \\langle f, x \\rangle | = \\max_{\\substack{f \\in E^{\\star} \\\\ \\| f \\| \\leq 1}} | \\langle f, x \\rangle |.\\tag{6}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.101,
+            0.304,
+            0.652,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. We may always assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " . It is clear that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.394,
+            0.338,
+            0.603,
+            0.384
+          ],
+          "image_path": "images/page_18_equation_8.jpg",
+          "content": "\\sup_{\\substack{f \\in E^{\\star} \\\\ \\|f\\| \\leq 1}} |\\langle f, x\\rangle| \\leq \\|x\\|."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1,
+            0.397,
+            0.898,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the other hand, we know from Corollary 1.3 that there is some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 0 } \\in E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { 0 } \\|   =   \\| x \\|"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f _ { 0 } , x \\rangle   =   \\| x \\| ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 }   =   f _ { 0 } / \\| x \\|"
+            },
+            {
+              "type": "text",
+              "content": " , so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\| f _ { 1 } \\|   =   1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f _ { 1 } , x \\rangle = \\| x \\|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.099,
+            0.461,
+            0.898,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark 3. Formula (5)—which is a definition—should not be confused with formula (6), which is a statement. In general, the “sup” in (5) is not achieved; see, e.g., Exercise 1.3. However, the “sup” in (5) is achieved if E is a reflexive Banach space (see Chapter 3); a deep result due to R. C. James asserts the converse: if E is a Banach space such that for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " the sup in (5) is achieved, then E is reflexive; see, e.g., J. Diestel [1, Chapter 1] or R. Holmes [1]."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.102,
+            0.619,
+            0.804,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2 The Geometric Forms of the Hahn–Banach Theorem: Separation of Convex Sets"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.099,
+            0.686,
+            0.897,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We start with some preliminary facts about hyperplanes. In the following, E denotes an n.v.s."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.099,
+            0.732,
+            0.721,
+            0.751
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Definition.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " An affine hyperplane is a subset H of E of the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.371,
+            0.765,
+            0.626,
+            0.784
+          ],
+          "image_path": "images/page_18_equation_14.jpg",
+          "content": "H = \\{ x \\in E   ;   f ( x ) = \\alpha \\} ,"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.1,
+            0.798,
+            0.897,
+            0.837
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " is a linear functional"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " that does not vanish identically and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": " is a given constant. We write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H = [ f = \\alpha ]"
+            },
+            {
+              "type": "text",
+              "content": " and say that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = \\alpha"
+            },
+            {
+              "type": "text",
+              "content": " is the equation of H."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 16,
+          "bbox": [
+            0.512,
+            0.846,
+            0.851,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "x + ( − )y < , ∈ ( , ), x, y"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 17,
+          "bbox": [
+            0.104,
+            0.861,
+            0.232,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "||x∥=∥|y∥= 1"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 18,
+          "bbox": [
+            0.27,
+            0.862,
+            0.328,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y ;"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 19,
+          "bbox": [
+            0.309,
+            0.88,
+            0.328,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "f"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 20,
+          "bbox": [
+            0.1,
+            0.844,
+            0.898,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^ 2 \\mathrm { ~ A ~ }"
+            },
+            {
+              "type": "text",
+              "content": " normed space is said to be strictly convex if t 1 t 1 ∀t 0 1 ∀ with x = y = and x \t= see Exercise 1.26."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 21,
+          "bbox": [
+            0.1,
+            0.878,
+            0.898,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 We do not assume that  is continuous (in every infinite-dimensional normed space there exist discontinuous linear functionals; see Exercise 1.5)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.102,
+            0.041,
+            0.795,
+            0.057
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2 The Geometric Forms of the Hahn–Banach Theorem: Separation of Convex Sets"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.88,
+            0.042,
+            0.897,
+            0.055
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1,
+            0.073,
+            0.897,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 1.5.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The hyperplane "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H = [ f = \\alpha ]"
+            },
+            {
+              "type": "text",
+              "content": " is closed if and only if f is continuous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1,
+            0.125,
+            0.898,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. It is clear that if f is continuous then H is closed. Conversely, let us assume that H is closed. The complement "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ^ { c }"
+            },
+            {
+              "type": "text",
+              "content": " of H is open and nonempty (since f does not vanish identically). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } \\in H ^ { c }"
+            },
+            {
+              "type": "text",
+              "content": " , so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x _ { 0 } ) \\neq \\alpha"
+            },
+            {
+              "type": "text",
+              "content": " , for example, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x _ { 0 } ) < \\alpha"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.127,
+            0.18,
+            0.541,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( x _ { 0 } , r ) \\subset H ^ { c }"
+            },
+            {
+              "type": "text",
+              "content": " , where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.325,
+            0.214,
+            0.674,
+            0.233
+          ],
+          "image_path": "images/page_19_equation_5.jpg",
+          "content": "B ( x _ { 0 } , r ) = \\{ x \\in E   ;   \\| x - x _ { 0 } \\| < r \\} ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1,
+            0.248,
+            0.242,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We claim that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.102,
+            0.282,
+            0.632,
+            0.3
+          ],
+          "image_path": "images/page_19_equation_7.jpg",
+          "content": "f ( x ) < \\alpha \\quad \\forall x \\in B ( x _ { 0 } , r ) .\\tag{7}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1,
+            0.315,
+            0.898,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Indeed, suppose by contradiction that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x_{1}) > \\alpha"
+            },
+            {
+              "type": "text",
+              "content": " for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } \\; \\in \\; B ( x _ { 0 } , r )"
+            },
+            {
+              "type": "text",
+              "content": " . The segment"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.335,
+            0.353,
+            0.664,
+            0.37
+          ],
+          "image_path": "images/page_19_equation_9.jpg",
+          "content": "\\{ x _ { t } = ( 1 - t ) x _ { 0 } + t x _ { 1 }   ;   t \\in [ 0 , 1 ] \\}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.1,
+            0.38,
+            0.898,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is contained in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( x _ { 0 } , r )"
+            },
+            {
+              "type": "text",
+              "content": " and thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x_t) \\neq \\alpha,   \\forall t \\in [0,1]"
+            },
+            {
+              "type": "text",
+              "content": " ; on the other hand, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x _ { t } ) ="
+            },
+            {
+              "type": "text",
+              "content": " α for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in [ 0 , 1 ]"
+            },
+            {
+              "type": "text",
+              "content": " , namely "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { t = \\frac { f ( x _ { 1 } ) - \\alpha } { f ( x _ { 1 } ) - f ( x _ { 0 } ) } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " , a contradiction, and thus (7) is proved. It follows from (7) that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.342,
+            0.45,
+            0.656,
+            0.469
+          ],
+          "image_path": "images/page_19_equation_11.jpg",
+          "content": "f ( x _ { 0 } + r z ) < \\alpha \\quad \\forall z \\in B ( 0 , 1 ) ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.1,
+            0.483,
+            0.652,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consequently, f is continuous and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\| f \\| \\leq \\frac { 1 } { r } ( \\alpha - f ( x _ { 0 } ) ) } \\end{array}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.099,
+            0.517,
+            0.896,
+            0.555
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Definition.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let A and B be two subsets of E. We say that the hyperplane "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H = [ f ="
+            },
+            {
+              "type": "text",
+              "content": " α] separates A and B if"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.251,
+            0.57,
+            0.745,
+            0.594
+          ],
+          "image_path": "images/page_19_equation_14.jpg",
+          "content": "\\boxed { f ( x ) \\leq \\alpha \\quad \\forall x \\in A \\quad \\mathrm { a n d } \\quad f ( x ) \\geq \\alpha \\quad \\forall x \\in B . }"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.099,
+            0.608,
+            0.841,
+            0.627
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We say that H strictly separates A and B if there exists some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.231,
+            0.642,
+            0.766,
+            0.665
+          ],
+          "image_path": "images/page_19_equation_16.jpg",
+          "content": "\\boxed{f(x) \\leq \\alpha - \\varepsilon \\quad \\forall x \\in A   and   f(x) \\geq \\alpha + \\varepsilon \\quad \\forall x \\in B.}"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.101,
+            0.68,
+            0.896,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Geometrically, the separation means that A lies in one of the half-spaces determined by H, and B lies in the other; see Figure 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.127,
+            0.717,
+            0.612,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, we recall that a subset "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " is convex if"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.267,
+            0.751,
+            0.73,
+            0.773
+          ],
+          "image_path": "images/page_19_equation_19.jpg",
+          "content": "\\boxed{tx + (1 - t)y \\in A \\quad \\forall x,y \\in A, \\quad \\forall t \\in [0,1].}"
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.1,
+            0.788,
+            0.897,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Theorem 1.6 (Hahn–Banach, first geometric form).",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " be two nonempty convex subsets such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap B = \\varnothing . A s s u m e"
+            },
+            {
+              "type": "text",
+              "content": " that one of them is open. Then there exists a closed hyperplane that separates A and B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.128,
+            0.859,
+            0.728,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of Theorem 1.6 relies on the following two lemmas."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.1,
+            0.893,
+            0.863,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 1.2.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " be an open convex set with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\in C"
+            },
+            {
+              "type": "text",
+              "content": " . For every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in E"
+            },
+            {
+              "type": "text",
+              "content": " set"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

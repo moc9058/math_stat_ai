@@ -1,4 +1,4 @@
-of $B$ to $\mathcal H_1''$. Clearly $B_1$ is invertible. If $P$ is the orthogonal projection of $\mathcal H'$ onto $\mathcal H_1'$, let $A_1:\mathcal H\to\mathcal H_1'$ be defined by $A_1=PA$. Now both $P$ and $A$ are left semi-Fredholm, so $A_1$ is left semi-Fredholm as was established at the opening of the proof.
+of $B$ to $\mathcal H_1'$. Clearly $B_1$ is invertible. If $P$ is the orthogonal projection of $\mathcal H'$ onto $\mathcal H_1'$, let $A_1:\mathcal H\to\mathcal H_1'$ be defined by $A_1=PA$. Now both $P$ and $A$ are left semi-Fredholm, so $A_1$ is left semi-Fredholm as was established at the opening of the proof.
 
 Note that Lemma 3.6(b) implies that $\dim(\operatorname{ran}A+\ker B)^\perp=\infty$. But $(\operatorname{ran}A_1)^\perp=\ker A_1^*=\ker A^*P=\ker B+(\ker A^*)\cap(\ker B)^\perp=\ker B+(\operatorname{ran}A+\ker B)^\perp$ and so $\operatorname{ind}A_1=-\infty$. According to Case 3, $\operatorname{ind}B_1A_1=-\infty$.
 

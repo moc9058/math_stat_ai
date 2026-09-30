@@ -1,9 +1,9 @@
 $\operatorname{gra} A$ 304  
-$\mathcal{C}(\mathcal{H},\mathcal{H}),\mathcal{C}(\mathcal{H})$ 304  
+$\mathcal{C}(\mathcal{H},\mathcal{K}),\mathcal{C}(\mathcal{H})$ 304  
 $\operatorname{dom} A^*$ 305  
 $\rho(A),\sigma(A)$ 307  
 $\mathcal{L}_{\pm},n_{\pm}$ 312  
-$\mathcal{H}_{\pm}$ 312  
+$\mathcal{K}_{\pm}$ 312  
 initial $W$ 314  
 $\|\cdot\|_{m,n},\mathcal{S}=\mathcal{S}(\mathbb{R})$ 336  
 $\hat f$ 337  

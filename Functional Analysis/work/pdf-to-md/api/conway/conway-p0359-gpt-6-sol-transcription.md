@@ -22,7 +22,7 @@ $$
 
 It is easy to see that $\mathcal H_0$ is a vector space and (7.4) defines a semi-inner product on $\mathcal H_0$. In fact, it is routine that $[\cdot,\cdot]$ is sesquilinear and condition (b) implies that $[x,x]\geqslant0$ for all $x$ in $\mathcal H_0$.
 
-Let $\mathcal N_0=\{x\in\mathcal H_0:[x,x]=0\}$ and let $\mathcal H_1$ be the quotient vector space $\mathcal H_0/\mathcal N_0$. If $h=x+\mathcal N_0$ and $f=y+\mathcal N_0\in\mathcal H_1$, then
+Let $\mathcal K_0=\{x\in\mathcal H_0:[x,x]=0\}$ and let $\mathcal H_1$ be the quotient vector space $\mathcal H_0/\mathcal K_0$. If $h=x+\mathcal K_0$ and $f=y+\mathcal K_0\in\mathcal H_1$, then
 
 $$
 \langle h,f\rangle\equiv[x,y] \tag{7.5}

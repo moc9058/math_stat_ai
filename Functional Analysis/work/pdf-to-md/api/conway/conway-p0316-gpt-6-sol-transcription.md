@@ -17,7 +17,7 @@ By Theorem 4.6, every normal operator is unitarily equivalent to a multiplicatio
 
 ## EXERCISES
 
-1. Let $A$ and $B$ be operators on $\mathcal H$ and $\mathcal H'$, respectively. Let $\mathcal H_0$ and $\mathcal H'_0$ be reducing subspaces for $A$ and $B$ and suppose that $A\cong B|_{\mathcal H'_0}$ and $B\cong A|_{\mathcal H_0}$. Show that $A\cong B$.
+1. Let $A$ and $B$ be operators on $\mathcal H$ and $\mathcal K$, respectively. Let $\mathcal H_0$ and $\mathcal K_0$ be reducing subspaces for $A$ and $B$ and suppose that $A\cong B|_{\mathcal K_0}$ and $B\cong A|_{\mathcal H_0}$. Show that $A\cong B$.
 
 2. Let $\mu_1,\mu_2,\ldots$ be compactly supported measures on $\mathbb C$ such that $\mu_{n+1}\ll\mu_n$ for all $n$. Show that if $M$ is any normal operator whose spectral measure is absolutely continuous with respect to each $\mu_n$, then
    $$

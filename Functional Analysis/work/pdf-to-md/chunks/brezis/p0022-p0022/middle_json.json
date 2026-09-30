@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.102,
+            0.04,
+            0.795,
+            0.057
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2 The Geometric Forms of the Hahn–Banach Theorem: Separation of Convex Sets"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.88,
+            0.041,
+            0.897,
+            0.054
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.394,
+            0.074,
+            0.603,
+            0.092
+          ],
+          "image_path": "images/page_21_equation_2.jpg",
+          "content": "g ( t x _ { 0 } ) = t , \\quad t \\in \\mathbb { R } ."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1,
+            0.107,
+            0.242,
+            0.124
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is clear that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.384,
+            0.125,
+            0.615,
+            0.144
+          ],
+          "image_path": "images/page_21_equation_4.jpg",
+          "content": "g ( x ) \\leq p ( x ) \\quad \\forall x \\in G"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.099,
+            0.153,
+            0.898,
+            0.19
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(consider the two cases "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t   >   0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\leq 0 )"
+            },
+            {
+              "type": "text",
+              "content": " . It follows from Theorem 1.1 that there exists a linear functional f on E that extends g and satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.381,
+            0.205,
+            0.618,
+            0.224
+          ],
+          "image_path": "images/page_21_equation_6.jpg",
+          "content": "f ( x ) \\leq p ( x ) \\quad \\forall x \\in E ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.099,
+            0.239,
+            0.898,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In particular, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x _ { 0 } ) = 1"
+            },
+            {
+              "type": "text",
+              "content": " and that f is continuous by (9). We deduce from (10) that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x ) < 1"
+            },
+            {
+              "type": "text",
+              "content": " for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1,
+            0.284,
+            0.898,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof of Theorem 1.6. Set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = A - B"
+            },
+            {
+              "type": "text",
+              "content": " , so that C is convex (check!), C is open (since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = \\bigcup_{y \\in B} (A - y))"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\notin C"
+            },
+            {
+              "type": "text",
+              "content": " (because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap B = \\varnothing )"
+            },
+            {
+              "type": "text",
+              "content": " . By Lemma 1.3 there is some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in E ^ { \\star }"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.4,
+            0.34,
+            0.598,
+            0.358
+          ],
+          "image_path": "images/page_21_equation_9.jpg",
+          "content": "f ( z ) < 0 \\quad \\forall z \\in C ,"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.1,
+            0.368,
+            0.174,
+            0.385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.326,
+            0.386,
+            0.671,
+            0.405
+          ],
+          "image_path": "images/page_21_equation_11.jpg",
+          "content": "f(x) < f(y) \\quad \\forall x \\in A, \\quad \\forall y \\in B."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.1,
+            0.414,
+            0.362,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fix a constant α satisfying"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.369,
+            0.448,
+            0.627,
+            0.478
+          ],
+          "image_path": "images/page_21_equation_13.jpg",
+          "content": "\\sup_{x \\in A} f(x) \\leq \\alpha \\leq \\inf_{y \\in B} f(y)."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.099,
+            0.49,
+            0.599,
+            0.51
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly, the hyperplane "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ f = \\alpha ]"
+            },
+            {
+              "type": "text",
+              "content": " separates A and B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.099,
+            0.517,
+            0.898,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• "
+            },
+            {
+              "type": "text",
+              "content": "Theorem 1.7 (Hahn–Banach, second geometric form).",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " be two nonempty convex subsets such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap B = \\varnothing ."
+            },
+            {
+              "type": "text",
+              "content": " . Assume that A is closed and B is compact. Then there exists a closed hyperplane that strictly separates A and B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.099,
+            0.582,
+            0.897,
+            0.655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C = A - B"
+            },
+            {
+              "type": "text",
+              "content": " , so that C is convex, closed (check!), and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\notin C"
+            },
+            {
+              "type": "text",
+              "content": " . Hence, there is some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r   >   0"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( 0 , r ) \\cap C = \\varnothing ."
+            },
+            {
+              "type": "text",
+              "content": " . By Theorem 1.6 there is a closed hyperplane that separates "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ( 0 , r )"
+            },
+            {
+              "type": "text",
+              "content": " and C. Therefore, there is some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in E ^ { \\star } ,   f \\not \\equiv 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.222,
+            0.671,
+            0.775,
+            0.69
+          ],
+          "image_path": "images/page_21_equation_17.jpg",
+          "content": "f(x - y) \\leq f(rz) \\quad \\forall x \\in A, \\quad \\forall y \\in B, \\quad \\forall z \\in B(0,1)."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.099,
+            0.704,
+            0.898,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x - y) \\leq - r \\| f \\| \\quad \\forall x \\in A, \\forall y \\in B"
+            },
+            {
+              "type": "text",
+              "content": " . Letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\varepsilon = \\frac { 1 } { 2 } r \\| f \\| > 0 } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " , we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.286,
+            0.743,
+            0.711,
+            0.761
+          ],
+          "image_path": "images/page_21_equation_19.jpg",
+          "content": "f(x) + \\varepsilon \\leq f(y) - \\varepsilon \\quad \\forall x \\in A, \\quad \\forall y \\in B."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.1,
+            0.77,
+            0.313,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Choosing α such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.328,
+            0.803,
+            0.667,
+            0.833
+          ],
+          "image_path": "images/page_21_equation_21.jpg",
+          "content": "\\sup_{x \\in A} f(x) + \\varepsilon \\leq \\alpha \\leq \\inf_{y \\in B} f(y) - \\varepsilon,"
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.1,
+            0.847,
+            0.701,
+            0.866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we see that the hyperplane "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ f = \\alpha ]"
+            },
+            {
+              "type": "text",
+              "content": " strictly separates A and B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.101,
+            0.875,
+            0.898,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark 4. Assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subset E"
+            },
+            {
+              "type": "text",
+              "content": " are two nonempty convex sets such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\cap B = \\varnothing"
+            },
+            {
+              "type": "text",
+              "content": " . If we make no further assumption, it is in general impossible to separate"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -32,11 +32,19 @@ def main() -> None:
         page = int(row["pdf_page"])
         if page >= 16:
             row["printed_page"] = str(page - 15)
-        current = next(((slug, title) for start, slug, title in reversed(boundaries) if start <= page), ("", ""))
+        current_index = next((index for index in range(len(boundaries) - 1, -1, -1)
+                              if boundaries[index][0] <= page), None)
+        current = ((boundaries[current_index][1], boundaries[current_index][2])
+                   if current_index is not None else ("", ""))
         chapter = current[1] if current[0].startswith("chapter-") else ""
         row["chapter"] = chapter
         if section_boundaries and chapter:
-            row["section"] = next((title for start, title in reversed(section_boundaries) if start <= page), "")
+            chapter_start = boundaries[current_index][0]
+            chapter_end = boundaries[current_index + 1][0] if current_index + 1 < len(boundaries) else TOTAL[book] + 1
+            row["section"] = next((title for start, title in reversed(section_boundaries)
+                                   if chapter_start <= start <= page and start < chapter_end), "")
+        else:
+            row["section"] = ""
         status_path = status_dir / f"{book.lower()}-p{page:04}-status.json"
         if status_path.exists():
             row["status"] = json.loads(status_path.read_text(encoding="utf-8"))["status"]

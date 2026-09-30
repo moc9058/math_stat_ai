@@ -12,8 +12,8 @@ $\vee A$ 11
 $\sum\{h_i:i\in I\}$ 16  
 $\mathbb{D}$ 21  
 $\hat f(n)$ 22  
-$\mathcal{H}\oplus\mathcal{H}, \oplus\{\mathcal{H}_i:i\in I\}$ 24  
-$\mathcal{B}(\mathcal{H},\mathcal{H}), \mathcal{B}(\mathcal{H})$ 27  
+$\mathcal{H}\oplus\mathcal{K}, \oplus\{\mathcal{H}_i:i\in I\}$ 24  
+$\mathcal{B}(\mathcal{H},\mathcal{K}), \mathcal{B}(\mathcal{H})$ 27  
 $M_\phi$ 28, 68  
 $\oplus_i A_i$ 30  
 $\oplus_i\mathcal{M}_i$ 38  

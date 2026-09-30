@@ -12,6 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 BOOK_ROOT = HERE.parents[1]
 TOTAL = {"Brezis": 614, "Conway": 416}
+BREZIS_BLANK_PAGES = {3, 7, 11, 15, 45, 103, 195, 215, 277, 339, 363}
 CONWAY_SECTIONS = [
     (1, "front-matter", "Front matter"),
     (16, "chapter-01", "I. Hilbert Spaces"),
@@ -103,7 +104,10 @@ def main() -> None:
             repair = HERE / "api" / args.book.lower() / f"{args.book.lower()}-p{number:04}-gpt-6-astra-repair.md"
             if repair.exists():
                 transcript = repair
-            body = transcript.read_text(encoding="utf-8") if transcript.exists() else ocr_body
+            reviewed = HERE / "reviewed" / args.book.lower() / f"page-{number:04}.md"
+            final_page = reviewed if reviewed.exists() else transcript
+            is_verified_blank = args.book == "Brezis" and number in BREZIS_BLANK_PAGES
+            body = "" if is_verified_blank else final_page.read_text(encoding="utf-8") if final_page.exists() else ocr_body
             lines = body.splitlines()
             if lines and len(lines[0]) < 160 and (
                 re.search(r"\s{8,}\d{1,3}\s*$", lines[0])
@@ -119,16 +123,20 @@ def main() -> None:
                     shutil.copy2(original, assets / target_name)
                     image_links.append(f"![](assets/{target_name})")
                     body = body.replace("images/" + name, "assets/" + target_name)
-            if transcript.exists() and image_links:
+            if final_page.exists() and image_links:
                 for link in image_links:
                     body, replaced = re.subn(r"\[FIGURE:[^\]]*\]", link, body, count=1)
                     if not replaced:
                         body += "\n\n" + link
             sections_text.append(f"\n<a id=\"pdf-page-{number}\"></a>\n" + body + "\n")
+            page_status = ("source_blank_page" if is_verified_blank else
+                           "subagent_visual_reviewed" if reviewed.exists() else
+                           status["status"] if status else "unreviewed_ocr_draft")
+            source_page = reviewed if reviewed.exists() else page_path
             manifest.append({"book": args.book, "pdf_page": number, "section": slug,
-                             "source_page": str(page_path.relative_to(HERE)),
+                             "source_page": str(source_page.relative_to(HERE)),
                              "output_md": f"{slug}.md",
-                             "status": status["status"] if status else "unreviewed_ocr_draft"})
+                             "status": page_status})
         (destination / f"{slug}.md").write_text("\n".join(sections_text), encoding="utf-8")
     review = destination / "review"
     review.mkdir(exist_ok=True)
@@ -140,9 +148,11 @@ def main() -> None:
     links = [f"- [{title}]({slug}.md)" for _, slug, title in boundaries]
     coverage = f"Partial assembly: {len(manifest)} of {TOTAL[args.book]} PDF pages are present.\n\n" if missing else "All PDF pages are present.\n\n"
     (destination / "README.md").write_text(
-        f"# {args.book}\n\n{coverage}This edition was assembled from the existing page transcriptions. "
-        f"Prior review flags are preserved in the [page manifest](review/page-manifest.csv); "
-        f"they were not pursued for this edition.\n\n" + "\n".join(links) + "\n",
+        f"# {args.book}\n\n{coverage}This edition was assembled from page-preserving transcriptions. "
+        f"Each page is traceable in the [page manifest](review/page-manifest.csv). "
+        f"`subagent_visual_reviewed` means the transcription was compared directly with the PDF image, "
+        f"and `source_blank_page` means the source page was verified blank; any other status remains "
+        f"subject to visual review.\n\n" + "\n".join(links) + "\n",
         encoding="utf-8",
     )
     print(f"book={args.book} assembled_pages={len(manifest)} missing={len(missing)} sections={len(boundaries)}")

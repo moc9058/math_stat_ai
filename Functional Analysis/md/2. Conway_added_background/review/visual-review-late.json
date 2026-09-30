@@ -1,0 +1,316 @@
+{
+  "book": "Conway",
+  "source_pdf": "Functional Analysis/source/Conway.pdf",
+  "reviewer": "codex-subagent-review-late",
+  "human_verified": false,
+  "method": "Visually compared all 16 full-page PDF rasters at 1.65 scale against API Markdown and assembled Markdown; enlarged ambiguous regions at 4x/5x. No external API or .env used. Rendering used pymupdf 1.28.2 in uv-managed project .venv.",
+  "policy": "Faithful transcription: preserve and explicitly record printed source errors. Omit running headers consistently. Historical API review JSON and status counters retained.",
+  "pages": [
+    {
+      "pdf_page": 355,
+      "printed_page": 340,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "|f(x-y)-f(x)|:x\\in",
+          "after": "|f(x-y)-f(x)|:y\\in"
+        }
+      ],
+      "source_typos": [
+        "The supremum prints y in R after the colon. Restored y (mathematically the bound variable would normally be x)."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 359,
+      "printed_page": 344,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "\\mathcal N_0",
+          "after": "\\mathcal K_0"
+        }
+      ],
+      "notes": [
+        "Null-space letter is script K_0, distinct from the sequence space H_0. Corrected all four N_0 occurrences."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 360,
+      "printed_page": 345,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "if $x\\in\\mathcal H_0$",
+          "after": "if $x\\in\\mathcal K_0$"
+        },
+        {
+          "before": "T_0\\mathcal H_0\\subseteq\\mathcal H_0",
+          "after": "T_0\\mathcal K_0\\subseteq\\mathcal K_0"
+        },
+        {
+          "before": "T(x+\\mathcal H_0)=T_0x+\\mathcal H_0",
+          "after": "T(x+\\mathcal K_0)=T_0x+\\mathcal K_0"
+        },
+        {
+          "before": "J_0\\mathcal H_0\\subseteq\\mathcal H_0",
+          "after": "J_0\\mathcal K_0\\subseteq\\mathcal K_0"
+        },
+        {
+          "before": "J_1(x+\\mathcal H_0)=J_0x+\\mathcal H_0",
+          "after": "J_1(x+\\mathcal K_0)=J_0x+\\mathcal K_0"
+        },
+        {
+          "before": "e=e_0+\\mathcal H_0",
+          "after": "e=e_0+\\mathcal K_0"
+        }
+      ],
+      "notes": [
+        "Changed only null-space/coset occurrences to K_0; retained sequence-space H_0."
+      ],
+      "source_typos": [
+        "The printed CBS estimate lacks the usual square/root factors; the printed identity [J_0x,J_0y]=[x,y] lacks conjugation. Both were already faithfully transcribed and remain unchanged."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 363,
+      "printed_page": 348,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [],
+      "rejected_flags": [
+        "Source has subseteq, including an unmistakable lower bar in the enlarged crop. Existing transcription is correct; rejected subset correction."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 365,
+      "printed_page": 350,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "Since the eigenspaces corresponding",
+          "after": "Since the eigenspace corresponding"
+        }
+      ],
+      "source_typos": [
+        "Source prints singular 'eigenspace corresponding to nonzero eigenvalues'; restored singular. The already-transcribed 'no orthonormal sequences' also matches the source."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 366,
+      "printed_page": 351,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "\\mathcal M_\\delta^\\perp=E[0,\\delta]\\mathcal H",
+          "after": "\\mathcal M_\\delta^\\perp=E[0,\\delta]h"
+        },
+        {
+          "before": "sequence, $\\{e_n\\}$ such that",
+          "after": "sequence, $\\{e_n\\}$ usch that"
+        }
+      ],
+      "source_typos": [
+        "Source prints E[0,delta]h, not E[0,delta]H, in the displayed subspace identity; restored h.",
+        "Source prints 'usch that'; restored literal spelling.",
+        "The finite-dimensional conclusion prints E[0,delta) with an open endpoint; retained existing transcription."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 370,
+      "printed_page": 355,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "(\\ker B)^\\perp\\cap(\\mathcal M')^\\perp",
+          "after": "(\\ker B)^\\perp\\cap\\mathcal M^\\perp"
+        }
+      ],
+      "source_typos": [
+        "Claim 3 prints M perpendicular without prime, although preceding context suggests M prime. Restored the printed unprimed M."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 371,
+      "printed_page": 356,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "of $B$ to $\\mathcal H_1''$.",
+          "after": "of $B$ to $\\mathcal H_1'$."
+        }
+      ],
+      "notes": [
+        "First line is restriction to H_1 prime (one prime), not H_1 double prime."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 373,
+      "printed_page": 358,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "A-\\lambda\\notin\\mathcal{SF}_\\ell",
+          "after": "A-\\lambda\\notin\\mathcal{F}_\\ell"
+        }
+      ],
+      "notes": [
+        "Final paragraph prints script F_l, not SF_l."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 386,
+      "printed_page": 371,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [],
+      "rejected_flags": [
+        "The topology symbol is script S in both occurrences, confirmed in enlarged crop. Rejected proposed T."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 398,
+      "printed_page": 383,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "Let $F\\in C_0(X)^*$",
+          "after": "Let $F\\in C_0(x)^*$"
+        }
+      ],
+      "source_typos": [
+        "In the proof's 'Let F in C_0(x)*' source uses lowercase x; restored it without changing other uppercase X occurrences."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 405,
+      "printed_page": 391,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "\\mathcal{H}\\oplus\\mathcal{H},",
+          "after": "\\mathcal{H}\\oplus\\mathcal{K},"
+        },
+        {
+          "before": "\\mathcal{B}(\\mathcal{H},\\mathcal{H})",
+          "after": "\\mathcal{B}(\\mathcal{H},\\mathcal{K})"
+        }
+      ],
+      "notes": [
+        "Direct-sum second space and bounded-operator target space both print script K."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 406,
+      "printed_page": 392,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "\\mathscr{D}(\\mathscr{H})",
+          "after": "\\mathscr{D}(\\mathscr{K})"
+        }
+      ],
+      "notes": [
+        "The test-function entry on printed page 116 is D(script K), not D(script H)."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 407,
+      "printed_page": 393,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "\\|f\\|_{\\mathcal A}",
+          "after": "\\|f\\|_A"
+        },
+        {
+          "before": "K^{\\mathcal A}",
+          "after": "K^\\wedge"
+        }
+      ],
+      "notes": [
+        "Norm subscript is ordinary A, distinct from script A above. The next entry is K with a raised wedge."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 408,
+      "printed_page": 394,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "\\mathcal{C}(\\mathcal{H},\\mathcal{H})",
+          "after": "\\mathcal{C}(\\mathcal{H},\\mathcal{K})"
+        },
+        {
+          "before": "\\mathcal{H}_{\\pm}",
+          "after": "\\mathcal{K}_{\\pm}"
+        }
+      ],
+      "notes": [
+        "Closed-operator target space and deficiency-space symbol both print script K; resolved old K/H uncertainty."
+      ],
+      "rejected_flags": [
+        "Running header '394 List of Symbols' intentionally omitted under the existing book assembly convention; not missing mathematical content."
+      ],
+      "unresolved": []
+    },
+    {
+      "pdf_page": 414,
+      "printed_page": null,
+      "status": "agent_visual_review_passed",
+      "checked_full_page": true,
+      "assembled_api_difference_before_review": false,
+      "changes": [
+        {
+          "before": "76 ITAKA.",
+          "after": "76 IITAKA."
+        }
+      ],
+      "notes": [
+        "Author printed in small caps is IITAKA (initial capital I followed by small-cap I). Corrected omitted second I."
+      ],
+      "unresolved": []
+    }
+  ]
+}

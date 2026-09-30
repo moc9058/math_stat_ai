@@ -46,3 +46,23 @@ review. Remaining `needs_manual_review` pages require direct image inspection.
 The 24-page pilot report is at `pilot/PILOT_REPORT.md`. OCR checkpoints and
 API usage logs are kept in this work directory. No script deletes or rewrites
 the source PDFs.
+
+## Visual review without an API key
+
+All Conway pages have been reviewed by AI against the original PDF page images,
+and all flagged review items have been resolved. Review records are available
+in `../../md/Conway/review/` and the per-page status files. Apparent source typos
+are preserved and documented.
+
+Use a uv-managed virtual environment for all Python dependencies. For this
+image-review workflow, only PyMuPDF is needed; no API key or OCR model is required.
+From this directory on Linux, with `uv` available:
+
+```bash
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python 'pymupdf==1.28.2'
+uv run --no-sync python validate_book.py Conway
+```
+
+The PyMuPDF version above matches `uv.lock`. The full OCR/API workflow still
+uses `uv sync --locked` as documented above.

@@ -19,7 +19,7 @@ $\sigma(\mathscr{X},\mathscr{X}^*),\,\sigma(\mathscr{X}^*,\mathscr{X})$ 101
 $[a,b]$ 101  
 $\operatorname{co}(A),\,\overline{\operatorname{co}}(A)$ 101  
 $s$ 104  
-$C_c^{(\infty)}(\Omega),\,\mathscr{D}(\mathscr{H}),\,\mathscr{D}(\Omega)$ 116  
+$C_c^{(\infty)}(\Omega),\,\mathscr{D}(\mathscr{K}),\,\mathscr{D}(\Omega)$ 116  
 $\mathscr{T}|_{\mathscr{X}}$ 118  
 $\langle x,x^*\rangle,\,\langle x^*,x\rangle$ 124  
 $\mathrm{wk},\,\sigma(\mathscr{X},\mathscr{X}^*)$ 124  

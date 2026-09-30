@@ -39,13 +39,13 @@ $$
 (A+i)T_\phi=AT_\phi+iT_\phi=i(T_{\phi'}+T_\phi)+i\phi(0).
 $$
 
-So taking $\phi(t)=-ie^{-t}$, $(A+i)T_\phi=1$. According to (5.11),
+So taking $\phi(t)=-ie^{-1}$, $(A+i)T_\phi=1$. According to (5.11),
 
 $$
 (A-i)S_\psi=AS_\psi-iS_\psi=-i(S_{\psi'}+S_\psi)-i\psi(0).
 $$
 
-Taking $\psi(t)=ie^{-t}$, $(A-i)S_\psi=1$. Hence $A$ is self-adjoint.
+Taking $\psi(t)=ie^{-1}$, $(A-i)S_\psi=1$. Hence $A$ is self-adjoint.
 
 Put $V(t)=\exp(iAt)$. It remains to show that $V=U$. Let $h\in\mathcal D$. By Theorem 5.1(d),
 

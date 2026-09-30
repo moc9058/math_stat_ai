@@ -1,0 +1,5764 @@
+{
+  "pages": [
+    {
+      "page_idx": 77,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.101,
+            0.041,
+            0.399,
+            0.057
+          ],
+          "content": "3.4 The Weak- Topology E E σ ( -, )"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.316,
+            0.041,
+            0.395,
+            0.056
+          ],
+          "content": ""
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.042,
+            0.896,
+            0.055
+          ],
+          "content": "63"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.073,
+            0.603,
+            0.092
+          ],
+          "level": 2,
+          "content": "Proposition 3.11. The weak- topology is Hausdorff."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.102,
+            0.898,
+            0.158
+          ],
+          "content": "Proof. Given $f _ { 1 } ,   f _ { 2 } \\in E ^ { \\star }$ with $f _ { 1 } \\neq f _ { 2 }$ there exists some $x \\in E$ such that $\\langle f _ { 1 } , x \\rangle \\neq$ $\\langle f _ { 2 } , x \\rangle$ (this does not use Hahn–Banach, but just the fact that $f _ { 1 } \\neq f _ { 2 } )$ . Assume for example that $\\langle f _ { 1 } , x \\rangle < \\langle f _ { 2 } , x \\rangle$ and choose α such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.388,
+            0.173,
+            0.611,
+            0.192
+          ],
+          "content": "\\langle f _ { 1 } , x \\rangle < \\alpha < \\langle f _ { 2 } , x \\rangle .",
+          "image_source": "images/page_77_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.207,
+            0.171,
+            0.223
+          ],
+          "content": "Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.268,
+            0.239,
+            0.729,
+            0.26
+          ],
+          "content": "O _ { 1 } = \\{ f \\in E ^ { \\star } ; \\langle f , x \\rangle < \\alpha \\} = \\varphi _ { x } ^ { - 1 } ( ( - \\infty , \\alpha ) ) ,",
+          "image_source": "images/page_77_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.268,
+            0.265,
+            0.728,
+            0.285
+          ],
+          "content": "O _ { 2 } = \\{ f \\in E ^ { \\star } ; \\langle f , x \\rangle > \\alpha \\} = \\varphi _ { x } ^ { - 1 } ( ( \\alpha , + \\infty ) ) .",
+          "image_source": "images/page_77_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.3,
+            0.898,
+            0.336
+          ],
+          "content": "Then $O _ { 1 }$ and $O _ { 2 }$ are open sets in $\\sigma ( E ^ { \\star } , E )$ such that $f _ { 1 } \\in O _ { 1 } ,   f _ { 2 } \\in O _ { 2 }$ , and $O _ { 1 } \\cap O _ { 2 } = \\varnothing .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.347,
+            0.894,
+            0.383
+          ],
+          "content": "**Proposition 3.12.** Let $f _ { 0 } \\in E ^ { \\star }$ ; given a **finite** set $\\{ x _ { 1 } , x _ { 2 } , \\ldots , x _ { k } \\}$ in E and $\\varepsilon > 0 ,$ consider"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.123,
+            0.399,
+            0.868,
+            0.419
+          ],
+          "content": "V = V ( x _ { 1 } , x _ { 2 } , \\ldots , x _ { k } ; \\varepsilon ) = \\left\\{ f \\in E ^ { \\star } ; | \\langle f - f _ { 0 } , x _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k \\right\\} .",
+          "image_source": "images/page_77_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.434,
+            0.898,
+            0.471
+          ],
+          "content": "Then V is a neighborhood of f<sub>0</sub> for the topology $\\sigma ( E ^ { \\star } , E )$ . Moreover, we obtain a **basis of neighborhoods** of $f _ { 0 }$ for $\\sigma ( E ^ { \\star } , E )$ by varying ε, k, and the $x _ { i }   ^ { \\prime } s$ in $E .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.481,
+            0.531,
+            0.5
+          ],
+          "content": "Proof. Same as the proof of Proposition 3.4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.51,
+            0.897,
+            0.546
+          ],
+          "content": "**Notation.** If a sequence $( f _ { n } )$ in $E ^ { \\star }$ converges to f in the weak- topology we shall write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.446,
+            0.544,
+            0.553,
+            0.576
+          ],
+          "content": "\\boxed { f _ { n } \\stackrel { \\star } { \\rightharpoonup } f . }",
+          "image_source": "images/page_77_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.589,
+            0.896,
+            0.629
+          ],
+          "content": "To avoid any confusion we shall sometimes emphasize $\\text{\" } f_{n} \\stackrel{\\star}{\\rightharpoonup} f$ in $\\sigma ( E ^ { \\star } , E ) ,$ ” $\\text{\" } f_{n} \\rightharpoonup f$ in $\\sigma ( E ^ { \\star } , E ^ { \\star \\star } ) ,$ and $`` f_{n} \\rightarrow f$ strongly.”"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.639,
+            0.638,
+            0.657
+          ],
+          "content": "• **Proposition 3.13.** Let $( f _ { n } )$ be a sequence in $E ^ { \\star }$ . Then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.674,
+            0.688,
+            0.696
+          ],
+          "content": "(i) $[ f _ { n } \\stackrel { \\star } { \\rightharpoonup } f \\; i n \\; \\sigma ( E ^ { \\star } , E ) ] \\Leftrightarrow [ \\langle f _ { n } , x \\rangle \\rightarrow \\langle f , x \\rangle , \\; \\forall x \\in E ] .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.699,
+            0.623,
+            0.718
+          ],
+          "content": "(ii) $I f   f _ { n } \\rightarrow   f   s t r o n g l y ,$ then $f _ { n } \\rightharpoonup f   i n   \\sigma ( E ^ { \\star } , E ^ { \\star \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.727,
+            0.664,
+            0.748
+          ],
+          "content": "$I f   f _ { n } \\rightharpoonup f   i n   \\sigma ( E ^ { \\star } , E ^ { \\star \\star } )$ , then $f _ { n } \\stackrel { \\star } { \\rightharpoonup } f   i n   \\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.757,
+            0.846,
+            0.778
+          ],
+          "content": "(iii) $I f   f _ { n } \\stackrel { \\star } { \\rightharpoonup } f   i n   \\sigma ( E ^ { \\star } , E )$ then $( \\| f _ { n } \\| )$ is bounded and $\\| f \\| \\leq$ lim inf $\\| f _ { n } \\|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.786,
+            0.886,
+            0.808
+          ],
+          "content": "(iv) $I f   f _ { n } \\stackrel { \\star } { \\rightharpoonup } f   i n   \\sigma ( E ^ { \\star } , E )$ and ${ i f } x _ { n } \\to x$ strongly in E, then $\\langle f _ { n } , x _ { n } \\rangle \\to \\langle f , x \\rangle$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.822,
+            0.506,
+            0.841
+          ],
+          "content": "Proof. Copy the proof of Proposition 3.5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.854,
+            0.898,
+            0.912
+          ],
+          "content": "Remark 9. Assume $f _ { n } \\stackrel { \\star } { \\rightharpoonup } f$ in $\\sigma ( E ^ { \\star } , E )$ (or even $f _ { n } \\rightharpoonup f$ in $\\sigma ( E ^ { \\star } , E ^ { \\star \\star } ) )$ and $x _ { n } \\rightharpoonup x$ in $\\sigma ( E , E ^ { \\star } )$ . One cannot conclude, in general, that $\\langle f _ { n } , x _ { n } \\rangle \\to \\langle f , x \\rangle$ (it is very easy to construct an example in Hilbert spaces)."
+        }
+      ]
+    },
+    {
+      "page_idx": 78,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.102,
+            0.042,
+            0.13,
+            0.054
+          ],
+          "content": "64"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.264,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.898,
+            0.146
+          ],
+          "content": "Remark 10. When E is a finite-dimensional space the three topologies (strong, weak, weak-) on $E ^ { \\star }$ coincide. Indeed, the canonical injection $J \\: : \\: E \\: \\rightarrow \\: E ^ { \\star \\star }$ (see Section 1.3) is surjective (since dim $E = \\dim E ^ { \\star \\star }$ and therefore $\\sigma ( E ^ { \\star } , E ) \\; = \\;$ $\\sigma ( E ^ { \\star } , E ^ { \\star \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.161,
+            0.898,
+            0.198
+          ],
+          "content": "\\- **Proposition 3.14.** Let $\\varphi : E ^ { \\star } \\to \\mathbb { R }$ be a linear functional that is continuous for the weak- topology. Then there exists some $x _ { 0 } \\in E$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.363,
+            0.213,
+            0.633,
+            0.232
+          ],
+          "content": "\\varphi ( f ) = \\langle f , x _ { 0 } \\rangle \\quad \\forall f \\in E ^ { \\star } .",
+          "image_source": "images/page_78_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.247,
+            0.656,
+            0.267
+          ],
+          "content": "The proof relies on the following useful algebraic lemma:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.28,
+            0.898,
+            0.317
+          ],
+          "content": "**Lemma 3.2.** Let X be a vector space and let $\\varphi , \\varphi _ { 1 } , \\varphi _ { 2 } , \\ldots , \\varphi _ { k }$ be $( k + 1 )$ linear functionals on X such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.332,
+            0.721,
+            0.35
+          ],
+          "content": "[ \\varphi _ { i } ( v ) = 0 \\quad \\forall i = 1 , 2 , \\ldots , k ] \\Rightarrow [ \\varphi ( v ) = 0 ] .\\tag{2}",
+          "image_source": "images/page_78_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.364,
+            0.791,
+            0.386
+          ],
+          "content": "Then there exist constants $\\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots , \\lambda _ { k } \\in \\mathbb { R }$ such that $\\begin{array} { r } { \\varphi = \\sum _ { i = 1 } ^ { k } \\lambda _ { i } \\varphi _ { i } } \\end{array}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.398,
+            0.736,
+            0.418
+          ],
+          "content": "Proof of Lemma 3.2. Consider the map $F : X \\to \\mathbb { R } ^ { k + 1 }$ defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.301,
+            0.433,
+            0.698,
+            0.451
+          ],
+          "content": "F ( u ) = [ \\varphi ( u ) , \\varphi _ { 1 } ( u ) , \\varphi _ { 2 } ( u ) , \\ldots , \\varphi _ { k } ( u ) ] .",
+          "image_source": "images/page_78_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.466,
+            0.897,
+            0.522
+          ],
+          "content": "It follows from assumption (2) that $a = [ 1 , 0 , 0 , \\ldots , 0 ]$ does not belong to $R ( F )$ Thus, one can strictly separate {a} and $R ( F )$ by some hyperplane in $\\mathbb { R } ^ { k + 1 }$ ; i.e., there exist constants $\\lambda , \\lambda _ { 1 } , \\lambda _ { 2 } , \\ldots , \\lambda _ { k }$ and α such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.535,
+            0.697,
+            0.587
+          ],
+          "content": "\\lambda < \\alpha < \\lambda \\varphi ( u ) + { \\sum _ { i = 1 } ^ { k } } \\lambda _ { i } \\varphi _ { i } ( u ) \\quad \\forall u \\in X .",
+          "image_source": "images/page_78_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.6,
+            0.243,
+            0.617
+          ],
+          "content": "It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.614,
+            0.671,
+            0.665
+          ],
+          "content": "\\lambda \\varphi ( u ) + { \\sum _ { i = 1 } ^ { k } } \\lambda _ { i } \\varphi _ { i } ( u ) = 0 \\quad \\forall u \\in X",
+          "image_source": "images/page_78_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.672,
+            0.401,
+            0.69
+          ],
+          "content": "and also $\\lambda < 0$ (so that $\\lambda \\neq 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.705,
+            0.897,
+            0.742
+          ],
+          "content": "Proof of Proposition 3.14. Since $\\varphi$ is continuous for the weak- topology, there exists a neighborhood V of 0 for $\\sigma ( E ^ { \\star } , E )$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.388,
+            0.757,
+            0.609,
+            0.776
+          ],
+          "content": "| \\varphi ( f ) | < 1 \\quad \\forall f \\in V .",
+          "image_source": "images/page_78_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.792,
+            0.377,
+            0.81
+          ],
+          "content": "We may always assume that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27,
+            0.825,
+            0.728,
+            0.843
+          ],
+          "content": "V = \\{ f \\in E ^ { \\star } ;   | \\langle f , x _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k \\}",
+          "image_source": "images/page_78_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.859,
+            0.458,
+            0.877
+          ],
+          "content": "with $x _ { i } \\in E$ and $\\varepsilon > 0$ . In particular,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.266,
+            0.892,
+            0.73,
+            0.912
+          ],
+          "content": "[ \\langle f , x _ { i } \\rangle = 0 \\quad \\forall i = 1 , 2 , \\ldots , k ] \\Rightarrow [ \\varphi ( f ) = 0 ] .",
+          "image_source": "images/page_78_equation_21.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 79,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.041,
+            0.4,
+            0.057
+          ],
+          "content": "3.4 The Weak- Topology σ (E-, E)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.316,
+            0.041,
+            0.396,
+            0.056
+          ],
+          "content": ""
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.869,
+            0.042,
+            0.897,
+            0.055
+          ],
+          "content": "65"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.41,
+            0.091
+          ],
+          "content": "It follows from Lemma 3.2 that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.254,
+            0.101,
+            0.74,
+            0.154
+          ],
+          "content": "\\varphi ( f ) = { \\sum _ { i = 1 } ^ { k } } \\lambda _ { i } \\langle f , x _ { i } \\rangle = \\left\\langle f , { \\sum _ { i = 1 } ^ { k } } \\lambda _ { i } x _ { i } \\right\\rangle \\quad { \\forall } f \\in E ^ { \\star } .",
+          "image_source": "images/page_79_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.167,
+            0.893,
+            0.204
+          ],
+          "content": "\\- **Corollary 3.15.** Assume that H is a hyperplane in $E ^ { \\star }$ that is closed in $\\sigma ( E ^ { \\star } , E )$ Then H has the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.361,
+            0.204,
+            0.637,
+            0.223
+          ],
+          "content": "H = \\{ f \\in E ^ { \\star } ;   \\langle f , x _ { 0 } \\rangle = \\alpha \\}",
+          "image_source": "images/page_79_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.232,
+            0.518,
+            0.251
+          ],
+          "content": "for some $x _ { 0 } \\in E ,   x _ { 0 } \\neq 0 ,$ , and some $\\alpha \\in \\mathbb { R } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.262,
+            0.377,
+            0.28
+          ],
+          "content": "Proof. H may be written as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.362,
+            0.295,
+            0.635,
+            0.314
+          ],
+          "content": "H = \\{ f \\in E ^ { \\star } ; \\varphi ( f ) = \\alpha \\} ,",
+          "image_source": "images/page_79_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.329,
+            0.898,
+            0.366
+          ],
+          "content": "where $\\varphi$ is a linear functional on $E ^ { \\star } , \\varphi \\not \\equiv 0 .$ . Let $f _ { 0 } \\notin H$ and let V be a neighborhood of $f _ { 0 }$ for the topology $\\sigma ( E ^ { \\star } , E )$ such that $V \\subset H ^ { c }$ . We may assume that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.237,
+            0.38,
+            0.759,
+            0.4
+          ],
+          "content": "V = \\{ f \\in E ^ { \\star } ;   | \\langle f - f _ { 0 } , x _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k \\} .",
+          "image_source": "images/page_79_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.415,
+            0.461,
+            0.433
+          ],
+          "content": "Since V is convex we find that either"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.449,
+            0.603,
+            0.468
+          ],
+          "content": "\\varphi(f) < \\alpha \\quad \\forall f \\in V\\tag{3}",
+          "image_source": "images/page_79_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.485,
+            0.133,
+            0.5
+          ],
+          "content": "or"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.516,
+            0.144,
+            0.535
+          ],
+          "content": "(3\u0014)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.393,
+            0.516,
+            0.605,
+            0.535
+          ],
+          "content": "\\varphi(f) > \\alpha \\quad \\forall f \\in V.",
+          "image_source": "images/page_79_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.103,
+            0.55,
+            0.58,
+            0.569
+          ],
+          "content": "Assuming, for example, that (3) holds, we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.584,
+            0.696,
+            0.603
+          ],
+          "content": "\\varphi ( g ) < \\alpha - \\varphi ( f _ { 0 } ) \\quad \\forall g \\in W = V - f _ { 0 } ,",
+          "image_source": "images/page_79_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.617,
+            0.43,
+            0.635
+          ],
+          "content": "and since $- W = W$ we are led to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.651,
+            0.658,
+            0.671
+          ],
+          "content": "| \\varphi ( g ) | \\leq | \\alpha - \\varphi ( f _ { 0 } ) | \\quad \\forall g \\in W .\\tag{4}",
+          "image_source": "images/page_79_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.685,
+            0.898,
+            0.74
+          ],
+          "content": "It follows from (4) that $\\varphi$ is continuous at 0 for the topology $\\sigma ( E ^ { \\star } , E )$ (since $W$ is a neighborhood of 0). Applying Proposition 3.14, we conclude that there is some $x _ { 0 } \\in E$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.362,
+            0.741,
+            0.635,
+            0.76
+          ],
+          "content": "\\varphi ( f ) = \\langle f , x _ { 0 } \\rangle \\quad \\forall f \\in E ^ { \\star } .",
+          "image_source": "images/page_79_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.77,
+            0.898,
+            0.826
+          ],
+          "content": "Remark 11. Assume that the canonical injection $J \\; : \\; E \\; \\rightarrow \\; E ^ { \\star \\star }$ is not surjective. Then the topology $\\sigma ( E ^ { \\star } , E )$ is strictly coarser than the topology $\\sigma ( E ^ { \\star } , E ^ { \\star \\star } )$ . For example, let $\\xi \\in E ^ { \\star \\star }$ with $\\xi \\notin J ( E )$ . Then the set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.362,
+            0.84,
+            0.636,
+            0.859
+          ],
+          "content": "H = \\{ f \\in E ^ { \\star } ; \\langle \\xi , f \\rangle = 0 \\}",
+          "image_source": "images/page_79_equation_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.874,
+            0.898,
+            0.912
+          ],
+          "content": "is closed in $\\sigma ( E ^ { \\star } , E ^ { \\star \\star } )$ but—in view of Corollary 3.15—it is not closed in $\\sigma ( E ^ { \\star } , E )$ We also learn from this example that convex sets that are closed in the strong topology"
+        }
+      ]
+    },
+    {
+      "page_idx": 80,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.042,
+            0.13,
+            0.055
+          ],
+          "content": "66"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.265,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.073,
+            0.897,
+            0.109
+          ],
+          "continues_prev": true,
+          "content": "need not be closed in the weak- topology. There are two types of closed convex sets in $E ^ { \\star }$ :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.118,
+            0.897,
+            0.154
+          ],
+          "content": "(a) the convex sets that are strongly closed (= closed in the topology $\\sigma ( E ^ { \\star } , E ^ { \\star \\star } )$ by Theorem 3.7),"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.155,
+            0.555,
+            0.173
+          ],
+          "content": "(b) the convex sets that are closed in $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.185,
+            0.763,
+            0.203
+          ],
+          "content": "• **Theorem 3.16 (Banach–Alaoglu–Bourbaki).** The closed unit ball"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.365,
+            0.219,
+            0.635,
+            0.238
+          ],
+          "content": "B _ { E ^ { \\star } } = \\{ f \\in E ^ { \\star } ; \\| f \\| \\leq 1 \\}",
+          "image_source": "images/page_80_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.253,
+            0.523,
+            0.272
+          ],
+          "content": "is compact in the weak- topology $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.283,
+            0.896,
+            0.32
+          ],
+          "content": "Remark 12. The compactness of $B _ { E ^ { \\star } }$ is the most essential property of the weaktopology; see also Remark 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.331,
+            0.898,
+            0.665
+          ],
+          "content": "Proof. Consider the Cartesian product $Y = \\mathbb { R } ^ { E }$ , which consists of all maps from E into R; we denote elements of Y by $\\omega   =   ( \\omega _ { x } ) _ { x \\in E } \\mathrm { w i t h } \\omega _ { x }   \\in   \\mathbb { R }$ . The space Y is equipped with the standard product topology (see, e.g., H. L. Royden [1], J. R. Munkres [1], A. Knapp [1], or J. Dixmier [1]), i.e., the coarsest topology on Y associated to the collection of maps $\\omega \\mapsto \\omega _ { x }$ (as x runs through E), which is, of course, the same as the topology of pointwise convergence (see, e.g., J. R. Munkres [1]). In what follows $E ^ { \\star }$ is systematically equipped with the weak- topology $\\sigma ( E ^ { \\star } , E )$ Since $E ^ { \\star }$ consists of special maps from E into R (i.e., continuous linear maps), we may consider $E ^ { \\star }$ as a subset of Y . More precisely, let $\\Phi \\; : \\; E ^ { \\star } \\; \\rightarrow \\; Y$ be the canonical injection from $E ^ { \\star }$ into Y , so that $\\Phi ( f )   =   ( \\omega _ { x } ) _ { x \\in E }$ with $\\omega _ { x }   =   \\langle f , x \\rangle$ Clearly, is continuous from $E ^ { \\star }$ into Y (use Proposition 3.2 and note that for every fixed $x \\in E$ the map $f   \\in   E ^ { \\star }   \\mapsto   ( \\Phi ( f ) ) _ { x }   =   \\langle f , x \\rangle$ is continuous). The inverse map $\\Phi ^ { - 1 }$ is also continuous from $\\Phi ( E ^ { \\star } )$ equipped with the Y topology) into $E ^ { \\star } ;$ indeed, using Proposition 3.2 once more, it suffices to check that for every fixed $x \\in E$ the map $\\omega \\; \\mapsto \\; \\langle \\Phi ^ { - 1 } ( \\omega ) , x \\rangle$ is continuous on $\\Phi ( E ^ { \\star } )$ , which is obvious since $\\langle \\Phi ^ { - 1 } ( \\omega ) , x \\rangle \\: = \\: \\omega _ { x }$ (note that $\\omega   =   \\Phi ( f )$ for some $f \\in E ^ { \\star }$ and $\\langle \\Phi ^ { - 1 } ( \\omega ) , x \\rangle = \\langle f , x \\rangle = \\omega _ { x } )$ . In other words, is a homeomorphism from $E ^ { \\star }$ onto $\\Phi ( E ^ { \\star } )$ . On the other hand, it is clear that $\\Phi ( B _ { E ^ { \\star } } ) = K$ , where K is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.233,
+            0.679,
+            0.764,
+            0.726
+          ],
+          "content": "K = \\left\\{ \\omega \\in Y \\middle| \\begin{aligned} & \\left| \\omega_{x} \\right| \\leq \\| x \\|, \\omega_{x + y} = \\omega_{x} + \\omega_{y} \\\\ &  and   \\omega_{\\lambda x} = \\lambda \\omega_{x} \\ \\forall \\lambda \\in \\mathbb{R}, \\ \\forall x,   y \\in E \\end{aligned} \\right\\}.",
+          "image_source": "images/page_80_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.739,
+            0.897,
+            0.776
+          ],
+          "content": "In order to complete the proof of Theorem 3.16 it suffices to check that K is a compact subset of Y . Write K as $K = K _ { 1 } \\cap K _ { 2 }$ , where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.314,
+            0.791,
+            0.684,
+            0.81
+          ],
+          "content": "K_{1} = \\left\\{ \\omega \\in Y; |\\omega_{x}| \\leq \\|x\\| \\quad \\forall x \\in E \\right\\}",
+          "image_source": "images/page_80_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.826,
+            0.146,
+            0.842
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.139,
+            0.858,
+            0.858,
+            0.878
+          ],
+          "content": "K _ { 2 } = \\left\\{ \\omega \\in Y ; \\omega _ { x + y } = \\omega _ { x } + \\omega _ { y } \\; \\mathrm { a n d } \\; \\omega _ { \\lambda x } = \\lambda \\omega _ { x } \\quad \\forall \\lambda \\in \\mathbb { R } , \\quad \\forall x , y \\in E \\right\\} .",
+          "image_source": "images/page_80_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.893,
+            0.724,
+            0.911
+          ],
+          "content": "The set $K _ { 1 }$ may also be written as a product of compact intervals"
+        }
+      ]
+    },
+    {
+      "page_idx": 81,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.041,
+            0.284,
+            0.057
+          ],
+          "level": 2,
+          "content": "3.5 Reflexive Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.041,
+            0.897,
+            0.055
+          ],
+          "content": "67"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.374,
+            0.069,
+            0.623,
+            0.109
+          ],
+          "content": "K _ { 1 } = \\prod _ { x \\in E } [ - \\| x \\| , + \\| x \\| ] .",
+          "image_source": "images/page_81_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.122,
+            0.898,
+            0.197
+          ],
+          "content": "Let us recall that (arbitrary) products of compact spaces are compact—a deep theorem due to Tychonoff; see, e.g., H. L. Royden [1], G. B. Folland [2], J. R. Munkres [1], A. Knapp [1], or J. Dixmier [1]. Therefore $K _ { 1 }$ is compact. On the other hand, $K _ { 2 }$ is closed in Y ; indeed, for each fixed $\\lambda \\in \\mathbb { R } , x , y \\in E$ the sets"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.304,
+            0.211,
+            0.693,
+            0.254
+          ],
+          "content": "\\begin{aligned} &A_{x,y} = \\{ \\omega \\in Y; \\omega_{x+y} - \\omega_x - \\omega_y = 0 \\}, \\\\&B_{\\lambda,x} = \\{ \\omega \\in Y; \\omega_{\\lambda x} - \\lambda \\omega_x = 0 \\},\\\\ \\end{aligned}",
+          "image_source": "images/page_81_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.268,
+            0.897,
+            0.305
+          ],
+          "content": "are closed in Y (since the maps ω $\\mapsto \\omega _ { x + y } - \\omega _ { x } - \\omega _ { y }$ and $\\omega \\mapsto \\omega _ { \\lambda x } - \\lambda \\omega _ { x }$ are continuous on Y ) and we may write $K _ { 2 }$ as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.316,
+            0.662,
+            0.373
+          ],
+          "content": "K _ { 2 } = \\Bigl [ \\bigcap _ { x , y \\in E } A _ { x , y } \\Bigr ] \\cap \\Bigl [ \\bigcap _ { \\stackrel { x \\in E } { \\lambda \\in \\mathbb { R } } } B _ { \\lambda , x } \\Bigr ] .",
+          "image_source": "images/page_81_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.385,
+            0.898,
+            0.423
+          ],
+          "content": "Finally, K is compact since it is the intersection of a compact set $( K _ { 1 } )$ and a closed set $( K _ { 2 } )$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.469,
+            0.356,
+            0.49
+          ],
+          "level": 2,
+          "content": "3.5 Reflexive Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.514,
+            0.898,
+            0.57
+          ],
+          "content": "**Definition.** Let E be a Banach space and let $J : E \\to E ^ { \\star \\star }$ be the canonical injection from E into $E ^ { \\star \\star }$ (see Section 1.3). The space E is said to be reflexive if J is surjective, $\\mathrm { i . e . , } ~ J ( E ) = E ^ { \\star \\star }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.581,
+            0.633,
+            0.6
+          ],
+          "content": "When E is reflexive, $E ^ { \\star \\star }$ is usually identified with E."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.611,
+            0.898,
+            0.704
+          ],
+          "content": "Remark 13. Many important spaces in analysis are reflexive. Clearly, finite-dimensional spaces are reflexive (since dim $E =$ dim $E ^ { \\star } = \\dim E ^ { \\star \\star } )$ . As we shall see in Chapter 4 (see also Chapter 11), $L ^ { p }$ (and $\\ell ^ { p } )$ spaces are reflexive for $1 < p < \\infty$ . In Chapter 5 we shall see that Hilbert spaces are reflexive. However, equally important spaces in analysis are not reflexive; for example:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.71,
+            0.778,
+            0.729
+          ],
+          "content": "$L ^ { 1 }$ and $L ^ { \\infty }$ (and $\\ell ^ { 1 } , \\ell ^ { \\infty } )$ are not reflexive (see Chapters 4 and 11);"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.73,
+            0.895,
+            0.767
+          ],
+          "content": "$C ( K )$ , the space of continuous functions on an infinite compact metric space K, is not reflexive (see Exercise 3.25)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.777,
+            0.898,
+            0.834
+          ],
+          "content": "\\- Remark 14. It is essential to use J in the above definition. R. C. James [1] has constructed a striking example of a nonreflexive space with the property that there exists a surjective isometry from E onto $E ^ { \\star \\star }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.845,
+            0.718,
+            0.863
+          ],
+          "content": "Our next result describes a basic property of reflexive spaces:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.874,
+            0.898,
+            0.912
+          ],
+          "content": "• **Theorem 3.17 (Kakutani).** Let E be a Banach space. Then E is reflexive if and only if"
+        }
+      ]
+    },
+    {
+      "page_idx": 82,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.102,
+            0.042,
+            0.13,
+            0.054
+          ],
+          "content": "68"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.265,
+            0.041,
+            0.897,
+            0.057
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.377,
+            0.073,
+            0.623,
+            0.092
+          ],
+          "content": "B _ { E } = \\{ x \\in E ; \\| x \\| \\leq 1 \\}",
+          "image_source": "images/page_82_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.101,
+            0.514,
+            0.119
+          ],
+          "content": "is compact in the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.131,
+            0.898,
+            0.279
+          ],
+          "content": "Proof. Assume first that E is reflexive, so that $J ( B _ { E } )   =   B _ { E ^ { \\star \\star } }$ . We already know (by Theorem 3.16) that $B _ { E ^ { \\star \\star } }$ is compact in the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ . Therefore, it suffices to check that $J ^ { - 1 }$ is continuous from $E ^ { \\star \\star }$ equipped with $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ with values in $E$ equipped with $\\sigma ( E , E ^ { \\star } )$ . In view of Proposition 3.2, we have only to prove that for every fixed $f   \\in   E ^ { \\star }$ the map $\\xi   \\mapsto   \\langle f , J ^ { - 1 } \\xi \\rangle$ is continuous on $E ^ { \\star \\star }$ equipped with $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ . But $\\langle f , J ^ { - 1 } \\xi \\rangle   =   \\langle \\xi , f \\rangle$ , and the map $\\xi \\; \\mapsto \\; \\langle \\xi , f \\rangle$ is indeed continuous on $E ^ { \\star \\star }$ for the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ . Hence we have proved that $B _ { E }$ is compact in $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.291,
+            0.805,
+            0.309
+          ],
+          "content": "The converse is more delicate and relies on the following two lemmas:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.321,
+            0.896,
+            0.359
+          ],
+          "content": "**Lemma 3.3 (Helly).** Let E be a Banach space. Let $f _ { 1 } ,   f _ { 2 } , \\ldots ,   f _ { k }$ be given in $E ^ { \\star }$ and let $\\gamma _ { 1 } , \\gamma _ { 2 } , \\ldots , \\gamma _ { k }$ be given in R. The following properties are equivalent:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.367,
+            0.53,
+            0.385
+          ],
+          "content": "(i) $\\forall \\varepsilon > 0 \\; \\exists x _ { \\varepsilon } \\in E$ such that $\\| x _ { \\varepsilon } \\| \\leq 1$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.331,
+            0.401,
+            0.701,
+            0.42
+          ],
+          "content": "| \\langle f _ { i } , x _ { \\varepsilon } \\rangle - \\gamma _ { i } | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k ,",
+          "image_source": "images/page_82_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.101,
+            0.431,
+            0.636,
+            0.455
+          ],
+          "content": "\\begin{array} { r } { \\mathrm { ( i i ) } ~ | \\sum _ { i = 1 } ^ { k } \\beta _ { i } \\gamma _ { i } | \\leq \\| \\sum _ { i = 1 } ^ { k } \\beta _ { i }   f _ { i } \\| \\quad \\forall \\beta _ { 1 } , \\beta _ { 2 } , \\ldots , \\beta _ { k } \\in \\mathbb { R } . } \\end{array}",
+          "image_source": "images/page_82_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.466,
+            0.896,
+            0.502
+          ],
+          "content": "Proof. $( \\mathrm { i } ) \\Rightarrow ( \\mathrm { \\ddot { i } i } )$ . Fix $\\beta _ { 1 } , \\beta _ { 2 } , \\ldots , \\beta _ { k }$ in R and let $\\begin{array} { r } { S = \\sum _ { i = 1 } ^ { k } | \\beta _ { i } | } \\end{array}$ . It follows from (i) that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.344,
+            0.499,
+            0.656,
+            0.552
+          ],
+          "content": "{ \\left| \\sum _ { i = 1 } ^ { k } \\right|} \\beta _ { i } \\langle f _ { i } , x _ { \\varepsilon } \\rangle - { \\sum _ { i = 1 } ^ { k } } \\beta _ { i } \\gamma _ { i }  \\leq \\varepsilon S .",
+          "image_source": "images/page_82_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.559,
+            0.236,
+            0.576
+          ],
+          "content": "and therefore"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.237,
+            0.587,
+            0.761,
+            0.64
+          ],
+          "content": "\\left| { \\sum _ { i = 1 } ^ { k } } \\beta _ { i } \\gamma _ { i } \\right| \\leq \\left\\| { \\sum _ { i = 1 } ^ { k } } \\beta _ { i }   f _ { i } \\right\\| \\left\\| x _ { \\varepsilon } \\right\\| + \\varepsilon S \\leq \\left\\| { \\sum _ { i = 1 } ^ { k } } \\beta _ { i }   f _ { i } \\right\\| + \\varepsilon S .",
+          "image_source": "images/page_82_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.652,
+            0.556,
+            0.67
+          ],
+          "content": "Since this holds for every $\\varepsilon > 0$ , we obtain (ii)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.679,
+            0.895,
+            0.716
+          ],
+          "content": "$( \\mathrm { \\ddot { u } } ) \\Rightarrow ( \\mathrm { \\dot { i } } )$ . Set $\\gamma   =   ( \\gamma _ { 1 } , \\gamma _ { 2 } , \\ldots , \\gamma _ { k } )   \\in   \\mathbb { R } ^ { k }$ and consider the map $\\varphi   :   E   \\to   \\mathbb { R } ^ { k }$ defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.717,
+            0.645,
+            0.736
+          ],
+          "content": "\\varphi ( x ) = ( \\langle f _ { 1 } , x \\rangle , \\ldots , \\langle f _ { k } , x \\rangle ) .",
+          "image_source": "images/page_82_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.747,
+            0.898,
+            0.82
+          ],
+          "content": "Property (i) sa<u>ys prec</u>isely that $\\gamma   \\in   \\overline { { \\varphi ( B _ { E } ) } }$ <u>.</u> Suppose, by contradiction, that (i) fails, so that $\\gamma \\notin \\overline { { \\varphi ( B _ { E } ) } }$ . Hence $\\{ \\gamma \\}$ and $\\overline { { \\varphi ( B _ { E } ) } }$ may be strictly separated in $\\mathbb { R } ^ { k }$ by some hyperplane; i.e., there exists some $\\beta = ( \\beta _ { 1 } , \\beta _ { 2 } , \\ldots , \\beta _ { k } ) \\in \\mathbb { R } ^ { k }$ and some $\\alpha \\in \\mathbb { R }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.822,
+            0.661,
+            0.84
+          ],
+          "content": "\\beta \\cdot \\varphi ( x ) < \\alpha < \\beta \\cdot \\gamma \\quad \\forall x \\in B _ { E } .",
+          "image_source": "images/page_82_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.85,
+            0.243,
+            0.866
+          ],
+          "content": "It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.295,
+            0.862,
+            0.699,
+            0.915
+          ],
+          "content": "\\left\\langle { \\sum _ { i = 1 } ^ { k } } \\beta _ { i }   f _ { i } , x \\right\\rangle < \\alpha < { \\sum _ { i = 1 } ^ { k } } \\beta _ { i } \\gamma _ { i } \\quad \\forall x \\in B _ { E } ,",
+          "image_source": "images/page_82_equation_20.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 83,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.102,
+            0.041,
+            0.284,
+            0.057
+          ],
+          "content": "3.5 Reflexive Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.042,
+            0.896,
+            0.054
+          ],
+          "content": "69"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.073,
+            0.237,
+            0.09
+          ],
+          "content": "and therefore"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.086,
+            0.632,
+            0.139
+          ],
+          "content": "\\left\\| \\sum _ { i = 1 } ^ { k }   \\beta _ { i }   f _ { i } \\right\\| \\leq \\alpha < \\sum _ { i = 1 } ^ { k }   \\beta _ { i } \\gamma _ { i } ,",
+          "image_source": "images/page_83_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.145,
+            0.317,
+            0.163
+          ],
+          "content": "which contradicts (ii)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.172,
+            0.897,
+            0.228
+          ],
+          "content": "**Lemma 3.4 (Goldstine).** Let E be any Banach space. Then $J ( B _ { E } )$ is dense in $B _ { E ^ { \\star } }$ - with respect to the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ , and consequently $J ( E )$ is dense in $E ^ { \\star \\star }$ in the topology σ $( E ^ { \\star \\star } , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.236,
+            0.895,
+            0.274
+          ],
+          "content": "Proof. Let $\\xi \\in B _ { E ^ { \\star } }$ and let V be a neighborhood of $\\xi$ for the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ We must prove that $V \\cap J ( B _ { E } ) \\neq \\emptyset$ . As usual, we may assume that V is of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.242,
+            0.287,
+            0.757,
+            0.308
+          ],
+          "content": "V = \\left\\{ \\eta \\in E ^ { \\star \\star } ; \\; | \\langle \\eta - \\xi ,   f _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k \\right\\}",
+          "image_source": "images/page_83_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.322,
+            0.896,
+            0.36
+          ],
+          "content": "for some given elements $f _ { 1 } ,   f _ { 2 } , \\ldots ,   f _ { k }$ in $E ^ { \\star }$ and some $\\varepsilon > 0$ . We have to find some $x \\in B _ { E }$ such that $J ( x ) \\in V , \\mathrm { i . e . }$ ,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.296,
+            0.374,
+            0.701,
+            0.394
+          ],
+          "content": "| \\langle f _ { i } , x \\rangle - \\langle \\xi , f _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k .",
+          "image_source": "images/page_83_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.408,
+            0.705,
+            0.428
+          ],
+          "content": "Set $\\gamma _ { i } = \\langle \\xi ,   f _ { i } \\rangle$ . In view of Lemma 3.3 it suffices to check that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.378,
+            0.44,
+            0.619,
+            0.493
+          ],
+          "content": "\\left| { \\sum _ { i = 1 } ^ { k } } \\beta _ { i } \\gamma _ { i } \\right| \\leq \\left\\| { \\sum _ { i = 1 } ^ { k } } \\beta _ { i }   f _ { i } \\right\\|   ,",
+          "image_source": "images/page_83_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.506,
+            0.699,
+            0.536
+          ],
+          "content": "which is clear since $\\begin{array} { r } { \\sum _ { i = 1 } ^ { k } \\beta _ { i } \\gamma _ { i } = \\left\\langle \\xi , \\sum _ { i = 1 } ^ { k } \\beta _ { i }   f _ { i } \\right\\rangle } \\end{array}$ and $\\| \\xi \\| \\leq 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.544,
+            0.898,
+            0.619
+          ],
+          "content": "Remark 15. Note that $J ( B _ { E } )$ is closed in $B _ { E ^ { \\star } }$ - in the strong topology. Indeed, if $\\xi _ { n } \\; = \\; J ( x _ { n } ) \\; \\rightarrow \\; \\xi$ we see that $( x _ { n } )$ is a Cauchy sequence in $B _ { E }$ (since J is an isometry) and therefore $x _ { n } \\to x$ , so that $\\xi = J x$ . It follows that $J ( B _ { E } )$ is not dense in $B _ { E ^ { \\star \\star } }$ in the strong topology, unless $J(B_{E}) = B_{E^{\\star \\star}}, \\mathrm{i.e.}$ , E is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.626,
+            0.897,
+            0.663
+          ],
+          "content": "Remark 16. See Problem 9 for an alternative proof of Lemma 3.4 (based on a variant of Hahn–Banach in $E ^ { \\star \\star } )$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.671,
+            0.898,
+            0.802
+          ],
+          "content": "Proof of Theorem 3.17, concluded. The canonical injection $J : E \\to E ^ { \\star \\star }$ is always continuous from $\\sigma ( E , E ^ { \\star } )$ into $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ , since for every fixed $f \\in E ^ { \\star }$ the map $x \\mapsto \\langle J x ,   f \\rangle = \\langle f , x \\rangle$ is continuous with respect to $\\sigma ( E , E ^ { \\star } )$ . Assuming that $B _ { E }$ is compact in the topology $\\sigma ( E , E ^ { \\star } )$ , we deduce that $J ( B _ { E } )$ is compact—and thus closed—in $E ^ { \\star \\star }$ with respect to the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ . On the other hand, by Lemma $3 . 4 , J ( B _ { E } )$ is dense in $B _ { E ^ { \\star } }$ - for the same topology. It follows that $J ( B _ { E } ) =$ $B _ { E ^ { \\star \\star } }$ and thus $J ( E ) = E ^ { \\star \\star }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.81,
+            0.897,
+            0.847
+          ],
+          "content": "In connection with the compactness properties of reflexive spaces we also have the following two results:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.856,
+            0.898,
+            0.912
+          ],
+          "content": "• **Theorem 3.18.** Assume that E is a reflexive Banach space and let $( x _ { n } )$ be a bounded sequence in E. Then there exists a subsequence $( x _ { n _ { k } } )$ that converges in the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 84,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.041,
+            0.13,
+            0.055
+          ],
+          "content": "70"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.265,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.073,
+            0.59,
+            0.092
+          ],
+          "content": "The converse is also true, namely the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.103,
+            0.898,
+            0.158
+          ],
+          "content": "\\- **Theorem 3.19 (Eberlein–Smulian).** ˇ Assume that E is a Banach space such that every bounded sequence in E admits a weakly convergent subsequence (in $\\sigma ( E , E ^ { \\star } ) )$ . Then E is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.169,
+            0.898,
+            0.244
+          ],
+          "content": "The proof of Theorem 3.18 requires a little excursion through separable spaces and will be given in Section 3.6. The proof of Theorem 3.19 is rather delicate and is omitted; see, e.g., R. Holmes [1], K. Yosida [1], N. Dunford–J. T. Schwartz [1], J. Diestel [2], or Problem 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.255,
+            0.898,
+            0.292
+          ],
+          "content": "Remark 17. In order to clarify the connection between Theorems 3.17, 3.18, and 3.19 it is useful to recall the following facts:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.3,
+            0.41,
+            0.318
+          ],
+          "content": "(i) If X is a metric space, then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.334,
+            0.88,
+            0.353
+          ],
+          "content": "[X is compact] ⇔ [every sequence in X admits a convergent subsequence]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.368,
+            0.898,
+            0.443
+          ],
+          "content": "(ii) There exist compact topological spaces X and some sequences in X without any convergent subsequence. A typical example is $X = B _ { E ^ { \\star } }$ , which is compact in the topology $\\sigma ( E ^ { \\star } , E )$ ; when $E = \\ell ^ { \\infty }$ it is easy to construct a sequence in X without any convergent subsequence (see Exercise 3.18)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.45,
+            0.898,
+            0.488
+          ],
+          "content": "(iii) If X is a topological space with the property that every sequence admits a convergent subsequence, then X need not be compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.499,
+            0.631,
+            0.517
+          ],
+          "content": "Here are some further properties of reflexive spaces."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.528,
+            0.898,
+            0.565
+          ],
+          "content": "• **Proposition 3.20.** Assume that E is a reflexive Banach space and let $M \\subset E$ be a closed linear subspace of E. Then M is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.576,
+            0.897,
+            0.614
+          ],
+          "content": "Proof. The space M—equipped with the norm of E—has a priori two distinct weak topologies:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.622,
+            0.479,
+            0.64
+          ],
+          "content": "(a) the topology induced by $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.641,
+            0.473,
+            0.659
+          ],
+          "content": "(b) its own weak topology $\\sigma ( M , M ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.667,
+            0.898,
+            0.779
+          ],
+          "content": "In fact, these two topologies are the same (since, by Hahn–Banach, every continuous linear functional on M is the restriction to M of a continuous linear functional on $E )$ . In view of Theorem 3.17, we have to check that $B _ { M }$ is compact in the topology $\\sigma ( M , M ^ { \\star } )$ or equivalently in the topology $\\sigma ( E , E ^ { \\star } )$ . However, $B _ { E }$ is compact in the topology $\\sigma ( E , E ^ { \\star } )$ and M is closed in the topology $\\sigma ( E , E ^ { \\star } )$ (by Theorem 3.7). Therefore $B _ { M }$ is compact in the topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.789,
+            0.897,
+            0.826
+          ],
+          "content": "**Corollary 3.21.** A Banach space E is reflexive if and only if its dual space $E ^ { \\star }$ is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.837,
+            0.898,
+            0.912
+          ],
+          "content": "Proof. E reflexive $\\Rightarrow E ^ { \\star }$ reflexive. The idea of the proof is simple, since, roughly speaking, we have that $E ^ { \\star \\star } \\; = \\; E \\; \\Rightarrow \\; E ^ { \\star \\star \\star } \\; = \\; E ^ { \\star }$ . More precisely, let J be the canonical isomorphism from E into $E ^ { \\star \\star }$ . Let $\\varphi \\in E ^ { \\star \\star \\star }$ be given. The map $x \\mapsto$ $\\langle \\varphi , J x \\rangle$ is a continuous linear functional on E. Call it $f \\in E ^ { \\star }$ , so that"
+        }
+      ]
+    },
+    {
+      "page_idx": 85,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.041,
+            0.285,
+            0.057
+          ],
+          "level": 2,
+          "content": "3.5 Reflexive Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.041,
+            0.895,
+            0.055
+          ],
+          "content": "71"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.073,
+            0.636,
+            0.092
+          ],
+          "content": "\\langle \\varphi , J x \\rangle = \\langle f , x \\rangle \\quad \\forall x \\in E .",
+          "image_source": "images/page_85_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.107,
+            0.274,
+            0.124
+          ],
+          "content": "But we also have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.125,
+            0.645,
+            0.144
+          ],
+          "content": "\\langle \\varphi ,   J x \\rangle = \\langle J x ,   f \\rangle \\quad \\forall x \\in E .",
+          "image_source": "images/page_85_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.153,
+            0.437,
+            0.171
+          ],
+          "content": "Since J is surjective, we infer that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.361,
+            0.186,
+            0.637,
+            0.206
+          ],
+          "content": "\\langle \\varphi ,   \\xi \\rangle = \\langle \\xi ,   f \\rangle \\quad \\forall \\xi \\in E ^ { \\star \\star } ,",
+          "image_source": "images/page_85_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.22,
+            0.898,
+            0.295
+          ],
+          "content": "which means precisely that the canonical injection from $E ^ { \\star }$ into $E ^ { \\star \\star \\star }$ is surjective. $E ^ { \\star } \\; { \\it r e f l e x i v e } \\Rightarrow E$ reflexive. From the step above we already know that $E ^ { \\star \\star }$ is reflexive. Since $J ( E )$ is a closed subspace of $E ^ { \\star \\star }$ in the strong topology, we conclude (by Proposition 3.20) that $J ( E )$ is reflexive. Therefore, E is reflexive.<sup>3</sup>"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.308,
+            0.896,
+            0.346
+          ],
+          "content": "• **Corollary 3.22.** Let E be a reflexive Banach space. Let $K   \\subset   E$ be a bounded, closed, and convex subset of E. Then K is compact in the topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.359,
+            0.898,
+            0.415
+          ],
+          "content": "Proof. K is closed for the topology $\\sigma ( E , E ^ { \\star } )$ (by Theorem 3.7). On the other hand, there exists a constant m such that $K \\subset m B _ { E }$ , and m $B _ { E }$ is compact in $\\sigma ( E , E ^ { \\star } )$ (by Theorem 3.17)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.429,
+            0.898,
+            0.485
+          ],
+          "content": "• **Corollary 3.23.** Let E be a reflexive Banach space and let $A \\subset E$ be a nonempty, closed, convex subset of E. Let ϕ $:A \\rightarrow ( - \\infty, + \\infty ]$ be a convex l.s.c. function such that $\\varphi \\not \\equiv + \\infty$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.499,
+            0.763,
+            0.538
+          ],
+          "content": "\\lim_{\\substack{x \\in A \\\\ \\|x\\| \\to \\infty}} \\varphi(x) = +\\infty \\quad (no \\; assum ption \\; if \\; A \\; is \\; bounded).\\tag{5}",
+          "image_source": "images/page_85_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.551,
+            0.817,
+            0.57
+          ],
+          "content": "Then ϕ achieves its minimum on $A ,   i . e .$ , there exists some $x _ { 0 } \\in A$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.418,
+            0.585,
+            0.578,
+            0.612
+          ],
+          "content": "\\varphi ( x _ { 0 } ) = \\operatorname* { m i n } _ { A } \\varphi .",
+          "image_source": "images/page_85_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.625,
+            0.726,
+            0.644
+          ],
+          "content": "Proof. Fix any $a \\in A$ such that $\\varphi(a) < +\\infty$ and consider the set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.358,
+            0.656,
+            0.639,
+            0.677
+          ],
+          "content": "{ \\tilde { A } } = \\{ x \\in A ; \\varphi ( x ) \\leq \\varphi ( a ) \\} .",
+          "image_source": "images/page_85_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.691,
+            0.898,
+            0.783
+          ],
+          "content": "Then $\\tilde { A }$ is closed, convex, and bounded (by (5)) and thus it is compact in the topology $\\sigma ( E , E ^ { \\star } )$ (by Corollary 3.22). On the other hand, $\\varphi$ is also l.s.c. in the topology $\\sigma ( E , E ^ { \\star } )$ (by Corollary 3.9). It follows that $\\varphi$ achieves its minimum on $\\tilde { A }$ (see property 5 following the definition of l.s.c. in Chapter 1), i.e., there exists $x _ { 0 }   \\in   \\tilde { A }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.376,
+            0.783,
+            0.621,
+            0.803
+          ],
+          "content": "\\varphi ( x _ { 0 } ) \\leq \\varphi ( x ) \\quad \\forall x \\in { \\tilde { A } } .",
+          "image_source": "images/page_85_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.811,
+            0.621,
+            0.832
+          ],
+          "content": "If $x \\in A \\backslash { \\tilde { A } }$ , we have $\\varphi ( x _ { 0 } ) \\leq \\varphi ( a ) < \\varphi ( x )$ ; therefore"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.376,
+            0.847,
+            0.621,
+            0.866
+          ],
+          "content": "\\varphi ( x _ { 0 } ) \\leq \\varphi ( x ) \\quad \\forall x \\in A .",
+          "image_source": "images/page_85_equation_19.jpg"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.281,
+            0.894,
+            0.301,
+            0.909
+          ],
+          "content": "F"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.51,
+            0.88,
+            0.529,
+            0.893
+          ],
+          "content": "T"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.81,
+            0.88,
+            0.831,
+            0.894
+          ],
+          "content": "E"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.871,
+            0.88,
+            0.892,
+            0.894
+          ],
+          "content": ","
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.099,
+            0.877,
+            0.897,
+            0.911
+          ],
+          "content": "3 It is clear that if E and F are Banach spaces, and  is a linear surjective isometry from  onto F then E is reflexive iff is reflexive. Of course, there is no contradiction with Remark 14!"
+        }
+      ]
+    },
+    {
+      "page_idx": 86,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.102,
+            0.041,
+            0.13,
+            0.054
+          ],
+          "content": "72"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.264,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.898,
+            0.128
+          ],
+          "content": "Remark 18. Corollary 3.23 is the main reason why reflexive spaces and convex functions are so important in many problems occurring in the calculus of variations and in optimization."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.137,
+            0.898,
+            0.212
+          ],
+          "content": "**Theorem 3.24.** Let E and F be two reflexive Banach spaces. Let $A : D ( A ) \\subset E \\to$ F be an unbounded linear operator that is densely defined and closed. Then $D ( A ^ { \\star } )$ is dense in $F ^ { \\star }$ . Thus $A ^ { \\star \\star }$ is well defined $( A ^ { \\star \\star } : D ( A ^ { \\star \\star } ) \\subset E ^ { \\star \\star } \\to F ^ { \\star \\star } )$ and it may also be viewed as an unbounded operator from E into F. Then we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.226,
+            0.558,
+            0.248
+          ],
+          "content": "\\boxed { A ^ { \\star \\star } = A . }",
+          "image_source": "images/page_86_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.263,
+            0.169,
+            0.28
+          ],
+          "content": "Proof."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.281,
+            0.898,
+            0.338
+          ],
+          "content": "1. $D ( A ^ { \\star } )$ is dense in $F ^ { \\star }$ . Let $\\varphi$ be a continuous linear functional on $F ^ { \\star }$ that vanishes on $D ( A ^ { \\star } )$ . In view of Corollary 1.8 it suffices to prove that $\\varphi \\equiv 0$ on $F ^ { \\star }$ . Since F is reflexive, $\\varphi \\in F$ and we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.352,
+            0.633,
+            0.37
+          ],
+          "content": "\\langle w , \\varphi \\rangle = 0 \\quad \\forall w \\in D ( A ^ { \\star } ) .\\tag{6}",
+          "image_source": "images/page_86_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.385,
+            0.898,
+            0.441
+          ],
+          "content": "If $\\varphi \\neq 0$ then $[ 0 , \\varphi ] \\notin G ( A )$ in $E \\times F$ . Thus, one may strictly separate $[ 0 , \\varphi ]$ and $G ( A )$ by a closed hyperplane in $E \\times F ; { \\bf i . e . }$ , there exist some $[ f , v ] \\in E ^ { \\star } \\times F ^ { \\star }$ and some $\\alpha \\in \\mathbb { R }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28,
+            0.458,
+            0.718,
+            0.476
+          ],
+          "content": "\\langle f , u \\rangle + \\langle v , A u \\rangle < \\alpha < \\langle v , \\varphi \\rangle \\quad \\forall u \\in D ( A ) .",
+          "image_source": "images/page_86_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.491,
+            0.244,
+            0.509
+          ],
+          "content": "It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.509,
+            0.67,
+            0.528
+          ],
+          "content": "\\langle f , u \\rangle + \\langle v , A u \\rangle = 0 \\quad \\forall u \\in D ( A )",
+          "image_source": "images/page_86_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.537,
+            0.146,
+            0.554
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.443,
+            0.556,
+            0.557,
+            0.574
+          ],
+          "content": "\\langle v , \\varphi \\rangle \\neq 0 .",
+          "image_source": "images/page_86_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.583,
+            0.839,
+            0.602
+          ],
+          "content": "Thus $v \\in D ( A ^ { \\star } )$ , and we are led to a contradiction by choosing $w = v$ in (6)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.609,
+            0.555,
+            0.626
+          ],
+          "content": "2. $A ^ { \\star \\star } = A$ . We recall (see Section 2.6) that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.397,
+            0.64,
+            0.601,
+            0.661
+          ],
+          "content": "I [ G ( A ^ { \\star } ) ] = G ( A ) ^ { \\perp }",
+          "image_source": "images/page_86_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.677,
+            0.147,
+            0.694
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.386,
+            0.694,
+            0.612,
+            0.713
+          ],
+          "content": "I [ G ( A ^ { \\star \\star } ) ] = G ( A ^ { \\star } ) ^ { \\perp } .",
+          "image_source": "images/page_86_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.722,
+            0.244,
+            0.74
+          ],
+          "content": "It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.354,
+            0.739,
+            0.643,
+            0.759
+          ],
+          "content": "G ( A ^ { \\star \\star } ) = G ( A ) ^ { \\perp \\perp } = G ( A ) ,",
+          "image_source": "images/page_86_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.769,
+            0.276,
+            0.786
+          ],
+          "content": "since A is closed."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.833,
+            0.369,
+            0.856
+          ],
+          "level": 2,
+          "content": "3.6 Separable Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.874,
+            0.898,
+            0.911
+          ],
+          "content": "**Definition.** We say that a metric space E is separable if there exists a subset $D \\subset E$ that is countable and dense."
+        }
+      ]
+    },
+    {
+      "page_idx": 87,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.102,
+            0.041,
+            0.287,
+            0.057
+          ],
+          "level": 2,
+          "content": "3.6 Separable Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.041,
+            0.896,
+            0.055
+          ],
+          "content": "73"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.073,
+            0.898,
+            0.166
+          ],
+          "content": "Many important spaces in analysis are separable. Clearly, finite-dimensional spaces are separable. As we shall see in Chapter 4 (see also Chapter 11), $L ^ { p }$ (and $\\ell ^ { p } )$ spaces are separable for $1 \\leq p < \\infty$ . Also $C ( K )$ , the space of continuous functions on a compact metric space K, is separable (see Problem 24). However, $L ^ { \\infty }$ and $\\ell ^ { \\infty }$ are not separable (see Chapters 4 and 11)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.18,
+            0.895,
+            0.217
+          ],
+          "content": "**Proposition 3.25.** Let E be a separable metric space and let $F \\subset E$ be any subset. Then F is also separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.233,
+            0.898,
+            0.29
+          ],
+          "content": "Proof. Let $( u _ { n } )$ be a countable dense subset of E. Let $( r _ { m } )$ be any sequence of positive numbers such that $r _ { m } \\rightarrow 0 .$ Choose any point $a _ { m , n } \\in B ( u _ { n } , r _ { m } ) \\cap F$ whenever this set is nonempty. The set $( a _ { m , n } )$ is countable and dense in $F$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.303,
+            0.898,
+            0.341
+          ],
+          "content": "**Theorem 3.26.** Let E be a Banach space such that $E ^ { \\star }$ is separable. Then E is separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.356,
+            0.897,
+            0.394
+          ],
+          "content": "Remark 19. The converse is not true. As we shall see in Chapter 4, $E   =   L ^ { 1 }$ is separable but its dual space $E ^ { \\star } = L ^ { \\infty }$ is not separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.409,
+            0.641,
+            0.428
+          ],
+          "content": "Proof. Let $( f _ { n } ) _ { n \\geq 1 }$ be countable and dense in $E ^ { \\star }$ . Since"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.393,
+            0.443,
+            0.603,
+            0.485
+          ],
+          "content": "\\| f_n \\| = \\sup_{\\substack{x \\in E \\\\ \\| x \\| \\leq 1}} \\langle f_n, x \\rangle,",
+          "image_source": "images/page_87_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.498,
+            0.442,
+            0.516
+          ],
+          "content": "we can find some $x _ { n } \\in E$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.527,
+            0.66,
+            0.564
+          ],
+          "content": "\\| x _ { n } \\| = 1 { \\mathrm { ~ a n d ~ } } \\langle f _ { n } , x _ { n } \\rangle \\geq { \\frac { 1 } { 2 } } \\| f _ { n } \\| .",
+          "image_source": "images/page_87_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.576,
+            0.898,
+            0.67
+          ],
+          "content": "Let us denote by $L _ { 0 }$ the vector space over Q generated by the $(x_n)_{n \\geq 1}; \\mathrm{i.e.}, L_0$ consists of all finite linear combinations with coefficients in $\\mathbb { Q }$ of the elements $( x _ { n } ) _ { n \\geq 1 }$ We claim that $L _ { 0 }$ is countable. Indeed, for every integer $n ,$ let $\\Lambda _ { n }$ be the vector space over Q generated by the $( x _ { k } ) _ { 1 \\leq k \\leq n }$ . Clearly, $\\Lambda _ { n }$ is countable and, moreover, $\\begin{array} { r } { L _ { 0 } = \\bigcup _ { n \\geq 1 } \\Lambda _ { n } } \\end{array}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.669,
+            0.898,
+            0.763
+          ],
+          "content": "Let L denote the vector space over R generated by the $( x _ { n } ) _ { n \\geq 1 }$ . Of course, $L _ { 0 }$ is a dense subset of L. We claim that L is a dense subspace of E—and this will conclude the proof $( L _ { 0 }$ will be a dense countable subset of $E )$ . Let $f \\in E ^ { \\star }$ be a continuous linear functional that vanishes on $L 1$ ; in view of Corollary 1.8 we have to prove that $f = 0$ . Given any $\\varepsilon > 0$ , there is some integer N such that $\\| f - f _ { N } \\| < \\varepsilon$ . We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.299,
+            0.773,
+            0.699,
+            0.811
+          ],
+          "content": "\\frac { 1 } { 2 } \\| f _ { N } \\| \\leq \\langle f _ { N } , x _ { N } \\rangle = \\langle f _ { N } - f , x _ { N } \\rangle < \\varepsilon .",
+          "image_source": "images/page_87_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.821,
+            0.877,
+            0.841
+          ],
+          "content": "(since $\\langle f , x _ { N } \\rangle = 0 )$ . It follows that $\\| f \\| \\leq \\| f - f_N \\| + \\| f_N \\| < 3 \\varepsilon$ . Thus $f = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.856,
+            0.565,
+            0.874
+          ],
+          "content": "**Corollary 3.27.** Let E be a Banach space. Then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.889,
+            0.787,
+            0.908
+          ],
+          "content": "[E reflexive and separable] $\\Leftrightarrow [ E ^ { \\star }$ reflexive and separable]."
+        }
+      ]
+    },
+    {
+      "page_idx": 88,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.041,
+            0.13,
+            0.054
+          ],
+          "content": "74"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.265,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.073,
+            0.725,
+            0.092
+          ],
+          "content": "Proof. We already know (Corollary 3.21 and Theorem 3.26) that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.107,
+            0.786,
+            0.125
+          ],
+          "content": "$[ E ^ { \\star }$ reflexive and separable] ⇒ [E reflexive and separable]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.14,
+            0.898,
+            0.178
+          ],
+          "content": "Conversely, if E is reflexive and separable, so is $E ^ { \\star \\star } = J ( E )$ ; thus $E ^ { \\star }$ is reflexive and separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.188,
+            0.898,
+            0.244
+          ],
+          "content": "Separability properties are closely related to the metrizability of the weak topologies. Let us recall that a topological space X is said to be metrizable if there is a metric on X that induces the topology of X."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.255,
+            0.897,
+            0.291
+          ],
+          "content": "**Theorem 3.28.** Let E be a separable Banach space. Then $B _ { E ^ { \\star } }$ is metrizable in the weak- topology $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.292,
+            0.762,
+            0.31
+          ],
+          "content": "Conversely, if $B _ { E ^ { \\star } }$ is metrizable in $\\sigma ( E ^ { \\star } , E )$ , then E is separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.321,
+            0.401,
+            0.339
+          ],
+          "content": "There is a “dual” statement."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.351,
+            0.897,
+            0.387
+          ],
+          "content": "**Theorem 3.29.** Let E be a Banach space such that $E ^ { \\star }$ is separable. Then $B _ { E }$ is metrizable in the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.388,
+            0.764,
+            0.406
+          ],
+          "content": "Conversely, $\\mathit { i f }   B _ { E }$ is metrizable in $\\sigma ( E , E ^ { \\star } )$ , then $E ^ { \\star }$ is separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.417,
+            0.896,
+            0.454
+          ],
+          "content": "Proof of Theorem 3.28. Let $( x _ { n } ) _ { n \\geq 1 }$ be a dense countable subset of $B _ { E }$ . For every $f \\in E ^ { \\star }$ set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.453,
+            0.61,
+            0.502
+          ],
+          "content": "[ f ] = \\sum _ { n = 1 } ^ { \\infty } { \\frac { 1 } { 2 ^ { n } } } | \\langle f , x _ { n } \\rangle | .",
+          "image_source": "images/page_88_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.511,
+            0.898,
+            0.566
+          ],
+          "content": "Clearly, [ ] is a norm on $E ^ { \\star }$ and $[ f ]   \\leq   \\| f \\|$ . Let $d ( f , g )   =   [ f   -   g ]$ be the corresponding metric. We shall prove that the topology induced by d on $B _ { E 1 }$ - is the same as the topology $\\sigma ( E ^ { \\star } , E )$ restricted to $B _ { E ^ { \\star } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.567,
+            0.897,
+            0.603
+          ],
+          "content": "(a) Let $f _ { 0 } \\in B _ { E ^ { \\star } }$ and let V be a neighborhood of $f _ { 0 }$ for $\\sigma ( E ^ { \\star } , E )$ . We have to find some $r > 0$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.321,
+            0.619,
+            0.675,
+            0.637
+          ],
+          "content": "U = \\{ f \\in B _ { E ^ { \\star } } ;   d ( f ,   f _ { 0 } ) < r \\} \\subset V .",
+          "image_source": "images/page_88_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.654,
+            0.572,
+            0.671
+          ],
+          "content": "As usual, we may assume that V has the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.237,
+            0.687,
+            0.761,
+            0.705
+          ],
+          "content": "V = \\{ f \\in B _ { E ^ { \\star } } ; | \\langle f - f _ { 0 } , y _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k \\}",
+          "image_source": "images/page_88_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.721,
+            0.897,
+            0.758
+          ],
+          "content": "with $\\varepsilon > 0$ and $y _ { 1 } , y _ { 2 } , \\ldots , y _ { k } \\in E$ . Without loss of generality we may assume that $\\| y _ { i } \\| \\leq 1$ for every $i = 1 , 2 , \\ldots , k$ . For every i there is some integer $n _ { i }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.773,
+            0.588,
+            0.792
+          ],
+          "content": "\\| y _ { i } - x _ { n _ { i } } \\| < \\varepsilon / 4",
+          "image_source": "images/page_88_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.807,
+            0.466,
+            0.825
+          ],
+          "content": "(since the set $( x _ { n } ) _ { n \\geq 1 }$ is dense in $B _ { E } )$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.826,
+            0.445,
+            0.843
+          ],
+          "content": "Choose $r > 0$ small enough that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.348,
+            0.858,
+            0.649,
+            0.877
+          ],
+          "content": "2 ^ { n _ { i } } r < \\varepsilon / 2 \\quad \\forall i = 1 , 2 , \\ldots , k .",
+          "image_source": "images/page_88_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.893,
+            0.74,
+            0.911
+          ],
+          "content": "We claim that for such $r , U \\subset V$ . Indeed, if $d ( f ,   f _ { 0 } ) < r$ , we have"
+        }
+      ]
+    },
+    {
+      "page_idx": 89,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.041,
+            0.288,
+            0.057
+          ],
+          "level": 2,
+          "content": "3.6 Separable Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.871,
+            0.041,
+            0.897,
+            0.054
+          ],
+          "content": "75"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.296,
+            0.068,
+            0.704,
+            0.104
+          ],
+          "content": "\\frac{1}{2^{n_i}}|\\langle f - f_0, x_{n_i} \\rangle| < r \\quad \\forall i = 1,2,\\ldots,k",
+          "image_source": "images/page_89_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.116,
+            0.41,
+            0.134
+          ],
+          "content": "and therefore, $\\forall i = 1 , 2 , \\ldots , k$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.145,
+            0.809,
+            0.18
+          ],
+          "content": "| \\langle f - f _ { 0 } , y _ { i } \\rangle | = | \\langle f - f _ { 0 } , y _ { i } - x _ { n _ { i } } \\rangle + \\langle f - f _ { 0 } , x _ { n _ { i } } \\rangle | < \\frac { \\varepsilon } { 2 } + \\frac { \\varepsilon } { 2 } .",
+          "image_source": "images/page_89_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.191,
+            0.315,
+            0.209
+          ],
+          "content": "It follows that $f \\in V$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.219,
+            0.898,
+            0.255
+          ],
+          "content": "(b) Let $f _ { 0 }   \\in   B _ { E ^ { \\star } }$ . Given $r   >   0 .$ , we have to find some neighborhood V of $f _ { 0 }$ for $\\sigma ( E ^ { \\star } , E )$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.271,
+            0.681,
+            0.29
+          ],
+          "content": "V \\subset U = \\left\\{ f \\in B_{E^{\\star}}; d(f,   f_0) < r \\right\\}.",
+          "image_source": "images/page_89_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.305,
+            0.341,
+            0.323
+          ],
+          "content": "We shall choose V to be"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.237,
+            0.339,
+            0.762,
+            0.358
+          ],
+          "content": "V = \\{ f \\in B _ { E ^ { \\star } } ; \\; \\langle f - f _ { 0 } , x _ { i } \\rangle | < \\varepsilon \\quad \\forall i = 1 , 2 , \\ldots , k \\}",
+          "image_source": "images/page_89_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.373,
+            0.841,
+            0.391
+          ],
+          "content": "with ε and k to be determined in such a way that $V \\subset U$ . For $f \\in V$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.212,
+            0.405,
+            0.785,
+            0.511
+          ],
+          "content": "\\begin{align*}d(f,   f_0) &= \\sum_{n=1}^{k} \\frac{1}{2^n} |\\langle f - f_0, x_n \\rangle| + \\sum_{n=k+1}^{\\infty} \\frac{1}{2^n} |\\langle f - f_0, x_n \\rangle| \\\\&< \\varepsilon + 2 \\sum_{n=k+1}^{\\infty} \\frac{1}{2^n} = \\varepsilon + \\frac{1}{2^{k-1}}.\\end{align*}",
+          "image_source": "images/page_89_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.527,
+            0.719,
+            0.55
+          ],
+          "content": "Thus, it suffices to take $\\varepsilon = { \\textstyle { \\frac { r } { 2 } } }$ and k large enough that $\\textstyle { \\frac { 1 } { 2 ^ { k - 1 } } } < { \\frac { r } { 2 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.556,
+            0.897,
+            0.593
+          ],
+          "content": "-Conversely, suppose $B _ { E ^ { \\star } }$ is metrizable in $\\sigma ( E ^ { \\star } , E )$ and let us prove that E is separable. Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.336,
+            0.593,
+            0.661,
+            0.611
+          ],
+          "content": "U _ { n } = \\{ f \\in B _ { E ^ { \\star } } ; \\; d ( f , 0 ) < 1 / n \\}",
+          "image_source": "images/page_89_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.621,
+            0.897,
+            0.657
+          ],
+          "content": "and let $V _ { n }$ be a neighborhood of 0 in $\\sigma ( E ^ { \\star } , E )$ such that $V _ { n } \\subset U _ { n }$ . We may assume that $V _ { n }$ has the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.295,
+            0.672,
+            0.704,
+            0.692
+          ],
+          "content": "V _ { n } = \\{ f \\in B _ { E ^ { \\star } } ; | \\langle f , x \\rangle | < \\varepsilon _ { n } \\quad \\forall x \\in \\Phi _ { n } \\}",
+          "image_source": "images/page_89_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.707,
+            0.55,
+            0.725
+          ],
+          "content": "with $\\varepsilon _ { n } > 0$ and $\\Phi _ { n }$ is a finite subset of E. Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.431,
+            0.738,
+            0.564,
+            0.789
+          ],
+          "content": "D = \\bigcup _ { n = 1 } ^ { \\infty } \\Phi _ { n } ,",
+          "image_source": "images/page_89_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.801,
+            0.324,
+            0.818
+          ],
+          "content": "so that D is countable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.82,
+            0.898,
+            0.876
+          ],
+          "content": "We claim that the vector space generated by D is dense in E (which implies that E is separable). Indeed, suppose $f \\in E ^ { \\star }$ is such that $\\langle f , x \\rangle = 0 \\quad \\forall x \\in D$ . It follows that $f \\in V _ { n }$ ∀n and therefore $f \\in U _ { n }$ ∀n, so that $f = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.893,
+            0.605,
+            0.912
+          ],
+          "content": "Proof of Theorem 3.29. The proof of the implication"
+        }
+      ]
+    },
+    {
+      "page_idx": 90,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.041,
+            0.13,
+            0.055
+          ],
+          "content": "76"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.265,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.259,
+            0.073,
+            0.74,
+            0.091
+          ],
+          "content": "[ E ^ { \\star } { \\mathrm { ~ s e p a r a b l e } } ] \\Rightarrow [ B _ { E } { \\mathrm { ~ i s ~ m e t r i z a b l e ~ i n ~ } } \\sigma ( E , E ^ { \\star } ) ]",
+          "image_source": "images/page_90_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.107,
+            0.898,
+            0.162
+          ],
+          "content": "is exactly the same as above—just change the roles of E and $E ^ { \\star }$ . The proof of the converse is more delicate (find where the proof above breaks down); we refer to N. Dunford–J. T. Schwartz [1] or Exercise 3.24."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.173,
+            0.898,
+            0.248
+          ],
+          "content": "Remark 20. One should emphasize again (see Remark 3) that in infinite-dimensional spaces the weak topology $\\sigma ( E , E ^ { \\star } )$ (resp. weak- topology $\\sigma ( E ^ { \\star } , E ) )$ on all of E (resp. $E ^ { \\star } )$ is not metrizable; see Exercise 3.8. In particular, the topology induced by the norm [ ] on all of $E ^ { \\star }$ does not coincide with the weak- topology."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.257,
+            0.898,
+            0.314
+          ],
+          "content": "**Corollary 3.30.** Let E be a separable Banach space and let $( f _ { n } )$ be a bounded sequence in $E ^ { \\star }$ . Then there exists a subsequence $( f _ { n _ { k } } )$ that converges in the weaktopology $\\sigma ( E ^ { \\star } , E )$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.324,
+            0.896,
+            0.379
+          ],
+          "content": "Proof. Without loss of generality we may assume that $\\| f _ { n } \\| \\leq 1$ for all n. The set $B _ { E ^ { \\star } }$ is compact and metrizable for the topology $\\sigma ( E ^ { \\star } , E )$ (by Theorems 3.16 and 3.28). The conclusion follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.39,
+            0.582,
+            0.409
+          ],
+          "content": "We may now return to the proof of Theorem 3.18:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.419,
+            0.898,
+            0.55
+          ],
+          "content": "Proof of Theorem 3.18. Let $M _ { 0 }$ be the vector space generated by the ${ x _ { n } } ^ { \\flat } \\mathbf { S }$ and let $M = \\overline { { M } } _ { 0 }$ . Clearly, M is separable (see the proof of Theorem 3.26). Moreover, M is reflexive (by Proposition 3.20). It follows that $B _ { M }$ is compact and metrizable in the weak topology $\\sigma ( M , M ^ { \\star } )$ , since $M ^ { \\star }$ is separable (we use here Corollary 3.27 and Theorem 3.29). We may thus find a subsequence $( x _ { n _ { k } } )$ that converges weakly $\\sigma ( M , M ^ { \\star } )$ , and hence $( x _ { n _ { k } } )$ converges also weakly $\\sigma ( E , E ^ { \\star } )$ (as in the proof of Proposition 3.20)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.595,
+            0.469,
+            0.616
+          ],
+          "level": 2,
+          "content": "3.7 Uniformly Convex Spaces"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.64,
+            0.687,
+            0.659
+          ],
+          "content": "**Definition.** A Banach space is said to be uniformly convex if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.374,
+            0.674,
+            0.624,
+            0.691
+          ],
+          "content": "\\forall \\varepsilon > 0 \\quad \\exists \\delta > 0 \\quad \\mathrm { s u c h \\quad t h a t }",
+          "image_source": "images/page_90_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.696,
+            0.849,
+            0.739
+          ],
+          "content": "\\left[ x , y \\in E , \\| x \\| \\leq 1 , \\| y \\| \\leq 1 \\; \\mathrm { a n d } \\; \\| x - y \\| > \\varepsilon \\right] \\Rightarrow \\left[ \\left\\| \\frac { x + y } { 2 } \\right\\| < 1 - \\delta \\right] .",
+          "image_source": "images/page_90_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.75,
+            0.898,
+            0.825
+          ],
+          "content": "The uniform convexity is a geometric property of the unit ball: if we slide a rule of length $\\varepsilon   >   0$ in the unit ball, then its midpoint must stay within a ball of radius $( 1 - \\delta )$ for some $\\delta > 0$ . In particular, the unit sphere must be “round” and cannot include any line segment."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.835,
+            0.898,
+            0.912
+          ],
+          "content": "Example 1. Let $E = \\mathbb { R } ^ { 2 }$ . The norm $\\| x \\| _ { 2 } = \\left[ | x _ { 1 } | ^ { 2 } + | x _ { 2 } | ^ { 2 } \\right] ^ { 1 / 2 }$ is uniformly convex, while the norm $\\| x \\| _ { 1 } = | x _ { 1 } | + | x _ { 2 } |$ and the norm $\\| x \\| _ { \\infty } = \\max ( | x _ { 1 } | , | x _ { 2 } | )$ are not uniformly convex. This can be easily seen by staring at the unit balls, as shown in Figure 3."
+        }
+      ]
+    },
+    {
+      "page_idx": 91,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.102,
+            0.041,
+            0.359,
+            0.057
+          ],
+          "content": "3.7 Uniformly Convex Spaces"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.041,
+            0.896,
+            0.055
+          ],
+          "content": "77"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.287,
+            0.072,
+            0.484,
+            0.236
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_91_image_2.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.523,
+            0.069,
+            0.716,
+            0.234
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.533,
+                0.246,
+                0.692,
+                0.264
+              ],
+              "content": "1        Unit ball of E for || ||"
+            },
+            {
+              "bbox": [
+                0.102,
+                0.273,
+                0.158,
+                0.29
+              ],
+              "content": "Fig. 3"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_91_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.325,
+            0.896,
+            0.363
+          ],
+          "content": "Example 2. As we shall see in Chapters 4 and 5, the $L ^ { p }$ spaces are uniformly convex for $1 < p < \\infty$ and Hilbert spaces are also uniformly convex."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.373,
+            0.896,
+            0.409
+          ],
+          "content": "• **Theorem 3.31 (Milman–Pettis).** Every uniformly convex Banach space is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.42,
+            0.898,
+            0.551
+          ],
+          "content": "Remark 21. Uniform convexity is a geometric property of the norm; an equivalent norm need not be uniformly convex. On the other hand, reflexivity is a topological property: a reflexive space remains reflexive for an equivalent norm. It is a striking feature of Theorem 3.31 that a geometric property implies a topological property. Uniform convexity is often used as a tool to prove reflexivity; but it is not the ultimate tool—there are some weird reflexive spaces that admit no uniformly convex equivalent norm!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.56,
+            0.895,
+            0.599
+          ],
+          "content": "Proof. Let $\\xi   \\in   E ^ { \\star \\star }$ with $\\| \\xi \\| = 1$ . We have to show that $\\xi \\in J ( B _ { E } )$ . Since $J ( B _ { E } )$ is closed in $E ^ { \\star \\star }$ in the strong topology, it suffices to prove that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.102,
+            0.612,
+            0.717,
+            0.632
+          ],
+          "content": "\\forall \\varepsilon > 0 \\quad \\exists x \\in B _ { E } { \\mathrm { ~ s u c h ~ t h a t ~ } } \\| \\xi - J ( x ) \\| \\leq \\varepsilon .\\tag{7}",
+          "image_source": "images/page_91_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.646,
+            0.896,
+            0.684
+          ],
+          "content": "Fix $\\varepsilon > 0$ and let δ > 0 $\\delta > 0$ be the modulus of uniform convexity. Choose some $f \\in E ^ { \\star }$ such that $\\| f \\| = 1$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.103,
+            0.699,
+            0.594,
+            0.718
+          ],
+          "content": "\\langle \\xi ,   f \\rangle > 1 - ( \\delta / 2 )\\tag{8}",
+          "image_source": "images/page_91_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.733,
+            0.477,
+            0.752
+          ],
+          "content": "(which is possible, since $\\| \\xi \\| = 1 )$ . Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.321,
+            0.766,
+            0.676,
+            0.786
+          ],
+          "content": "V = \\{ \\eta \\in E ^ { \\star \\star } ; ~ | \\langle \\eta - \\xi ,   f \\rangle | < \\delta / 2 \\} ,",
+          "image_source": "images/page_91_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.8,
+            0.898,
+            0.855
+          ],
+          "content": "so that V is a neighborhood of $\\xi$ in the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ . Since $J ( B _ { E } )$ is dense in $B _ { E ^ { \\star \\star } }$ with respect to $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ (Lemma 3.4), we know that $V \\cap J ( B _ { E } ) \\neq \\emptyset$ and thus there is some $x \\in B _ { E }$ such that $J ( x ) \\in V$ . We claim that this x satisfies (7)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.856,
+            0.898,
+            0.912
+          ],
+          "content": "Suppose, by contradiction, that $\\| \\xi - J x \\| > \\varepsilon , \\mathrm { i . e . , } \\xi \\in ( J x + \\varepsilon B _ { E ^ { \\star \\star } } ) ^ { c } = W$ . The set W is also a neighborhood of $\\{ \\xi$ in the topology $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } )$ (since $B _ { E ^ { \\star \\star } }$ is closed in $\\sigma ( E ^ { \\star \\star } , E ^ { \\star } ) )$ . Using Lemma 3.4 once more, we know that $V \\cap W \\cap J(B_E) \\neq \\phi,  i.e.$ ,"
+        }
+      ]
+    },
+    {
+      "page_idx": 92,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.041,
+            0.13,
+            0.054
+          ],
+          "content": "78"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.265,
+            0.041,
+            0.897,
+            0.057
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.073,
+            0.897,
+            0.108
+          ],
+          "continues_prev": true,
+          "content": "there exists some $y \\in B _ { E }$ such that $J ( y ) \\in V \\cap W$ . Writing that $J ( x ) , J ( y ) \\in V$ we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.109,
+            0.616,
+            0.129
+          ],
+          "content": "| \\langle f , x \\rangle - \\langle \\xi , f \\rangle | < \\delta / 2",
+          "image_source": "images/page_92_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.138,
+            0.146,
+            0.154
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.155,
+            0.617,
+            0.175
+          ],
+          "content": "| \\langle f , y \\rangle - \\langle \\xi , f \\rangle | < \\delta / 2 .",
+          "image_source": "images/page_92_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.183,
+            0.43,
+            0.202
+          ],
+          "content": "Adding these inequalities leads to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.295,
+            0.217,
+            0.7,
+            0.237
+          ],
+          "content": "2 \\langle \\xi , f \\rangle < \\langle f , x + y \\rangle + \\delta \\leq \\| x + y \\| + \\delta .",
+          "image_source": "images/page_92_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.251,
+            0.403,
+            0.27
+          ],
+          "content": "Combining with (8), we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.407,
+            0.282,
+            0.592,
+            0.323
+          ],
+          "content": "\\left\\| \\frac{x + y}{2} \\right\\| > 1 - \\delta.",
+          "image_source": "images/page_92_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.335,
+            0.896,
+            0.373
+          ],
+          "content": "It follows (by uniform convexity) that $\\| x - y \\| \\leq \\varepsilon$ ; this is absurd, since $J ( y ) \\in W$ $( \\mathrm { i . e . , } ~ \\| x - y \\| > \\varepsilon )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.392,
+            0.746,
+            0.411
+          ],
+          "content": "We conclude with a useful property of uniformly convex spaces."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.43,
+            0.898,
+            0.468
+          ],
+          "content": "**Proposition 3.32.** Assume that E is a uniformly convex Banach space. $L e t \\left( x _ { n } \\right)$ be a sequence in E such that $x _ { n } \\rightharpoonup x$ weakly σ $( E , E ^ { \\star } )$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.396,
+            0.483,
+            0.599,
+            0.502
+          ],
+          "content": "\\lim \\sup \\|x_n\\| \\leq \\|x\\|.",
+          "image_source": "images/page_92_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.517,
+            0.324,
+            0.535
+          ],
+          "content": "Then $x _ { n } \\to x$ strongly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.554,
+            0.898,
+            0.573
+          ],
+          "content": "Proof. We may always assume that $x \\neq 0$ (otherwise the conclusion is obvious). Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.229,
+            0.586,
+            0.765,
+            0.608
+          ],
+          "content": "\\lambda _ { n } = \\max ( \\| x _ { n } \\| , \\| x \\| ) , \\quad y _ { n } = \\lambda _ { n } ^ { - 1 } x _ { n } , \\mathrm { a n d } y = \\| x \\| ^ { - 1 } x ,",
+          "image_source": "images/page_92_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.622,
+            0.714,
+            0.641
+          ],
+          "content": "so that $\\lambda _ { n } \\to \\| x \\|$ and $y _ { n } \\rightharpoonup y$ weakly $\\sigma ( E , E ^ { \\star } )$ . It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.362,
+            0.656,
+            0.636,
+            0.675
+          ],
+          "content": "\\| y \\| \\leq \\liminf_{n \\to \\infty} \\| (y_n + y)/2 \\|",
+          "image_source": "images/page_92_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.689,
+            0.898,
+            0.746
+          ],
+          "content": "(see Proposition 3.5(iii)). On the other hand, $\\| y \\| = 1$ and $\\| y _ { n } \\| \\leq 1$ , so that in fact, $\\| ( y _ { n } + y ) / 2 \\| \\to 1 .   \\mathrm { W e }$ deduce from the uniform convexity that $\\| y _ { n } - y \\| \\to 0$ and thus $x _ { n } \\to x$ strongly."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.792,
+            0.408,
+            0.812
+          ],
+          "level": 2,
+          "content": "Comments on Chapter 3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.837,
+            0.898,
+            0.912
+          ],
+          "content": "**1.** The topologies $\\sigma ( E , E ^ { \\star } ) , \\sigma ( E ^ { \\star } , E )$ , etc., are locally convex topologies. As such, they enjoy all the properties of locally convex spaces; for example, Hahn–Banach (geometric form), Krein–Milman, etc., still hold; see, e.g., N. Bourbaki [1], A. Knapp [2], and also Problem 9."
+        }
+      ]
+    },
+    {
+      "page_idx": 93,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.102,
+            0.041,
+            0.336,
+            0.057
+          ],
+          "content": "3.7 Exercises for Chapter 3"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.871,
+            0.041,
+            0.897,
+            0.054
+          ],
+          "content": "79"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.073,
+            0.898,
+            0.11
+          ],
+          "content": "**2.** Here is another remarkable property of the weak- topology that is worth mentioning."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.119,
+            0.898,
+            0.176
+          ],
+          "content": "\\- **Theorem 3.33 (Banach–Dieudonné–Krein–Smulian).** ˇ Let E be a Banach space and let $C \\subset E ^ { \\star }$ be convex. Assume that for every integer n the set $C \\cap ( n B _ { E ^ { \\star } } )$ is closed for the topology σ $( E ^ { \\star } , E )$ . Then C is closed for the topology $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.184,
+            0.898,
+            0.241
+          ],
+          "content": "The proof may be found in, e.g., N. Bourbaki [1], R. Larsen [1], R. Holmes [1], N. Dunford–J. T. Schwartz [1], H. Schaefer [1], and Problem 11. The above references also include much material related to the Eberlein–Smulian theorem (Theorem 3.19). ˇ"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.255,
+            0.899,
+            0.442
+          ],
+          "content": "**3.** The theory of vector spaces in duality—which extends the duality $\\langle E , E ^ { \\star } \\rangle$ —was very popular in the late forties and early fifties, especially in connection with the theory of distributions. One says that two vector spaces X and Y are in duality if there is a bilinear form $\\langle   ,   \\rangle$ on $X \\times Y$ that separates points $( \\mathrm { i . e . } , \\forall x \\neq 0   \\exists y$ such that $\\langle x , y \\rangle \\neq 0$ and $\\forall y \\neq 0 \\; \\exists x$ such that $\\langle x , y \\rangle \\neq 0 )$ . Many topologies may be defined on X (or Y ) such as the weak topology $\\sigma ( X , Y )$ , Mackey’s topology $\\tau ( X , Y )$ , and the strong topology $\\beta ( X , Y )$ . These topologies are of interest in spaces that are not Banach spaces, such as the spaces used in the theory of distributions. On this subject the reader may consult, e.g., N. Bourbaki [1], H. Schaefer [1], G. Köthe [1], F. Treves [1], J. Kelley–I. Namioka [1], R. Edwards [1], J. Horváth [1], etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.454,
+            0.9,
+            0.734
+          ],
+          "content": "**4.** The properties of separability, reflexivity, and uniform convexity are also related to the differentiability properties of the function $x \\mapsto \\| x \\|$ (see, e.g., J. Diestel [1], B. Beauzamy [1], and Problem 13). The existence of equivalent norms with nice geometric properties has been extensively studied. For example, how does one know whether a Banach space admits an equivalent uniformly convex norm? how useful is this information? (such spaces are called superreflexive; see, e.g., J. Diestel [1] or B. Beauzamy [1]). The geometry of Banach spaces has flourished since the early sixties and has become an active field associated with the names A. Dvoretzky, A. Grothendieck, R. C. James, J. Lindenstrauss, V. Milman, L. Tzafriri (and their group in Israel), A. Pelczynski, P. Enflo, L. Schwartz (and his group including G. Pisier, B. Maurey, B. Beauzamy), W. B. Johnson, H. P. Rosenthal, J. Bourgain, D. Preiss, M. Talagrand, T. Gowers, and many others. On this subject the reader may consult the books of B. Beauzamy [1], J. Diestel [1], [2], J. Lindenstrauss– L. Tzafriri [2], L. Schwartz [2], R. Deville–G. Godefroy–V. Zizler [1], Y. Benyamini and J. Lindenstrauss [1], F. Albiac and N. Kalton [1], A. Pietsch [1], etc."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.778,
+            0.396,
+            0.799
+          ],
+          "level": 2,
+          "content": "Exercises for Chapter 3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.825,
+            0.897,
+            0.864
+          ],
+          "content": "<u>3.1</u> Let E be a Banach space and let $A \\subset E$ be a subset that is compact in the weak topology $\\sigma ( E , E ^ { \\star } )$ . Prove that A is bounded."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.873,
+            0.898,
+            0.912
+          ],
+          "content": "<u>3.2</u> Let E be a Banach space and let $( x _ { n } )$ be a sequence such that $x _ { n } \\rightharpoonup x$ in the weak topology $\\sigma ( E , E ^ { \\star } )$ . Set"
+        }
+      ]
+    },
+    {
+      "page_idx": 94,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.042,
+            0.13,
+            0.054
+          ],
+          "content": "80"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.264,
+            0.041,
+            0.898,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.068,
+            0.643,
+            0.105
+          ],
+          "content": "\\sigma _ { n } = { \\frac { 1 } { n } } ( x _ { 1 } + x _ { 2 } + \\cdots + x _ { n } ) .",
+          "image_source": "images/page_94_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.117,
+            0.593,
+            0.136
+          ],
+          "content": "Prove that $\\sigma _ { n } \\rightharpoonup x$ in the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.145,
+            0.897,
+            0.185
+          ],
+          "content": "$\\boxed { 3 . 3 }$ Let E be a Banach space. Let $A \\subset E$ be a convex subset. Prove that the closure of A in the strong topology and that in the weak topology $\\sigma ( E , E ^ { \\star } )$ are the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.193,
+            0.898,
+            0.232
+          ],
+          "content": "<u>3.4</u> Let E be a Banach space and let $( x _ { n } )$ be a sequence in E such that $x _ { n } \\rightharpoonup x$ in the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.243,
+            0.653,
+            0.261
+          ],
+          "content": "1. Prove that there exists a sequence $( y _ { n } )$ in E such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.291,
+            0.177,
+            0.308
+          ],
+          "content": "(a)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.386,
+            0.274,
+            0.652,
+            0.325
+          ],
+          "content": "y_{n} \\in \\operatorname{conv}\\left( \\bigcup_{i = n}^{\\infty} \\{ x_{i} \\} \\right) \\quad \\forall n.",
+          "image_source": "images/page_94_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.343,
+            0.185,
+            0.36
+          ],
+          "content": "and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.381,
+            0.177,
+            0.399
+          ],
+          "content": "(b)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.388,
+            0.382,
+            0.578,
+            0.4
+          ],
+          "content": "y _ { n } \\to x \\quad { \\mathrm { s t r o n g l y } } .",
+          "image_source": "images/page_94_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.415,
+            0.652,
+            0.434
+          ],
+          "content": "2. Prove that there exists a sequence $( z _ { n } )$ in E such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.463,
+            0.182,
+            0.48
+          ],
+          "content": "(a’)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.393,
+            0.446,
+            0.644,
+            0.497
+          ],
+          "content": "z _ { n } \\in \\operatorname { c o n v } \\left( \\bigcup _ { i = 1 } ^ { n } \\{ x _ { i } \\} \\right) \\forall n .",
+          "image_source": "images/page_94_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.515,
+            0.185,
+            0.532
+          ],
+          "content": "and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.553,
+            0.183,
+            0.571
+          ],
+          "content": "(b’)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.394,
+            0.554,
+            0.583,
+            0.572
+          ],
+          "content": "z _ { n } \\rightarrow x \\quad { \\mathrm { s t r o n g l y } } .",
+          "image_source": "images/page_94_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.599,
+            0.896,
+            0.656
+          ],
+          "content": "<u>3.5</u> Let E be a Banach space and let $K \\subset E$ be a subset of E that is compact in the strong topology. Let $( x _ { n } )$ be a sequence in K such that $x _ { n } \\rightharpoonup x$ weakly $\\sigma ( E , E ^ { \\star } )$ Prove that $x _ { n } \\to x$ strongly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.656,
+            0.436,
+            0.675
+          ],
+          "content": "[**Hint**: Argue by contradiction.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.684,
+            0.898,
+            0.74
+          ],
+          "content": "<u>3.6</u> Let X be a topological space and let E be a Banach space. Let $u , v : X \\to E$ be two continuous maps from X with values in E equipped with the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.756,
+            0.897,
+            0.791
+          ],
+          "content": "1. Prove that the map $x   \\mapsto   u ( x ) + v ( x )$ is continuous from X into E equipped with $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.792,
+            0.896,
+            0.831
+          ],
+          "content": "2. Let $a : X \\to \\mathbb { R }$ be a continuous function. Prove that the map $x \\mapsto a ( x ) u ( x )$ is continuous from X into E equipped with $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.854,
+            0.898,
+            0.911
+          ],
+          "content": "$\\boxed { 3 . 7 }$ Let E be a Banach space and let $A \\subset E$ be a subset that is closed in the weak topology $\\sigma ( E , E ^ { \\star } )$ . Let $B \\subset E$ be a subset that is compact in the weak topology $\\sigma ( E , E ^ { \\star } )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 95,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.041,
+            0.336,
+            0.057
+          ],
+          "level": 2,
+          "content": "3.7 Exercises for Chapter 3"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.041,
+            0.895,
+            0.055
+          ],
+          "content": "81"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.073,
+            0.528,
+            0.09
+          ],
+          "content": "1. Prove that $A + B$ is closed in $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.091,
+            0.898,
+            0.129
+          ],
+          "content": "2. Assume, in addition, that A and B are convex, nonempty, and disjoint. Prove that there exists a closed hyperplane strictly separating A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.149,
+            0.898,
+            0.207
+          ],
+          "content": "<u>3.8</u> Let E be an infinite-dimensional Banach space. Our purpose is to show that E equipped with the weak topology is not metrizable. Suppose, by contradiction, that there is a metric $d ( x , y )$ on E that induces on E the same topology as $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.217,
+            0.897,
+            0.254
+          ],
+          "content": "1. For every integer $k \\geq 1$ let $V _ { k }$ denote a neighborhood of 0 in the topology $\\sigma ( E , E ^ { \\star } )$ , such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.368,
+            0.266,
+            0.67,
+            0.307
+          ],
+          "content": "V _ { k } \\subset \\left\\{ x \\in E ; d ( x , 0 ) < \\frac { 1 } { k } \\right\\} .",
+          "image_source": "images/page_95_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.32,
+            0.897,
+            0.357
+          ],
+          "content": "Prove that there exists a sequence $( f _ { n } )$ in $E ^ { \\star }$ such that every $g \\in E ^ { \\star }$ is a (finite) linear combination of the $f _ { n } { } ^ { \\prime } \\mathbf { s }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.357,
+            0.381,
+            0.375
+          ],
+          "content": "[**Hint**: Use Lemma 3.2.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.375,
+            0.502,
+            0.393
+          ],
+          "content": "2. Deduce that $E ^ { \\star }$ is finite-dimensional."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.394,
+            0.702,
+            0.413
+          ],
+          "content": "[**Hint**: Use the Baire category theorem as in Exercise 1.5.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.413,
+            0.245,
+            0.43
+          ],
+          "content": "3. Conclude."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.43,
+            0.896,
+            0.468
+          ],
+          "content": "4. Prove by a similar method that $E ^ { \\star }$ equipped with the weak- topology $\\sigma ( E ^ { \\star } , E )$ is not metrizable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.487,
+            0.896,
+            0.529
+          ],
+          "content": "<u>3.9</u> Let E be a Banach space; let $M \\subset E$ be a linear subspace, and let $f _ { 0 } \\in E ^ { \\star }$ Prove that there exists some $g _ { 0 } \\in M ^ { \\perp }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.354,
+            0.542,
+            0.643,
+            0.572
+          ],
+          "content": "\\inf_{g \\in M^{\\perp}} \\| f_0 - g \\| = \\| f_0 - g_0 \\|.",
+          "image_source": "images/page_95_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.587,
+            0.377,
+            0.605
+          ],
+          "content": "Two methods are suggested:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.616,
+            0.33,
+            0.633
+          ],
+          "content": "1. Use Theorem 1.12."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.635,
+            0.477,
+            0.653
+          ],
+          "content": "2. Use the weak- topology $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.674,
+            0.897,
+            0.732
+          ],
+          "content": "<u>3.10</u> Let E and $F$ be two Banach spaces. Let $T \\in { \\mathcal { L } } ( E , F )$ , so that $T ^ { \\star } \\in$ $\\overline { { \\mathcal { L } ( F ^ { \\star } } } , E ^ { \\star } )$ . Prove that $T ^ { \\star }$ is continuous from $F ^ { \\star }$ equipped with $\\sigma ( F ^ { \\star } , F )$ into $E ^ { \\star }$ equipped with $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.74,
+            0.897,
+            0.779
+          ],
+          "content": "<u>3.11</u> Let E be a Banach space and let $A : E \\to E ^ { \\star }$ be a monotone map defined on ${ \\overline { { D ( A ) } } } = E$ ; see Exercise 2.6. Assume that for every $x , y \\in E$ the map"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.376,
+            0.795,
+            0.62,
+            0.813
+          ],
+          "content": "t \\in \\mathbb { R } \\mapsto \\langle A ( x + t y ) , y \\rangle",
+          "image_source": "images/page_95_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.827,
+            0.897,
+            0.865
+          ],
+          "content": "is continuous at $t = 0$ . Prove that A is continuous from E strong into $E ^ { \\star }$ equipped with $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.872,
+            0.898,
+            0.912
+          ],
+          "content": "$\\boxed { 3 . 1 2 }$ Let E be a Banach space and let $x _ { 0 }   \\in   E$ . Let $\\varphi   :   E   \\to   ( - \\infty , + \\infty ]$ be a convex l.s.c. function with $\\varphi \\not \\equiv + \\infty$"
+        }
+      ]
+    },
+    {
+      "page_idx": 96,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.041,
+            0.13,
+            0.054
+          ],
+          "content": "82"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.264,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.073,
+            0.623,
+            0.092
+          ],
+          "content": "1. Show that the following properties are equivalent:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.106,
+            0.863,
+            0.126
+          ],
+          "content": "(A) $\\exists R , \\exists M < + \\infty$ such that $\\varphi ( x ) \\leq M$ , $\\forall x \\in E$ with $\\| x - x _ { 0 } \\| \\leq R$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.155,
+            0.181,
+            0.174
+          ],
+          "content": "(B)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.154,
+            0.683,
+            0.197
+          ],
+          "content": "\\lim _ { \\substack { f \\in E ^ { \\star } \\\\ \\| f \\| \\rightarrow \\infty } } \\left\\{ \\varphi ^ { \\star } ( f ) - \\langle f , x _ { 0 } \\rangle \\right\\} = + \\infty .",
+          "image_source": "images/page_96_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.21,
+            0.448,
+            0.229
+          ],
+          "content": "2. Assuming (A) or (B) prove that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.243,
+            0.698,
+            0.272
+          ],
+          "content": "\\inf_{f \\in E^{\\star}} \\{ \\varphi^{\\star}(f) - \\langle f, x_0 \\rangle \\} \\quad  is achieved .",
+          "image_source": "images/page_96_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.286,
+            0.719,
+            0.305
+          ],
+          "content": "[**Hint**: Use the weak- topology $\\sigma ( E ^ { \\star } , E )$ or Theorem 1.12.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.305,
+            0.424,
+            0.323
+          ],
+          "content": "What is the value of this inf?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.341,
+            0.863,
+            0.363
+          ],
+          "content": "<u>3.13</u> Let E be a Banach space. Let $( x _ { n } )$ be a sequence in E and let $x \\in E$ . Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.386,
+            0.379,
+            0.61,
+            0.431
+          ],
+          "content": "K _ { n } = { \\overline { { \\operatorname { c o n v } \\left( \\bigcup _ { i = n } ^ { \\infty } \\{ x _ { i } \\} \\right) } } } .",
+          "image_source": "images/page_96_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.463,
+            0.57,
+            0.481
+          ],
+          "content": "1. Prove that if $x _ { n } \\rightharpoonup x$ weakly $\\sigma ( E , E ^ { \\star } )$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.444,
+            0.494,
+            0.59,
+            0.545
+          ],
+          "content": "\\bigcap_{n = 1}^{\\infty} K_{n} = \\{ x \\}.",
+          "image_source": "images/page_96_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.559,
+            0.892,
+            0.596
+          ],
+          "content": "2. Assume that E is reflexive. Prove that if $( x _ { n } )$ is bounded and if $\\textstyle \\bigcap _ { n = 1 } ^ { \\infty } K _ { n } = \\{ x \\}$ then $x _ { n } \\rightharpoonup x$ weakly $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.596,
+            0.882,
+            0.633
+          ],
+          "content": "3. Assume that E is finite-dimensional and $\\textstyle \\bigcap _ { n = 1 } ^ { \\infty } K _ { n } = \\{ x \\}$ . Prove that $x _ { n } \\to x$ [Note that we do not assume here that $( x _ { n } )$ is bounded.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.633,
+            0.897,
+            0.671
+          ],
+          "content": "4. In $\\ell ^ { p } , 1 < p < \\infty$ (see Chapter 11), construct a sequence $( x _ { n } )$ such that $\\textstyle \\bigcap _ { n = 1 } ^ { \\infty } K _ { n } = \\{ x \\}$ , and $( x _ { n } )$ is not bounded."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.67,
+            0.844,
+            0.689
+          ],
+          "content": "[I owe the results of questions 3 and 4 to Guy Amram and Daniel Baffet.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.708,
+            0.898,
+            0.748
+          ],
+          "content": "<u>3.14</u> Let E be a reflexive Banach space and let I be a set of indices. Consider a collection $( f _ { i } ) _ { i \\in I }$ in $E ^ { \\star }$ and a collection $( \\alpha _ { i } ) _ { i \\in I }$ in R. Let $M > 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.747,
+            0.611,
+            0.766
+          ],
+          "content": "Show that the following properties are equivalent:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.78,
+            0.795,
+            0.827
+          ],
+          "content": "There exists some $x \\in E$ with $\\| x \\| \\leq M$ such that $\\langle f _ { i } , x \\rangle = \\alpha _ { i }$ (A) for every $i \\in I$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.833,
+            0.854,
+            0.88
+          ],
+          "content": "One has $\\begin{array} { r } { | \\sum _ { i \\in J } \\beta _ { i } \\alpha _ { i } | \\leq M \\| \\sum _ { i \\in J } \\beta _ { i }   f _ { i } } \\end{array}$ for every collection $( \\beta _ { i } ) _ { i \\in J }$ (B) in R with $J \\subset I , J$ finite."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.892,
+            0.63,
+            0.912
+          ],
+          "content": "Compare with Exercises 1.10, 1.11 and Lemma 3.3."
+        }
+      ]
+    },
+    {
+      "page_idx": 97,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.101,
+            0.041,
+            0.336,
+            0.057
+          ],
+          "content": "3.7 Exercises for Chapter 3"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.042,
+            0.896,
+            0.055
+          ],
+          "content": "83"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.071,
+            0.598,
+            0.092
+          ],
+          "content": "$\\boxed { 3 . 1 5 }$ Center of mass of a measure on a convex set."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.092,
+            0.898,
+            0.164
+          ],
+          "content": "Let E be a reflexive Banach space and let $K \\subset E$ be bounded, closed, and convex. In the following K is equipped with $\\sigma ( E , E ^ { \\star } ) , \\mathrm { s o }$ that K is compact. Let $F = C ( K )$ with its usual norm. Fix some $\\mu \\in F ^ { \\star }$ with $\\| \\mu \\| = 1$ and assume that $\\mu \\geq 0$ in the sense that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.301,
+            0.165,
+            0.698,
+            0.183
+          ],
+          "content": "\\langle \\mu , u \\rangle \\geq 0 \\quad \\forall u \\in C ( K ) , \\quad u \\geq 0 \\; { \\mathrm { o n } } \\; K .",
+          "image_source": "images/page_97_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.193,
+            0.683,
+            0.211
+          ],
+          "content": "Prove that there exists a unique element $x _ { 0 } \\in K$ such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.227,
+            0.137,
+            0.245
+          ],
+          "content": "(1)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.227,
+            0.65,
+            0.246
+          ],
+          "content": "\\langle \\mu ,   f _ { | K } \\rangle = \\langle f , x _ { 0 } \\rangle \\quad \\forall f \\in E ^ { \\star } .",
+          "image_source": "images/page_97_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.26,
+            0.898,
+            0.297
+          ],
+          "content": "[**Hint**: Find first some $x _ { 0 } \\in E$ satisfying (1), and then prove that $x _ { 0 } \\in K$ with the help of Hahn–Banach.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.306,
+            0.415,
+            0.327
+          ],
+          "content": "<u>3.16</u> Let E be a Banach space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.334,
+            0.897,
+            0.376
+          ],
+          "content": "1. Let $( f _ { n } )$ be a sequence in $( E ^ { \\star } )$ such that for every $x \\in E , \\langle f _ { n } , x \\rangle$ converges to a limit. Prove that there exists some $f \\in E ^ { \\star }$ such that $f _ { n } \\stackrel { \\star } { \\rightharpoonup } f \\mathrm { i n }   \\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.376,
+            0.897,
+            0.431
+          ],
+          "content": "2. Assume here that E is reflexive. Let $( x _ { n } )$ be a sequence in E such that for every $f \\in E ^ { \\star } ,   \\langle f , x _ { n } \\rangle$ converges to a limit. Prove that there exists some $x   \\in   E$ such that $x _ { n } \\rightharpoonup x$ in $\\sigma ( E , E ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.431,
+            0.894,
+            0.474
+          ],
+          "content": "3. Construct an example in a nonreflexive space E where the conclusion of 2 fails. [**Hint**: Take $E = c _ { 0 }$ (see Section 11.3) and $x _ { n } = ( 1 , 1 , \\dots , { 1 \\atop ( n ) } , 0 , 0 , \\dots ) . ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.103,
+            0.496,
+            0.168,
+            0.518
+          ],
+          "content": "<u>3.17</u>"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.527,
+            0.896,
+            0.566
+          ],
+          "content": "1. Let $( x ^ { n } )$ be a sequence in $\\ell ^ { p }$ with $1 \\leq p \\leq \\infty$ . Assuming $x ^ { n } \\rightharpoonup x$ in $\\sigma ( \\ell ^ { p } , \\ell ^ { p ^ { \\prime } } )$ prove that:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.574,
+            0.399,
+            0.592
+          ],
+          "content": "(a) $( x ^ { n } )$ is bounded in $\\ell ^ { p }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.593,
+            0.896,
+            0.635
+          ],
+          "content": "(b) $x _ { i } ^ { n } \\quad \\xrightarrow [ n \\to \\infty ] { } \\quad x _ { i }$ for every i, where $x ^ { n } \\; = \\; ( x _ { 1 } ^ { n } , x _ { 2 } ^ { n } , \\dots , x _ { i } ^ { n } , \\dots )$ and $x =$ $( x _ { 1 } , x _ { 2 } , \\dots , x _ { i } , \\dots ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.644,
+            0.897,
+            0.7
+          ],
+          "content": "2. Conversely, suppose $( x ^ { n } )$ is a sequence in $\\ell ^ { p }$ with $1 < p \\leq \\infty$ . Assume that (a) and (b) hold (for some limit denoted by $x _ { i } )$ . Prove that $x \\in \\ell ^ { p }$ and that $x ^ { n } \\rightharpoonup x$ in $\\sigma ( \\ell ^ { p } , \\ell ^ { p ^ { \\prime } } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.104,
+            0.715,
+            0.427,
+            0.736
+          ],
+          "content": "<u>3.18</u> For every integer $n \\geq 1$ let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.75,
+            0.632,
+            0.778
+          ],
+          "content": "e ^ { n } = ( 0 , 0 , \\dots , \\underset { ( n ) } { 1 } , 0 , \\dots ) .",
+          "image_source": "images/page_97_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.81,
+            0.745,
+            0.831
+          ],
+          "content": "1. Prove that $e ^ { n } \\mathop { \\to } _ { n \\to \\infty } 0$ in $\\ell ^ { p }$ weakly $\\sigma ( \\ell ^ { p } , \\ell ^ { p ^ { \\prime } } )$ with $1 < p \\leq \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.837,
+            0.897,
+            0.873
+          ],
+          "content": "2. Prove that there is no subsequence $( e ^ { n _ { k } } )$ that converges in $\\ell ^ { 1 }$ with respect to $\\sigma ( \\ell ^ { 1 } , \\ell ^ { \\infty } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.874,
+            0.898,
+            0.912
+          ],
+          "content": "3. Construct an example of a Banach space E and a sequence $( f _ { n } )$ in $E ^ { \\star }$ such that $\\| f _ { n } \\|   =   1 \\quad \\forall n$ and such that $( f _ { n } )$ has no subsequence that converges in"
+        }
+      ]
+    },
+    {
+      "page_idx": 98,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.042,
+            0.13,
+            0.054
+          ],
+          "content": "84"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.264,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.073,
+            0.896,
+            0.108
+          ],
+          "continues_prev": true,
+          "content": "$\\sigma ( E ^ { \\star } , E )$ . Is there a contradiction with the compactness of $B _ { E ^ { \\star } }$ in the topology $\\sigma ( E ^ { \\star } , E ) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.109,
+            0.361,
+            0.127
+          ],
+          "content": "[**Hint**: Take $E = \\ell ^ { \\infty } . ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.144,
+            0.897,
+            0.183
+          ],
+          "content": "<u>3.19</u> Let $E = \\ell ^ { p }$ and $F = \\ell ^ { q }$ with $1 < p < \\infty$ and $1 < q < \\infty$ . Let $a : \\mathbb { R } \\rightarrow \\mathbb { R }$ be a continuous function such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.197,
+            0.63,
+            0.217
+          ],
+          "content": "| a ( t ) | \\leq C | t | ^ { p / q } \\quad \\forall t \\in \\mathbb { R } .",
+          "image_source": "images/page_98_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.233,
+            0.168,
+            0.249
+          ],
+          "content": "Given"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.25,
+            0.651,
+            0.27
+          ],
+          "content": "x = ( x _ { 1 } , x _ { 2 } , \\dots , x _ { i } , \\dots ) \\in \\ell ^ { p } ,",
+          "image_source": "images/page_98_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.281,
+            0.138,
+            0.295
+          ],
+          "content": "set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.297,
+            0.679,
+            0.316
+          ],
+          "content": "A x = { \\big ( } a ( x _ { 1 } ) , a ( x _ { 2 } ) , \\ldots , a ( x _ { i } ) , \\ldots { \\big ) } .",
+          "image_source": "images/page_98_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.352,
+            0.897,
+            0.388
+          ],
+          "content": "1. Prove that $A x   \\in   \\ell ^ { q }$ and that the map $x \\mapsto A x$ is continuous from $\\ell ^ { p }$ (strong) into $\\ell ^ { q }$ (strong)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.388,
+            0.897,
+            0.425
+          ],
+          "content": "2. Prove that if $( x ^ { n } )$ is a sequence in $\\ell ^ { p }$ such that $x ^ { n } \\; \\rightharpoonup \\; x \\; \\mathrm { i n } \\; \\sigma ( \\ell ^ { p } , \\ell ^ { p ^ { \\prime } } )$ then $A x ^ { n } \\rightharpoonup A x$ in $\\sigma ( \\ell ^ { q } , \\ell ^ { q ^ { \\prime } } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.425,
+            0.897,
+            0.463
+          ],
+          "content": "3. Deduce that A is continuous from $B _ { E }$ equipped with $\\sigma ( E , E ^ { \\star } )$ into $F$ equipped with $\\sigma ( F , F ^ { \\star } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.103,
+            0.479,
+            0.415,
+            0.5
+          ],
+          "content": "<u>3.20</u> Let E be a Banach space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.507,
+            0.897,
+            0.545
+          ],
+          "content": "1. Prove that there exist a compact topological space K and an isometry from E into $C ( K )$ equipped with its usual norm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.545,
+            0.61,
+            0.563
+          ],
+          "content": "[**Hint**: Take $K = B _ { E ^ { \\star } }$ equipped with $\\sigma ( E ^ { \\star } , E ) . ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.564,
+            0.897,
+            0.599
+          ],
+          "content": "2. Assuming that E is separable, prove that there exists an isometry from E into $\\ell ^ { \\infty }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.617,
+            0.898,
+            0.675
+          ],
+          "content": "<u>3.21</u> Let E be a separable Banach space and let $( f _ { n } )$ be a bounded sequence in $E ^ { \\star }$ . Prove directly—without using the metrizability of $E ^ { \\star }$ —that there exists a subsequence $\\left( f _ { n _ { k } } \\right)$ that converges in $\\sigma ( E ^ { \\star } , E )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.675,
+            0.436,
+            0.693
+          ],
+          "content": "[**Hint**: Use a diagonal process.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.701,
+            0.898,
+            0.74
+          ],
+          "content": "<u>3.22</u> Let E be an infinite-dimensional Banach space satisfying one of the following assumptions:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.75,
+            0.3,
+            0.767
+          ],
+          "content": "(a) $E ^ { \\star }$ is separable,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.768,
+            0.283,
+            0.786
+          ],
+          "content": "(b) E is reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.796,
+            0.642,
+            0.814
+          ],
+          "content": "Prove that there exists a sequence $( x _ { n } )$ in E such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.259,
+            0.829,
+            0.737,
+            0.848
+          ],
+          "content": "\\| x _ { n } \\| = 1 \\quad \\forall n \\quad \\mathrm { a n d } \\quad x _ { n } \\rightharpoonup 0 \\mathrm { w e a k l y } \\sigma ( E , E ^ { \\star } ) .",
+          "image_source": "images/page_98_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.872,
+            0.897,
+            0.912
+          ],
+          "content": "$\\boxed { 3 . 2 3 }$ The proof of Theorem 2.16 becomes much easier if E is reflexive. Find, in particular, a simple proof of $( \\mathsf { b } ) \\Rightarrow ( \\mathsf { a } )$"
+        }
+      ]
+    },
+    {
+      "page_idx": 99,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.102,
+            0.041,
+            0.336,
+            0.057
+          ],
+          "content": "3.7 Exercises for Chapter 3"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.042,
+            0.897,
+            0.054
+          ],
+          "content": "85"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.071,
+            0.898,
+            0.145
+          ],
+          "content": "<u>3.24</u> The purpose of this exercise is to sketch part of the proof of Theorem 3.29, i.e., if E is a Banach space such that $B _ { E }$ is metrizable with respect to $\\sigma ( E , E ^ { \\star } )$ , then $E ^ { \\star }$ is separable. Let $d ( x , y )$ be a metric on $B _ { E }$ that induces on $B _ { E }$ the same topology as $\\sigma ( E , E ^ { \\star } )$ . Set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34,
+            0.143,
+            0.658,
+            0.184
+          ],
+          "content": "U _ { n } = \\left\\{ x \\in B _ { E } ; d ( x , 0 ) < \\frac { 1 } { n } \\right\\} .",
+          "image_source": "images/page_99_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.19,
+            0.897,
+            0.228
+          ],
+          "content": "Let $V _ { n }$ be a neighborhood of 0 for $\\sigma ( E , E ^ { \\star } )$ such that $V _ { n } \\subset U _ { n }$ . We may assume that $V _ { n }$ has the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.306,
+            0.243,
+            0.693,
+            0.263
+          ],
+          "content": "V _ { n } = \\{ x \\in E ; | \\langle f , x \\rangle | < \\varepsilon _ { n } \\quad \\forall f \\in \\Phi _ { n } \\}",
+          "image_source": "images/page_99_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.277,
+            0.898,
+            0.334
+          ],
+          "content": "with $\\varepsilon _ { n } > 0$ and $\\Phi _ { n } \\subset E ^ { \\star }$ is some finite subset. Let $D = \\cup _ { n = 1 } ^ { \\infty } \\Phi _ { n }$ and let $F$ denote the vector space generated by D. We claim that F is dense in $E ^ { \\star }$ with respect to the strong topology. Suppose, by contradiction, that ${ \\overline { { F } } } \\neq E ^ { \\star }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.351,
+            0.76,
+            0.37
+          ],
+          "content": "1. Prove that there exist some $\\xi \\in E ^ { \\star \\star }$ and some $f _ { 0 } \\in E ^ { \\star }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.253,
+            0.385,
+            0.783,
+            0.404
+          ],
+          "content": "\\langle \\xi ,   f _ { 0 } \\rangle > 1 , \\quad \\langle \\xi ,   f \\rangle = 0 \\quad \\forall f \\in F , \\quad \\mathrm { a n d } \\quad \\| \\xi \\| = 1 .",
+          "image_source": "images/page_99_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.419,
+            0.184,
+            0.436
+          ],
+          "content": "2. Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.358,
+            0.43,
+            0.681,
+            0.472
+          ],
+          "content": "W = \\left\\{ x \\in B _ { E } ; | \\langle f _ { 0 } , x \\rangle | < \\frac { 1 } { 2 } \\right\\} .",
+          "image_source": "images/page_99_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.478,
+            0.708,
+            0.497
+          ],
+          "content": "Prove that there is some integer $n _ { 0 } \\geq 1$ such that $V _ { n _ { 0 } } \\subset W$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.497,
+            0.538,
+            0.514
+          ],
+          "content": "3. Prove that there exists $x _ { 1 } \\in B _ { E }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.528,
+            0.695,
+            0.596
+          ],
+          "content": "\\left\\{ \\begin{aligned} & | \\langle f, x_1 \\rangle - \\langle \\xi, f \\rangle | < \\varepsilon_{n_0} \\quad \\forall f \\in \\Phi_{n_0}, \\\\ & | \\langle f_0, x_1 \\rangle - \\langle \\xi, f_0 \\rangle | < \\frac{1}{2}. \\end{aligned} \\right.",
+          "image_source": "images/page_99_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.61,
+            0.565,
+            0.631
+          ],
+          "content": "4. Deduce that $x _ { 1 } \\in V _ { n _ { 0 } }$ and that $\\begin{array} { r } { \\langle f _ { 0 } , x _ { 1 } \\rangle > \\frac { 1 } { 2 } } \\end{array}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.63,
+            0.246,
+            0.647
+          ],
+          "content": "5. Conclude."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.674,
+            0.898,
+            0.712
+          ],
+          "content": "<u>3.25</u> Let K be a compact metric space that is not finite. Prove that $C ( K )$ is not reflexive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.713,
+            0.898,
+            0.768
+          ],
+          "content": "[**Hint**: Let $( a _ { n } )$ be a sequence in K such that $a _ { n } \\to a$ and $a _ { n } \\neq a \\forall n$ . Consider the linear functional $\\begin{array} { r } { f ( u ) = \\sum _ { n = 1 } ^ { \\infty } \\frac { 1 } { 2 ^ { n } } u ( a _ { n } ) , u \\in C ( K ) } \\end{array}$ , and proceed as in Exercises 1.3 and 1.4.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.776,
+            0.894,
+            0.817
+          ],
+          "content": "<u>3.26</u> Let F be a separable Banach space and let $( a _ { n } )$ be a dense subset of $B _ { F }$ Consider the linear operator $T : \\ell ^ { 1 } \\to F$ defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24,
+            0.83,
+            0.757,
+            0.88
+          ],
+          "content": "T x = \\sum _ { i = 1 } ^ { \\infty } x _ { i } a _ { i } \\quad { \\mathrm { w i t h } } \\; x = ( x _ { 1 } , x _ { 2 } , \\dots , x _ { n } , \\dots ) \\in \\ell ^ { 1 } .",
+          "image_source": "images/page_99_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.892,
+            0.51,
+            0.911
+          ],
+          "content": "1. Prove that T is bounded and surjective."
+        }
+      ]
+    },
+    {
+      "page_idx": 100,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.103,
+            0.042,
+            0.13,
+            0.054
+          ],
+          "content": "86"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.264,
+            0.041,
+            0.897,
+            0.058
+          ],
+          "content": "3 Weak Topologies. Reflexive Spaces. Separable Spaces. Uniform Convexity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.073,
+            0.898,
+            0.109
+          ],
+          "content": "In what follows we assume, in addition, that F is infinite-dimensional and that $F ^ { \\star }$ is separable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.118,
+            0.455,
+            0.135
+          ],
+          "content": "2. Prove that T has no right inverse."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.136,
+            0.664,
+            0.154
+          ],
+          "content": "[**Hint**: Use the results of Exercise 3.22 and Problem 8.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.154,
+            0.558,
+            0.173
+          ],
+          "content": "3. Deduce that $N ( T )$ has no complement in $\\ell ^ { 1 }$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.174,
+            0.278,
+            0.19
+          ],
+          "content": "4. Determine $E ^ { \\star }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.208,
+            0.898,
+            0.264
+          ],
+          "content": "<u>3.27</u> Let E be a separable Banach space with norm $\\| \\|$ . The dual norm on $E ^ { \\star }$ is also denoted by . The purpose of this exercise is to construct an equivalent norm on E that is strictly convex and whose dual norm is also strictly convex."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.265,
+            0.898,
+            0.319
+          ],
+          "content": "Let $( a _ { n } ) \\subset B _ { E }$ be a dense subset of $B _ { E }$ with respect to the strong topology. Let $( b _ { n } ) \\subset B _ { E ^ { \\star } }$ be a countable subset of $B _ { E ^ { \\star } }$ that is dense in $B _ { E ^ { \\star } }$ for the weak- topology $\\sigma ( E ^ { \\star } , E )$ . Why does such a set exist?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.32,
+            0.314,
+            0.338
+          ],
+          "content": "Given $f \\in E ^ { \\star }$ , set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.351,
+            0.697,
+            0.405
+          ],
+          "content": "\\| f \\| _ { 1 } = \\left\\{ \\| f \\| ^ { 2 } + \\sum _ { n = 1 } ^ { \\infty } \\frac { 1 } { 2 ^ { n } } | \\langle f , a _ { n } \\rangle | ^ { 2 } \\right\\} ^ { 1 / 2 } .",
+          "image_source": "images/page_100_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.432,
+            0.547,
+            0.451
+          ],
+          "content": "1. Prove that $\\parallel \\parallel _ { 1 }$ is a norm equivalent to ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.451,
+            0.454,
+            0.469
+          ],
+          "content": "2. Prove that $\\parallel \\parallel _ { 1 }$ is strictly convex."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.47,
+            0.392,
+            0.488
+          ],
+          "content": "[**Hint**: Use Exercise 1.26.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.498,
+            0.301,
+            0.515
+          ],
+          "content": "Given $x \\in E$ , set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.527,
+            0.708,
+            0.581
+          ],
+          "content": "\\| x \\| _ { 2 } = \\left\\{ \\| x \\| _ { 1 } ^ { 2 } + \\sum _ { n = 1 } ^ { \\infty } \\frac { 1 } { 2 ^ { n } } | \\langle b _ { n } , x \\rangle | ^ { 2 } \\right\\} ^ { 1 / 2 } ,",
+          "image_source": "images/page_100_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.595,
+            0.437,
+            0.615
+          ],
+          "content": "where $\\| x \\| _ { 1 } = \\operatorname* { s u p } _ { \\| f \\| _ { 1 } \\leq 1 } \\langle f , x \\rangle$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.613,
+            0.751,
+            0.632
+          ],
+          "content": "3. Prove that 2 is a strictly convex norm that is equivalent to ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.632,
+            0.661,
+            0.649
+          ],
+          "content": "4. Prove that the dual norm of $\\parallel \\parallel _ { 2 }$ is also strictly convex."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.65,
+            0.622,
+            0.668
+          ],
+          "content": "[**Hint**: Use the result of Exercise 1.23, question 3.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.669,
+            0.68,
+            0.687
+          ],
+          "content": "5. Find another approach based on the results of Problem 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.702,
+            0.897,
+            0.758
+          ],
+          "content": "<u>3.28</u> Let E be a uniformly convex Banach space. Let F denote the (multivalued) duality map from E into $E ^ { \\star }$ , see Remark 2 following Corollary 1.3 and also Exercise 1.1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.76,
+            0.845,
+            0.778
+          ],
+          "content": "Prove that for every $f \\in E ^ { \\star }$ there exists a unique $x \\in E$ such that $f \\in F x$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.787,
+            0.588,
+            0.808
+          ],
+          "content": "<u>3.29</u> Let E be a uniformly convex Banach space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.815,
+            0.572,
+            0.832
+          ],
+          "content": "1. Prove that $\\forall M > 0 , \\forall \\varepsilon > 0 , \\exists \\delta > 0$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.348,
+            0.846,
+            0.682,
+            0.887
+          ],
+          "content": "\\left\\| \\frac{x + y}{2} \\right\\|^2 \\leq \\frac{1}{2} \\| x \\|^2 + \\frac{1}{2} \\| y \\|^2 - \\delta",
+          "image_source": "images/page_100_equation_25.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.213,
+            0.892,
+            0.812,
+            0.912
+          ],
+          "content": "\\forall x ,   y \\in E \\quad { \\mathrm { w i t h } } \\quad \\| x \\| \\leq M ,   \\| y \\| \\leq M \\quad { \\mathrm { a n d } } \\quad \\| x - y \\| > \\varepsilon .",
+          "image_source": "images/page_100_equation_26.jpg"
+        }
+      ]
+    },
+    {
+      "page_idx": 101,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.101,
+            0.041,
+            0.336,
+            0.057
+          ],
+          "content": "3.7 Exercises for Chapter 3"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.87,
+            0.041,
+            0.896,
+            0.054
+          ],
+          "content": "87"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.073,
+            0.438,
+            0.091
+          ],
+          "content": "[**Hint**: Argue by contradiction.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.091,
+            0.744,
+            0.11
+          ],
+          "content": "2. Same question when $\\parallel \\parallel ^ { 2 }$ is replaced by $\\parallel \\parallel ^ { p }$ with $1 < p < \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.128,
+            0.897,
+            0.167
+          ],
+          "content": "<u>3.30</u> Let E be a Banach space with norm . Assume that there exists on $E$ an equivalent norm, denoted by | |, that is uniformly convex."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.167,
+            0.898,
+            0.202
+          ],
+          "content": "Prove that given any $k > 1$ k > , there exists a uniformly convex norm ||| ||| on E such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.348,
+            0.204,
+            0.651,
+            0.223
+          ],
+          "content": "\\| x \\| \\leq \\| x \\| \\leq k \\| x \\| \\quad \\forall x \\in E .",
+          "image_source": "images/page_101_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.229,
+            0.897,
+            0.268
+          ],
+          "content": "[**Hint**: Set $\\| x \\| ^ { 2 }   =   \\| x \\| ^ { 2 } + \\alpha | x | ^ { 2 }$ with $\\alpha   >   0$ small enough and use Exercise 3.29.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.268,
+            0.32,
+            0.286
+          ],
+          "content": "**Example**: $E = \\mathbb { R } ^ { n }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.295,
+            0.588,
+            0.318
+          ],
+          "content": "<u>3.31</u> Let E be a uniformly convex Banach space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.103,
+            0.325,
+            0.237,
+            0.343
+          ],
+          "content": "1. Prove that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.284,
+            0.338,
+            0.744,
+            0.378
+          ],
+          "content": "\\forall \\varepsilon > 0 , \\quad \\forall \\alpha \\in \\left( 0 , \\frac { 1 } { 2 } \\right) , \\quad \\exists \\delta > 0 \\quad \\mathrm { s u c h \\: t h a t } .",
+          "image_source": "images/page_101_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.389,
+            0.384,
+            0.639,
+            0.404
+          ],
+          "content": "\\| t x + ( 1 - t ) y \\| \\leq 1 - \\delta",
+          "image_source": "images/page_101_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.159,
+            0.412,
+            0.863,
+            0.432
+          ],
+          "content": "$\\forall t \\in [ \\alpha , 1 - \\alpha ] , \\quad \\forall x , y \\in E$ with $\\| x \\| \\leq 1, \\| y \\| \\leq 1$ and $\\| x - y \\| \\geq \\varepsilon$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.438,
+            0.652,
+            0.461
+          ],
+          "content": "[**Hint**: If $\\textstyle \\alpha \\leq t \\leq { \\frac { 1 } { 2 } }$ write $\\textstyle t x + ( 1 - t ) y = { \\frac { 1 } { 2 } } ( y + z ) . ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.468,
+            0.449,
+            0.486
+          ],
+          "content": "2. Deduce that E is strictly convex."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.505,
+            0.842,
+            0.525
+          ],
+          "content": "<u>3.32</u> Projection on a closed convex set in a uniformly convex Banach space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.525,
+            0.896,
+            0.561
+          ],
+          "content": "Let E be a uniformly convex Banach space and $C \\subset E$ a nonempty closed convex set."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.571,
+            0.397,
+            0.589
+          ],
+          "content": "1. Prove that for every $x \\in E$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45,
+            0.589,
+            0.577,
+            0.617
+          ],
+          "content": "\\inf_{y \\in C} \\|x - y\\|",
+          "image_source": "images/page_101_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.625,
+            0.671,
+            0.643
+          ],
+          "content": "is achieved by some unique point in C, denoted by $P _ { C } x$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.644,
+            0.853,
+            0.662
+          ],
+          "content": "2. Prove that every minimizing sequence $( y _ { n } )$ in C converges strongly to $P _ { C } x$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.663,
+            0.827,
+            0.681
+          ],
+          "content": "3. Prove that the map $x \\mapsto P _ { C } x$ is continuous from E strong into E strong."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.681,
+            0.894,
+            0.717
+          ],
+          "content": "4. More precisely, prove that $P _ { C }$ is uniformly continuous on bounded subsets of $E$ [**Hint**: Use Exercise 3.29.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.727,
+            0.739,
+            0.745
+          ],
+          "content": "Let $\\varphi:E\\to(-\\infty,+\\infty]$ be a convex l.s.c. function, $\\varphi \\not \\equiv + \\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.746,
+            0.629,
+            0.763
+          ],
+          "content": "5. Prove that for every $x \\in E$ and every integer $n \\geq 1$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.389,
+            0.777,
+            0.637,
+            0.811
+          ],
+          "content": "\\inf_{y \\in E} \\left\\{ n \\| x - y \\|^2 + \\varphi(y) \\right\\}",
+          "image_source": "images/page_101_equation_26.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.825,
+            0.594,
+            0.843
+          ],
+          "content": "is achieved at some unique point, deno<u>ted by</u> $y _ { n }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.843,
+            0.563,
+            0.867
+          ],
+          "content": "6. Prove that $y _ { n } \\xrightarrow [ n \\to \\infty ] { } P _ { C } x$ , where $C = { \\overline { { D ( \\varphi ) } } }$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 77,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 78,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 79,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 80,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 81,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 82,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 83,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 84,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 85,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 86,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 87,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 88,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 89,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 90,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 91,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 92,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 93,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 94,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 95,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 96,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 97,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 98,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 99,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 100,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        },
+        {
+          "page_idx": 101,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

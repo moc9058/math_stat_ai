@@ -1,0 +1,293 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.04,
+            0.795,
+            0.057
+          ],
+          "content": "1.2 The Geometric Forms of the Hahn–Banach Theorem: Separation of Convex Sets"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.88,
+            0.041,
+            0.897,
+            0.054
+          ],
+          "content": "7"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.394,
+            0.074,
+            0.603,
+            0.092
+          ],
+          "content": "g ( t x _ { 0 } ) = t , \\quad t \\in \\mathbb { R } .",
+          "image_source": "images/page_21_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.107,
+            0.242,
+            0.124
+          ],
+          "content": "It is clear that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.384,
+            0.125,
+            0.615,
+            0.144
+          ],
+          "content": "g ( x ) \\leq p ( x ) \\quad \\forall x \\in G",
+          "image_source": "images/page_21_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.153,
+            0.898,
+            0.19
+          ],
+          "content": "(consider the two cases $t   >   0$ and $t \\leq 0 )$ . It follows from Theorem 1.1 that there exists a linear functional f on E that extends g and satisfies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.205,
+            0.618,
+            0.224
+          ],
+          "content": "f ( x ) \\leq p ( x ) \\quad \\forall x \\in E .",
+          "image_source": "images/page_21_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.239,
+            0.898,
+            0.276
+          ],
+          "content": "In particular, we have $f ( x _ { 0 } ) = 1$ and that f is continuous by (9). We deduce from (10) that $f ( x ) < 1$ for every $x \\in C$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.284,
+            0.898,
+            0.34
+          ],
+          "content": "Proof of Theorem 1.6. Set $C = A - B$ , so that C is convex (check!), C is open (since $C = \\bigcup_{y \\in B} (A - y))$ , and $0 \\notin C$ (because $A \\cap B = \\varnothing )$ . By Lemma 1.3 there is some $f \\in E ^ { \\star }$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.34,
+            0.598,
+            0.358
+          ],
+          "content": "f ( z ) < 0 \\quad \\forall z \\in C ,",
+          "image_source": "images/page_21_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.368,
+            0.174,
+            0.385
+          ],
+          "content": "that is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.386,
+            0.671,
+            0.405
+          ],
+          "content": "f(x) < f(y) \\quad \\forall x \\in A, \\quad \\forall y \\in B.",
+          "image_source": "images/page_21_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.414,
+            0.362,
+            0.433
+          ],
+          "content": "Fix a constant α satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.369,
+            0.448,
+            0.627,
+            0.478
+          ],
+          "content": "\\sup_{x \\in A} f(x) \\leq \\alpha \\leq \\inf_{y \\in B} f(y).",
+          "image_source": "images/page_21_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.49,
+            0.599,
+            0.51
+          ],
+          "content": "Clearly, the hyperplane $[ f = \\alpha ]$ separates A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.517,
+            0.898,
+            0.574
+          ],
+          "content": "• **Theorem 1.7 (Hahn–Banach, second geometric form).** Let $A \\subset E$ and $B \\subset E$ be two nonempty convex subsets such that $A \\cap B = \\varnothing .$ . Assume that A is closed and B is compact. Then there exists a closed hyperplane that strictly separates A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.582,
+            0.897,
+            0.655
+          ],
+          "content": "Proof. Set $C = A - B$ , so that C is convex, closed (check!), and $0 \\notin C$ . Hence, there is some $r   >   0$ such that $B ( 0 , r ) \\cap C = \\varnothing .$ . By Theorem 1.6 there is a closed hyperplane that separates $B ( 0 , r )$ and C. Therefore, there is some $f \\in E ^ { \\star } ,   f \\not \\equiv 0 ,$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.222,
+            0.671,
+            0.775,
+            0.69
+          ],
+          "content": "f(x - y) \\leq f(rz) \\quad \\forall x \\in A, \\quad \\forall y \\in B, \\quad \\forall z \\in B(0,1).",
+          "image_source": "images/page_21_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.704,
+            0.898,
+            0.74
+          ],
+          "content": "It follows that $f(x - y) \\leq - r \\| f \\| \\quad \\forall x \\in A, \\forall y \\in B$ . Letting $\\begin{array} { r } { \\varepsilon = \\frac { 1 } { 2 } r \\| f \\| > 0 } \\end{array}$ , we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.286,
+            0.743,
+            0.711,
+            0.761
+          ],
+          "content": "f(x) + \\varepsilon \\leq f(y) - \\varepsilon \\quad \\forall x \\in A, \\quad \\forall y \\in B.",
+          "image_source": "images/page_21_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.77,
+            0.313,
+            0.788
+          ],
+          "content": "Choosing α such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.803,
+            0.667,
+            0.833
+          ],
+          "content": "\\sup_{x \\in A} f(x) + \\varepsilon \\leq \\alpha \\leq \\inf_{y \\in B} f(y) - \\varepsilon,",
+          "image_source": "images/page_21_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.847,
+            0.701,
+            0.866
+          ],
+          "content": "we see that the hyperplane $[ f = \\alpha ]$ strictly separates A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.101,
+            0.875,
+            0.898,
+            0.912
+          ],
+          "content": "Remark 4. Assume that $A \\subset E$ and $B \\subset E$ are two nonempty convex sets such that $A \\cap B = \\varnothing$ . If we make no further assumption, it is in general impossible to separate"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.0.8"
+    },
+    "document": {
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "authors": [
+        "Haim Brezis"
+      ],
+      "keywords": [
+        "9780387709130"
+      ],
+      "page_count": 614,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 421.3699951171875,
+          "height_pt": 648.1420288085938
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -5,7 +5,7 @@ $$
 \end{aligned}
 $$
 
-In particular, if $x\in\mathcal H_0$, then the preceding equation and the CBS inequality imply that
+In particular, if $x\in\mathcal K_0$, then the preceding equation and the CBS inequality imply that
 
 $$
 \begin{aligned}
@@ -16,11 +16,11 @@ $$
 \end{aligned}
 $$
 
-Hence $T_0\mathcal H_0\subseteq\mathcal H_0$. Thus $T_0$ induces a linear transformation $T$ on $\mathcal H_1$ defined by $T(x+\mathcal H_0)=T_0x+\mathcal H_0$. It follows that $\langle Th,f\rangle=\langle h,Tf\rangle$ for all $h,f$ in $\mathcal H_1$. Since $\mathcal H_1$ is, by definition, dense in $\mathcal H$, $T$ is a densely defined symmetric operator on $\mathcal H$. Now to show that $T$ has a self-adjoint extension.
+Hence $T_0\mathcal K_0\subseteq\mathcal K_0$. Thus $T_0$ induces a linear transformation $T$ on $\mathcal H_1$ defined by $T(x+\mathcal K_0)=T_0x+\mathcal K_0$. It follows that $\langle Th,f\rangle=\langle h,Tf\rangle$ for all $h,f$ in $\mathcal H_1$. Since $\mathcal H_1$ is, by definition, dense in $\mathcal H$, $T$ is a densely defined symmetric operator on $\mathcal H$. Now to show that $T$ has a self-adjoint extension.
 
-Define $J_0:\mathcal H_0\to\mathcal H_0$ by $J_0(\{\alpha_n\})=\{\overline{\alpha}_n\}$. It is easy to see that $J_0$ is conjugate linear and $J_0^2=1$. Also, $J_0T_0=T_0J_0$. An easy calculation shows that $[J_0x,J_0y]=[x,y]$ for all $x,y$ in $\mathcal H_0$. So $J_0\mathcal H_0\subseteq\mathcal H_0$ and $J_0$ induces a conjugate linear function $J_1:\mathcal H_1\to\mathcal H_1$ defined by $J_1(x+\mathcal H_0)=J_0x+\mathcal H_0$. It follows that $J_1T=TJ_1$, $J_1^2=1$, and $\|J_1h\|=\|h\|$ for all $h$ in $\mathcal H_1$. Thus $J_1$ extends to a conjugate linear $J:\mathcal H\to\mathcal H$ such that $J^2=1$ and $\|Jh\|=\|h\|$ for all $h$ in $\mathcal H$. Hence $J$ is continuous. Also, $J\operatorname{dom}T=J_1\mathcal H_1\subseteq\mathcal H_1=\operatorname{dom}T$ and $TJ\subseteq JT$. By Proposition 7.2, $T$ has a self-adjoint extension $A$.
+Define $J_0:\mathcal H_0\to\mathcal H_0$ by $J_0(\{\alpha_n\})=\{\overline{\alpha}_n\}$. It is easy to see that $J_0$ is conjugate linear and $J_0^2=1$. Also, $J_0T_0=T_0J_0$. An easy calculation shows that $[J_0x,J_0y]=[x,y]$ for all $x,y$ in $\mathcal H_0$. So $J_0\mathcal K_0\subseteq\mathcal K_0$ and $J_0$ induces a conjugate linear function $J_1:\mathcal H_1\to\mathcal H_1$ defined by $J_1(x+\mathcal K_0)=J_0x+\mathcal K_0$. It follows that $J_1T=TJ_1$, $J_1^2=1$, and $\|J_1h\|=\|h\|$ for all $h$ in $\mathcal H_1$. Thus $J_1$ extends to a conjugate linear $J:\mathcal H\to\mathcal H$ such that $J^2=1$ and $\|Jh\|=\|h\|$ for all $h$ in $\mathcal H$. Hence $J$ is continuous. Also, $J\operatorname{dom}T=J_1\mathcal H_1\subseteq\mathcal H_1=\operatorname{dom}T$ and $TJ\subseteq JT$. By Proposition 7.2, $T$ has a self-adjoint extension $A$.
 
-Let $e_0=\{1,0,0,\ldots\}\in\mathcal H_0$. Hence $T_0^ne_0$ has a 1 in the $n$th place and zeros elsewhere. If $e=e_0+\mathcal H_0$, then $e\in\operatorname{dom}T^n\subseteq\operatorname{dom}A^n$ for all $n\geqslant0$. Also,
+Let $e_0=\{1,0,0,\ldots\}\in\mathcal H_0$. Hence $T_0^ne_0$ has a 1 in the $n$th place and zeros elsewhere. If $e=e_0+\mathcal K_0$, then $e\in\operatorname{dom}T^n\subseteq\operatorname{dom}A^n$ for all $n\geqslant0$. Also,
 
 $$
 \langle A^ne,e\rangle=[T_0^ne_0,e_0]=m_n

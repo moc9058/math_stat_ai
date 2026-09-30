@@ -1,0 +1,80 @@
+- 3.2 Definition and Elementary Properties of the Weak Topology
+- σ (E, E-) . . . 57
+- 3.3 Weak Topology, Convex Sets, and Linear Operators 60
+- 3.4 The Weak- Topology σ (E-, E) 62
+- 3.5 Reflexive Spaces . . 67
+- 3.6 Separable Spaces . 7 2
+- 3.7 Uniformly Convex Spaces 76
+- Comments on Chapter 3 78
+- Exercises for Chapter 3 79
+- 4 Lp Spaces . 89
+- 4.1 Some Results about Integration That Everyone Must Know 90
+- 4.2 Definition and Elementary Properties of Lp Spaces 91
+- 4.3 Reflexivity. Separability. Dual of Lp 95
+- 4.4 Convolution and regularization . 104
+- 4.5 Criterion for Strong Compactness in Lp 111
+- Comments on Chapter 4 . . 114
+- Exercises for Chapter 4 118
+- 5 Hilbert Spaces . . . 131
+- 5.1 Definitions and Elementary Properties. Projection onto a Closed
+- Convex Set . . . 131
+- 5.2 The Dual Space of a Hilbert Space . 135
+- 5.3 The Theorems of Stampacchia and Lax–Milgram 138
+- 5.4 Hilbert Sums. Orthonormal Bases 141
+- Comments on Chapter 5 . 144
+- Exercises for Chapter 5 146
+- 6 Compact Operators. Spectral Decomposition of Self-Adjoint
+- Compact Operators . . 157
+- 6.1 Definitions. Elementary Properties. Adjoint 157
+- 6.2 The Riesz–Fredholm Theory 159
+- 6.3 The Spectrum of a Compact Operator . . 162
+- 6.4 Spectral Decomposition of Self-Adjoint Compact Operators . . 165
+- Comments on Chapter 6 . 168
+- Exercises for Chapter 6 170
+- 7 The Hille–Yosida Theorem . 181
+- 7.1 Definition and Elementary Properties of Maximal Monotone
+- Operators . . . 181
+- 7.2 Solution of the Evolution Problem $\begin{array} { r } { \frac { d u } { d t } + A u = 0 \; \mathrm { o n } \; [ 0 , + \infty ) } \end{array}$
+- u(0) = u<sub>0</sub>. Existence and uniqueness . 184
+- 7.3 Regularity . . . 191
+- 7.4 The Self-Adjoint Case 193
+- Comments on Chapter 7 . 197
+
+- 8 Sobolev Spaces and the Variational Formulation of Boundary Value
+- Problems in One Dimension 201
+- 8.1 Motivation . 201
+- 8.2 The Sobolev Space $W ^ { 1 , p } ( I )$ 202
+- 8.3 The Space $W _ { 0 } ^ { 1 , p }$ 217
+- 8.4 Some Examples of Boundary Value Problems 220
+- 8.5 The Maximum Principle . 229
+- 8.6 Eigenfunctions and Spectral Decomposition 231
+- Comments on Chapter 8 . 233
+- Exercises for Chapter 8 . 235
+- 9 Sobolev Spaces and the Variational Formulation of Elliptic
+- Boundary Value Problems in N Dimensions . 263
+- 9.1 Definition and Elementary Properties of the Sobolev Spaces
+- $W ^ { 1 , p } ( \Omega )$ 263
+- 9.2 Extension Operators 272
+- 9.3 Sobolev Inequalities 278
+- 9.4 The Space $W _ { 0 } ^ { 1 ,   p } ( \Omega )$ 287
+- 9.5 Variational Formulation of Some Boundary Value Problems 291
+- 9.6 Regularity of Weak Solutions 298
+- 9.7 The Maximum Principle . . 307
+- 9.8 Eigenfunctions and Spectral Decomposition 311
+- Comments on Chapter 9 . . 312
+- 10 Evolution Problems: The Heat Equation and the Wave Equation . 325
+- 10.1 The Heat Equation: Existence, Uniqueness, and Regularity 325
+- 10.2 The Maximum Principle . 333
+- 10.3 The Wave Equation . 335
+- Comments on Chapter 10 . 340
+- 11 Miscellaneous Complements . 349
+- 11.1 Finite-Dimensional and Finite-Codimensional Spaces 349
+- 11.2 Quotient Spaces . . 353
+- 11.3 Some Classical Spaces of Sequences . 357
+- 11.4 Banach Spaces over C: What Is Similar and What Is Different? . . . . 361
+- Solutions of Some Exercises . 371
+- Problems . 435
+- Partial Solutions of the Problems 521
+- Notation . . 583
+- References . 585
+- Index 595

@@ -38,7 +38,7 @@ $$
 
 Parts of the preceding equations will be referred to as $(10.7)_{ij}$ and $(10.7)_{ij}^*$, $i,j=1,2$.
 
-An examination of the equations $U^*U=1$ and $UU^*=1$, written in matrix form, yields the equations
+An examination of the equation $U^*U=1$ and $UU^*=1$, written in matrix form, yields the equations
 
 $$
 \left.

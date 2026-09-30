@@ -1,7 +1,7 @@
 (d) *if* $h\in\operatorname{dom}A$, *then*
 
 $$
-\lim_{t\to 0}\frac{1}{t}[U(t)h-h]=iAh. \tag{5.2}
+\lim_{t\to 0}\frac{1}{t}[U(t)h-h]=iAh; \tag{5.2}
 $$
 
 (e) *if* $h\in\mathcal H$ *and* $\lim_{t\to 0}t^{-1}[U(t)h-h]$ *exists, then* $h\in\operatorname{dom}A$. *Consequently, $\operatorname{dom}A$ is invariant under each $U(t)$.*
