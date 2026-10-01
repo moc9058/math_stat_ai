@@ -458,7 +458,7 @@ For a treatment of the Fredholm index applicable to unbounded operators on a Ban
 
 
 
-<a id="pdf-page-373"></a>
+   <a id="pdf-page-373"></a>
 3. Does the unilateral shift of multiplicity 1 have a square root?
 
 4. Show that for every $n\in\mathbb{Z}\cup\{\pm\infty\}$ there is an operator $A$ in $\mathcal{SF}$ such that $\operatorname{ind}A=n$.
@@ -626,7 +626,7 @@ Using this information about the shift and Proposition 3.4(c) we can get complet
 
 
 
-<a id="pdf-page-377"></a>
+   <a id="pdf-page-377"></a>
 8. If $S$ is the unilateral shift, show that for every $\varepsilon>0$ there is a rank one operator $F$ with $\|F\|<\varepsilon$ such that $\sigma(S^*\oplus S+F)=\partial\mathbf D$.
 
 9. Let $G$ be an open connected subset of $\sigma(A)\backslash\sigma_{le}(A)\cup\sigma_{re}(A)$ and suppose $\lambda_0\in G$ such that $\operatorname{ind}(A-\lambda_0)=0$. Show that there is a finite rank operator $F$ such that $A+F-\lambda_0$ is invertible. Show that $A+F-\lambda$ is invertible for every $\lambda$ in $G$.
@@ -844,7 +844,7 @@ We prove only a special case of this result; the general case is left to the rea
 
 
 
-<a id="pdf-page-383"></a>
+   <a id="pdf-page-383"></a>
 5. Prove Proposition 6.10.
 
 6. If $\lambda\in\partial P_n(A)$ and $n\ne 0$, show that $\operatorname{ran}(A-\lambda)$ is not closed. What happens if $n=0$?

@@ -314,7 +314,7 @@ It may be that $\mathcal A/\mathcal M$ has an identity even if $\mathcal A$ does
 
 
 
-<a id="pdf-page-210"></a>
+   <a id="pdf-page-210"></a>
 8. If $\mathcal A$ is a Banach algebra, a net $\{e_i\}$ in $\mathcal A$ is called an *approximate identity* for $\mathcal A$ if $\sup_i\|e_i\|<\infty$ and for each $a$ in $\mathcal A$, $e_i a\to a$ and $ae_i\to a$. Show that $\mathcal A$ has an approximate identity if and only if there is a bounded subset $E$ of $\mathcal A$ such that for every $\varepsilon>0$ and for every $a$ in $\mathcal A$ there is an $e$ in $E$ with $\|ae-a\|+\|ea-a\|<\varepsilon$. See Wichmann [1973] for more information.
 
 9. Show that if $X$ is locally compact, then $C_0(X)$ has an approximate identity.
@@ -526,7 +526,7 @@ The identity in part (b) of the preceding proposition is called the *resolvent i
 
 
 
-<a id="pdf-page-214"></a>
+   <a id="pdf-page-214"></a>
 5. If $\mathcal A$ is a Banach algebra with identity, $\{a_n\}\subseteq\mathcal A$, $a_n\to a$, $\alpha_n\in\sigma(a_n)$, and $\alpha_n\to\alpha$, then $\alpha\in\sigma(a)$.
 
 6. If $\mathcal A$ is a Banach algebra with identity and $r:\mathcal A\to[0,\infty)$ is the spectral radius, show that $r$ is upper semicontinuous. If $a\in\mathcal A$ such that $r(a)=0$, show that $r$ is continuous at $a$.
@@ -957,7 +957,7 @@ This is a contradiction. ■
 
 
 
-<a id="pdf-page-223"></a>
+   <a id="pdf-page-223"></a>
 3. Let $\mathcal A,\mathcal B$ be as in Theorem 5.4. If $a\in\mathcal B$ and $\sigma_{\mathcal A}(a)\subseteq\mathbb R$, show that $\sigma_{\mathcal B}(a)=\sigma_{\mathcal A}(a)$.
 
 4. Let $\mathcal A$ be a Banach algebra with identity and let $a\in\mathcal A$. If $G_1,G_2,\ldots$ are the holes of $\sigma_{\mathcal A}(a)$ and $1\leq n_1\leq n_2,\ldots$, show that there is a subalgebra $\mathcal B$ of $\mathcal A$ such that $a\in\mathcal B$ and $\sigma_{\mathcal B}(a)=\sigma_{\mathcal A}(a)\cup\bigcup_{k=1}^{\infty}G_{n_k}$.
@@ -1237,28 +1237,28 @@ Is there an analogy between $V_k$ for a Volterra kernel $k$ and a lower triangul
 
 
 
-<a id="pdf-page-229"></a>
-or $\nu_A(\lambda)$, is the smallest such integer $k$. (a) Show that if $\lambda$ is an isolated point of $\sigma(A)$ and a pole of order $n$ of $(z-A)^{-1}$, then $\nu(\lambda)=n$. (b) If $\nu(\lambda)<\infty$, show that
+    <a id="pdf-page-229"></a>
+    or $\nu_A(\lambda)$, is the smallest such integer $k$. (a) Show that if $\lambda$ is an isolated point of $\sigma(A)$ and a pole of order $n$ of $(z-A)^{-1}$, then $\nu(\lambda)=n$. (b) If $\nu(\lambda)<\infty$, show that
 
-$$
-\ker(A-\lambda)^{\nu(\lambda)}
-=\ker(A-\lambda)^{\nu(\lambda)+k}
-\quad\text{for all }k\geq 0.
-$$
+    $$
+    \ker(A-\lambda)^{\nu(\lambda)}
+    =\ker(A-\lambda)^{\nu(\lambda)+k}
+    \quad\text{for all }k\geq 0.
+    $$
 
-(c) If $\mathcal X=\mathbb C^n$ and
+    (c) If $\mathcal X=\mathbb C^n$ and
 
-$$
-A=\begin{bmatrix}
-0 & & & & \\
-1 & 0 & & & \\
-& 1 & \ddots & & \\
-& & \ddots & \ddots & \\
-& & & 1 & 0
-\end{bmatrix},
-$$
+    $$
+    A=\begin{bmatrix}
+    0 & & & & \\
+    1 & 0 & & & \\
+    & 1 & \ddots & & \\
+    & & \ddots & \ddots & \\
+    & & & 1 & 0
+    \end{bmatrix},
+    $$
 
-then $\sigma(A)=\{0\}$ and $\nu(0)=n$.
+    then $\sigma(A)=\{0\}$ and $\nu(0)=n$.
 
 14. If $V$ is the Volterra operator, show that $0$ is an essential singularity of $(z-V)^{-1}$.
 
@@ -1418,7 +1418,7 @@ The applications of the Fredholm Alternative occur by taking the compact operato
 
 
 
-<a id="pdf-page-233"></a>
+   <a id="pdf-page-233"></a>
 5. Suppose $A\in\mathcal{B}(\mathcal{X})$ and there is an entire function $f$ such that $f(A)\in\mathcal{B}_0(\mathcal{X})$. What can be said about $\sigma(A)$?
 
 6. With the terminology of Exercise 6.13, if $A\in\mathcal{B}_0(\mathcal{X})$, $\lambda\in\sigma(A)$, and $\lambda\ne0$, what can be said about the index of $\lambda$?
@@ -1569,7 +1569,7 @@ In the next section the Banach algebra $L^1(G)$ is examined for a locally compac
 
 
 
-<a id="pdf-page-238"></a>
+    <a id="pdf-page-238"></a>
 11. Verify the statements made in Example 8.12.
 
 12. Say that $a_1,\ldots,a_n$ are generators of $\mathcal A$ if $\mathcal A$ is the smallest Banach algebra with identity that contains $\{a_1,\ldots,a_n\}$. Show that $a_1,\ldots,a_n$ are generators of $\mathcal A$ if and only if $\mathcal A=\operatorname{cl}\{p(a_1,\ldots,a_n):p\text{ is a polynomial in }n\text{ complex variables }z_1,\ldots,z_n\}$, and if $\Sigma$ is the maximal ideal space, then there is a homeomorphism $\tau$ of $\Sigma$ onto a compact subset $K$ of $\mathbb C^n$ such that if $p$ is a polynomial in $n$ variables, then $\gamma(p(a_1,\ldots,a_n))=\tau^\#(p)$.

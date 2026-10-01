@@ -198,7 +198,7 @@ Another example of an operator was defined in Example 1.5.3. The nonsurjective i
 
 
 
-<a id="pdf-page-45"></a>
+   <a id="pdf-page-45"></a>
 3. Suppose $\{e_1,e_2,\ldots\}$ is an orthonormal basis for $\mathcal H$ and for each $n$ there is a vector $Ae_n$ in $\mathcal H$ such that $\sum\|Ae_n\|<\infty$. Show that $A$ has an unique extension to a bounded operator on $\mathcal H$.
 
 4. Proposition 1.2 says that $d(A,B)=\|A-B\|$ is a metric on $\mathcal B(\mathcal H,\mathcal K)$. Show that $\mathcal B(\mathcal H,\mathcal K)$ is complete relative to this metric.
@@ -230,7 +230,7 @@ Another example of an operator was defined in Example 1.5.3. The nonsurjective i
 12. (Direct sum of operators) Let $\{\mathcal H_i\}$ be a collection of Hilbert spaces and let $\mathcal H=\bigoplus_i\mathcal H_i$. Suppose $A_i\in\mathcal B(\mathcal H_i)$ for all $i$. Show that there is a bounded operator $A$ on $\mathcal H$ such that $A|_{\mathcal H_i}=A_i$ for all $i$ if and only if $\sup_i\|A_i\|<\infty$. In this case, $\|A\|=\sup_i\|A_i\|$. The operator $A$ is called the *direct sum* of the operators $\{A_i\}$ and is denoted by $A=\bigoplus_i A_i$.
 
 
-<a id="pdf-page-46"></a>
+    <a id="pdf-page-46"></a>
 13. (Bari [1951]) Call a sequence of vectors $\{f_n\}$ in a Hilbert space $\mathcal H$ a *Bessel sequence* if $\sum |\langle f,f_n\rangle|^2<\infty$ for every $f$ in $\mathcal H$. Show that a sequence $\{f_n\}$ of vectors in $\mathcal H$ is a Bessel sequence if and only if the infinite matrix $(\langle f_m,f_n\rangle)$ defines a bounded operator on $l^2$. (Also see Shapiro and Shields [1961], p. 524.)
 
 # §2. The Adjoint of an Operator
@@ -911,7 +911,7 @@ It will be proved in a later chapter that if $\lambda\notin\sigma_p(T)$ and $\la
 4. Show that an idempotent is compact if and only if it has finite rank.
 
 
-<a id="pdf-page-61"></a>
+   <a id="pdf-page-61"></a>
 5. Show that no nonzero multiplication operator on $L^2(0,1)$ is compact.
 
 6. Show that if $T:\mathcal H\to\mathcal H$ is a compact operator and $\{e_n\}$ is any orthonormal sequence in $\mathcal H$, then $\|Te_n\|\to 0$. Is the converse true?
@@ -1516,7 +1516,7 @@ Positive operators are analogous to positive numbers. With this in mind, the nex
 
 
 
-<a id="pdf-page-74"></a>
+   <a id="pdf-page-74"></a>
 3. If $A=\sum_i\alpha_iP_i$ as in (7.3), show that $A$ is compact if and only if: (a) $\alpha_i=0$ for all but a countable number of $i$; (b) $P_i$ has finite rank whenever $\alpha_i\ne0$; (c) if $\{\alpha_1,\alpha_2,\ldots\}=\{\alpha_i:\alpha_i\ne0\}$, then $\alpha_n\to0$ as $n\to\infty$.
 
 4. Prove Proposition 7.4.
@@ -1605,8 +1605,8 @@ If $V$ is the Volterra operator, then $m_V\equiv 0$ (4.11) and $V$ and the zero 
 
 
 
-<a id="pdf-page-77"></a>
-space is unitarily equivalent to $\bigoplus_{n=1}^{\infty}T_n$, where each $T_n$ is a simple compact normal operator and $m_{T_n}\geq m_{T_{n+1}}$ for all $n$. Show that $\|T_n\|\to 0$. (Of course, there may only be a finite number of $T_n$.)
+   <a id="pdf-page-77"></a>
+   space is unitarily equivalent to $\bigoplus_{n=1}^{\infty}T_n$, where each $T_n$ is a simple compact normal operator and $m_{T_n}\geq m_{T_{n+1}}$ for all $n$. Show that $\|T_n\|\to 0$. (Of course, there may only be a finite number of $T_n$.)
 
 9. Using the notation of Exercise 8, suppose also that $S$ is a compact normal operator and $S\cong\bigoplus_{n=1}^{\infty}S_n$, where $S_n$ is a simple compact normal operator and $m_{S_n}\geq m_{S_{n+1}}$ for all $n$. Show that $T\cong S$ if and only if $T_n\cong S_n$ for all $n$.
 

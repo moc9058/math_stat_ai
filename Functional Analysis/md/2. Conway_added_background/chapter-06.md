@@ -268,22 +268,22 @@ A proof that condition (c) in the preceding theorem implies (a) which avoids the
 
 
 
-<a id="pdf-page-186"></a>
-$n$, $\alpha_{mn}\to 0$ as $m\to\infty$. Conversely, if $\{\alpha_{mn}:m,n\geqslant 1\}$ are scalars satisfying (a) and (b), then
+   <a id="pdf-page-186"></a>
+   $n$, $\alpha_{mn}\to 0$ as $m\to\infty$. Conversely, if $\{\alpha_{mn}:m,n\geqslant 1\}$ are scalars satisfying (a) and (b), then
 
-$$
-(Ax)(m)=\sum_{n=1}^{\infty}\alpha_{mn}x(n)
-$$
+   $$
+   (Ax)(m)=\sum_{n=1}^{\infty}\alpha_{mn}x(n)
+   $$
 
-defines a bounded operator $A$ on $c_0$ and $\|A\|=M$. Find $A^*$.
+   defines a bounded operator $A$ on $c_0$ and $\|A\|=M$. Find $A^*$.
 
 8. Let $A\in\mathcal B(l^1)$ and for $n\geqslant 1$ define $e_n$ in $l^1$ by $e_n(n)=1$, $e_n(m)=0$ for $m\neq n$. Put $\alpha_{mn}=(Ae_n)(m)$ for $m,n\geqslant 1$. Prove: (a) $M\equiv\sup_n\sum_{m=1}^{\infty}|\alpha_{mn}|<\infty$; (b) for every $m$, $\sup_n|\alpha_{mn}|<\infty$. Conversely, if $\{\alpha_{mn}:m,n\geqslant 1\}$ are scalars satisfying (a) and (b), then
 
-$$
-(Af)(m)=\sum_{n=1}^{\infty}\alpha_{mn}f(n)
-$$
+   $$
+   (Af)(m)=\sum_{n=1}^{\infty}\alpha_{mn}f(n)
+   $$
 
-defines a bounded operator $A$ on $l^1$ and $\|A\|=M$. Find $A^*$.
+   defines a bounded operator $A$ on $l^1$ and $\|A\|=M$. Find $A^*$.
 
 9. (Bonsall [1986]) Let $\mathcal X$ be a Banach space, $Z$ a nonempty set, and $u:Z\to\mathcal X$. If there are positive constants $M_1$ and $M_2$ such that (i) $\|u(z)\|\leqslant M_1$ for all $z$ in $Z$ and (ii) for every $x^*$ in $\mathcal X$, $\sup\{|\langle u(z),x^*\rangle|:z\in Z\}\geqslant M_2\|x^*\|$; then for every $x$ in $\mathcal X$ there is an $f$ in $l^1(Z)$ such that $(*)x=\sum\{f(z)u(z):z\in Z\}$ and $M_2\inf\|f\|_1\leqslant\|x\|\leqslant M_1\inf\|f\|_1$, where the infimum is taken over all $f$ in $l^1(Z)$ such that $(*)$ holds. (Hint: define $T:l^1(Z)\to\mathcal X$ by $Tf=\sum\{f(z)u(z):z\in Z\}$.)
 
@@ -536,7 +536,7 @@ If $X$ is locally compact, then the operators on $C_0(X)$ of finite rank are den
 
 
 
-<a id="pdf-page-192"></a>
+   <a id="pdf-page-192"></a>
 4. If $A\in\mathcal{B}_0(\mathcal{X},\mathcal{Y})$ and $\operatorname{ran}A$ is closed, show that $\operatorname{ran}A$ is finite dimensional.
 
 5. If $A\in\mathcal{B}_0(\mathcal{X})$ and $A$ is invertible, show that $\dim\mathcal{X}<\infty$.
@@ -573,7 +573,7 @@ If $X$ is locally compact, then the operators on $C_0(X)$ of finite rank are den
 
 
 
-<a id="pdf-page-193"></a>
+    <a id="pdf-page-193"></a>
 20. Let $1\leq p\leq\infty$ and let $(X,\Omega,\mu)$ be a $\sigma$-finite measure space. If $A\in\mathcal B_0(L^p(\mu))$, show that there is a sequence $\{A_n\}$ of finite-rank operators such that $\|A_n-A\|\to0$. (Hint: Use Exercise 19.)
 
 21. Let $X$ be compact and let $\mathcal U$ be the collection of all pairs $(C,F)$ where $C=\{U_1,\ldots,U_n\}$ is a finite open cover of $X$ and $F=\{x_1,\ldots,x_n\}\subseteq X$ such that $x_j\in U_j$ for $1\leq j\leq n$. If $(C_1,F_1)$ and $(C_2,F_2)\in\mathcal U$, define $(C_1,F_1)\leq(C_2,F_2)$ to mean: (a) $C_2$ is a refinement of $C_1$; that is, each member of $C_2$ is contained in some member of $C_1$. (b) $F_1\subseteq F_2$. If $\alpha=(C,F)\in\mathcal U$ let $\{\phi_1,\ldots,\phi_n\}$ be a partition of unity subordinate to $C$. If $F=\{x_1,\ldots,x_n\}$, define $T_\alpha:C(X)\to C(X)$ by
@@ -744,7 +744,7 @@ The next result appeared in Bernstein and Robinson [1966], where it is proved us
 
 
 
-<a id="pdf-page-198"></a>
+   <a id="pdf-page-198"></a>
 8. Give an example of an invertible operator $T$ on a Banach space $\mathcal X$ and an invariant subspace $\mathcal M$ for $T$ such that $\mathcal M$ is not invariant for $T^{-1}$.
 
 9. Let $\mathcal X$ be a Banach space over $\mathbb C$, let $K\in\mathcal B_0(\mathcal X)$ and show that if $\mathcal C$ is a maximal chain in $\operatorname{Lat}K$, then $\mathcal C$ is a maximal chain in the lattice of all subspaces of $\mathcal X$.
@@ -863,8 +863,8 @@ The preceding result can be used to prove several standard results from antiquit
 
 
 
-<a id="pdf-page-201"></a>
-(Davis, Figiel, Johnson, and Pelczynski, [1974]) that $\mathcal X$ is WCG if and only if there is a reflexive space and an injective bounded operator $T:\mathcal R\to\mathcal X$ such that $\operatorname{ran}T$ is dense. (Hint: The Krein–Smulian Theorem (V.13.4) may be useful.)
+   <a id="pdf-page-201"></a>
+   (Davis, Figiel, Johnson, and Pelczynski, [1974]) that $\mathcal X$ is WCG if and only if there is a reflexive space and an injective bounded operator $T:\mathcal R\to\mathcal X$ such that $\operatorname{ran}T$ is dense. (Hint: The Krein–Smulian Theorem (V.13.4) may be useful.)
 
 5. If $(X,\Omega,\mu)$ is a finite measure space, $k\in L^\infty(X\times X,\Omega\times\Omega,\mu\times\mu)$, and $K:L^1(\mu)\to L^1(\mu)$ is defined by $(Kf)(x)=\int k(x,y)f(y)\,d\mu(y)$, show that $K$ is weakly compact and $K^2$ is compact.
 

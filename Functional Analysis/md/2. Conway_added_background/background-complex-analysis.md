@@ -291,7 +291,7 @@ bisect an interval containing it, retain a half containing infinitely
 many terms, and repeat. Write the retained intervals as $[a_j,b_j]$.
 Their left endpoints increase, their right endpoints decrease, and their
 lengths tend to zero. The number $x=\sup_j a_j$ lies in every interval,
-as in CA.2. Choose a sequence term in the $j$th interval with index
+as in CA.2. Choose a sequence term in the $j$ th interval with index
 larger than the previously chosen index. Infinitely many terms are
 available there, and the chosen term is within $b_j-a_j$ of $x$, so
 this subsequence converges. Apply this to the real coordinates and then, within that

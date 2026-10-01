@@ -552,7 +552,7 @@ For more information on symmetric operators and the relation of the problem of f
 
 
 
-<a id="pdf-page-331"></a>
+   <a id="pdf-page-331"></a>
 3. Show that the closure of a symmetric operator is symmetric.
 
 4. Let $\mathcal D=\{f\in L^2(0,\infty):$ for every $c>0$, $f$ is absolutely continuous on $[0,c]$, $f(0)=0$, and $f'\in L^2(0,\infty)\}$. Define $Af=if'$ for $f$ in $\mathcal D$. Show that $A$ is a densely defined closed operator and find $\operatorname{dom}A^*$. Show that $A$ is symmetric with deficiency indices $n_+=0$ and $n_-=1$.
@@ -695,7 +695,7 @@ One use of the Cayley transform is to study self-adjoint operators by using the 
 
 
 
-<a id="pdf-page-334"></a>
+   <a id="pdf-page-334"></a>
 8. Let $U=S^*$, where $S$ is the unilateral shift of multiplicity 1. Is $U$ the Cayley transform of a symmetric operator $A$? If so, find it.
 
 ## §4. Unbounded Normal Operators and the Spectral Theorem
@@ -2042,8 +2042,8 @@ The measure obtained in Theorem 7.1 need not be unique since, in the proof that 
 
 
 
-<a id="pdf-page-361"></a>
-equivalent. (a) There is a finite positive measure $\mu$ on $\mathbb{R}$ such that $m(t)=\int e^{ixt}\,d\mu(x)$ for all $t$ in $\mathbb{R}$. (b) $m$ is continuous and if $\alpha_0,\ldots,\alpha_n\in\mathbb{C}$ and $t_0,\ldots,t_n\in\mathbb{R}$, then $\sum_{j,k=0}^{n}m(t_j-t_k)\alpha_j\bar{\alpha}_k\geq 0$. (c) There is a strongly continuous one-parameter unitary group $U(t)$ and a vector $e$ such that $m(t)=\langle U(t)e,e\rangle$ for all $t$. (Hint: Let $\mathcal{H}_0=$ all functions $f:\mathbb{R}\to\mathbb{C}$ that vanish off a finite set.)
+   <a id="pdf-page-361"></a>
+   equivalent. (a) There is a finite positive measure $\mu$ on $\mathbb{R}$ such that $m(t)=\int e^{ixt}\,d\mu(x)$ for all $t$ in $\mathbb{R}$. (b) $m$ is continuous and if $\alpha_0,\ldots,\alpha_n\in\mathbb{C}$ and $t_0,\ldots,t_n\in\mathbb{R}$, then $\sum_{j,k=0}^{n}m(t_j-t_k)\alpha_j\bar{\alpha}_k\geq 0$. (c) There is a strongly continuous one-parameter unitary group $U(t)$ and a vector $e$ such that $m(t)=\langle U(t)e,e\rangle$ for all $t$. (Hint: Let $\mathcal{H}_0=$ all functions $f:\mathbb{R}\to\mathbb{C}$ that vanish off a finite set.)
 
 3. Let $\{m_n:n\in\mathbb{Z}\}\subseteq\mathbb{C}$ and show that the following statements are equivalent. (a) There is a positive measure $\mu$ on $\partial\mathbb{D}$ such that $m_n=\int z^n\,d\mu(z)$ for all $n$ in $\mathbb{Z}$. (b) If $\alpha_{-n},\ldots,\alpha_{-1},\alpha_0,\alpha_1,\ldots,\alpha_n\in\mathbb{C}$, then $\sum_{j,k=-n}^{n}m_{j-k}\alpha_j\bar{\alpha}_k\geq 0$. (c) There is a unitary operator $U$ and a vector $e$ such that $m_n=\langle U^n e,e\rangle$ for all $n$.
 

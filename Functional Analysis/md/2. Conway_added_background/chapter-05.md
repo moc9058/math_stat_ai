@@ -215,7 +215,7 @@ Using the weak and weak$^*$ topologies and the concept of a bounded subset of a 
 
 
 
-<a id="pdf-page-143"></a>
+   <a id="pdf-page-143"></a>
 3. Prove Theorem 1.3.
 
 4. Let $\mathscr{X}$ be a complex LCS and let $\mathscr{X}_{\mathbb R}^{*}$ denote the collection of all continuous real linear functionals on $\mathscr{X}$. Use the elements of $\mathscr{X}_{\mathbb R}^{*}$ to define seminorms on $\mathscr{X}$ and let $\sigma(\mathscr{X},\mathscr{X}_{\mathbb R}^{*})$ be the corresponding topology. Show that $\sigma(\mathscr{X},\mathscr{X}^{*})=\sigma(\mathscr{X},\mathscr{X}_{\mathbb R}^{*})$.
@@ -897,8 +897,8 @@ Note that it is possible that there are extreme points $x$ of $K$ such that $T(x
 
 
 
-<a id="pdf-page-160"></a>
-[1965]). If $\mathbf F=\mathbf R$, then this characterizes totally disconnected compact spaces (Goodner [1964]).)
+   <a id="pdf-page-160"></a>
+   [1965]). If $\mathbf F=\mathbf R$, then this characterizes totally disconnected compact spaces (Goodner [1964]).)
 
 6. Show that ball $l^1$ is the norm closure of the convex hull of its extreme points.
 
@@ -1650,7 +1650,7 @@ $(b)\Rightarrow(c)$: According to (b), $\operatorname{ball}\mathcal X\supseteq{}
 
 
 
-<a id="pdf-page-178"></a>
+   <a id="pdf-page-178"></a>
 3. Where were the hypotheses of the separability and completeness of $\mathcal X$ used in the proof of Theorem 12.11?
 
 4. Let $\mathcal X$ be a separable Banach space. If $\mathcal M$ is a linear manifold in $\mathcal X^*$ give necessary and sufficient conditions that every functional in $\operatorname{wk}^*\text{-}\operatorname{cl}\mathcal M$ be the $\operatorname{wk}^*$ limit of a sequence from $\mathcal M$.

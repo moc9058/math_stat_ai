@@ -295,7 +295,7 @@ The proof of the uniqueness of $E$ is left to the reader. ■
 
 
 
-<a id="pdf-page-277"></a>
+   <a id="pdf-page-277"></a>
 10. For the representation in (VIII.5.5), find the corresponding spectral measure.
 
 11. In Example VIII.5.4, the representation is not quite covered by Theorem 1.14 since it is a representation of $L^\infty(\mu)$ and not $C(X)$. Nevertheless, this representation is given by a spectral measure defined on $\Omega$. Find it.
@@ -632,10 +632,10 @@ By using $V^{-1}$ instead of $V$ and reversing the roles of $N_1$ and $N_2$ in t
 
 
 
-<a id="pdf-page-286"></a>
-(a) $\mu=m=$ normalized arc length on $\partial\mathbb D$;
+   <a id="pdf-page-286"></a>
+   (a) $\mu=m=$ normalized arc length on $\partial\mathbb D$;
 
-(b) $V^{-1}=$ the Fourier transform on $L^2(m)=L^2(\partial\mathbb D)$.
+   (b) $V^{-1}=$ the Fourier transform on $L^2(m)=L^2(\partial\mathbb D)$.
 
 8. Suppose $N_1,\ldots,N_d$ are normal operators such that $N_jN_k^*=N_k^*N_j$ for $1\leq j,k\leq d$ and suppose there is a vector $e_0$ in $\mathcal H$ such that $\mathcal H$ is the only subspace of $\mathcal H$ containing $e_0$ that reduces each of the operators $N_1,\ldots,N_d$. Show that there is a compactly supported measure $\mu$ on $\mathbb C^d$ and an isomorphism $V:\mathcal H\to L^2(\mu)$ such that $VN_kV^{-1}f=z_kf$ for $f$ in $L^2(\mu)$ and $1\leq k\leq d$ ($z_k=$ the $k$th coordinate function) (see Exercise 2.17).
 
@@ -730,7 +730,7 @@ by the Lebesgue Dominated Convergence Theorem. That is, $u_n(A)\to E[a,b)$ (SOT)
 
 
 
-<a id="pdf-page-289"></a>
+   <a id="pdf-page-289"></a>
 6. If $(X,\Omega,\mu)$ is a measure space, then $(X,\Omega,\mu)$ is $\sigma$-finite or $L^2(\mu)$ is finite dimensional if and only if every collection of pairwise orthogonal projections in $\{M_\phi\in L^\infty(\mu)\}$ is countable.
 
 7. If $N=\int z\,dE(z)$ and $\varepsilon>0$, show that $\operatorname{ran}E(\{z:|z|>\varepsilon\})\subseteq\operatorname{ran}N$.
@@ -830,7 +830,7 @@ Let $\mathcal M=\bigvee\{(Af_1,\ldots,Af_n):A\in\mathcal A\}$. Because $\mathcal
 
 
 
-<a id="pdf-page-291"></a>
+   <a id="pdf-page-291"></a>
 2. Show that $\mathcal{B}_{00}$ is SOT dense in $\mathcal{B}$.
 
 3. If $\{A_k\}$ and $\{B_k\}$ are sequences in $\mathcal{B}(\mathcal{H})$ such that $A_k\to A$ (WOT) and $B_k\to B$ (SOT), then $A_kB_k\to AB$ (WOT).
@@ -1017,7 +1017,7 @@ The corollary appears in Putnam [1951], while Proposition 6.10 first appeared in
 
 
 
-<a id="pdf-page-296"></a>
+    <a id="pdf-page-296"></a>
 12. Let $(X,\Omega,\mu)$ be an arbitrary measure space and let $L\in L^{1}(\mu)^{*}$. (a) Show that for every $f$ in $L^{2}(\mu)$, there is an $h$ in $L^{2}(\mu)$ such that $L(g\bar f)=\int g\bar h\,d\mu$ for all $g$ in $L^{2}(\mu)$. (b) If $f\in L^{2}(\mu)$, let $Tf$ be the function $h$ in $L^{2}(\mu)$ obtained in part (a). Show that $T:L^{2}(\mu)\to L^{2}(\mu)$ defines a bounded linear operator and $T$ commutes with $M_{\phi}$ for every $\phi$ in $L^{\infty}(\mu)$. (c) In light of parts (a) and (b), compare Theorem 6.6 and Example 20.17 in Hewitt and Stromberg [1975].
 
 ## §7. Abelian von Neumann Algebras
@@ -1153,10 +1153,10 @@ The preceding corollary may seem innocent, but it is, in fact, the basis for the
 
 
 
-<a id="pdf-page-300"></a>
-![](assets/p0300-page_299_image_2.jpg)
+    <a id="pdf-page-300"></a>
+    ![](assets/p0300-page_299_image_2.jpg)
 
-commutes. Find the corresponding injection $Y/{\sim}\to X$.
+    commutes. Find the corresponding injection $Y/{\sim}\to X$.
 
 12. If $X$ is any compact metric space, show that there is a totally disconnected compact metric space $Y$ and a continuous surjection $\phi\colon Y\to X$. (Hint: Start by embedding $C(X)$ into $\mathscr{B}(\mathscr{H})$ and use Exercises 7 and 8.)
 
@@ -1321,7 +1321,7 @@ Let $\{\phi_i\}$ be a net in $L^\infty(\mu)$ and suppose that $\phi_i(N)\to0$ (W
 
 
 
-<a id="pdf-page-305"></a>
+   <a id="pdf-page-305"></a>
 10. Give an example of two normal operators $M$ and $N$ such that $W^*(M\oplus N)=W^*(M)\oplus W^*(N)$ but $C^*(M\oplus N)\ne C^*(M)\oplus C^*(N)$. In fact, find $M$ and $N$ such that $W^*(M\oplus N)$ splits, but $\sigma(M)=\sigma(N)$.
 
 11. If $U$ is the bilateral shift and $V$ is any unitary operator, show that $W^*(U\oplus V)=W^*(U)\oplus W^*(V)$ if and only if $V$ has a spectral measure that is singular to arc length on $\partial\mathbb D$. (See Exercise 3.7.)
@@ -1781,7 +1781,7 @@ By Theorem 4.6, every normal operator is unitarily equivalent to a multiplicatio
 
 
 
-<a id="pdf-page-317"></a>
+   <a id="pdf-page-317"></a>
 3. If $\mu=$ Lebesgue measure on $[0,1]$, show that $N_\mu\cong N_\mu^p$ for $0<p<\infty$.
 
 4. Let $\mu=$ Lebesgue measure on $[0,1]$ and characterize the functions $\phi$ in $L^\infty(\mu)$ such that $N_\mu\cong\phi(N_\mu)$.

@@ -200,7 +200,7 @@ The term *isomorphism* in Banach space theory is reserved for linear bijections 
 
 
 
-<a id="pdf-page-82"></a>
+   <a id="pdf-page-82"></a>
 3. For $1\leq p<\infty$ and $x=(x_1,\ldots,x_d)$ in $\mathbb F^d$, define $\|x\|_p\equiv\left[\sum_{j=1}^d|x_j|^p\right]^{1/p}$; define $\|x\|_\infty\equiv\sup\{|x_j|:1\leq j\leq d\}$. Show that all of these norms are equivalent. For $1\leq p,q\leq\infty$, what are the best constants $c$ and $C$ such that $c\|x\|_p\leq\|x\|_q\leq C\|x\|_p$ for all $x$ in $\mathbb F^d$?
 
 4. If $1\leq p\leq\infty$ and $\|\cdot\|_p$ is defined on $\mathbb R^2$ as in Exercise 3, graph $\{x\in\mathbb R^2:\|x\|_p=1\}$. Note that if $1<p<\infty$, $\|x\|_p=\|y\|_p=1$, and $x\neq y$, then for $0<t<1$, $\|tx+(1-t)y\|_p<1$. The same cannot be said for $p=1,\infty$.
@@ -299,7 +299,7 @@ for all $f$ in $L^p(\mu)$ and $x$ in $X$, is a bounded operator on $L^p(\mu)$ an
 
 
 
-<a id="pdf-page-84"></a>
+   <a id="pdf-page-84"></a>
 2. Let $\mathcal X$ be a normed space, let $\mathcal Y$ be a Banach space, and let $\widehat{\mathcal X}$ be the completion of $\mathcal X$. Show that if $\rho:\mathcal B(\widehat{\mathcal X},\mathcal Y)\to\mathcal B(\mathcal X,\mathcal Y)$ is defined by $\rho(A)=A|_{\mathcal X}$, then $\rho$ is an isometric isomorphism.
 
 3. If $(X,\Omega,\mu)$ is a $\sigma$-finite measure space, $\phi:X\to\mathbb F$ is an $\Omega$-measurable function, $1\leq p\leq\infty$, and $\phi f\in L^p(\mu)$ whenever $f\in L^p(\mu)$, then show that $\phi\in L^\infty(\mu)$.
@@ -502,7 +502,7 @@ A similar result holds for $\bigoplus_0\mathcal X_n$, but the formulation and pr
 
 
 
-<a id="pdf-page-88"></a>
+   <a id="pdf-page-88"></a>
 7. Let $X$ be a normal locally compact space and $F$ a closed subset of $X$. If $\mathcal M\equiv\{f\in C_0(X):f(x)=0\text{ for all }x\text{ in }F\}$, then $C_0(X)/\mathcal M$ is isometrically isomorphic to $C_0(F)$.
 
 8. Prove Proposition 4.4.
@@ -876,7 +876,7 @@ $$
 
 
 
-<a id="pdf-page-97"></a>
+   <a id="pdf-page-97"></a>
 10. Let $P=\{p|_{\partial\mathbb D}:p=\text{an analytic polynomial}\}$ and consider $P$ as a manifold in $C(\partial\mathbb D)$. Show that if $\mu$ is a real-valued measure on $\partial\mathbb D$ such that $\int p\,d\mu=0$ for every $p$ in $P$, then $\mu=0$. Give an example of a complex-valued measure $\mu$ such that $\mu\ne0$ but $\int p\,d\mu=0$ for every $p$ in $P$.
 
 ## §7*. An Application: Banach Limits
@@ -1618,7 +1618,7 @@ The Banach–Steinhaus Theorem is a result about sequences, not nets. Note that 
 
 
 
-<a id="pdf-page-113"></a>
+   <a id="pdf-page-113"></a>
 9. If $(S,d)$ is a metric space and $\mathcal X$ is a normed space, say that a function $f:S\to\mathcal X$ is a *Lipschitz function* if there is a constant $M>0$ such that $\|f(s)-f(t)\|\leq Md(s,t)$ for all $s,t$ in $S$. Show that if $f:S\to\mathcal X$ is a function such that for all $L$ in $\mathcal X^*$, $L\circ f:S\to\mathbb F$ is Lipschitz, then $f:S\to\mathcal X$ is a Lipschitz function.
 
 10. Let $\mathcal X$ be a Banach space and suppose $\{x_n\}$ is a sequence in $\mathcal X$ such that for each $x$ in $\mathcal X$ there are unique scalars $\{\alpha_n\}$ such that $\lim_{n\to\infty}\|x-\sum_{k=1}^n\alpha_kx_k\|=0$. Such a sequence is called a *Schauder basis*. (a) Prove that $\mathcal X$ is separable. (b) Let $\mathcal Y=\{\{\alpha_n\}\in\mathbb F^{\mathbb N}:\sum_{n=1}^{\infty}\alpha_nx_n\text{ converges in }\mathcal X\}$ and for $y=\{\alpha_n\}$ in $\mathcal Y$ define $\|y\|=\sup_n\|\sum_{k=1}^n\alpha_kx_k\|$. Show that $\mathcal Y$ is a Banach space. (c) Show that there is a bounded bijection $T:\mathcal X\to\mathcal Y$. (d) If $n\geq1$ and $f_n:\mathcal X\to\mathbb F$ is defined by $f_n(\sum_{k=1}^{\infty}\alpha_kx_k)=\alpha_n$, show that $f_n\in\mathcal X^*$. (e) Show that $x_n\notin$ the closed linear span of $\{x_k:k\neq n\}$.

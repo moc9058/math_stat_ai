@@ -325,7 +325,7 @@ Once again (1.14) was used implicitly in the preceding proof.
 
 
 
-<a id="pdf-page-255"></a>
+   <a id="pdf-page-255"></a>
 7. If $X$ is completely regular, then $C_b(X)$ is a $C^*$-algebra and its maximal ideal space is the Stone–Čech compactification of $X$.
 
 ## §3. The Positive Elements in a $C^*$-Algebra
@@ -492,7 +492,7 @@ For the uniqueness, note that $A^*A=PU^*UP$. Now $U^*U=E\equiv$ the projection o
 
 
 
-<a id="pdf-page-259"></a>
+    <a id="pdf-page-259"></a>
 12. If $a,b\in\mathcal A_+$ and $a\leq b$, show that $a^\beta\leq b^\beta$ for $0\leq\beta\leq1$. ($a^\beta=f(a)$ where $f(t)=t^\beta$.) (Hint: Let $f_\alpha$ be as in Exercise 11 and show that $\int_0^\infty f_\alpha(t)\alpha^{-\beta}\,d\alpha=\gamma t^\beta$ where $\gamma>0$. Use the definition of the improper integral and the functional calculus.)
 
 13. Give an example of a C*-algebra $\mathcal A$ and positive elements $a,b$ in $\mathcal A$ such that $a\leq b$ but $b^2-a^2\notin\mathcal A_+$.
@@ -828,8 +828,8 @@ Actually, more can be said if $\mathcal A$ is separable. In fact, every separabl
 7. Fix a Banach limit LIM on $l^\infty(\mathbb N)$ and let $\mathcal H$ be a separable Hilbert space with an orthonormal basis $\{e_n\}$. Define $f:\mathcal B(\mathcal H)\to\mathbb C$ by $f(T)=\operatorname{LIM}\{\langle Te_n,e_n\rangle\}$. Show
 
 
-<a id="pdf-page-269"></a>
-that $f$ is a state on $\mathcal{B}(\mathcal{H})$. If $\pi_f$ is the corresponding cyclic representation, show that $\ker \pi_f=\mathcal{B}_0(\mathcal{H})$. Hence $\pi_f$ induces a cyclic representation of $\mathcal{B}(\mathcal{H})/\mathcal{B}_0(\mathcal{H})$ that is isometric. Is $\mathcal{H}_f$ separable?
+   <a id="pdf-page-269"></a>
+   that $f$ is a state on $\mathcal{B}(\mathcal{H})$. If $\pi_f$ is the corresponding cyclic representation, show that $\ker \pi_f=\mathcal{B}_0(\mathcal{H})$. Hence $\pi_f$ induces a cyclic representation of $\mathcal{B}(\mathcal{H})/\mathcal{B}_0(\mathcal{H})$ that is isometric. Is $\mathcal{H}_f$ separable?
 
 8. If $f$ is a positive linear functional on $\mathcal{A}$ and $\alpha\in(0,\infty)$, show that $\pi_f$ and $\pi_{\alpha f}$ are equivalent representations.
 

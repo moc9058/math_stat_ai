@@ -394,7 +394,7 @@ Suppose $\overline{B}(a;r)\subseteq G$ and let $0<\rho<\operatorname{dist}(B(a;r
 
 
 
-<a id="pdf-page-22"></a>
+   <a id="pdf-page-22"></a>
 5. (A variation on Example 1.8) Let $n\geq 2$ and let $\mathcal H =$ the collection of all function $f:[0,1]\to\mathbb F$ such that (a) $f(0)=0$; (b) for $1\leq k\leq n-1$, $f^{(k)}(t)$ exists for all $t$ in $[0,1]$ and $f^{(k)}$ is continuous on $[0,1]$; (c) $f^{(n-1)}$ is absolutely continuous and $f^{(n)}\in L^2(0,1)$. For $f$ and $g$ in $\mathcal H$, define
 
    $$
@@ -986,7 +986,7 @@ In the next three exercises, the reader is asked to apply the Gram–Schmidt Ort
 
 
 
-<a id="pdf-page-34"></a>
+    <a id="pdf-page-34"></a>
 13. Let $\mathcal E$ be an orthonormal subset of $\mathcal H$ and let $\mathcal M=\bigvee\mathcal E$. If $P$ is the orthogonal projection of $\mathcal H$ onto $\mathcal M$, show that $Ph=\sum\{\langle h,e\rangle e:e\in\mathcal E\}$ for every $h$ in $\mathcal H$.
 
 14. Let $\lambda=\text{Area}$ measure on $\{z\in\mathbb C:|z|<1\}$ and show that $1,z,z^2,\ldots$ are orthogonal vectors in $L^2(\lambda)$. Find $\|z^n\|$, $n\geq 0$. If $e_n=\|z^n\|^{-1}z^n$, $n\geq 0$, is $\{e_0,e_1,\ldots\}$ a basis for $L^2(\lambda)$?
@@ -1231,7 +1231,7 @@ The main reason for considering direct sums is that they provide a way of manufa
 
 
 
-<a id="pdf-page-40"></a>
+   <a id="pdf-page-40"></a>
 2. Let $(X,\Omega)$ be a measurable space, let $\mu_1,\mu_2$ be $\sigma$-finite measures defined on $(X,\Omega)$, and put $\mu=\mu_1+\mu_2$. Show that the map $V:L^2(X,\Omega,\mu)\to L^2(X,\Omega,\mu_1)\oplus L^2(X,\Omega,\mu_2)$ defined by $Vf=f_1\oplus f_2$, where $f_j$ is the equivalence class of $L^2(X,\Omega,\mu_j)$ corresponding to $f$, is well defined, linear, and injective. Show that $V$ is an isomorphism iff $\mu_1$ and $\mu_2$ are mutually singular.
 
 <!-- BEGIN SOLUTIONS I -->

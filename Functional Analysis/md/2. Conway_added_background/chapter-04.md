@@ -224,7 +224,7 @@ Using Proposition 1.14, the following characterization of a LCS can be obtained.
 
 
 
-<a id="pdf-page-119"></a>
+   <a id="pdf-page-119"></a>
 2. Show that a LCS is a TVS.
 
 3. Suppose that $\mathcal X$ is a TVS but do not assume that $\mathcal X$ is Hausdorff. (a) Show that $\mathcal X$ is Hausdorff if and only if the singleton set $\{0\}$ is closed. (b) If $\mathcal X$ is Hausdorff, show that $\mathcal X$ is a regular topological space.
@@ -271,7 +271,7 @@ Using Proposition 1.14, the following characterization of a LCS can be obtained.
 
 
 
-<a id="pdf-page-120"></a>
+    <a id="pdf-page-120"></a>
 18. If $\mathcal{X}$ is a finite-dimensional vector space and $\mathcal{T}_1,\mathcal{T}_2$ are two topologies on $\mathcal{X}$ that make $\mathcal{X}$ into a TVS, then $\mathcal{T}_1=\mathcal{T}_2$.
 
 19. If $\mathcal{X}$ is a TVS and $\mathcal{M}$ is a finite dimensional linear manifold in $\mathcal{X}$, then $\mathcal{M}$ is closed and $\mathcal{Y}+\mathcal{M}$ is closed for any closed subspace $\mathcal{Y}$ of $\mathcal{X}$.
@@ -596,7 +596,7 @@ Also note that this says that the only continuous linear functional on $L^p(0,1)
 
 
 
-<a id="pdf-page-129"></a>
+    <a id="pdf-page-129"></a>
 14. Give an example of a TVS $\mathcal X$ that is not locally convex and a subspace $\mathcal Y$ of $\mathcal X$ such that there is a continuous linear functional $f$ on $\mathcal Y$ with no continuous extension to $\mathcal X$.
 
 15. Let $\mathcal X$ be a real LCS and let $A$ and $B$ be disjoint compact convex subsets of $\mathcal X$. Suppose $\mathcal Y$ is a subspace of $\mathcal X$ and $f_0:\mathcal Y\to\mathbb R$ is a continuous linear functional such that $f_0(a)<0$ for $a$ in $A\cap\mathcal Y$ and $f_0(b)>0$ for $b$ in $B\cap\mathcal Y$. Show by an example that it is not always possible to extend $f_0$ to a continuous linear functional on $\mathcal X$ such that $f(a)<0$ or $a$ in $A$ and $f(b)>0$ for $b$ in $B$. (Hint: Let $\mathcal X=\mathbb R^3$ and let $\mathcal Y$ be the plane.)
@@ -688,7 +688,7 @@ This completes the proof except for the uniqueness of $g$ (Exercise 3). $\blacks
 
 
 
-<a id="pdf-page-131"></a>
+   <a id="pdf-page-131"></a>
 3. Show that the function $g$ obtained in Proposition 4.2 is unique.
 
 4. Show that $L\in H(\mathbb D)^*$ if and only if there are scalars $b_0,b_1,\ldots$ in $\mathbb C$ such that $\limsup |b_n|^{1/n}<1$ and $L(f)=\sum_{n=0}^{\infty}\frac{1}{n!}f^{(n)}(0)b_n$.
@@ -921,7 +921,7 @@ Now define $p:\mathcal X\to[0,\infty)$ by $p(x)=p_n(x)$ if $x\in\mathcal X_n$. B
 
 
 
-<a id="pdf-page-138"></a>
+   <a id="pdf-page-138"></a>
 6. Verify the statements made in Example 5.11.
 
 7. With the notation of (5.10), show that if $X$ is $\sigma$-compact, then the dual of $C_c(X)$ is the space of all extended $\mathbb{F}$-valued measures.
