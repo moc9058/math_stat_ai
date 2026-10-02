@@ -336,7 +336,7 @@ It may be that $\mathcal A/\mathcal M$ has an identity even if $\mathcal A$ does
 ## §3. The Spectrum
 
 <!-- BEGIN BACKGROUND BG-VII.block3 -->
-The scalar tools used in this section are developed from the beginning in the [complex-analysis background](background-complex-analysis.md): [power series](background-complex-analysis.md#ca-25), [Cauchy's formula and estimates](background-complex-analysis.md#ca-30), and [Liouville's theorem](background-complex-analysis.md#ca-33). The following additions explain exactly how those scalar facts apply to Banach-space-valued functions.
+The scalar tools used in this section are developed from the beginning in the [complex-analysis background](background-complex-analysis.md): [power series](background-complex-analysis.md#ca-10), [Cauchy's formula and estimates](background-complex-analysis.md#ca-22), and [Liouville's theorem](background-complex-analysis.md#ca-24). The following additions explain exactly how those scalar facts apply to Banach-space-valued functions.
 
 <a id="bg-vii-3"></a>
 ### Definition BG-VII.3 — Banach-valued contour integrals
@@ -536,7 +536,7 @@ The identity in part (b) of the preceding proposition is called the *resolvent i
 ## §4. The Riesz Functional Calculus
 
 <!-- BEGIN BACKGROUND BG-VII.block4 -->
-Before this section read [winding numbers](background-complex-analysis.md#ca-37), [the homological Cauchy theorem](background-complex-analysis.md#ca-38), and [contours surrounding a compact set](background-complex-analysis.md#ca-39). “Positively oriented” for a system can include clockwise inner boundaries: the **total** winding number must be one on the region being enclosed and zero on its holes. A single large circle need not fit in the domain of $f$.
+Before this section read [winding numbers](background-complex-analysis.md#ca-17), [the homological Cauchy theorem](background-complex-analysis.md#ca-21), and [contours surrounding a compact set](background-complex-analysis.md#ca-64). “Positively oriented” for a system can include clockwise inner boundaries: the **total** winding number must be one on the region being enclosed and zero on its holes. A single large circle need not fit in the domain of $f$.
 
 <a id="bg-vii-8"></a>
 ### Lemma BG-VII.8 — Why the double contour manipulation is valid
@@ -873,7 +873,7 @@ $1-e\neq 0$, $a_1$ cannot be invertible. However, consider the algebra $\mathcal
 
 If polynomials $p_n$ are uniformly Cauchy on the unit circle, they converge uniformly on the closed disk to a continuous function holomorphic in the open disk.
 
-**Proof.** The maximum modulus principle gives $\sup_{|z|\leq1}|p_n-p_m|\leq\sup_{|z|=1}|p_n-p_m|$, so they are uniformly Cauchy on the disk. Completeness of the scalar field gives a uniform limit, and the uniform-limit continuity theorem makes it continuous on the closed disk. Holomorphy in the interior follows from the locally uniform limit theorem [CA.35](background-complex-analysis.md#ca-35). $\square$
+**Proof.** The maximum modulus principle gives $\sup_{|z|\leq1}|p_n-p_m|\leq\sup_{|z|=1}|p_n-p_m|$, so they are uniformly Cauchy on the disk. Completeness of the scalar field gives a uniform limit, and the uniform-limit continuity theorem makes it continuous on the closed disk. Holomorphy in the interior follows from the locally uniform limit theorem [CA.26](background-complex-analysis.md#ca-26). $\square$
 
 This supplies both limit passages in Example 5.1. A component of an open subset of $\mathbb C$ is open: small disks are connected and must lie in the component of their center. Distinct components therefore contain distinct rational-coordinate points, so there are at most countably many components. If $K$ is compact, its complement has exactly one unbounded component because all points outside a sufficiently large disk lie in one connected subset. Finally, the boundary of any complementary component lies in $K$: a boundary point outside $K$ has a small disk in the complement, forcing it into the same open component, a contradiction. These are the topology facts used in 5.3.
 <!-- END BACKGROUND BG-VII.block5 -->
@@ -980,7 +980,7 @@ A_n=\frac1{2\pi i}\int_{|\zeta-\lambda|=r}
 $$
 valid for any $0<r<R$, converging uniformly on compact subannuli. The coefficients do not depend on $r$.
 
-**Proof.** The scalar annular Cauchy formula in [CA.40](background-complex-analysis.md#ca-40) transfers by BG-VII.4 and separation by $X^*$. On an outer boundary circle expand its kernel in nonnegative powers of $z-\lambda$; on an inner boundary circle expand in negative powers. Both geometric expansions converge uniformly on smaller compact subannuli and may be integrated termwise. Cauchy's theorem in the annulus makes the coefficient integrals independent of radius. Integrating any putative series termwise against powers of $z-\lambda$ extracts its coefficients, proving uniqueness. $\square$
+**Proof.** The scalar annular Cauchy formula in [CA.28](background-complex-analysis.md#ca-28) transfers by BG-VII.4 and separation by $X^*$. On an outer boundary circle expand its kernel in nonnegative powers of $z-\lambda$; on an inner boundary circle expand in negative powers. Both geometric expansions converge uniformly on smaller compact subannuli and may be integrated termwise. Cauchy's theorem in the annulus makes the coefficient integrals independent of radius. Integrating any putative series termwise against powers of $z-\lambda$ extracts its coefficients, proving uniqueness. $\square$
 
 For $F(z)=(z-A)^{-1}$, $A_{-1}$ is exactly the contour integral defining the Riesz idempotent at an isolated spectral point. A pole of order $m$ means $A_{-m}\ne0$ and $A_{-k}=0$ for $k>m$; an essential singularity means infinitely many negative coefficients are nonzero. A removable singularity means all negative coefficients vanish. The resolvent cannot have a removable singularity at a spectral point: a continuous extension $B$ there would satisfy $(\lambda-A)B=B(\lambda-A)=I$ by taking limits.
 <!-- END BACKGROUND BG-VII.block6 -->
@@ -1928,4 +1928,3 @@ For additional reading, consult Rudin [1962].
 10. If $G$ is a compact abelian group, show that $G$ is metrizable if and only if $\Gamma$ is countable.
 
 11. Let $\{G_\alpha\}$ be a family of compact abelian groups and $G=\prod_\alpha G_\alpha$. If $\Gamma_\alpha=\widehat{G_\alpha}$, show that the character group of $G$ is $\{\{\gamma_\alpha\}\in\prod_\alpha\Gamma_\alpha:\gamma_\alpha=e\text{ except for at most a finite number of }\alpha\}$.
-

@@ -948,3 +948,994 @@ For the remaining exercises, $\Omega$ is always an open subset of $\mathbb{R}^d$
 
 17. Let $f$ be a $C^\infty$ function on $\Omega$ and let $L$ be a distribution on $\mathcal{D}(\Omega)$. Show that $M(\phi)\equiv L(\phi f)$, $\phi$ in $\mathcal{D}(\Omega)$, is a distribution. State and prove a product rule for finding the derivative of $M$.
 
+<!-- BEGIN SOLUTIONS IV -->
+<a id="exercise-solutions"></a>
+## Exercise Solutions
+
+These added solutions cover all 71 numbered exercises and use Hausdorff
+topological vector spaces unless an
+exercise explicitly removes that assumption. A neighborhood contains an open
+set containing its specified point. Boundedness is topological boundedness,
+not merely finite diameter in a chosen metric. Several printed assertions
+need qualifications, especially IV.1.20, IV.2.4(h), and IV.3.7.
+
+### §1. Elementary Properties and Examples
+
+#### Solution IV.1.1 — Small and balanced neighborhoods
+
+(a) Continuity of addition at $(0,0)$ gives neighborhoods $V_1,V_2$ with
+$V_1+V_2\subseteq U$; take $V=V_1\cap V_2$.
+(b) Joint continuity of scalar multiplication and compactness of the closed
+scalar unit disk give an open neighborhood $W$ of zero with
+$\alpha W\subseteq U$ for every $|\alpha|\leq1$. Explicitly cover the
+disk by finitely many scalar neighborhoods for which this holds on respective
+vector neighborhoods, and intersect the latter. Then
+$V=\bigcup_{|\alpha|\leq1}\alpha W$ is balanced and contained in $U$.
+It is open: every nonzero scalar multiple is open, and the zero vector already
+lies in the open set $W$ included in the union.
+
+#### Solution IV.1.2 — Seminorm topologies
+
+A basic neighborhood of zero is a finite intersection of sets $p_j(x)<\varepsilon_j$.
+Halving the tolerances gives a neighborhood whose sum with itself lies in
+the original one, proving continuity of addition. At $(\alpha,x)$ use
+$$p_j(\beta y-\alpha x)\leq|\beta|p_j(y-x)+|\beta-\alpha|p_j(x).$$
+Bound $|\beta|$ near $\alpha$ and make both terms small for the finitely
+many $j$. This proves joint continuity of scalar multiplication. Separation
+of points follows from the assumed trivial common kernel of the seminorms.
+
+#### Solution IV.1.3 — Hausdorffness and regularity
+
+(a) Hausdorff spaces have closed singletons. Conversely, if $\{0\}$ is
+closed and $x\ne y$, choose a zero neighborhood $U$ omitting $x-y$ and a
+smaller $V$ with $V-V\subseteq U$. Then $x+V$ and $y+V$ are disjoint.
+(b) Given an open zero neighborhood $U$, choose a symmetric open $V$ with
+$V+V\subseteq U$. If $z\in\overline V$, the open set $z+V$ meets $V$,
+so $z\in V-V=V+V\subseteq U$. Thus $\overline V\subseteq U$.
+Translate this fact to any point to separate it from a closed set, which is
+regularity.
+
+#### Solution IV.1.4 — Translations and nonzero dilations
+
+The map $x\mapsto x+x_0$ is continuous by the addition axiom and its
+inverse is translation by $-x_0$, also continuous. Multiplication by a fixed
+nonzero scalar is continuous and has continuous inverse multiplication by
+its reciprocal. Both maps are therefore homeomorphisms.
+
+#### Solution IV.1.5 — Combining seminorms
+
+Finite sums and maxima of seminorms satisfy the seminorm axioms directly;
+the corresponding scalar sum and maximum maps are continuous. If
+$p(x)=\sup_i p_i(x)\leq q(x)$, the supremum is finite, homogeneous, and
+subadditive. The inequality $|p(x)-p(y)|\leq p(x-y)\leq q(x-y)$
+proves continuity. Pointwise finiteness alone would not replace domination
+by a continuous seminorm.
+
+#### Solution IV.1.6 — Uniform convergence on compact sets
+
+Each $p_K$ is finite by compactness and continuity and satisfies the seminorm
+axioms by the scalar triangle inequality. Singleton compact sets separate
+functions, so the topology is Hausdorff and locally convex. A net converges
+in a seminorm topology exactly when every defining seminorm of its difference
+from the limit tends to zero: necessity tests one subbasic neighborhood;
+sufficiency takes a common upper bound for the finitely many indices needed
+in a basic neighborhood. Here that condition is precisely uniform convergence
+on each compact set.
+
+#### Solution IV.1.7 — Completeness of holomorphic functions
+
+A Cauchy net has on each compact $K\subset G$ a uniformly Cauchy restriction.
+The Banach space $C(K)$ is complete also for Cauchy nets: choose successively
+tail indices for errors $2^{-n}$, take the limit of that Cauchy sequence,
+and use the Cauchy property to control the entire net. The limits on different
+compact sets agree on overlaps, defining $f$ on $G$. Locally choose closed
+disks inside $G$; uniform limits there show continuity. Cauchy's integral
+formula for the approximants passes uniformly to the limit on a surrounding
+circle. Differentiating the resulting integral on a smaller disk is justified
+by a positive distance from the circle and gives holomorphy of $f$. Thus
+the net converges to $f\in H(G)$ in every compact seminorm.
+
+#### Solution IV.1.8 — The weak topology
+
+$p_{x^*}(x)=|x^*(x)|$ is a seminorm. Hahn–Banach gives, for each nonzero
+$x$, a bounded functional with nonzero value at $x$, so these seminorms
+separate points. A zero-neighborhood basis is
+$$\{x:|x_j^*(x)|<\varepsilon_j,\ 1\leq j\leq n\},$$
+with finitely many bounded functionals and positive tolerances. It follows
+that weak convergence of a net means convergence of every scalar functional
+value, with a common eventual index only required for finitely many tests.
+
+#### Solution IV.1.9 — The weak-star topology
+
+For fixed $x$, the map $x^*\mapsto|x^*(x)|$ is a seminorm on $X^*$.
+If two functionals differ, they differ at some $x$, so these seminorms
+separate points. Finite intersections of conditions
+$|x^*(x_j)|<\varepsilon_j$ give the zero-neighborhood basis. Consequently
+weak-star convergence is pointwise convergence on $X$, proving all the
+claims of the example.
+
+#### Solution IV.1.10 — Finite convex combinations
+
+The defining two-point property follows from the claimed finite property
+by taking $n=2$. For its converse use induction. If $t_n<1$, write
+$$\sum_{j=1}^nt_jx_j=(1-t_n)\sum_{j<n}\frac{t_j}{1-t_n}x_j+t_nx_n.$$
+The inner sum belongs to $A$ by induction, and convexity handles the last
+combination. If $t_n=1$ the sum is $x_n$. An intersection of convex sets
+is convex because each two-point combination belongs to every set in the
+intersection. The empty intersection is the whole vector space.
+
+#### Solution IV.1.11 — Adding scalar copies of a convex set
+
+For $a,b\in A$,
+$\alpha a+\beta b=(\alpha+\beta)
+[(\alpha a+\beta b)/(\alpha+\beta)]\in(\alpha+\beta)A$.
+The reverse inclusion follows by taking $a=b$. For the nonconvex set
+$A=\{0,1\}\subset\mathbb R$ and $\alpha=\beta=1$,
+$A+A=\{0,1,2\}$ whereas $2A=\{0,2\}$.
+
+#### Solution IV.1.12 — Closed midpoint-convex sets
+
+Convexity implies the midpoint condition. Conversely repeated midpoint
+operations put $(1-t)x+ty$ in $A$ whenever $t$ is dyadic in $[0,1]$.
+Every real $t\in[0,1]$ is a limit of dyadic numbers; continuity of scalar
+multiplication and addition makes the corresponding vectors converge.
+Closedness of $A$ then gives all convex combinations.
+
+#### Solution IV.1.13 — The space of all sequences
+
+The function $h(t)=t/(1+t)$ is increasing and satisfies
+$h(a+b)\leq h(a)+h(b)$, since each of $a/(1+a+b)$ and $b/(1+a+b)$
+is bounded by the corresponding term on the right. This gives the metric
+triangle inequality after summing; definiteness follows from the positive
+weights. Convergence in this metric is equivalent to coordinatewise
+convergence. One direction bounds each summand by the whole sum; the other
+makes the finite initial sum small and uses $\sum_{n>N}2^{-n}$ for the tail.
+Thus the topology is the product topology, making both vector operations
+continuous coordinatewise. A Cauchy sequence is Cauchy in each coordinate,
+so has coordinate limits in $\mathbb F$; the same finite-tail argument
+proves metric convergence and hence completeness.
+
+#### Solution IV.1.14 — Convergence in measure
+
+The preceding inequality for $h$ proves the triangle inequality under the
+integral; zero distance means equality almost everywhere. Moreover for
+$u=f-g$ and $\varepsilon>0$,
+$$h(\varepsilon)\mu\{|u|>\varepsilon\}\leq d(f,g)
+\leq h(\varepsilon)\mu(X)+\mu\{|u|>\varepsilon\}.$$
+Thus this metric gives convergence in measure. Addition is continuous by
+the metric triangle inequality. For scalar multiplication, bounded scalar
+factors preserve convergence in measure, and $(\alpha_n-\alpha)f\to0$
+in measure by truncating the finite-valued measurable function $f$ to a
+bounded range; finiteness of $\mu$ makes the discarded measure tend to zero.
+To prove completeness, choose from a Cauchy sequence a subsequence with
+$\mu\{|f_{n_{k+1}}-f_{n_k}|>2^{-k}\}<2^{-k}$. Outside a null set,
+only finitely many of these events occur, since the measure of their union
+after index $N$ tends to zero. The subsequence is then pointwise Cauchy
+and has a measurable finite limit. The indicators of its error events
+converge almost everywhere to zero and are dominated by 1, so convergence
+holds in measure. The Cauchy property brings the entire sequence to that
+limit. Taking $X=\mathbb N$ and $\mu(\{n\})=2^{-n}$ recovers IV.1.13.
+
+#### Solution IV.1.15 — Closure by neighborhoods
+
+If $x\in\overline A$ and $V$ is an open zero neighborhood, $x-V$ meets
+$A$, so $x\in A+V$. Conversely if $x\notin\overline A$, choose a
+zero neighborhood $W$ with $(x+W)\cap A=\varnothing$. For $V=-W$,
+$x\notin A+V$. This proves the displayed equality, with no assumption
+that $A$ is convex or closed.
+
+#### Solution IV.1.16 — Quotient topologies and seminorms
+
+The quotient map is open because $Q^{-1}(Q(U))=U+M$ is a union of
+translates of $U$. Addition and scalar multiplication on the quotient are
+continuous by lifting representatives and using this openness. Since $M$
+is closed, the zero coset is closed and IV.1.3 gives Hausdorffness.
+The infimum defining $\bar p$ is independent of representative; scaling
+and adding approximate minimizing representatives prove homogeneity and
+subadditivity. Thus it is a seminorm, possibly with nontrivial kernel.
+For local convexity, images under $Q$ of convex balanced open neighborhoods
+are convex balanced open neighborhoods in the quotient and form a basis.
+Their Minkowski functionals generate the quotient topology. Equivalently
+use $\bar p$ for all continuous seminorms $p$ of $X$, since
+$Q\{p<\varepsilon\}=\{\bar p<\varepsilon\}$.
+
+#### Solution IV.1.17 — Products
+
+A map into a product is continuous exactly when its coordinate maps are
+continuous; applying this criterion to the vector operations proves the TVS
+assertion. For locally convex factors the seminorms $p\circ\pi_i$, with
+$p$ continuous on $X_i$, generate the product topology and separate points.
+Conversely each factor is homeomorphic to its coordinate subspace (put zero
+in all other coordinates), and a subspace of a locally convex space inherits
+a topology generated by the restricted seminorms. Hence every factor is LCS.
+
+#### Solution IV.1.18 — Uniqueness in finite dimension
+
+Choose a basis and let $T:\mathbb F^n\to X$ be the associated linear
+bijection. It is continuous by the vector operations. The image of the
+Euclidean unit sphere is compact and omits zero; Hausdorffness gives a
+zero neighborhood disjoint from it. Choose a balanced neighborhood $V$
+inside that neighborhood. If $Tz\in V$ and $\|z\|\geq1$, balancedness
+would put $T(z/\|z\|)$ in $V$, a contradiction. Thus
+$T^{-1}(V)\subset B(0,1)$. Scaling proves continuity of $T^{-1}$ at
+zero, hence everywhere. Every Hausdorff vector topology is therefore the
+Euclidean topology transported by $T$. The Hausdorff assumption cannot
+be dropped: the indiscrete topology would be a counterexample.
+
+#### Solution IV.1.19 — Finite-dimensional subspaces are closed
+
+Let $M$ have finite dimension and choose a norm on it. Its unit sphere is
+compact in $X$ by IV.1.18. As in that proof, choose an open balanced zero
+neighborhood $V$ whose intersection with $M$ lies in its unit ball.
+If $x\in\overline M$, choose $m_0\in M$ with $x\in m_0+V$.
+Then $x$ is in the closure of $M\cap(m_0+V)$, which lies in the compact,
+hence closed, set $m_0+\overline B_M(0,1)$. Therefore $x\in M$.
+For closed $Y$, the quotient $X/Y$ is Hausdorff and $Q(M)$ is finite
+dimensional, hence closed. Its preimage $Y+M$ is consequently closed.
+
+#### Solution IV.1.20 — The finest locally convex topology: corrections
+
+(a) The topology described is the topology generated by all seminorms on
+the algebraic space $X$. Indeed every seminorm is continuous on every
+finite-dimensional subspace. Conversely, a convex balanced set $U$ whose
+finite-dimensional sections are open is absorbing and equals $\{p_U<1\}$
+for its Minkowski seminorm: openness along the line through each point
+of $U$ gives strict inequality. These seminorms separate points by algebraic
+coordinate functionals, so the resulting topology is Hausdorff LCS.
+
+**The assertions (b), (c), and (d), with an arbitrary TVS as target, are
+false in the stated generality.** Here are explicit counterexamples. Take
+the real vector space with basis $\{e_t:t\in\mathbb R\}$ and put
+$$F=\{|s-t|(e_s+e_t):s,t\in\mathbb R,\ s\ne t\}.$$
+Any finite-dimensional subspace is contained in the span of finitely many
+basis vectors. Its intersection with $F$ is therefore finite, hence closed.
+But $0\in\overline F$ in the topology of (a), although $0\notin F$.
+To prove this, combine finitely many seminorm constraints into one seminorm
+$p$. Among the sets $\{t:p(e_t)\leq n\}$, $n\in\mathbb N$, some set
+is uncountable. Its intersection with some bounded interval is infinite,
+so it contains distinct points arbitrarily close together. For these points,
+$p(|s-t|(e_s+e_t))\leq2n|s-t|$ can be arbitrarily small. This disproves
+(b). For (c), take the identity into the topology whose open sets are exactly
+those with open finite-dimensional sections. Its restrictions are continuous,
+but the preimage of the open set $X\setminus F$ is not open in (a).
+
+For (d), give the same algebraic space the TVS metric
+$d(x,y)=\sum_t|x_t-y_t|^r$, $0<r<1$ (all vectors have finite support),
+and use the identity map as $T$. If it were continuous, some seminorm ball
+$\{p<1\}$ would lie in $\{d(x,0)<1\}$. There are infinitely many indices
+with $p(e_t)\leq N$ for a common $N\geq1$. For distinct such indices,
+$$x_k=\frac1{2Nk}\sum_{j=1}^ke_{t_j}$$
+has $p(x_k)\leq1/2$ but $d(x_k,0)=(2N)^{-r}k^{1-r}\to\infty$.
+Thus (d) fails. It does hold when the target is locally convex: every
+continuous seminorm on the target pulls back to a seminorm on $X$.
+
+For completeness, (b) and (c) become true with a countable Hamel basis.
+If $W$ has open finite-dimensional sections and $0\in W$, write
+$X_n=\operatorname{span}(e_1,\ldots,e_n)$. Inductively choose $a_n>0$
+so the compact boxes $C_n=\{\sum_{j\leq n}t_je_j:|t_j|\leq a_j\}$
+lie in $W$: a compact box already chosen has a sufficiently thin cylinder
+inside the open set $W\cap X_{n+1}$. The union of their open-coordinate
+boxes is a convex balanced neighborhood in (a) contained in $W$. Applying
+the construction after translation at each point proves equality with the
+finite-section topology, giving (b) and (c). It also gives (d), since
+restrictions of linear maps into any TVS are continuous in finite dimension.
+See the countable-dimensional formulation in
+[Infusino's lecture notes, §4.5](https://www.math.uni-konstanz.de/~infusino/TVS-SS17/Lect12.pdf).
+
+#### Solution IV.1.21 — Completeness of the strict topology
+
+Each $p_\phi$ is a seminorm since multiplication by $\phi$ is linear and
+the supremum norm is a norm. Compactly supported cutoffs nonzero at a chosen
+point show that these seminorms separate functions. Let $(f_i)$ be a Cauchy
+net. A cutoff equal to 1 on a compact set shows it is uniformly Cauchy there;
+the compatible compact limits define a continuous $f$ on $X$, by local
+compactness. For each $\phi$, the net $\phi f_i$ is supremum-norm Cauchy
+in $C_0(X)$, so has limit $\phi f$, and this product belongs to $C_0(X)$.
+We must still prove $f$ bounded. If not, choose points $x_n$ with
+$|f(x_n)|\geq n^3$ and cutoffs $0\leq u_n\leq1$ in $C_c(X)$ with
+$u_n(x_n)=1$. The uniformly convergent sum
+$\phi=\sum_n n^{-2}u_n$ belongs to $C_0(X)$, but
+$|\phi(x_n)f(x_n)|\geq n$, contradicting boundedness of $\phi f$.
+Thus $f\in C_b(X)$ and the already established product limits say exactly
+$f_i\to f$ in the strict topology.
+
+#### Solution IV.1.22 — A nonlocally convex sequence space
+
+The scalar inequality $(a+b)^p\leq a^p+b^p$ for $0<p<1$ proves the
+metric triangle inequality and closure under addition. Translation invariance
+gives continuity of addition. The bound
+$d(\alpha_nx_n,\alpha x)\leq|\alpha_n|^pd(x_n,x)+
+|\alpha_n-\alpha|^pd(x,0)$ proves joint scalar continuity.
+If there were a convex zero neighborhood $V$ contained in the unit metric
+ball, it would contain some ball of radius $\delta$. Choose $a>0$ with
+$a^p<\delta$. All $ae_j$ belong to $V$, so their average
+$aN^{-1}\sum_{j=1}^Ne_j$ belongs to $V$. Its distance to zero is
+$a^pN^{1-p}$, eventually greater than 1, a contradiction.
+
+#### Solution IV.1.23 — Testing a linear map by seminorms
+
+If $T$ is continuous, composition preserves continuity and linearity of
+$T$ gives the seminorm axioms for $p\circ T$. Conversely, inverse images
+under $T$ of the basic zero neighborhoods
+$\bigcap_{j=1}^n\{y:p_j(y)<\varepsilon_j\}$ are open by the assumed
+continuity of each $p_j\circ T$. Thus $T$ is continuous at zero;
+linearity and translations give continuity everywhere.
+
+#### Solution IV.1.24 — Connecting points in an open set
+
+Fix $a\in G$ and let $H$ be the points reachable from $a$ by a finite
+polygonal path lying in $G$. Every point of $G$ has a convex open
+neighborhood contained in $G$. Such a neighborhood is entirely in $H$
+if it meets $H$, since its straight segments join its points. Thus $H$
+and $G\setminus H$ are open in $G$. Connectedness and $a\in H$ imply
+$H=G$. This gives path connectivity. If “arc” requires an injective path,
+the polygonal path lies in a finite-dimensional affine space; subdividing
+its finitely many segments at their intersections and deleting loops gives
+an arc between distinct endpoints.
+
+### §2. Metrizable and Normable Spaces
+
+#### Solution IV.2.1 — A metric from countably many seminorms
+
+Use $h(t)=t/(1+t)$ and $d(x,y)=\sum_n2^{-n}h(p_n(x-y))$.
+The monotonicity and subadditivity proved in IV.1.13, together with the
+seminorm inequalities, prove the triangle inequality. Symmetry is immediate,
+and the separating assumption gives definiteness. To compare topologies,
+small $d(x,0)$ forces each of any prescribed finite number of seminorms
+to be small, since its summand is bounded by $d$. Conversely choose $N$
+with $\sum_{n>N}2^{-n}<\varepsilon/2$ and restrict the first $N$
+seminorms sufficiently to make their sum below $\varepsilon/2$.
+These are neighborhood inclusions, valid for nets as well as sequences.
+If the original topology is metrizable, for each metric ball $B(0,1/n)$
+choose a finite seminorm neighborhood inside it and combine its scaled
+seminorms into $q_n$. The original topology makes all $q_n$ continuous,
+and $\{q_n<1\}\subset B(0,1/n)$ gives the reverse neighborhood inclusion.
+Thus the countable family generates exactly the original topology.
+
+#### Solution IV.2.2 — Metrizability of the compact-open topology
+
+If compact sets $K_n$ are cofinal among all compact subsets, their seminorms
+generate the compact-open topology, so IV.2.1 gives a metric. Conversely
+choose a countable neighborhood basis and for each element choose a finite
+compact-seminorm neighborhood inside it. By finite unions and cumulative
+unions, obtain increasing compact sets $K_n$ whose seminorms generate the
+topology. For any compact $K$, continuity of $p_K$ implies
+$p_K\leq C p_{K_n}$ for some $n,C$, by scaling the corresponding
+neighborhood inclusion. If $x\in K\setminus K_n$, complete regularity
+separates $x$ from the closed set $K_n$: there is a continuous $f$ zero
+on $K_n$ and equal to 1 at $x$. This contradicts the inequality.
+Thus $K\subseteq K_n$. Taking singleton sets also gives $X=\bigcup K_n$.
+
+#### Solution IV.2.3 — Locally compact and holomorphic examples
+
+For a sigma-compact locally compact Hausdorff space, cover each compact
+piece by finitely many relatively compact open sets. Cumulative finite
+unions of their closures yield compact $K_n$ with
+$K_n\subseteq\operatorname{int}K_{n+1}$ and interiors covering $X$.
+Every compact subset is covered by finitely many of these interiors and
+therefore lies in one $K_n$. IV.2.2 applies. Its converse immediately gives
+sigma-compactness. An open subset $G\subset\mathbb C$ has a compact
+exhaustion, for example sets with $|z|\leq n$ and
+$\operatorname{dist}(z,\mathbb C\setminus G)\geq1/n$, omitting the
+distance condition if $G=\mathbb C$. Thus $C(G)$ and its subspace $H(G)$
+are metrizable; IV.1.7 also proves completeness of the latter.
+
+#### Solution IV.2.4 — Properties of bounded sets
+
+For these arguments one may use balanced zero neighborhoods: if
+$\varepsilon B\subset V$ with $V$ balanced, the inclusion also holds
+for every scalar of modulus at most $\varepsilon$.
+(a) Given $U$, choose $V$ with $\overline V\subset U$ by regularity.
+Then $\varepsilon B\subset V$ implies $\varepsilon\overline B\subset U$.
+(b) For finitely many bounded sets take the minimum of their admissible
+positive scalars for a common balanced neighborhood.
+(c) For compact $K$, continuity of scalar multiplication at each $(0,x)$
+gives a scalar neighborhood and a neighborhood of $x$ whose products lie
+in a prescribed $U$. A finite cover of $K$ and the minimum scalar radius
+give a uniform absorption bound.
+(d) Boundedness absorbs all $x_n$ uniformly once $|\alpha_n|$ is small.
+If boundedness fails, choose a balanced $U$ such that for every $n$ some
+$x_n\in B$ has $x_n/n\notin U$. Taking $\alpha_n=1/n$ contradicts
+the sequential condition. This argument does not assume first countability.
+(e) Apply boundedness to the inverse image under $T$ of a zero neighborhood.
+(f) Apply it to $\{p<1\}$ for necessity. For sufficiency finitely many
+finite seminorm bounds provide a common scaling into any basic neighborhood.
+(g) This is (f) for the one defining norm.
+(h) Choose a balanced $V$ inside a metric ball of radius 1. Boundedness
+gives $B\subset nV$ for some positive integer $n$. Since $nv$ is a sum
+of $n$ copies of $v$, translation invariance and the triangle inequality
+give $d(nv,0)<n$, so the diameter of $B$ is at most $2n$.
+The converse fails for the metric $d(x,y)=\min(1,|x-y|)$ on $\mathbb R$:
+the whole line has finite diameter and is not topologically bounded. This
+metric is complete, invariant, and induces the usual vector topology.
+(i) The singleton $\{x_0\}$ is bounded by (c); given $U$, take $V$ with
+$V+V\subset U$ and scale both $B$ and $\{x_0\}$ into $V$.
+
+#### Solution IV.2.5 — First countability and a singleton $G_\delta$
+
+Metrizability implies first countability. Conversely replace each member of
+a countable zero-neighborhood basis by a finite seminorm neighborhood inside
+it; the resulting countable collection of seminorms generates the topology,
+so IV.2.1 applies. A singleton $G_\delta$ is weaker. In the weak topology
+of $\ell^2$, the countably many conditions $|x(j)|<1/n$, $j,n\geq1$,
+have intersection $\{0\}$. But that weak topology is not metrizable.
+Indeed a countable weak neighborhood basis would involve countably many
+functionals $f_j$, and continuity of any $f\in(\ell^2)^*$ would force
+$|f|\leq C\max_{j\in F}|f_j|$ for a finite $F$. Then $f$ vanishes on
+their common kernel and hence belongs to their finite linear span, by
+factoring through the map $x\mapsto(f_j(x))_{j\in F}$. This would make
+the infinite-dimensional Banach dual countably Hamel-dimensional, impossible
+by Baire: it would be a countable union of closed finite-dimensional subspaces
+with empty interior.
+
+#### Solution IV.2.6 — Strictly bounded sets
+
+Norm boundedness implies boundedness of every $p_\phi$, hence strict
+boundedness. Conversely for each $f\in B$ let $M_f:C_0(X)\to C_0(X)$
+be multiplication by $f$. Strict boundedness says
+$\sup_{f\in B}\|M_f\phi\|_\infty<\infty$ for each $\phi\in C_0(X)$.
+Uniform boundedness on the Banach space $C_0(X)$ gives
+$\sup_{f\in B}\|M_f\|<\infty$. The norm is exactly $\|f\|_\infty$:
+the upper bound is direct, and a cutoff of norm 1 equal to 1 at a point
+where $|f|$ nearly reaches its supremum proves the reverse. Thus $B$ is
+norm bounded.
+
+#### Solution IV.2.7 — Metrizability of the strict topology
+
+If $X$ is compact, $\phi=1$ is allowed and the strict topology equals the
+supremum-norm topology. Conversely suppose it has a countable nested
+zero-neighborhood basis $U_n$. If no $U_n$ were norm bounded, choose
+$f_n\in U_n$ with $\|f_n\|_\infty>n$. Then $f_n\to0$ strictly,
+so its terms form a topologically bounded set (a convergent sequence and
+its limit are compact). IV.2.6 contradicts their unbounded norms.
+Thus some strict neighborhood is norm bounded. It contains a neighborhood
+defined by finitely many $p_{\phi_j}$, which is in turn controlled by
+$p_w$ with $w=\sum_j|\phi_j|\in C_0(X)$. Scaling gives
+$\|f\|_\infty\leq C\|wf\|_\infty$ for all $f\in C_b(X)$.
+At any $x$, take norm-1 cutoffs equal to 1 at $x$ and supported where
+$w<w(x)+\varepsilon$. This gives $1\leq C(w(x)+\varepsilon)$.
+Letting $\varepsilon\to0$ proves $w\geq1/C$ everywhere. Since $w$
+vanishes at infinity, $X$ is compact.
+
+#### Solution IV.2.8 — The open mapping theorem for Fréchet spaces
+
+Let $A:X\to Y$ be a continuous linear surjection between complete
+metrizable TVS with invariant metrics. For any zero neighborhood $U$,
+choose $V$ with $V-V\subset U$. Since $X=\bigcup_{n\geq1}nV$,
+$Y=\bigcup_n A(nV)$. Baire implies $\overline{A(V)}$ has nonempty
+interior after rescaling. Subtracting two points in an interior neighborhood
+shows that $\overline{A(U)}$ contains a zero neighborhood.
+
+We remove the closure using completeness. Given an open zero neighborhood
+$U$, choose $\delta>0$ with $B_X(0,\delta)\subset U$, and zero
+neighborhoods $W_n\subset B_X(0,\delta2^{-n-1})$. By the preceding
+argument choose open zero neighborhoods
+$V_n\subseteq\overline{A(W_n)}\cap B_Y(0,2^{-n})$.
+Starting at $y\in V_1$, choose $x_1\in W_1$ with $y-Ax_1\in V_2$.
+Inductively, if the residual is in $V_n\subset\overline{A(W_n)}$,
+choose $x_n\in W_n$ making the next residual lie in $V_{n+1}$.
+The series $\sum x_n$ is Cauchy by the invariant metric triangle inequality
+and converges by completeness to $x$ with $d_X(x,0)\leq\delta/2$.
+Continuity of $A$ and the residual bound give $Ax=y$.
+Thus $V_1\subset A(U)$; translation shows $A$ is open. This proof uses
+neither norms nor local convexity, in agreement with the book's definition.
+
+### §3. Geometric Hahn–Banach Consequences
+
+#### Solution IV.3.1 — Continuity criteria for functionals
+
+Linearity and translations identify continuity anywhere with continuity at
+zero. A continuous functional has closed kernel. Conversely if a nonzero
+$f$ has closed kernel, the quotient by that kernel is a one-dimensional
+Hausdorff TVS, hence has its usual topology by IV.1.18. The induced
+bijection to $\mathbb F$ is continuous, so $f$ is continuous. The zero
+functional satisfies all criteria directly. The function $|f|$ is a seminorm;
+continuity of $f$ implies its continuity, and continuity of $|f|$ at zero
+is exactly what is needed for continuity of $f$. In an LCS, a basic
+neighborhood inside $\{|f|<1\}$ gives
+$|f(x)|\leq\sum_j\varepsilon_j^{-1}p_j(x)$ by scaling, including vectors
+on which this sum vanishes by arbitrarily large scaling. This is (f), whose
+converse follows by domination by a continuous seminorm.
+
+#### Solution IV.3.2 — The gauge of a sublinear sublevel set
+
+By definition $q(x)=\inf\{t>0:x\in tG\}$.
+Positive homogeneity gives $x\in tG$ iff $p(x)<t$.
+The infimum of the positive numbers strictly greater than $p(x)$ is
+$\max(p(x),0)$, as claimed. This computation is algebraic; no assertion
+that $p$ itself is nonnegative is needed.
+
+#### Solution IV.3.3 — Affine hyperplanes
+
+An affine hyperplane is by definition a translate $x_0+N$ of a linear
+subspace of codimension one, giving (a)$\Leftrightarrow$(b).
+For such $N$, choose $u\notin N$ and write uniquely $x=n+tu$; the
+functional $f(n+tu)=t$ is nonzero with kernel $N$. The translate is
+$\{x:f(x)=f(x_0)\}$, giving (c). Conversely a nonzero functional is
+onto the scalar field, and any nonempty level set is a translate of its
+codimension-one kernel. No continuity is claimed in this algebraic statement.
+
+#### Solution IV.3.4 — Paths and real half-spaces
+
+(a) Every zero neighborhood contains a balanced open neighborhood. Its
+translate about $x$ is star-shaped about $x$, since multiplying by
+$t\in[0,1]$ stays inside. Therefore the polygonally reachable set from
+a point of $G$ and its complement are open in $G$, just as in IV.1.24,
+using paths through the center of a star-shaped neighborhood. Connectedness
+forces reachability of every point. Removing loops in the finite-dimensional
+span of a polygonal path gives an arc if required.
+(b) The sets $f>0$ and $f<0$ are nonempty open convex sets, hence connected,
+and form a disjoint partition of the complement of the kernel. No connected
+subset can meet both, since its continuous image in $\mathbb R$ would
+then contain zero. They are exactly its two components.
+
+#### Solution IV.3.5 — A complex hyperplane has connected complement
+
+Choose $u$ with $f(u)=1$. The maps
+$x\mapsto(x-f(x)u,f(x))$ and $(v,z)\mapsto v+zu$ are inverse
+homeomorphisms between $X$ and $\ker f\times\mathbb C$.
+They identify the complement with $\ker f\times(\mathbb C\setminus\{0\})$.
+The first factor is path connected by segments, and the second by radial
+segments and circular arcs. Their product is path connected, hence connected.
+
+#### Solution IV.3.6 — Closures and descriptions of half-spaces
+
+For a nonzero continuous real functional $f$, choose $u$ with $f(u)=1$.
+Every point with $f(x)=\alpha$ is approached from either side by $x\pm tu$.
+Together with continuity this proves
+$\overline{\{f>\alpha\}}=\{f\geq\alpha\}$ and
+$\operatorname{int}\{f\geq\alpha\}=\{f>\alpha\}$, proving (a).
+Nonzero is the usual proper-half-space convention; with $f=0$, degenerate
+level choices invalidate the literal assertion.
+For (b), the displayed inequalities directly place the sets in opposite
+half-spaces. Conversely, disjoint nonempty open half-spaces must have
+proportional defining functionals with opposite orientations. Indeed if
+$g$ did not vanish on $\ker f$, translating a point along that kernel
+would keep it in one half-space and eventually put it in the other.
+Thus $g=cf$, and disjointness forces the opposite orientation. The two
+thresholds can then be separated by a real number $\alpha$, yielding the
+strict inequalities. For closed half-spaces intersecting in a hyperplane,
+the same reasoning gives one common boundary level and the non-strict
+inequalities. This proves the stated equivalences for proper half-spaces.
+
+#### Solution IV.3.7 — Images of open convex sets
+
+The missing assumption is $f\ne0$ (and $A\ne\varnothing$ if an interval
+is required to be nonempty). For $f=0$ and nonempty $A$, the image is
+$\{0\}$ and is not open. For nonzero $f$, choose $u$ with $f(u)=1$.
+If $x\in A$, openness and continuity of $t\mapsto x+tu$ give
+$x+tu\in A$ for all sufficiently small real $t$. Hence $f(A)$ contains
+a neighborhood of $f(x)$. It is open and convex, since linear maps preserve
+convexity. A nonempty open convex subset of $\mathbb R$ is an open interval,
+allowing infinite endpoints and the whole line.
+
+#### Solution IV.3.8 — Closed spans as intersections of kernels
+
+Let $M=\overline{\operatorname{span}}A$. Every closed linear hyperplane
+containing $A$ contains $M$. If $x\notin M$, the quotient $X/M$ is
+a Hausdorff LCS. A separating continuous functional on it is nonzero at
+$Qx$; for example choose a continuous seminorm nonzero there and apply
+Hahn–Banach on its one-dimensional span. Pulling it back gives $f$ with
+$f(M)=0$ and $f(x)\ne0$. Thus its closed kernel contains $A$ but omits
+$x$, proving equality. If $M=X$, the family of such hyperplanes is empty,
+whose intersection is understood as $X$.
+
+#### Solution IV.3.9 — Complex strict separation
+
+Regard the complex LCS as real. The real separation theorem gives a
+continuous real-linear $u$ with $\sup_Au<\inf_Bu$ when one closed set is
+compact: the strict separation places $B$ above a threshold, and compactness
+makes its minimum stay strictly above that threshold. Define
+$f(x)=u(x)-iu(ix)$. It is continuous and complex-linear by III.6.1,
+and $\operatorname{Re}f=u$. Choose $\alpha$ between $\sup_Au$ and
+$\inf_Bu$, and a positive $\varepsilon$ with
+$\alpha+\varepsilon\leq\inf_Bu$. These are precisely the required
+inequalities. Nonempty sets are understood; empty cases are vacuous.
+
+#### Solution IV.3.10 — Complex open-set separation
+
+If $A,B$ are disjoint nonempty convex sets in a complex TVS and $A$ is
+open, there is a continuous complex-linear $f$ and a real $\alpha$ with
+$\operatorname{Re}f(a)<\alpha\leq\operatorname{Re}f(b)$.
+If $B$ is open too, the second inequality can be strict for every $b$.
+Apply real Theorem 3.7 to the underlying real TVS and replace its functional
+$u$ by $f(x)=u(x)-iu(ix)$ as above. Its real part is unchanged, proving
+the assertion without imposing an order on complex numbers.
+
+#### Solution IV.3.11 — Complex closed convex hulls
+
+For a complex LCS the closed convex hull of $A$ is the intersection of
+all sets $\{x:\operatorname{Re}f(x)\leq\alpha\}$ containing $A$,
+where $f$ is continuous and complex-linear and $\alpha$ real. Such sets
+are closed and convex, giving one inclusion. For a point outside the closed
+convex hull, separate that point strictly from it in the underlying real
+space. Complexifying the functional as in IV.3.9 gives one of the displayed
+half-spaces omitting the point, proving the reverse inclusion.
+
+#### Solution IV.3.12 — Complex closed linear spans
+
+The closed complex linear span of $A$ is the intersection of all kernels
+of nonzero continuous complex-linear functionals vanishing on $A$.
+The proof of IV.3.8 works over $\mathbb C$ using complex Hahn–Banach
+on the quotient. In particular the separating functional vanishes on the
+entire complex subspace, not merely its real part. The empty-intersection
+convention again covers a dense span.
+
+#### Solution IV.3.13 — Completeness below exponent one
+
+From a metric-Cauchy sequence choose a subsequence $f_{n_k}$ with
+$\sum_k\int|f_{n_{k+1}}-f_{n_k}|^p<\infty$.
+Tonelli gives $\sum_k|f_{n_{k+1}}(t)-f_{n_k}(t)|^p<\infty$ almost
+everywhere. A scalar sequence whose $p$th powers are summable is absolutely
+summable: eventually its terms have modulus at most 1, where $|a|\leq|a|^p$.
+Thus the telescoping series defines a finite measurable limit $f$ almost
+everywhere. Subadditivity gives
+$$\int|f-f_{n_k}|^p\leq\sum_{j\geq k}
+\int|f_{n_{j+1}}-f_{n_j}|^p\longrightarrow0.$$
+It also gives $f\in L^p$ using one subsequence term. A convergent
+subsequence of a Cauchy sequence brings the entire sequence to the same
+limit, proving completeness.
+
+#### Solution IV.3.14 — Failure of extension without local convexity
+
+Take $X=L^p(0,1)$, $0<p<1$, and $Y=\mathbb R1$.
+The functional $f(c1)=c$ is continuous on this one-dimensional subspace.
+But every continuous linear functional on $X$ is zero, as follows from
+the source's fact that every nonempty open convex subset of $X$ is all
+of $X$: the inverse image of $(-1,1)$ under such a functional must be
+all of $X$, and scaling then forces the functional to vanish. Therefore
+$f$ cannot have a continuous extension.
+
+#### Solution IV.3.15 — Prescribed signs need not extend
+
+Let $X=\mathbb R^3$, $Y=\{(x,y,0)\}$, and $f_0(x,y,0)=x$.
+Let $A$ be the segment from $(-1,0,0)$ to $(1,0,1)$ and $B$ the
+segment from $(1,1,0)$ to $(0,0,1)$. They are compact, convex, and
+disjoint: $A$ has second coordinate zero, whereas the only such point of
+$B$ is $(0,0,1)$, which is not on $A$. Their intersections with $Y$
+are their respective initial endpoints, where $f_0$ has the required signs.
+Every linear extension has the form $f(x,y,z)=x+cz$. The sign at
+$(1,0,1)\in A$ requires $c<-1$, while the sign at $(0,0,1)\in B$
+requires $c>0$. These requirements are incompatible.
+
+### §4. Dual Spaces
+
+#### Solution IV.4.1 — The dual of a product
+
+Continuity gives a basic product neighborhood $U$, restricting only finitely
+many coordinates $F$, on which $|L|<1$. If $x(j)=0$ for $j\in F$,
+every scalar multiple of $x$ lies in $U$, so linearity forces $L(x)=0$.
+For each $j\in F$ restrict $L$ to the continuous coordinate insertion to
+get $x_j^*\in X_j^*$. Subtracting the vector with the same coordinates
+on $F$ proves $L(x)=\sum_{j\in F}x_j^*(x(j))$ for all $x$.
+Conversely every such finite sum is continuous by continuity of projections
+and of the individual functionals. Infinite sums are not required or allowed
+by this continuity argument.
+
+#### Solution IV.4.2 — The sequence space as continuous functions
+
+Give $\mathbb N$ the discrete topology. Every scalar function on it is
+continuous, and its compact subsets are exactly the finite subsets. Thus
+the compact-open topology of $C(\mathbb N)$ is coordinatewise convergence,
+which is the metric topology of $s$ by IV.1.13. The identity on sequences
+is a linear homeomorphism. By IV.4.1 its continuous dual consists exactly
+of the finite sums $L(x)=\sum_{j\in F}a_jx(j)$.
+
+#### Solution IV.4.3 — Uniqueness of the exterior holomorphic representative
+
+An exterior holomorphic function vanishing at infinity has a Laurent
+expansion $g(z)=\sum_{n\geq0}b_nz^{-n-1}$, obtained by the Taylor
+expansion at zero of $g(1/w)$. Applying the contour formula to $f(z)=z^n$
+and integrating the uniformly convergent series on an admissible circle
+gives $b_n=L(z^n)$. Thus all its coefficients are determined by $L$.
+Two representatives agree on the exterior of a disk containing both excluded
+disks, and the identity theorem gives equality throughout their common
+domain. If different radii are chosen, uniqueness means this equality of
+the resulting analytic germs near infinity; the arbitrary radius itself
+need not be unique.
+
+#### Solution IV.4.4 — Taylor-coefficient description
+
+If $L$ is continuous, finitely many compact seminorms controlling it can
+be enclosed in a disk of radius $r<1$. Scaling gives
+$|L(f)|\leq C\sup_{|z|\leq r}|f(z)|$. Set $b_n=L(z^n)$; then
+$|b_n|\leq Cr^n$, so $\limsup|b_n|^{1/n}\leq r<1$.
+Taylor partial sums converge locally uniformly to $f$, hence continuity
+gives $L(f)=\sum_n f^{(n)}(0)b_n/n!$.
+Conversely choose $s<r<1$ and $C$ with $|b_n|\leq Cs^n$ for all $n$,
+which is possible from the strict limsup bound after absorbing finitely many
+terms into $C$. Cauchy's coefficient estimate on $|z|=r$ gives
+$|f^{(n)}(0)/n!|\leq p_r(f)r^{-n}$. Thus the proposed series is absolutely
+convergent and
+$|L(f)|\leq C p_r(f)\sum_n(s/r)^n$, proving continuity and linearity.
+The Cauchy estimates and locally uniform Taylor expansion are proved in the
+complex-analysis supplement.
+
+#### Solution IV.4.5 — Laurent-coefficient description on an annulus
+
+For $G=\{r<|z|<R\}$ with $0<r<R<\infty$, write
+$f(z)=\sum_{n\in\mathbb Z}a_nz^n$. The dual consists exactly of
+$$L(f)=\sum_{n\in\mathbb Z}a_nb_n,$$
+where, for some $r<s<t<R$ and $C<\infty$,
+$|b_n|\leq Ct^n$ for $n\geq0$ and $|b_{-m}|\leq Cs^{-m}$ for
+$m\geq1$. Equivalently the two upper root limits are strictly below $R$
+and $1/r$, respectively.
+For necessity, continuity bounds $L$ by the supremum on a compact subannulus
+$s\leq|z|\leq t$; testing on $z^n$ gives the bounds, and continuity on
+Laurent partial sums gives the formula. For sufficiency choose
+$r<s'<s<t<t'<R$. Cauchy's coefficient integrals yield
+$|a_n|\leq p_{t'}(f)(t')^{-n}$ and
+$|a_{-m}|\leq p_{s'}(f)(s')^m$. The two resulting geometric series
+prove absolute convergence and a bound by $p_{s'}(f)+p_{t'}(f)$.
+For a punctured disk or an exterior annulus use the same existence of
+interior radii $s,t$ rather than the root-limit wording involving endpoints.
+
+#### Solution IV.4.6 — The dual of the strict topology
+
+(a) Inner regularity of the finite measure $|\mu|$ gives compact sets
+leaving mass less than $\varepsilon_n$. Enlarge the $n$th such set together
+with the preceding compact set to a compact neighborhood, using finitely
+many relatively compact open neighborhoods. Inductively this gives
+$K_n\subset\operatorname{int}K_{n+1}$ and the required mass estimates.
+
+(b) Choose these sets with $|\mu|(X\setminus K_n)<2^{-3n}$ and
+cutoffs $u_n\in C_c(X)$, $0\leq u_n\leq1$, equal to 1 on $K_n$.
+Then $\phi_0=\sum_{n\geq1}2^{-n}u_n\in C_0(X)$ by uniform
+convergence. The union of the $K_n$ has full measure, and $\phi_0>0$
+there. On $K_1$, $1/\phi_0\leq2$; on $K_n\setminus K_{n-1}$,
+$1/\phi_0\leq2^n$. Hence
+$$A=\int\phi_0^{-1}\,d|\mu|
+\leq2\|\mu\|+\sum_{n\geq2}2^n2^{-3(n-1)}<\infty.$$
+Set $\phi=\max(1,A)\phi_0$ to make the integral at most 1. Values of
+the reciprocal on the null zero set are irrelevant. If $\mu=0$, take
+$\phi=0$ and use this same almost-everywhere convention.
+
+(c) The estimate
+$|\int f\,d\mu|\leq\|\phi f\|_\infty\int\phi^{-1}\,d|\mu|
+\leq p_\phi(f)$ proves strict continuity.
+(d) A strictly continuous $L$ obeys a bound by a finite sum of the
+$p_{\phi_j}$. Since $p_{\phi_j}\leq\|\phi_j\|_\infty\|\cdot\|_\infty$,
+its restriction to $C_0(X)$ is norm-continuous and is represented by a finite
+regular measure $\mu$ by Riesz. Also $C_0(X)$ is strictly dense in $C_b(X)$.
+Indeed, for any finite list of weights and $f\in C_b(X)$, choose a compact
+set outside which all weights are small and a compact cutoff $u=1$ on
+that set. Then every $p_{\phi_j}(f-uf)$ is small. Both $L$ and the
+integral functional from (c) are strictly continuous and agree on this dense
+subspace, so they agree on all $C_b(X)$. Uniqueness follows on $C_0(X)$.
+
+#### Solution IV.4.7 — Density tested on compact restrictions
+
+A basic neighborhood of $f$ asks for uniform approximation within specified
+tolerances on finitely many compact sets $K_j$. Their union $K$ is compact.
+Density of $\mathcal M|K$ supplies $g\in\mathcal M$ with
+$\sup_K|f-g|<\min_j\varepsilon_j$, placing $g$ in that neighborhood.
+Every basic neighborhood therefore meets $\mathcal M$, which is precisely
+density in $C(X)$ with the compact-open topology.
+
+### §5. Inductive Limits and Distributions
+
+#### Solution IV.5.1 — The test-function inductive system
+
+For compact $K\subset\Omega$, the seminorms
+$p_m(\phi)=\max_{|\alpha|\leq m}\sup_K|\partial^\alpha\phi|$
+are finite and separate points of $\mathcal D(K)$; they make it a
+Hausdorff LCS. Using an enumeration of individual derivative seminorms
+gives the same topology. Compact sets are directed by union. If
+$K\subset K'$, derivatives of a smooth function supported on $K$ vanish
+outside $K$, so the seminorms computed on $K'$ restrict to exactly those
+on $K$. Thus inclusions are continuous with the inherited topology.
+Every smooth compactly supported function belongs to the stage indexed by
+its support, and conversely every stage contains only such functions.
+These facts verify the required inductive-system conditions.
+
+#### Solution IV.5.2 — The inductive topology
+
+The empty set and whole space satisfy the open-set definition. Unions do
+so because a point belongs to one member of the union. For intersections
+of two such sets at a point, intersect their convex balanced basic sets;
+the intersection again has open sections in every stage. Thus the stated
+collection is a topology. Each nonempty basic set is absorbing: for $x$
+choose a stage containing it and use the zero neighborhood in that stage.
+It is also absorbing at every one of its points along every direction,
+by choosing a common stage for that point and direction. The gauge argument
+in Lemma 5.5 therefore writes it as $\{p<1\}$ for a seminorm and shows
+it is itself open. These gauges generate the defined topology; IV.1.2
+gives the vector operations and local convexity. Their common kernel might
+be nonzero, so Hausdorffness does not follow for an arbitrary system.
+Empty basic sets can be discarded and cause no change.
+
+#### Solution IV.5.3 — The universal seminorm properties
+
+(a) At a point $x\in X_i$ of an inductively open set, choose a translated
+basic set $x+V$ inside it. Its intersection with $X_i$ is
+$x+(V\cap X_i)$, open in the original stage topology. Thus each inclusion
+is continuous and the induced topology is no finer than that stage topology.
+(b) A convex balanced open zero neighborhood for $\mathcal U$ has open
+sections in every stage by the assumed inclusions of topologies. It is a
+basic set for the inductive topology. Translating these neighborhoods gives
+$\mathcal U\subseteq\mathcal T$.
+(c) A continuous seminorm restricts continuously by (a). Conversely, if all
+its restrictions are continuous, $\{p<1\}$ is convex balanced with open
+sections, hence inductively open; scaling its balls proves continuity of $p$.
+
+#### Solution IV.5.4 — The finite-dimensional system
+
+Finite-dimensional subspaces are directed by their sums, cover the algebraic
+space, and their inclusions are continuous for their unique Hausdorff vector
+topologies. This verifies the inductive system. Every seminorm on the full
+space restricts continuously to each stage, so IV.5.3 makes the inductive
+topology the finest locally convex topology described in IV.1.20(a).
+For a linear map $T$ into an LCS, every continuous target seminorm pulls
+back to a seminorm, hence is continuous in this topology. IV.1.23 then
+proves $T$ continuous. The locally convex qualification on the target in
+this example is essential, as IV.1.20(d) shows.
+
+#### Solution IV.5.5 — Two systems for compactly supported functions
+
+Functions supported on a fixed compact set form a normed linear space
+under the supremum norm, and inclusions for nested compact sets are isometric.
+Their union is exactly $C_c(X)$; compact unions direct the system.
+For relatively compact open $U$, extension by zero of $g\in C_0(U)$
+is continuous on $X$: at a boundary point each level set $\{|g|\geq
+\varepsilon\}$ is compact inside $U$, so a neighborhood of the boundary
+point avoids it. The extension has compact support in $\overline U$ and
+unchanged norm. Such open sets are directed by finite union.
+Every compact $K$ lies in a relatively compact open $U$, so its stage
+embeds isometrically in $C_0(U)$. Conversely $C_0(U)$ embeds isometrically
+in the stage supported on $\overline U$. These two continuous cofinal
+comparisons give equality of the two inductive locally convex topologies
+by Proposition 5.8, or directly by their continuous-seminorm criterion.
+
+#### Solution IV.5.6 — Exhausting Euclidean space by balls
+
+The compact balls $K_n$ increase and contain every compact subset of
+$\mathbb R^d$ in some stage. The spaces $\mathcal D(K_n)$ have the same
+restricted derivative seminorms as the full compact-indexed system.
+One system is included in the other, and every stage of the latter is
+continuously included in a stage of the former. The cofinal comparison of
+Proposition 5.8 gives equality of their inductive limit topologies.
+The source's reference to (5.9) at this point should be read as the
+comparison result (5.8).
+
+#### Solution IV.5.7 — Locally finite measures on a sigma-compact space
+
+The precise meaning of the measure description is locally finite regular
+signed or complex measures, or equivalently compatible such measures on
+relatively compact open subsets; total variation need not be finite on
+$X$. Only integrals against compactly supported functions are required.
+Choose relatively compact open $U_n$ with
+$\overline U_n\subset U_{n+1}$ and $\bigcup U_n=X$.
+By IV.5.5, a continuous $L$ restricts to a bounded functional on each
+$C_0(U_n)$ and is represented by a finite regular measure $\mu_n$ there.
+For $m>n$, their restrictions agree on $U_n$ by uniqueness in Riesz,
+since the integrals agree on $C_c(U_n)$. They thus define a compatible
+locally finite measure: one can construct it on the disjoint Borel shells
+$U_1,U_2\setminus U_1,\ldots$ from these restrictions. On any compact
+set this is a finite signed or complex measure and gives $L(f)=\int f\,d\mu$.
+Conversely any such measure has
+$|L(f)|\leq|\mu|(K)\|f\|_\infty$ on the stage supported on $K$,
+so the inductive universal property gives continuity. Uniqueness follows
+on every $U_n$. For signed measures with infinite positive and negative
+mass on $X$, a global value $\mu(X)$ is not defined as $\infty-\infty$;
+“extended-valued” must not be taken to require that invalid subtraction.
+
+#### Solution IV.5.8 — Comparing the two topologies on $C_c(X)$
+
+They can differ. On $X=\mathbb R$, choose $u\in C_c(0,1)$ with
+$\int u=1$, and set $u_n(t)=u(t-n)$. These functions tend to zero
+uniformly on every compact subset. But integration against Lebesgue measure
+is continuous in the inductive topology by its bound on each compact
+support stage, and $\int u_n=1$ for all $n$. They cannot converge to
+zero in that topology. In general the inductive topology is at least as
+fine as the compact-open topology because all compact seminorms restrict
+continuously to every stage. If $X$ is compact, both topologies coincide
+with the supremum-norm topology, so they are not always different.
+
+#### Solution IV.5.9 — Finite-dimensional or finite-codimensional complements
+
+If $Y$ has basis $y_1,\ldots,y_d$, its coordinate functionals are
+continuous by finite-dimensionality. The LCS Hahn–Banach extension theorem
+extends them to $f_j\in X^*$. Then
+$Px=\sum_jf_j(x)y_j$ is continuous, has range $Y$, and fixes $Y$, so
+$P^2=P$. Its closed kernel gives the topological complement: the inverse
+to the addition map is $x\mapsto(Px,(I-P)x)$, which is continuous.
+If $X/Y$ has finite dimension, it is Hausdorff because $Y$ is closed.
+Choose representatives $z_j$ of a quotient basis and let
+$S:X/Y\to X$ send that basis to $z_j$. A linear map from a finite-dimensional
+TVS is continuous by continuity of the vector operations. Thus $SQ$ is
+a continuous projection onto $Z=\operatorname{span}\{z_j\}$, and
+$I-SQ$ is a continuous projection onto $Y$. This proves the second case.
+
+#### Solution IV.5.10 — Locally integrable functions as distributions
+
+For fixed compact $K\subset\Omega$ and $\phi\in\mathcal D(K)$,
+$$|L_f(\phi)|\leq\left(\int_K|f|\right)p_0(\phi).$$
+The constant is finite by local integrability. Therefore the functional is
+continuous on every stage and, by the inductive limit property, continuous
+on $\mathcal D(\Omega)$. Linearity follows from the integral, so it is
+a distribution. This construction identifies functions equal almost everywhere.
+
+#### Solution IV.5.11 — Measures as distributions
+
+For a locally finite Radon measure, including a signed or complex one with
+locally finite total variation,
+$|\int\phi\,d\mu|\leq|\mu|(K)p_0(\phi)$ on $\mathcal D(K)$.
+The stagewise bounds prove continuity just as in IV.5.10. Local finiteness
+is the needed meaning of “measure” here; for an arbitrary measure the
+claim is false. For example a measure assigning infinite mass to the point
+0 makes the integral of a nonnegative test function equal to 1 near zero
+infinite, so it does not even define a scalar-valued functional.
+
+#### Solution IV.5.12 — Classical differentiation and integration by parts
+
+For $\phi\in\mathcal D(\Omega)$, the product $f\phi$ has compact
+support in $\Omega$. Extend it by zero to $\mathbb R^d$; it is $C^1$
+because it already vanishes near the boundary of $\Omega$. Fubini and
+the one-dimensional fundamental theorem applied along each coordinate line
+give $\int_{\mathbb R^d}\partial_j(f\phi)=0$.
+All integrands are integrable since they are continuous with compact
+support. Expanding the ordinary product rule gives
+$\int f\partial_j\phi=-\int(\partial_j f)\phi$, exactly the desired
+identity.
+
+#### Solution IV.5.13 — Differentiating distributions
+
+The map $D_j:\mathcal D(\Omega)\to\mathcal D(\Omega)$ preserves
+each compact-support stage and satisfies
+$p_m(D_j\phi)\leq p_{m+1}(\phi)$. Its restriction to every stage,
+viewed into the inductive limit, is continuous; the universal property
+therefore makes $D_j$ continuous on the full space. Consequently
+$\partial_jL=-L\circ D_j$ is a continuous linear functional, hence a
+distribution. Repeating this construction defines derivatives of every order.
+
+#### Solution IV.5.14 — The derivative of a step function
+
+For every test function on $\mathbb R$,
+$$L_f'(\phi)=-\int_0^\infty\phi'(t)\,dt=\phi(0)=\delta_0(\phi),$$
+because $\phi$ vanishes at sufficiently large $t$. The value of the step
+function at the single point zero does not affect its associated distribution.
+
+#### Solution IV.5.15 — Absolutely continuous functions
+
+Local absolute continuity suffices. Choose $[a,b]$ containing the support
+of $\phi$ in its interior. Absolute continuity gives an integrable derivative
+$f'$ there and $f(t)=f(a)+\int_a^tf'(s)\,ds$.
+Substitute this identity into $-\int_a^bf(t)\phi'(t)\,dt$.
+Fubini is justified by integrability of $f'$ and boundedness of $\phi'$;
+the constant term vanishes and the inner integral is
+$\int_s^b\phi'(t)\,dt=-\phi(s)$. The result is $\int_a^bf'(s)\phi(s)\,ds$.
+Thus $(L_f)'=L_{f'}$.
+
+#### Solution IV.5.16 — The Stieltjes derivative
+
+A finite-valued monotone function is bounded on compact intervals and hence
+locally integrable. Its left-continuous convention gives the locally finite
+positive Stieltjes measure with $\mu[a,t)=f(t)-f(a)$.
+For $[a,b]$ containing the test support in its interior, substitute
+$f(t)=f(a)+\int_{[a,t)}d\mu(s)$ into $-\int_a^bf(t)\phi'(t)\,dt$.
+The constant term vanishes. Fubini is valid because $\mu([a,b))<\infty$
+and $\phi'$ is bounded; the inner integral over $s<t<b$ is $-\phi(s)$.
+Hence the result is $\int_{[a,b)}\phi(s)\,d\mu(s)$, proving
+$(L_f)'=L_\mu$. Jumps contribute atoms with their jump sizes, consistently
+with the half-open interval convention.
+
+#### Solution IV.5.17 — Multiplying distributions and the product rule
+
+On a fixed compact-support stage, Leibniz's finite derivative formula gives
+$$p_m(f\phi)\leq C_{K,m}p_m(\phi),$$
+where $C_{K,m}$ is a finite sum of suprema on $K$ of derivatives of $f$
+through order $m$. Multiplication by $f$ is therefore continuous on each
+stage, preserves supports, and is continuous on the inductive limit. Thus
+$fL$, defined by $(fL)(\phi)=L(f\phi)$, is a distribution.
+For every test function,
+$$\begin{aligned}
+\partial_j(fL)(\phi)
+&=-L(f\partial_j\phi)\\
+&=-L(\partial_j(f\phi))+L((\partial_j f)\phi)\\
+&=(f\partial_jL)(\phi)+((\partial_j f)L)(\phi).
+\end{aligned}$$
+Consequently $\partial_j(fL)=f\partial_jL+(\partial_j f)L$.
+Iteration yields
+$\partial^\alpha(fL)=\sum_{\beta\leq\alpha}\binom\alpha\beta
+(\partial^\beta f)\partial^{\alpha-\beta}L$.
+<!-- END SOLUTIONS IV -->

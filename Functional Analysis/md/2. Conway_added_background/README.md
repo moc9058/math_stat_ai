@@ -23,7 +23,10 @@ Original results retain identifiers such as **1.1** or **VII.3.6**. Added
 results use **BG-I.1**, **BG-II.1**, and so forth, with a separate sequence in
 each chapter; appendices use **BG-A.1**, **BG-B.1**, and **BG-C.1**.
 The unified complex-analysis supplement includes its real-analysis and topology
-prerequisites and uses **CA.1–CA.52** in reading order.
+prerequisites and uses **CA.1–CA.68** in reading order. Its nine internal
+chapters follow Brown–Churchill, *Complex Variables and Applications*
+(eighth edition); two appendices provide prerequisite refreshers and
+the additional tools needed for Conway.
 Each definition, theorem, lemma, proposition, corollary, or example is labeled
 as added material. HTML comments delimit the inserted blocks for preservation
 checks; these comments do not interrupt normal Markdown rendering.
@@ -51,18 +54,54 @@ study solutions, not an official solutions manual or part of the source text.
   have written responses with detailed proofs. Where an assertion as
   transcribed is false or needs qualification, the response supplies a
   correction, counterexample, or explicit additional hypothesis instead.
-- Chapters III–XI: solutions have not yet been written. The next chapter is
-  Chapter III, with 102 numbered exercises.
+- [Chapter III solutions](chapter-03.md#exercise-solutions): all 102 numbered
+  exercises, including lettered subparts, have written solutions or explicit
+  corrections where the printed assumptions do not suffice.
+- [Chapter IV solutions](chapter-04.md#exercise-solutions): all 71 numbered
+  exercises, including lettered subparts, have written solutions or explicit
+  counterexamples and corrected formulations.
+- Chapters V–XI: solutions have not yet been written. The next chapter is
+  Chapter V, with 77 numbered exercises. Work stopped after Chapter IV at
+  the learner's request on 2026-10-02; do not continue without a new request.
 
 The revised inventory recognizes both Markdown headings and bold/plain
 exercise headings, as well as repeated section headings across page breaks.
 It currently records 834 numbered exercises across the eleven chapters;
-lettered subparts are not counted separately. The completed first two
-chapters cover 151 of these numbered exercises.
+lettered subparts are not counted separately. The completed first four
+chapters cover 324 of these numbered exercises; 510 remain in Chapters V–XI.
 
-The validation report records exercise/solution counts per chapter. Matching
+The [exercise-solution checkpoint](review/exercise-solutions-checkpoint.json)
+records current exercise/solution counts and validation results. Matching
 counts check coverage of numbered problems, not the correctness or completeness
 of every argument; mathematical content must be assessed separately.
+
+### Resume checkpoint — 2026-10-02
+
+The latest requested scope is complete through Chapter IV only. This session
+appended 173 responses (III: 102; IV: 71), in English, inside the existing
+`BEGIN SOLUTIONS` / `END SOLUTIONS` convention. No Chapter V–XI solutions
+were started. Resume, only when requested, at Chapter V §1 Exercise 1 and
+continue preserving the original numbered exercise lists and lettered parts.
+
+Notable qualifications for future review: III.4.11's proposed general sum
+can have a degenerate seminorm; III.9.8 has no order unit on the full matrix
+space; IV.1.20(b)–(d) fail in the stated unrestricted generality; IV.3.7
+requires a nonzero functional; and IV.5.7/IV.5.11 require careful locally
+finite measure conventions. The responses provide proofs, counterexamples,
+or precise corrected formulations rather than silently changing the source.
+
+Validation confirmed the exact ordered exercise/solution identifiers for
+Chapters III and IV, local links, markers, and mathematical delimiters. The
+existing full-edition validator still reports source-preservation differences
+in all eleven chapters, and the existing inventory regression suite fails
+its two Chapter I/II preservation subtests. These differences predate this
+solution work and include list-continuation and page-anchor indentation.
+The unchanged-source check against the existing Git version, after removing
+marked additions, passes for the new Chapter III/IV work. Concurrent edits
+to the complex-analysis supplement and its reading links were preserved.
+The checkpoint records these limitations; it does not claim a clean full
+validator run or formal verification of the proofs. The older
+`background-validation.json` is not refreshed by this checkpoint.
 
 ## Contents
 

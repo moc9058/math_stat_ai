@@ -6,14 +6,14 @@ numbering. Use it alongside the [main contents](README.md) and
 
 ## Suggested reading route
 
-Begin complex analysis with CA.1–CA.20 in the unified supplement; these supply
-the real-analysis and topology prerequisites for the later CA results.
+Read the complex-analysis supplement in chapter order, consulting its Appendix A
+for real-analysis and topology refreshers.
 
 | Stage | Main prerequisites to refresh or learn |
 | --- | --- |
-| Chapter I | Metric completeness, uniform convergence, Lebesgue convergence rules, arbitrary indexed sums, and Fourier density. For the analytic-function example, read CA.21–CA.35 first. |
+| Chapter I | Metric completeness, uniform convergence, Lebesgue convergence rules, arbitrary indexed sums, and Fourier density. For the analytic-function example, read supplement Chapters 1–5 and CA.44 first. |
 | Chapter II | Integral interchanges, compactness versus boundedness, strong versus norm convergence, and the initial-value and integration-by-parts facts behind Sturm–Liouville theory. |
-| Chapter III | Function-space completeness, quotient infima, complex measures, Baire category, and correction-series arguments. Before Runge's theorem, read CA.21–CA.39 and CA.44. |
+| Chapter III | Function-space completeness, quotient infima, complex measures, Baire category, and correction-series arguments. Before Runge's theorem, read supplement Chapters 1–6, then CA.64 and CA.67. |
 | Chapters IV–V | Topology and nets, seminorms, products and ultrafilters, weak topologies, compactness, cutoffs, distributions, and fixed-point prerequisites. Appendix A can be read in parallel. |
 | Chapters VI–VII | Closed-range estimates, compact operators, bidual limits, and Banach-algebra series. Read the full complex-analysis supplement before the spectral and contour arguments. |
 | Chapters VIII–IX | Uniform approximation, continuous functional calculus, measure changes, bounded spectral limits, and operator topologies. Use Appendix C for Radon–Nikodym and density proofs. |
@@ -248,59 +248,111 @@ one chapter when the later use has different hypotheses or convergence modes.
 - [Lemma BG-C.3 — Density of continuous functions in integral norms](appendix-c.md#bg-c-3)
 - [Theorem BG-C.4 — Weak-star compactness for bounded positive measures](appendix-c.md#bg-c-4)
 
-### Complex analysis: prerequisites and theory
+### Complex analysis: textbook-based core and appendices
+
+#### [Chapter 1. Complex numbers and plane geometry](background-complex-analysis.md#chapter-1)
 
 - [Definition and Lemma CA.1. Complex geometry and estimates](background-complex-analysis.md#ca-1)
-- [Definition and Lemma CA.2. Limits, Cauchy sequences, and completeness](background-complex-analysis.md#ca-2)
+- [Theorem CA.2. De Moivre's formula and all roots of a complex number](background-complex-analysis.md#ca-2)
 - [Definition and Lemma CA.3. Open sets, closure, and boundary](background-complex-analysis.md#ca-3)
-- [Theorem CA.4. Compactness in the plane and nested compact sets](background-complex-analysis.md#ca-4)
-- [Theorem CA.5. Uniform continuity and extrema on compact sets](background-complex-analysis.md#ca-5)
-- [Lemma CA.6. Positive distance and compact neighborhoods](background-complex-analysis.md#ca-6)
-- [Definition and Theorem CA.7. Connectedness and polygonal paths](background-complex-analysis.md#ca-7)
-- [Definition and Lemma CA.8. Convexity, holes, and simple connectedness](background-complex-analysis.md#ca-8)
-- [Definition and Theorem CA.9. Absolute convergence and geometric tails](background-complex-analysis.md#ca-9)
-- [Definition and Theorem CA.10. Limsup and the root test](background-complex-analysis.md#ca-10)
-- [Theorem CA.11. Uniform Cauchy criterion and the order of quantifiers](background-complex-analysis.md#ca-11)
-- [Definition and Proposition CA.12. Total derivatives and little-o errors](background-complex-analysis.md#ca-12)
-- [Lemma CA.13. The chain rule and differentiation along a path](background-complex-analysis.md#ca-13)
-- [Theorem CA.14. Continuous integrals and the fundamental theorem](background-complex-analysis.md#ca-14)
-- [Theorem CA.15. When limits and derivatives pass through integrals](background-complex-analysis.md#ca-15)
-- [Theorem CA.16. Uniform convergence of derivatives is the missing hypothesis](background-complex-analysis.md#ca-16)
-- [Lemma CA.17. Finite subdivisions subordinate to a cover](background-complex-analysis.md#ca-17)
-- [Definition and Lemma CA.18. Path parameters, orientation, and bounded variation](background-complex-analysis.md#ca-18)
-- [Lemma CA.19. Finite-measure estimates for uniform kernels](background-complex-analysis.md#ca-19)
-- [Lemma CA.20. Area integration in polar coordinates](background-complex-analysis.md#ca-20)
-- [Definition CA.21. Pointwise, uniform, and locally uniform convergence](background-complex-analysis.md#ca-21)
-- [Lemma CA.22. Uniform-limit rules and the Weierstrass M-test](background-complex-analysis.md#ca-22)
-- [Definition CA.23. Holomorphic functions and complex derivatives](background-complex-analysis.md#ca-23)
-- [Proposition CA.24. Real derivatives and the Cauchy–Riemann equations](background-complex-analysis.md#ca-24)
-- [Theorem CA.25. Power series, radius of convergence, and differentiation](background-complex-analysis.md#ca-25)
-- [Definition and Lemma CA.26. Exponentials and local logarithms](background-complex-analysis.md#ca-26)
-- [Definition and Lemma CA.27. Contour integrals and their norm estimate](background-complex-analysis.md#ca-27)
-- [Theorem CA.28. Goursat's triangle theorem and local primitives](background-complex-analysis.md#ca-28)
-- [Theorem CA.29. Cauchy's formula on a disk](background-complex-analysis.md#ca-29)
-- [Theorem CA.30. Taylor expansion, Cauchy estimates, and derivatives](background-complex-analysis.md#ca-30)
-- [Theorem CA.31. The identity theorem and multiplicity of zeros](background-complex-analysis.md#ca-31)
-- [Theorem CA.32. Removable singularities](background-complex-analysis.md#ca-32)
-- [Theorem CA.33. Liouville's theorem and the fundamental theorem of algebra](background-complex-analysis.md#ca-33)
-- [Theorem CA.34. Maximum modulus principle](background-complex-analysis.md#ca-34)
-- [Theorem CA.35. Locally uniform limits of holomorphic functions](background-complex-analysis.md#ca-35)
-- [Definition and Lemma CA.36. Infinity, poles, and rational functions](background-complex-analysis.md#ca-36)
-- [Definition and Theorem CA.37. Winding numbers](background-complex-analysis.md#ca-37)
-- [Theorem CA.38. Cauchy's theorem and formula for cycles](background-complex-analysis.md#ca-38)
-- [Lemma CA.39. Contours surrounding a compact set](background-complex-analysis.md#ca-39)
-- [Theorem CA.40. Laurent expansions and residues](background-complex-analysis.md#ca-40)
-- [Theorem CA.41. Residue and argument principles](background-complex-analysis.md#ca-41)
-- [Theorem CA.42. Banach-valued Cauchy theory and Liouville's theorem](background-complex-analysis.md#ca-42)
-- [Lemma CA.43. The resolvent is analytic, with a genuine local series](background-complex-analysis.md#ca-43)
-- [Lemma CA.44. Differentiating Cauchy transforms under an integral](background-complex-analysis.md#ca-44)
-- [Theorem CA.45. Deformation of contours and global primitives](background-complex-analysis.md#ca-45)
-- [Theorem CA.46. Holomorphic logarithms and roots](background-complex-analysis.md#ca-46)
-- [Theorem CA.47. Morera's theorem and holomorphic parameter integrals](background-complex-analysis.md#ca-47)
-- [Theorem CA.48. Harmonic components, mean values, and the Bergman estimate](background-complex-analysis.md#ca-48)
-- [Theorem CA.49. Rouché's theorem and stability of zero counts](background-complex-analysis.md#ca-49)
-- [Theorem CA.50. Open mapping and the local inverse](background-complex-analysis.md#ca-50)
-- [Theorem CA.51. Schwarz's lemma and the meaning of a disk estimate](background-complex-analysis.md#ca-51)
-- [Example CA.52. Worked contour and spectral calculations](background-complex-analysis.md#ca-52)
+- [Definition and Theorem CA.4. Connectedness and polygonal paths](background-complex-analysis.md#ca-4)
+- [Definition and Lemma CA.5. Convexity, holes, and simple connectedness](background-complex-analysis.md#ca-5)
 
-Total: 216 numbered background items. See the [structural validation report](review/background-validation.json) for coverage and preservation checks.
+#### [Chapter 2. Analytic functions and their first examples](background-complex-analysis.md#chapter-2)
+
+- [Definition CA.6. Holomorphic functions and complex derivatives](background-complex-analysis.md#ca-6)
+- [Proposition CA.7. Real derivatives and the Cauchy–Riemann equations](background-complex-analysis.md#ca-7)
+- [Definition CA.8. Pointwise, uniform, and locally uniform convergence](background-complex-analysis.md#ca-8)
+- [Lemma CA.9. Uniform-limit rules and the Weierstrass M-test](background-complex-analysis.md#ca-9)
+- [Theorem CA.10. Power series, radius of convergence, and differentiation](background-complex-analysis.md#ca-10)
+
+#### [Chapter 3. Elementary functions and local branches](background-complex-analysis.md#chapter-3)
+
+- [Definition and Lemma CA.11. Exponentials and local logarithms](background-complex-analysis.md#ca-11)
+- [Definition and Proposition CA.12. Elementary holomorphic functions and powers](background-complex-analysis.md#ca-12)
+
+#### [Chapter 4. Contour integrals and Cauchy theory](background-complex-analysis.md#chapter-4)
+
+- [Definition and Lemma CA.13. Contour integrals and their norm estimate](background-complex-analysis.md#ca-13)
+- [Theorem CA.14. Goursat's triangle theorem and local primitives](background-complex-analysis.md#ca-14)
+- [Theorem CA.15. Cauchy's formula on a disk](background-complex-analysis.md#ca-15)
+- [Theorem CA.16. Cauchy's derivative formula before Taylor's theorem](background-complex-analysis.md#ca-16)
+- [Definition and Theorem CA.17. Winding numbers](background-complex-analysis.md#ca-17)
+- [Theorem CA.18. Deformation of contours and global primitives](background-complex-analysis.md#ca-18)
+- [Theorem CA.19. Holomorphic logarithms and roots](background-complex-analysis.md#ca-19)
+- [Theorem CA.20. Morera's theorem and holomorphic parameter integrals](background-complex-analysis.md#ca-20)
+- [Theorem CA.21. Cauchy's theorem and formula for cycles](background-complex-analysis.md#ca-21)
+
+#### [Chapter 5. Taylor and Laurent series and analytic rigidity](background-complex-analysis.md#chapter-5)
+
+- [Theorem CA.22. Taylor expansion, Cauchy estimates, and derivatives](background-complex-analysis.md#ca-22)
+- [Theorem CA.23. The identity theorem and multiplicity of zeros](background-complex-analysis.md#ca-23)
+- [Theorem CA.24. Liouville's theorem and the fundamental theorem of algebra](background-complex-analysis.md#ca-24)
+- [Theorem CA.25. Maximum modulus principle](background-complex-analysis.md#ca-25)
+- [Theorem CA.26. Locally uniform limits of holomorphic functions](background-complex-analysis.md#ca-26)
+- [Theorem CA.27. Reflection across the real axis](background-complex-analysis.md#ca-27)
+- [Theorem CA.28. Laurent expansions and residues](background-complex-analysis.md#ca-28)
+- [Proposition CA.29. Multiplication and division of power series](background-complex-analysis.md#ca-29)
+
+#### [Chapter 6. Singularities, residues, and zero counting](background-complex-analysis.md#chapter-6)
+
+- [Theorem CA.30. Removable singularities](background-complex-analysis.md#ca-30)
+- [Theorem CA.31. Classification and behavior of isolated singularities](background-complex-analysis.md#ca-31)
+- [Definition and Lemma CA.32. Infinity, poles, and rational functions](background-complex-analysis.md#ca-32)
+- [Theorem CA.33. Residue and argument principles](background-complex-analysis.md#ca-33)
+- [Proposition CA.34. Computing residues at poles and at infinity](background-complex-analysis.md#ca-34)
+
+#### [Chapter 7. Applications of residues](background-complex-analysis.md#chapter-7)
+
+- [Theorem CA.35. Rouché's theorem and stability of zero counts](background-complex-analysis.md#ca-35)
+- [Theorem and Example CA.36. Rational improper integrals](background-complex-analysis.md#ca-36)
+- [Lemma and Example CA.37. Jordan's lemma and Fourier integrals](background-complex-analysis.md#ca-37)
+- [Proposition and Examples CA.38. Indentations, principal values, and branch cuts](background-complex-analysis.md#ca-38)
+- [Proposition and Example CA.39. Trigonometric integrals on the unit circle](background-complex-analysis.md#ca-39)
+
+#### [Chapter 8. Elementary mappings and conformality](background-complex-analysis.md#chapter-8)
+
+- [Definition and Theorem CA.40. Möbius transformations and generalized circles](background-complex-analysis.md#ca-40)
+- [Theorem CA.41. Open mapping and the local inverse](background-complex-analysis.md#ca-41)
+- [Definition and Theorem CA.42. Conformality, angles, and scale factors](background-complex-analysis.md#ca-42)
+- [Theorem CA.43. Schwarz's lemma and the meaning of a disk estimate](background-complex-analysis.md#ca-43)
+
+#### [Chapter 9. Harmonic functions and the disk boundary problem](background-complex-analysis.md#chapter-9)
+
+- [Theorem CA.44. Harmonic components, mean values, and the Bergman estimate](background-complex-analysis.md#ca-44)
+- [Definition and Theorem CA.45. Harmonic conjugates and the obstruction from holes](background-complex-analysis.md#ca-45)
+- [Theorem CA.46. Conformal transport of harmonic functions](background-complex-analysis.md#ca-46)
+- [Theorem CA.47. The Poisson kernel and the disk Dirichlet problem](background-complex-analysis.md#ca-47)
+
+#### [Appendix A. Real-analysis and topology refreshers](background-complex-analysis.md#appendix-a)
+
+- [Definition and Lemma CA.48. Limits, Cauchy sequences, and completeness](background-complex-analysis.md#ca-48)
+- [Theorem CA.49. Compactness in the plane and nested compact sets](background-complex-analysis.md#ca-49)
+- [Theorem CA.50. Uniform continuity and extrema on compact sets](background-complex-analysis.md#ca-50)
+- [Lemma CA.51. Positive distance and compact neighborhoods](background-complex-analysis.md#ca-51)
+- [Definition and Theorem CA.52. Absolute convergence and geometric tails](background-complex-analysis.md#ca-52)
+- [Definition and Theorem CA.53. Limsup and the root test](background-complex-analysis.md#ca-53)
+- [Theorem CA.54. Uniform Cauchy criterion and the order of quantifiers](background-complex-analysis.md#ca-54)
+- [Definition and Proposition CA.55. Total derivatives and little-o errors](background-complex-analysis.md#ca-55)
+- [Lemma CA.56. The chain rule and differentiation along a path](background-complex-analysis.md#ca-56)
+- [Theorem CA.57. Continuous integrals and the fundamental theorem](background-complex-analysis.md#ca-57)
+- [Theorem CA.58. When limits and derivatives pass through integrals](background-complex-analysis.md#ca-58)
+- [Theorem CA.59. Uniform convergence of derivatives is the missing hypothesis](background-complex-analysis.md#ca-59)
+- [Lemma CA.60. Finite subdivisions subordinate to a cover](background-complex-analysis.md#ca-60)
+- [Definition and Lemma CA.61. Path parameters, orientation, and bounded variation](background-complex-analysis.md#ca-61)
+- [Lemma CA.62. Finite-measure estimates for uniform kernels](background-complex-analysis.md#ca-62)
+- [Lemma CA.63. Area integration in polar coordinates](background-complex-analysis.md#ca-63)
+
+#### [Appendix B. Transfer to Conway and functional analysis](background-complex-analysis.md#appendix-b)
+
+- [Lemma CA.64. Contours surrounding a compact set](background-complex-analysis.md#ca-64)
+- [Theorem CA.65. Banach-valued Cauchy theory and Liouville's theorem](background-complex-analysis.md#ca-65)
+- [Lemma CA.66. The resolvent is analytic, with a genuine local series](background-complex-analysis.md#ca-66)
+- [Lemma CA.67. Differentiating Cauchy transforms under an integral](background-complex-analysis.md#ca-67)
+- [Example CA.68. Worked contour and spectral calculations](background-complex-analysis.md#ca-68)
+
+Total: 232 numbered background items, including 68 complex-analysis items.
+See the [complex-analysis validation report](review/complex-analysis-validation.json)
+for this supplement's chapter, numbering, and link checks. The separate
+[full-edition report](review/background-validation.json) records the edition-wide
+coverage at the time it was generated.

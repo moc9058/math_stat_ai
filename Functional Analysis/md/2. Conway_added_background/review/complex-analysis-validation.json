@@ -1,0 +1,75 @@
+{
+  "validation_scope": "Complex-analysis supplement structure and local cross-references. Mathematical statements and new proofs were manually reviewed and cross-reviewed by subagents; structural checks do not formally verify proofs.",
+  "primary_source": {
+    "title": "Complex Variables and Applications",
+    "authors": "James Ward Brown and Ruel V. Churchill",
+    "edition": "8th",
+    "year": 2009,
+    "path": "../../source/Complex variables and applications.pdf",
+    "pagination": "Printed page numbers"
+  },
+  "supplement": "background-complex-analysis.md",
+  "supplement_sha256": "15f43d78e5b1e5b251301c355381db923d14dffd281390d3d16a10ff9e2cfd50",
+  "core_chapters": [
+    {
+      "chapter": 1,
+      "title": "Complex numbers and plane geometry"
+    },
+    {
+      "chapter": 2,
+      "title": "Analytic functions and their first examples"
+    },
+    {
+      "chapter": 3,
+      "title": "Elementary functions and local branches"
+    },
+    {
+      "chapter": 4,
+      "title": "Contour integrals and Cauchy theory"
+    },
+    {
+      "chapter": 5,
+      "title": "Taylor and Laurent series and analytic rigidity"
+    },
+    {
+      "chapter": 6,
+      "title": "Singularities, residues, and zero counting"
+    },
+    {
+      "chapter": 7,
+      "title": "Applications of residues"
+    },
+    {
+      "chapter": 8,
+      "title": "Elementary mappings and conformality"
+    },
+    {
+      "chapter": 9,
+      "title": "Harmonic functions and the disk boundary problem"
+    }
+  ],
+  "appendices": [
+    [
+      "A",
+      "Real-analysis and topology refreshers"
+    ],
+    [
+      "B",
+      "Transfer to Conway and functional analysis"
+    ]
+  ],
+  "numbered_items": 68,
+  "new_numbered_items": 16,
+  "edition_numbered_background_items": 232,
+  "checked": [
+    "Consecutive result numbering",
+    "Unique explicit anchors",
+    "Local file and fragment links across the study edition",
+    "Known CA identifiers",
+    "Math dollar and environment balancing",
+    "Absence of unfinished markers",
+    "Nine chapter headings and two appendices"
+  ],
+  "out_of_scope": "Source-text preservation and exercise-solution coverage of Conway chapter files. These edition-wide checks are separate from the complex-analysis supplement.",
+  "problems": []
+}

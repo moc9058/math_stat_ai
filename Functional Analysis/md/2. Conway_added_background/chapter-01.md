@@ -305,7 +305,7 @@ $$
 
 Thus the scalar limit exists. The same inequality with equivalent representatives proves independence of representatives. Linearity, conjugate symmetry and nonnegativity pass to limits, and zero squared norm means $\|x_n\|\to0$, exactly the zero class. Constant sequences embed the original space densely. For completeness, given a Cauchy sequence of classes $u_k$, choose original vectors $v_k$ with $d(u_k,v_k)<1/k$; $(v_k)$ is Cauchy, defines a class $u$, and $u_k\to u$ by the triangle inequality. This supplies the omitted proof of Proposition 1.9. $\square$
 
-**First complex-analysis reading checkpoint.** Before Definition 1.10 read CA.21–CA.35 in the [complex-analysis background](background-complex-analysis.md#ca-21): holomorphic functions, contour integrals, Cauchy's formula, the mean-value property, and [locally uniform limits](background-complex-analysis.md#ca-35). “Analytic” below is not a synonym for smooth as a function of two real variables.
+**First complex-analysis reading checkpoint.** Before Definition 1.10 read Chapters 1–5 of the [complex-analysis background](background-complex-analysis.md#chapter-1), then the [harmonic mean-value and Bergman estimate](background-complex-analysis.md#ca-44): holomorphic functions, contour integrals, Cauchy's formula, and [locally uniform limits](background-complex-analysis.md#ca-26). “Analytic” below is not a synonym for smooth as a function of two real variables.
 
 <a id="bg-i-12"></a>
 ### Lemma BG-I.12. The local-to-global step in Bergman completeness
@@ -1385,7 +1385,7 @@ Real-linearity is the appropriate meaning of (a), since the domain is real.
 #### Solution I.1.8 — A square-integrable puncture is removable
 
 Use the Laurent expansion proved in
-[CA.40](background-complex-analysis.md#ca-40):
+[CA.28](background-complex-analysis.md#ca-28):
 $f(z)=\sum_{k\in\mathbb Z}a_kz^k$ on $0<|z|<1$.
 For $m\geq1$, the circle coefficient formula and Cauchy–Schwarz give
 
@@ -1406,7 +1406,7 @@ This argument excludes essential singularities as well as poles.
 #### Solution I.1.9 — The entire-plane Bergman space
 
 For an entire function, the disk mean-value estimate
-[CA.48](background-complex-analysis.md#ca-48) says
+[CA.44](background-complex-analysis.md#ca-44) says
 
 $$
 |f(a)|^2\leq\frac1{\pi R^2}\int_{|z-a|<R}|f(z)|^2\,dA(z)
@@ -1569,7 +1569,7 @@ $$
 For example $\sum n^2x^{n-1}$ is the derivative of
 $\sum nx^n=x/(1-x)^2$. Thus the inner product with $h_0$ is well defined
 and equals the displayed derivative series. Termwise differentiation is
-justified by [CA.25](background-complex-analysis.md#ca-25), not merely by
+justified by [CA.10](background-complex-analysis.md#ca-10), not merely by
 pointwise convergence of the original series.
 
 #### Solution I.3.5 — Evaluation in the derivative space

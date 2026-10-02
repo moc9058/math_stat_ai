@@ -938,7 +938,7 @@ A linear functional of the type described in Theorem 7.1 is called a *Banach lim
 ## §8*. An Application: Runge’s Theorem
 
 <!-- BEGIN BACKGROUND BG-III.block8 -->
-**Complex-analysis reading checkpoint.** Read the [complex-analysis background](background-complex-analysis.md) before this section, especially [Taylor expansions](background-complex-analysis.md#ca-30), the [identity theorem](background-complex-analysis.md#ca-31), [infinity](background-complex-analysis.md#ca-36), and the [compact contour construction](background-complex-analysis.md#ca-39). The local estimates below explain how those tools interact with Hahn–Banach; they do not assume prior study of complex analysis.
+**Complex-analysis reading checkpoint.** Read the [complex-analysis background](background-complex-analysis.md) before this section, especially [Taylor expansions](background-complex-analysis.md#ca-22), the [identity theorem](background-complex-analysis.md#ca-23), [infinity](background-complex-analysis.md#ca-32), and the [compact contour construction](background-complex-analysis.md#ca-64). The local estimates below explain how those tools interact with Hahn–Banach; they do not assume prior study of complex analysis.
 
 <a id="bg-iii-16"></a>
 ### Definition BG-III.16. Components and poles at infinity
@@ -1623,3 +1623,1199 @@ The Banach–Steinhaus Theorem is a result about sequences, not nets. Note that 
 
 10. Let $\mathcal X$ be a Banach space and suppose $\{x_n\}$ is a sequence in $\mathcal X$ such that for each $x$ in $\mathcal X$ there are unique scalars $\{\alpha_n\}$ such that $\lim_{n\to\infty}\|x-\sum_{k=1}^n\alpha_kx_k\|=0$. Such a sequence is called a *Schauder basis*. (a) Prove that $\mathcal X$ is separable. (b) Let $\mathcal Y=\{\{\alpha_n\}\in\mathbb F^{\mathbb N}:\sum_{n=1}^{\infty}\alpha_nx_n\text{ converges in }\mathcal X\}$ and for $y=\{\alpha_n\}$ in $\mathcal Y$ define $\|y\|=\sup_n\|\sum_{k=1}^n\alpha_kx_k\|$. Show that $\mathcal Y$ is a Banach space. (c) Show that there is a bounded bijection $T:\mathcal X\to\mathcal Y$. (d) If $n\geq1$ and $f_n:\mathcal X\to\mathbb F$ is defined by $f_n(\sum_{k=1}^{\infty}\alpha_kx_k)=\alpha_n$, show that $f_n\in\mathcal X^*$. (e) Show that $x_n\notin$ the closed linear span of $\{x_k:k\neq n\}$.
 
+<!-- BEGIN SOLUTIONS III -->
+<a id="exercise-solutions"></a>
+## Exercise Solutions
+
+These are added study solutions for all 102 numbered exercises, not part of
+Conway's text. The identifiers
+retain the exercise numbering, including the lettered questions printed under
+III.1.6. Spaces are over $\mathbb F$, and locally compact spaces are Hausdorff.
+A subspace denoted by $\mathcal M\leq\mathcal X$ is closed. Measures representing
+bounded functionals are finite regular signed or complex measures.
+
+### §1. Elementary Properties and Examples
+
+#### Solution III.1.1 — Continuity of the vector operations
+
+The triangle inequality gives
+$\|(x+h)+(y+k)-(x+y)\|\leq\|h\|+\|k\|$.
+For scalar multiplication use
+$\|\alpha_nx_n-\alpha x\|\leq|\alpha_n|\|x_n-x\|+
+|\alpha_n-\alpha|\|x\|$. A convergent scalar sequence is bounded, so the
+right side tends to zero. In metric spaces sequential continuity is equivalent
+to continuity: failure of continuity supplies a counterexample in each ball
+of radius $1/n$. This proves both assertions.
+
+#### Solution III.1.2 — Equivalent norms
+
+Continuity at zero of the identity from norm 1 to norm 2 gives $s>0$ such
+that $\|x\|_1<s$ implies $\|x\|_2<1$. For $x\ne0$ and $0<t<s$,
+apply this to $tx/\|x\|_1$ and let $t\uparrow s$. Thus
+$\|x\|_2\leq s^{-1}\|x\|_1$. Applying the same argument to the reverse
+identity gives the lower bound. Conversely the two inequalities send sufficiently
+small balls for either norm into prescribed balls for the other, at every center.
+
+#### Solution III.1.3 — Sharp finite-dimensional constants
+
+With $1/\infty=0$, the best constants are
+$$c=\min(1,d^{1/q-1/p}),\qquad C=\max(1,d^{1/q-1/p}).$$
+For $p<q$, normalize $\sum|x_j|^p=1$. Each $|x_j|\leq1$, hence
+$\sum|x_j|^q\leq1$, giving $\|x\|_q\leq\|x\|_p$.
+Hölder applied to $\sum |x_j|^p\cdot1$ gives
+$\|x\|_p\leq d^{1/p-1/q}\|x\|_q$; for $q=\infty$ this follows
+by bounding every coordinate by the maximum. Reverse the inequalities when
+$q<p$. The vectors $(1,0,\ldots,0)$ and $(1,\ldots,1)$ attain the two
+extreme ratios, proving sharpness.
+
+#### Solution III.1.4 — Unit circles and strict convexity
+
+In each quadrant the curve is $|y|=(1-|x|^p)^{1/p}$, $|x|\leq1$.
+For $p=1$ it is the diamond with vertices $(\pm1,0),(0,\pm1)$;
+for $p=2$ the usual circle; for $p=\infty$ the boundary of $[-1,1]^2$.
+For $1<p<\infty$, the real function $s\mapsto|s|^p$ is strictly convex
+(its derivative $p\operatorname{sgn}(s)|s|^{p-1}$ is strictly increasing).
+Applying its convexity coordinatewise, with strict inequality in a coordinate
+where $x$ and $y$ differ, gives $\|tx+(1-t)y\|_p^p<1$.
+For $p=1$ the segment from $(1,0)$ to $(0,1)$ lies on the sphere;
+for $p=\infty$ use the segment from $(1,0)$ to $(1,1)$.
+
+#### Solution III.1.5 — The space of convergent sequences
+
+Sums and scalar multiples of convergent sequences converge. If $a^{(k)}\in c$
+and $\|a^{(k)}-a\|_\infty\to0$, fix $k$ with this distance below
+$\varepsilon/3$. For sufficiently large $m,n$, the Cauchy property of
+$a^{(k)}$ gives $|a_m-a_n|<\varepsilon$. Completeness of $\mathbb F$
+then gives a limit for $a_n$. Thus $c$ is closed in the Banach space $\ell^\infty$.
+
+#### Solution III.1.6 — A convergent compact space and cardinality
+
+Send $f$ to $(f(1/n))_n$. Continuity at zero says exactly that this sequence
+converges to $f(0)$; conversely a convergent sequence extends uniquely this way.
+The supremum over $X$ equals the supremum over its sequence of isolated points,
+so this linear bijection is an isometry.
+
+(a) In $\ell^p(I)$ every vector has countable support: for each positive
+integer $n$, only finitely many coordinates have modulus at least $1/n$.
+Truncating a summable family to finite sets approximates it in norm. Finite
+support vectors with rational real and imaginary parts therefore form a dense
+set of cardinality $|I|$ when $I$ is infinite. Conversely the unit vectors
+are mutually distance $2^{1/p}$ apart, so disjoint balls of radius $1/3$
+around them require distinct points of any dense set. Thus the least cardinality
+of a dense set is $|I|$.
+
+(b) A bijection between index sets gives an isometry by relabeling coordinates.
+For infinite sets the converse follows from (a), since an isometry preserves
+density. Finite sets are distinguished by dimension, and an infinite set
+gives an infinite-dimensional space.
+
+#### Solution III.1.7 — Recovering the index set of a supremum space
+
+Yes. Here is a norm-geometric way to recover it, avoiding an inference from
+cardinal arithmetic such as $2^{|I|}=2^{|J|}$. Call $f$ in the dual unit ball
+weak-star strongly exposed if there is $x$ in the original space such that
+$\operatorname{Re}f(x)=\sup_{\|g\|\leq1}\operatorname{Re}g(x)$ and every
+sequence in that ball approaching this supremum converges to $f$ in norm.
+For $\ell^\infty(I)$ these points are exactly $\lambda\delta_i$,
+$|\lambda|=1$, where $\delta_i(x)=x(i)$.
+
+To see the necessary direction, for any nonzero exposing vector $x$ choose
+coordinates $i_n$ with $|x(i_n)|\to\|x\|_\infty$, and choose phases
+$\lambda_n$ so $\lambda_nx(i_n)=|x(i_n)|$. Exposure requires
+$\lambda_n\delta_{i_n}\to f$ in norm. Functionals belonging to distinct
+coordinates have distance 2 (test on a vector with independently chosen
+values at those two coordinates), so the coordinates must eventually be
+constant. The limit is a phase multiple of that coordinate evaluation.
+For sufficiency, decompose any $g$ as $g(e_i)\delta_i+g_0$ where
+$g_0(e_i)=0$. The direct supremum decomposition
+$\ell^\infty(I)=\mathbb F e_i\oplus_\infty\{x:x(i)=0\}$ gives
+$\|g\|=|g(e_i)|+\|g_0\|$ by choosing phases independently. Thus
+$\operatorname{Re}g(e_i)\to1$ in the dual ball forces $g\to\delta_i$.
+Changing phases gives the other points. A surjective linear isometry induces
+a dual isometry preserving exposure and scalar multiplication. It therefore
+bijects these phase orbits; there is one orbit per index. Hence $|I|=|J|$.
+
+#### Solution III.1.8 — Nonseparability of the bounded sequences
+
+The characteristic functions of subsets of $\mathbb N$ form an uncountable
+set with mutual distance 1. Their open balls of radius $1/3$ are disjoint,
+and every dense set must meet all of them. No countable set can be dense.
+
+#### Solution III.1.9 — Functions vanishing at infinity
+
+Such a function is bounded: it is bounded on the compact set $\{|f|\geq1\}$
+and has modulus below 1 elsewhere. The set where $|f+g|\geq\varepsilon$
+is a closed subset of $\{|f|\geq\varepsilon/2\}\cup
+\{|g|\geq\varepsilon/2\}$, hence compact. Scalar multiples are handled
+by changing the level $\varepsilon$. If $f_n\to f$ uniformly, choose
+$n$ with $\|f-f_n\|_\infty<\varepsilon/2$; then
+$\{|f|\geq\varepsilon\}$ is a closed subset of the compact set
+$\{|f_n|\geq\varepsilon/2\}$. Thus $C_0(X)$ is a closed linear subspace.
+
+#### Solution III.1.10 — Completeness of the differentiable functions
+
+The maximum of the derivative suprema satisfies homogeneity and the triangle
+inequality, and its zeroth term separates functions. For a Cauchy sequence
+$f_j$, each $f_j^{(k)}$ has a uniform continuous limit $g_k$. Passing to the
+limit in
+$f_j^{(k)}(t)-f_j^{(k)}(0)=\int_0^t f_j^{(k+1)}(s)\,ds$
+is justified by the bound of the integral difference by the uniform difference.
+Consequently $g_k(t)=g_k(0)+\int_0^t g_{k+1}(s)\,ds$; the fundamental
+theorem of calculus gives $g_k'=g_{k+1}$. Thus $g_0\in C^{(n)}$ and
+$f_j\to g_0$ in the stated norm.
+
+#### Solution III.1.11 — Completeness of the Sobolev example
+
+We first record a useful estimate. If $h$ is absolutely continuous on $[0,1]$,
+then $\|h\|_\infty\leq\|h\|_1+\|h'\|_1$: integrate
+$|h(t)|\leq|h(s)|+\int_0^1|h'|$ in $s$. Also $\|v\|_1\leq\|v\|_p$
+on this interval by Hölder. Thus a Cauchy sequence $f_j$ in the stated norm
+has uniformly Cauchy derivatives through order $n-1$, and an $L^p$-Cauchy
+derivative of order $n$. Write their limits as $g_0,\ldots,g_{n-1},g_n$.
+The integral identities of the preceding solution pass to the limit, including
+the last identity because $L^p$ convergence implies $L^1$ convergence.
+Hence $g_{n-1}(t)=g_{n-1}(0)+\int_0^t g_n$ is absolutely continuous,
+its almost-everywhere derivative is $g_n$, and the lower limits are its
+successive antiderivatives. Therefore $g_0\in W_p^n$ and convergence holds
+in every summand of the norm. Definiteness follows from continuity of $f$
+and $\|f\|_p=0$; the other norm axioms follow from Minkowski.
+
+#### Solution III.1.12 — Extension to the compactification
+
+Define $\widetilde f|_X=f$ and $\widetilde f(\infty)=0$.
+Continuity at infinity means that for every $\varepsilon>0$, $|f|<\varepsilon$
+outside a compact subset of $X$. This is equivalent to the definition of
+$C_0(X)$, since its level sets are closed. The extension and restriction maps
+are inverse linear isometries. The target is the kernel of the continuous
+evaluation at infinity, so is closed and complete. If $X$ is already compact,
+one may take infinity to be an isolated extra point, with the same conclusion.
+
+#### Solution III.1.13 — Compactly supported approximation
+
+For $\varepsilon>0$ let $K=\{|f|\geq\varepsilon\}$. The compact cutoff
+lemma for a locally compact Hausdorff space supplies $u\in C_c(X)$ with
+$0\leq u\leq1$ and $u=1$ on $K$. One obtains this lemma by choosing finitely
+many relatively compact neighborhoods of the compact set and separating it
+from the complement of their union in the one-point compactification, which
+is compact Hausdorff and hence normal. Then $uf\in C_c(X)$ and
+$\|f-uf\|_\infty\leq\varepsilon$, proving density.
+
+#### Solution III.1.14 — Controlling the intermediate derivatives
+
+Write the integral Taylor formula
+$$f(t)=P(t)+R(t),\quad P(t)=\sum_{k=0}^{n-1}f^{(k)}(0)t^k/k!,\quad
+R(t)=\frac1{(n-1)!}\int_0^t(t-s)^{n-1}f^{(n)}(s)\,ds.$$
+Repeated integration of the absolutely continuous last derivative proves
+this formula. For $k<n$, $\|R^{(k)}\|_p\leq\|f^{(n)}\|_1/(n-1-k)!
+\leq\|f^{(n)}\|_p/(n-1-k)!$.
+On the finite-dimensional polynomial space of degree below $n$, the $L^p$
+norm is a norm and all derivative $L^p$ norms are bounded by a constant
+times it, by equivalence of finite-dimensional norms. Since
+$\|P\|_p\leq\|f\|_p+\|R\|_p$, summing these bounds gives
+$\sum_{k=0}^n\|f^{(k)}\|_p\leq C(\|f\|_p+\|f^{(n)}\|_p)$.
+The reverse bound has constant 1. This proves equivalence, including $p=1$.
+
+#### Solution III.1.15 — Completing a normed space
+
+Realize the completion as equivalence classes of Cauchy sequences, where two
+sequences are equivalent if their differences tend to zero. Define addition
+and scalar multiplication termwise and $\|[x_n]\|=\lim_n\|x_n\|$.
+The reverse triangle inequality proves existence and independence of this
+limit; the triangle inequality proves independence of the vector operations.
+The norm vanishes precisely on the zero class and gives the completion metric.
+The metric completion is complete by construction, hence is a Banach space,
+and the constant sequences identify the original space isometrically with a
+dense linear subspace.
+
+#### Solution III.1.16 — Failure of the parallelogram identity
+
+Take $f(t)=1$ and $g(t)=2t-1$. Both have norm 1, while
+$\|f+g\|_\infty=\|f-g\|_\infty=2$. Thus the left side of the
+parallelogram identity is 8 and the right side is 4. Every inner-product norm
+satisfies that identity by expanding the inner products, so this norm cannot
+come from an inner product.
+
+### §2. Linear Operators on Normed Spaces
+
+#### Solution III.2.1 — Completeness of an operator space
+
+If $Y$ is complete and $A_n$ is operator-norm Cauchy, define
+$Ax=\lim_nA_nx$. Limits show linearity, and a uniform bound on $\|A_n\|$
+shows boundedness. Letting $m\to\infty$ in
+$\|(A_n-A_m)x\|\leq\varepsilon\|x\|$ shows $\|A_n-A\|\leq\varepsilon$.
+Conversely choose $f\in X^*$ and $x_0$ with $f(x_0)=1$. For a Cauchy
+sequence $y_n$ in $Y$, the operators $A_nx=f(x)y_n$ are Cauchy since
+$\|A_n-A_m\|=\|f\|\|y_n-y_m\|$. Their operator-norm limit $A$
+satisfies $y_n=A_nx_0\to Ax_0$. Thus $Y$ is complete. The hypothesis on
+$X^*$ excludes the trivial operator-space counterexample.
+
+#### Solution III.2.2 — Extension to the completion
+
+For $A\in\mathcal B(X,Y)$ and $x\in\widehat X$, choose $x_n\in X$
+with $x_n\to x$ and set $\widehat Ax=\lim Ax_n$. The bound on $A$ makes
+these images Cauchy and proves independence of the approximating sequence.
+It also proves linearity and $\|\widehat A\|\leq\|A\|$; restriction gives
+the opposite inequality. Any continuous extension agrees on the dense set
+$X$, hence everywhere. Restriction is therefore an isometric isomorphism.
+
+#### Solution III.2.3 — An everywhere defined multiplier
+
+For $p=\infty$ simply apply the hypothesis to the constant function 1.
+For $p<\infty$, suppose $\phi$ is not essentially bounded. There are pairwise
+disjoint measurable sets $E_n$ of positive finite measure on which
+$|\phi|\geq2^n$. Indeed select successively disjoint level bands of unbounded
+essential range, and use sigma-finiteness to cut each to finite positive measure.
+The function
+$f=\sum_n2^{-n}\mu(E_n)^{-1/p}\chi_{E_n}$ satisfies
+$\|f\|_p^p=\sum_n2^{-np}<\infty$ but
+$\|\phi f\|_p^p\geq\sum_n1=\infty$, a contradiction.
+
+#### Solution III.2.4 — The norm of multiplication
+
+The pointwise inequality $|\phi f|\leq\|\phi\|_\infty|f|$ gives
+$\|M_\phi\|\leq\|\phi\|_\infty$. If $a<\|\phi\|_\infty$, choose
+a set $E\subseteq\{|\phi|>a\}$ of positive finite measure. The normalized
+indicator has image norm at least $a$ for finite $p$; for $p=\infty$ use
+$\chi_E$ itself. Let $a\uparrow\|\phi\|_\infty$. Linearity follows directly
+from multiplication, and changing representatives affects only null sets.
+
+#### Solution III.2.5 — Integral operators and the Schur bound
+
+Write $c_1=\mathop{\rm ess\,sup}_x\int|k(x,y)|\,d\mu(y)$ and
+$c_2=\mathop{\rm ess\,sup}_y\int|k(x,y)|\,d\mu(x)$, as in the example.
+The endpoint estimates are $\|K\|_{\infty\to\infty}\leq c_1$ and
+$\|K\|_{1\to1}\leq c_2$, the latter by Tonelli. For $1<p<\infty$,
+Hölder with the measure $|k(x,y)|\,d\mu(y)$ gives
+$$|Kf(x)|^p\leq c_1^{p-1}\int|k(x,y)||f(y)|^p\,d\mu(y).$$
+Integrate and use Tonelli to get
+$\|Kf\|_p\leq c_1^{1-1/p}c_2^{1/p}\|f\|_p$.
+These same integrability bounds ensure absolute existence almost everywhere
+and independence of representatives, and the integral is linear. If either
+constant is zero the kernel is zero almost everywhere and the conclusion is immediate.
+
+#### Solution III.2.6 — Composition operators
+
+For the continuous map $\tau:Y\to X$ between compact Hausdorff spaces,
+$Af=f\circ\tau$ is continuous, linear, and satisfies
+$\|Af\|_\infty\leq\|f\|_\infty$. If $Y$ is nonempty, $A1=1$ gives
+$\|A\|=1$. On an empty target the operator is zero. The next solution
+establishes the more detailed mapping properties.
+
+#### Solution III.2.7 — Four properties of composition
+
+(a) $A$ is injective exactly when $\tau(Y)=X$. Surjectivity of $\tau$
+clearly suffices. If the compact image is proper, separation of a point
+from that closed image gives a nonzero continuous $f$ vanishing on it.
+(b) $A$ is onto exactly when $\tau$ is injective. Necessity follows because
+continuous functions on $Y$ separate points, whereas compositions cannot
+separate a fiber. For sufficiency, $\tau$ is a homeomorphism onto its closed
+image; transport $g\in C(Y)$ to that image and extend it to $X$ by Tietze
+(real and imaginary parts in the complex case).
+(c) $A$ is an isometry exactly when $\tau$ is onto: the suprema then agree;
+otherwise the function used in (a) rules out an isometry.
+(d) $A^2=A$ means $f(\tau^2(y))=f(\tau(y))$ for all continuous $f$,
+equivalently $\tau^2=\tau$. This is exactly retraction onto the image.
+
+#### Solution III.2.8 — Additive maps
+
+Additivity gives $A0=0$, $A(-x)=-Ax$, rational homogeneity, and
+$A(x+h)-Ax=Ah$. Thus continuity at any one point, at zero, and everywhere
+are equivalent. If $\|Ah\|<1$ for $\|h\|<\delta$, choose a positive rational
+$r$ arbitrarily close from below to $\delta/\|x\|$ and apply the bound to
+$rx$. Rational homogeneity gives $\|Ax\|\leq\|x\|/\delta$ on taking the
+limit. Conversely a bound of this form implies Lipschitz continuity by
+additivity. Complex linearity is unnecessary; complex conjugation is an example.
+
+### §3. Finite Dimensional Normed Spaces
+
+#### Solution III.3.1 — Local compactness
+
+A compact neighborhood of zero contains a closed ball of some positive radius,
+which is then compact as a closed subset. Scaling makes the closed unit ball
+compact. In an infinite-dimensional normed space, Riesz's lemma constructs
+unit vectors $x_n$ at distance greater than $1/2$ from the span of their
+predecessors (finite-dimensional subspaces are closed). They have no Cauchy
+subsequence, contradicting compactness. Hence the dimension is finite.
+
+#### Solution III.3.2 — The coordinate maximum norm
+
+Relative to the chosen basis each vector has unique coordinates. Their maximum
+absolute value is nonnegative and vanishes exactly when every coordinate is
+zero; scalar multiplication scales it by the scalar's modulus. The inequalities
+$|a_i+b_i|\leq|a_i|+|b_i|\leq\max_j|a_j|+\max_j|b_j|$
+prove the triangle inequality after taking the maximum in $i$.
+
+### §4. Quotients and Products of Normed Spaces
+
+#### Solution III.4.1 — The quotient norm
+
+Define $\|x+M\|=\inf_{m\in M}\|x+m\|$. Replacing $x$ by another
+representative only relabels this infimum. Homogeneity follows by scaling
+$M$ (and is immediate for the zero scalar). Adding representatives within
+$\varepsilon$ of the two infima proves the triangle inequality on letting
+$\varepsilon\downarrow0$. Norm zero means $x\in\overline M=M$, proving
+definiteness. Closedness is essential: otherwise the formula is only a seminorm.
+
+#### Solution III.4.2 — Absolutely convergent series
+
+In a Banach space the partial sums are Cauchy because the norm of a tail is
+at most the sum of its term norms. Conversely take a Cauchy sequence and choose
+a subsequence $x_{n_k}$ with $\|x_{n_{k+1}}-x_{n_k}\|\leq2^{-k}$.
+The assumed series property makes
+$x_{n_1}+\sum_k(x_{n_{k+1}}-x_{n_k})$ converge, so the subsequence converges.
+The following elementary observation then makes the original sequence converge.
+
+#### Solution III.4.3 — A convergent subsequence of a Cauchy sequence
+
+Given $\varepsilon>0$, take $N$ so $d(x_n,x_m)<\varepsilon/2$ for
+$n,m\geq N$, and choose $n_k\geq N$ with $d(x_{n_k},x_0)<\varepsilon/2$.
+The triangle inequality gives $d(x_n,x_0)<\varepsilon$ for all $n\geq N$.
+
+#### Solution III.4.4 — Quotient maps need not be closed
+
+In $X=\mathbb R^2$ let $M=\{0\}\times\mathbb R$. The closed hyperbola
+$F=\{(s,t):st=1\}$ projects onto $\mathbb R\setminus\{0\}$, which is not
+closed. Quotients by $\{0\}$ or by all of $X$ are closed maps. In fact these
+are the only possibilities: if $0\ne M\ne X$, choose $m\ne0$ in $M$ and
+$x\notin M$. The set $\{n^{-1}x+nm:n\geq1\}$ is closed, since its
+norms tend to infinity, but its nonzero quotient images converge to zero.
+
+#### Solution III.4.5 — The other completeness implication
+
+Let $x_n$ be Cauchy. Completeness of the quotient gives $Qx_n\to Qx$ for
+some $x\in X$. Choose $m_n\in M$ with
+$\|x_n-x-m_n\|\leq\|Qx_n-Qx\|+1/n\to0$.
+Then $m_n$ is Cauchy, hence converges in $M$ to $m$. Therefore
+$x_n\to x+m$. The symbol $\mathcal H$ in the question should be $\mathcal X$.
+
+#### Solution III.4.6 — Keeping the even coordinates
+
+The map $R(x)=(x(2n))_n$ is a contraction onto $\ell^p$ with kernel $M$.
+Its right inverse inserts zeros in the odd coordinates and is an isometry.
+Every representative of a coset has norm at least that of its even coordinates,
+and the zero-filled representative attains that norm. Thus the induced
+bijection from $\ell^p/M$ to $\ell^p$ is an isometry, also for $p=\infty$.
+
+#### Solution III.4.7 — Restriction to a closed subset
+
+Restriction $R:C_0(X)\to C_0(F)$ is a contraction with kernel $M$.
+Extend $g\in C_0(F)$ by value zero at infinity on the closed subset
+$F\cup\{\infty\}$ of $X_\infty$. Tietze extends it to the compact space
+$X_\infty$. In the complex case extend its two components, then apply the
+continuous radial retraction onto the disk of radius $\|g\|_\infty$; this
+fixes the original values and ensures the sharp norm bound. Restricting to
+$X$ yields an extension in $C_0(X)$ of norm $\|g\|_\infty$.
+Consequently the quotient norm of its coset is exactly $\|g\|_\infty$,
+giving the asserted isometric isomorphism.
+
+#### Solution III.4.8 — Completeness and projections of sums
+
+(a) Minkowski for finite sums, followed by the supremum over finite subsets
+of $I$, proves the triangle inequality; for $p=\infty$ take suprema directly.
+The other axioms follow coordinatewise, and $\|x(i)\|\leq\|x\|$.
+(b) If each $X_i$ is complete, a Cauchy sequence has coordinate limits $x(i)$.
+For fixed $n$ in a Cauchy tail and each finite set $F$,
+$\sum_{i\in F}\|x_n(i)-x(i)\|^p\leq\varepsilon^p$, by passing to
+the limit in a finite sum. Taking the supremum over $F$ proves norm convergence;
+the maximum version proves the $p=\infty$ case. Conversely each coordinate
+copy of $X_i$ is an isometric closed subspace of the sum: a norm limit of
+vectors zero off $i$ is still zero off $i$. Completeness of the sum thus
+implies completeness of $X_i$.
+(c) The coordinate insertion $J_i$ has norm 1 on a nonzero space and
+$P_iJ_i=1$, so $P_i$ sends each open ball onto the corresponding open ball.
+It is surjective and open, without a completeness assumption.
+
+#### Solution III.4.9 — The vanishing sum
+
+For $\bigoplus_0 X_n$, coordinate projections are contractive open
+surjections and completeness is equivalent to completeness of every $X_n$.
+Indeed this sum is a linear subspace of the supremum sum. A uniform limit
+of coordinate sequences vanishing in norm at infinity also vanishes: choose
+one approximant within $\varepsilon/2$ and then its sufficiently small tail.
+It is therefore closed in the complete supremum sum when the factors are
+complete. Conversely the coordinate copies are closed. The single-coordinate
+insertions belong to the vanishing sum and prove openness exactly as above.
+
+#### Solution III.4.10 — Finite direct sums
+
+Apply III.1.3 to the scalar vector $(\|x(1)\|,\ldots,\|x(n)\|)$.
+It gives two positive bounds comparing any pair of the displayed sum norms,
+so their topologies coincide. No completeness of the factors is required.
+
+#### Solution III.4.11 — The solid-envelope qualification
+
+The assertion that the formula always defines a norm is false. Take
+$I=\{1,2,\ldots\}$ and let $Y$ be the restrictions of real polynomials to
+$I$, with norm $\|p\|_Y=\int_0^1|p(t)|\,dt$. This is a genuine norm
+because a polynomial is determined by these restrictions. For the scalar
+family $X_i=\mathbb R$, the nonzero vector $e_1$ is dominated on $I$ by
+$p_k(i)=i^k$, but $\|p_k\|_Y=1/(k+1)\to0$. Its proposed norm is zero.
+For complex $Y$, domination is understood to use its real nonnegative elements.
+
+Here is a precise necessary-and-sufficient formulation for the three conclusions
+of Proposition 4.4 to hold together, uniformly for all nonzero factors. Form the
+solid envelope
+$$E=\{a\in\mathbb F^I:|a|\leq y\text{ for some }y\in Y,\ y\geq0\},
+\qquad \rho(a)=\inf_{y\in Y,\ y\geq|a|}\|y\|_Y.$$
+The conditions are: $\rho$ is a complete norm on $E$;
+$|a(i)|\leq\rho(a)$ for every $i$; and $e_i\in E$ for every $i$.
+All are conditions on $Y$ through its explicitly defined envelope, so they
+do not require $Y$ itself to be a lattice or complete. More individually,
+the norm assertion in (a), for all factors, is equivalent to definiteness of
+$\rho$; the contraction assertion is exactly the displayed coordinate bound.
+Under (a), (c) is equivalent to $e_i\in E$, and under (a),(c), (b) is
+equivalent to completeness of $E$.
+
+Here are the details. Domination proves that $E$ is solid and that $\rho$
+is an absolute monotone seminorm: $|a|\leq|b|$ implies $\rho(a)\leq\rho(b)$.
+Addition and positive scaling of dominating elements give the seminorm axioms.
+The vector-valued norm is exactly $\rho((\|x(i)\|)_i)$, so these properties
+give (a) under the stated conditions. If $e_i\in E$, the insertion has
+norm $\rho(e_i)$; it is a bounded right inverse for $P_i$, proving (c).
+Conversely surjectivity gives a vector nonzero at $i$, whose dominating
+element also dominates a positive multiple of $e_i$.
+
+To prove completeness with complete factors, it suffices by III.4.2 to sum
+a series with $\sum_n\|x_n\|<\infty$. Put $a_n(i)=\|x_n(i)\|$.
+The series $\sum a_n$ converges in $E$ to $a$. Coordinate continuity makes
+$a(i)=\sum_n\|x_n(i)\|$, so $x(i)=\sum_nx_n(i)$ exists in each factor.
+Solidity and monotonicity bound the norm of every vector tail by
+$\rho(\sum_{n>N}a_n)\to0$. Thus the vector series converges in the sum.
+The coordinate copies, with norm $\rho(e_i)\|\cdot\|$, are closed by
+coordinate continuity, giving the reverse implication in (b). Finally,
+taking every factor to be $\mathbb F$ recovers $(E,\rho)$ itself, proving
+necessity of definiteness, the coordinate bounds, and completeness.
+
+#### Solution III.4.12 — Separability and quotients
+
+(a) The continuous surjective quotient map sends a countable dense set to
+a dense set: approximate a representative in $X$.
+(b) Choose a countable dense family $Qx_n$ in $X/M$ and a countable dense
+family $m_j$ in $M$. Then $\{x_n+m_j:n,j\geq1\}$ is dense in $X$.
+Indeed first make $\|Qx-Qx_n\|<\varepsilon/3$, choose $m\in M$ with
+$\|x-x_n-m\|<\varepsilon/2$, and then approximate $m$ by $m_j$.
+(c) Take $X=\ell^\infty$ and $M=\{x:x(1)=0\}$. Its quotient is
+one-dimensional, but $X$ is nonseparable by III.1.8.
+
+#### Solution III.4.13 — Separability of general sums
+
+Every coordinate space must be separable, as the image under its continuous
+surjective projection. If $I$ is uncountable, unit vectors in distinct
+coordinate spaces form an uncountable family separated by distance at least 1.
+Thus $I$ must be countable for finite $p$. Conversely rational finite
+combinations from countable dense sets in countably many factors are dense,
+because finite truncations approximate an $\ell^p$ sum.
+For the supremum sum, infinitely many nonzero factors contain an isometric
+copy of $\ell^\infty$: choose a unit vector in each of countably many factors
+and multiply by arbitrary bounded scalars. This is nonseparable. A finite
+sum of separable spaces is separable by taking products of dense sets.
+
+#### Solution III.4.14 — Separability of the vanishing sum
+
+Necessity follows from the coordinate projections. For sufficiency choose
+countable dense subsets in all factors and take all finite support vectors
+with coordinates in those sets (including zero). This family is countable.
+Every vector is approximated by a finite truncation, because its coordinate
+norms tend to zero; approximate the finitely many remaining coordinates next.
+
+#### Solution III.4.15 — Restriction to selected coordinates
+
+Restriction to $J$ is a contractive surjection with kernel $M$, and extending
+by zero is an isometric right inverse. Every representative has norm at least
+its restricted norm, and the zero extension attains this lower bound.
+The induced quotient map is therefore an isometric isomorphism for all the
+stated values of $p$.
+
+#### Solution III.4.16 — Hilbert quotients
+
+Write $x=m+u$ with $m\in M$ and $u\in M^\perp$ by orthogonal projection.
+Then $Qx=Qu$, proving surjectivity of the restriction. Pythagoras gives
+$\|u+v\|^2=\|u\|^2+\|v\|^2$ for every $v\in M$, so
+$\|Qu\|=\inf_{v\in M}\|u+v\|=\|u\|$. This proves both isometry and
+injectivity.
+
+### §5. Linear Functionals
+
+#### Solution III.5.1 — Closing the dual inside bounded functions
+
+In the construction in Proposition 5.4, $f(x)=\lim_nf_n(x)$ for every
+$x$: scale $x$ into the unit ball and use the defining formula. Consequently
+$f(ax+by)=af(x)+bf(y)$ by taking scalar limits. For $\|x\|\leq1$ its
+definition gives $f(x)=g(x)$, and scaling gives
+$|f(x)|\leq\|g\|_\infty\|x\|$. Thus $f\in X^*$ and $\rho(f)=g$.
+The image of $\rho$ is closed in a Banach space, proving completeness.
+
+#### Solution III.5.2 — The dual norm axioms
+
+For $\|x\|\leq1$, $|(af)(x)|=|a||f(x)|$ and
+$|(f+g)(x)|\leq|f(x)|+|g(x)|$. Taking suprema gives homogeneity and
+the triangle inequality. If $\|f\|=0$, $f$ vanishes on the unit ball,
+and scaling any nonzero vector into that ball shows $f=0$. These operations
+preserve boundedness and linearity, so $X^*$ is a normed vector space.
+
+#### Solution III.5.3 — Why a measure hypothesis is needed
+
+Let $X=\{a\}$, with all subsets measurable, and $\mu(\{a\})=\infty$.
+This is not sigma-finite. Every integrable function is zero, so $L^1=\{0\}$,
+whereas $L^\infty=\mathbb F$ with its usual norm. All $g$ induce the same
+zero functional on $L^1$. The asserted isometric isomorphism therefore fails.
+
+#### Solution III.5.4 — The dual of a finite-exponent sum
+
+For $g=(g_i)\in\bigoplus_qX_i^*$ define
+$F_g(x)=\sum_i g_i(x(i))$. Hölder gives absolute convergence and
+$|F_g(x)|\leq\|g\|_q\|x\|_p$. Conversely restrict $F$ to each
+coordinate copy to obtain $g_i$. For any finite $E\subseteq I$, choose unit
+vectors on which each $g_i$ nearly attains its norm, and multiply them by
+phases making their images nonnegative. Maximizing
+$\sum_{i\in E}a_i\|g_i\|$ over $a_i\geq0$, $\sum a_i^p\leq1$ gives
+$(\sum_{i\in E}\|g_i\|^q)^{1/q}$ for $p>1$ (choose $a_i$ proportional
+to $\|g_i\|^{q-1}$), or $\max_{i\in E}\|g_i\|$ for $p=1$.
+Letting the approximation errors tend to zero proves $\|g\|_q\leq\|F\|$.
+Finite support vectors are dense for finite $p$, so $F=F_g$ everywhere.
+The two norm inequalities prove the isometric bijection, including $q=\infty$.
+
+#### Solution III.5.5 — The dual of a vanishing sum
+
+Restrict $F$ to each coordinate and call the resulting functional $g_n$.
+For a finite set $E$, choose unit vectors and phases as above. The vector
+with those coordinates has supremum norm at most 1, so
+$\sum_{n\in E}\|g_n\|\leq\|F\|$ after taking approximation limits.
+Thus $\sum_n\|g_n\|<\infty$. Conversely this condition makes
+$F_g(x)=\sum_ng_n(x(n))$ bounded by $\sum_n\|g_n\|\|x\|_\infty$.
+Finite truncations are dense in the vanishing sum, so restrictions determine
+$F$ uniquely. The finite tests prove equality of the two norms.
+
+#### Solution III.5.6 — Functionals on differentiable functions
+
+The map
+$Jf=(f(0),\ldots,f^{(n-1)}(0),f^{(n)})$ is a linear bijection onto
+$\mathbb F^n\oplus C[0,1]$: its inverse is the integral Taylor formula
+in III.1.14. With the sum norm it is an isometry for the new norm in the
+question. That formula bounds every lower derivative uniformly by a constant
+times this new norm, while each term in the new norm is bounded by the old
+maximum norm. The norms are equivalent.
+Restricting a bounded functional on this finite sum to its factors gives
+scalars $\alpha_k$ and, by the Riesz representation theorem, a finite measure
+$\mu$ on the last factor. This gives exactly the displayed formula for $L$,
+and the converse follows from its norm estimate. The dual of a sum norm is
+a maximum norm, either by III.5.4 or by testing one coordinate at a time:
+$$\|L\|=\max\bigl(|\alpha_0|,\ldots,|\alpha_{n-1}|,\|\mu\|\bigr).$$
+
+#### Solution III.5.7 — Point evaluation in the integral norm
+
+Take the triangular functions
+$f_n(t)=\max(1-n|t-1/2|,0)$, $n\geq2$. Their values at $1/2$ are 1
+and their integrals are $1/n$. Thus no fixed bound for $L$ is possible.
+Alternatively a bounded $L$ would extend by continuity to the completion
+$L^1[0,1]$ (continuous functions are dense there), and Theorem 5.6 would give
+$L(f)=\int fg$ for some $g\in L^\infty$. Then
+$1=|L(f_n)|\leq\|g\|_\infty/n$, again impossible.
+
+### §6. The Hahn–Banach Theorem
+
+#### Solution III.6.1 — Real and complex linear functionals
+
+For real-linear $f$, $\widetilde f(x)=f(x)-if(ix)$ is additive and
+real-homogeneous; moreover
+$\widetilde f(ix)=f(ix)+if(x)=i\widetilde f(x)$, proving complex
+linearity. Its real part is $f$. If $g$ is complex-linear, then
+$\operatorname{Re}g(ix)=-\operatorname{Im}g(x)$, so this construction
+from $\operatorname{Re}g$ recovers $g$.
+The implication $|\widetilde f|\leq p\Rightarrow|f|\leq p$ is immediate.
+For the reverse choose $|\lambda|=1$ with
+$\lambda\widetilde f(x)=|\widetilde f(x)|$; then
+$|\widetilde f(x)|=f(\lambda x)\leq p(\lambda x)=p(x)$.
+Apply this equivalence to $p(x)=C\|x\|$ and take the least possible $C$
+to obtain equality of the real and complex functional norms.
+
+#### Solution III.6.2 — Norm-preserving extension
+
+The seminorm $p(x)=\|f\|\|x\|$ dominates $|f|$ on $M$. Corollary 6.4
+extends $f$ to a linear $F$ with $|F(x)|\leq p(x)$, so
+$\|F\|\leq\|f\|$. Restriction to the unit ball of $M$ gives the reverse
+inequality. If $f=0$, its zero extension also handles the conclusion directly.
+
+#### Solution III.6.3 — The dual of convergent sequences
+
+Identify $c$ with $C(K)$ for $K=\{0\}\cup\{1/n:n\geq1\}$ as in III.1.6.
+A finite measure on this countable compact space is the sum of its atoms,
+with total variation the sum of their moduli. Thus every functional has a
+unique expression
+$$F(x)=a_\infty\lim_nx_n+\sum_{n=1}^\infty a_nx_n,\qquad
+\|F\|=|a_\infty|+\sum_n|a_n|.$$
+The index set $\mathbb N\cup\{\infty\}$ is countably infinite, so this
+is an isometric copy of $\ell^1$.
+Nevertheless $c$ and $c_0$ are not isometrically isomorphic. The unit ball
+of $c$ has an extreme point, the constant sequence 1: if $1=(u+v)/2$
+with $\|u\|,\|v\|\leq1$, each scalar coordinate must equal 1 in both.
+The unit ball of $c_0$ has no extreme point: some coordinate has modulus
+strictly below 1, and perturbing just that coordinate by a sufficiently small
+nonzero scalar in opposite directions gives a nontrivial midpoint decomposition.
+Linear isometries preserve extreme points.
+
+#### Solution III.6.4 — Vanishing moments
+
+For a finite signed or complex Borel measure, the moment conditions make its
+integral zero on all polynomials. Polynomials are uniformly dense in $C[0,1]$
+by Weierstrass approximation. The inequality
+$|\int(f-p)\,d\mu|\leq\|f-p\|_\infty\|\mu\|$ then shows the integral
+vanishes on every continuous function. Uniqueness in the Riesz representation
+theorem gives $\mu=0$. Finiteness is the bounded-measure convention needed
+here; the existence of arbitrary improper moments is not a substitute.
+
+#### Solution III.6.5 — Representing finitely many derivative data
+
+On the polynomial space $P_n$ the map
+$L(p)=\sum_{k=1}^np^{(k)}(k/n)$ is linear. This space is finite-dimensional,
+so $L$ is bounded for the supremum norm on $[0,1]$. Hahn–Banach extends it
+to $C[0,1]$ and Riesz represents the extension by a finite measure. Explicitly,
+choose $n+1$ distinct nodes $t_j$ and their Lagrange polynomials $\ell_j$.
+The atomic measure $\sum_{j=0}^nL(\ell_j)\delta_{t_j}$ works because
+$p=\sum_jp(t_j)\ell_j$. It need not be positive.
+
+#### Solution III.6.6 — A measure for a bounded degree
+
+Yes. With the same interpolation basis as above use
+$\mu_n=\sum_{j=0}^n\ell_j'(0)\delta_{t_j}$.
+Differentiating the finite interpolation identity gives
+$p'(0)=\sum_jp(t_j)\ell_j'(0)=\int p\,d\mu_n$ for every $p\in P_n$.
+This is a finite signed measure, and its dependence on $n$ is essential.
+
+#### Solution III.6.7 — No single measure for every degree
+
+For $p_m(t)=(1-t)^m$ one has $\|p_m\|_\infty=1$ but $p_m'(0)=-m$.
+If a finite measure represented differentiation at zero on every polynomial,
+the inequality $|\int p_m\,d\mu|\leq\|\mu\|$ would give
+$m\leq\|\mu\|$ for every $m$, a contradiction.
+
+#### Solution III.6.8 — A boundary representing probability measure
+
+The maximum-modulus principle gives
+$\|f\|_K=\|f\|_{\partial K}$ for $f\in A(K)$: on each bounded
+component of the interior a larger interior maximum would force constancy,
+and its boundary lies in $\partial K$. The complex-analysis supplement
+proves the maximum principle from Cauchy's formula. Hence evaluation at $a$
+defines a norm-1 functional on the restrictions of $A(K)$ to $\partial K$,
+and sends 1 to 1. Hahn–Banach and Riesz extend and represent it by $\mu$
+with $\|\mu\|=\mu(\partial K)=1$. Such a measure is positive:
+for every Borel $E$,
+$$1=\mu(E)+\mu(E^c),\qquad
+|\mu(E)|+|\mu(E^c)|\leq1.$$
+Equality in the triangle inequality forces both summands to be nonnegative
+real numbers. Thus $\mu$ is a probability measure supported on the boundary.
+
+#### Solution III.6.9 — The disk formula
+
+For $|a|<1$ take
+$$d\mu_a(e^{it})=\frac{1-|a|^2}{|e^{it}-a|^2}\,\frac{dt}{2\pi};$$
+for $|a|=1$ take $\delta_a$. To verify the interior formula without assuming
+Poisson theory, expand the geometric series to obtain
+$$\frac{1-|a|^2}{|e^{it}-a|^2}
+=1+\sum_{k\geq1}(a^ke^{-ikt}+\overline a^{,k}e^{ikt}).$$
+The series is uniformly absolutely convergent. Integration against $e^{int}$
+therefore gives $a^n$ for $n\geq0$, including mass 1 for $n=0$; the density
+is nonnegative. This proves the formula for analytic polynomials. For a disk
+algebra function, $f(rz)\to f(z)$ uniformly on the closed disk by uniform
+continuity, and each $f(rz)$ has uniformly convergent Taylor polynomials there
+because its radius of analyticity exceeds 1. Passing through these two
+uniform limits proves the formula for all $f\in A(\overline{\mathbb D})$.
+Uniqueness among real measures follows from the next solution.
+
+#### Solution III.6.10 — Real and complex annihilators
+
+For a real measure, conjugating $\int z^n\,d\mu=0$ gives
+$\int\overline z^{,n}\,d\mu=0$. Hence all trigonometric polynomials
+have zero integral. They are uniformly dense in continuous functions on the
+circle (Stone–Weierstrass, or the trigonometric approximation proved with
+Fourier theory), so Riesz uniqueness gives $\mu=0$.
+In contrast the nonzero complex measure
+$d\mu(e^{it})=e^{it}\,dt/(2\pi)$ has
+$\int z^n\,d\mu=\int e^{i(n+1)t}\,dt/(2\pi)=0$ for every $n\geq0$.
+
+### §7. Banach Limits
+
+#### Solution III.7.1 — A Banach limit is not multiplicative
+
+Let $x_n=(-1)^n$. Its shift is $-x$, so shift invariance gives $L(x)=0$.
+But $x^2=1$ and $L(1)=1$. Taking $y=x$ yields
+$L(xy)=1\ne0=L(x)L(y)$.
+
+#### Solution III.7.2 — Total variation equal to mass
+
+Put $M=\mu(X)=\|\mu\|\geq0$. For any measurable $E$,
+$M=|\mu(E)+\mu(E^c)|\leq|\mu(E)|+|\mu(E^c)|\leq M$.
+Thus equality holds. If $M=0$, the measure is zero. Otherwise equality in
+the complex triangle inequality says the two summands have the same argument
+when nonzero, and their sum is positive real. Both are therefore nonnegative
+real, in particular $\mu(E)\geq0$.
+
+#### Solution III.7.3 — Uniform approximation by finite ranges
+
+The closed scalar unit disk (the interval in the real case) has a finite
+$1/n$-net $F_n$ contained in it, by compactness. For each coordinate choose
+a nearest element of $F_n$ within $1/n$ of $x(j)$, and use it as $x_n(j)$.
+Then $x_n$ has finite range, $\|x_n\|_\infty\leq1$, and
+$\|x_n-x\|_\infty\leq1/n$. No convergence of the original sequence's
+coordinates as $j\to\infty$ is required.
+
+### §8. Runge's Theorem
+
+#### Solution III.8.1 — Continuity of an area Cauchy transform
+
+Write $d\mu=h\,dA$ with $h$ bounded and supported in a compact set $K$.
+The source uses $\widehat\mu(w)=\int(z-w)^{-1}\,d\mu(z)$ wherever
+absolutely defined. Its integral over a disk of radius $r$ centered at $w$
+has absolute value at most $2\pi r\|h\|_\infty$, by polar coordinates.
+Fix $w_0$ and split the difference of the two transforms into
+$B(w_0,2r)$ and its complement. For $|w-w_0|<r$, the two singular
+integrals over that disk are bounded in sum by $10\pi r\|h\|_\infty$.
+On the complement the kernels converge pointwise and are bounded by $1/r$,
+so dominated convergence with the finite measure $|\mu|$ makes their
+difference integral tend to zero. First choose small $r$, then $w$ near
+$w_0$. This proves continuity at every finite point. If $K\subset B(0,R)$,
+$|\widehat\mu(w)|\leq\|\mu\|/(|w|-R)$ for $|w|>R$; assigning value
+zero at infinity makes it continuous on the sphere.
+
+#### Solution III.8.2 — The interval Cauchy transform
+
+At every $a\in[0,1]$, $\int_0^1|t-a|^{-1}\,dt=\infty$, so the ordinary
+Lebesgue integral defining the transform does not exist there. Moreover there
+is no continuous extension from its complement. For $0<a<1$ and $y\ne0$,
+$$\operatorname{Im}\widehat m(a+iy)
+=\int_0^1\frac{y}{(t-a)^2+y^2}\,dt\longrightarrow
+\begin{cases}\pi&y\downarrow0,\\-\pi&y\uparrow0.\end{cases}$$
+The unequal limits rule out continuity for any assigned value on the interval.
+At zero, approaching along negative real numbers gives
+$\int_0^1(t+s)^{-1}\,dt=\log(1+s)-\log s\to\infty$;
+at one the approach from the right diverges similarly. A principal value in
+the interior, if chosen, does not remove the two-sided jump.
+
+### §9. Ordered Vector Spaces
+
+#### Solution III.9.1 — Orders and wedges
+
+If $x,y\geq0$, translation gives $x+y\geq y\geq0$, and positive scalar
+compatibility gives $tx\geq0$ for $t\geq0$. Also $0\geq0$, so the
+positive set is a nonempty wedge. Conversely a wedge contains zero by
+scaling any element by zero. The rule $x\leq y$ iff $y-x\in P$ is
+reflexive, transitive by addition in $P$, invariant under translation because
+differences are unchanged, and preserved by nonnegative scaling. These are
+exactly the four stated order axioms; antisymmetry is not assumed.
+
+#### Solution III.9.2 — Antisymmetry
+
+If the order is antisymmetric, $u\in P\cap(-P)$ means $0\leq u\leq0$,
+so $u=0$. Conversely $x\leq y\leq x$ puts $y-x$ and $x-y$ in $P$;
+if $P\cap(-P)=\{0\}$, then $x=y$.
+
+#### Solution III.9.3 — A local characterization of order units
+
+An order unit is positive (apply the definition to $x=0$). If
+$-ne\leq x\leq ne$, then for $0\leq t\leq1/n$,
+$e\pm tx=(1-nt)e+t(ne\pm x)\geq0$.
+Conversely take $\delta>0$ as in the question and use $t=\delta$ to
+obtain $-\delta^{-1}e\leq x\leq\delta^{-1}e$. Since the same condition
+at $t=0$ gives $e\geq0$, increasing $\delta^{-1}$ to a positive integer
+proves the order-unit condition.
+
+#### Solution III.9.4 — No order unit in all continuous functions
+
+If $e$ were an order unit it would dominate the constant 1 up to an integer
+factor, hence be strictly positive. But the continuous function
+$f(t)=(1+|t|)e(t)$ cannot satisfy $f\leq ne$ for any fixed $n$.
+This contradicts the definition.
+
+#### Solution III.9.5 — Sublinearity of the extension bound
+
+For each $x$, Claim 9.10 gives $y_-\leq x\leq y_+$ in $Y$.
+For any $y\in Y$ with $y\geq x$, positivity of $f$ gives
+$f(y)\geq f(y_-)$; thus the infimum defining $q(x)$ is finite.
+For $\varepsilon>0$ choose $u\geq x$, $v\geq z$ in $Y$ with
+$f(u)<q(x)+\varepsilon$ and $f(v)<q(z)+\varepsilon$. Then
+$q(x+z)\leq f(u+v)<q(x)+q(z)+2\varepsilon$; let $\varepsilon\to0$.
+For $t>0$, scaling gives a bijection between the competitors for $q(x)$ and
+$q(tx)$, proving $q(tx)=tq(x)$. Positivity and the competitor zero give
+$q(0)=0$, also handling $t=0$.
+
+#### Solution III.9.6 — Order units of bounded continuous functions
+
+They are exactly the functions $e$ with $\inf_Xe>0$ (for a nonempty $X$).
+Necessity follows by dominating the constant function 1: $1\leq ne$.
+For sufficiency choose an integer $n$ with
+$n\inf e\geq\|f\|_\infty$; then $-ne\leq f\leq ne$.
+Thus 1 is always an order unit. A negative nonzero constant is not an order
+unit; the example in the source saying any nonzero constant must be read
+as any strictly positive constant.
+
+#### Solution III.9.7 — Order units of functions vanishing at infinity
+
+If $X$ is compact, the answer is again $\inf e>0$. If $X$ is noncompact,
+there are no order units. Indeed an order unit must satisfy $e(x)>0$ at
+each point, since a compactly supported function can be nonzero there.
+Then $\sqrt e\in C_0(X)$, and domination $\sqrt e\leq ne$ would force
+$e\geq1/n^2$ everywhere. Since $e$ vanishes at infinity this would make
+$X=\{e\geq1/n^2\}$ compact, a contradiction. For the empty space the
+unique zero vector satisfies the definition vacuously.
+
+#### Solution III.9.8 — The ambient matrix space matters
+
+There are no order units in the full real vector space $M_2(\mathbb R)$
+with the stated positive wedge. If $e$ were one, it would be positive and
+symmetric. The inequalities $-ne\leq A\leq ne$ require both $ne-A$ and
+$ne+A$ to be symmetric, forcing $A$ symmetric. This is impossible for a
+nonsymmetric matrix. On the smaller space of symmetric matrices, the order
+units would be exactly the positive definite matrices: a positive minimum
+eigenvalue dominates $\|A\|I$, whereas a zero eigenvector prevents domination
+of $I$. This distinction is essential in the printed question.
+
+#### Solution III.9.9 — No order units in a finite-exponent space
+
+Almost-everywhere inequalities are well defined on $L^p$ equivalence classes
+and satisfy all four order axioms. Suppose $e$ is an order unit. It must
+be positive almost everywhere, since it must dominate 1. The finite nonatomic
+measure $\nu(E)=\int_E e^p\,dt$ has positive total mass. Choose disjoint
+sets $E_n$ of positive $\nu$-measure with
+$\nu(E_n)\leq2^{-n}n^{-p}$; nonatomicity allows successive pieces of
+arbitrarily small positive measure. Then
+$f=e\sum_n n\chi_{E_n}$ satisfies
+$\|f\|_p^p=\sum_n n^p\nu(E_n)<\infty$, but $f/e$ is unbounded on
+sets of positive measure. No integer multiple of $e$ dominates $f$.
+
+### §10. The Dual of a Quotient Space and a Subspace
+
+There are no numbered exercises in this section in the source edition.
+
+### §11. Reflexive Spaces
+
+#### Solution III.11.1 — The two triple-dual expressions
+
+By definition $(X^*)^{**}=((X^*)^*)^*=(X^{**})^*$.
+These are literally the same space of bounded linear functionals on $X^{**}$,
+with the same evaluation and operator norm, not merely isomorphic spaces.
+
+#### Solution III.11.2 — Reflexivity of bounded continuous functions
+
+If $X$ is finite, $C_b(X)$ is finite-dimensional and hence reflexive.
+For an infinite locally compact Hausdorff space there are countably many
+pairwise disjoint nonempty open sets $U_n$. Start with an infinite open set.
+If it has an isolated point, take that singleton as the next $U_n$ and
+retain the infinite open remainder. If it has no isolated points, choose
+two disjoint nonempty open subsets using Hausdorffness; both are infinite,
+so take one as $U_n$ and retain the other. Repeat inside the retained set.
+Regularity
+allows shrinking the chosen sets and constructing $f_n\in C_c(U_n)$ with
+$0\leq f_n\leq1$ and $f_n(x_n)=1$. The map
+$(a_n)\mapsto\sum_na_nf_n$ is an isometry of $c_0$ into $C_b(X)$:
+the series converges uniformly, disjointness gives the upper norm bound,
+and evaluation at $x_n$ gives equality. Its range is closed.
+But $c_0$ is not reflexive since its bidual is $\ell^\infty$ and its
+canonical image consists of the sequences tending to zero. Closed subspaces
+of a reflexive space are reflexive, as proved in III.11.4. This contradiction
+proves necessity.
+
+#### Solution III.11.3 — The bidual inclusion
+
+Let $r:X^*\to M^*$ be restriction and set
+$\phi(m^{**})(f)=m^{**}(rf)$. Restriction is contractive, and Hahn–Banach
+lifts every element of the unit ball of $M^*$ to one of the unit ball of
+$X^*$. Taking suprema therefore gives $\|\phi(m^{**})\|=\|m^{**}\|$.
+For $m\in M$, evaluation gives
+$\phi(\rho_Mm)(f)=f(m)=\rho_X(i(m))(f)$, proving commutativity.
+Its image annihilates $\ker r=M^\perp$. Conversely if $u\in X^{**}$
+annihilates this kernel, define $m^{**}(g)=u(f)$ using any extension $f$
+of $g$. Kernel annihilation makes it independent of the extension, and a
+norm-preserving extension gives $|m^{**}(g)|\leq\|u\|\|g\|$.
+Then $\phi(m^{**})=u$, proving the image assertion.
+
+#### Solution III.11.4 — Reflexivity passes to closed subspaces
+
+Given $m^{**}\in M^{**}$, reflexivity of $X$ supplies $x\in X$ with
+$\phi(m^{**})=\rho_Xx$. The image description in III.11.3 says that
+$f(x)=0$ for every $f$ vanishing on $M$. Hahn–Banach separates every
+point outside the closed subspace $M$ from $M$, so $x\in M$.
+Commutativity and injectivity of $\phi$ now give $m^{**}=\rho_Mx$.
+Thus the canonical map of $M$ onto $M^{**}$ is surjective.
+
+### §12. The Open Mapping and Closed Graph Theorems
+
+#### Solution III.12.1 — A nonmeagre range is closed
+
+Put $R=\operatorname{ran}A$ with its relative norm topology. Since
+$R=\bigcup_{n\geq1}A(nB_X)$, second category implies that for some $n$
+the closure in $R$ of $A(nB_X)$ has nonempty interior. Taking differences
+and scaling yields $B_R(0,\delta)\subseteq\overline{A(B_X)}^{,R}$ for
+some $\delta>0$. The same inclusion holds with $R$ replaced by its ambient
+closure and the closure on the right taken there, by density.
+For $y\in\overline R$ with $\|y\|<\delta/2$, choose successively
+$\|x_k\|\leq2^{-k}$ so the residual after $k$ terms has norm below
+$\delta2^{-(k+1)}$. This follows by scaling the closure inclusion at each
+step, starting with $k=1$. Completeness of $X$ makes $\sum x_k$ converge;
+continuity of $A$ gives $A\sum x_k=y$. Thus a neighborhood of zero in
+$\overline R$ lies in $R$, and linearity gives $R=\overline R$.
+If “second category” is instead read in $Y$, it implies the same conclusion
+and in fact surjectivity by the usual open-mapping argument.
+
+#### Solution III.12.2 — An unbounded derivative
+
+For $f_n(t)=t^n$, $\|f_n\|_\infty=1$ and
+$\|Af_n\|_\infty=\|nt^{n-1}\|_\infty=n$.
+There is no uniform operator bound. The domain with the supremum norm is
+not complete, so this does not contradict the closed graph theorem.
+
+#### Solution III.12.3 — Testing a graph at zero
+
+If the graph is closed and $x_n\to0$, $Ax_n\to y$, then
+$(0,y)$ belongs to the graph, so $y=A0=0$. Conversely suppose the test
+holds. If $(x_n,Ax_n)\to(x,y)$, apply it to $x_n-x$ and use linearity
+to get $y-Ax=0$. Every convergent sequence from the graph therefore has
+its limit in the graph. The product of normed spaces is metrizable, so this
+is equivalent to closedness.
+
+#### Solution III.12.4 — Comparable complete norms
+
+The inclusion of topologies makes the identity map
+$(X,\|\cdot\|_1)\to(X,\|\cdot\|_2)$ continuous. It is a linear
+bijection between Banach spaces. The open mapping theorem makes its inverse
+continuous, proving equality of the topologies and equivalence of the norms.
+
+#### Solution III.12.5 — Operators bounded below
+
+If $\|Ax\|\geq c\|x\|$, the kernel is zero. Whenever $Ax_n$ converges,
+the lower bound makes $x_n$ Cauchy, so it converges in $X$ to $x$ and the
+image limit is $Ax$. Thus the range is closed. Conversely a closed range
+is Banach; the bounded bijection $A:X\to\operatorname{ran}A$ has bounded
+inverse. Its bound $\|x\|\leq C\|Ax\|$ is the desired lower estimate.
+The zero domain is harmless and satisfies every positive lower bound.
+
+#### Solution III.12.6 — Uniformly bounded extensions
+
+With the inherited supremum norm, restriction
+$R:\mathcal X\to C(E)$ is a bounded surjection between Banach spaces.
+The open mapping theorem gives $\delta>0$ with
+$B_{C(E)}(0,\delta)\subseteq R(B_{\mathcal X}(0,1))$.
+For $g\ne0$, apply this to $\delta g/(2\|g\|_\infty)$ and rescale
+to obtain an extension with norm at most $2\|g\|_\infty/\delta$.
+Use the zero extension for $g=0$. This produces a common bound, without
+claiming that the choice of extensions is linear.
+
+#### Solution III.12.7 — An everywhere defined matrix operator
+
+For fixed $i$, the finite row functionals
+$r_{i,N}(f)=\sum_{j\leq N}\alpha_{ij}f(j)$ are continuous on $\ell^p$.
+The assumed convergence of each row series makes them pointwise bounded.
+Uniform boundedness gives $\sup_N\|r_{i,N}\|<\infty$, so the limit row
+functional $r_i$ is continuous. If $f_n\to f$ and $Af_n\to g$ in
+$\ell^p$, coordinate continuity and row continuity give
+$g(i)=\lim_nr_i(f_n)=r_i(f)=(Af)(i)$ for every $i$.
+Thus $g=Af$, the graph is closed, and the closed graph theorem proves
+boundedness, including $p=\infty$.
+
+#### Solution III.12.8 — An everywhere defined integral operator
+
+It suffices to test a convergent graph sequence at zero. Suppose $f_n\to0$
+and $Kf_n\to g$ in $L^p$. Pass to a subsequence with
+$\sum_n\|f_n\|_p<\infty$ and put $h=\sum_n|f_n|\in L^p$.
+This membership follows from Minkowski for partial sums and monotone
+convergence. Also $f_n\to0$ almost everywhere, since $h$ is finite almost
+everywhere. By the hypothesis applied to $h$,
+$\int|k(x,y)|h(y)\,d\mu(y)<\infty$ for almost every $x$.
+For such $x$, dominated convergence in $y$ gives $Kf_n(x)\to0$.
+A further subsequence of an $L^p$-convergent sequence converges almost
+everywhere: choose summable norms of its differences from $g$ and use the
+same argument. Hence $g=0$ almost everywhere. The closed graph theorem
+now applies to the linear, everywhere defined map on the Banach space $L^p$.
+
+### §13. Complemented Subspaces
+
+#### Solution III.13.1 — Algebraic complements
+
+Choose a Hamel basis of $M$ and extend it to a Hamel basis of $X$. Let
+$N$ be the span of the added basis vectors. Unique finite basis expansions
+give $X=M+N$ and $M\cap N=\{0\}$. This argument uses the usual choice
+principle for bases and proves no closedness or continuity.
+
+#### Solution III.13.2 — A projection with closed range and kernel
+
+If $x_n\to x$ and $Ex_n\to y$, closedness of the range gives
+$y\in\operatorname{ran}E$. Since $x_n-Ex_n\in\ker E$, closedness of
+the kernel gives $x-y\in\ker E$. Idempotence implies $Ey=y$, so
+$Ex=Ey=y$. The graph is closed, and the closed graph theorem on $X$
+shows that $E$ is bounded.
+
+#### Solution III.13.3 — Projections and topological complements
+
+(a) Uniqueness of $x=m+n$ makes $E(m+n)=m$ a linear well-defined map,
+with $E^2=E$, range $M$, and kernel $N$. Both are closed by the definition
+of complementary subspaces, so III.13.2 gives continuity.
+(b) For a bounded idempotent, $\operatorname{ran}E=\ker(I-E)$ and
+$\ker E$ are closed. The decomposition $x=Ex+(x-Ex)$ places the two
+terms in the range and kernel, respectively; their intersection is zero
+since $Ez=z$ and $Ez=0$ there. Thus they are complementary.
+
+#### Solution III.13.4 — Complements and quotient spaces
+
+For any closed complement $N$, the restriction $Q|_N:N\to X/M$ is a
+bounded bijection: decomposition proves surjectivity and $M\cap N=0$
+proves injectivity. Both spaces are Banach, so its inverse is bounded.
+Hence every topological complement is isomorphic to $X/M$. An arbitrary
+algebraic complement need not be closed and is not what is asserted here.
+
+#### Solution III.13.5 — A simultaneous extension gives a projection
+
+Let $R:C(X)\to C(Y)$ be restriction. By assumption $RT=I$, so
+$P=TR$ is a bounded idempotent. Its kernel is $\ker R$: if $TRf=0$,
+applying $R$ gives $Rf=0$. Thus $I-P$ is a bounded projection onto
+$\ker R=C_0(X\setminus Y)$, proving that subspace is complemented.
+
+#### Solution III.13.6 — Interpolation across the gaps
+
+If $Y$ is empty, take the zero map. Otherwise set $Tg=g$ on $Y$.
+On a component $(a,b)$ of its complement with both endpoints in $Y$, use
+$$Tg(t)=\frac{b-t}{b-a}g(a)+\frac{t-a}{b-a}g(b).$$
+On an end component touching 0 or 1, use the constant value at its one
+endpoint in $Y$. This is linear and satisfies $\|Tg\|_\infty\leq\|g\|_\infty$.
+Continuity within gaps is explicit. At a point of $Y$, gaps whose lengths
+tend to zero have both endpoints nearby, so uniform continuity of $g$ gives
+continuity of their convex combinations. Only finitely many disjoint gaps
+have length above any fixed positive threshold; near an endpoint of one
+of these, the displayed affine formula is continuous. These two observations
+cover every approach to $Y$, proving $Tg\in C[0,1]$ and hence the result.
+
+#### Solution III.13.7 — Retractions
+
+If $r:X\to Y$ is a continuous retraction, set $Tg=g\circ r$.
+It is a bounded linear map of norm at most 1, and $Tg|_Y=g$ because
+$r|_Y=I$. It is therefore a simultaneous extension, so III.13.5 supplies
+the bounded projection onto the stated subspace.
+
+### §14. Uniform Boundedness
+
+#### Solution III.14.1 — The Baire proof
+
+Each $B_n=\bigcap_{A\in\mathcal A}\{x:\|Ax\|\leq n\}$ is closed.
+Pointwise boundedness says their countable union is $X$. Since $X$ is
+Banach, Baire gives $B(x_0,r)\subseteq B_N$ for some $N,r>0$.
+For $\|h\|<r$, both $x_0+h$ and $x_0$ belong to $B_N$, so
+$\|Ah\|\leq2N$ uniformly in $A$. Scaling and taking a limit as
+$\|h\|\uparrow r$ gives $\|A\|\leq2N/r$ for all $A$.
+
+#### Solution III.14.2 — Testing weak convergence in sequence spaces
+
+Necessity of the coordinate limits follows by testing on $e_j$. The
+functionals $y\mapsto\sum_jx_n(j)y(j)$ on $\ell^q$ have norms
+$\|x_n\|_p$; uniform boundedness gives a common bound $C$.
+Conversely, for $y\in\ell^q$ choose a finite truncation $y_F$ with
+$\|y-y_F\|_q<\varepsilon/(C+1)$. Hölder bounds the tail pairing by
+$\varepsilon$, uniformly in $n$, and the finite-coordinate pairing tends
+to zero. Let $\varepsilon\downarrow0$. Here $q<\infty$ ensures that
+finite truncations are dense.
+
+#### Solution III.14.3 — Testing the pairing with vanishing sequences
+
+The dual of $c_0$ is $\ell^1$, so uniform boundedness of the pairings on
+$c_0$ gives a common bound for $\|x_n\|_1$; tests on $e_j$ give the
+coordinate limits. Conversely truncate $y\in c_0$ so its supremum tail
+is small. Then
+$|\sum_{j\notin F}x_n(j)y(j)|\leq C\sup_{j\notin F}|y(j)|$,
+and the remaining finite sum tends to zero. This proves the equivalence.
+
+#### Solution III.14.4 — Testing on finite-measure sets
+
+Necessity of the integral tests follows because $\chi_E\in L^q$ for
+$\mu(E)<\infty$. The pairing with $f_n$ has norm $\|f_n\|_p$ on
+$L^q$ (test on the usual normalized conjugate power of $f_n$), so uniform
+boundedness gives the common bound. Conversely simple functions supported
+on finite-measure sets are dense in $L^q$, even without sigma-finiteness:
+truncate a function to $\{1/m\leq|g|\leq m\}$, a finite-measure set,
+then approximate its bounded range by a finite grid. The tests give convergence
+on these simple functions. Hölder and the common bound extend it to every
+$g\in L^q$ by the same approximation estimate as III.14.2.
+
+#### Solution III.14.5 — Testing $L^1$ against all indicators
+
+Necessity follows from testing $\chi_E$ and from uniform boundedness on
+$L^\infty$, since the pairing norm is $\|f_n\|_1$. Conversely every
+bounded measurable function can be approximated in essential supremum norm
+by a simple function: partition its bounded scalar range into finitely many
+small sets. The assumed integrals converge for each simple function, and
+the error is at most $C\|g-s\|_\infty$. This proves convergence for all
+$g\in L^\infty$. Unlike III.14.4, the simple functions need not have
+finite-measure support.
+
+#### Solution III.14.6 — Testing on an orthonormal basis
+
+Necessity follows from uniform boundedness of $h\mapsto\langle h_n,h\rangle$
+and tests on basis vectors (or use the conjugate linear convention with
+the variables reversed). For sufficiency approximate $h$ by a finite linear
+combination $v$ of basis vectors. Then
+$|\langle h_n,h-v\rangle|\leq C\|h-v\|$, uniformly in $n$,
+while $\langle h_n,v\rangle\to0$. Density of the basis span and
+Cauchy–Schwarz prove the result, with no countability assumption on the basis.
+
+#### Solution III.14.7 — Weak convergence of measures
+
+For every Borel set $E$, evaluation $\mu\mapsto\mu(E)$ is a bounded
+linear functional on $M(X)$ of norm at most 1. Thus weak convergence to
+zero implies the setwise tests, and uniform boundedness on $M(X)^*$,
+using the canonical isometry into the bidual, gives $\sup_n\|\mu_n\|<\infty$.
+For the converse the distinction between all of $M(X)^*$ and continuous
+test functions matters. Define a finite positive regular measure
+$$\lambda=\sum_{n\geq1}\frac{2^{-n}}{1+\|\mu_n\|}|\mu_n|.$$
+Each $\mu_n=h_n\lambda$ by Radon–Nikodym, with
+$\|h_n\|_1=\|\mu_n\|$. The setwise tests and III.14.5 say $h_n$
+is weakly null in $L^1(\lambda)$. The map
+$J:L^1(\lambda)\to M(X)$, $Jh=h\lambda$, is a linear isometry:
+total variation gives its norm, and approximation of $h$ in $L^1$ by
+simple functions preserves regularity. For any $L\in M(X)^*$,
+$LJ\in L^1(\lambda)^*$, so $L(\mu_n)=(LJ)(h_n)\to0$.
+This proves weak convergence against the entire dual.
+
+#### Solution III.14.8 — Lower semicontinuity of the operator norm
+
+For a unit vector $x$, norm convergence $A_nx\to Ax$ gives
+$\|Ax\|=\lim_n\|A_nx\|\leq\liminf_n\|A_n\|$.
+Taking the supremum over $x$ proves the assertion. If the liminf is
+infinite the bound is automatic; no convergence of the operator norms is needed.
+
+#### Solution III.14.9 — Scalar Lipschitz bounds imply a vector bound
+
+For $s\ne t$ define the bounded functional on $X^*$
+$$T_{s,t}(L)=\frac{L(f(s)-f(t))}{d(s,t)}.$$
+For each fixed $L$, the scalar Lipschitz assumption makes this family
+pointwise bounded. The dual $X^*$ is Banach even if $X$ is not, so uniform
+boundedness gives $\sup_{s\ne t}\|T_{s,t}\|=C<\infty$.
+Hahn–Banach's norm formula identifies this norm with
+$\|f(s)-f(t)\|/d(s,t)$. Thus $f$ is Lipschitz. If $S$ has at most
+one point the conclusion is immediate.
+
+#### Solution III.14.10 — Schauder bases and continuous coordinates
+
+(a) Finite rational real or complex combinations of the $x_n$ form a
+countable dense set, by the assumed expansions and finite approximation
+of coefficients. Uniqueness also implies every $x_n\ne0$ and finite
+linear independence.
+
+(b) Put $S_Na=\sum_{k\leq N}a_kx_k$. The norm axioms for
+$\|a\|_Y=\sup_N\|S_Na\|$ follow from those of $X$, with definiteness
+from $a_nx_n=S_na-S_{n-1}a$. If $a^{(j)}$ is Cauchy in $Y$, then
+$$|a_n^{(j)}-a_n^{(k)}|\|x_n\|\leq2\|a^{(j)}-a^{(k)}\|_Y,$$
+so every coordinate has a limit $a_n$. Passing to the limit in finite
+partial sums yields $\sup_N\|S_N(a-a^{(j)})\|\leq\varepsilon$ for
+large $j$. To see that $a\in Y$, fix such a $j$; for large $N,M$,
+$$\|S_Na-S_Ma\|\leq2\varepsilon+
+\|S_Na^{(j)}-S_Ma^{(j)}\|.$$
+Since $a^{(j)}\in Y$, its last term tends to zero. Letting $\varepsilon$
+decrease proves the partial sums of $a$ are Cauchy. Completeness of $X$
+gives their limit, so $a\in Y$ and $a^{(j)}\to a$ in $Y$.
+
+(c) The summation map $U:Y\to X$, $Ua=\sum a_nx_n$, is linear and
+bounded with norm at most 1, and is bijective by existence and uniqueness
+of expansions. Since both spaces are Banach, the bounded inverse theorem
+gives the requested bounded bijection $T=U^{-1}:X\to Y$.
+(d) The estimate $|a_n|\leq2\|a\|_Y/\|x_n\|$ shows coordinate
+evaluation is bounded on $Y$; composing with $T$ proves $f_n\in X^*$.
+(e) Uniqueness gives $f_n(x_n)=1$ and $f_n(x_k)=0$ for $k\ne n$.
+Continuity makes $f_n$ zero on the closed span of those other vectors,
+which therefore cannot contain $x_n$.
+<!-- END SOLUTIONS III -->
