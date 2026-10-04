@@ -855,3 +855,744 @@ We prove only a special case of this result; the general case is left to the rea
 
 9. (Conway [1985].) If $L$ and $R$ are nonempty compact subsets of $\mathbb C$, then there is a bounded operator $A$ on $\mathcal H$ such that $\sigma_l(A)=L$ and $\sigma_r(A)=R$ if and only if $\partial L\subseteq R$ and $\partial R\subseteq L$.
 
+<!-- BEGIN SOLUTIONS XI -->
+
+## Exercise Solutions
+
+These are added study solutions. Unless a finite-dimensional case is
+explicitly discussed, the Fredholm constructions below use a separable
+infinite-dimensional complex Hilbert space. Write $\pi$ for the quotient
+by compact operators and use
+$\operatorname{ind}T=\dim\ker T-\dim\ker T^*$ when the range is closed
+and at least one of these dimensions is finite. “Left semi-Fredholm”
+means closed range and finite-dimensional kernel; “right” means closed
+range and finite-dimensional cokernel. Some printed assertions need
+qualifications; the original text is retained and counterexamples are
+given in the corresponding responses.
+
+### §1. Parts of the spectrum
+
+#### Solution XI.1.1 — The two spectra of a unilateral shift
+
+For $|\lambda|<1$, $\|(S-\lambda)x\|\geq(1-|\lambda|)\|x\|$,
+so $S-\lambda$ has a bounded left inverse. It is not onto: its adjoint
+has eigenvector $(1,\bar\lambda,\bar\lambda^2,\ldots)$.
+For $|\lambda|>1$ the Neumann series gives an inverse. For
+$|\lambda|=1$, truncated geometric vectors show that $S-\lambda$
+is not bounded below, while the same boundary lies in the right
+spectrum by Corollary 1.2. Therefore
+$\sigma_l(S)=\partial\mathbb D$ and
+$\sigma_r(S)=\overline{\mathbb D}$.
+
+#### Solution XI.1.2 — Compression spectrum
+
+The orthogonal-complement identity
+$\operatorname{ran}(A-\lambda)^\perp=\ker(A^*-\bar\lambda)$ proves
+(a). A surjective operator has dense range, so (b)'s inclusion follows.
+For $S$, $\sigma_c(S)=\mathbb D$ by the eigenvector calculation above,
+whereas $\sigma_r(S)=\overline{\mathbb D}$; this also proves (c).
+If $\lambda$ lies in neither the approximate point nor compression
+spectrum, $A-\lambda$ is bounded below and has dense range. Its range
+is therefore closed and equals $H$, so it is invertible. Conversely
+an invertible operator is bounded below and onto, proving (d).
+
+#### Solution XI.1.3 — Holomorphic mapping of eigenvalues
+
+If $Ax=\lambda x$, the resolvent identity on $x$ and the Cauchy
+integral formula give $f(A)x=f(\lambda)x$. For the reverse inclusion
+assume $f$ is nonconstant on every component of its neighborhood of
+$\sigma(A)$. For a fixed $\mu$, its zeros $f(z)-\mu$ near the compact
+spectrum are finitely many, say $\lambda_j$ of multiplicities $m_j$.
+Factor $f(z)-\mu=g(z)\prod_j(z-\lambda_j)^{m_j}$ there, with $g$
+nonzero on the spectrum. The holomorphic calculus makes $g(A)$
+invertible. If every $A-\lambda_j$ is injective, their product is
+injective, so $f(A)-\mu$ cannot have an eigenvector. Thus at least
+one $\lambda_j\in\sigma_p(A)$ whenever $\mu\in\sigma_p(f(A))$.
+If $f$ is constant on a component, its nonzero spectral subspace can
+give new eigenvalues even if $A$ has no eigenvectors there, explaining
+the hypothesis.
+
+#### Solution XI.1.4 — Holomorphic mapping of approximate eigenvalues
+
+If $\|(A-\lambda)x_n\|\to0$ for unit $x_n$, factor
+$f(z)-f(\lambda)=(z-\lambda)g(z)$ to get
+$\|(f(A)-f(\lambda))x_n\|\leq\|g(A)\|\|(A-\lambda)x_n\|\to0$.
+For the reverse direction use the finite factorization in XI.1.3:
+products of bounded-below operators are bounded below, and so is
+$g(A)$. Thus failure to be bounded below forces some factor to fail.
+If $f$ is constant $\mu$ on one of the relevant components, use its
+Riesz spectral subspace instead. The spectrum of that restriction
+is nonempty and its boundary supplies an approximate eigenvalue
+$\lambda$ of $A$ with $f(\lambda)=\mu$. Components on which $f$ is
+constant at other values give invertible restrictions of $f(A)-\mu$.
+A finite spectral decomposition reduces the general case to these
+cases. The finiteness follows by covering the compact spectrum by
+finitely many neighborhoods inside the domain of $f$.
+
+### §2. Closed range and Fredholm operators
+
+#### Solution XI.2.1 — Closed range of the adjoint
+
+On $M=(\ker A)^\perp$, the map $A:M\to\operatorname{ran}A$ is a
+bounded bijection of Hilbert spaces and hence has bounded inverse.
+Extend that inverse by zero on $(\operatorname{ran}A)^\perp$ to get
+$B$ with $BA=P_M$. Taking adjoints gives $A^*B^*=P_M$; hence
+$M\subseteq\operatorname{ran}A^*$. The reverse inclusion follows
+from $\langle A^*y,x\rangle=0$ for $x\in\ker A$.
+Thus $\operatorname{ran}A^*=M$, which is closed.
+
+#### Solution XI.2.2 — A left inverse modulo finite rank
+
+Construct $B$ as in XI.2.1. Then $BA=I-P_{\ker A}$.
+The projection has finite rank by hypothesis. Passing to the Calkin
+algebra gives $\pi(B)\pi(A)=1$, precisely left semi-Fredholmness.
+This proves (b) implies (a) directly.
+
+#### Solution XI.2.3 — Upper triangular operator matrices
+
+Suppose $A$ is Fredholm and choose $D$ with both $DA-I$ and $AD-I$
+finite rank. Multiplying $X$ on the right by the invertible matrix
+$\begin{bmatrix}I&-DB\\0&I\end{bmatrix}$ changes it to
+$\begin{bmatrix}A&(I-AD)B\\0&C\end{bmatrix}$, a finite-rank
+perturbation of $A\oplus C$. Invertible changes and finite-rank
+perturbations preserve Fredholmness and semi-Fredholmness. A direct
+sum with the Fredholm operator $A$ has either property exactly when
+$C$ does, by its range, kernel, and cokernel decompositions. This
+proves (a) and (b).
+For (c), $\ker X$ contains $\ker A\oplus0$, while
+$\ker X^*$ contains $0\oplus\ker C^*$. Both are infinite dimensional.
+Regardless of whether its range is closed, $X$ cannot be semi-Fredholm.
+
+#### Solution XI.2.4 — Operators preserving closed subspaces as images
+
+Finite rank suffices because every image is finite dimensional.
+If $A$ has closed range and finite-dimensional kernel $K$, then for
+closed $M$, $M+K$ is closed. Its intersection with $K^\perp$ is
+$P_{K^\perp}M$, hence closed. The bounded isomorphism
+$A:K^\perp\to\operatorname{ran}A$ carries this space onto $AM$, so
+$AM$ is closed.
+Conversely the property applied to $M=H$ gives closed range.
+If both $K$ and $K^\perp$ are infinite dimensional, choose orthonormal
+sequences $e_n\in K$ and $f_n\in K^\perp$. Let
+$M=\overline{\operatorname{span}}\{e_n+n^{-1}f_n:n\geq1\}$.
+Its vectors have coefficients in $\ell^2$, and its projection onto
+$K^\perp$ consists of $\sum_n(c_n/n)f_n$ with $(c_n)\in\ell^2$.
+This space is dense but not closed in the span of the $f_n$ (the
+vector with coefficients $1/n$ is a limit but not an image).
+Since $A$ is an isomorphism on $K^\perp$, $AM$ is not closed.
+Thus either the rank is finite or the kernel is finite, as required.
+
+#### Solution XI.2.5 — Finite algebraic codimension implies closed range
+
+Choose $y_1,\ldots,y_m$ whose cosets form a basis of $Y/\operatorname{ran}T$.
+The bounded map $S:X\oplus\mathbb C^m\to Y$,
+$S(x,c)=Tx+\sum_jc_jy_j$, is onto and has kernel
+$\ker T\oplus\{0\}$ by independence of these cosets.
+Consequently it induces a bounded bijection
+$(X/\ker T)\oplus\mathbb C^m\to Y$ between Banach spaces.
+The open mapping theorem makes this a homeomorphism. The closed
+subspace $(X/\ker T)\oplus0$ maps exactly to $\operatorname{ran}T$,
+proving closedness without assuming the quotient range is already
+Hausdorff.
+
+#### Solution XI.2.6 — Normal Fredholm operators
+
+For a normal operator the spectral norm formula shows that its range
+is closed exactly when $|z|\geq c>0$ on the spectral support outside
+$\{0\}$. Indeed this is equivalent to being bounded below on
+$(\ker N)^\perp$; if there were spectral mass arbitrarily near zero,
+unit vectors in shrinking punctured disks would contradict that bound.
+Thus closed range is equivalent to zero not being a limit point of
+$\sigma(N)$. Also $\ker N=\ker N^*$, so a closed-range normal operator
+is Fredholm exactly when this common space is finite dimensional.
+The index is then zero.
+
+### §3. Index calculations
+
+#### Solution XI.3.1 — Dimensions of subspace sums
+
+(a) The map $P_{M^\perp}|_N$ is injective when $M\cap N=0$.
+An infinite-dimensional vector space cannot inject into a finite-dimensional
+one, so $\dim M^\perp=\infty$.
+(b) The printed conclusion $\dim(M+N)^\perp<\infty$ has the wrong
+inequality. The correct conclusion is $\dim(M+N)^\perp=\infty$:
+inside the infinite-dimensional space $M^\perp$, the equations
+$\langle x,n_j\rangle=0$ for a basis of finite-dimensional $N$ impose
+only finitely many linear constraints. Their common kernel is
+$M^\perp\cap N^\perp=(M+N)^\perp$, still infinite dimensional.
+Taking $M=N=0$ on infinite-dimensional $H$ also disproves the printed
+conclusion immediately.
+
+#### Solution XI.3.2 — Infinite amplification
+
+Closed range gives $\|Ax\|\geq c\|x\|$ for $x\perp\ker A$.
+Summing squares coordinatewise proves the same estimate for
+$A^{(\infty)}$ on its kernel complement, so its range is closed.
+If $\ker A=0$, the amplified kernel is zero, while its cokernel is
+the infinite Hilbert sum of $\ker A^*$. This is zero if $A$ is onto,
+and infinite dimensional otherwise. The index is correspondingly
+zero or $-\infty$.
+
+#### Solution XI.3.3 — No square root of a multiplicity-one shift
+
+If $B^2=S$, then $\pi(B)^2=\pi(S)$ is invertible, so $\pi(B)$ is
+invertible (its inverse is $\pi(B)\pi(S)^{-1}$). Hence $B$ is Fredholm.
+Index additivity would give $-1=\operatorname{ind}S=2\operatorname{ind}B$,
+impossible for an integer. Thus no bounded square root exists.
+
+#### Solution XI.3.4 — Every possible index
+
+For $n>0$, take $(S^*)^{(n)}$, whose kernel has dimension $n$ and
+which is onto. For $n<0$, take $S^{(-n)}$, which is injective with
+cokernel dimension $-n$. The identity has index zero. Infinite
+amplifications of $S^*$ and $S$ have indices $+\infty$ and $-\infty$.
+All ranges are closed. These examples live on a separable infinite
+Hilbert space after unitary identification.
+
+#### Solution XI.3.5 — Powers and index
+
+If $A$ is left semi-Fredholm, Theorem 3.7 applied inductively gives
+$A^n$ left semi-Fredholm and $\operatorname{ind}A^n=n\operatorname{ind}A$.
+If it is only right semi-Fredholm, apply that result to $A^*$ and
+use $\operatorname{ind}T^*=-\operatorname{ind}T$.
+This includes infinite indices with the usual convention
+$n(\pm\infty)=\pm\infty$ for positive $n$.
+
+#### Solution XI.3.6 — Removing a kernel needs a nonpositive index
+
+As stated the exercise is false: $A=S^*$ is left semi-Fredholm with
+index one, whereas an injective semi-Fredholm operator has nonpositive
+index. Finite-rank perturbations cannot change the index.
+The correct sufficient and necessary condition is
+$\dim\ker A\leq\dim\ker A^*$, equivalently $\operatorname{ind}A\leq0$.
+Under it choose an isometric injection
+$J:\ker A\to(\operatorname{ran}A)^\perp$ and let
+$F=JP_{\ker A}$. On $\ker A\oplus(\ker A)^\perp$, the images of $F$
+and $A$ are orthogonal, and each map is injective on its respective
+summand. Thus $A+F$ is injective with closed range. It is a finite-rank
+perturbation and its index is unchanged. Scaling $F$ by any nonzero
+scalar retains these properties.
+
+#### Solution XI.3.7 — Index zero and invertible perturbations
+
+If the index is zero, choose an isomorphism $J:\ker A\to\ker A^*$
+and put $F=JP_{\ker A}$. The decompositions into kernel/complement
+and range/cokernel make $A+F$ a direct sum of two bounded isomorphisms,
+hence invertible. This proves (a) implies (c), and finite rank implies
+compactness, giving (b). Conversely, if $A+K$ is invertible for
+compact $K$, invariance of index gives
+$\operatorname{ind}A=\operatorname{ind}(A+K)=0$.
+
+#### Solution XI.3.8 — An essentially normal shift has no normal lift
+
+$S^*S=I$ and $SS^*=I-P_{e_0}$ show that $\pi(S)$ is unitary, hence
+normal. If $S-N$ were compact for normal $N$, then $N$ would be
+Fredholm with index $-1$. A normal Fredholm operator has equal kernel
+and adjoint-kernel dimensions, hence index zero by XI.2.6. Contradiction.
+
+### §4. Essential spectrum
+
+#### Solution XI.4.1 — Why infinite dimension matters
+
+In finite dimension every operator is Fredholm, so every essential
+spectrum is empty. In infinite dimension the compact operators are
+a proper ideal, since $I$ is not compact. The Calkin algebra is a
+nonzero complex unital Banach algebra. The Banach-algebra nonemptiness
+theorem applied to $\pi(A)$ gives
+$\sigma_e(A)=\sigma(\pi(A))\ne\varnothing$ for every $A$.
+
+#### Solution XI.4.2 — Analytic multiplication on Bergman space
+
+Assume first $\phi$ is nonconstant on the connected region $G$.
+Then
+$\sigma(A)=\phi(\overline G)$,
+$\sigma_p(A)=\varnothing$,
+$\sigma_l(A)=\sigma_{ap}(A)=\phi(\partial G)$,
+and $\sigma_r(A)=\phi(\overline G)$.
+The compression spectrum has the separate boundary-sensitive
+description below.
+The three essential spectra all equal $\phi(\partial G)$.
+For $\lambda\notin\phi(\partial G)$,
+$\operatorname{ind}(A-\lambda)=-\sum_{z\in G:\phi(z)=\lambda}
+\operatorname{ord}_z(\phi-\lambda)$.
+
+Here are the details behind these formulas. Factor $\phi-\lambda$
+near $\overline G$ into its finitely many zeros there and a nonvanishing
+analytic factor. The latter gives an invertible multiplication operator.
+Each interior zero contributes a factor $M_z-a$ with closed range,
+no kernel and one-dimensional cokernel; division of a holomorphic
+function vanishing at $a$ proves the range description, and evaluation
+is a continuous nonzero functional on Bergman space. A boundary factor
+has nonclosed range and an approximate null sequence, as in
+Example 4.7. Factors commute. If a product were bounded below, each
+factor would be bounded below by bounding the other factors; thus a
+boundary zero excludes closed range. These facts give the left and right spectra and the index. Applying the same factorization in the Calkin
+algebra gives the essential formulas, using Example 4.7 there.
+The full spectrum also follows from holomorphic spectral mapping.
+For an exact description of compression on an arbitrary such $G$, define
+$C_G=G\cup B_G$, where $B_G$ is the following explicitly specified
+boundary evaluation set. A point $a\in\partial G$ is in $B_G$ if
+there is a nonzero bounded linear functional $\ell$ on $L_a^2(G)$
+with $\ell(zf)=a\ell(f)$ for every $f\in L_a^2(G)$. Equivalently,
+there is a nonzero $h\in L_a^2(G)$ satisfying
+$\int_G(z-a)f(z)\overline{h(z)}\,d\mathrm{area}(z)=0$
+for every such $f$. This is an integral criterion determined by $G$,
+and then $\sigma_c(A)=\phi(C_G)$.
+Indeed for $S=M_z$, the adjoint pairing, interior evaluation functionals,
+and the exterior resolvent identify $\sigma_c(S)=C_G$.
+Apply XI.1.3 to $S^*$ with the holomorphic function
+$\widetilde\phi(z)=\overline{\phi(\bar z)}$, then conjugate the
+point-spectrum identity, to obtain the displayed compression formula.
+
+It is important not to infer $B_G=\varnothing$ merely from the
+nonclosed-range argument in Example 4.7. Under an exterior cone
+condition at every boundary point, one can prove it is empty directly:
+choose $w_j\notin\overline G$ tending to $a$ with
+$|w_j-a|/\operatorname{dist}(w_j,G)$ bounded. For every $f\in L_a^2(G)$,
+$(z-a)f(z)/(z-w_j)\to f(z)$ in $L^2$ by dominated convergence.
+The approximants belong to $\operatorname{ran}(S-a)$, which is
+therefore dense. Thus for these domains, including disks and smooth
+bounded domains, the simpler formula is $\sigma_c(A)=\phi(G)$.
+For arbitrary boundaries the functional/integral criterion above
+retains the needed qualification. The connection between this range
+density issue and bounded point evaluations is discussed in
+[Kouchekian's study of the Bergman density problem](https://doi.org/10.1007/s000200300008).
+
+If $\phi=c$ is constant, $A=cI$: all the spectra listed above, including
+the point and essential spectra, are $\{c\}$; outside it the index is zero.
+
+#### Solution XI.4.3 — A compact restriction of infinite rank domain
+
+Replace $A-\lambda$ by $T$. Failure of left semi-Fredholmness implies
+that $T$ is not bounded below on any finite-codimensional subspace;
+otherwise its kernel would be finite and its range closed, by the
+finite-dimensional decomposition or Theorem 2.3.
+Choose recursively orthonormal $e_n$ with $\|Te_n\|<2^{-n}$, taking
+each vector perpendicular to the earlier ones. Let $P$ project onto
+their closed span. For the projection $P_m$ onto the first $m$,
+$\|T(P-P_m)\|\leq(\sum_{n>m}\|Te_n\|^2)^{1/2}\to0$
+by Cauchy–Schwarz on the coefficients. Thus $TP$ is a norm limit of
+finite-rank operators and is compact, while $P$ has infinite rank.
+Consequently $\pi(T)\pi(P)=0$.
+
+#### Solution XI.4.4 — Approximating by noncyclic operators
+
+(a) The closed span of $Ae,A^2e,\ldots$ has codimension at most one,
+since adjoining $e$ gives the dense cyclic span.
+(b) We have $B-A=P(\bar\lambda-A)$, so
+$\|B-A\|=\|(A^*-\lambda)P\|
+\leq(\sum_{j=1}^2\|(A^*-\lambda)f_j\|^2)^{1/2}
+<\sqrt2\varepsilon<2\varepsilon$.
+Moreover $B^*f_j=\lambda f_j$. Any cyclic operator $T$ has
+$\dim\ker(T^*-\bar z)\leq1$: apply (a) to $T-z$, which has the same
+cyclic vectors. Thus this $B$ is not cyclic.
+
+For infinite-dimensional $H$, choose $\lambda$ in the left essential
+spectrum of $A^*$, which is nonempty since it contains the boundary
+of its Calkin spectrum. XI.4.3 supplies the two vectors with arbitrarily
+small errors, proving density of noncyclic operators. On a nonseparable
+space every operator is already noncyclic. The printed condition
+$\dim H>1$ needs the infinite-dimensional qualification: in dimension
+two, a matrix sufficiently close to $\operatorname{diag}(0,1)$ has
+distinct eigenvalues and is cyclic. Noncyclic matrices are therefore
+not dense there.
+
+#### Solution XI.4.5 — Index of a holomorphic function
+
+Spectral mapping in the Calkin algebra gives
+$0\notin\sigma(\pi(f(A)))$, hence $f(A)$ is Fredholm.
+If $f$ is not identically zero on any relevant neighborhood component,
+factor its zeros $\lambda_j$ on $\sigma(A)$ with multiplicities $m_j$.
+None lies in $\sigma_e(A)$, so each $A-\lambda_j$ is Fredholm, and
+$\operatorname{ind}f(A)=\sum_jm_j\operatorname{ind}(A-\lambda_j)$.
+The remaining nonvanishing factor is invertible and contributes zero.
+If $f$ vanishes identically on a neighborhood component, its spectral
+subspace is finite dimensional: otherwise its restriction would have
+nonempty essential spectrum, contrary to the hypothesis on $f$.
+The resulting zero finite-dimensional block has index zero and can
+be removed before applying the formula to the other components.
+
+#### Solution XI.4.6 — Winding numbers for analytic functions of a shift
+
+$\pi(S)$ is unitary with spectrum $\partial\mathbb D$. Thus
+$\sigma_e(f(S))=f(\partial\mathbb D)$ by spectral mapping.
+If $\lambda$ is outside that curve, factor $f-\lambda$ into its
+zeros in $\mathbb D$ and a nonvanishing factor near the closed disk.
+Each zero of order $m$ contributes $m\operatorname{ind}(S-a)=-m$.
+The argument principle identifies the total number of zeros, counted
+with multiplicity, with $n(\gamma;\lambda)$, giving the index formula.
+Here the argument principle follows by integrating
+$(f-\lambda)'/(f-\lambda)$ around the circle; each zero contributes
+its order and the nonvanishing factor contributes zero.
+If the index is zero there are no zeros in the disk or on its boundary,
+so $1/(f-\lambda)$ is holomorphic near the closed disk and its calculus
+value is the inverse of $f(S)-\lambda$.
+
+#### Solution XI.4.7 — Bergman and unilateral shifts differ compactly
+
+In the normalized monomial basis of Bergman space on $\mathbb D$,
+$e_n=\sqrt{(n+1)/\pi}\,z^n$ for ordinary area measure,
+$Se_n=\sqrt{(n+1)/(n+2)}\,e_{n+1}$.
+Let $Ve_n=e_{n+1}$. The weighted shift $K=V-S$ has weights tending
+to zero, so its truncations to the first $m$ basis vectors converge
+in norm to $K$. It is compact and $S+K=V$ is unitarily equivalent
+to the usual unilateral shift. A normalized area measure changes
+only the common normalization of the basis.
+
+#### Solution XI.4.8 — A small link turns two half-shifts into a bilateral shift
+
+On two copies with bases $e_n,f_n$, $T=S^*\oplus S$ sends
+$e_n\mapsto e_{n-1}$ for $n\geq1$, $e_0\mapsto0$, and
+$f_n\mapsto f_{n+1}$. Choose $0<\delta<\varepsilon$ and let
+$Fe_0=\delta f_0$, with $F$ zero on the other basis vectors.
+Then $T+F$ is a bilateral shift along
+$\cdots,e_2,e_1,e_0,f_0,f_1,\cdots$, with all weights one except
+the single weight $\delta$. A diagonal similarity, constant on each
+half and with their ratio $\delta$, changes this into the unweighted
+bilateral shift. The diagonal and its inverse are bounded because
+$\delta>0$ is fixed. Hence $\sigma(T+F)=\partial\mathbb D$ and
+$F$ has rank one with norm $\delta<\varepsilon$.
+
+#### Solution XI.4.9 — A local inverse does not imply inverses everywhere
+
+Interpret the removed set as $\sigma_{le}(A)\cup\sigma_{re}(A)$.
+Local constancy of index makes $A-\lambda$ Fredholm of index zero
+throughout $G$. XI.3.7 therefore gives a finite-rank $F$ for which
+$A+F-\lambda_0$ is invertible. The final assertion, for this arbitrary
+choice of $F$, is false. Let
+$A=(S^*\oplus S)\oplus0$ on $\ell^2\oplus\ell^2\oplus\mathbb C$
+and $G=\mathbb D$. Its essential spectra are the unit circle and its
+index in $G$ is zero. Use the link from XI.4.8 on the first two
+summands and change the last scalar to $1/2$ by a rank-one perturbation.
+Then $A+F-1/4$ is invertible, but $A+F-1/2$ is not.
+The valid general conclusion is that the noninvertible points in $G$
+are discrete once invertibility holds at one point. The finite-dimensional
+analytic reduction used in XI.6.7 proves this analytic Fredholm
+alternative. In particular, an invertible value rules out an entire
+open region of noninvertibility, not isolated exceptional eigenvalues.
+
+### §5. Connected components
+
+#### Solution XI.5.1 — The identity component of a topological group
+
+The inverse image $G_0^{-1}$ is connected and contains the identity,
+so it lies in $G_0$. The continuous image of the connected product
+$G_0\times G_0$ under multiplication is connected and contains the
+identity; thus $G_0G_0\subseteq G_0$. These inclusions make $G_0$
+a subgroup. For any $g\in G$, conjugation is a homeomorphism fixing
+the identity, so it carries $G_0$ onto $G_0$. Hence the subgroup is normal.
+
+#### Solution XI.5.2 — Components of nonvanishing circle functions
+
+They are indexed by the integer winding number about zero.
+To see existence of the classification, parametrize a nonvanishing
+$f$ by $f(e^{it})=r(t)e^{i\theta(t)}$ on $[0,2\pi]$.
+A continuous argument on this interval is obtained by choosing local
+arguments on successive short intervals and adjusting multiples of
+$2\pi$ on overlaps. Then
+$\theta(2\pi)-\theta(0)=2\pi n$. The function
+$g(e^{it})=\log r(t)+i(\theta(t)-nt)$ is continuous on the circle,
+and $f(z)=z^ne^{g(z)}$. The path $z^ne^{sg(z)}$ connects it to $z^n$.
+Winding number is locally constant in the uniform norm: sufficiently
+close nonvanishing functions have a quotient valued in the disk
+$|z-1|<1$, which has a continuous logarithm. It is therefore constant
+on connected sets. These paths and this invariant prove the classification.
+
+#### Solution XI.5.3 — Invertibles in the Toeplitz algebra
+
+The invertible group of $C^*(S)$ is connected. Recall the symbol map
+$q:C^*(S)\to C(\partial\mathbb D)$ with $q(S)(z)=z$ and kernel the
+compact operators. Indeed $I-SS^*$ and its shifts generate the matrix
+units, so all compacts belong to $C^*(S)$; the quotient is generated
+by the unitary $\pi(S)$ with full circle spectrum and is therefore
+$C(\partial\mathbb D)$.
+
+For an invertible $T$, its symbol $f$ is nonvanishing and has winding
+number zero. To justify this last assertion for continuous symbols,
+write $f=z^ne^g$ as in XI.5.2 and lift $g$ to $B\in C^*(S)$.
+Then $Te^{-B}$ has symbol $z^n$ and differs by a compact operator
+from $S^n$ if $n\geq0$, or $(S^*)^{-n}$ if $n<0$.
+Its index is consequently $-n$, but invertibility gives index zero.
+Thus $n=0$ and $Te^{-B}=I+K$ is invertible with compact $K$.
+Such an operator is connected to $I$: approximate $K$ by a finite-rank
+$K_0$ closely enough that the straight segment between $I+K$ and
+$I+K_0$ is invertible. A finite-dimensional subspace containing the
+ranges of $K_0,K_0^*$ reduces $K_0$, and the complex finite-dimensional
+invertible group is path connected (polar decomposition and unitary
+logarithms prove this). Extend that path by $I$ on the complement.
+Finally $Te^{-sB}$ connects $T$ to $I+K$, proving the assertion.
+
+#### Solution XI.5.4 — Components of isometries
+
+Necessity follows because $U\mapsto I-UU^*$ is norm continuous and
+projections less than distance one apart have equal range dimension.
+For the latter fact the projection of one range onto the other is
+bounded below, and the standard polar map, or the invertible operator
+$QP+(I-Q)(I-P)$, identifies the two ranges when $\|P-Q\|<1$.
+Dimension is therefore locally constant and constant along a path.
+For sufficiency, define a unitary $W$ from $\operatorname{ran}U$ to
+$\operatorname{ran}V$ by $WUx=Vx$, and extend it to their complements
+using their equal dimensions. A bounded self-adjoint logarithm $B$
+of $W$ exists by the Borel spectral calculus, so
+$U_t=e^{itB}U$ is a norm-continuous path of isometries from $U$ to $V$.
+
+#### Solution XI.5.5 — Components of partial isometries
+
+They are classified by the triple
+$(\dim\operatorname{ran}U,\dim\ker U,\dim\ker U^*)$.
+The initial and final projections vary continuously with $U$, so the
+projection argument in XI.5.4 shows all three cardinals are constant
+on any connected set. Conversely, for equal triples choose a unitary
+$R$ carrying the initial space and kernel of $V$ onto those of $U$.
+Then $UR$ and $V$ have the same initial space. Define a unitary $L$
+on their final spaces by $LURx=Vx$ and extend it to the complements.
+Thus $V=LUR$. Connect $L$ and $R$ to $I$ by exponential unitary paths;
+$L_tUR_t$ stays a partial isometry and connects $U$ to $V$.
+These classes are locally open in the set of partial isometries by
+the projection estimate, so they are precisely its connected components,
+including the isolated zero operator.
+
+### §6. The finer spectral picture
+
+#### Solution XI.6.1 — Minimum modulus of an invertible operator
+
+$\|x\|=\|A^{-1}Ax\|\leq\|A^{-1}\|\|Ax\|$ gives one inequality.
+Conversely take unit vectors $y_n$ with
+$\|A^{-1}y_n\|\to\|A^{-1}\|$ and put
+$x_n=A^{-1}y_n/\|A^{-1}y_n\|$. Then
+$\|Ax_n\|=1/\|A^{-1}y_n\|\to1/\|A^{-1}\|$.
+Since $\ker A=0$, these are admissible in the infimum defining
+$\gamma(A)$, proving equality.
+
+#### Solution XI.6.2 — Cancel one kernel and one cokernel direction
+
+Choose unit vectors $u\in\ker A$ and $v\in\ker A^*$, and let
+$Fx=\varepsilon\langle x,u\rangle v$ with $0<\varepsilon<\delta$.
+The decompositions into kernel and its complement, and into range
+and its complement, show that $A+F$ agrees with $A$ on the complement,
+while it maps $u$ isomorphically to $\varepsilon v$.
+Thus its kernel is $\ker A\ominus\mathbb Cu$ and its cokernel is
+$\ker A^*\ominus\mathbb Cv$. Its range is the closed orthogonal sum
+$\operatorname{ran}A\oplus\mathbb Cv$. It is Fredholm, both dimensions
+drop by one, and $\|F\|=\varepsilon<\delta$.
+
+#### Solution XI.6.3 — A kernel inside the hyperrange
+
+Assume first $\dim\ker A<\infty$ and put
+$M=\bigcap_{n\geq1}\operatorname{ran}A^n$. All these ranges are
+closed by index additivity. The proof of Theorem 6.7 shows that
+$B=A|_M$ is onto: the decreasing spaces
+$\ker A\cap\operatorname{ran}A^n$ stabilize, so a preimage of a
+vector in $M$ can be chosen in every one of the ranges simultaneously.
+By hypothesis $\ker B=\ker A$. Surjectivity and index stability
+make $\dim\ker(B-\mu)=\dim\ker B$ for sufficiently small $\mu$.
+For $\mu\ne0$, an eigenvector of $A$ at $\mu$ belongs to every
+$\operatorname{ran}A^n$, since $x=A^n(\mu^{-n}x)$.
+Thus $\ker(A-\mu)=\ker(B-\mu)$, and the kernel dimension is constant
+also at zero. Local constancy of the index gives the cokernel dimension.
+
+If instead $\dim\ker A^*<\infty$, the hypothesis transfers to $A^*$.
+Indeed it first implies $\ker A^n\subseteq\operatorname{ran}A$ for
+all $n$: inductively, for $A^nx=0$ choose $y$ with
+$A^ny=A^{n-1}x$ using $\ker A\subseteq\operatorname{ran}A^n$;
+then $x-Ay\in\ker A^{n-1}\subseteq\operatorname{ran}A$.
+Taking orthogonal complements, with all power ranges closed, gives
+$\ker A^*\subseteq\operatorname{ran}(A^*)^n$.
+Apply the preceding argument to $A^*$ and conjugate the parameter.
+
+#### Solution XI.6.4 — Isolated spectral points
+
+Decompose by the Riesz idempotent at $\lambda$ into its range and
+kernel. In this topological direct sum, $A-\lambda$ is $Q\oplus R$,
+where $Q$ has spectrum $\{0\}$ and $R$ is invertible.
+If the Riesz range is finite dimensional, this proves Fredholmness
+with index zero, so (b) implies (c) implies (a).
+If (a) holds, $A-\lambda$ is semi-Fredholm. Nearby punctured points
+are resolvent points, so index stability gives index zero at $\lambda$;
+in particular it is Fredholm. Thus $Q$ is Fredholm. If its Hilbert
+space were infinite dimensional, its Calkin spectrum would be nonempty
+and contained in $\sigma(Q)=\{0\}$, but Fredholmness excludes zero.
+This contradiction proves finite-dimensionality and (b).
+The Riesz decomposition can be made orthogonal by a bounded similarity,
+which preserves all Fredholm assertions used here.
+
+#### Solution XI.6.5 — Splitting the essential spectrum
+
+Outside $\sigma_{le}(A)\cap\sigma_{re}(A)$, the operator $A-\lambda$
+is semi-Fredholm. If both its kernel and cokernel dimensions are finite,
+it is Fredholm and $\lambda\notin\sigma_e(A)$. Otherwise exactly one
+is infinite, giving index $+\infty$ or $-\infty$.
+Conversely either infinite index prevents Fredholmness, and membership
+in both essential one-sided spectra prevents even semi-Fredholmness.
+These alternatives prove the asserted set identity.
+
+#### Solution XI.6.6 — Closed range can occur on this boundary
+
+The assertion as written is false even for a nonzero finite index.
+Let $A=0_{H_0}\oplus S$, with $H_0$ infinite dimensional. For
+$0<|\lambda|<1$, the first summand $-\lambda I$ is invertible and
+$S-\lambda$ has index $-1$, so
+$P_{-1}(A)=\{\lambda:0<|\lambda|<1\}$.
+Zero is a boundary point of this set, but
+$\operatorname{ran}A=0\oplus\operatorname{ran}S$ is closed.
+Both the kernel and cokernel at zero are infinite, so index continuity
+cannot be applied there. The valid general conclusion is that a boundary
+point of $P_n$ for $n\ne0$ is not semi-Fredholm; closed range by itself
+is not excluded. For $n=0$, even a Fredholm closed-range example exists:
+$A=0$ on $\mathbb C$, for which $P_0(A)=\{0\}$.
+Nonclosed range can also occur on a $P_0$ boundary, for example on the
+unit circle for $S^*\oplus S$, whose $P_0$ is the open disk.
+
+#### Solution XI.6.7 — One compact perturbation removes all removable spectrum
+
+Put $W=\sigma_w(A)$. By Theorem 6.12, $A-z$ is Fredholm of index
+zero for every $z\notin W$. We give the details that upgrade removal
+at one point to a single compact perturbation working everywhere.
+
+First choose one point $z_j$ in each component of $\mathbb C\setminus W$;
+there are at most countably many components, because each contains a
+point with rational coordinates. In the Banach space of compact
+operators, the set
+$\mathcal U_j=\{K:A+K-z_j\text{ is invertible}\}$ is open and dense.
+For density, $A+K-z_j$ is still Fredholm of index zero. Add an arbitrarily
+small nonzero multiple of an isomorphism between its kernel and cokernel,
+as in XI.3.7; the perturbed operator is invertible. The Baire theorem
+therefore supplies a compact $K_0$ in all $\mathcal U_j$. Set $T=A+K_0$.
+
+We use the following local analytic fact, with its mechanism spelled out.
+For a Fredholm operator of index zero, split domain and codomain into
+its finite-dimensional kernel/cokernel and their complements. For an
+analytic nearby family $T-z$, the large complementary block remains
+invertible. Block elimination reduces invertibility to that of a finite
+square analytic matrix (the Schur complement). Its determinant either
+vanishes identically or has isolated zeros. If one invertible point
+exists in a connected region, overlapping such neighborhoods propagate
+the isolated-zero alternative throughout the region. The inverse is
+then meromorphic there: the finite matrix inverse is its adjugate
+divided by the determinant, so all principal Laurent coefficients of
+the full inverse have finite rank. Contour integration shows that each
+exceptional point has a finite-rank Riesz idempotent.
+Apply this argument on every component, using the chosen $z_j$.
+It follows that $\sigma(T)\setminus W$ is a discrete set of isolated
+eigenvalues, each of finite algebraic multiplicity, accumulating only
+in $W$.
+
+Let $M$ be the closed span of their generalized eigenspaces. Order
+these finite-dimensional spaces, take the increasing invariant finite
+sums, and choose an orthonormal basis adapted to them. Schur
+triangularization on each successive finite quotient makes $T|_M$
+upper triangular with diagonal entries $\lambda_1,\lambda_2,\ldots$,
+listing all these eigenvalues with algebraic multiplicity. Choose
+$\mu_j\in W$ with $|\lambda_j-\mu_j|=\operatorname{dist}(\lambda_j,W)$.
+The diagonal operator $De_j=(\lambda_j-\mu_j)e_j$ is compact: outside
+any neighborhood of $W$ there are only finitely many exceptional
+eigenvalues, including their finite multiplicities. In the finite-list
+case compactness is immediate.
+
+We verify that subtracting $D$ creates no new unwanted spectrum.
+Relative to $M\oplus M^\perp$, write
+$T=\begin{bmatrix}T_1&C\\0&T_2\end{bmatrix}$.
+For $z\in\rho(T)$ the resolvent preserves each generalized eigenspace
+and its closed span; its restriction and quotient give inverses for
+$T_1-z$ and $T_2-z$. At an exceptional eigenvalue, the finite-rank
+Riesz projection has its entire range in $M$. Splitting off that range
+shows $T_1-z$ Fredholm of index zero and $T_2-z$ invertible.
+Consequently these assertions hold for every $z\notin W$.
+The compact perturbation $T_1-D-z$ remains Fredholm of index zero.
+Its adjoint is lower triangular with diagonal
+$\bar\mu_j-\bar z\ne0$; successive coordinate equations show that
+its kernel is zero. Thus its cokernel is zero and its index forces
+its kernel to be zero too. It is invertible.
+Both diagonal blocks of $T-(D\oplus0)-z$ are now invertible for every
+$z\notin W$, so the full triangular matrix is invertible.
+With $K=K_0-(D\oplus0)$ we obtain $\sigma(A+K)\subseteq W$.
+The reverse inclusion follows from the definition of the Weyl spectrum,
+proving equality. If $M=0$, take $D=0$.
+
+#### Solution XI.6.8 — Constructing the prescribed spectral picture
+
+Interpret “open subsets of $K$” as plane-open sets contained in $K$,
+as required by the definition of the $P_n$. There is a necessary
+ambient-dimension qualification: on an infinite-dimensional space one
+cannot take $K=D=\{0\}$ with $n_0=1$. Such an operator would have
+its entire Riesz projection $I$ of rank one. Also $K$ must be nonempty
+on a nonzero Hilbert space. Subject to these qualifications the following
+construction proves the proposition and describes precisely its dimension.
+
+For each nonempty $G_n$ put $H_n=\operatorname{int}\overline{G_n}$.
+These regular open sets are pairwise disjoint: an open intersection
+would meet both disjoint dense open sets $G_n,G_m$.
+On $L_a^2(H_n)$ let $T_n$ be multiplication by $z$, treating disconnected
+sets as the orthogonal sum over their countably many components.
+Example 4.7 gives an injective operator of index $-1$ at each point
+of $H_n$, and essential spectrum on its boundary. Its adjoint model
+with spectrum in $\overline{H_n}$ is
+$R_n=M_z^*$ on $L_a^2(H_n^\#)$, where
+$H_n^\#=\{\bar z:z\in H_n\}$ is the reflected open set.
+It is onto of index $+1$ inside $H_n$.
+Use $T_n^{(-n)}$ for $n<0$, $R_n^{(n)}$ for $n>0$, countably infinite
+amplifications for infinite indices, and $T_0\oplus R_0$ for $n=0$.
+
+Let $F=K\setminus(D\cup\bigcup_nG_n)$, a compact set, since the
+removed set is relatively open in $K$. On a countable dense subset
+of $F$ put a diagonal normal operator $N$ with every listed eigenvalue
+of infinite multiplicity; omit this summand if $F$ is empty.
+It has spectrum $F$, and every $\lambda\in F$ belongs to both of its
+one-sided essential spectra: either an eigenspace is infinite, or unit
+vectors at nearby eigenvalues give an orthonormal approximate null
+sequence. Finally for each $\lambda\in D$ include the finite block
+$\lambda I_{n_\lambda}$. Form the direct sum of all these blocks and
+the Bergman blocks. Their norms are bounded by $\sup_{z\in K}|z|$.
+
+For $\lambda\in G_n$, all other blocks have spectra a positive distance
+away locally. Their inverses are uniformly bounded: multiplication
+inverses outside a domain have norm at most the reciprocal distance,
+and the same holds for their adjoints and diagonal blocks.
+Thus the whole operator has precisely the index of its $n$th block.
+For $n=0$ that block has both a one-dimensional kernel and cokernel,
+so the point stays in the spectrum. Points of $F$ are never semi-Fredholm
+because of $N$. Points of $D$ are isolated, have exactly the prescribed
+finite-dimensional Riesz range and index zero. Outside $K$ every block
+has uniformly bounded inverse by the same distance estimate.
+This proves all the required spectrum and index equalities.
+The sum space is separable and infinite dimensional unless only finitely
+many finite blocks were used; in that latter case its dimension is
+$\sum_{\lambda\in D}n_\lambda$, which must equal the dimension of the
+specified ambient space. Infinite collections of finite blocks give
+infinite dimension and require no further restriction.
+
+#### Solution XI.6.9 — Prescribed left and right spectra
+
+Necessity can be seen locally. Suppose $A-\lambda$ is onto. In the
+splitting $H=\ker(A-\lambda)\oplus\ker(A-\lambda)^\perp$, the
+restriction on the second summand is invertible onto $H$.
+For nearby $\mu$ it remains invertible there, and $\ker(A-\mu)$ is
+the graph over $\ker(A-\lambda)$ of a bounded map into the complement.
+Its dimension is therefore constant nearby. If $\lambda\in\partial
+\sigma_l(A)$, arbitrarily close points lie outside the left spectrum;
+in this neighborhood they are onto and injective, forcing the kernel
+at $\lambda$ to be zero too, a contradiction. Thus
+$\partial\sigma_l(A)\subseteq\sigma_r(A)$. Apply the same argument
+to $A^*$ and conjugate to obtain the other inclusion.
+
+For sufficiency put $K=L\cup R$, $G_+=L\setminus R$,
+$G_-=R\setminus L$, and $F=L\cap R$. The boundary assumptions imply
+that $G_+,G_-$ are plane-open: a point of $L\setminus R$ cannot be
+on $\partial L$, and similarly for $R\setminus L$.
+Use the construction in XI.6.8 with a single onto Bergman-adjoint block
+on the regularization of $G_+$, a single injective Bergman block on
+that of $G_-$, and the infinite-multiplicity normal diagonal block on
+$F$. Omit empty-region blocks. At a point of $G_+$ the operator is
+onto with nonzero kernel, so the point is in the left spectrum only.
+At a point of $G_-$ it is bounded below but not onto, so it is in the
+right spectrum only. On $F$ neither one-sided inverse exists, because
+of the diagonal block. Outside $K$ the uniform resolvent bounds from
+XI.6.8 give an inverse. Thus the two spectra are exactly $L,R$.
+The set $F$ is nonempty: for nonempty compact $L$, its nonempty boundary
+is contained in $L\cap R$. Hence the construction has infinite dimension
+and can be identified with the stipulated separable infinite $H$.
+For a prescribed finite-dimensional $H$, the statement needs modification:
+left and right spectra must coincide and be finite, with at most
+$\dim H$ distinct points.
+
+<!-- END SOLUTIONS XI -->

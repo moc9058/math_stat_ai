@@ -65,26 +65,27 @@ study solutions, not an official solutions manual or part of the source text.
 - [Chapter VII solutions](chapter-07.md#exercise-solutions): 101 numbered exercises.
 - [Chapter VIII solutions](chapter-08.md#exercise-solutions): 54 numbered exercises.
 - [Chapter IX solutions](chapter-09.md#exercise-solutions): 127 numbered exercises.
-- Chapters X–XI: 103 exercises remain outside the requested scope. Work stops
-  after Chapter IX; continue only on a new user request.
+- [Chapter X solutions](chapter-10.md#exercise-solutions): 62 numbered exercises.
+- [Chapter XI solutions](chapter-11.md#exercise-solutions): 41 numbered exercises.
 
 The revised inventory recognizes both Markdown headings and bold/plain
 exercise headings, as well as repeated section headings across page breaks.
 It currently records 834 numbered exercises across the eleven chapters;
-lettered subparts are not counted separately. The first nine
-chapters cover 731 of these numbered exercises; 103 remain in Chapters X–XI.
+lettered subparts are not counted separately. All eleven chapters now have
+responses for all 834 numbered exercises; no chapters remain unwritten.
 
 The [exercise-solution checkpoint](review/exercise-solutions-checkpoint.json)
 records current exercise/solution counts and validation results. Matching
 counts check coverage of numbered problems, not the correctness or completeness
 of every argument; mathematical content must be assessed separately.
 
-### Resume checkpoint — 2026-10-04
+### Completion checkpoint — 2026-10-04
 
-The requested scope is complete through Chapter IX. The latest work appended
-407 responses (V: 77; VI: 48; VII: 101; VIII: 54; IX: 127), in English, inside
-`BEGIN SOLUTIONS` / `END SOLUTIONS` markers. Chapters X and XI are unchanged.
-Resume, only when requested, at Chapter X §1 Exercise 1.
+The requested continuation is complete through Chapter XI. The latest work
+appended 103 responses (X: 62; XI: 41), in English, inside
+`BEGIN SOLUTIONS` / `END SOLUTIONS` markers. Chapters I–IX and the inherited
+text of X–XI are unchanged by this continuation. All 834 numbered exercises
+now have a written response; there is no next unfinished chapter.
 
 Responses distinguish proofs from corrections to false or insufficiently
 qualified assertions. Examples include the Haar-measure convention in VII.1.4,
@@ -99,16 +100,28 @@ uses the noncomplementability of c0 in l-infinity for its counterexample.
 VIII.5.7 points forward to the closed-ideal theorem in Chapter IX. These are
 stated dependencies, not claims of fully self-contained proofs.
 
-Validation confirms exact ordered exercise/solution identifiers for V–IX,
-local links, markers, and mathematical delimiters. Removing the new solution
-blocks recovers the existing Git version of each of these five chapters
-exactly. The full-edition validator still reports preexisting source-text
-preservation differences in all eleven chapters. The existing regression
-suite likewise fails its two Chapter I/II preservation subtests because of
-preexisting source/list indentation differences. No new structural problem
-was found. The checkpoint records these limitations; structural checks do
-not formally verify the mathematical proofs. The older
-`background-validation.json` is not refreshed by this checkpoint.
+The final chapters make domain and hypothesis qualifications explicit.
+X.4.1 corrects a bounded-multiplier product equality whose domains differ;
+X.4.5 corrects overlapping annulus endpoints; X.4.6 gives a counterexample
+to the claimed lower spectral-support criterion. XI.3.6 requires a nonpositive
+index for an injective finite-rank perturbation. XI.4.4 separates the infinite-
+and finite-dimensional cases; XI.4.9 and XI.6.6 give counterexamples to the
+stated global-invertibility and closed-range assertions. XI.4.2 treats the
+compression spectrum through boundary evaluation functionals, with the simpler
+formula proved under an exterior cone condition. XI.6.7 includes the compact
+perturbation construction, and XI.6.8–9 give the spectral-model constructions
+with their ambient-dimension qualifications.
+
+Validation confirms exact ordered exercise/solution identifiers in all eleven
+chapters, local links, markers, and mathematical delimiters. Removing the new
+solution blocks recovers the pre-continuation Git version of X and XI exactly.
+The full-edition validator still reports preexisting source-text preservation
+differences in all eleven chapters. The existing regression suite likewise
+fails its two Chapter I/II preservation subtests because of preexisting
+source/list indentation differences. No new structural problem was found.
+The checkpoint records these limitations; structural checks do not formally
+verify the mathematical proofs. The older `background-validation.json` is
+not refreshed by this checkpoint.
 
 ## Contents
 

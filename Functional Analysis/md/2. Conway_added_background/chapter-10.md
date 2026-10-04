@@ -2049,3 +2049,838 @@ The measure obtained in Theorem 7.1 need not be unique since, in the proof that 
 
 4. Show that the operator $A$ that appears in the proof that (7.1b) implies (7.1c) is cyclic.
 
+<!-- BEGIN SOLUTIONS X -->
+
+## Exercise Solutions
+
+These are added study solutions. Inner products are linear in the first
+variable. Equality of unbounded operators always includes equality of their
+domains. We write $H^1(I)$ for the $L^2$ functions with an absolutely
+continuous representative locally on $I$ and first derivative in $L^2$;
+$H^2(I)$ additionally requires the second derivative in $L^2$. On a bounded
+interval their endpoint values, and the first-derivative values for $H^2$,
+are continuous for the respective graph norms. For example,
+$|f(0)|\leq\|f\|_2+\|f'\|_2$ on $(0,1)$, by integrating
+$f(0)=f(x)-\int_0^x f'(t)\,dt$. Weak derivatives give a convenient closedness
+test: if $f_n\to f$ and $f_n'\to g$ in $L^2$, integration against smooth
+compactly supported test functions gives $f'=g$ in distributions, and
+$f$ has the required absolutely continuous representative.
+
+### §1. Domains, adjoints, and resolvents
+
+#### Solution X.1.1 — The adjoint of a product
+
+If $y\in\operatorname{dom}(B^*A^*)$, then $y\in\operatorname{dom}A^*$
+and $A^*y\in\operatorname{dom}B^*$. For every
+$x\in\operatorname{dom}(AB)$,
+$\langle ABx,y\rangle=\langle Bx,A^*y\rangle
+=\langle x,B^*A^*y\rangle$. This is precisely the bounded-functional
+criterion for $y\in\operatorname{dom}(AB)^*$ and
+$(AB)^*y=B^*A^*y$. The domain restriction is why the conclusion is an
+inclusion, not a general equality.
+
+#### Solution X.1.2 — A diagonal operator
+
+Finite linear combinations of the $e_n$ belong to $\mathcal D$, so it is
+dense. If $h_j\to h$ and $Ah_j\to k$, coordinate convergence gives
+$\langle k,e_n\rangle=\alpha_n\langle h,e_n\rangle$ for every $n$.
+Since $k\in H$, these coordinates are square summable. Thus
+$h\in\mathcal D$ and $Ah=k$, proving closedness. Testing the adjoint
+identity on $e_n$ forces
+$\langle A^*y,e_n\rangle=\bar\alpha_n\langle y,e_n\rangle$.
+This is square summable exactly when $y\in\mathcal D$; for these $y$,
+Cauchy–Schwarz justifies summing the adjoint identity. This proves both
+the asserted adjoint domain and formula.
+
+#### Solution X.1.3 — A multiplication operator
+
+Let $X_j$ increase to $X$ with finite measure and put
+$F_j=X_j\cap\{|\phi|\leq j\}$. Truncation to $F_j$ shows that the
+domain is dense. If $f_n\to f$ and $\phi f_n\to g$ in $L^2$, take a
+common subsequence converging almost everywhere in both coordinates.
+Then $g=\phi f$ almost everywhere, proving closedness. For an adjoint
+domain vector $h$, testing against arbitrary $L^2$ functions supported
+in $F_j$ forces the representing vector to equal $\bar\phi h$ there.
+Exhaustion gives this identity everywhere, so $\bar\phi h\in L^2$.
+Conversely this condition makes the integral pairing bounded by
+$\|f\|_2\|\bar\phi h\|_2$. Thus $A^*=M_{\bar\phi}$ on the same domain.
+
+#### Solution X.1.4 — An unbounded weighted shift
+
+For scalars $w_n$ on $\ell^2(\mathbb N_0)$ set
+$\operatorname{dom}W=\{x:\sum_n|w_nx_n|^2<\infty\}$,
+$(Wx)_0=0$, and $(Wx)_{n+1}=w_nx_n$. Finite sequences give density;
+coordinate limits, as in X.1.2, give closedness. The operator is unbounded
+when $\sup_n|w_n|=\infty$, since $\|We_n\|=|w_n|$.
+Testing on $e_n$ and then summing gives
+$\operatorname{dom}W^*=\{y:\sum_n|\bar w_ny_{n+1}|^2<\infty\}$ and
+$(W^*y)_n=\bar w_ny_{n+1}$.
+
+#### Solution X.1.5 — Differentiation with two zero endpoints
+
+Smooth compactly supported functions give density. The weak-derivative
+criterion above and continuity of the endpoint traces show that
+$A=iD$ on $\{f\in H^1(0,1):f(0)=f(1)=0\}$ is closed.
+Integration by parts gives
+$\langle if',g\rangle-\langle f,ig'\rangle
+=i[f\bar g]_0^1$. The boundary term vanishes for every domain vector
+$f$, without restrictions on $g\in H^1(0,1)$. Conversely the adjoint
+identity on test functions forces $g$ to have weak derivative in $L^2$.
+Thus $\operatorname{dom}A^*=H^1(0,1)$ and $A^*g=ig'$.
+This also verifies that $A$ is symmetric but not self-adjoint.
+The derivative range is exactly the functions of integral zero:
+$\int_0^1f'=f(1)-f(0)=0$, and conversely the primitive of such an
+$L^2$ function has both zero endpoints. To verify the uniform-closure
+statement as well, approximate a continuous zero-endpoint function
+uniformly by polynomials $p_n$ and replace each by
+$p_n(x)-(1-x)p_n(0)-xp_n(1)$. These polynomials lie in the domain
+and still converge uniformly.
+
+#### Solution X.1.6 — An everywhere defined operator with dense graph
+
+Let $\kappa$ be the infinite Hilbert dimension of $H$. Choose a dense
+subset of $H\oplus H$ of cardinality $\kappa$, and enumerate all its
+pairs together with all positive integer accuracy parameters. Recursively
+choose linearly independent $x_\alpha$ within the prescribed accuracy
+of each first coordinate, and assign $Ax_\alpha$ to be the second
+coordinate. This choice is possible: at stage $\alpha<\kappa$ the
+algebraic span of the earlier vectors has dimension less than $\kappa$,
+is proper, and cannot contain an open ball. Extend the independent set
+to a Hamel basis and define $A$ arbitrarily, say as zero, on the added
+basis vectors. Its linear extension is defined on all of $H$, and its
+graph approximates every member of a dense subset arbitrarily closely.
+Hence the graph is dense. If $y\in\operatorname{dom}A^*$, the continuous
+functional $(x,z)\mapsto\langle z,y\rangle-\langle x,A^*y\rangle$
+vanishes on the dense graph and therefore everywhere. Taking $x=0$
+gives $y=0$. Thus $\operatorname{dom}A^*=\{0\}$.
+
+#### Solution X.1.7 — A commutator on its proper domain
+
+If $f\in H^1(0,1)$, then $xf\in H^1(0,1)$ and
+$(xf)'=f+xf'$. Consequently $DA$ and $AD$ are both defined on
+$\operatorname{dom}D$, and $(DA-AD)f=f$. Thus $DA-AD$ is the restriction
+of $I$ to that domain. It is not the everywhere defined identity:
+for example a step function lies in $L^2$ but not in $H^1$.
+
+#### Solution X.1.8 — Bounded operators cannot have this commutator
+
+Induction using $ab-ba=1$ gives $a^nb-ba^n=na^{n-1}$. No power of $a$
+can vanish: a least zero power would make the preceding identity a
+contradiction. Therefore
+$n\|a^{n-1}\|\leq2\|b\|\|a^n\|
+\leq2\|a\|\|b\|\|a^{n-1}\|$.
+Cancel the nonzero factor to obtain $n\leq2\|a\|\|b\|$ for every $n$,
+an impossibility. The domain issue in X.1.7 avoids this contradiction.
+
+#### Solution X.1.9 — Resolvents and adjoints
+
+If $T=A-\lambda$ is bijective, its inverse is an everywhere defined
+closed operator, so the closed graph theorem makes it bounded. This
+proves (a). Put $R=T^{-1}$. For $y\in H$ and $x\in\operatorname{dom}T$,
+$\langle Tx,R^*y\rangle=\langle RTx,y\rangle=\langle x,y\rangle$.
+Thus $T^*R^*=I$. If $T^*z=0$, then $z\perp\operatorname{ran}T=H$;
+therefore $T^*$ is bijective with inverse $R^*$. Applying the same
+argument to $T^*$ and using $T^{**}=T$ proves the converse and hence
+$\sigma(A^*)=\overline{\sigma(A)}$ (complex conjugation of the set).
+
+#### Solution X.1.10 — An empty unbounded spectrum
+
+The shift is unitary and the weight has essential supremum one, so
+$\|A\|=1$. Iteration gives
+$(A^nf)(x)=\exp(-\sum_{j=0}^{n-1}(x-j)^2)f(x-n)$.
+Completing the square yields
+$\sum_{j=0}^{n-1}(x-j)^2=n(x-(n-1)/2)^2+n(n^2-1)/12$.
+Hence $\|A^n\|=e^{-n(n^2-1)/12}$ and the spectral-radius formula gives
+$r(A)=0$. The positive weight proves injectivity. A change of variables
+gives $(A^*g)(x)=e^{-(x+1)^2}g(x+1)$, also injective, so
+$\overline{\operatorname{ran}A}=H$.
+The graph of $B=A^{-1}$ is the flipped closed graph of $A$; its domain
+is dense. For every $\lambda\in\mathbb C$, $I-\lambda A$ is invertible,
+and $(B-\lambda)^{-1}=A(I-\lambda A)^{-1}$ is bounded, with range in
+$\operatorname{ran}A=\operatorname{dom}B$. Direct multiplication on
+these domains proves both inverse identities. Thus $\sigma(B)=\varnothing$.
+
+#### Solution X.1.11 — The positive graph resolvent
+
+The graph domain of $A$, with inner product
+$\langle x,y\rangle_A=\langle x,y\rangle+\langle Ax,Ay\rangle$,
+is a Hilbert space because $A$ is closed. Riesz representation gives,
+for each $f\in H$, a unique $x$ satisfying
+$\langle y,x\rangle+\langle Ay,Ax\rangle=\langle y,f\rangle$
+for every $y\in\operatorname{dom}A$. Thus $Ax\in\operatorname{dom}A^*$
+and $(I+A^*A)x=f$. Taking $y=x$ gives
+$\|x\|^2+\|Ax\|^2=\langle f,x\rangle$, hence $\|x\|\leq\|f\|$.
+The inverse $B$ is bounded, positive and self-adjoint, by the same
+identity with two right-hand sides. It is injective; therefore its
+range is dense. Its inverse is closed, so $A^*A=B^{-1}-I$ is densely
+defined and closed, $-1\in\rho(A^*A)$, and $\|B\|\leq1$.
+
+#### Solution X.1.12 — The bounded companion
+
+For $x=Bf$, the identity just proved gives
+$\|ABf\|^2=\langle f,Bf\rangle-\|Bf\|^2
+\leq\|f\|\|Bf\|-\|Bf\|^2\leq\|f\|^2/4$.
+Thus $C=AB$ is everywhere defined and bounded; in fact $\|C\|\leq1/2$,
+which is stronger than the requested estimate.
+
+#### Solution X.1.13 — Surjectivity for a self-adjoint operator
+
+For nonreal $\lambda$, the estimate
+$\|(A-\lambda)x\|\geq|\operatorname{Im}\lambda|\|x\|$ gives
+injectivity. For real $\lambda$, self-adjointness gives
+$\ker(A-\lambda)=\operatorname{ran}(A-\lambda)^\perp$, so
+surjectivity again gives injectivity. A bijective closed operator has
+bounded inverse by X.1.9. The converse follows from the definition of
+the resolvent.
+
+### §2. Symmetry and self-adjoint extensions
+
+#### Solution X.2.1 — Real eigenvalues
+
+If $Ax=\lambda x$ and $x\ne0$, symmetry makes
+$\lambda\|x\|^2=\langle Ax,x\rangle=\langle x,Ax\rangle$
+real. Thus $\lambda\in\mathbb R$.
+
+#### Solution X.2.2 — Orthogonal eigenspaces
+
+For $Ax=\lambda x$, $Ay=\mu y$, symmetry and X.2.1 give
+$\lambda\langle x,y\rangle=\langle Ax,y\rangle
+=\langle x,Ay\rangle=\mu\langle x,y\rangle$.
+When $\lambda\ne\mu$ this forces $\langle x,y\rangle=0$.
+
+#### Solution X.2.3 — Closure preserves symmetry
+
+Since $A\subseteq A^*$ and $A^*$ is closed, $A$ is closable.
+If $x_n\to x$, $Ax_n\to\bar A x$ and $y_n\to y$,
+$Ay_n\to\bar A y$, passing to the limit in
+$\langle Ax_n,y_n\rangle=\langle x_n,Ay_n\rangle$
+proves symmetry of $\bar A$. Its domain is still dense.
+
+#### Solution X.2.4 — The positive half-line
+
+Compactly supported smooth functions prove density; weak derivatives
+and the trace estimate prove closedness. An $H^1(0,\infty)$ function
+tends to zero at infinity: $|f|^2$ has integrable derivative
+$2\operatorname{Re}(f'\bar f)$ and is integrable, so its limit is zero.
+Integration by parts therefore has only the boundary term at zero.
+As in X.1.5, the adjoint is $iD$ on all of $H^1(0,\infty)$, without
+the zero trace requirement. This also proves symmetry on the original
+domain. The equations $A^*g=ig$ and $A^*g=-ig$ give respectively
+$g'=g$ and $g'=-g$. Only $e^{-x}$ is square integrable on this half-line.
+Thus $(n_+,n_-)=(0,1)$.
+
+#### Solution X.2.5 — The negative half-line
+
+The density, closedness and adjoint proof is identical, with the
+boundary term at $-\infty$ zero and a trace at zero. Thus the adjoint
+domain is $H^1(-\infty,0)$. Now $e^x$ is square integrable and $e^{-x}$
+is not. Consequently $(n_+,n_-)=(1,0)$.
+
+#### Solution X.2.6 — Prescribed deficiency indices
+
+Take $k$ copies of the negative-half-line operator and $l$ copies of
+the positive-half-line operator. Use their Hilbert direct sum with domain
+$\{(x_j):x_j\in\operatorname{dom}A_j,
+\sum_j(\|x_j\|^2+\|A_jx_j\|^2)<\infty\}$.
+Coordinate limits prove closedness; finite supported domain vectors
+prove density and symmetry. Testing the adjoint coordinate by coordinate
+shows that each deficiency space is the Hilbert sum of the corresponding
+deficiency spaces. Thus the dimensions are $k,l$, including countably
+infinite values. If both are zero, use any bounded self-adjoint operator.
+
+#### Solution X.2.7 — All boundary conditions for the second derivative
+
+The closure of the initial operator is $A_0f=-f''$ on
+$\{f\in H^2(0,1):f(0)=f(1)=f'(0)=f'(1)=0\}$.
+Indeed its graph norm is equivalent to the $H^2$ norm (integrate twice
+and estimate the affine part); the traces are continuous. Conversely
+zero extension belongs to $H^2(\mathbb R)$ because both value and
+first-derivative jumps vanish. First compress its support slightly
+into $(0,1)$ by an affine change of variable, then convolve with a
+smooth mollifier supported in a still smaller interval. Translations
+and dilations are strongly continuous on $L^2$ for each of the first
+two derivatives, and mollification converges there too. This proves
+approximation in $H^2$ by test functions.
+Testing distributions and integrating twice shows
+$A_0^*f=-f''$ on all of $H^2(0,1)$.
+
+Put $q_f=(f(0),f(1))$ and $p_f=(f'(0),-f'(1))$. Green's identity is
+$\langle A_0^*f,g\rangle-\langle f,A_0^*g\rangle
+=\langle p_f,q_g\rangle-\langle q_f,p_g\rangle$.
+The trace map onto $\mathbb C^2\oplus\mathbb C^2$ is surjective:
+cubic interpolation prescribes all four traces. Its kernel is the
+minimal domain. For each unitary $V$ on $\mathbb C^2$, impose
+$q_f+ip_f=V(q_f-ip_f)$ and let $A_Vf=-f''$ on that domain.
+The boundary form vanishes there, and the allowed trace space is its
+own annihilator, so the adjoint has exactly the same domain.
+Conversely a self-adjoint extension gives such a maximal neutral trace
+space. On it the maps $q+ip$ and $q-ip$ have equal norm; neither has a
+nonzero kernel, and maximality makes their ranges all of $\mathbb C^2$.
+They therefore define precisely one unitary $V$. This parametrizes all
+extensions; $V=-I$ gives Dirichlet and $V=I$ gives Neumann conditions.
+
+#### Solution X.2.8 — Self-adjointness of A-star-A
+
+Write $T=A^*A$. X.1.11 proves that $T$ is densely defined, positive,
+symmetric, and $T+I$ is onto. If $y\in\operatorname{dom}T^*$, choose
+$x\in\operatorname{dom}T$ with $(T+I)x=(T^*+I)y$.
+Then $(T^*+I)(y-x)=0$. Its kernel is
+$\operatorname{ran}(T+I)^\perp=0$. Thus $y=x$ and $T^*=T$.
+
+#### Solution X.2.9 — Positivity alone is insufficient
+
+A self-adjoint operator has real spectrum. If $c>0$, positivity gives
+$\|(A+c)x\|\geq c\|x\|$. Its range is closed, and its orthogonal
+complement is $\ker(A+c)=0$, so it is onto and $-c\in\rho(A)$.
+Thus the spectrum is contained in $[0,\infty)$.
+For a counterexample without self-adjointness use $A_0$ in X.2.7.
+It is closed and $\langle A_0f,f\rangle=\|f'\|^2\geq0$.
+For every complex $\lambda$, the differential equation
+$-g''=\bar\lambda g$ has nonzero solutions in $H^2(0,1)$.
+Hence $\ker(A_0^*-\bar\lambda)\ne0$, the range of $A_0-\lambda$
+is not dense, and $\sigma(A_0)=\mathbb C$.
+
+#### Solution X.2.10 — An involution on a common invariant domain
+
+Write $A^\dagger=A^*|_{\mathcal M}$. For $x,y\in\mathcal M$,
+$\langle Ax,y\rangle=\langle x,A^\dagger y\rangle$.
+Reversing the identity shows $\mathcal M\subseteq
+\operatorname{dom}(A^\dagger)^*$ and
+$(A^\dagger)^*x=Ax$ there. Thus $A^\dagger$ belongs to the same class
+and $(A^\dagger)^\dagger=A$. The pairing also gives
+$(\alpha A+\beta B)^\dagger=\bar\alpha A^\dagger+
+\bar\beta B^\dagger$ and $(AB)^\dagger=B^\dagger A^\dagger$.
+All products here have domain $\mathcal M$; its invariance ensures they
+are defined. Density gives uniqueness of the representing vectors.
+
+### §3. Cayley transforms
+
+#### Solution X.3.1 — Fixed vectors of a partial isometry
+
+If $Ux=x$, equality of norms forces $x$ into the initial space,
+so $U^*x=U^*Ux=x$. Applying the same reasoning to $U^*$ proves
+$\ker(I-U)=\ker(I-U^*)$. The identities
+$\overline{\operatorname{ran}(I-U)}^\perp=\ker(I-U^*)$ and its
+adjoint version now give all four equivalences.
+
+#### Solution X.3.2 — Density on the initial space
+
+For $m\in M$, $(I-U^*)Um=Um-m$, so
+$(I-U^*)N=-(I-U)M$. Their density conditions are identical.
+Also $[(I-U)M]^\perp=\ker(P_M(I-U^*))
+=\ker(U^*U-U^*)$, since $P_MU^*=U^*$.
+Similarly $[(I-U^*)N]^\perp=\ker(UU^*-U)$.
+Taking zero orthogonal complements proves the remaining equivalences.
+
+#### Solution X.3.3 — No fixed vectors does not suffice
+
+On $\mathbb C^2$ let $Ue_1=e_2$, $Ue_2=0$. This is a partial isometry
+with initial space $\mathbb Ce_1$ and has no fixed vector, since
+$U^2=0$. But $(I-U)M=\mathbb C(e_1-e_2)$ is not dense in $\mathbb C^2$.
+
+#### Solution X.3.4 — A bounded expression for the Cayley transform
+
+Here $B=(I+A^*A)^{-1}$ and $C=AB$. Since $B$ is injective and
+$A+i$ is injective, $C+iB=(A+i)B$ is injective. For any $h$,
+$(C+iB)h\in\operatorname{ran}(A+i)$, and the Cayley transform $U$
+satisfies $U(C+iB)h=(A-i)Bh=(C-iB)h$.
+Thus $U$ extends the displayed expression on
+$\operatorname{ran}(C+iB)$; no assertion that this range is all of $H$
+is needed.
+
+#### Solution X.3.5 — Diagonal Cayley transforms
+
+The transform is the diagonal unitary
+$Ue_n=(\alpha_n-i)(\alpha_n+i)^{-1}e_n$.
+Its entries have modulus one and are never one. Moreover
+$(A+i)^{-1}e_n=(\alpha_n+i)^{-1}e_n$ is bounded, with range exactly
+$\operatorname{dom}A$, so the expression has domain all of $H$.
+
+#### Solution X.3.6 — Multiplication Cayley transforms
+
+For real $\phi$, $(A+i)^{-1}=M_{1/(\phi+i)}$, bounded with range
+$\operatorname{dom}A$. Thus $U=M_{(\phi-i)/(\phi+i)}$ on all of
+$L^2(\mu)$, a unitary multiplication operator. The pointwise inverse
+Cayley formula recovers $\phi$ with its maximal multiplication domain.
+
+#### Solution X.3.7 — The unilateral shift
+
+$\ker(I-S^*)=0$, because a constant square-summable sequence is zero.
+Thus $(I-S)H$ is dense. Theorem 3.1 gives
+$\operatorname{dom}A=(I-S)\ell^2$ and
+$A((I-S)x)=i(I+S)x$. More explicitly, if $y=(I-S)x$, then
+$x_n=\sum_{j=0}^ny_j$; the domain consists of the $y\in\ell^2$
+whose partial-sum sequence lies in $\ell^2$, and
+$(Ay)_n=i(x_n+x_{n-1})$, with $x_{-1}=0$.
+The initial space of $S$ is all of $H$ and its final space has codimension
+one, so this closed symmetric operator has indices $(0,1)$.
+
+#### Solution X.3.8 — The backward shift
+
+The initial space of $S^*$ is $M=e_0^\perp$ and its final space is $H$.
+Since $(I-S^*)Sx=-(I-S)x$, $(I-S^*)M$ is dense.
+Thus it too is a Cayley transform:
+$\operatorname{dom}A=(I-S^*)M$ and
+$A((I-S^*)x)=i(I+S^*)x$ for $x\in M$.
+These formulas determine the domain as well as the action, and the
+indices are $(1,0)$ by Theorem 3.1.
+
+### §4. Unbounded spectral calculus
+
+#### Solution X.4.1 — Products and their domains
+
+Put $T_\phi=\int\phi\,dE$ and
+$\mu_h(\Delta)=\langle E(\Delta)h,h\rangle$. Bounded truncations on
+$F_n=\{|\phi|\leq n,|\psi|\leq n\}$ increase strongly to $I$.
+The bounded calculus there gives all algebraic identities. In particular,
+$\|T_\phi h\|^2=\int|\phi|^2\,d\mu_h$, by norm convergence of the
+truncations, and
+$d\mu_{T_\psi h}=|\psi|^2d\mu_h$ when $h\in\mathcal D_\psi$.
+It follows directly that
+$\operatorname{dom}(T_\phi T_\psi)=\mathcal D_\psi\cap
+\mathcal D_{\phi\psi}$, with action $T_{\phi\psi}h$ there.
+
+For the adjoint, bounded truncations first give
+$T_{\bar\phi}\subseteq T_\phi^*$. Conversely if $T_\phi^*y=g$,
+testing on $E(\{|\phi|\leq n\})H$ gives
+$T_{\bar\phi}E(\{|\phi|\leq n\})y=E(\{|\phi|\leq n\})g$.
+The squared norm bound and monotone convergence imply
+$\int|\phi|^2d\mu_y<\infty$, proving equality. Applying the product
+formula to $\bar\phi,\phi$ gives
+$T_\phi^*T_\phi=T_{|\phi|^2}$: integrability of $|\phi|^4$ implies
+that of $|\phi|^2$ because $\mu_h$ is finite.
+
+Part (c) as printed needs a domain correction. For bounded $\psi$,
+$T_\phi T_\psi=T_{\phi\psi}$, but in general only
+$T_\psi T_\phi\subseteq T_{\phi\psi}$; its domain is
+$\mathcal D_\phi$. For instance $\psi=0$ and unbounded $T_\phi$
+make the left product defined only on $\mathcal D_\phi$, while
+$T_0$ is defined everywhere. The closure of the restricted product does
+equal $T_{\phi\psi}$: truncate a vector in its maximal domain to
+$\{|\phi|\leq n\}$ and use dominated convergence in its graph norm.
+
+#### Solution X.4.2 — Symmetric and normal means self-adjoint
+
+For a closed normal operator, $\operatorname{dom}A=\operatorname{dom}A^*$
+(as follows also from the norm formula for its spectral integral).
+Symmetry gives $A\subseteq A^*$. Equality of domains therefore upgrades
+the inclusion to equality of operators.
+
+#### Solution X.4.3 — The spectral norm identity
+
+For $h\in\mathcal D_\phi$ let $h_n=E(\{|\phi|\leq n\})h$.
+The bounded spectral calculus gives
+$\|T_\phi h_n\|^2=\int_{|\phi|\leq n}|\phi|^2\,d\mu_h$.
+The integrability defining $\mathcal D_\phi$ makes $T_\phi h_n$
+a norm-convergent sequence, with limit $T_\phi h$. Monotone convergence
+of the right side proves the claimed identity.
+
+#### Solution X.4.4 — The essential range relative to a spectral measure
+
+The answer is the closed set
+$K=\{\lambda:E(\{|\phi-\lambda|<\varepsilon\})\ne0
+\text{ for every }\varepsilon>0\}$.
+If $\lambda\notin K$, the function $1/(\phi-\lambda)$ is essentially
+bounded relative to $E$; its integral is a bounded inverse whose range
+is the domain of $T_\phi$. If $\lambda\in K$, choose a unit vector
+in $E(\{|\phi-\lambda|<1/n\})H$. These vectors belong to the domain
+and satisfy $\|(T_\phi-\lambda)h_n\|\leq1/n$, excluding a bounded
+inverse. This proves $\sigma(T_\phi)=K$ without assuming bounded $\phi$.
+
+#### Solution X.4.5 — The annulus endpoints require correction
+
+The slices in the proof are $P_n=P((1/(n+1),1/n])$. Consequently the
+radial support of $E_n$ is
+$\{z:n-1\leq|z|^2<n\}$: the upper endpoint has zero measure but the
+lower endpoint is allowed. Thus $E_n(\Delta_{n+1})=0$, whereas the
+asserted $E_n(\Delta_{n-1})=0$ need not hold for the closed annuli
+printed in the proof. For $n\geq2$, take $N=\sqrt{n-1}\,I$.
+Then $B=I/n$, $P_n=I$, and
+$E_n(\Delta_{n-1})=I$, a counterexample.
+Use instead the half-open annuli
+$\widetilde\Delta_n=\{z:n-1\leq|z|^2<n\}$; they are disjoint and
+$E_n(\widetilde\Delta_m)=0$ for every $m\ne n$.
+The endpoint assertion follows from the bounded calculus
+$B|_{H_n}=(I+N_n^*N_n)^{-1}$ and the corresponding spectral projections.
+
+#### Solution X.4.6 — Moment bounds do not give the proposed lower support
+
+The forward inclusion follows immediately from
+$\|N^nh\|^2=\int|z|^{2n}\,d\mu_h$. The reverse inclusion is false.
+Take $a=1,b=2$, $N=\operatorname{diag}(0,2)$ and
+$h=(\sqrt3/2,1/2)$. Then $\|h\|=1$ and
+$\|N^nh\|=2^{n-1}$ for every $n\geq1$, which lies between $1$ and
+$2^n$, yet $h\notin E(\{1\leq|z|\leq2\})H$.
+The upper bound alone does imply support in $|z|\leq b$: positive mass
+on $|z|\geq b+\varepsilon$ would violate it for large $n$.
+A correct two-sided characterization adds the inverse moment bounds
+$\int|z|^{-2n}\,d\mu_h\leq a^{-2n}\|h\|^2$ for every $n$, with
+$|0|^{-2n}=+\infty$. The same argument excludes mass on $|z|<a$.
+Together with the upper bounds these conditions are equivalent to the
+annular spectral support. Ordinary lower bounds on positive moments
+cannot replace the inverse moment conditions.
+
+#### Solution X.4.7 — Polar decomposition with domains
+
+By X.2.8, $A^*A$ is positive self-adjoint. Define
+$|A|=(A^*A)^{1/2}$ by the spectral calculus. Then
+$\operatorname{dom}|A|=\operatorname{dom}A$ and
+$\||A|x\|=\|Ax\|$. Here is the domain justification: on
+$\operatorname{dom}A^*A$ the norm identity follows by taking inner
+products. This domain is a core for $A$: if $x$ is graph-orthogonal to
+it, test against $Bf$ from X.1.11 to get
+$0=\langle x,Bf\rangle+\langle Ax,ABf\rangle=\langle x,f\rangle$
+for every $f$. It is also a core for $|A|$, by spectral truncation.
+The two graph-norm completions therefore agree.
+
+Define $V(|A|x)=Ax$ on $\operatorname{ran}|A|$. The norm identity
+makes this well defined and isometric. Extend it to its closure and
+set it zero on $\ker|A|=\ker A$. Then $V$ is a partial isometry with
+initial space $(\ker A)^\perp$, final space
+$\overline{\operatorname{ran}A}$, and $A=V|A|$ on their common domain.
+These initial and final spaces and the identity determine $V$ uniquely.
+Also $A^*=|A|V^*$ on
+$\{y:V^*y\in\operatorname{dom}|A|\}$, by the adjoint pairing.
+
+#### Solution X.4.8 — Exponentiating a self-adjoint operator
+
+Its spectral measure is supported on $\mathbb R$. The bounded function
+$e^{it}$ has modulus one, so the bounded spectral calculus gives
+$(e^{iA})^*=e^{-iA}$ and both products equal $I$.
+Thus the exponential is an everywhere defined unitary even when $A$
+is unbounded.
+
+#### Solution X.4.9 — Unbounded Fuglede–Putnam
+
+Let $Q_n$ and $P_m$ be the spectral projections of $N$ and $M$ on the
+disks of radii $n,m$. Their restrictions $N_n,M_m$ are bounded normal
+operators. The hypothesis implies
+$M_m(P_mAQ_n)=(P_mAQ_n)N_n$ as operators from $Q_nH$ to $P_mH$.
+The bounded Fuglede–Putnam theorem (apply the commuting version to a
+block diagonal operator) gives
+$M_m^*P_mAQ_n=P_mAQ_nN_n^*$.
+For fixed $x\in Q_nH$, the right side converges to $AN^*x$ as
+$m\to\infty$, while $P_mAx\to Ax$. Closedness of $M^*$ implies
+$Ax\in\operatorname{dom}M^*$ and $M^*Ax=AN^*x$.
+Finally for any $x\in\operatorname{dom}N^*$, $Q_nx\to x$ and
+$N^*Q_nx\to N^*x$. Another application of closedness proves
+$AN^*\subseteq M^*A$, including its domain assertion.
+
+#### Solution X.4.10 — The cyclic scalar model
+
+Let $\mu(\Delta)=\langle E(\Delta)e_0,e_0\rangle$.
+For bounded simple $f$ define $Vf=f(N)e_0$. The norm formula makes
+$V$ an isometry from the simple functions in $L^2(\mu)$ into $H$,
+so it extends isometrically to all of $L^2(\mu)$.
+The assumed domains of $e_0$ give every mixed polynomial in $L^2(\mu)$,
+and truncating it shows $V(z^l\bar z^k)=N^{*k}N^le_0$.
+Star-cyclicity makes the range of $V$ dense, hence all of $H$.
+In addition $VE_\mu(\Delta)=E(\Delta)V$, first on simple functions
+and then by continuity. Integrating $|z|^2$ proves
+$V\operatorname{dom}N_\mu=\operatorname{dom}N$ and $VN_\mu=NV$.
+Thus $W=V^{-1}$ has all the required properties, including $We_0=1$.
+The polynomial images are dense, so polynomials themselves are dense
+in the scalar model as asserted in Example 4.17.
+
+#### Solution X.4.11 — Equivalence of scalar spectral types
+
+If the measures are equivalent, let $r=d\mu_1/d\mu_2$.
+$Vf=\sqrt r\,f$ is a unitary $L^2(\mu_1)\to L^2(\mu_2)$,
+commuting with multiplication by $z$ and preserving its maximal domain.
+Conversely an intertwining unitary intertwines the spectral measures,
+by uniqueness of the normal spectral resolution. For the scalar model,
+$E_j(\Delta)=0$ if and only if $\mu_j(\Delta)=0$ (use the indicator
+of $\Delta$, since the measure is finite). The two measures therefore
+have exactly the same null sets. The argument works for arbitrary finite
+measures, whether or not polynomials are dense.
+
+#### Solution X.4.12 — A multiplication model on a separable space
+
+Choose a countable dense sequence. Generate a cyclic reducing subspace
+from its first vector by all spectral projections. Project the next
+vector onto the orthogonal complement and repeat, omitting zero vectors.
+The resulting mutually orthogonal subspaces exhaust $H$, since every
+vector of the dense sequence is included at its stage. On each subspace
+with cyclic vector $e_j$, the simple-function isometry in X.4.10 gives
+a model $L^2(\mu_j)$ with finite measure
+$\mu_j(\Delta)=\langle E(\Delta)e_j,e_j\rangle$; polynomial cyclicity
+is unnecessary for this construction. Take the disjoint union of these
+copies of $\mathbb C$, with measure equal to $\mu_j$ on copy $j$,
+and set $\phi(j,z)=z$. This measure is sigma-finite. The direct-sum
+unitary carries the operator domain to
+$\{f:\sum_j\int|z f_j|^2d\mu_j<\infty\}$, exactly the domain of
+$M_\phi$. Thus it intertwines the unbounded operators, not just their
+bounded truncations.
+
+### §5. One-parameter unitary groups
+
+#### Solution X.5.1 — Weak continuity becomes strong continuity
+
+For every $h$,
+$\|(U(t)-U(s))h\|^2=2\|h\|^2-
+2\operatorname{Re}\langle U(t)h,U(s)h\rangle$.
+WOT continuity makes the last inner product tend to $\|h\|^2$ as
+$t\to s$, so the norm tends to zero. This proves SOT continuity at
+every $s$.
+
+#### Solution X.5.2 — Explicit smooth averaging functions
+
+The parameter must be a positive integer. Let
+$\eta(t)=c\exp(-1/(t(1-t)))$ for $0<t<1$ and zero otherwise,
+where $c$ makes $\int\eta=1$. Repeated differentiation shows that
+all derivatives tend to zero at the endpoints: every term is a
+polynomial in $1/t,1/(1-t)$ times the exponentially decaying factor.
+Thus $\eta$ is smooth and compactly supported. Set
+$\phi_n(t)=n\eta(nt)$ for $n\geq1$.
+Then $\phi_n,\phi_n'\in L^1$, its support is in $[0,1/n]$, and its
+integral is one by substitution. For $n\leq0$ the printed condition
+is undefined or impossible, so “every integer” means every positive one.
+
+#### Solution X.5.3 — Symmetry of the generator
+
+For $h,g$ in its domain, unitarity gives
+$\langle(U(t)-I)h,g\rangle=\langle h,(U(-t)-I)g\rangle$.
+Divide by $t$, multiply in the first variable by $-i$, and let $t\to0$.
+Conjugate linearity in the second variable and the change from $t$ to
+$-t$ cancel the signs, yielding $\langle Ah,g\rangle=\langle h,Ag\rangle$.
+The averaging functions from X.5.2 give the dense domain, as in the
+text, so this proves the claimed symmetric operator.
+
+#### Solution X.5.4 — Integrated group operators
+
+Here $T_\phi=\int_0^\infty\phi(t)U(t)\,dt$ and
+$S_\phi=\int_0^\infty\phi(t)U(-t)\,dt$, interpreted strongly.
+The estimate $\|T_\phi h\|\leq\|\phi\|_1\|h\|$ justifies taking
+adjoints in scalar pairings and gives $T_\phi^*=S_{\bar\phi}$.
+Fubini is justified by the bound
+$|\phi(s)\psi(t)|\|h\|$, integrable on the quadrant.
+The group law and the substitution $r=s+t$ yield
+$T_\phi T_\psi=T_{\phi*\psi}$ and $S_\phi S_\psi=S_{\phi*\psi}$,
+where the half-line convolution is $\int_0^r\phi(t)\psi(r-t)dt$.
+Finally $T_\phi$ commutes with every $U(t)$. For
+$h\in\operatorname{dom}A$, apply the bounded operator $T_\phi$ to
+the difference quotients defining $Ah$. Their norm limit proves that
+$T_\phi h\in\operatorname{dom}A$ and $AT_\phi h=T_\phi Ah$.
+
+#### Solution X.5.5 — Eigenvectors of a group element
+
+If $Ae=\lambda e$, the spectral measure of $e$ is concentrated at
+$\lambda$, and $U(t)e=e^{it\lambda}e$ for every $t$.
+Conversely suppose $U(t_0)e=\zeta e$, $t_0\ne0$.
+Then $|\zeta|=1$ and the measure of $e$ is supported on the countable
+set $\{(\theta+2\pi k)/t_0:k\in\mathbb Z\}$, where
+$\zeta=e^{i\theta}$. At least one atom is nonzero. The nonzero vectors
+$E(\{\lambda_k\})e$ are eigenvectors of $A$ and of every $U(s)$.
+Thus $A$ and all $U(s)$ have eigenvectors. The original $e$ need not
+be an eigenvector of $A$, or even belong to its domain: it may be an
+infinite sum of these orthogonal eigenvectors with an infinite second
+moment. Nor must $e$ be an eigenvector of each $U(s)$.
+
+#### Solution X.5.6 — Norm continuity forces a bounded generator
+
+Norm continuity at zero and the group law imply norm continuity
+everywhere. Therefore
+$\|t^{-1}\int_a^{a+t}U(s)ds-U(a)\|
+\leq\sup_{|s-a|\leq|t|}\|U(s)-U(a)\|\to0$.
+Choose a small fixed $a>0$ so that
+$V=\int_0^aU(s)ds$ is invertible: $\|a^{-1}V-I\|<1$.
+The group law gives
+$(U(t)-I)V=\int_a^{a+t}U(s)ds-\int_0^tU(s)ds$.
+Divide by $t$ and use the established norm limits to get
+$(U(t)-I)/t\to(U(a)-I)V^{-1}$ in operator norm.
+Thus the generator is the everywhere defined bounded operator
+$-i(U(a)-I)V^{-1}$, by its defining difference quotient.
+
+### §6. Fourier analysis
+
+#### Solution X.6.1 — A core for differentiation
+
+Choose smooth cutoffs $\chi_R(x)=\chi(x/R)$, with $\chi=1$ on
+$[-1,1]$ and supported in $[-2,2]$. Then $\chi_R f\to f$ in $L^2$
+and $(\chi_Rf)'=\chi_R f'+\chi_R'f\to f'$ in $L^2$;
+the extra term is bounded by $\|\chi'\|_\infty\|f\|_2/R$.
+For fixed $R$, convolve with a smooth compactly supported mollifier
+of total mass one. Translation continuity in $L^2$ implies convergence
+of both the function and its weak derivative, since differentiation
+commutes with this convolution. The mollifications are smooth and
+compactly supported. Choosing their scales small enough for $R=n$
+gives the required sequence in $C_c^{(1)}$.
+
+#### Solution X.6.2 — Completeness of Schwartz space
+
+Write $p_{m,n}(f)=\sup_x|x^mf^{(n)}(x)|$. These countably many
+seminorms separate points and define the translation-invariant metric
+$\sum_{m,n\geq0}2^{-m-n-2}\min(1,p_{m,n}(f-g))$.
+A Cauchy sequence has uniformly Cauchy derivatives of every order.
+Let their uniform limits be $g_n$. The fundamental theorem of calculus
+on compact intervals gives $g_n'=g_{n+1}$; hence $g_0$ is smooth.
+For every $m,n$, uniform convergence of $x^mf_j^{(n)}$ shows its limit
+is $x^mg_n$, which is bounded. Thus $g_0\in\mathcal S$ and the sequence
+converges in every seminorm. This proves completeness, metrizability,
+and local convexity, the defining properties of a Fréchet space.
+
+#### Solution X.6.3 — Rapid decay and polynomial weights
+
+If $f\in\mathcal S$, then for $|x|\geq1$,
+$|x^mf^{(n)}(x)|\leq p_{m+1,n}(f)/|x|\to0$.
+Linearity gives decay for every polynomial. Conversely the stated
+limits make each $x^mf^{(n)}(x)$ bounded outside a compact interval;
+continuity bounds it inside. Every Schwartz seminorm is therefore finite.
+
+#### Solution X.6.4 — The convolution bound
+
+Use the section's normalized convolution
+$(f*g)(x)=(2\pi)^{-1/2}\int f(x-t)g(t)dt$ and
+$\|g\|_1=(2\pi)^{-1/2}\int|g|$.
+For $1\leq p<\infty$, Minkowski's integral inequality and translation
+invariance give
+$\|f*g\|_p\leq(2\pi)^{-1/2}\int|g(t)|\|f(\cdot-t)\|_pdt
+=\|f\|_p\|g\|_1$.
+One can obtain this integral inequality first for simple functions by
+the triangle inequality in $L^p$, then by approximation and Fatou's
+lemma; Tonelli ensures absolute integrability almost everywhere where
+needed. For $p=\infty$, the pointwise bound outside a null set gives
+the same inequality directly. With ordinary unnormalized convolution,
+the identical proof uses the ordinary $L^1$ norm.
+
+#### Solution X.6.5 — Approximate identities in norm and weak-star topology
+
+Substitution gives
+$f*\psi_\varepsilon-f=(2\pi)^{-1/2}\int\psi(t)
+[f(\cdot-\varepsilon t)-f]dt$.
+For $p<\infty$ translations are norm continuous (first for compactly
+supported continuous functions, then by density). Minkowski followed
+by dominated convergence, with bound $2\|f\|_p|\psi(t)|$, gives
+norm convergence. For $f\in L^\infty$ and a test $g\in L^1$, Fubini
+moves the translations onto $g$; their $L^1$ continuity gives
+$\int(f*\psi_\varepsilon-f)g\to0$ by the same dominated convergence
+argument. This is weak-star convergence, not generally norm convergence.
+
+#### Solution X.6.6 — Integrable transform inversion
+
+Let $g(x)=(2\pi)^{-1/2}\int\hat f(t)e^{ixt}dt$, a bounded continuous
+function. Multiply the integrand by $e^{-\varepsilon t^2/2}$.
+Fubini, justified by $f\in L^1$ and the integrable Gaussian, identifies
+this inverse integral with $f*k_\varepsilon$, where
+$k_\varepsilon(x)=\varepsilon^{-1/2}e^{-x^2/(2\varepsilon)}$
+has normalized integral one. The approximate-identity argument makes
+$f*k_\varepsilon\to f$ in $L^1$. On the other hand
+$\hat f\in L^1$ makes the inverse integrals converge uniformly to $g$
+by dominated convergence. An $L^1$-convergent subsequence converges
+almost everywhere, so $f=g$ almost everywhere, as claimed.
+
+#### Solution X.6.7 — Reflection and the inverse transform
+
+On $\mathcal S$, Fourier inversion gives
+$\mathcal F^{-1}f(x)=\mathcal Ff(-x)$. Both sides define bounded
+operators on $L^2$: Plancherel gives the two transforms, and reflection
+preserves the $L^2$ norm. Density of $\mathcal S$ extends their equality
+to every $L^2$ vector. Pointwise notation here denotes equality of
+$L^2$ equivalence classes, not an absolutely convergent integral in general.
+
+#### Solution X.6.8 — The fourth power of the Fourier transform
+
+Let $Rf(x)=f(-x)$. The preceding identity and commutation of reflection
+with $\mathcal F$ imply $\mathcal F^2=R$ and $\mathcal F^4=I$.
+A nonzero odd Schwartz function has $Rf=-f$, so $\mathcal F^2\ne I$.
+Polynomial spectral mapping gives
+$\sigma(\mathcal F)\subseteq\{1,-1,i,-i\}$.
+In fact equality holds: the Hermite functions in X.6.9 give nonzero
+eigenvectors for each of these four values.
+
+#### Solution X.6.9 — Hermite functions, rather than bare polynomials
+
+Nonzero polynomials are neither $L^1(\mathbb R)$ nor $L^2(\mathbb R)$,
+so their Fourier transforms do not exist in the spaces used in this
+section. The classical intended calculation concerns Hermite functions.
+With the physicists' convention
+$H_n(x)=(-1)^ne^{x^2}(d/dx)^ne^{-x^2}$, set
+$h_n(x)=H_n(x)e^{-x^2/2}$. The Gaussian integral gives
+$\mathcal Fh_0=h_0$. The recurrence
+$h_{n+1}=(x-d/dx)h_n$ follows by differentiation of the definition.
+Integration by parts on Schwartz functions gives
+$\mathcal F(xf)=i(\mathcal Ff)'$ and
+$\mathcal F(f')=ix\mathcal Ff$; hence
+$\mathcal F((x-D)f)=-i(x-D)\mathcal Ff$.
+Induction yields $\mathcal Fh_n=(-i)^nh_n$.
+If one extends the transform to tempered distributions, bare
+polynomials instead satisfy
+$\mathcal F(x^n)=\sqrt{2\pi}\,i^n\delta_0^{(n)}$;
+linearity then gives the distributional transform of any $H_n$.
+That extension is a different meaning of “Fourier transform.”
+
+### §7. Moment problems
+
+#### Solution X.7.1 — The Stieltjes moment problem
+
+(a) implies (b) by integrating $|p(t)|^2$ and $t|p(t)|^2$.
+For (b), define $L(t^n)=m_n$ and the polynomial inner product
+$\langle p,q\rangle=L(p\bar q)$, quotient its null space, and complete.
+Cauchy–Schwarz for this positive form shows that a null polynomial
+$p$ satisfies $L(p\bar q)=0$ for every polynomial $q$; taking
+$q=t^2p$ shows that multiplication by $t$ respects the null space.
+It defines a densely defined symmetric operator $S[p]=[tp]$.
+The second positivity condition makes $S$ nonnegative.
+
+We need a nonnegative self-adjoint extension, not an arbitrary one.
+Here is the required form construction. On $\operatorname{dom}S$
+complete the norm
+$\|x\|_q^2=\|x\|^2+\langle Sx,x\rangle$ to obtain a Hilbert space $Q$.
+Its inclusion $j:Q\to H$ is injective: if a form-Cauchy sequence $x_n$
+tends to zero in $H$, its form limit is orthogonal to every
+$y\in\operatorname{dom}S$, since
+$\langle x_n,y\rangle_q=\langle x_n,y+Sy\rangle\to0$.
+Density in $Q$ then makes that limit zero. Set $B=jj^*$ on $H$.
+It is a positive injective contraction with dense range. The spectral
+calculus defines the nonnegative self-adjoint operator $T=B^{-1}-I$.
+For $x\in\operatorname{dom}S$, the pairing above gives
+$j^*(I+S)x=x$ in $Q$, hence $B(I+S)x=x$ in $H$.
+Thus $T$ extends $S$.
+
+Take $e=[1]$. Since $T$ agrees with multiplication on all polynomials,
+$e\in\operatorname{dom}T^n$ and
+$\langle T^ne,e\rangle=m_n$. This proves (c).
+Finally (c) gives (a) using
+$\mu(\Delta)=\langle E_T(\Delta)e,e\rangle$ on $[0,\infty)$.
+Its moments are finite by the stated power domains and Cauchy–Schwarz;
+the spectral norm and pairing formulas give exactly $m_n$.
+
+#### Solution X.7.2 — Bochner's representation
+
+(a) implies continuity by dominated convergence and positivity by
+integrating $|\sum_j\alpha_je^{it_jx}|^2$.
+For (b), give finite sums of formal symbols $\delta_t$ the form
+$\langle\delta_s,\delta_t\rangle=m(s-t)$, quotient the null space,
+and complete. Positivity ensures a Hermitian form and Cauchy–Schwarz,
+so the quotient is valid. Translation $U(a)\delta_t=\delta_{t+a}$
+preserves the form and has inverse $U(-a)$; it extends to a unitary.
+Moreover
+$\|(U(a)-I)\delta_t\|^2=2m(0)-2\operatorname{Re}m(a)\to0$.
+Finite sums and the common norm bound extend this to strong continuity
+on the completion. With $e=\delta_0$ we get (c).
+For (c), Stone's theorem supplies $U(t)=e^{itA}$; its scalar spectral
+measure at $e$ is finite and satisfies (a). If $m(0)=0$, the positivity
+inequality forces $m=0$, covered by the zero measure and zero vector.
+
+#### Solution X.7.3 — Moments on the unit circle
+
+Integrating $|\sum_j\alpha_jz^j|^2$ gives (a) implies (b).
+For the converse construct a Hilbert space from Laurent polynomials
+with $\langle z^j,z^k\rangle=m_{j-k}$, quotienting null vectors and
+completing as above. Multiplication by $z$ preserves this form and has
+inverse multiplication by $z^{-1}$, so it extends to a unitary $U$.
+For $e=[1]$, $\langle U^ne,e\rangle=m_n$ for all integers $n$,
+proving (c). Its unit-circle spectral measure at $e$ proves (a).
+The total mass is $m_0$, and the zero case is handled as in X.7.2.
+
+#### Solution X.7.4 — Cyclicity in the Hamburger construction
+
+In the proof of Theorem 7.1, let $e$ be the class of $(1,0,0,\ldots)$.
+The initial shift $T$ satisfies $T^ne=[t^n]$. Every chosen self-adjoint
+extension $A$ agrees with $T$ on the polynomial domain, which is
+$T$-invariant. Inductively $e\in\operatorname{dom}A^n$ and
+$A^ne=[t^n]$ for every $n$. Finite linear combinations of these classes
+are exactly the dense quotient space used to construct $H$.
+Thus $e$ is a cyclic vector for $A$.
+
+<!-- END SOLUTIONS X -->
