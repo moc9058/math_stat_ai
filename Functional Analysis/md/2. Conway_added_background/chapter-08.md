@@ -839,3 +839,594 @@ Actually, more can be said if $\mathcal A$ is separable. In fact, every separabl
 
 11. If $\mathcal{A}$ is a separable C*-algebra and $\{f_n\}$ is a countable weak* dense subset of $S_{\mathcal{A}}$, let $f=\sum_n 2^{-n}f_n$. Show that $\pi_f$ is an isometry.
 
+<!-- BEGIN SOLUTIONS VIII -->
+
+## Exercise Solutions
+
+These added solutions use the chapter's unital convention for $C^*(a)$
+and for representations, except when a nonunital algebra is explicitly
+specified. Functional calculus is the continuous calculus for normal
+elements. Positive means self-adjoint with nonnegative spectrum.
+
+### §1. Examples of C*-algebras
+
+#### Solution VIII.1.1 — The basic examples
+
+For bounded Hilbert-space operators, adjunction is conjugate linear,
+involutive, and reverses products; the identity
+$\|A^*A\|=\|A\|^2$ follows from
+$\|Ah\|^2=\langle A^*Ah,h\rangle$ and the reverse operator norm bound.
+Compact operators form a norm-closed ideal and are closed under adjunction
+by Schauder's theorem, so form a C*-subalgebra. On $C(X),C_0(X)$ and
+$L^\infty$, complex conjugation has the involution properties and
+$\|\bar f f\|=\||f|^2\|=\|f\|^2$. These spaces are complete and closed
+under products. An identity for $C_0(X)$ must equal 1 at every point by
+bump functions, so exists exactly when $X$ is compact; an identity for
+compact operators must be the ambient identity, compact exactly in finite
+dimension.
+
+#### Solution VIII.1.2 — An isometric involution is not enough
+
+Uniform limits preserve continuity on the closed disk and holomorphy in
+the disk by Cauchy's formula, so the disk algebra is a closed Banach
+subalgebra. Reflection and conjugation send a Taylor series
+$\sum a_nz^n$ to $\sum\bar a_nz^n$, hence preserve holomorphy, and preserve
+the supremum norm. They define a conjugate-linear involution.
+For $f(z)=1+iz$, however, $\|f\|=2$, while
+$f^*f=(1-iz)(1+iz)=1+z^2$ has norm 2. Thus
+$\|f^*f\|\ne\|f\|^2$, so this is not a C*-algebra.
+
+#### Solution VIII.1.3 — Direct sums
+
+Give each direct sum the coordinate involution. It preserves bounded
+families and families vanishing at infinity, since $\|a_i^*\|=\|a_i\|$.
+The Banach-algebra properties were proved in VII.1.5, and
+$$\|a^*a\|=\sup_i\|a_i^*a_i\|=\sup_i\|a_i\|^2=\|a\|^2.$$
+Thus both direct sums are C*-algebras.
+
+#### Solution VIII.1.4 — Algebra-valued functions
+
+Use pointwise operations, pointwise involution, and the supremum norm.
+Uniform limits of continuous $A$-valued functions are continuous and the
+complete target gives completeness. Norm continuity of multiplication
+and involution gives closure under these operations. The level-set
+condition for $C_0(X,A)$ is preserved under uniform limits, products,
+and involution, so it is a closed *-subalgebra of $C_b(X,A)$.
+Finally $\|f^*f\|=\sup_x\|f(x)^*f(x)\|=\|f\|^2$.
+
+### §2. Commutative C*-algebras
+
+#### Solution VIII.2.1 — A single normal generator
+
+The coordinate $z$ and its adjoint $\bar z$ generate a unital self-adjoint
+algebra separating points of compact $K$. Stone–Weierstrass makes its
+uniform closure all of $C(K)$. Thus the coordinate is a single C*-generator.
+The star operation is essential: polynomial generation alone need not hold.
+
+#### Solution VIII.2.2 — Finitely many generators
+
+On the compact character space $\Sigma$ define
+$\tau(h)=(h(a_1),\ldots,h(a_n))$. Characters of a C*-algebra preserve
+adjoints, so equality of these values implies equality on all
+*-polynomials, then on their closure, and hence on $A$.
+Thus $\tau$ is a continuous injection and a homeomorphism onto compact
+$X=\tau(\Sigma)\subset\mathbb C^n$. Compose the isometric Gelfand
+*-isomorphism with this change of variables to obtain $\rho$.
+By construction $\rho(a_k)=z_k$. This uses the unital generator convention;
+in a nonunital formulation the natural space is locally compact instead.
+
+#### Solution VIII.2.3 — Projections and clopen sets
+
+Projections in $C(X)$ are precisely indicators of clopen sets, since
+$p=\bar p=p^2$ forces values 0 and 1. If $X$ has a clopen neighborhood
+base, finite clopen partitions approximate each continuous function
+uniformly by step functions, as in V.7.5. Thus their span is dense.
+Conversely, given $x\in U$ open choose continuous $f$ with $f(x)=1$ and
+$f=0$ off $U$. Approximate $f$ within $1/3$ by a finite linear combination
+of clopen indicators. The common partition cell containing $x$ is clopen;
+on it the approximant has a constant value of modulus greater than $2/3$,
+so the cell cannot meet $X\setminus U$. This supplies the clopen base.
+
+#### Solution VIII.2.4 — The spectrum of Linfinity is totally disconnected
+
+Every essentially bounded measurable function is uniformly approximable
+in essential supremum by simple functions, by dividing a bounded scalar
+range into finitely many small sets. Simple functions are linear
+combinations of measurable-set indicators, which are projections.
+The commutative C*-representation transfers this dense span to $C(\Sigma)$.
+VIII.2.3 implies $\Sigma$ is totally disconnected.
+
+#### Solution VIII.2.5 — Exponentials of self-adjoint elements
+
+If $a=a^*$, then $(e^{ia})^*=e^{-ia}$ and the commuting exponential
+series give $e^{ia}e^{-ia}=1$. Thus it is unitary.
+The converse, interpreted as every unitary being $e^{ia}$ for a
+self-adjoint $a$ in the algebra, is false. The coordinate unitary in
+$C(\mathbb T)$ has no continuous real logarithm: a putative
+$a(e^{it})$ satisfies $a(e^{it})-t\in2\pi\mathbb Z$, constant for
+$0\leq t\leq2\pi$, but endpoint equality for $a$ contradicts the
+increase by $2\pi$. In $\mathcal B(H)$ a bounded Borel spectral logarithm
+exists, but that is a different assertion.
+
+#### Solution VIII.2.6 — Identifying a constrained sequence algebra
+
+Let $Y=\mathbb N\times X$ be the disjoint union of copies of $X$ and
+$D=\{(n,x_0):n\in\mathbb N\}$. Then bounded sequences of functions are
+$C_b(Y)=C(\beta Y)$. The closure of $D$ in $\beta Y$ is $\beta\mathbb N$:
+every bounded function on $D$ extends constantly on each copy of $X$.
+Put $F=\overline D\setminus D$. A sequence of scalars converges exactly
+when its extension to $\beta\mathbb N$ is constant on $F$. Indeed, if it
+does not converge to that constant, an infinite set of terms staying a
+fixed distance away has a cluster point in $F$, a contradiction.
+Thus the algebra in the exercise is exactly the continuous functions on
+$\beta Y$ constant on the closed set $F$. It is a closed unital
+self-adjoint subalgebra, hence a C*-algebra. Its maximal ideal space is
+the compact Hausdorff quotient $\beta Y/F$ obtained by collapsing $F$
+to one point. Continuous functions on that quotient are precisely this
+algebra, by the quotient property and separation.
+
+#### Solution VIII.2.7 — The Stone–Čech character space
+
+Pointwise conjugation and the supremum norm make $C_b(X)$ a C*-algebra.
+Every bounded continuous function extends uniquely to $\beta X$, and
+density of $X$ preserves the norm and pointwise operations, including
+conjugation. Hence $C_b(X)\cong C(\beta X)$ isometrically as *-algebras.
+VII.8.7 for compact spaces identifies its character space with $\beta X$.
+
+### §3. Positivity and polar decomposition
+
+#### Solution VIII.3.1 — Uniqueness of positive and negative parts
+
+In an abelian algebra identify the elements with continuous functions.
+If $a=u-v$, $u,v\geq0$, and $uv=0$, then at each point at most one of
+$u,v$ is positive. Therefore $u=\max(a,0)$ and $v=\max(-a,0)$ pointwise.
+These formulas determine them uniquely and transfer back through the
+Gelfand isomorphism.
+
+#### Solution VIII.3.2 — Positive nth roots
+
+Existence is $b=f(a)$ for $f(t)=t^{1/n}$ on $\sigma(a)\subset[0,\infty)$;
+the calculus gives $b\geq0$ and $b^n=a$.
+If $c\geq0$ and $c^n=a$, continuous calculus in $C^*(c)$ gives
+$(c^n)^{1/n}=c$. The root function on $\sigma(a)$ is uniformly
+approximable by polynomials, so its value is independent of whether the
+calculus is performed in $C^*(a)$ or $C^*(c)$. Hence $c=b$.
+In a nonunital algebra $f(0)=0$ ensures the root remains in that algebra.
+
+#### Solution VIII.3.3 — Multiplication by t
+
+$\langle Af,f\rangle=\int_0^1t|f(t)|^2\,dt\geq0$, and $A$ is
+self-adjoint. Multiplication by $t^{1/n}$ is positive and its $n$th power
+is $A$, so uniqueness gives $(A^{1/n}f)(t)=t^{1/n}f(t)$.
+
+#### Solution VIII.3.4 — Positive multipliers and their parts
+
+If $\phi\geq0$ almost everywhere, the quadratic form
+$\int\phi|f|^2$ is nonnegative. Conversely self-adjointness forces
+$\phi$ to be real almost everywhere; if $\phi<0$ on a positive set,
+a finite positive-measure subset where $\phi\leq-1/n$ supplies an indicator
+with negative quadratic form. Thus positivity is exactly nonnegativity
+almost everywhere. Its root is $M_{\phi^{1/n}}$. For real $\phi$, the
+positive and negative parts are $M_{\max(\phi,0)}$ and
+$M_{\max(-\phi,0)}$, whose product is zero and whose difference is $M_\phi$.
+
+#### Solution VIII.3.5 — A nonself-adjoint square root
+
+On $\mathbb C^2$ let $B=\begin{bmatrix}1&1\\0&-1\end{bmatrix}$.
+Direct multiplication gives $B^2=I\geq0$, but $B\ne B^*$.
+Thus uniqueness of positive square roots does not extend to arbitrary
+square roots, even of the identity.
+
+#### Solution VIII.3.6 — Absolute value
+
+The positive and negative parts commute and have product zero. Thus
+$(a_++a_-)^2=a_+^2+a_-^2=(a_+-a_-)^2=a^2$.
+Their sum is positive, so uniqueness of the positive square root gives
+$|a|=a_++a_-$.
+
+#### Solution VIII.3.7 — Positive congruences
+
+Write $a=b^*b$ with $b=a^{1/2}$. Then
+$x^*ax=(bx)^*(bx)$ is positive by the characterization of the positive
+cone as elements of the form $c^*c$. No commutation is required.
+
+#### Solution VIII.3.8 — Inversion reverses positive order
+
+Put $c=a^{-1/2}ba^{-1/2}\geq1$ by VIII.3.7. Its spectrum lies in
+$[1,\infty)$, so it is invertible and $0\leq c^{-1}\leq1$ by continuous
+calculus. The factorization $b=a^{1/2}ca^{1/2}$ proves invertibility and
+$b^{-1}=a^{-1/2}c^{-1}a^{-1/2}\leq a^{-1}$ by positive congruence.
+
+#### Solution VIII.3.9 — Increasing functions of commuting elements
+
+The unital C*-algebra generated by commuting self-adjoint $a,b$ is
+abelian. Under its Gelfand representation they become real functions
+with $a(x)\leq b(x)$. An increasing continuous $f$ preserves this
+inequality pointwise. The calculus and the representation preserve
+positivity, giving $f(a)\leq f(b)$.
+
+#### Solution VIII.3.10 — A sum of two unitaries
+
+Let $c=a/2$ and $d=(1-c^2)^{1/2}$. They commute and are self-adjoint.
+The elements $u=c+id$ and $v=c-id$ satisfy
+$u^*u=uu^*=c^2+d^2=1$, and likewise for $v$. Thus both are unitary and
+$u+v=2c=a$. This proves the stated sum, rather than just an average of
+unitaries; in fact the argument works for $\|a\|\leq2$.
+
+#### Solution VIII.3.11 — The functions t/(1+alpha t)
+
+(a) Positive inverse order, VIII.3.8, applied to
+$1+\alpha a\leq1+\alpha b$ gives the assertion after subtraction from 1
+and division by $\alpha$. (b) Both strict scalar bounds follow directly
+from $1+\alpha t>1$ and $\alpha t/(1+\alpha t)<1$.
+(c) On $[0,R]$, $0\leq t-f_\alpha(t)\leq\alpha R^2$.
+(d) The printed direction is reversed: for $0\leq\alpha\leq\beta$,
+$f_\alpha(t)\geq f_\beta(t)$ for $t\geq0$, strictly for $t>0$ and
+$\alpha<\beta$. (e) Substitution gives
+$f_\alpha(f_\beta(t))=t/[1+(\alpha+\beta)t]$.
+(f) The claim on intervals containing zero is false, since
+$\alpha f_\alpha(0)=0$. The correct limit is 1 for $t>0$, uniformly on
+each $[\delta,R]$ with $\delta>0$, since the error is
+$1/(1+\alpha t)\leq1/(1+\alpha\delta)$. At zero the limit remains zero.
+
+#### Solution VIII.3.12 — Fractional powers preserve order
+
+For $0<\beta<1$, substituting $u=\alpha t$ gives
+$$\int_0^\infty\frac{t}{1+\alpha t}\alpha^{-\beta}\,d\alpha
+=t^\beta\gamma,\qquad
+\gamma=\int_0^\infty\frac{u^{-\beta}}{1+u}\,du\in(0,\infty).$$
+The identity also holds at $t=0$. On $[0,R]$ the missing integral near
+zero is bounded by $R\int_0^\delta\alpha^{-\beta}d\alpha$, and the tail
+by $\int_M^\infty\alpha^{-1-\beta}d\alpha$. Both vanish uniformly.
+Continuous calculus therefore transfers the integral identity in norm
+to positive elements. Each truncated integral preserves order by
+VIII.3.11(a), and the positive cone is norm closed; hence
+$a^\beta\leq b^\beta$. At $\beta=1$ this is the hypothesis, and at
+$\beta=0$ use the constant function $t^0=1$, giving equality.
+
+#### Solution VIII.3.13 — Squaring is not operator monotone
+
+Take $a=\begin{bmatrix}1&0\\0&0\end{bmatrix}$ and
+$b=\begin{bmatrix}2&1\\1&1\end{bmatrix}$. Then $a\geq0$ and
+$b-a=\begin{bmatrix}1&1\\1&1\end{bmatrix}\geq0$.
+But $b^2-a^2=\begin{bmatrix}4&3\\3&2\end{bmatrix}$ has determinant
+$8-9=-1$, so has a negative eigenvalue. It is not positive.
+
+#### Solution VIII.3.14 — Reversing a shift product
+
+For the unilateral shift $S$, $S^*S=I$, whereas
+$SS^*=I-P_{e_1}$. The first has spectrum $\{1\}$, the second $\{0,1\}$
+by VII.6.16's projection calculation (or directly on its range and
+kernel). Thus the two spectra differ at zero.
+
+#### Solution VIII.3.15 — Equivalent partial-isometry equations
+
+If $W$ is isometric on $(\ker W)^\perp$ and zero on its kernel, inner
+products show $W^*W=P_{(\ker W)^\perp}$, and hence $WW^*W=W$.
+Conversely if $W^*W=P$ is a projection, then
+$\|Wh\|^2=\langle Ph,h\rangle$, so $W$ vanishes on $\ker P$ and is
+isometric on $PH$. If $WW^*W=W$, multiplication by $W^*$ gives
+$(W^*W)^2=W^*W$, so (e) implies (c). Taking adjoints gives the equivalent
+(f), and repeating the same argument for $W^*$ proves equivalence with
+(b) and (d). Thus all six conditions are equivalent.
+
+#### Solution VIII.3.16 — Initial and final projections
+
+The first projection was identified in VIII.3.15. The range of a partial
+isometry is closed, because it is the isometric image of its closed
+initial space. For $Wh$ in that range,
+$WW^*(Wh)=Wh$, while vectors perpendicular to the range lie in
+$\ker W^*$ and are sent to zero. Hence $WW^*$ is the orthogonal projection
+onto the final space.
+
+#### Solution VIII.3.17 — Maximal partial isometries
+
+Reflexivity of the order is immediate. If each of $W_1,W_2$ extends the
+other, their initial spaces coincide and they agree there; both vanish
+on its orthogonal complement, so are equal. Extension of the spaces and
+agreement on the smaller space are transitive, proving a partial order.
+If both the initial and final spaces of $W$ have nonzero orthogonal
+complements, choose unit vectors in those complements and extend $W$ by
+mapping one to the other. This is a proper partial-isometry extension.
+If either complement is zero, no extension is possible: any extra initial
+vector would need an orthogonal extra final vector. Thus maximality is
+exactly that $W$ or $W^*$ is an isometry.
+
+#### Solution VIII.3.18 — Extreme contractions
+
+Maximal partial isometries are extreme by V.7.10. Conversely write a
+contraction as $A=W|A|$. If $|A|$ is not a projection, its spectrum meets
+$(0,1)$. Choose a nonzero continuous nonnegative $g$ supported in that
+interval with $g(t)\leq\min(t,1-t)$ and $g(|A|)\ne0$.
+Then $A_\pm=W(|A|\pm g(|A|))$ are contractions with midpoint $A$ and
+are distinct: the perturbation is supported in the initial space, where
+$W$ is isometric. Thus an extreme $A$ must have $|A|$ a projection and
+be a partial isometry. If it is not maximal, choose unit $u\in\ker A$
+and $v\perp\operatorname{ran}A$. The operators
+$A\pm(v\otimes u)$ are contractions on the orthogonal initial pieces
+and are distinct with midpoint $A$. This excludes nonmaximal ones.
+
+#### Solution VIII.3.19 — Concrete polar decompositions
+
+(a) $|M_\phi|=M_{|\phi|}$ and $W=M_\theta$, where
+$\theta=\phi/|\phi|$ on $\{\phi\ne0\}$ and zero elsewhere.
+(b) For $S$, $|S|=I$ and $W=S$.
+(c) For nonzero weighted shift entries,
+$|A|e_n=|\alpha_n|e_n$ and $We_n=(\alpha_n/|\alpha_n|)e_{n+1}$.
+(d) If $A=W_A|A|$, then
+$|A\oplus\alpha|=|A|\oplus|\alpha|$ and its partial isometry is
+$W_A\oplus\theta$, with $\theta=\alpha/|\alpha|$ for $\alpha\ne0$ and
+$\theta=0$ otherwise. In each case squaring the proposed positive part
+gives the adjoint product, and the proposed $W$ vanishes exactly on the
+kernel, verifying the canonical polar decomposition.
+
+#### Solution VIII.3.20 — A constant positive operator weight
+
+Here $S^*S$ is diagonal with entries $A^2$, so
+$|S|=A\oplus A\oplus\cdots$. Since $\ker A=0$, its range is dense, and
+the canonical partial isometry is the isometric shift
+$W(h_1,h_2,\ldots)=(0,h_1,h_2,\ldots)$.
+Direct coordinate computation gives $S=W|S|=|S|W$.
+
+#### Solution VIII.3.21 — Commutation for a normal operator
+
+Normality makes $A$ commute with $A^*A$, hence with $|A|$ by polynomial
+approximation of the square root. The kernel reduces $A$, and
+$W|A|h=Ah$. On the dense range of $|A|$ in its support,
+$W|A|^2h=A|A|h=|A|Ah=|A|W|A|h$.
+Thus $W|A|=|A|W$ on that support by continuity, and both sides vanish
+on the kernel. This proves the claim without assuming invertibility.
+
+#### Solution VIII.3.22 — Left polar decomposition
+
+Apply the usual polar decomposition to $A^*$ and take adjoints to get
+$A=PW$, where $P=(AA^*)^{1/2}$ and $W$ is the canonical partial isometry
+for $A$, with initial space $(\ker A)^\perp$ and final space
+$\overline{\operatorname{ran}A}$. These specifications give uniqueness:
+$AA^*=P^2$ on that support and $W$ is determined by the adjoint equation
+on the dense range of $P$, and is zero on $\ker A$.
+Without support conditions, uniqueness is false. For example for $A=0$
+one can take $W=0$ and any positive $P$, or $P=0$ and any partial isometry.
+Even for nonzero $A$, extra positive action outside the final support can
+be invisible to $PW$.
+
+#### Solution VIII.3.23 — Invertible normal polar factors
+
+Continuous calculus on $\sigma(A)$ gives
+$|A|=(z\mapsto|z|)(A)$ and
+$W=(z\mapsto z/|z|)(A)$. Invertibility ensures zero is outside the
+spectrum, so both scalar functions are continuous there. Hence both
+factors belong to $C^*(A)$.
+
+#### Solution VIII.3.24 — The polar factor may be discontinuous
+
+On $\ell^2$ take the self-adjoint diagonal operator
+$Ae_n=(-1)^n e_n/n$. Its spectrum is $\{0\}\cup\{(-1)^n/n:n\geq1\}$.
+The canonical polar factor is $We_n=(-1)^ne_n$, since $A$ has zero
+kernel. If $W\in C^*(A)$, continuous calculus would give a continuous
+function on this spectrum with values alternating $\pm1$ at points
+tending to zero. No such continuous function exists. Thus $W\notin C^*(A)$.
+
+#### Solution VIII.3.25 — Products of positive elements
+
+In $M_2$, the positive matrices
+$a=\begin{bmatrix}1&0\\0&0\end{bmatrix}$ and
+$b=\begin{bmatrix}1&1\\1&1\end{bmatrix}$ have product
+$ab=\begin{bmatrix}1&1\\0&0\end{bmatrix}$, which is not self-adjoint
+and hence not positive. If positive $a,b$ commute, so do $a^{1/2},b$ by
+continuous calculus, and $ab=a^{1/2}ba^{1/2}\geq0$ by VIII.3.7.
+
+### §4. Ideals
+
+#### Solution VIII.4.1 — The quotient by a vanishing ideal
+
+VII.8.8 proves the characterization $I=\{f:f|_F=0\}$ without relying on
+cancellation in integrals of complex measures. Restriction to $F$ is a
+surjective *-homomorphism by the Tietze extension theorem, including its
+complex-valued version preserving the sup norm (extend real and imaginary
+parts and retract onto the scalar disk if needed).
+Its kernel is $I$. Every representative of a coset has norm at least
+$\|f|_F\|$, while a norm-preserving extension attains that bound.
+Thus the induced bijection $C(X)/I\to C(F)$ is isometric and multiplicative.
+
+#### Solution VIII.4.2 — Matrix ideals and left ideals
+
+Two-sided simplicity is the matrix-unit argument in VII.2.5.
+Every left ideal is the set of matrices whose rows belong to a fixed
+subspace $E\subseteq(\mathbb C^n)^*$. Indeed multiplying by $E_{ij}$
+isolates any row and places it in any desired row position, so every
+combination of rows occurring in the ideal is allowed independently.
+Conversely such row-restricted matrices form a left ideal. Equivalently
+these are $M_nP$, where $P$ ranges over orthogonal projections, or the
+operators vanishing on a fixed subspace $E^\perp$.
+
+#### Solution VIII.4.3 — Ideals determined by a cardinal bound
+
+The closed span of two subspaces of Hilbert dimension at most an infinite
+cardinal $\alpha$ again has dimension at most $\alpha$, giving closure
+under sums. Multiplying on the right cannot enlarge the closed range;
+multiplying on the left sends a dense set of size at most $\alpha$ to
+one of size at most $\alpha$. Thus both ideal properties hold.
+For $A_n\to A$ in norm, let $M$ be the closed span of the ranges of all
+$A_n$. Its dimension is at most $\alpha\cdot\aleph_0=\alpha$, and
+$Ah=\lim A_nh\in M$. Thus the set is norm closed. Adjoint invariance
+also follows since the initial and final supports in the polar
+decomposition have equal Hilbert dimension.
+
+#### Solution VIII.4.4 — The Toeplitz algebra quotient
+
+$P=I-SS^*$ is the rank-one first-coordinate projection, and
+$S^iP(S^*)^j$ are matrix units. Their span is norm dense in the compact
+operators, so $C^*(S)$ contains them. In the quotient the image $u$ of
+$S$ is unitary, so the quotient is the abelian C*-algebra generated by
+one unitary. Its spectrum is the full unit circle: for each
+$|\lambda|=1$ choose normalized long, far-out blocks with phases making
+$\|(S-\lambda)x_n\|\to0$ and $x_n\rightharpoonup0$.
+If $u-\lambda$ were invertible, lifting an inverse would give
+$B(S-\lambda)=I+K$ with $K$ compact. Acting on $x_n$ contradicts
+$Kx_n\to0$. Thus continuous calculus identifies the quotient with
+$C(\mathbb T)$, whose character space is $\mathbb T$.
+
+#### Solution VIII.4.5 — The Volterra-generated C*-algebra
+
+$V$ is compact, so $C^*(V)\subseteq\mathbb CI+\mathcal K$.
+Also $(V+V^*)f=\int_0^1f$, the rank-one projection onto the constant 1.
+Since $V^n1=t^n/n!$, the operators $V^n(V+V^*)(V^*)^m$ are scalar
+multiples of rank-one operators between monomials. Polynomials are dense
+in $L^2[0,1]$, so their linear span is norm dense in all finite-rank
+operators, then in $\mathcal K$. The unital convention supplies $I$,
+proving equality.
+
+#### Solution VIII.4.6 — Adding an ideal and a subalgebra
+
+Let $q:A\to A/I$ be the quotient *-homomorphism. Its restriction to $B$
+has kernel $B\cap I$, so induces an injective *-homomorphism
+$B/(B\cap I)\to A/I$, which is isometric and has closed image.
+Thus $I+B=q^{-1}(q(B))$ is closed. It is a *-subalgebra because mixed
+products lie in $I$. It contains $I\cup B$ and is contained in every
+C*-subalgebra containing that union, proving the assertion.
+
+#### Solution VIII.4.7 — Sums of closed ideals
+
+Apply VIII.4.6 with $B=J$ to obtain closedness of $I+J$.
+For $a\in A$ and $i+j\in I+J$, both $a(i+j)$ and $(i+j)a$ remain in
+the sum by the individual ideal properties. Thus the sum is a closed
+(two-sided, self-adjoint) ideal.
+
+### §5. Representations and states
+
+#### Solution VIII.5.1 — Removing a degenerate summand
+
+$P_1^2=\pi(1)^2=\pi(1)$ and $P_1^*=P_1$, so it is a projection.
+For all $a$, $P_1\pi(a)=\pi(a)P_1=\pi(a)$, hence $P_1H$ and its
+orthogonal complement are invariant, and the action on the latter is
+zero. Restriction to $H_1=P_1H$ preserves products and adjoints and sends
+1 to $I_{H_1}$, giving the required representation.
+
+#### Solution VIII.5.2 — Cyclic vectors for measurable multipliers
+
+A vector $h\in L^2(\mu)$ is cyclic exactly when $h\ne0$ almost everywhere.
+Necessity follows since all $\phi h$ vanish on its zero set. For
+sufficiency, given $g\in L^2$, truncate the measurable quotient $g/h$:
+$\phi_n=(g/h)\chi_{\{|g/h|\leq n\}}\in L^\infty$.
+Then $\phi_nh\to g$ in $L^2$ by dominated convergence with majorant
+$|g|^2$. Sigma-finiteness guarantees an almost-everywhere positive
+$L^2$ function, by assigning sufficiently small positive constants on
+a countable disjoint finite-measure exhaustion. Thus cyclic vectors exist.
+
+#### Solution VIII.5.3 — Cyclic vectors for continuous multipliers
+
+Again the criterion is $h\ne0$ almost everywhere. Necessity is as above.
+For sufficiency, the map $g\mapsto g/h$ is an isometry from $L^2(\mu)$
+onto $L^2(|h|^2\mu)$. Continuous functions are dense in the latter finite
+regular-measure $L^2$ space; multiplying approximants by $h$ gives
+$C(X)h$ dense in $L^2(\mu)$. In particular $h=1$ is cyclic when the
+positive regular measure on compact $X$ is finite, the convention used
+for Example 5.5.
+
+#### Solution VIII.5.4 — When a double representation is cyclic
+
+Let $\lambda=\mu+\nu$, $r=d\mu/d\lambda$, and $s=d\nu/d\lambda$.
+The direct sum is represented as two measurable scalar fibers, with
+multiplication acting diagonally. If $r,s>0$ on a positive-measure set,
+a candidate cyclic vector $(h,k)$ has at most a one-dimensional fiber
+span there, leaving a nonzero measurable orthogonal vector. Explicitly
+in the unweighted fiber coordinates $(h\sqrt r,k\sqrt s)$ use a bounded
+normalization of $(-\overline{k\sqrt s},\overline{h\sqrt r})$ on a set
+where this vector is nonzero; if both vanish, any nonzero vector works.
+Thus cyclicity requires $rs=0$ almost everywhere, which is $\mu\perp\nu$.
+If the measures are singular, choose disjoint full-measure supports;
+gluing functions on them gives a unitary to $L^2(\mu+\nu)$ intertwining
+multiplication. VIII.5.3 proves cyclicity. Repeating the same nonzero
+measure $n\geq2$ times creates overlapping fibers, so is not cyclic.
+The zero-measure representation is the harmless degenerate exception.
+
+#### Solution VIII.5.5 — Countably many mutually singular measures
+
+Discard zero measures. Countable mutual singularity permits pairwise
+disjoint measurable sets $E_n$ with $\mu_n$ concentrated on $E_n$:
+intersect the countably many separating full-measure sets and remove
+previous ones. Put $c_n=2^{-n}/\|\mu_n\|$ and
+$\mu=\sum c_n\mu_n$. Define $U((h_n))$ on $E_n$ by $c_n^{-1/2}h_n$.
+Then $\|U(h_n)\|_{L^2(\mu)}^2=\sum_n\|h_n\|_{L^2(\mu_n)}^2$;
+restriction with factors $c_n^{1/2}$ is its inverse. Multiplication by
+a continuous function commutes with this map, proving the stated unitary
+equivalence and cyclicity.
+
+#### Solution VIII.5.6 — A cyclic infinite amplification
+
+The assertion requires $H$ to be infinite dimensional. Choose orthonormal
+$e_n\in H$ and nonzero square-summable scalars $c_n$, and set
+$\xi=(c_ne_n)_n\in H^{(\infty)}$.
+For any finitely supported target $(y_1,\ldots,y_N,0,\ldots)$, the
+finite-rank operator $T$ taking $e_j$ to $y_j/c_j$ for $j\leq N$ and
+vanishing on their orthogonal complement satisfies
+$T^{(\infty)}\xi=(y_1,\ldots,y_N,0,\ldots)$.
+Such targets are dense, so $\xi$ is cyclic. If $0<\dim H=d<\infty$,
+the algebra has dimension $d^2$, and the orbit span of any vector has
+dimension at most $d^2$ inside infinite-dimensional $H^{(\infty)}$;
+cyclicity is impossible. Thus that case disproves the unqualified wording.
+
+#### Solution VIII.5.7 — A singular state and its representation
+
+Positivity of the Banach limit gives $f(T)\geq0$ for $T\geq0$;
+$f(I)=1$ and $|f(T)|\leq\|T\|$, so $f$ is a state. For compact $K$,
+$\|Ke_n\|\to0$, so $f(K)=0$. In fact for every bounded $B$,
+$f(B^*K^*KB)=0$, since that operator is compact. The GNS norm formula
+therefore puts $K$ in $\ker\pi_f$.
+The kernel is a proper closed two-sided ideal of $\mathcal B(H)$.
+For separable infinite-dimensional $H$, the only nonzero proper such
+ideal is $\mathcal K(H)$ (the ideal theorem proved later in IX.4.2).
+Hence $\ker\pi_f=\mathcal K(H)$ and the induced Calkin representation
+is injective, thus isometric. This use of IX.4.2 is a forward dependency.
+
+Its Hilbert space cannot be separable. There is an uncountable family
+of pairwise almost disjoint infinite subsets of $\mathbb N$: encode finite
+binary strings by integers and use the prefix sets of infinite binary
+sequences. Their coordinate projections have nonzero images in the
+Calkin algebra, and pairwise products have finite rank and hence zero
+images. A faithful representation therefore has uncountably many nonzero
+mutually orthogonal projection ranges. Choosing one unit vector in each
+contradicts separability.
+
+#### Solution VIII.5.8 — Rescaling a positive functional
+
+The GNS null spaces agree because
+$\alpha f(a^*a)=0$ exactly when $f(a^*a)=0$.
+On the quotient define $U[a]_f=\alpha^{-1/2}[a]_{\alpha f}$.
+The norm formula shows it is an isometry with dense range and thus extends
+to a unitary of completions. Left multiplication commutes with the scalar
+factor, so $U\pi_f(b)=\pi_{\alpha f}(b)U$. The representations are equivalent.
+
+#### Solution VIII.5.9 — States detect positivity
+
+Positive elements have nonnegative values under states by definition.
+For the converse, use the faithful representation given by the direct
+sum of all GNS representations (the Gelfand–Naimark theorem of this
+section). Every unit-vector functional in any representation is a state.
+The hypothesis therefore gives
+$\langle\pi(a)h,h\rangle\geq0$ for all $h$ in the faithful representation.
+Polarization implies $\pi(a)$ is self-adjoint and this quadratic form
+makes it positive. An injective *-homomorphism preserves and reflects
+spectra of self-adjoint elements, so $a$ is positive. This also verifies
+that an initially non-self-adjoint $a$ cannot evade the criterion.
+
+#### Solution VIII.5.10 — States separate elements
+
+If all states vanished on $a$, every vector functional in a faithful
+representation would give $\langle\pi(a)h,h\rangle=0$.
+The complex polarization identity, applied to $h+i^kv$, would imply
+$\langle\pi(a)h,v\rangle=0$ for all $h,v$, hence $\pi(a)=0$.
+Faithfulness would give $a=0$, a contradiction. Thus a state with
+$f(a)\ne0$ exists, even when $a$ is not self-adjoint.
+
+#### Solution VIII.5.11 — A faithful state from a dense sequence
+
+The norm-convergent positive sum $f=\sum2^{-n}f_n$ is a state.
+If $f(a^*a)=0$, positivity of every term implies $f_n(a^*a)=0$ for every
+$n$. Weak-star density and continuity of evaluation imply this for every
+state. VIII.5.9, or state separation, gives $a^*a=0$, hence $a=0$.
+If $\pi_f(a)=0$, applying it to the cyclic vector gives
+$f(a^*a)=0$, so $a=0$. Therefore $\pi_f$ is injective and the C*-norm
+uniqueness theorem for injective *-homomorphisms makes it isometric.
+<!-- END SOLUTIONS VIII -->

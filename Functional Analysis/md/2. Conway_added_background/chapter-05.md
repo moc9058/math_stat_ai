@@ -1746,3 +1746,1005 @@ Another proof of the Krein–Smulian Theorem that avoids 13.1 and 12.8 can be fo
 
 5. Refer to the notation of Exercise 11.10. Prove that there is a bounded linear functional $L\colon AP(G)\to\mathbb F$ such that $L(1)=1$, $L(f)\geq 0$ if $f\geq 0$, and $L(f_x)=L(f)$ for all $f$ in $AP(G)$ and $x$ in $G$.
 
+<!-- BEGIN SOLUTIONS V -->
+
+## Exercise Solutions
+
+These are added study solutions, not part of Conway's text. The unit ball
+is closed. Subspaces denoted by $\mathcal M\leq\mathcal X$ are closed,
+as in the chapter. Compact spaces are Hausdorff. Weak convergence tests all
+continuous linear functionals; weak-star convergence tests vectors in the
+specified predual. A convergent sequence is bounded, but a convergent net
+need not have a bounded range.
+
+### §1. Weak and weak-star topologies
+
+#### Solution V.1.1 — The initial topology
+
+A basic weak neighborhood of $x$ is
+$\{y:|f_j(y-x)|<\varepsilon,\ 1\leq j\leq n\}$, with $f_j\in X^*$.
+It is an intersection of inverse images of open scalar disks, so belongs to
+any topology making all $f_j$ continuous. Conversely these inverse images
+are weakly open by the definition using the seminorms $|f|$. This proves
+both continuity and minimality.
+
+#### Solution V.1.2 — The initial topology on the dual
+
+Replace $f_j(y)$ in V.1.1 by $y^*(x_j)$, with finitely many $x_j\in X$.
+The resulting inverse images of disks form the weak-star neighborhood base.
+Thus every evaluation is continuous and any topology with this property
+contains the weak-star topology.
+
+#### Solution V.1.3 — The continuous dual of the weak-star dual
+
+Let $F$ be a weak-star continuous linear functional on $X^*$. Continuity at
+zero gives $x_1,\ldots,x_n$ and $\varepsilon>0$ such that
+$|F(f)|<1$ whenever $|f(x_j)|<\varepsilon$ for every $j$.
+If all $f(x_j)=0$, applying this implication to every scalar multiple of
+$f$ gives $F(f)=0$. Thus $F$ factors through
+$E(f)=(f(x_1),\ldots,f(x_n))$. Extend the resulting linear functional on
+$E(X^*)\subseteq\mathbb F^n$ to $\mathbb F^n$, obtaining coefficients $a_j$.
+Then $F(f)=\sum_j a_jf(x_j)=f(\sum_j a_jx_j)$. Conversely every such
+evaluation is weak-star continuous. Continuous functionals separate points
+of a Hausdorff LCS by Hahn–Banach, so the representing vector is unique.
+
+#### Solution V.1.4 — Real versus complex tests
+
+Every continuous real linear $u$ has the continuous complex linear extension
+$f(x)=u(x)-iu(ix)$ with $\operatorname{Re}f=u$. Consequently
+$|u(x)|\leq|f(x)|$. Conversely, for complex linear $f$,
+$|f(x)|\leq|\operatorname{Re}f(x)|+|\operatorname{Im}f(x)|$, and both real
+and imaginary parts are continuous real linear functionals. These estimates
+compare the defining seminorm families in both directions. Here the real
+functionals define seminorms on the underlying real space; they need not
+be complex seminorms individually.
+
+#### Solution V.1.5 — Elementary polar identities
+
+If $f,g\in A^\circ$ and $0\leq t\leq1$, then
+$|(tf+(1-t)g)(a)|\leq t+(1-t)=1$ for $a\in A$; multiplication by a
+scalar of modulus at most one also preserves this inequality. This proves
+(a). Testing on a smaller set weakens the inequalities, proving (b).
+For $\alpha\ne0$, $f\in(\alpha A)^\circ$ exactly when
+$|\alpha f(a)|\leq1$ on $A$, or $f\in\alpha^{-1}A^\circ$, proving (c).
+The definition of $A^\circ$ gives $|f(a)|\leq1$ for every $a\in A$ and
+$f\in A^\circ$, which is (d). For completeness, (d) and order reversal give
+$({}^\circ A^\circ)^\circ\subseteq A^\circ$, whereas every $f\in A^\circ$
+is bounded by one on ${}^\circ A^\circ$ by its definition. This proves (e).
+
+#### Solution V.1.6 — Bounded sets and absorbing polars
+
+Weak boundedness means $M_f=\sup_{a\in A}|f(a)|<\infty$ for each $f\in X^*$:
+this follows directly by testing the finitely many seminorms of a basic
+neighborhood. If $t\geq\max(1,M_f)$, then $f\in tA^\circ$, so the polar
+is absorbing. Conversely membership $f\in tA^\circ$ gives $M_f\leq t$,
+which proves weak boundedness.
+
+#### Solution V.1.7 — Convex combinations converging in norm
+
+Put $C_n=\operatorname{co}\{x_1,\ldots,x_n\}$. The weak limit $x$ belongs
+to the weak closure of $C=\bigcup_nC_n$. Since $C$ is convex, Theorem 1.4
+makes its weak and norm closures equal. Hence
+$d_n=\operatorname{dist}(x,C_n)$ decreases to zero. Choose $y_n\in C_n$
+with $\|y_n-x\|<d_n+1/n$. This is the required sequence, with exactly the
+initial-segment restriction in the question.
+
+#### Solution V.1.8 — Recovering Hilbert-space norm convergence
+
+Weak convergence gives $\langle h_n,h\rangle\to\|h\|^2$. Therefore
+$$\|h_n-h\|^2=\|h_n\|^2+\|h\|^2-2\operatorname{Re}\langle h_n,h\rangle
+\longrightarrow0.$$
+This uses convergence of the norms, not merely their boundedness.
+
+#### Solution V.1.9 — Lower semicontinuity of norms
+
+Hahn–Banach gives
+$\|x\|=\sup_{\|f\|\leq1}|f(x)|$, so every norm sublevel set is an
+intersection of weakly closed sets $\{|f(x)|\leq r\}$. Likewise
+$\|f\|=\sup_{\|x\|\leq1}|f(x)|$ gives weak-star closed dual norm balls.
+Closed sublevel sets are precisely the criterion for lower semicontinuity.
+In particular, either relevant convergence implies the corresponding
+liminf inequality for the norm.
+
+#### Solution V.1.10 — The weak closure of the sphere
+
+The closed unit ball is weakly closed by V.1.9, so contains the closure.
+If $\|x\|<1$, consider a basic weak neighborhood given by $f_1,\ldots,f_n$.
+Their common kernel is nonzero: a map from an infinite-dimensional space
+to $\mathbb F^n$ cannot be injective. Choose $0\ne z$ in this kernel.
+The continuous real function $t\mapsto\|x+tz\|$ starts below one and tends
+to infinity, so equals one for some $t>0$. That point has exactly the same
+$f_j$ values as $x$. Thus every basic neighborhood meets the sphere.
+Points of norm one already belong to it.
+
+### §2. Subspaces and annihilators
+
+#### Solution V.2.1 — Adding a finite-dimensional space
+
+Let $Q:X\to X/M$ be the quotient map. Because $M$ is closed, $X/M$ is a
+Hausdorff LCS. The finite-dimensional subspace $Q(L)$ is closed, and
+$L+M=Q^{-1}(Q(L))$ is closed. Closedness of $M$ is essential: without it,
+take $L=\{0\}$ and a nonclosed $M$.
+
+#### Solution V.2.2 — Complementing the annihilator
+
+Write $X=M\oplus N$ topologically, with continuous projections $P_M,P_N$.
+The adjoint projection $P_N^*:f\mapsto f\circ P_N$ has range $M^\perp$;
+its complementary range is $N^\perp$. Both projections are weak-star
+continuous because evaluation at $x$ after composition is evaluation at
+$P_Nx$ or $P_Mx$. The map $[f]\mapsto P_M^*f$ is a well-defined linear
+bijection $X^*/M^\perp\to N^\perp$. It is continuous by the quotient
+property, and its inverse is the restriction of the quotient map.
+Thus it is a homeomorphism for the quotient weak-star topology and the
+relative weak-star topology. In Banach spaces the same maps are bounded
+for the norm topologies as well.
+
+### §3. Alaoglu's theorem
+
+#### Solution V.3.1 — Linearity of a product limit
+
+The product topology is coordinatewise convergence. If a net $f_i$ of
+linear functionals has coordinate limit $f$, then, for fixed $x,y,a,b$,
+$$f(ax+by)=\lim_i f_i(ax+by)=a\lim_i f_i(x)+b\lim_i f_i(y)
+=af(x)+bf(y).$$
+Only scalar limits are interchanged with a finite sum. Thus every point of
+the product closure used in Alaoglu's proof is linear.
+
+#### Solution V.3.2 — Compactness of a neighborhood polar
+
+Since $V$ absorbs each $x$, choose $c_x>0$ with $x\in c_xV$. Then
+$V^\circ\subseteq\prod_{x\in X}\{z:|z|\leq c_x\}$. This product is compact.
+Within it, impose all linearity equations and the inequalities $|f(v)|\leq1$
+for $v\in V$; these are closed coordinate conditions. Every resulting
+linear map is continuous, since it is bounded on a neighborhood of zero:
+$|f|\leq\varepsilon$ on $\varepsilon V$. The closed subset is therefore
+exactly $V^\circ$. Its coordinate topology is the weak-star topology.
+
+#### Solution V.3.3 — Embedding in continuous functions
+
+Take $K=(B_{X^*},\mathrm{wk}^*)$, compact by Alaoglu, and define
+$(Jx)(f)=f(x)$. Evaluation is continuous on $K$, and Hahn–Banach yields
+$\|Jx\|_\infty=\sup_{f\in K}|f(x)|=\|x\|$. Thus $J$ is a linear isometry.
+If $Jx_n$ converges uniformly, $x_n$ is Cauchy; completeness gives $x_n\to x$
+and hence $Jx_n\to Jx$. Its image is closed.
+
+### §4. Reflexivity
+
+#### Solution V.4.1 — Quotients of reflexive spaces
+
+The dual $(X/M)^*$ identifies isometrically with $M^\perp\subseteq X^*$.
+For $F\in(X/M)^{**}$, extend its corresponding bounded functional on
+$M^\perp$ to $\widetilde F\in X^{**}$ by Hahn–Banach. Reflexivity gives
+$\widetilde F(f)=f(x)$ for some $x\in X$. Restricted to $M^\perp$, this is
+exactly evaluation at $x+M$. Thus the canonical map of $X/M$ onto its
+bidual is surjective.
+
+#### Solution V.4.2 — The three-space property
+
+Yes. Write $Q:X\to X/M$ and take $F\in X^{**}$. By reflexivity of $X/M$,
+$Q^{**}F=J_{X/M}(Qx)$ for some $x\in X$. Then $F-J_Xx$ annihilates
+$M^\perp=\operatorname{ran}Q^*$. The annihilator $(M^\perp)^\perp$ in $X^{**}$
+is the image of $M^{**}$: explicitly, define a functional on $M^*$ by
+extending each $g\in M^*$ to $X^*$ and evaluating $F-J_Xx$; independence
+follows from annihilation, and norm-preserving extensions give boundedness.
+Reflexivity of $M$ represents this functional by some $m\in M$.
+Thus $F=J_X(x+m)$, proving reflexivity of $X$.
+
+#### Solution V.4.3 — When L1 is reflexive
+
+An infinite-dimensional $L^1$ on a sigma-finite measure space admits
+infinitely many disjoint measurable $E_n$ with $0<\mu(E_n)<\infty$.
+To see the measure-theoretic alternative, split any nonatom into two
+positive pieces and use a finite-measure exhaustion; if this process cannot
+produce infinitely many disjoint positive sets, the space consists modulo
+null sets of finitely many atoms. In that case $L^1$ is finite dimensional.
+In the infinite case the functions $u_n=\chi_{E_n}/\mu(E_n)$ span an
+isometric closed copy of $\ell^1$, since
+$\|\sum a_nu_n\|_1=\sum|a_n|$. The space $\ell^1$ is not reflexive:
+its unit vectors have no weakly convergent subnet, since the coordinate
+functionals force any limit to be zero while the constant functional
+$(1,1,\ldots)\in\ell^\infty$ has value one throughout. Its unit ball is
+therefore not weakly compact. A closed subspace of a reflexive space is
+reflexive, so $L^1$ cannot be reflexive. Finite-dimensional spaces are reflexive.
+
+#### Solution V.4.4 — A weakly Cauchy sequence without a weak limit
+
+The triangular functions satisfy $0\leq f_n\leq1$ and converge pointwise
+to $\chi_{\{0\}}$. For every finite signed or complex measure $\mu$, dominated
+convergence with dominating function 1 and measure $|\mu|$ gives
+$\int f_n\,d\mu\to\mu(\{0\})$. All dual evaluations are thus Cauchy.
+If a weak limit $f\in C[0,1]$ existed, the evaluations $\delta_t$ would force
+$f(0)=1$ and $f(t)=0$ for $t>0$, contradicting continuity. This also explains
+why dominated convergence, rather than monotone convergence for a complex
+measure, is the appropriate justification.
+
+#### Solution V.4.5 — A nonproximinal hyperplane
+
+The density defining $L$ has absolute value one almost everywhere, so
+$\|L\|\leq1$. Continuous functions bounded by one that equal 1 to the left
+of a shrinking interval about $1/2$ and $-1$ to its right show $\|L\|=1$.
+If $\|f\|_\infty=1$ and $L(f)=1$, equality in the integral estimate requires
+$f=1$ almost everywhere on $(0,1/2)$ and $f=-1$ almost everywhere on
+$(1/2,1)$. Continuity makes these identities hold throughout those
+intervals, which is impossible at $1/2$. Multiplication by a scalar of
+modulus one reduces any norm-attainment claim to this case. Proposition
+4.7 now shows that $\ker L$ is not proximinal.
+
+#### Solution V.4.6 — Weak-star sequential completeness of Linfinity
+
+If $f_n\in L^\infty=(L^1)^*$ is weak-star Cauchy, then
+$F(g)=\lim_n\int gf_n$ exists for every $g\in L^1$. Uniform boundedness on
+the Banach space $L^1$ gives $\sup_n\|f_n\|_\infty=C<\infty$.
+Thus $F$ is linear and $|F(g)|\leq C\|g\|_1$, so duality represents it by
+$f\in L^\infty$. This is the required weak-star limit.
+If $L^\infty$ is reflexive, its predual $L^1$ is reflexive: $L^1$ is a
+closed subspace of its reflexive bidual, since the dual of a reflexive
+space is reflexive. V.4.3 gives finite dimensionality. Conversely
+finite-dimensional $L^\infty$ is reflexive. The sigma-finite atom
+alternative in V.4.3 shows that $L^1$ and $L^\infty$ are finite dimensional
+in exactly the same cases.
+
+#### Solution V.4.7 — An impossible Hilbert norm
+
+Let $H$ denote $C(X)$ with the assumed Hilbert norm. The identity
+$H\to(C(X),\|\cdot\|_\infty)$ has closed graph: convergence in $H$ gives
+pointwise convergence by the hypothesis on evaluations, whereas uniform
+convergence gives the same pointwise limit. The closed graph and open
+mapping theorems make the two norms equivalent. Hence $C(X)$ would be
+reflexive. If compact $X$ is infinite, choose pairwise disjoint nonempty
+open sets $U_n$ and continuous $0\leq h_n\leq1$ supported in $U_n$ with
+$\|h_n\|=1$. Such sets can be chosen by repeatedly separating two points
+in a remaining infinite open set; if no such set remains, infinitely many
+isolated points supply them. Then $a\mapsto\sum a_nh_n$ is an isometric
+embedding of $c_0$ into $C(X)$, with uniform convergence for $a\in c_0$.
+But $c_0$ is not reflexive: its bidual is $\ell^\infty$. This contradicts
+reflexivity of a closed subspace. Thus $X$ is finite.
+
+### §5. Metrizability and sequences
+
+#### Solution V.5.1 — A moment metric
+
+The series is finite since each moment difference is at most
+$\|\mu-\nu\|$. Symmetry and the triangle inequality hold term by term.
+If it vanishes, the measures agree on all polynomials and hence on all
+continuous functions by polynomial uniform approximation, so are equal.
+On $B$, weak-star convergence makes every moment converge; the common
+bound 2 makes the series tails uniformly small, giving metric convergence.
+Conversely metric convergence gives convergence on polynomials; uniform
+approximation and the common variation bound extend it to all continuous
+functions. These arguments apply to nets.
+On the whole space this metric cannot give the weak-star topology.
+Every weak-star neighborhood of zero contains the common kernel of
+finitely many tests. There is a nonzero measure in this kernel, because
+$M[0,1]$ is infinite dimensional. All its scalar multiples also belong to
+the neighborhood, but $d(t\mu,0)=|t|d(\mu,0)$ is unbounded. No such
+neighborhood is contained in the metric unit ball.
+
+#### Solution V.5.2 — Separability of continuous-function spaces
+
+(a) If the span were not dense, Hahn–Banach and the Riesz representation
+theorem would give $0\ne\mu\in M(X)$ with $\int f_u\,d\mu=0$ for every $u$.
+For compact $K\subseteq O$ with $O$ open, regularity of $|\mu|$ lets us
+choose open $V$ with $K\subseteq V\subseteq O$ and $|\mu|(V\setminus K)$
+arbitrarily small. Choose $U$ with $K\subseteq U\subseteq\overline U\subseteq V$.
+Then $f_{(U,V)}=1$ on $K$, is zero outside $V$, and is bounded by one, so
+$|\mu(K)|\leq|\mu|(V\setminus K)$. Thus $\mu$ vanishes on every compact
+set and by regularity on every Borel set, a contradiction.
+
+(b) A compact metric space has a countable base. Use only pairs of finite
+unions of basic open sets with $\overline U\subseteq V$. These pairs still
+allow the preceding compact-set approximation, by finite subcovers and
+shrinking neighborhoods. Their associated functions have dense span;
+linear combinations with rational real and imaginary coefficients form a
+countable dense subset. (c) A sigma-compact locally compact metric space
+has a countable base: take a compact exhaustion by neighborhoods, choose
+countable dense subsets on the compact stages, and then metric balls of
+rational radii. Its one-point compactification has a countable base also
+at infinity, given by complements of that exhaustion, and is metrizable.
+Apply (b); $C_0(X)$ is a closed subspace of its separable $C(X_\infty)$,
+and every subspace of a separable metric space is separable.
+
+#### Solution V.5.3 — A separable dual
+
+(a) Choose a norm-dense sequence $f_n$ in $S_{X^*}$ and $x_n\in S_X$ with
+$|f_n(x_n)|>1/2$. If their closed span were proper, Hahn–Banach would give
+$f\in S_{X^*}$ vanishing on it. Choose $n$ with $\|f-f_n\|<1/2$, a
+contradiction at $x_n$. Thus the rational span of the $x_n$ is dense.
+(b) A weakly compact $K$ is norm bounded by uniform boundedness. On this
+bounded set, tests by the dense sequence $f_n$ determine all dual tests
+by uniform norm approximation. The metric
+$\sum_n2^{-n}\min(1,|f_n(x-y)|)$ therefore induces the weak topology.
+Equivalently its coordinate map is a continuous injection from a compact
+space into a Hausdorff metric space and hence a homeomorphism onto its image.
+
+#### Solution V.5.4 — The dual ball of ell-infinity
+
+Coordinate evaluations correspond to the vectors $e_j\in\ell^1$.
+Convergence in the displayed metric is exactly coordinatewise convergence
+on $B$: finite heads converge and tails are bounded by $2\sum_{j>N}2^{-j}$.
+For $a\in\ell^1$, the remaining dual pairing tail is at most
+$2\sum_{j>N}|a_j|$. Hence coordinate convergence on $B$ is equivalent to
+weak-star convergence against every $a\in\ell^1$. Separation, positivity,
+and the triangle inequality for the metric follow term by term.
+
+#### Solution V.5.5 — Schur's theorem by successive blocks
+
+Subtract the weak limit. Suppose $x_n\rightharpoonup0$ in $\ell^1$ but a
+subsequence has norm at least $\varepsilon>0$. Coordinate convergence
+allows successive choices $n_k$ and integers $0=N_0<N_1<\cdots$ such that
+$$\sum_{j\leq N_{k-1}}|x_{n_k}(j)|<\varepsilon/8,
+\qquad \sum_{j>N_k}|x_{n_k}(j)|<\varepsilon/8.$$
+The second choice uses summability of the single vector already chosen.
+Define $a\in\ell^\infty$ on the block $(N_{k-1},N_k]$ by phases satisfying
+$a(j)x_{n_k}(j)=|x_{n_k}(j)|$, with $|a(j)|\leq1$.
+The real part of $\sum_j a(j)x_{n_k}(j)$ is at least
+$\varepsilon-2(\varepsilon/4)=\varepsilon/2$, since contributions outside
+the selected block have total modulus below $\varepsilon/4$.
+This contradicts weak convergence tested by this one $a$. Thus the norms
+tend to zero, without an appeal to Baire's theorem.
+
+#### Solution V.5.6 — Why the result fails in ell-p
+
+For $1<p<\infty$, the dual is $\ell^q$ with $q<\infty$. Every
+$a\in\ell^q$ satisfies $a_n\to0$, so $e_n\rightharpoonup0$ in $\ell^p$.
+Nevertheless $\|e_n\|_p=1$. This disproves the corresponding assertion.
+
+### §6. The Stone–Čech compactification
+
+#### Solution V.6.1 — The norm of evaluation
+
+$|\delta_x(f)|\leq\|f\|_\infty$ gives $\|\delta_x\|\leq1$. Testing the
+constant function 1, whose norm and value at $x$ are both one, gives the
+reverse inequality.
+
+#### Solution V.6.2 — Complete regularity passes to subspaces
+
+Let $Y\subseteq X$, let $F$ be closed in $Y$, and let $y\in Y\setminus F$.
+Write $F=Y\cap C$ for a closed $C\subseteq X$. Complete regularity gives
+a continuous $f:X\to[0,1]$ with $f(y)=1$ and $f|_C=0$. Its restriction
+to $Y$ separates $y$ from $F$. The Hausdorff property also passes to
+subspaces, completing the verification.
+
+#### Solution V.6.3 — Construction and uniqueness of beta-X
+
+Evaluation embeds $X$ in $B_{C_b(X)^*}$: bounded continuous functions
+separate points, and for $x\in U$ open, complete regularity gives
+$f(x)=1$, $f=0$ off $U$, $0\leq f\leq1$. The inverse image of
+$\{\tau:|\tau(f)-1|<1/2\}$ is a neighborhood of $x$ contained in $U$.
+Thus the evaluation map and its inverse on the image are continuous.
+Its weak-star closure is compact by Alaoglu, and its image is dense by
+construction. Each extension is $f^\beta(\tau)=\tau(f)$.
+
+For uniqueness, suppose $\pi:X\to\Omega$ has the stated properties.
+For $\tau\in\beta X$, any cluster point $\omega$ of a net $\pi(x_i)$ with
+$\delta_{x_i}\to\tau$ satisfies
+$F(\omega)=\tau(F\circ\pi)$ for every $F\in C(\Omega)$. These values
+uniquely determine $\omega$, since continuous functions separate points of
+a compact Hausdorff space. This proves independence of the net. Define
+$g(\tau)=\omega$. Then $F\circ g=(F\circ\pi)^\beta$ is continuous for
+every $F$, so $g$ is continuous. It is onto because its compact image
+contains the dense set $\pi(X)$. If $g(\tau)=g(\sigma)$, every $f\in C_b(X)$
+has an extension $\widetilde f$ on $\Omega$, yielding
+$\tau(f)=\widetilde f(g(\tau))=\sigma(f)$; hence $\tau=\sigma$.
+A continuous bijection from compact to Hausdorff is a homeomorphism.
+
+#### Solution V.6.4 — Extension of maps into compact spaces
+
+Embed $\Omega$ into the product of the closed disks
+$\{z:|z|\leq\|h\|\}$ indexed by $h\in C(\Omega)$, using evaluation.
+Its image is compact and thus closed. Extend every coordinate $h\circ f$
+to $\beta X$ by V.6.3. The resulting continuous product-valued map takes
+values in the embedded $\Omega$: this holds on dense $X$ and the image
+condition is closed. Compose with the inverse embedding. The resulting
+$f^\beta$ extends $f$ and is unique by density and Hausdorffness.
+
+#### Solution V.6.5 — Openness and local compactness
+
+An open subspace of a compact Hausdorff space is locally compact, proving
+one direction. Conversely, choose for $x\in X$ a continuous compactly
+supported $f:X\to[0,1]$ with $f(x)=1$. Its extension $f^\beta$ vanishes
+outside the compact support $K\subset X$: the open set $\beta X\setminus K$
+has dense intersection with $X\setminus K$, on which $f$ is zero.
+Thus $\{\tau:f^\beta(\tau)>1/2\}$ is a neighborhood of $x$ contained in
+$X$. The union of these neighborhoods proves that $X$ is open.
+
+#### Solution V.6.6 — Many disjoint clopen sets in the remainder
+
+(a) An infinite intersection would give a common subsequence converging
+to both $s$ and $t$, contradicting uniqueness of a real limit.
+(b) For any $N\subseteq\mathbb N$, the indicator $\chi_N$ extends to a
+continuous $\{0,1\}$-valued function on $\beta\mathbb N$, and its 1-set is
+exactly $\overline N$. Thus this closure is clopen. Moreover
+$\overline N\cap\overline M=\overline{N\cap M}$, by multiplication of the
+extended indicators. For $N_s,N_t$ the latter is a finite subset of
+$\mathbb N$, so the remainders are disjoint and relatively clopen.
+Each $A_s$ is nonempty, since otherwise the infinite discrete closed set
+$\overline{N_s}=N_s$ would be compact. “Open and closed” here refers to
+the remainder, as specified in the question, not to all of $\beta\mathbb N$.
+
+#### Solution V.6.7 — Sequences from a normal space
+
+Suppose $\tau\notin X$. A sequence converging to $\tau$ has no cluster
+point in $X$; after passing to distinct terms, its even and odd sets are
+disjoint closed subsets of $X$. Indeed, any point of $X$ has a neighborhood
+meeting only finitely many sequence terms, since disjoint neighborhoods
+of that point and $\tau$ in $\beta X$ exclude the tail. Normality supplies
+a bounded continuous function equal to zero on the even terms and one on
+the odd terms. Its extension to $\beta X$ contradicts convergence.
+
+Normality cannot be omitted. Let
+$P=[0,\omega_1]\times[0,\omega]$ with the product of order topologies and
+$X=P\setminus\{(\omega_1,\omega)\}$, the deleted plank. It is completely
+regular as a subspace of compact Hausdorff $P$. Every continuous scalar
+function on $[0,\omega_1)$ is eventually constant, by the countable
+supremum argument in V.6.8. Given $f\in C_b(X)$, its restrictions to each
+horizontal row, including the top row without its last point, are
+therefore eventually constant. There are only countably many rows, so
+one $\alpha<\omega_1$ works for all rows. Write their constants as $c_n$
+and $c_\omega$. Continuity on the vertical line at any ordinal larger than
+$\alpha$ gives $c_n\to c_\omega$. Thus setting the missing corner value to
+$c_\omega$ extends $f$ continuously to $P$. The uniqueness property in
+V.6.3 gives $\beta X=P$. But $(\omega_1,n)$ converges to the missing corner.
+This also proves $X$ is not normal, by the first part.
+
+#### Solution V.6.8 — The space of countable ordinals
+
+Write $X=[0,\omega_1)$. For every continuous $f:X\to\mathbb F$ and
+$\varepsilon>0$, some final interval has oscillation at most $\varepsilon$.
+Otherwise choose increasing pairs of ordinals with function values differing
+by more than $\varepsilon$, each pair beyond all previously chosen ordinals.
+Their countable supremum $\lambda$ is still below $\omega_1$; both sequences
+converge to $\lambda$, contradicting continuity there. Apply this to
+$\varepsilon=1/n$ and take the countable supremum of the corresponding
+starting ordinals. On the resulting final interval every pair of values
+has difference zero, so $f$ is constant there. In particular every bounded
+continuous function extends to $[0,\omega_1]$, taking that constant at the
+last point. This compact space is the one-point compactification: compact
+subsets of $X$ are bounded in ordinal order (use the open cover by initial
+intervals), and closed bounded intervals are compact. V.6.3 proves the
+claimed identification with $\beta X$.
+
+### §7. Extreme points
+
+For the zero Banach space the singleton ball has its sole point 0 as an
+extreme point. The familiar “unit sphere” descriptions in Exercises 1 and
+2 are understood for nonzero spaces; this is a necessary degenerate-case
+qualification.
+
+#### Solution V.7.1 — Strict convexity of Lp
+
+For $1<p<\infty$, strict convexity of the scalar function $z\mapsto|z|^p$
+gives $|(a+b)/2|^p\leq(|a|^p+|b|^p)/2$, with equality only if $a=b$.
+One can obtain this from the triangle inequality followed by strict
+convexity of $t^p$ on $[0,\infty)$; equality also forces equal phases.
+If $f=(g+h)/2$ and $\|f\|_p=1$, with $g,h$ in the ball, integration forces
+equality almost everywhere, so $g=h=f$. Conversely a point of norm less
+than one can be perturbed by $\pm u$ for nonzero sufficiently small $u$,
+and is not extreme.
+
+#### Solution V.7.2 — Extreme points of the L1 ball
+
+An extreme point in a nonzero space must have norm one. If the measure
+$|f|\,d\mu$ has a measurable split $A,A^c$ with masses $a,b>0$,
+$a+b=1$, then
+$$f=a\frac{f\chi_A}{a}+b\frac{f\chi_{A^c}}{b}$$
+is a nontrivial convex decomposition into two unit vectors. Thus $|f|d\mu$
+must be concentrated on an atom; equivalently the set where $f\ne0$ is
+an atom modulo null sets for $\mu$. On an atom, a measurable scalar
+function is constant almost everywhere (use a countable base of scalar
+disks). Sigma-finiteness makes any positive atom finite. Consequently
+$f=\alpha\chi_E$ and $|\alpha|\mu(E)=1$.
+Conversely if $f=(g+h)/2$ for two unit-ball vectors, equality in
+$\int|g+h|\leq\|g\|_1+\|h\|_1\leq2$ forces $g=h=0$ off $E$ and their
+values on $E$ to have the phase of $\alpha$. They are constants there,
+each of modulus at most $1/\mu(E)$, and their average is $\alpha$.
+Both constants must equal $\alpha$.
+
+#### Solution V.7.3 — Extreme points of the Linfinity ball
+
+If $|f|=1$ almost everywhere, the scalar unit disk has $f(x)$ as an extreme
+point, so any decomposition $f=(g+h)/2$ in the function ball forces
+$g=h=f$ almost everywhere. If $|f|<1$ on a set of positive measure, then
+$E=\{|f|\leq1-1/n\}$ has positive measure for some $n$. The two distinct
+functions $f\pm\chi_E/(2n)$ belong to the ball, disproving extremality.
+
+#### Solution V.7.4 — Extreme points of the Cb ball
+
+The pointwise unit-disk argument proves sufficiency. If $|f(x_0)|<1$,
+there are a neighborhood $U$ and $\delta>0$ with $|f|\leq1-\delta$ on $U$.
+Complete regularity supplies $0\leq h\leq1$ continuous, $h(x_0)=1$, and
+$h=0$ outside $U$. Then $f\pm\delta h$ are distinct points of the ball
+with midpoint $f$. For real $C[0,1]$, a continuous function taking only
+values $\pm1$ is constant by connectedness, giving exactly the two points.
+
+#### Solution V.7.5 — Clopen step functions
+
+Given $f$ in the ball and $\varepsilon>0$, cover $X$ by clopen sets on
+each of which $f$ oscillates by less than $\varepsilon$. Compactness and
+finite intersections and differences yield a finite disjoint clopen
+partition $E_1,\ldots,E_m$. The step function
+$g=\sum a_j\chi_{E_j}$, with $a_j=f(x_j)$, satisfies $\|f-g\|<\varepsilon$.
+Each $a_j$ in the scalar disk is a convex combination of two scalars of
+modulus one: for $a_j=r_je^{i\theta_j}$ use $\pm e^{i\theta_j}$ with
+weights $(1\pm r_j)/2$ (the real case uses $\pm1$).
+Multiply these finitely many weights to express $g$ as a convex combination
+of continuous step functions of modulus one. V.7.4 makes them extreme.
+The reverse inclusion follows because the unit ball is closed and convex.
+
+#### Solution V.7.6 — The ell-1 ball
+
+By V.7.2 its extreme points are $\alpha e_n$, $|\alpha|=1$.
+Every finite truncation $x^{(N)}$ of a unit-ball vector is a convex
+combination of these points with weights $|x_j|$, with leftover weight
+$1-\sum_{j\leq N}|x_j|$ assigned to $0=(e_1-e_1)/2$.
+Since $\|x-x^{(N)}\|_1\to0$, the whole ball is their closed convex hull.
+
+#### Solution V.7.7 — No extreme points in C0 of a noncompact space
+
+A function $f\in C_0(X)$ cannot have modulus one everywhere on a noncompact
+$X$, since its level set $\{|f|\geq1/2\}$ would then be all of $X$ and
+compact. Choose $x$ with $|f(x)|<1$. The compactly supported bump function
+version of the perturbation in V.7.4 lies in $C_0(X)$, so $f$ is not extreme.
+
+#### Solution V.7.8 — The convex hull of finitely many compact convex sets
+
+Assume the sets are nonempty; empty ones can be discarded. Every point of
+the convex hull is $\sum_{j=1}^n t_jx_j$ with $t_j\geq0$, $\sum t_j=1$,
+and $x_j\in K_j$: group the coefficients belonging to each convex $K_j$.
+Thus this hull is the continuous image of the compact product
+$\{t\in[0,1]^n:\sum t_j=1\}\times\prod K_j$. It is compact and hence
+closed in the Hausdorff LCS. Taking its closure adds no points.
+
+#### Solution V.7.9 — Lifting extreme points through a fiber
+
+If $x=ta+(1-t)b$ in $K$, with $0<t<1$, affinity gives
+$y=tT(a)+(1-t)T(b)$. Extremality of $y$ forces $T(a)=T(b)=y$.
+Both points belong to the fiber, where extremality of $x$ forces $a=b=x$.
+This is exactly extremality in $K$.
+
+#### Solution V.7.10 — Isometries as extreme contractions
+
+Suppose $T=(A+B)/2$, $\|A\|,\|B\|\leq1$, and $T$ is an isometry.
+For a unit vector $h$, the unit vector $Th$ is the midpoint of $Ah,Bh$ in
+the Hilbert unit ball. The equality case of the parallelogram identity
+forces $Ah=Bh=Th$. Scaling proves $A=B=T$. If $T^*$ is an isometry, apply
+the same argument to $T^*=(A^*+B^*)/2$ and then take adjoints.
+
+### §8. Stone–Weierstrass and measures
+
+#### Solution V.8.1 — Interpolation at finitely many points
+
+For $i\ne j$, choose $g_{ij}\in\mathcal A$ with $g_{ij}(x_i)\ne g_{ij}(x_j)$.
+Then $h_{ij}=(g_{ij}-g_{ij}(x_j)1)/(g_{ij}(x_i)-g_{ij}(x_j))$ is in the
+algebra and has values 1 and 0 at these points. Put
+$h_i=\prod_{j\ne i}h_{ij}$. It is 1 at $x_i$ and zero at the other selected
+points. Thus $\sum_i\alpha_i h_i$ interpolates the prescribed data.
+For a single point a constant function suffices.
+
+#### Solution V.8.2 — The locally compact Stone–Weierstrass theorem
+
+Adjoin constants on $X_\infty$ to obtain $\mathcal A+\mathbb F1$.
+It separates finite points by (b) and separates every finite point from
+infinity by (a); it contains constants and is self-adjoint by (c).
+The compact Stone–Weierstrass theorem makes it dense in $C(X_\infty)$.
+For $f\in C_0(X)$ choose $a_n+c_n1\to f$ uniformly. Evaluation at infinity
+gives $c_n\to0$, so $a_n\to f$. Closedness of $\mathcal A$ gives $f\in\mathcal A$.
+For compact $X$ one may adjoin an isolated point at infinity and use the
+same argument, so no assumption of noncompactness is needed.
+
+#### Solution V.8.3 — Point masses are extreme
+
+If $\delta_x=t\mu+(1-t)\nu$ with probabilities and $0<t<1$, evaluation
+on $X\setminus\{x\}$ shows both measures are concentrated at $x$; their
+masses give $\mu=\nu=\delta_x$.
+For the signed or complex ball it suffices to consider a midpoint
+$\alpha\delta_x=(\mu+\nu)/2$. Then
+$$2=|\mu(\{x\})+\nu(\{x\})|
+\leq|\mu(\{x\})|+|\nu(\{x\})|\leq\|\mu\|+\|\nu\|\leq2.$$
+Equality leaves no variation off $x$, and the two scalar masses in the
+unit disk with average $\alpha$ must both be $\alpha$. Thus
+$\mu=\nu=\alpha\delta_x$.
+
+#### Solution V.8.4 — An algebra as functions on a quotient
+
+Map $X$ into $\prod_{f\in\mathcal A}f(X)$ by evaluation. Its fibers are
+exactly the equivalence classes, and its compact image is Hausdorff.
+The induced bijection from the topological quotient onto that image is a
+homeomorphism: a continuous map from compact $X$ to Hausdorff has closed
+images of closed sets and is a quotient map onto its image. In particular
+$X/{\sim}$ is compact Hausdorff.
+(a) Constancy on fibers defines the unique function $\pi^*f$; the quotient
+property makes it continuous. (b) Surjectivity of $\pi$ gives
+$\|\pi^*f\|_\infty=\|f\|_\infty$. (c) The image is a closed self-adjoint
+algebra containing constants and separating quotient points, so
+Stone–Weierstrass makes it all of $C(X/{\sim})$.
+(d) Every continuous function constant on the equivalence classes descends
+to the quotient and therefore, by (c), belongs to $\mathcal A$.
+
+#### Solution V.8.5 — Approximation on compact subsets
+
+The topology in question is uniform convergence on compact subsets.
+Given a basic neighborhood of $f$, combine its finitely many compact test
+sets into one compact set $K$. The restrictions $\mathcal A|_K$ contain
+constants, separate points, and are self-adjoint. Compact Stone–Weierstrass
+gives $a\in\mathcal A$ with $\sup_K|a-f|$ below the required tolerance.
+Thus $\mathcal A$ is dense in the compact-open topology; since it is closed,
+$\mathcal A=C(X)$. This is also the conclusion obtained by the continuous
+functional representation of IV.4.7 and separation.
+
+#### Solution V.8.6 — Products of continuous functions
+
+Finite sums of $g(x)h(y)$ form a self-adjoint subalgebra of $C(X\times Y)$
+containing constants. If two pairs differ, a continuous function on the
+coordinate where they differ separates them, multiplied by 1 on the other
+coordinate. Stone–Weierstrass makes this algebra uniformly dense, giving
+the requested finite sum and strict error bound.
+
+#### Solution V.8.7 — Periodic functions
+
+Every algebraic combination of $\sin$ and $\cos$ is $2\pi$-periodic, and
+uniform limits preserve periodicity. Conversely continuous periodic
+functions are precisely continuous functions on the circle pulled back
+by $t\mapsto e^{it}$. On the circle the two coordinate functions separate
+points, are real valued, and generate constants because
+$\sin^2+\cos^2=1$. Stone–Weierstrass gives all continuous functions on
+the circle after uniform closure. Pullback is isometric, proving equality.
+
+#### Solution V.8.8 — Polynomials in z and its conjugate
+
+The restrictions of polynomials in $z,\bar z$ form a self-adjoint unital
+algebra on $K$ and separate points by the coordinate $z$. Stone–Weierstrass
+therefore supplies the requested uniform approximation. These are
+polynomials in two real coordinates, so the assertion does not require
+holomorphic approximation or a restriction on the shape of $K$.
+
+### §10. Fixed points and category
+
+#### Solution V.10.1 — Local convexity is unnecessary here
+
+The proof of Theorem 10.1 uses convexity of $K$, continuity and affinity
+of the maps, the finite intersection property of compact sets, and
+$n^{-1}(K-K)\to\{0\}$ uniformly. The last assertion holds in every
+topological vector space: for a neighborhood $U$ of zero, continuity of
+scalar multiplication and a finite cover of a compact set $C$ give
+$\delta>0$ such that $tC\subset U$ whenever $|t|<\delta$.
+No convex neighborhood or separating functional is used. The argument
+therefore works in a Hausdorff topological vector space without local
+convexity. Hausdorffness ensures that belonging to every zero neighborhood
+forces a vector to be zero.
+
+#### Solution V.10.2 — Locally compact spaces are Baire
+
+Assume $X$ is nonempty; for the empty space the stated conclusion is false.
+If all closed $F_n$ had empty interior, start with a nonempty relatively
+compact open set $U_0$. Recursively choose nonempty open $U_n$ with
+$\overline U_n$ compact and
+$\overline U_n\subset U_{n-1}\setminus F_n$. Local compactness and
+regularity allow each shrinking, since $F_n$ has empty interior.
+The nested nonempty compact sets $\overline U_n$ have a common point.
+It avoids every $F_n$, contradicting the cover. The same proof inside any
+nonempty open set gives the usual Baire conclusion.
+
+### §11. Groups, Haar measure, and almost periodicity
+
+#### Solution V.11.1 — One joint continuity condition
+
+If multiplication and inversion are continuous, their composition
+$(x,y)\mapsto x^{-1}y$ is continuous. Conversely, fix $y=e$ to obtain
+continuity of inversion $x\mapsto x^{-1}$. Compose the given map with
+$(x,y)\mapsto(x^{-1},y)$ to obtain continuous multiplication $xy$.
+
+#### Solution V.11.2 — The examples of topological groups
+
+(a) Addition on $\mathbb N$ with the discrete topology is continuous;
+addition on $[0,\infty)$ is the restriction of continuous real addition.
+(b) Addition and negation are continuous on $\mathbb Z,\mathbb R,\mathbb C$.
+(c) Multiplication on the unit circle is continuous and inversion is complex
+conjugation. (d) The identity is the constant 1 and inverse is $\bar f$.
+For circle-valued functions,
+$\|fg-f'g'\|_\infty\leq\|f-f'\|_\infty+\|g-g'\|_\infty$, while conjugation
+is an isometry; these prove joint continuity and continuous inversion.
+(e) The set defined in the text is the complex unitary group (usually
+called $U(n)$, despite the notation $O(n)$ there). The equations $A^*A=I$
+make it closed, and each entry has modulus at most one, so it is compact
+in finite dimensions. Multiplication and $A\mapsto A^*$ are continuous.
+The determinant-one subset is a closed subgroup and hence compact too.
+
+#### Solution V.11.3 — Measure and functional formulations
+
+A positive regular measure defines $I(f)=\int f\,dm$. Normalization is
+$I(1)=m(G)$, and the three invariances follow by pushforward under the
+corresponding homeomorphisms. If $f\geq0$ is nonzero, then $f\geq\delta>0$
+on some nonempty open set, so full support of $m$ gives $I(f)>0$.
+Conversely a positive functional is bounded with norm $I(1)$: in the
+complex case choose a phase of $I(f)$ and use
+$\operatorname{Re}(\alpha f)\leq\|f\|_\infty1$. The Riesz representation
+theorem gives a unique positive regular measure. Equality of its integrals
+with those of each pushforward gives equality of the measures.
+If a nonempty open $U$ had zero measure, a nonzero nonnegative continuous
+function supported in $U$ would contradict strict positivity. Uniqueness
+passes both ways through the representation bijection.
+
+#### Solution V.11.4 — Two invariances imply the third
+
+If inversion invariance and left invariance hold, then
+$m(\Delta x)=m((\Delta x)^{-1})=m(x^{-1}\Delta^{-1})=m(\Delta)$.
+The analogous calculation starting from right invariance gives left
+invariance. Suppose both translation invariances hold and $m\ne0$.
+As usual, “regular Borel measure” here means a positive Radon measure,
+finite on compact sets. Its support is all of $G$ by translation
+invariance. The pushforward $m^\#(\Delta)=m(\Delta^{-1})$ is a left Haar
+measure because $m$ is right invariant. Uniqueness up to a positive scalar
+of locally compact Haar measure, stated in this section, gives
+$m^\#=c m$. Inverting twice gives $c^2=1$, so $c=1$.
+The zero measure satisfies all three properties. This last implication
+uses the locally compact Haar uniqueness theorem; the first two are
+pure set identities. Without the Radon convention a statement about
+arbitrary Borel measures would require additional hypotheses.
+
+#### Solution V.11.5 — Translation and inversion on measures
+
+Each map is pushforward under a homeomorphism of $G$, so is linear.
+Equivalently its dual action on $C(G)$ is a surjective isometry, because
+composition preserves the supremum norm and has inverse composition by
+the inverse homeomorphism. Taking the supremum of $|\int f\,d\mu|$ over
+$\|f\|\leq1$ proves that the measure norm is preserved. The inverses are
+$L_{x^{-1}},R_{x^{-1}},S_0$, respectively; hence all maps are onto.
+
+#### Solution V.11.6 — Composition identities and order correction
+
+With the definitions actually printed in this section and the usual
+convention $(AB)\mu=A(B\mu)$, two identities in (11.7) have reversed order.
+The correct list is
+$$L_xR_y=R_yL_x,\qquad L_xL_y=L_{xy},\qquad R_xR_y=R_{yx},$$
+$$S_0^2=L_e=R_e=I,\qquad
+S_0L_xR_y=L_{y^{-1}}R_{x^{-1}}S_0.$$
+Indeed $L_x\delta_z=\delta_{xz}$, $R_y\delta_z=\delta_{zy}$, and
+$S_0\delta_z=\delta_{z^{-1}}$. More generally integration of a test $f$
+after two left translations gives $\int f(xyz)\,d\mu(z)$, and after
+two right translations gives $\int f(zyx)\,d\mu(z)$.
+The mixed expression is $\int f(xzy)\,d\mu(z)$ in either order, and its
+inversion is $\int f(y^{-1}z^{-1}x^{-1})\,d\mu(z)$, proving the last
+identity. For a nonabelian group the printed orders cannot both hold
+under these definitions. The family used in the following fixed-point
+argument is still a group of isometries with the corrected orders.
+
+#### Solution V.11.7 — An invariant mean on an abelian semigroup
+
+Assume $S$ is nonempty. In $(\ell^\infty(S))^*$ let $K$ be the positive
+functionals with $L(1)=1$. Evaluation at any element shows $K\ne\varnothing$.
+Positivity implies $\|L\|=1$ by the estimate in V.11.3, so $K$ is a
+weak-star closed subset of the dual unit ball and is compact and convex.
+Define $(T_xL)(f)=L(f_x)$. Each $T_x$ is weak-star continuous, affine, and
+preserves $K$. The maps commute because the semigroup is abelian.
+Markov–Kakutani gives a common fixed point, exactly the asserted mean.
+
+#### Solution V.11.8 — Banach limits
+
+For additive $\mathbb N$, the mean is positive, normalized, and invariant
+under each forward shift. Every finitely supported sequence has mean zero:
+the coordinate indicators all have the same mean, and positivity bounds
+the sum of the first $N$ such means by 1, forcing their common value to
+zero. Norm continuity then gives $L(a)=0$ for $a\in c_0$.
+For a convergent sequence $a_n\to a$, write $a=a1+(a-a1)$ to conclude
+$L((a_n))=a$. Thus $L$ extends the usual limit and is a Banach limit.
+For real sequences positivity also gives
+$\liminf a_n\leq L(a)\leq\limsup a_n$ by applying eventual bounds and
+ignoring finitely many coordinates.
+
+#### Solution V.11.9 — Uniform continuity on a compact group
+
+The continuous function $F(u,y)=f(uy)-f(y)$ on $G\times G$ vanishes on
+$\{e\}\times G$. For each $y$, continuity provides neighborhoods $U_y$
+of $e$ and $V_y$ of $y$ on which $|F|<\varepsilon$.
+Choose finitely many $V_y$ covering compact $G$, and intersect their
+$U_y$. Then $|f(uy)-f(y)|<\varepsilon$ for all $y$ and $u\in U$.
+Taking $u=xy^{-1}$ proves the assertion. Applying the same argument to
+$f(yu)-f(y)$ gives the analogous left-uniform version when needed.
+
+#### Solution V.11.10 — Almost periodic functions
+
+(a) A continuous function of period $a>0$ is uniformly continuous on
+$\mathbb R$, by compactness of one period. Its translates are the image
+of $[0,a]$ under the norm-continuous map $t\mapsto f_t$, so their orbit is
+compact. (b) V.11.9 gives norm continuity of $x\mapsto f_x$ on compact
+$G$, making the orbit compact.
+
+(c) If the orbit is totally bounded, choose $t_1,\ldots,t_m$ such that
+for every $t$ some $j$ satisfies $\|f_t-f_{t_j}\|<\varepsilon$.
+Translation is an isometry, so $p=t-t_j$ is an $\varepsilon$-period.
+Let $a=\min t_j$, $b=\max t_j$. Setting $t=s+b$ puts such a $p$ in
+$[s,s+b-a]$; enlarge the length if necessary to make it positive.
+Conversely suppose the periods are relatively dense. First $f$ is
+uniformly continuous: for a tolerance $\eta$, take periods with error
+$\eta/3$ and length $T$. Given $x$, choose such a period in $[x,x+T]$;
+then $x-p\in[-T,0]$. Uniform continuity on the compact interval
+$[-T-1,1]$ and the two period errors bound $|f(x+h)-f(x)|$ by $\eta$
+for all sufficiently small $h$, uniformly in $x$.
+For any translate parameter $t$, choose an $\varepsilon$-period in
+$[t,t+T]$. Then $f_t$ is within $\varepsilon$ of $f_{t-p}$, whose parameter
+belongs to $[-T,0]$. The latter translates form a compact set by uniform
+continuity. Hence the whole orbit is totally bounded; its closure is
+compact in the complete supremum norm space.
+
+(d) If $f\ne0$ has compact support $K$, choose $z$ with $|f(z)|=c>0$.
+Construct $x_n$ so that the compact supports $Kx_n^{-1}$ are pairwise
+disjoint. At each step the forbidden parameters lie in a finite union
+of compact translates of $K^{-1}K$, which cannot cover noncompact $G$.
+At the point $zx_n^{-1}$, $|f_{x_n}|=c$ and all other selected translates
+vanish. Thus their pairwise distances are at least $c$, contradicting
+compactness of the orbit closure.
+
+### §12. Bounded weak-star closure
+
+#### Solution V.12.1 — A criterion for completeness
+
+Let $\widehat X$ be the completion and $z\in\widehat X$. Every $f\in X^*$
+extends uniquely to $\widehat f\in\widehat X^*$. On $B_{X^*}$ the map
+$F_z(f)=\widehat f(z)$ is weak-star continuous: choose $x_n\in X$ tending
+to $z$, so evaluations at $x_n$ converge uniformly on this ball to $F_z$.
+If $z\ne0$, $F_z$ is nonzero by Hahn–Banach, and its kernel is a hyperplane
+whose intersection with the ball is weak-star closed. The hypothesis makes
+that kernel weak-star closed in all of $X^*$. A linear functional with
+closed hyperplane kernel is continuous (factor through the one-dimensional
+Hausdorff quotient). V.1.3 thus gives $F_z(f)=f(x)$ for an $x\in X$.
+Hahn–Banach on $\widehat X$ implies $z=x$. The case $z=0$ is automatic,
+so every completion point belongs to $X$, proving completeness.
+
+#### Solution V.12.2 — Closure without a convergent sequence
+
+For a weak neighborhood of zero given by $y^1,\ldots,y^r\in\ell^2$ and
+$\varepsilon>0$, choose $m$ with $|y^j(m)|<\varepsilon/2$ for all $j$.
+Then choose $n>m$ so large that $m|y^j(n)|<\varepsilon/2$ for all $j$.
+The vector $x_{mn}$ belongs to that neighborhood, so zero is in the weak
+closure. A weakly convergent sequence $x_{m_kn_k}$ must be norm bounded
+by uniform boundedness, so $m_k$ is bounded. Some fixed $m$ occurs
+infinitely often; along that subsequence the $m$th coordinate is one,
+contradicting weak convergence to zero.
+
+#### Solution V.12.3 — Where the hypotheses enter
+
+Completeness of $X$ is used in uniform boundedness: a weak-star convergent
+sequence in $X^*$ is norm bounded. The Baire argument is performed in
+$X^*$, which is complete even when $X$ is merely normed; that occurrence
+does not itself require completeness of $X$. Separability makes bounded
+subsets of $X^*$ weak-star metrizable. It is used whenever membership in
+a bounded weak-star closure is replaced by the existence of a convergent
+sequence, in both the implication (a) to (c) and (b) to (c).
+The polar identities and the implication (c) to (b) do not need separability.
+
+#### Solution V.12.4 — Sequential density inside the weak-star closure
+
+Put $N={}^\perp M\subset X$ and $Z=X/N$. Then
+$\overline M^{\mathrm{wk}^*}=N^\perp=Z^*$ isometrically, with matching
+weak-star topologies; $Z$ is a separable Banach space. Apply Theorem 12.11
+to $M\subset Z^*$. The necessary and sufficient condition is the existence
+of $c>0$ such that for every $x\in X$,
+$$\operatorname{dist}(x,N)\leq
+\sup\{|f(x)|:f\in M,\ \|f\|\leq c\}.$$
+Equivalently the weak-star closure of $cB_M$ contains $B_{N^\perp}$.
+Sufficiency follows by the bipolar theorem and metrizability of bounded
+balls; necessity follows from the uniform boundedness and Baire argument
+in Theorem 12.11 on $Z$. These conditions also include the zero quotient.
+
+#### Solution V.12.5 — Recovering an isometric predual
+
+Take $Y$ as in the hint, with the inherited dual norm. A norm limit in
+$X^*$ is a uniform limit on $B_X$, so $Y$ is norm closed in $X^*$ and hence
+Banach. Its elements separate points and norm $X$. To justify the latter,
+separate any $x\notin rB_X$ from the compact convex set $rB_X$ in the
+Hausdorff locally convex topology $\mathcal T$. The separating continuous
+linear functional is bounded on the compact ball, hence norm bounded and
+belongs to $Y$. After normalization it gives $|y(x)|>r$, so
+$\sup_{y\in B_Y}|y(x)|=\|x\|$.
+Define $J:X\to Y^*$ by evaluation; this proves it is an isometry.
+The map $J$ on $B_X$ is continuous from $\mathcal T$ to weak-star by the
+definition of $Y$, so $J(B_X)$ is weak-star compact, closed, convex, and
+balanced. Its polar in $Y$ is exactly $B_Y$, since $Y$ has its inherited
+norm. The bipolar theorem therefore gives $J(B_X)=B_{Y^*}$.
+Scaling shows $J$ is onto, giving the required isometric representation.
+
+#### Solution V.12.6 — Connected C(X) is not an isometric dual
+
+Here “dual” means isometric dual with the given supremum norm; the
+unit-ball argument does not assert a result about arbitrary equivalent
+norms. For real scalars, V.7.4 leaves only the extreme points $\pm1$.
+If this were a dual ball, weak-star compactness and Krein–Milman would
+make it the weak-star closed convex hull of these two points, consisting
+only of constants. This contradicts separation of distinct points of $X$.
+
+For complex scalars suppose $C(X)=Y^*$ isometrically. If a net of real
+functions $u_j$ in its unit ball converges weak-star to $u+iv$, then
+$\|u_j+in\|\leq\sqrt{1+n^2}$. Weak-star lower semicontinuity gives the
+same bound for $u+iv+in$. If $v(x)=t>0$, its modulus at $x$ is at least
+$n+t$, a contradiction for large $n$. Using $-in$ excludes $v(x)<0$.
+Thus the real unit ball is weak-star closed and compact. With the
+restricted weak-star topology the real space satisfies V.12.5, so is
+itself an isometric real dual, contradicting the real case. Alternatively
+the real Krein–Smulian theorem makes the full real subspace weak-star
+closed, as suggested in the question.
+
+### §13. Weak compactness
+
+#### Solution V.13.1 — Testing on separable subspaces
+
+If $A$ is weakly compact, its intersection with any closed linear subspace
+$M$ is weakly compact because $M$ is weakly closed. Conversely, every
+sequence in $A$ lies in the separable closed span of its terms. By the
+hypothesis and Eberlein–Smulian it has a subsequence converging weakly to
+a point of $A\cap M$. Hence $A$ is weakly sequentially compact, and
+Eberlein–Smulian again gives weak compactness. Closed subspaces are intended;
+without closedness the forward implication would not hold.
+
+#### Solution V.13.2 — The closed convex hull of a norm-compact set
+
+For $\varepsilon>0$, choose a finite $\varepsilon$-net $F\subset K$.
+Replacing every term in a convex combination by its approximating point
+shows $\operatorname{co}K\subset\operatorname{co}F+\varepsilon B_X$.
+The finite-dimensional compact set $\operatorname{co}F$ has a finite
+$\varepsilon$-net, so $\operatorname{co}K$ and its closure are totally
+bounded. The closure is complete because $X$ is Banach. A complete
+totally bounded metric space is compact: successively choose subsequences
+inside balls of radii $2^{-n}$ to get a Cauchy diagonal subsequence from
+any sequence. This proves the claim.
+
+#### Solution V.13.3 — Exactly the barycenters
+
+The proof in the text already gives
+$\overline{\operatorname{co}}K\subseteq T(\mathcal P)$. For the reverse
+inclusion, every $\mu\in\mathcal P$ and $f\in X^*$ satisfy
+$$\operatorname{Re}f(T\mu)=\int_K\operatorname{Re}f(x)\,d\mu(x)
+\leq\sup_{x\in K}\operatorname{Re}f(x).$$
+If $T\mu$ were outside the closed convex hull, Hahn–Banach separation
+would give an $f$ violating this inequality. Thus it belongs to the hull.
+This argument avoids assuming that every probability measure has finite
+support.
+
+#### Solution V.13.4 — Eberlein–Smulian in Hilbert space
+
+A bounded sequence lies in a separable closed subspace, the closed span
+of its terms. On a bounded ball of this subspace, testing a countable
+orthonormal basis metrizes the weak topology: finite coordinate heads
+converge and Cauchy–Schwarz controls the tail of any test vector.
+Reflexivity gives weak compactness of the ball, so it is a compact metric
+space and every sequence there has a weakly convergent subsequence.
+Thus a weakly compact set is weakly sequentially compact.
+
+Conversely suppose $A$ is weakly sequentially compact. It is bounded:
+otherwise choose $a_n\in A$ with $\|a_n\|>n$, which cannot have a weakly
+convergent subsequence. We show $A$ is weakly closed without assuming
+metrizability of the whole Hilbert ball. If $x\in\overline A^{\mathrm{wk}}$,
+choose $a_n\in A$ recursively so that
+$|\langle a_n-x,x\rangle|<1/n$ and
+$|\langle a_n-x,a_j\rangle|<1/n$ for $j<n$.
+Let $M$ be the closed span of $x,a_1,a_2,\ldots$. Boundedness extends these
+convergences from that spanning set to all of $M$; tests in $M^\perp$
+vanish, so $a_n\rightharpoonup x$. By sequential compactness a subsequence
+has a weak limit in $A$, necessarily $x$. Thus $A$ is weakly closed in a
+weakly compact ball, hence compact.
+
+#### Solution V.13.5 — An invariant mean on almost periodic functions
+
+Let $E=AP(G)$ with the supremum norm. It is a closed linear subspace of
+$C_b(G)$ containing constants: the orbit of a sum is contained in the
+sum of two compact orbit closures, and a uniform limit has a totally
+bounded orbit by approximating it with the orbit of one nearby function.
+Write $R_xf=f_x$. These are invertible isometries of $E$, and for each
+$f\in E$ their values lie in the compact set $\mathcal O(f)$.
+Take the closure $H$ of $\{R_x:x\in G\}$ in the product
+$\prod_{f\in E}\mathcal O(f)$, that is, in pointwise norm convergence.
+It is compact. Every limit operator is a linear isometry. If
+$R_{x_i}\to T$, pass to a subnet for which $R_{x_i}^{-1}\to S$; the
+isometry estimate shows $TS=ST=I$. Composition is continuous because
+$\|T_iS_if-TSf\|\leq\|S_if-Sf\|+\|(T_i-T)Sf\|$.
+Inversion is continuous by the same estimate applied to inverses.
+Thus $H$ is a compact topological group.
+Let $m$ be its normalized Haar measure, whose existence was proved in §11,
+and put
+$$L(f)=\int_H(Tf)(e)\,dm(T).$$
+The integrand is continuous by the topology of $H$. Limit translations
+preserve positivity and 1, so $L$ is positive, $L(1)=1$, and
+$|L(f)|\leq\|f\|_\infty$. Haar invariance under $T\mapsto TR_x$ gives
+$L(f_x)=L(f)$. This compact-group construction works without assuming that
+$G$ is abelian.
+<!-- END SOLUTIONS V -->

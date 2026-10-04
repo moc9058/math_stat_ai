@@ -1806,3 +1806,1486 @@ By Theorem 4.6, every normal operator is unitarily equivalent to a multiplicatio
 
 14. Let $\mu$ be a compactly supported measure on $\mathbb C$, $\phi$ a bounded Borel function on $\mathbb C$, and suppose $\{\Delta_n\}$ are pairwise disjoint Borel sets such that $\phi$ is one-to-one on each $\Delta_n$ and $\mu(\mathbb C\setminus\bigcup_{n=1}^{\infty}\Delta_n)=0$. Let $\phi_n=\phi\chi_{\Delta_n}$ and $\mu_n=\mu\circ\phi_n^{-1}$ for $n\geq1$. Prove that $M_\phi$ on $L^2(\mu)$ is unitarily equivalent to $\bigoplus_{n=1}^{\infty}N_{\mu_n}$.
 
+<!-- BEGIN SOLUTIONS IX -->
+
+## Exercise Solutions
+
+These are added study solutions. Inner products are linear in the first
+variable. A spectral measure is projection valued and countably additive
+in the strong operator topology. Write $\mu_h(\Delta)=\|E(\Delta)h\|^2$;
+the basic identity used throughout is
+$\|f(N)h\|^2=\int|f|^2\,d\mu_h$. Separability is imposed only where the
+problem or section imposes it; in particular it is assumed throughout §10.
+
+### §1. Spectral measures
+
+#### Solution IX.1.1 — Testing operator convergence
+
+(a),(c) are the definitions from the seminorms
+$A\mapsto|\langle Ah,k\rangle|$ and $A\mapsto\|Ah\|$.
+For (b),(d), linear combinations extend the prescribed tests from a total
+set to its span. Approximate arbitrary test vectors in norm by this
+span. The common operator bound controls the errors uniformly in the
+net index: $\|(A_i-A)(h-h_0)\|\leq(C+\|A\|)\|h-h_0\|$.
+For WOT also approximate the second vector and apply Cauchy–Schwarz.
+This proves sufficiency; necessity follows by restriction of the tests.
+
+For (e), choose a countable total set $(h_n)$ in the unit ball and use
+$d_s(A,B)=\sum_n2^{-n}\|(A-B)h_n\|$ and
+$d_w(A,B)=\sum_{m,n}2^{-m-n}|\langle(A-B)h_n,h_m\rangle|$.
+These series converge, satisfy the triangle inequality, and separate
+operators because the span of the $h_n$ is dense. On a set where
+$\|A\|\leq C$, every summand before its weight is at most $2C$.
+Thus the tails are uniformly small. Convergence of the finitely many
+remaining coordinates implies convergence in the corresponding metric.
+Conversely metric convergence implies convergence of every coordinate;
+parts (b) and (d) extend these tests to all vectors. The same finite-tail
+argument works for nets, so the metrics induce WOT and SOT on the bounded
+set, as required.
+
+#### Solution IX.1.2 — WOT compactness of the unit ball
+
+Embed the ball by its matrix coefficients into the product of disks
+$|z_{h,k}|\leq\|h\|\|k\|$. The conditions of sesquilinearity and this
+bound are closed coordinate conditions. Every resulting bounded
+sesquilinear form is $\langle Ah,k\rangle$ for a unique contraction $A$,
+by Riesz representation. Thus the image is closed in a compact product,
+and its coordinate topology is exactly WOT.
+
+#### Solution IX.1.3 — Closed self-adjoint and positive cones
+
+The PDF uses $\mathcal B(H)_+$ for the positive cone; the subscript
+is transcribed as $1$ in the exercise above. Self-adjointness is the
+family of equations
+$\langle Ah,k\rangle=\overline{\langle Ak,h\rangle}$, each WOT closed.
+Positivity is the family of conditions
+$\langle Ah,h\rangle\in[0,\infty)$ for all $h$, also WOT closed.
+Indeed polarization shows that real quadratic forms imply
+self-adjointness, and nonnegative quadratic forms then characterize
+positive operators. Intersections of these closed conditions are closed.
+Both sets are SOT closed because SOT is finer than WOT.
+For completeness the unit ball is WOT closed as well: it is the
+intersection of $|\langle Ah,k\rangle|\leq\|h\|\|k\|$ for all $h,k$.
+
+#### Solution IX.1.4 — Continuous linear functionals
+
+SOT continuity gives finitely many $h_j$ and a bound
+$|L(A)|\leq C(\sum_j\|Ah_j\|^2)^{1/2}$ by homogeneity.
+Thus $L$ factors into a bounded functional on the subspace
+$\{(Ah_1,\ldots,Ah_n):A\in\mathcal B(H)\}\subset H^n$.
+Hahn–Banach and Riesz extend and represent it as
+$\sum_j\langle Ah_j,g_j\rangle$. This proves (a) implies (c).
+The latter is visibly WOT continuous, and WOT continuity implies SOT
+continuity, completing the equivalences.
+
+#### Solution IX.1.5 — Convex closures
+
+WOT and SOT have the same continuous linear functionals by IX.1.4.
+A closed convex set in either locally convex topology is the intersection
+of closed real half-spaces given by those functionals, by Hahn–Banach
+separation. Its closure is therefore the same in both topologies.
+This proves the closedness equivalence.
+
+#### Solution IX.1.6 — Orthogonal sums of projections
+
+For every $h$, orthogonality gives $\sum_n\|E_nh\|^2\leq\|h\|^2$,
+so $\sum E_nh$ converges in norm. The resulting contraction $P$ is the
+identity on each $E_nH$ and zero on their common orthogonal complement.
+Thus it is the orthogonal projection onto their closed span, and the
+partial sums converge to it strongly.
+
+#### Solution IX.1.7 — Three spectral measures
+
+For multiplication by indicators, the projection, intersection, and
+normalization identities are pointwise indicator identities; disjoint
+countable additivity follows in $L^2$ by dominated convergence.
+Amplification preserves these identities coordinatewise, and strong
+countable additivity follows by summing squared norms over the summands.
+For the diagonal example, $E(\Delta)e_n=\chi_\Delta(x_n)e_n$; all
+identities follow on basis vectors, and the square-summable coefficient
+tails extend countable additivity to every vector.
+
+#### Solution IX.1.8 — Their integral representations
+
+Integrating a simple function gives, respectively, multiplication by
+that function, the direct sum of its original integral, and the diagonal
+operator with entries $f(x_n)$. Bounded Borel functions are uniformly
+approximated by simple functions, so these formulas persist for all such
+$f$, in particular for continuous $f$. The third example needs a topology
+on $X$ to speak of $C(X)$; its Borel/simple-function formula already makes
+sense for the all-subsets measurable space used in the example.
+
+#### Solution IX.1.9 — Convergence of projections
+
+Strong convergence implies weak convergence by Cauchy–Schwarz.
+Conversely, for fixed $h$,
+$$\|(E_i-E)h\|^2=\langle E_ih,h\rangle+\langle Eh,h\rangle
+-2\operatorname{Re}\langle E_ih,Eh\rangle\longrightarrow0.$$
+This uses both limits being projections; the assertion fails for general
+operators or for a nonprojection WOT limit.
+
+#### Solution IX.1.10 — The continuous multiplication representation
+
+The spectral measure is $E(\Delta)=M_{\chi_\Delta}$ on the Borel subsets
+of $X$. IX.1.7 verifies its measure properties and IX.1.8 gives
+$\int f\,dE=M_f$, so uniqueness in the representation theorem identifies
+it with the required measure.
+
+#### Solution IX.1.11 — The measurable multiplication representation
+
+Use the same formula $E(\Delta)=M_{\chi_\Delta}$ for $\Delta\in\Omega$.
+Null sets give zero projections, and $\int\phi\,dE=M_\phi$ by uniform
+simple-function approximation for essentially bounded measurable
+representatives. Thus it is well defined on $L^\infty$ equivalence classes.
+
+#### Solution IX.1.12 — A diagonal representation
+
+Linearity, multiplication, conjugation, and the identity can all be checked
+on each basis vector; boundedness follows from
+$\sup_n|u(x_n)|\leq\|u\|_\infty$. Its spectral measure is
+$E(\Delta)e_n=\chi_\Delta(x_n)e_n$, verified in IX.1.7.
+The integral formula of IX.1.8 identifies the representation.
+
+#### Solution IX.1.13 — Irreducible abelian representations
+
+Every represented self-adjoint element has spectral projections commuting
+with the represented abelian algebra. Irreducibility forces each such
+projection to be 0 or $I$, so each self-adjoint element is scalar.
+Splitting into real and imaginary parts shows the whole image is scalar.
+If $\dim H>1$, a nontrivial projection would commute with that image,
+a contradiction. Thus a nonzero irreducible representation has dimension
+one and is a character. In the $C(X)$ formulation it is evaluation at
+some $x$, with $E(\Delta)=\chi_\Delta(x)I$.
+
+#### Solution IX.1.14 — Full support and injectivity
+
+If $E(U)=0$ for nonempty open $U$, choose a nonzero continuous bump
+supported in $U$; its integral is zero, so the representation is not
+injective. Conversely if $f\ne0$, there is a nonempty open $U$ and
+$\varepsilon>0$ with $|f|\geq\varepsilon$ on $U$. A nonzero vector in
+$E(U)H$ satisfies $\|\rho(f)h\|\geq\varepsilon\|h\|$.
+Thus $\rho(f)\ne0$ whenever all such $E(U)$ are nonzero.
+
+#### Solution IX.1.15 — Monotone bounded quadratic forms
+
+Fix an index $i_0$ and restrict to its cofinal tail. Then
+$A_{i_0}\leq A_i\leq T$, giving a uniform bound on all quadratic forms,
+and hence on the self-adjoint operator norms, on that tail.
+Each quadratic form increases to a finite limit. Polarization produces
+a bounded sesquilinear form as the limit of $\langle A_ih,k\rangle$.
+Riesz representation gives a bounded self-adjoint $A$ with these
+coefficients. Thus $A_i\to A$ in WOT. Bounding only a tail avoids the
+false assertion that the entire range of a convergent net is bounded.
+
+#### Solution IX.1.16 — A contraction back from the bidual
+
+For $F\in\mathcal B(H)^{**}$ define the bounded sesquilinear form
+$b_F(h,k)=F(\omega_{h,k})$, where
+$\omega_{h,k}(T)=\langle Th,k\rangle$ has norm $\|h\|\|k\|$.
+Its representing operator is $\tau(F)$, with $\|\tau(F)\|\leq\|F\|$.
+For a canonically embedded $T$ the form is exactly its matrix form,
+so $\tau(T)=T$. Finally
+$\langle\tau\rho^{**}(\phi)h,k\rangle
+=\phi(\rho^*\omega_{h,k})$, the defining coefficient formula for
+$\widetilde\rho(\phi)$ in the proof. Equality of coefficients proves it.
+
+### §2. Normal operators and operator ideals
+
+#### Solution IX.2.1 — Atoms are eigenspaces
+
+The norm identity gives
+$\|(N-\lambda)h\|^2=\int|z-\lambda|^2\,d\mu_h$.
+It vanishes exactly when $\mu_h$ is supported on $\{\lambda\}$, equivalently
+$E(\{\lambda\})h=h$. Thus its range is precisely the eigenspace, proving
+both assertions.
+
+#### Solution IX.2.2 — Riesz projections
+
+A clopen subset of the compact spectrum has positive distance from its
+complement. Choose contours separating them. Interchange the resolvent
+spectral integral with the finite contour integral; the scalar integral
+of $(w-z)^{-1}$ equals its indicator. Thus the Riesz projection is
+$\int\chi_\Delta\,dE=E(\Delta)$.
+
+#### Solution IX.2.3 — Compact self-adjoint spectral expansion
+
+For $\varepsilon>0$, $E(\{|t|\geq\varepsilon\})H$ is finite dimensional:
+on it $\|Th\|\geq\varepsilon\|h\|$, impossible on an infinite orthonormal
+sequence for compact $T$. The spectral theorem there is finite-dimensional
+diagonalization. Taking $\varepsilon\downarrow0$ gives countably many
+nonzero real eigenvalues of finite multiplicity, with only possible
+accumulation at zero. The remaining subspace is $\ker T$ by IX.2.1.
+The error after retaining all eigenvalues of modulus at least
+$\varepsilon$ has norm at most $\varepsilon$, proving the norm-convergent
+expansion of II.5.1. Choosing orthonormal bases in these eigenspaces and
+the kernel gives its diagonalization and finite-rank approximation
+corollaries, and the norm is the supremum of the eigenvalue moduli.
+
+#### Solution IX.2.4 — Compact normal spectral expansion
+
+Repeat IX.2.3 with $|z|$ instead of $|t|$. The spectral subspace away
+from zero is finite dimensional and normal, so is orthogonally
+diagonalizable over $\mathbb C$. Orthogonality of spectral projections,
+finite multiplicities, countability, convergence of eigenvalues to zero,
+and norm convergence of $\sum\lambda P_\lambda$ follow identically.
+This proves II.7.6 and its diagonalization and approximation corollaries;
+only the restriction of eigenvalues to the real axis is removed.
+
+#### Solution IX.2.5 — The compact normal functional calculus
+
+The measure is the orthogonal sum of the point projections, including
+$E(\{0\})$ if the kernel is nonzero. Hence
+$\phi(T)=\sum_{\lambda\in\sigma_p(T)}\phi(\lambda)P_\lambda$ strongly.
+Orthogonality proves the linear, product, adjoint, and norm identities
+in II.7.11, with norm $\sup_{\lambda\in\sigma_p(T)}|\phi(\lambda)|$.
+Every commuting operator commutes with these projections and therefore
+with the strong sum. For an arbitrary bounded function rather than a
+Borel one, replace it by a Borel function agreeing on the countable
+point spectrum; the result is independent of all other values.
+
+#### Solution IX.2.6 — Coordinate multiplication
+
+$N_\mu^*=M_{\bar z}$ follows from the integral pairing, so it is normal.
+Outside the support, $(z-\lambda)^{-1}$ is essentially bounded and gives
+an inverse. At each support point normalized indicators of small disks
+give approximate eigenvectors. Thus the spectrum is the support.
+The projections $M_{\chi_\Delta}$ integrate the coordinate to $N_\mu$,
+so uniqueness gives its spectral measure; simple approximation then gives
+$\phi(N_\mu)=M_\phi$ for bounded Borel $\phi$.
+
+#### Solution IX.2.7 — Pushforward for a multiplier
+
+Set $F(\Delta)=M_{\chi_{\phi^{-1}\Delta}}$. Preimages preserve disjoint
+unions and intersections, so IX.1.7 proves this is a spectral measure.
+For a simple $g$, its integral is $M_{g\circ\phi}$; approximation extends
+this to the coordinate function on the compact essential range.
+Thus $\int z\,dF=M_\phi$, and uniqueness identifies $F$ with $E$.
+
+#### Solution IX.2.8 — Countably many atoms on a separable space
+
+Choose a unit vector from each nonzero singleton spectral projection.
+Different singleton projections have orthogonal ranges, so these vectors
+form an orthonormal set. In a separable Hilbert space such a set is
+countable, by the disjoint-ball argument of VII.9.10. IX.2.1 identifies
+these atoms with the eigenvalues.
+
+#### Solution IX.2.9 — Reading operator type from the spectrum
+
+The spectral calculus gives
+$N-N^*=\int(z-\bar z)dE$ and $N^*N-I=\int(|z|^2-1)dE$.
+They vanish exactly when the respective continuous integrands vanish
+on the spectrum, since every nonempty relatively open spectral set has
+nonzero projection. This proves (a) and (c). For self-adjoint $N$,
+$\langle Nh,h\rangle=\int t\,d\mu_h$ is nonnegative exactly when no
+negative spectral interval has nonzero projection, proving (b).
+
+#### Solution IX.2.10 — The spectral family
+
+(a) Inclusion of sets gives the projection order. (b) Increasing sets
+$(-\infty,t_n)$ have union $(-\infty,t)$ unless eventually $t_n=t$,
+when the assertion is immediate; countable additivity gives SOT convergence.
+(c) At $t$ with $E(\{t\})=0$, shrinking intervals about $t$ have projections
+tending strongly to zero, which controls arbitrary sequences $t_n\to t$.
+Only countably many excluded atoms occur by IX.2.8.
+(d) Take an interval $[a,b)$ containing the spectrum in its interior and
+partitions $a=t_0<\cdots<t_m=b$. Define sums
+$\sum_j f(\xi_j)[P(t_j)-P(t_{j-1})]$, with
+$\xi_j\in[t_{j-1},t_j]$ and a continuous extension of $f$ to $[a,b]$.
+These are integrals of step functions uniformly approximating $f$ as
+the mesh tends to zero. Their norm limit is $f(A)$, defining the
+Riemann–Stieltjes integral with this left-continuous convention.
+
+#### Solution IX.2.11 — Diagonalizability and a nonseparable caveat
+
+The unconditional criterion is
+$$\overline{\bigoplus_{\lambda\in\sigma_p(N)}}E(\{\lambda\})H=H,$$
+or that finite sums of these projections converge strongly to $I$.
+It is equivalent to having an orthonormal eigenbasis, by choosing a basis
+in each summand. If the eigenvalue set is countable, countable additivity
+makes this equivalent to the printed Borel-complement criterion.
+For uncountable eigenvalue sets, Borel measurability alone is insufficient.
+On $\ell^2([0,1])\oplus L^2[0,1]$ take the diagonal with entries $t$ on
+the first summand and multiplication by $t$ on the second. The point
+spectrum is all $[0,1]$, so its complement has zero projection, but the
+second summand has no eigenvectors and the operator is not diagonalizable.
+For a non-Borel point spectrum, choose a bounded non-Borel set $S\subset\mathbb R$
+and the diagonal operator on $\ell^2(S)$ with diagonal entries $s$.
+Its point spectrum is exactly $S$ and its spectrum is $\overline S$.
+The strong-sum criterion still applies and correctly recognizes it as
+diagonalizable.
+
+#### Solution IX.2.12 — The canonical polar function
+
+Set $\phi(z)=z/|z|$ for $z\ne0$ and $\phi(0)=0$.
+Then $U=\phi(N)$ is a partial isometry with initial projection
+$I-E(\{0\})$, and $U|N|=N$ by multiplication of functions.
+It vanishes on $\ker N$, so is the canonical polar factor by uniqueness.
+Both factors are functions of $N$, hence commute.
+
+#### Solution IX.2.13 — A unitary polar factor
+
+Change the preceding function only at zero, setting $\phi(0)=1$.
+It now has modulus one throughout the spectrum, so $W=\phi(N)$ is
+unitary, and still $W|N|=N$ since $|z|=0$ there. This extends the canonical
+partial isometry by the identity on the kernel.
+
+#### Solution IX.2.14 — Logarithms of Hilbert-space unitaries
+
+For self-adjoint $A$, the calculus gives $e^{iA}$ unitary.
+Conversely every unitary $U$ has a bounded self-adjoint logarithm in
+$\mathcal B(H)$: choose a Borel argument $\theta:\mathbb T\to[-\pi,\pi]$
+and put $A=\theta(U)$. Then $e^{iA}=U$. Continuity of the argument is
+unnecessary for the Borel calculus. This contrasts with VIII.2.5, where
+the logarithm was required inside an arbitrary C*-algebra.
+
+#### Solution IX.2.15 — Normal square roots
+
+Choose the Borel root $s(re^{it})=\sqrt r\,e^{it/2}$ for
+$-\pi<t\leq\pi$, with $s(0)=0$. Then $M=s(N)$ is normal and $M^2=N$.
+All Borel-function roots are obtained by changing its sign on Borel
+subsets of the nonzero spectrum, with equality understood modulo spectral
+null sets. More generally all normal roots have the form
+$M=J s(N)$ on $(\ker N)^\perp$, and zero on $\ker N$, where $J$ is a
+self-adjoint unitary commuting with $N$ on that support. Indeed a normal
+root commutes with $N$ and its spectral projections; its polar/spectral
+calculus shows the quotient by the chosen root is a sign operator there.
+Equivalently split the support into two reducing subspaces and use the
+two signs. Thus there is no fixed number: a scalar on a one-dimensional
+space has two nonzero roots, a scalar on a higher-dimensional space has
+many via orthogonal decompositions, and zero has just the normal root zero.
+
+#### Solution IX.2.16 — Translation on the real line
+
+The translation is unitary, with inverse $f(t)\mapsto f(t-1)$.
+For the unitary Fourier transform
+$\widehat f(\xi)=(2\pi)^{-1/2}\int e^{-it\xi}f(t)dt$,
+$\widehat{Nf}(\xi)=e^{i\xi}\widehat f(\xi)$, first for integrable square-
+integrable functions and then by density. Hence
+$E(\Delta)=\mathcal F^{-1}M_{\chi_{\{\xi:e^{i\xi}\in\Delta\}}}\mathcal F$
+and $N=\int_{\mathbb T}z\,dE(z)$. This also exhibits spectrum $\mathbb T$.
+
+#### Solution IX.2.17 — Joint spectral measure
+
+Fuglede's theorem changes commutation with each $N_k^*$ into commutation
+with $N_k$, so the unital C*-algebra generated by the $N_k$ is abelian.
+VIII.2.2 identifies it with $C(X)$ for compact $X\subset\mathbb C^d$,
+sending $N_k$ to the coordinate $z_k$. Apply the representation theorem
+to its inclusion into $\mathcal B(H)$ to get a spectral measure $E$.
+The coordinate integrals give the required $N_k$.
+
+#### Solution IX.2.18 — Simultaneous compact diagonalization
+
+Every nonzero eigenspace of $N_1$ is finite dimensional and reduces all
+other operators by commutation with the spectral projections. Diagonalize
+the remaining commuting normal matrices there. On $\ker N_1$ repeat
+with $N_2$, then the subsequent operators. After finitely many stages
+the remaining subspace is their common kernel, on which any orthonormal
+basis works. Joining these orthogonal bases yields the stated basis.
+
+#### Solution IX.2.19 — Hilbert–Schmidt operators
+
+(a) Parseval gives $\sum_i\|Ae_i\|^2=\sum_{i,j}|\langle Ae_i,f_j\rangle|^2$.
+Interchanging nonnegative sums and applying Parseval to $A^*f_j$ gives
+$\sum_j\|A^*f_j\|^2$. Applying this argument with equal bases shows
+$\sum_j\|A^*f_j\|^2=\sum_j\|Af_j\|^2$, proving independence, including
+infinite values. (b) This justifies the definition.
+(c) For a unit vector extend it to an orthonormal basis to get
+$\|Ah\|\leq\|A\|_2$; positivity, homogeneity, and the triangle inequality
+follow from the $\ell^2$ norm of the matrix entries.
+(d) Sum $\|TAe_i\|^2\leq\|T\|^2\|Ae_i\|^2$, use (a) for adjoints,
+and apply the first inequality to $T^*A^*$ for the right product.
+(e) These inequalities prove the ideal assertion; finite-rank operators
+have finite sums after choosing a basis adapted to their initial space.
+(f) $\||A|h\|^2=\langle A^*Ah,h\rangle=\|Ah\|^2$.
+(g) Truncating the input basis gives finite-rank $AP_F$ with
+$\|A-AP_F\|\leq\|A-AP_F\|_2\to0$, so $A$ is compact.
+Apply the compact positive diagonalization of $|A|$ to obtain exactly
+the sum of squared singular values and its stated criterion.
+(h) On the usual sigma-finite product measure spaces, Parseval in the
+$y$ variable gives
+$\sum_j|\int k(x,y)e_j(y)d\mu(y)|^2=\int|k(x,y)|^2d\mu(y)$
+for almost every $x$; Tonelli then gives $\|K\|_2^2=\|k\|_2^2$.
+Equivalently approximate $k$ in $L^2(\mu\times\mu)$ by finite sums of
+product functions and use the same identity there. This argument requires
+the usual product-measure/Fubini and product-function density hypotheses;
+an entirely arbitrary nonsemifinite measure requires specifying these
+conventions before asserting the kernel identification.
+(i) For atoms $E_j$ of masses $m_j>0$, the orthonormal basis is
+$\chi_{E_j}/\sqrt{m_j}$; a kernel constant $k_{ij}$ on $E_i\times E_j$
+has matrix entries $k_{ij}\sqrt{m_im_j}$. Thus the criterion is
+$\sum_{i,j}|k_{ij}|^2m_im_j<\infty$, the square-summability of the matrix.
+
+#### Solution IX.2.20 — Trace class, including completeness
+
+(a),(b) Write $A=C^*B$ with $B,C$ Hilbert–Schmidt. Cauchy–Schwarz gives
+$\sum_i|\langle Be_i,Ce_i\rangle|\leq\|B\|_2\|C\|_2$.
+The hint's equality sign must be an inequality. Polarization of the
+basis-independent squared Hilbert–Schmidt norms of $B+i^kC$ proves that
+$\sum_i\langle Be_i,Ce_i\rangle$ is basis independent, defining the trace.
+
+(c) A product of two Hilbert–Schmidt operators is compact. For its
+singular decomposition $Ae_j=s_ju_j$, finite sums satisfy
+$\sum_{j\leq n}s_j\leq\|B\|_2\|C\|_2$ by testing the product against
+the finite-rank contraction sending $u_j$ to $e_j$ and using the preceding
+inequality. Thus $\sum s_j<\infty$.
+Conversely if $\sum s_j<\infty$, $|A|^{1/2}$ is Hilbert–Schmidt and
+$A=(W|A|^{1/2})|A|^{1/2}$ is a product of two such operators.
+This proves all four characterizations, interpreting the positive trace
+initially as the possibly infinite sum of positive diagonal entries.
+
+(d) The product ideal property follows from IX.2.19(d). For a singular
+expansion $A=\sum_js_j(u_j\otimes e_j)$, the sum converges absolutely in
+the product trace estimate, and
+$\operatorname{tr}(TA)=\sum_js_j\langle Tu_j,e_j\rangle
+=\operatorname{tr}(AT)$. This gives cyclicity; linearity follows on
+absolutely convergent diagonal sums. Positivity is termwise. A positive
+operator of trace zero has all $\|A^{1/2}e_j\|^2=0$, hence is zero.
+(e) The displayed expansion gives $|\operatorname{tr}(TA)|\leq\|T\|\sum s_j$.
+(f) $A,A^*$ have the same nonzero singular values by polar decomposition.
+(g),(h) The dual formula
+$$\|A\|_1=\sup_{\|T\|\leq1}|\operatorname{tr}(TA)|$$
+follows from (e) and the partial isometry $T=W^*$. It proves the triangle
+inequality and, using cyclicity, the left and right ideal norm bounds.
+Definiteness follows from $\|A\|\leq\sum s_j$; homogeneity is immediate.
+(i) The class is linear: concatenate the absolutely summable rank-one
+expansions of two elements; the finite-sum trace estimate bounds the
+singular-value sum of their sum. It is an ideal by (g) and contains all
+finite-rank operators.
+(j) For a finite set of indices choose phases and a finite-rank contraction
+$T$ sending each $f_i$ to the matching phase times $e_i$.
+Then $\sum|\langle Ae_i,f_i\rangle|=|\operatorname{tr}(TA)|\leq\|A\|_1$
+on that finite set; taking the supremum proves the full sum bound.
+The repeated label “(d)” after (j) is (k): compactness and the singular-value
+criterion were proved in (c), with norm $\sum s_j$.
+
+(l) Matrix entries identify the Hilbert–Schmidt class with the Hilbert
+space of square-summable matrices; every such matrix defines a bounded
+operator by Cauchy–Schwarz. Its inner product is
+$\sum_{i,j}a_{ij}\overline{b_{ij}}=\operatorname{tr}(B^*A)$, proving
+completeness and the stated norm.
+(m) A trace-norm Cauchy sequence converges in operator norm to some $A$.
+For any finite orthonormal systems $(e_i),(f_i)$, the sums in (j) pass to
+the limit. Boundedness of all these sums characterizes the trace norm:
+polar decomposition and finite spectral subspaces of $|A|$ show first
+that $|A|$ has finite-dimensional spectral subspaces above every positive
+threshold (otherwise those sums are arbitrarily large), then that its
+singular values have bounded sum. Applying this to the differences gives
+$\|A-A_n\|_1\leq\liminf_m\|A_m-A_n\|_1\to0$. Thus trace class is complete.
+(n) Singular-value truncations have errors $\sum_{j>n}s_j$ in trace norm
+and $(\sum_{j>n}s_j^2)^{1/2}$ in Hilbert–Schmidt norm, proving both densities.
+
+#### Solution IX.2.21 — Trace dualities
+
+(a) Parseval gives
+$\operatorname{tr}(A(g\otimes h))=\sum_i\langle e_i,h\rangle
+\langle Ag,e_i\rangle=\langle Ag,h\rangle$.
+(b) The upper bound follows from IX.2.20(e). Finite-rank truncations of
+the polar adjoint give traces tending to the sum of the singular values,
+so compact contractions suffice for the lower bound.
+(c) For $L\in\mathcal K^*$, its values on $g\otimes h$ define a bounded
+sesquilinear form and hence an operator $T$ with
+$L(g\otimes h)=\langle Tg,h\rangle$. Finite-rank contraction tests and
+(b)'s finite-sum argument bound the trace norm of $T$ by $\|L\|$,
+so $T$ is trace class. Equality $L(C)=\operatorname{tr}(TC)$ extends
+from finite rank to compacts by density. Part (b) gives isometry and
+uniqueness follows from rank-one tests.
+(d) The same rank-one construction for a functional on trace class gives
+$B\in\mathcal B$ with norm at most the functional norm. The trace pairing
+agrees on finite rank and then on trace class by its norm density.
+Rank-one unit tests give the reverse norm inequality and uniqueness.
+
+(e) Restrict $L$ to $\mathcal K$ and use (c) to obtain $T$. Define
+$L_1(B)=\operatorname{tr}(BT)$ and $L_0=L-L_1$. Then $L_0$ annihilates
+compacts, and uniqueness follows from (c). To prove additivity of norms,
+choose a finite-rank projection $P$ so that $\|T-PTP\|_1<\varepsilon$.
+Choose contractions $C=PCP$ and $D$ with the phases of their functional
+values adjusted so that $L_1(C)>\|T\|_1-O(\varepsilon)$ and
+$L_0(D)>\|L_0\|-\varepsilon$ are real. Put
+$B=C+(I-P)D(I-P)$; its two orthogonal blocks make it a contraction.
+Since $D-(I-P)D(I-P)$ is finite rank, $L_0(B)=L_0(D)$, while
+$L_1(B)=L_1(C)+O(\varepsilon)$ because the complementary block pairs
+only with $T-PTP$. Thus $\|L\|\geq\|L_0\|+\|L_1\|-O(\varepsilon)$.
+Letting $\varepsilon\downarrow0$ and using the triangle inequality proves
+equality. Finally $\mathcal B(H)$ is reflexive exactly when $H$ is finite
+dimensional: for infinite $H$ a countable orthonormal set yields a closed
+isometric diagonal copy of $\ell^\infty$, which is not reflexive.
+
+#### Solution IX.2.22 — A norm-continuous unitary path
+
+Choose bounded self-adjoint $A$ with $U=e^{iA}$ as in IX.2.14 and set
+$u(t)=e^{i(1-t)A}$. All values are unitary, the endpoints are $U,I$, and
+the scalar bound $|e^{isr}-e^{itr}|\leq|s-t||r|$ gives
+$\|u(s)-u(t)\|\leq\|A\||s-t|$ by the spectral calculus.
+
+#### Solution IX.2.23 — Invertible normal approximants
+
+Define $f_n(z)=z$ when $|z|\geq1/n$, and $f_n(z)=1/n$ otherwise.
+Then $N_n=f_n(N)$ is normal and has bounded inverse $(1/f_n)(N)$,
+while $\|N_n-N\|\leq2/n$. Borel, rather than continuous, calculus
+allows this modification without any topological obstruction near zero.
+
+### §3. Cyclic normal operators
+
+#### Solution IX.3.1 — Star-cyclic vectors of a multiplier
+
+The *-polynomials are uniformly dense in the continuous functions on the
+compact support. Thus their orbit closure at $f$ equals $C(K)f$'s closure.
+VIII.5.3 proves this is all $L^2(\mu)$ exactly when $f\ne0$ almost
+everywhere, by approximation in $L^2(|f|^2\mu)$.
+
+#### Solution IX.3.2 — Orbit descriptions of cyclicity
+
+The closed span of $\{p(A)e_0\}$ contains $e_0$ and is invariant under
+$A$, and is contained in every closed invariant subspace containing it.
+It is therefore the smallest such subspace, proving (b). For (a), use
+all words in $A,A^*$ instead: their closed orbit is invariant under both,
+hence reducing, and is minimal with this property. Norm closure of the
+word algebra does not change the vector orbit closure, giving $C^*(A)$.
+
+#### Solution IX.3.3 — Bounded equivalence of measures
+
+(a) implies (c): the identity on measurable functions is bounded with
+bounded inverse on the two $L^2$ spaces when both Radon–Nikodym derivatives
+are bounded. It also gives (b), preserving all $L^\infty$ classes.
+(c) implies (a): its two norm bounds on polynomials extend to continuous
+functions by Stone–Weierstrass; applying them to square roots of continuous
+nonnegative functions and regular approximation of Borel sets gives
+$c\mu_1\leq\mu_2\leq C\mu_1$.
+For (b), Fuglede's intertwining theorem gives intertwining of the adjoints,
+so $V p=p h$ with $h=V1$, for *-polynomials. Density extends this formula
+as a multiplication map between the measure spaces. The equality of
+$L^\infty$ images gives $h\in L^\infty(\mu_2)$ and a bounded $g$ with
+$hg=1$. Thus $h$ is bounded above and away from zero. The $L^2$ bounds
+for $V,V^{-1}$ now imply bounded mutual absolute continuity by the same
+continuous-function tests. This proves (a).
+
+#### Solution IX.3.4 — Simple eigenvalues in a cyclic representation
+
+Let $e$ be star-cyclic. On $E(\{\lambda\})H$, every *-polynomial in $N$
+acts as its scalar value at $\lambda$. Hence projecting the dense cyclic
+orbit gives a dense subspace contained in the line through
+$E(\{\lambda\})e$. A nonzero eigenspace is therefore one dimensional.
+
+#### Solution IX.3.5 — An atomic model
+
+By IX.3.4 each eigenspace is one dimensional; choose unit eigenvectors
+$e_n$ forming a basis. In $L^2(\mu)$ the vectors
+$2^{n/2}\chi_{\{\lambda_n\}}$ form an orthonormal basis and are coordinate
+multiplication eigenvectors with the same eigenvalues. Matching these
+bases gives the unitary equivalence. For finitely many eigenvalues use
+the corresponding finite sum.
+
+#### Solution IX.3.6 — Classifying diagonal normal operators
+
+A unitary intertwiner carries each kernel $\ker(N-\lambda)$ onto the
+corresponding kernel for $M$, proving necessity. Conversely match
+orthonormal bases in corresponding eigenspaces of the same Hilbert
+dimension, and take the orthogonal direct sum of those unitaries.
+Diagonalizability makes the sum act on the full spaces and intertwine
+the operators, proving sufficiency even for nonseparable spaces.
+
+#### Solution IX.3.7 — Bilateral shift and Fourier series
+
+All $e_n$, $n\in\mathbb Z$, are obtained from $e_0$ by powers of $U$ or
+$U^*$, proving star-cyclicity. The spectral measure at $e_0$ has moments
+$\int z^n\,d\mu=\langle U^ne_0,e_0\rangle=0$ for $n\ne0$ and mass one.
+The spectrum lies on the circle, and trigonometric polynomials determine
+measures there, so $\mu$ is normalized arc length. The intertwiner takes
+$e_n$ to $z^n$, hence its inverse takes $f$ to its Fourier coefficients
+$(\int f\bar z^n\,dm)_n$, first on polynomials and then by Hilbert-space
+completion.
+
+#### Solution IX.3.8 — A joint cyclic model
+
+Use the joint spectral measure from IX.2.17 and set
+$\mu(\Delta)=\langle E(\Delta)e_0,e_0\rangle$.
+The map $p\mapsto p(N_1,\ldots,N_d,N_1^*,\ldots,N_d^*)e_0$ is isometric
+from *-polynomials in $L^2(\mu)$ into $H$ by the spectral norm formula.
+Stone–Weierstrass and regularity make its domain dense; the assumed
+minimal reducing subspace makes its range dense. Its unitary extension,
+inverted, gives $V$ and the coordinate intertwining identities.
+
+### §4. Consequences of the spectral theorem
+
+#### Solution IX.4.1 — Closed range of a normal operator
+
+On $(\ker N)^\perp$, closed range is equivalent to a positive lower bound
+for $\|Nh\|/\|h\|$, by the bounded inverse theorem. The spectral norm
+formula gives such a bound exactly when the spectrum has a gap
+$0<|z|<\varepsilon$. If there were nonzero spectral values tending to
+zero, their small neighborhoods supply unit spectral vectors with
+$\|Nh\|\to0$. Thus the criterion is precisely that zero is not a limit
+point of the spectrum, allowing zero outside the spectrum altogether.
+
+#### Solution IX.4.2 — Nonnormal examples
+
+The matrix $\begin{bmatrix}0&1\\0&0\end{bmatrix}$ is nonnormal, has
+spectrum $\{0\}$ and closed range, proving the first request.
+The unilateral shift is nonnormal and has closed range (it is an isometry),
+but its spectrum is the closed disk, so zero is not isolated. This proves
+the second request and shows why normality matters in IX.4.1.
+
+#### Solution IX.4.3 — An intermediate ideal on a nonseparable space
+
+Take the operators whose closed range is separable. VIII.4.3 with
+$\alpha=\aleph_0$ proves this is a closed ideal. It contains all compacts,
+whose closed ranges are separable, but also an infinite-rank projection
+onto a separable subspace, which is not compact. It is proper because
+the identity on nonseparable $H$ has nonseparable range.
+
+#### Solution IX.4.4 — Duality for the direct-sum measure space
+
+The measure space in Theorem 4.6 is the disjoint measure sum of finite
+cyclic spectral spaces $(X_i,\mu_i)$, with measurable sets specified
+componentwise. Thus $L^1(\mu)=\bigoplus_1L^1(\mu_i)$ and
+$L^\infty(\mu)=\bigoplus_\infty L^\infty(\mu_i)$: the first identity
+follows by summing integrals, the second by taking essential suprema.
+A functional on the first sum restricts to uniformly bounded functionals
+on its summands, and conversely these define a functional by an absolutely
+convergent sum. Finite-measure duality on each summand proves the desired
+isometric identification, even for an uncountable index set.
+
+#### Solution IX.4.5 — Orthogonal projections and separability
+
+From each nonzero projection choose a unit vector in its range. Pairwise
+orthogonality gives an orthonormal set, countable in a separable space.
+Conversely projections onto the individual vectors of an orthonormal
+basis are pairwise orthogonal, so the hypothesis makes that basis
+countable. The zero projection does not affect the conclusion.
+
+#### Solution IX.4.6 — A false assertion for arbitrary measures
+
+Sigma-finiteness does imply the stated countability: replace the measure
+by an equivalent finite measure, and disjoint positive sets can then
+occur only countably often. Finite-dimensional $L^2$ also implies it.
+The converse as printed is false. Take the disjoint union of $[0,1]$
+with Lebesgue measure and a single point $p$ of infinite mass.
+The measure is not sigma-finite, while $L^2(\mu)=L^2[0,1]$ is infinite
+dimensional because an integrable function must vanish at $p$.
+It is separable, so IX.4.5 makes every orthogonal family of nonzero
+multiplication projections countable. This disproves the equivalence
+without additional measure hypotheses. The operator algebra sees the
+semifinite part and need not detect an infinite atom with no finite
+positive subsets.
+
+#### Solution IX.4.7 — Spectral subspaces away from zero are in the range
+
+The bounded Borel function $g(z)=z^{-1}\chi_{\{|z|>\varepsilon\}}$ satisfies
+$Ng(N)=E(\{|z|>\varepsilon\})$. Thus every vector in the latter range is
+$N$ applied to $g(N)h$, proving the inclusion.
+
+#### Solution IX.4.8 — Operator ranges containing no infinite closed subspace
+
+If $M$ contains an infinite-dimensional closed subspace, its orthogonal
+projection has range in $M$ and is not compact.
+Conversely suppose a noncompact $A$ has range in $M$. Then $|A|$ is
+noncompact; some spectral projection $P=\chi_{[\varepsilon,\infty)}(|A|)$
+has infinite-dimensional range, otherwise spectral truncation approximates
+$|A|$ by finite rank. On $PH$, $A=W|A|$ is bounded below, so $A(PH)$ is
+closed and infinite dimensional. It lies in $\operatorname{ran}A\subset M$,
+a contradiction. This proves both directions.
+
+#### Solution IX.4.9 — Extreme positive contractions
+
+If $P=(A+B)/2$ with $0\leq A,B\leq I$, then on $\ker P$ positivity
+forces both quadratic forms, hence $A,B$, to vanish. On $PH$, apply the
+same argument to $I-A,I-B$ to get $Ah=Bh=h$. Thus $A=B=P$.
+If a positive contraction is not a projection, a nonzero continuous
+function supported in $(0,1)$ and bounded by $\min(t,1-t)$ supplies two
+distinct positive-contraction perturbations by its functional calculus,
+with midpoint the original operator. Hence exactly projections are extreme.
+
+#### Solution IX.4.10 — A continuous function of a self-adjoint operator
+
+Let $K=\sigma(N)$. A compact metric space is a continuous image of a
+compact subset $C\subset\mathbb R$, for example the Cantor set; an
+elementary construction is given in IX.7.12–13. Choose a continuous
+surjection $f:C\to K$ and a Borel section $s:K\to C$. Such a section
+can be constructed by successively choosing the first member of a finite
+closed small-diameter cover whose image contains the point, retaining
+nested choices; compactness gives a unique limit and Borel decision sets
+give measurability. Put $A=s(N)$, which is bounded and self-adjoint.
+Extend $f$ continuously from $C$ to a real interval by interpolation on
+its complementary intervals, separately in real and imaginary parts.
+Borel composition gives $f(A)=(f\circ s)(N)=N$. This uses Borel choice
+for $A$ but a continuous function for the final expression.
+
+### §5. Strong and weak operator topologies
+
+#### Solution IX.5.1 — The finite-vector condition
+
+A basic SOT neighborhood of $B$ prescribes
+$\|(A-B)h_j\|<\varepsilon$ for finitely many $h_j$. If $B$ is in the
+SOT closure, each such neighborhood meets the algebra. Equivalently, on
+every finite tuple the vector $(Bh_1,\ldots,Bh_n)$ lies in the closure of
+$\{(Ah_1,\ldots,Ah_n):A\in\mathcal A\}$, exactly the set in (5.4).
+
+#### Solution IX.5.2 — Finite rank is strongly dense
+
+Let $P_F$ be finite-dimensional orthogonal projections directed by their
+ranges. For bounded $A$, the finite-rank $AP_F$ satisfies
+$\|AP_Fh-Ah\|\leq\|A\|\|P_Fh-h\|\to0$. Thus $AP_F\to A$ strongly.
+A net is needed on a general nonseparable space.
+
+#### Solution IX.5.3 — A weak-strong product limit
+
+Uniform boundedness applied twice to the weakly convergent sequence
+$A_k$ gives $\sup_k\|A_k\|=C<\infty$. For fixed $h,g$,
+$\langle(A_kB_k-AB)h,g\rangle
+=\langle A_k(B_k-B)h,g\rangle+\langle(A_k-A)Bh,g\rangle$.
+The first tends to zero by the bound $C\|(B_k-B)h\|\|g\|$, the second
+by WOT convergence. This proves the assertion.
+
+#### Solution IX.5.4 — A strong-strong product limit
+
+The same uniform bound holds for a strongly convergent sequence $A_k$.
+Now estimate in norm:
+$\|(A_kB_k-AB)h\|\leq C\|(B_k-B)h\|+\|(A_k-A)Bh\|\to0$.
+Thus the products converge strongly.
+
+#### Solution IX.5.5 — The two shift sequences
+
+$S^{*k}h\to0$ strongly because it removes longer and longer initial
+segments of an $\ell^2$ vector. The sequence $S^k\to0$ weakly, by testing
+finite-support vectors and then using the norm bound, but not strongly
+since it is isometric. The products $S^kS^{*k}$ are the tail projections
+and tend strongly to zero, consistent with IX.5.3. In the reversed order
+$S^{*k}S^k=I$; this shows that putting the strongly convergent factor on
+the left does not suffice for the weak-strong assertion as stated.
+
+#### Solution IX.5.6 — Why the sequence hypothesis matters
+
+(a) For finitely many tests $h_1,\ldots,h_m$, if every $n$ had
+$\sqrt n\max_j|\langle e_n,h_j\rangle|\geq\varepsilon$, then
+$\sum_j\|h_j\|^2\geq\varepsilon^2\sum_n1/n=\infty$, a contradiction.
+Thus every basic weak neighborhood meets the set.
+(b) Weak convergence of $\sqrt{n_i}e_{n_i}$ gives
+$\|A_if\|=\sqrt{n_i}|\langle f,e_{n_i}\rangle|\to0$ for every $f$.
+Every finite set of indices is eventually avoided, so $n_i\to\infty$.
+Choose $f$ with coefficients $f_n=n^{-3/4}$, which is in $\ell^2$.
+Then $\|A_i^2f\|=n_i^{1/4}\to\infty$. Thus the squared net does not
+converge strongly to zero, despite $A_i\to0$ strongly.
+
+### §6. Commutants
+
+#### Solution IX.6.1 — Triple commutants
+
+$S\subseteq S''$ by the symmetry of commutation; reversing inclusions
+under taking commutants gives $S'''\subseteq S'$. Apply the first inclusion
+to $S'$ to get $S'\subseteq S'''$. Thus equality holds.
+
+#### Solution IX.6.2 — Closedness of a commutant
+
+Commuting with each member of $S$ is preserved under sums, products,
+scalars, and the identity. If $A_i\to A$ strongly and $A_iT=TA_i$,
+then $A_iTh\to ATh$ and $TA_ih\to TAh$ for each fixed $h$.
+Thus $AT=TA$. Intersecting over $T\in S$ proves SOT closedness.
+
+#### Solution IX.6.3 — Block commutation
+
+Let $J_j$ inject the $j$th summand and $P_i$ project onto the $i$th.
+Then $P_i(AB-BA)J_j=A_iB_{ij}-B_{ij}A_j$.
+The full operator vanishes exactly when every block vanishes, since
+finite-support vectors are dense. This proves (a); setting every $A_j=A$
+gives (b), also for countably infinite amplification.
+
+#### Solution IX.6.4 — Shift commutants
+
+The equation $AS=SA$ gives $A_{i,j+1}=A_{i-1,j}$, with the zeroth row
+zero. Iteration gives the lower triangular constant-diagonal description
+in (a); conversely those block identities imply commutation on finite
+vectors and hence everywhere. For the bicommutant, commuting with $S$
+first gives that form. The commutant contains every constant diagonal
+operator $D^{(\infty)}$, $D\in\mathcal B(H)$, so each diagonal coefficient
+must commute with all $D$ and hence be scalar. Conversely a bounded
+scalar lower triangular Toeplitz operator commutes with every bounded
+operator-valued one: for each fixed block the convolution sum has finitely
+many terms and scalar coefficients commute with all entries. Thus the
+stated form is sufficient as well.
+
+#### Solution IX.6.5 — Double multiplicity
+
+The commutant consists of $2\times2$ matrices $[M_{f_{ij}}]$ with
+$f_{ij}\in L^\infty(\mu)$, by the block criterion and the multiplier
+commutant theorem. Commuting also with the constant matrix units forces
+a bicommutant element to be diagonal with equal entries; commuting with
+all multipliers makes that entry a multiplier. Thus the bicommutant is
+$\{M_f\oplus M_f:f\in L^\infty(\mu)\}$.
+
+#### Solution IX.6.6 — Maximal abelian algebras
+
+If $A=A'$, it is abelian, and any larger abelian algebra lies in $A'=A$.
+Conversely if $A$ is maximal abelian and $T\in A'$, the algebra generated
+by $A$ and $T$ is abelian, so maximality implies $T\in A$.
+Thus $A'=A$; this argument is algebraic and does not require a separate
+closure assumption.
+
+#### Solution IX.6.7 — Similar but not unitarily equivalent to normal
+
+The matrix $A=\begin{bmatrix}1&1\\0&2\end{bmatrix}$ has two distinct
+eigenvalues, so is similar to the normal diagonal matrix
+$\operatorname{diag}(1,2)$. Direct multiplication gives $AA^*\ne A^*A$,
+so it is not normal. Similarity need not preserve inner products.
+
+#### Solution IX.6.8 — Vector-valued multiplication
+
+(a) Choose a countable orthonormal basis $(e_j)$ in the separable fiber.
+Weak Borel measurability is equivalent to measurability of all coordinate
+functions; their partial sums converge in fiber norm. Parseval and
+Tonelli identify $L^2(\mu,H)$ isometrically with
+$\bigoplus_jL^2(\mu)$, proving Hilbert completeness.
+(b),(c) Under that map $N$ is $N_\mu^{(\dim H)}$ and its adjoint multiplies
+by $\bar z$, proving normality and spectrum $\operatorname{supp}\mu$
+for nonzero fiber. (d) The block criterion gives operator matrices whose
+entries are $L^\infty$ multipliers. Equivalently they are multiplication
+by essentially bounded weakly measurable fields $B(z)\in\mathcal B(H)$;
+a countable dense set of finite rational-coordinate vectors verifies
+the common pointwise operator bound from boundedness of the matrix.
+(e) Commutation with all constant matrix units forces the bicommutant
+to be scalar fields $M_\phi\otimes I_H$, $\phi\in L^\infty(\mu)$.
+
+#### Solution IX.6.9 — Repeated diagonal values
+
+Let $H_\lambda=\overline{\operatorname{span}}\{e_n:\lambda_n=\lambda\}$.
+The matrix equation $(\lambda_i-\lambda_j)b_{ij}=0$ gives
+$\{A\}'=\bigoplus_\infty\mathcal B(H_\lambda)$.
+Its commutant is $\bigoplus_\infty\mathbb CI_{H_\lambda}$, since independent
+blocks exclude cross terms and the center of each full block is scalar.
+The two are equal exactly when every $H_\lambda$ is one dimensional,
+i.e. when all diagonal values are distinct.
+
+#### Solution IX.6.10 — A nonunital bicommutant formula
+
+The subspace $M$ reduces $A$ and its commutant: its orthogonal complement
+is the common kernel of all $a\in A$, and commutation with $A,A^*$ preserves
+both pieces. Hence its projection $P$ lies in $A'\cap A''$.
+A contractive approximate identity of the C*-algebra converges strongly
+to $P$: it converges on vectors $ah$ and therefore on their closed span,
+and vanishes on $M^\perp$. On $M$ the algebra acts nondegenerately, so
+the bicommutant theorem applied after adjoining $I_M$ gives its strong
+closure equal to its bicommutant there. On $M^\perp$ every original
+operator is zero. Combining the two blocks gives
+$\overline A^{\mathrm{SOT}}=A''P=PA''$.
+
+#### Solution IX.6.11 — Polar decomposition between two spaces
+
+For $T:H\to K$ bounded, let $|T|=(T^*T)^{1/2}$ on $H$.
+Define $W(|T|h)=Th$; this is well defined and isometric on
+$\operatorname{ran}|T|$ because the two vectors have equal norms.
+Extend it by continuity to $(\ker T)^\perp$ and by zero on $\ker T$.
+Then $W:H\to K$ is a partial isometry onto
+$\overline{\operatorname{ran}T}$ and $T=W|T|$. Equality on the dense
+range of $|T|$ and zero on the kernel prove uniqueness with this initial
+space condition. The left version is $T=(TT^*)^{1/2}W$.
+
+#### Solution IX.6.12 — Arbitrary measures and multiplier commutants
+
+(a) Hölder gives $|L(g\bar f)|\leq\|L\|\|g\|_2\|f\|_2$.
+Riesz representation in $L^2$ therefore gives a unique $h$ with the
+specified identity. (b) The conjugate-linearity of $\bar f$ is canceled
+by the conjugate-linearity of the representing second vector, so $T$ is
+linear and $\|Tf\|_2\leq\|L\|\|f\|_2$. For $\phi\in L^\infty$,
+$L(g\overline{\phi f})=L((g\bar\phi)\bar f)
+=\int g\bar\phi\,\overline{Tf}$, hence $T(\phi f)=\phi Tf$.
+(c) Thus every $L^1$ functional produces an operator in the multiplier
+commutant. If every such operator were multiplication by a global
+$\psi\in L^\infty$ on an arbitrary measure space, the identity in (a),
+and the factorization $u=g\bar f$ of every $u\in L^1$ using its square
+root and phase, would give representation of every $L^1$ functional by
+$L^\infty$. The cited nonlocalizable measure examples show that this can
+fail. Theorem 6.6 must therefore retain its measure hypotheses; the
+commutant conclusion cannot be extended to all measure spaces merely by
+formal indicator manipulations.
+
+### §7. Von Neumann algebras
+
+#### Solution IX.7.1 — Direct sums and amplifications
+
+A SOT limit of block-diagonal operators is block diagonal, by testing on
+one summand and projecting onto another. Its diagonal entries are SOT
+limits in the corresponding von Neumann algebras, so remain in them.
+This proves (a); the common operator bound required for membership is
+already supplied by the bounded limit operator. For (b), the same tests
+preserve equality of all diagonal entries in an amplification, and those
+entries remain in the original SOT closed algebra. Both sets are unital
+*-algebras and thus von Neumann algebras.
+
+#### Solution IX.7.2 — Spatial isomorphisms preserve commutants
+
+For any $T$, $T$ commutes with every $a\in A_1$ exactly when $UTU^{-1}$
+commutes with every $UaU^{-1}\in A_2$, by multiplying the equations by
+$U$ and its inverse. This proves both inclusions of the asserted equality.
+
+#### Solution IX.7.3 — Multiplicity is a spatial invariant
+
+The multiplier algebra $A_\mu$ has abelian commutant equal to itself.
+Its double amplification has commutant consisting of $2\times2$ multiplier
+matrices, which is nonabelian on a nonzero space. A spatial isomorphism
+would identify these commutants by IX.7.2, a contradiction. Equivalently
+the first representation is cyclic and the second is not, by VIII.5.4.
+
+#### Solution IX.7.4 — A faithful separable representation
+
+Choose a countable dense sequence $x_n\in X$ and set
+$\tau(f)e_n=f(x_n)e_n$ on $\ell^2$. This is a *-homomorphism by coordinate
+calculation, and density gives $\|\tau(f)\|=\sup_n|f(x_n)|=\|f\|$,
+so it is injective. Its spectral measure is
+$E(\Delta)e_n=\chi_\Delta(x_n)e_n$. For empty $X$ use the zero space.
+
+#### Solution IX.7.5 — Four descriptions of a maximal abelian algebra
+
+(a) and (b) are equivalent by IX.6.6 and SOT closedness of commutants.
+For (b) to (c), take a maximal orthogonal family of cyclic reducing
+subspaces for $A$. Their projections lie in $A'=A$, so the countability
+hypothesis makes the family countable. Choose nonzero cyclic unit vectors
+$e_n$ and positive square-summable coefficients $c_n$.
+The vector $e=\sum c_ne_n$ is cyclic: projections onto the summands lie
+in $A$ and recover each $c_ne_n$ from $e$. Maximality fills all of $H$.
+For (c), the cyclic representation model identifies the algebra with
+continuous multipliers on a finite scalar spectral measure space; strong
+closure adds every bounded measurable multiplier by bounded simple
+approximation. This gives (d). Finally the multiplier algebra on a finite
+measure space equals its own commutant, since $T1=g$ and commutation
+with indicators forces $T\phi=\phi g$ and $g\in L^\infty$.
+Transporting this fact gives (b). This also supplies the details of the
+cyclic-model step used in (c).
+
+#### Solution IX.7.6 — Encoding countably many projections
+
+All $P_n$ commute, so work in their abelian C*-algebra. At each character
+$P_n$ has value 0 or 1 and $A$ has value
+$\sum_n3^{-n}(2P_n-1)$. Distinct sign sequences have distinct sums:
+the first differing digit contributes $2\cdot3^{-n}$, exceeding the
+maximum possible tail difference $3^{-n}$. The coordinate digits are
+continuous functions of the sum on this compact Cantor-type set.
+Thus $P_n$ is a continuous function of $A$ and belongs to $C^*(A)$.
+The reverse inclusion follows from norm convergence of the defining series.
+
+#### Solution IX.7.7 — One self-adjoint von Neumann generator
+
+On a separable Hilbert space, the unit ball is WOT metrizable and compact;
+its subsets are second countable. Choose a countable WOT dense family
+of projections in $A$ and encode them by IX.7.6 into a self-adjoint $B$.
+The von Neumann algebra generated by $B$ contains all these projections
+and, by WOT closedness, every projection in $A$.
+Every self-adjoint element of $A$ is a norm limit of finite linear
+combinations of its spectral projections, which belong to $A$ by strong
+functional calculus. Hence the generated algebra is all of $A$.
+
+#### Solution IX.7.8 — Totally disconnected spectra
+
+Characteristic functions continuous on $X$ are precisely its clopen
+projections. Their algebraic products are again such indicators, so
+C*-generation is the same as density of their linear span. VIII.2.3
+proves the equivalence. For $A$ in IX.7.6, the character values form a
+closed subset of the signed ternary Cantor set, so $\sigma(A)$ is totally
+disconnected. Equivalently its C*-algebra is generated by its digit
+projections and one can apply the first assertion.
+
+#### Solution IX.7.9 — Homomorphisms are composition maps
+
+For $y\in Y$, $\delta_y\circ\tau$ is a character of $C(X)$, so equals
+evaluation at a unique $\phi(y)\in X$. This gives the composition formula.
+All $u\circ\phi$ are continuous, and continuous functions determine the
+topology of compact Hausdorff $X$, so $\phi$ is continuous.
+The kernel consists of functions vanishing on compact $\phi(Y)$; it is
+zero exactly when $\phi(Y)=X$, and then the supremum norms are equal.
+If $\phi$ is not injective, all image functions agree on a pair of points,
+so $\tau$ is not onto. If injective, $\phi$ is a homeomorphism onto its
+closed image; Tietze extension extends any continuous function there
+to $X$, proving surjectivity.
+
+#### Solution IX.7.10 — Projection onto a product factor
+
+The image is exactly the continuous functions on $X\times Z$ constant
+on each fiber $\{x\}\times Z$. Necessity is the composition formula.
+For nonempty $Z$, evaluation at a fixed $z_0$ recovers the continuous
+function $u(x)=v(x,z_0)$, proving sufficiency. Empty factors give the
+corresponding zero-algebra case.
+
+#### Solution IX.7.11 — The quotient of the fibers
+
+The map $j:Y/{\sim}\to X$, $j([y])=\phi(y)$, is well defined, continuous,
+and injective; it is a homeomorphism onto compact $\phi(Y)$.
+Define $\rho(u)=u\circ j$. It is a *-homomorphism and is onto by Tietze
+extension from $\phi(Y)$. Then $q^*\rho(u)=u\circ j\circ q=u\circ\phi
+=\tau(u)$, proving commutativity and identifying the required injection.
+
+#### Solution IX.7.12 — A zero-dimensional compact space mapping onto X
+
+For nonempty compact metric $X$, recursively cover it by finitely many
+nonempty compact subsets of diameter at most $2^{-n}$, with the level
+$n+1$ sets inside their parents and covering them. Let $Y$ be the space
+of infinite admissible paths in this finite-branching tree. It is a
+closed subset of a countable product of finite discrete sets, hence
+compact, metrizable, and totally disconnected. A path determines nested
+nonempty compact sets of diameters tending to zero, whose intersection
+is a unique point. This defines a continuous map, since equal long
+prefixes give close images. The covering property supplies a path for
+each point of $X$, so it is surjective. For empty $X$ take $Y=\varnothing$.
+
+#### Solution IX.7.13 — A Cantor surjection
+
+For nonempty totally disconnected compact metric $Y$, choose successively
+refining finite clopen partitions of mesh tending to zero. Their path
+space is homeomorphic to $Y$ by the nested-cell argument. At each node
+with finitely many children, partition a Cantor cylinder into that many
+nonempty clopen Cantor sets, recursively. Every Cantor point thereby
+chooses a path; equal sufficiently long cylinder choices give images
+in a common small cell, proving continuity, and every path has a preimage
+by compactness. Thus the Cantor set maps onto $Y$.
+Compose with IX.7.12 to obtain the result for every **nonempty** compact
+metric space. The empty space is an exception to the literal assertion:
+there is no map from the nonempty Cantor set onto it.
+
+#### Solution IX.7.14 — Stonean character spaces
+
+A von Neumann algebra contains suprema of increasing bounded families
+of projections: their strong limits project onto the closed span of the
+ranges. In its abelian character representation let $U$ be open and
+let $p$ be the supremum of all clopen indicators supported in $U$.
+Clopen sets form a base by the projection approximation argument of
+IX.7.8 (spectral step functions span the algebra), so their union is $U$.
+The continuous projection $p=\chi_V$ has clopen $V\supseteq\overline U$.
+If $V\setminus\overline U$ were nonempty, a nonempty clopen subset there
+could be removed from $V$, still leaving an upper bound for all the
+original projections, contradicting leastness. Hence $V=\overline U$,
+which is open, as required.
+
+#### Solution IX.7.15 — Weak-star topology and WOT
+
+(a) Rank-one trace pairings are exactly matrix coefficients. Finite-rank
+operators are dense in trace norm; a uniform operator bound therefore
+extends convergence of coefficients to convergence against all trace
+class operators. This proves equality on bounded sets, for nets.
+(b) A unital C*-subalgebra is a von Neumann algebra exactly when it is
+WOT closed, which implies weak-star closed. Conversely weak-star
+closedness makes its unit ball WOT closed by (a); Kaplansky density
+(or its usual bicommutant unit-ball form) makes that ball contain the
+unit ball of the strong closure, proving equality. The unital hypothesis
+is needed for the convention that a von Neumann algebra contains $I$;
+a degenerate corner is otherwise a weak-star closed counterexample.
+(c) In a concrete abelian von Neumann algebra every normal positive
+functional is a vector functional. To see this, restrict to the support
+of its countably many vector summands, choose a maximal countable disjoint
+family of cyclic spectral supports, and combine their cyclic vectors
+as in IX.7.5. In the resulting finite-measure multiplier model a positive
+normal functional is integration against $g\in L^1_+$ and is the vector
+functional of $\sqrt g$. General normal functionals are combinations of
+four positive ones. Thus every restricted trace pairing is a finite sum
+of vector coefficients, WOT continuous; the reverse continuity is
+automatic. The topologies agree on the whole abelian algebra.
+(d) On $\ell^2$, let $T$ be an infinite-rank positive trace-class operator.
+The hyperplane $\{A:\operatorname{tr}(TA)=0\}$ is weak-star closed.
+If WOT closed, its defining functional would be WOT continuous and thus
+represented by a finite-rank operator by IX.1.4. Rank-one tests would
+force that operator to equal $T$, a contradiction.
+
+#### Solution IX.7.16 — The converse needs self-adjointness
+
+For a unital self-adjoint algebra, let $M=\overline{Ae_0}$. It reduces
+$A$, so its projection $P$ belongs to $A'$. If $e_0$ separates $A'$,
+then $(I-P)e_0=0$ forces $I-P=0$. Hence $e_0$ is cyclic.
+Without self-adjointness the converse is false: the upper triangular
+matrices on $\mathbb C^2$ have scalar commutant, so $e_1$ separates the
+commutant, but their orbit of $e_1$ is just $\mathbb Ce_1$.
+Thus the result is valid for the C*- and von Neumann algebras in use here,
+not for an arbitrary nonself-adjoint algebra.
+
+### §8. Scalar spectral measures
+
+#### Solution IX.8.1 — Atomic scalar measures
+
+For countably many distinct eigenvalues $\lambda_n$, take
+$\mu=\sum_n c_n\delta_{\lambda_n}$ with every $c_n>0$ and
+$\sum c_n<\infty$. A Borel set is $\mu$-null exactly when it contains
+no eigenvalue, equivalently its spectral projection is zero.
+Multiplicity does not change this null-set criterion. If there are
+uncountably many eigenvalues, no finite scalar measure can charge every
+singleton; such an operator has no finite scalar spectral measure.
+
+#### Solution IX.8.2 — A direct sum
+
+The measure $\mu_1+\mu_2$ works. Its null sets are exactly those null for
+both measures, which are exactly the sets on which both component
+spectral projections, and hence their direct sum, vanish.
+
+#### Solution IX.8.3 — A basis construction
+
+Each term is a finite positive scalar spectral measure, and the weighted
+sum is a finite measure of mass one. It vanishes on $\Delta$ exactly when
+$E(\Delta)e_n=0$ for every $n$, by positivity of all terms.
+A bounded operator vanishing on a basis is zero, so this is precisely
+$E(\Delta)=0$. Thus the null sets agree.
+
+#### Solution IX.8.4 — No finite scalar measure
+
+On $\ell^2([0,1])$ let $Ne_t=te_t$. Every singleton $\{t\}$ has a nonzero
+spectral projection. A scalar spectral measure would therefore assign
+positive mass to uncountably many singletons, impossible for a finite
+measure. This supplies the requested normal operator.
+
+#### Solution IX.8.5 — The norm of bounded measurable calculus
+
+The spectral norm identity gives $\|\phi(N)\|\leq\|\phi\|_{L^\infty(\mu)}$.
+If $c$ is smaller than the essential supremum, the set $\{|\phi|>c\}$
+has positive $\mu$ measure and hence nonzero spectral projection.
+A unit vector in its range has $\|\phi(N)h\|\geq c$.
+Let $c$ increase to the essential supremum to get equality.
+
+#### Solution IX.8.6 — Pushforward spectral measures
+
+Set $F(\Delta)=E(\phi^{-1}\Delta)$. Preimages preserve measure identities,
+so $F$ is a spectral measure. Simple-function integration gives
+$\int g\,dF=\int(g\circ\phi)dE$, then bounded approximation extends it
+to all bounded Borel $g$. At $g(z)=z$ this represents $\phi(N)$.
+Moreover $F(\Delta)=0$ exactly when $\mu(\phi^{-1}\Delta)=0$.
+Thus $\phi_*\mu$ is its scalar spectral measure.
+
+#### Solution IX.8.7 — Splitting a double cyclic model
+
+VIII.5.4 gives (a) iff (c). If the measures are singular, a Borel set
+supporting one and null for the other makes its spectral projection
+$I\oplus0$; functional calculus then gives independent bounded functions
+on both summands, proving (b). Conversely (b) includes $I\oplus0$,
+so there is a bounded Borel function equal to 1 $\mu$-almost everywhere
+and 0 $\nu$-almost everywhere. Its level sets separate the two measures,
+proving singularity.
+
+#### Solution IX.8.8 — Four ways to express spectral disjointness
+
+By bounded Borel calculus, (a) holds exactly when a spectral set separates
+the two summands, exactly (d), as in IX.8.7. Taking commutants makes
+(a) equivalent to (b). The off-diagonal blocks of the commutant are
+precisely intertwiners $MA=AN$ and the reverse ones; adjoints interchange
+them by Fuglede's theorem. Thus (b) and (c) are equivalent.
+For a direct verification of (d) to (c), spectral intertwining sends
+the separating projection equation to $A=0$. If the measures overlap,
+cyclic decompositions contain two pieces with a common nonzero measure
+part; multiplication by the Radon–Nikodym square roots gives a nonzero
+partial unitary intertwiner between those pieces, and extension by zero
+gives one on the full spaces.
+
+#### Solution IX.8.9 — Continuous splitting
+
+Continuous calculus identifies the image with
+$\{f(M)\oplus f(N):f\in C(\sigma(M)\cup\sigma(N))\}$.
+Disjoint compact spectra permit independent continuous definitions on
+both, so give equality. If they meet, the element $I\oplus0$ cannot be
+represented: its function would have to be simultaneously 1 and 0 on
+a common spectral point. Faithfulness of continuous calculus justifies
+those forced values.
+
+#### Solution IX.8.10 — Same spectrum, singular measures
+
+Let $M$ be multiplication by $t$ for Lebesgue measure on $[0,1]$, and
+let $N=N_\nu$ for $\nu=\sum2^{-n}\delta_{q_n}$ with $(q_n)$ dense in
+$[0,1]$. The measures are mutually singular and both have support
+$[0,1]$. IX.8.8 makes the von Neumann algebra split, whereas IX.8.9
+excludes splitting of the C*-algebra.
+
+#### Solution IX.8.11 — A bilateral-shift summand
+
+IX.3.7 identifies the bilateral shift's scalar measure with arc length.
+Apply IX.8.8 to it and $V$: splitting is exactly mutual singularity of
+the scalar spectral measure of $V$ with arc length. Multiplicities do
+not alter this criterion.
+
+#### Solution IX.8.12 — A real-measure model
+
+By IX.7.7 choose self-adjoint $A$ generating the given abelian von Neumann
+algebra. On a separable space it has a finite scalar spectral measure
+$\mu$, supported on compact $\sigma(A)\subset\mathbb R$, by IX.8.3.
+The isometric bounded Borel calculus identifies $L^\infty(\mu)$ with
+$W^*(A)$, giving the claimed *-isomorphism. This is an algebraic
+representation, not necessarily a multiplicity-one spatial representation.
+
+#### Solution IX.8.13 — The preadjoint of spectral calculus
+
+For trace class $T$, countable additivity follows from the trace pairing
+with strongly convergent bounded sums of projections. The variation
+bound is $\|\alpha(T)\|\leq\|T\|_1$: for finite partitions choose phases
+and test $T$ against the norm-one spectral step function.
+Spectral null sets give zero measure, so Radon–Nikodym identifies the
+result with $L^1(\mu)$. Integration yields
+$\langle\alpha(T),\phi\rangle=\operatorname{tr}(T\phi(N))$; hence
+$\alpha^*(\phi)=\phi(N)$, an isometry by IX.8.5.
+An adjoint bounded below implies the original map is onto: the bipolar
+argument and successive residual approximation in VII.1.9 apply with
+unit lower bound. Thus $\alpha$ is a surjective contraction.
+
+#### Solution IX.8.14 — Self-adjoint and positive lifts
+
+(a) Take $B=(A+A^*)/2$. Since $\pi(A)=\pi(A)^*$,
+$A-B=(A-A^*)/2$ is compact. (b) First replace $A$ by that self-adjoint
+lift $C$. Let $C_+=\max(C,0)$ and $C_-=\max(-C,0)$.
+Functional calculus commutes with the quotient, so
+$\pi(C_-)=\max(-\pi(A),0)=0$. Thus $C_-$ is compact and
+$B=C_+\geq0$ differs from $A$ by a compact operator.
+
+#### Solution IX.8.15 — A missing order hypothesis
+
+The assertion as printed is false without $A\leq B$.
+Take a nonzero finite-rank projection $P$ and set $A=P$, $B=-P$.
+Both quotient images are zero, so the stated essential inequalities hold.
+But $A\leq K\leq B$ would imply $P\leq-P$, contradicted by evaluation
+on a unit vector in $PH$. Thus no such $K$ exists, even without requiring
+compactness. The necessary extra hypothesis is $A\leq B$; the corrected
+interpolation theorem is substantially stronger than the printed
+assumptions. This counterexample resolves the exercise as actually stated
+rather than asserting an impossible interpolation.
+
+### §9. Reductive operators
+
+#### Solution IX.9.1 — Compact normal operators are reductive
+
+Their spectrum is countable with only possible accumulation at zero,
+so has planar area zero and connected complement. Corollary 9.6 applies
+and gives reductivity. Alternatively polynomial approximation to $\bar z$
+on this compact set makes $N^*$ a norm limit of polynomials in $N$,
+so every invariant subspace is invariant under $N^*$ as well.
+
+#### Solution IX.9.2 — Their invariant subspaces
+
+By IX.9.1 every invariant subspace reduces $N$, so its projection commutes
+with all singleton spectral projections. It decomposes as the orthogonal
+sum of its intersections with the eigenspaces, including the kernel.
+Conversely an arbitrary closed subspace within each eigenspace is
+invariant under the scalar restriction of $N$, and their orthogonal sum
+is invariant. These are all the possibilities.
+
+#### Solution IX.9.3 — A reductive compact operator is normal
+
+Let $K$ be compact and reductive. Choose a maximal chain $\mathcal N$
+of closed $K$-invariant subspaces, including $0,H$. By VI.4.9 this is
+also a maximal chain of closed subspaces. It is complete under closed
+unions and intersections, and every nonzero gap $M_+\ominus M_-$
+between consecutive members is one dimensional. Reductivity says that
+each chain projection commutes with $K$, hence with the compact
+self-adjoint operators $S=(K+K^*)/2$ and $T=(K-K^*)/(2i)$.
+
+We justify carefully what happens on the possible continuous part of
+the chain. If a finite-dimensional subspace $F$ reduces all chain
+projections, their restrictions form a finite nested family of projections
+on $F$, starting at $0$ and ending at $I_F$. For two consecutive distinct
+ranges $F_-\subset F_+$ in this family, let $M_-$ be the closed union
+of chain members whose restricted range is contained in $F_-$, and let
+$M_+$ be the intersection of the remaining members. Completeness puts
+both in the chain. Their restrictions still have ranges $F_-$ and
+$F_+$: finite-dimensional increasing or decreasing families stabilize.
+No member lies strictly between $M_-$ and $M_+$, by their definitions.
+Moreover $F_+\ominus F_-\subset M_+\ominus M_-$, since the projections
+preserve $F$. Maximality makes this nonzero gap one dimensional.
+Consequently $F$ is spanned by one-dimensional gaps of the original
+chain.
+
+Apply this observation to every nonzero eigenspace of $S$ and of $T$.
+Compactness makes these spaces finite dimensional, and commutation makes
+them reduce all chain projections. Let $H_a$ be the closed span of all
+one-dimensional gaps. The compact self-adjoint spectral theorem now
+implies $S=T=0$ on $H_a^\perp$, since all their nonzero eigenspaces lie
+in $H_a$. Each gap reduces $K$, which acts there by a scalar. Distinct
+gaps are orthogonal, so $K$ is an orthogonal sum of scalar operators
+on $H_a$ and the zero operator on its complement. It is therefore normal.
+This argument does not assume that the gaps alone exhaust $H$.
+
+#### Solution IX.9.4 — Equality of invariant-subspace lattices
+
+If $A$ is reductive, each $A$-invariant subspace is $A^*$-invariant.
+For the reverse inclusion let $M$ be $A^*$-invariant; then $M^\perp$ is
+$A$-invariant, hence reducing, so $M$ is $A$-invariant. Thus the lattices
+are equal. Conversely equality says every $A$-invariant subspace is
+invariant for its adjoint too, exactly reductivity.
+
+#### Solution IX.9.5 — A normal restriction must reduce
+
+Relative to $R\oplus R^\perp$, write
+$N=\begin{bmatrix}S&B\\0&C\end{bmatrix}$.
+Normality gives $S^*S=SS^*+BB^*$ from the upper-left block.
+If $S$ is normal this forces $BB^*=0$, hence $B=0$ and $R$ reduces $N$.
+Conversely a reducing restriction of a normal operator is normal by
+restricting $NN^*=N^*N$.
+
+#### Solution IX.9.6 — Analytic-polynomial closures
+
+Multiplication by $z$ takes polynomials to polynomials and is bounded,
+so $P^2(\mu)$ is invariant. If the restriction is normal, IX.9.5 makes
+this space reducing. It contains 1, whose *-polynomial orbit is dense
+in $L^2(\mu)$ by Stone–Weierstrass and regularity. Thus it must be the
+whole space. The converse follows by the normality of $N_\mu$.
+
+#### Solution IX.9.7 — A reducing space containing the polynomials
+
+Such a space contains 1 and is invariant under both multiplication by
+$z$ and by $\bar z$. It therefore contains all *-polynomials and their
+$L^2$ closure, which is all of $L^2(\mu)$. This proves the assertion
+without any assumption about density of analytic polynomials alone.
+
+### §10. Multiplicity theory
+
+#### Solution IX.10.1 — A unitary version of Cantor–Bernstein
+
+Let $u:H\to K$ and $v:K\to H$ be the isometric intertwiners onto the
+given reducing ranges. Set $H_0=H\ominus vK$ and
+$H_n=(vu)^nH_0$. These are mutually orthogonal reducing subspaces for $A$:
+$vu$ is an isometry intertwining $A,A^*$, and $H_0$ is orthogonal to
+its range. Put $L=\bigoplus_{n\geq0}H_n$.
+Map $L$ by $u$, and map $L^\perp\subset vK$ by $v^{-1}$.
+Their ranges are complementary: applying $v$ gives
+$vuL=L\ominus H_0$ and $L^\perp$, whose sum is $vK=H\ominus H_0$.
+The assembled map is a unitary $H\to K$ and intertwines the two
+operators on both reducing pieces, proving equivalence.
+
+#### Solution IX.10.2 — Absorption on infinite multiplicity support
+
+Use a scalar measure dominating all the $\mu_n$ and the scalar measure
+$\nu$ of $M$, and let $D_n$ be nested measurable supports of $\mu_n$.
+The multiplicity of the displayed direct sum at $z$ is
+$\#\{n:z\in D_n\}$. Since $\nu\ll\mu_n$ for every $n$, $\nu$ is
+concentrated on $\bigcap_nD_n$, where that multiplicity is infinite.
+The separability assumption of §10 makes the multiplicity of $M$ at most
+countably infinite. Adding it leaves the original multiplicity and
+measure class unchanged. The uniqueness part of Theorem 10.16 gives
+the claimed equivalence. The bounded common-support hypothesis is
+implicit in speaking of the displayed bounded normal direct sum.
+
+#### Solution IX.10.3 — Powers on the unit interval
+
+The map $t\mapsto t^p$ is an almost-everywhere bijection of $[0,1]$ and
+pushes Lebesgue measure to the measure with density
+$p^{-1}s^{1/p-1}$ on $(0,1)$, equivalent to Lebesgue measure.
+Changing variables gives a multiplicity-one multiplication model with
+that measure. Multiplication by the square root of its density implements
+a unitary to the Lebesgue model, proving the equivalence for every $p>0$.
+
+#### Solution IX.10.4 — Which measurable functions give the same operator?
+
+The necessary and sufficient conditions are: the pushforward
+$\phi_*\mu$ is equivalent to Lebesgue measure on $[0,1]$, and
+$\sigma(\phi)$ generates the whole Lebesgue measurable sigma-algebra
+modulo null sets. The first is equality of scalar spectral measure
+classes; the second is multiplicity one, equivalently that bounded
+functions of $\phi$ are dense in $L^2(\mu)$.
+Indeed that density makes the constant 1 cyclic and the change-of-variable
+map onto the scalar model. Conversely an operator equivalent to $N_\mu$
+has multiplicity one; its multiplication commutant is maximal abelian,
+forcing every measurable multiplier to be a function of $\phi$.
+On this standard probability space one can equivalently require that
+$\phi$ be essentially one-to-one, with inverse measurable on a conull set,
+together with the pushforward measure-class condition.
+
+#### Solution IX.10.5 — Squaring on the disk doubles multiplicity
+
+Apart from a null cut and zero, $z\mapsto z^2$ has two injective branches
+on two half-disks. Each pushforward is equivalent to area measure on the
+disk, with density proportional to $1/|w|$, positive almost everywhere
+and locally integrable. Thus $N_\mu^2$ has multiplicity two almost
+everywhere, while $N_\mu$ has multiplicity one. Uniqueness in the
+multiplicity theorem excludes unitary equivalence.
+
+#### Solution IX.10.6 — Even and odd powers
+
+The positive and negative halves of $[-1,1]$ give two injective branches
+of the square map; each pushes measure to an equivalent measure on
+$[0,1]$, so $N_\nu^2\cong N_\mu\oplus N_\mu$.
+The cube map is injective on the whole interval and its pushforward has
+density $(1/3)|s|^{-2/3}$ on $[-1,1]$, equivalent to $\nu$.
+Thus $N_\nu^3\cong N_\nu$ with multiplicity one; its spectrum remains
+$[-1,1]$ rather than $[0,1]$.
+
+#### Solution IX.10.7 — Multiplication by sine
+
+Partition the real line into countably many half-period intervals on
+which sine is one-to-one. Each pushforward is the arcsine measure
+$d\eta(t)=(1-t^2)^{-1/2}dt$ on $(-1,1)$, with endpoints null.
+Thus $N\cong N_\eta^{(\infty)}$.
+In Theorem 10.1 take every $\mu_n=\eta$ (a harmless normalization may
+make it a probability). In Theorem 10.16 only $\mu_\infty=\eta$ is
+nonzero. Its scalar class is equivalently Lebesgue measure on $[-1,1]$,
+and multiplicity is infinite almost everywhere.
+
+#### Solution IX.10.8 — Multiplication by the exponential
+
+Split $\mathbb R$ into $[2\pi n,2\pi(n+1))$. Exponentiation is a
+measure-class bijection from each interval to the circle and pushes
+Lebesgue measure to arc length. Orthogonally summing the resulting
+$L^2$ identifications gives countably infinite copies of $N_m$, proving
+the assertion.
+
+#### Solution IX.10.9 — Translation by minus one
+
+Translation preserves the Lebesgue integral and has inverse translation
+by plus one, so is unitary. Under the Fourier transform convention of
+IX.2.16 it becomes multiplication by $e^{-i\xi}$.
+Splitting frequency space into intervals of length $2\pi$ gives scalar
+spectral measure class arc length on the circle and multiplicity
+$\infty$ almost everywhere, as in IX.10.8.
+
+#### Solution IX.10.10 — Amplification of multiplicity data
+
+If the nested measure model is $(\mu_1,\mu_2,\ldots)$, the model for
+$N^{(k)}$ repeats each $\mu_n$ exactly $k$ times; it remains nested.
+Equivalently its multiplicity function is $k m_N(z)$.
+For countably infinite amplification it is $\infty$ wherever $m_N(z)>0$,
+so $N^{(\infty)}\cong N_{\mu_1}^{(\infty)}$: all original finite
+multiplicities disappear, but the scalar spectral measure class remains.
+
+#### Solution IX.10.11 — Recovering the earlier diagonal theory
+
+For a diagonal normal operator, the scalar measure class is the atomic
+class on its distinct eigenvalues, and the multiplicity at $\lambda$
+is exactly $\dim\ker(N-\lambda)$. Thus the unitary equivalence theorem
+of §II.8 is precisely equality of eigenvalues and their multiplicities,
+as proved directly in IX.3.6. Functional calculus multiplies each
+corresponding block by the scalar function value, commutants allow
+arbitrary operators within equal-eigenvalue blocks, and bicommutants
+are scalar on each block, as in IX.6.9. The fourteen exercises in §II.8
+already have individual detailed responses under
+[Chapter II Exercise Solutions](chapter-02.md#exercise-solutions);
+those proofs remain applicable, with the spectral-measure block
+interpretation just established providing the requested multiplicity
+perspective rather than duplicating their text.
+
+#### Solution IX.10.12 — Operators equal to their double
+
+Multiplicity uniqueness gives $N\cong N^{(2)}$ exactly when
+$m(z)=2m(z)$ almost everywhere in its scalar spectral measure class.
+For values in $\{1,2,\ldots,\infty\}$ this is exactly $m(z)=\infty$
+almost everywhere. In that case let $M=N_\mu$ for a scalar spectral
+measure $\mu$; it is star-cyclic and $N\cong M^{(\infty)}$.
+The converse is the reindexing of two countably infinite copies into one.
+The zero-space case is interpreted separately or with the zero measure.
+
+#### Solution IX.10.13 — Multiplicity of a measurable multiplier
+
+Choose an orthogonal cyclic reducing decomposition for $M_\phi$ using
+separability, with cyclic vectors $h_j$. Its scalar component measures
+are $\nu_j(\Delta)=\int_{\phi^{-1}\Delta}|h_j|^2d\mu$.
+Each component is $N_{\nu_j}$ by the cyclic model. Let
+$\nu=\sum_jc_j\nu_j$ with positive coefficients making it finite and
+let $D_j=\{d\nu_j/d\nu>0\}$. The multiplicity is
+$m(z)=\sum_j\chi_{D_j}(z)$, independent almost everywhere of the choices.
+Theorem 10.1's nested measures can be chosen as
+$\nu|_{\{m\geq n\}}$, and Theorem 10.16's disjoint measures are
+$\nu|_{\{m=n\}}$ and $\nu|_{\{m=\infty\}}$.
+These formulas handle general measurable fibers without trying to count
+points in a fiber, which need not describe its Hilbert multiplicity.
+
+#### Solution IX.10.14 — Correct branch pushforwards
+
+There is a defect in the printed definition: pushing all of $\mu$
+through $\phi\chi_{\Delta_n}$ adds a spurious atom at zero from the
+complement of $\Delta_n$. The correct measures are
+$\nu_n=\phi_*(\mu|_{\Delta_n})$.
+For example $\mu=\delta_1+\delta_2$, $\phi(z)=z$, and the two singleton
+branches give printed measures $\delta_1+\delta_0$ and
+$\delta_2+\delta_0$, producing a four-dimensional space instead of the
+original two-dimensional one.
+With the corrected measures, the map
+$U_n:L^2(\nu_n)\to L^2(\mu|_{\Delta_n})$, $U_ng=g\circ\phi$,
+is isometric by pushforward integration and is onto because an injective
+Borel map on a Borel subset of $\mathbb C$ has Borel inverse on its image.
+It intertwines coordinate multiplication and $M_\phi$ on the branch.
+The branches are disjoint and cover modulo null sets, so their orthogonal
+sum proves the corrected decomposition.
+<!-- END SOLUTIONS IX -->

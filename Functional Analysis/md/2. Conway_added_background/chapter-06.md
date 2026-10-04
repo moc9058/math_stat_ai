@@ -870,3 +870,622 @@ The preceding result can be used to prove several standard results from antiquit
 
 6. Let $\mathcal Y$ be a weakly sequentially complete Banach space. That is, if $\{y_n\}$ is a sequence in $\mathcal Y$ such that $\{\langle y_n,y^*\rangle\}$ is a Cauchy sequence in $\mathbb F$ for every $y^*$ in $\mathcal Y^*$, then there is a $y$ in $\mathcal Y$ such that $y_n\to y$ weakly [see (V.4.4)]. (a) If $T\in\mathcal B(\mathcal X,\mathcal Y)$ and $x^{**}\in\mathcal X^{**}$ such that $x^{**}$ is the $\sigma(\mathcal X^{**},\mathcal X^*)$ limit of a sequence $\{x_n^{**}\}$ from $\mathcal X^{**}$ such that $T^{**}(x_n^{**})\in\mathcal Y$ for every $n$, show that $T^{**}(x^{**})\in\mathcal Y$. Let $X$ be a compact space and put $\mathcal F=$ all subsets of $X$ that are the union of a countable number of compact $G_\delta$ sets. Let $\mathcal L=$ the linear span of $\{\chi_F:F\in\mathcal F\}$ considered as a subset of $M(X)^*=C(X)^{**}$. (b) Show that if $T\in\mathcal B(C(X),\mathcal Y)$, then $T^{**}(\mathcal L)\subseteq\mathcal Y$. (c) (Grothendieck [1953].) If $T\in\mathcal B(C(X),\mathcal Y)$, then $T$ is weakly compact. [Hint (Spain [1976]): Use James’s Theorem V.13.3).]
 
+<!-- BEGIN SOLUTIONS VI -->
+
+## Exercise Solutions
+
+These added solutions use the Banach-space adjoint: the dual pairing is
+bilinear, so transposed matrices and kernels have no complex conjugates.
+All subspaces in invariant-subspace lattices are closed. An operator is
+compact when it sends the closed unit ball to a relatively norm-compact set.
+
+### §1. Adjoints
+
+#### Solution VI.1.1 — Linearity and weak-star continuity
+
+For $f\in Y^*$ and $x\in X$,
+$((\alpha A+\beta B)^*f)(x)=f(\alpha Ax+\beta Bx)
+=\alpha(A^*f)(x)+\beta(B^*f)(x)$.
+If $f_i\to f$ weak-star, then $(A^*f_i)(x)=f_i(Ax)\to f(Ax)$ for every
+$x$, which is exactly weak-star convergence in $X^*$. This proves the
+claimed continuity for nets, not just for sequences.
+
+#### Solution VI.1.2 — Composition, inverse, and norm
+
+Evaluation gives $((BA)^*f)(x)=f(BAx)=(A^*B^*f)(x)$, proving (d).
+If $A$ is invertible, apply this to $A^{-1}A$ and $AA^{-1}$ to see that
+$(A^{-1})^*$ is a two-sided inverse of $A^*$, proving (c).
+For completeness, $A^{**}J_X=J_YA$ follows by testing on $Y^*$, and
+$$\|A^*\|=\sup_{\|f\|\leq1,\|x\|\leq1}|f(Ax)|=\|A\|$$
+by Hahn–Banach. These verify (a) and (b) as well.
+
+#### Solution VI.1.3 — The multiplication adjoint
+
+Under the bilinear representation $g(f)=\int fg\,d\mu$,
+$\int(M_\phi f)g=\int f(\phi g)$. Since $\phi g\in L^q$ and
+$\|\phi g\|_q\leq\|\phi\|_\infty\|g\|_q$, the representing dual vector
+is $M_\phi g$. This includes $p=1,q=\infty$ under the chapter's
+sigma-finite duality hypotheses.
+
+#### Solution VI.1.4 — The transposed integral kernel
+
+The row and column bounds in the cited example also bound the positive
+kernel operator with kernel $|k|$. Thus for $f\in L^p,g\in L^q$,
+$\iint|k(x,y)f(y)g(x)|\,d\mu(y)d\mu(x)<\infty$ by Hölder and that
+operator bound. Fubini gives
+$$\int(Kf)(x)g(x)\,d\mu(x)
+=\int f(y)\left(\int k(x,y)g(x)\,d\mu(x)\right)d\mu(y).$$
+The bracket is $K^*g(y)$, so its kernel is $k^*(y,x)=k(x,y)$.
+The integrability verification is what permits the interchange.
+
+#### Solution VI.1.5 — Pushforward of measures
+
+For a continuous $\tau:Y\to X$, define $\nu(\Delta)=\mu(\tau^{-1}\Delta)$.
+It is a finite regular measure on compact Hausdorff $X$: inner regularity
+follows by mapping compact subsets of $\tau^{-1}\Delta$ to compact subsets
+of $\Delta$, and outer regularity follows by complements for positive
+finite measures and then total variation for signed or complex measures.
+The pushforward identity, first for indicators, then simple functions,
+then bounded measurable functions, gives
+$\int_X f\,d\nu=\int_Y f\circ\tau\,d\mu$.
+By the definition of the adjoint and uniqueness in Riesz representation,
+$A^*\mu=\nu$.
+
+#### Solution VI.1.6 — The shift adjoint
+
+For $a\in\ell^p$ and $b\in\ell^q$,
+$\sum_{j\geq1}(Sa)_jb_j=\sum_{j\geq1}a_jb_{j+1}$, with absolute
+convergence by Hölder (also for $p=1,q=\infty$). Hence
+$S^*(b_1,b_2,\ldots)=(b_2,b_3,\ldots)$, the backward shift.
+
+#### Solution VI.1.7 — Matrices on c0
+
+The $m$th row represents the functional $x\mapsto(Ax)(m)$ on $c_0$,
+so its $\ell^1$ norm is at most $\|A\|$. Each column is $Ae_n\in c_0$,
+proving (a) and (b). Conversely a matrix with these properties sends a
+finitely supported vector to $c_0$, has supremum norm bound
+$\|Ax\|_\infty\leq M\|x\|_\infty$, and therefore extends by density to
+$c_0$. Its coordinate series converge absolutely and give the displayed
+formula. Finite vectors with phases matching any finite row segment show
+$\|A\|\geq\sum_{n\leq N}|\alpha_{mn}|$; take the two suprema to obtain
+equality. The adjoint on $\ell^1$ is
+$$(A^*b)(n)=\sum_m\alpha_{mn}b(m).$$
+Indeed the double series has absolute sum at most $M\|b\|_1\|x\|_\infty$,
+justifying rearrangement in the pairing; also
+$\|A^*b\|_1\leq M\|b\|_1$.
+
+#### Solution VI.1.8 — Matrices on ell-1
+
+Each column is $Ae_n$, so its absolute sum is at most $\|A\|$. This also
+implies (b), which is redundant once (a) holds. Conversely
+$Ax=\sum_nx(n)(\alpha_{mn})_m$ converges absolutely in $\ell^1$ and
+$\|Ax\|_1\leq M\|x\|_1$. Testing $e_n$ gives $\|A\|=M$.
+For $b\in\ell^\infty$,
+$$(A^*b)(n)=\sum_m\alpha_{mn}b(m),\qquad
+\|A^*b\|_\infty\leq M\|b\|_\infty.$$
+The absolute double-sum bound $M\|x\|_1\|b\|_\infty$ proves the adjoint
+identity. No conjugation occurs with this pairing.
+
+#### Solution VI.1.9 — Absolutely summable representations
+
+In (ii), the test vector must be $x^*\in X^*$, not $X$ as transcribed.
+Define $T:\ell^1(Z)\to X$ by the absolutely convergent sum in the hint.
+Then $\|T\|\leq M_1$ and $\|T^*x^*\|_\infty\geq M_2\|x^*\|$.
+The bipolar/separation theorem gives
+$M_2B_X\subseteq\overline{T(B_{\ell^1})}$: otherwise a separating
+functional contradicts the last inequality. For any $0<r<M_2$ and
+$0<\theta<1$, approximate $x$ by $Tf_1$ with
+$\|f_1\|_1\leq\|x\|/r$ and residual at most $\theta\|x\|$.
+Repeat on the residuals. The series $f=\sum f_j$ converges in $\ell^1(Z)$,
+$Tf=x$, and $\|f\|_1\leq\|x\|/[r(1-\theta)]$.
+Let $r\uparrow M_2$ and $\theta\downarrow0$ to get
+$\inf_{Tf=x}\|f\|_1\leq\|x\|/M_2$.
+The other inequality is $\|x\|\leq M_1\|f\|_1$ for every representation.
+Every $\ell^1(Z)$ vector has countable support, so the sums are ordinary
+absolutely convergent series even when $Z$ is uncountable.
+
+#### Solution VI.1.10 — Poisson kernels span L1 by summable series
+
+Use VI.1.9 with $u(z)=p_z$, $M_1=M_2=1$. The Poisson kernels are positive
+and have integral one. For $g\in L^\infty$, let
+$g_r(e^{it})=\int p_{re^{it}}(w)g(w)\,dm(w)$. Then
+$\|g_r\|_\infty\leq\|g\|_\infty$, and $g_r\to g$ in $L^1$ as $r\uparrow1$.
+For clarity, the latter approximate-identity fact follows from continuity
+of translations in $L^1$, integral one, and
+$\sup_{|t|\geq\delta}P_r(t)\to0$: split the convolution error into
+$|t|<\delta$ and its complement. Translation continuity follows first for
+continuous functions by uniform continuity and then by their $L^1$ density.
+If $\sup_{z}|\int p_zg|=c$, all $g_r$ are bounded by $c$; an almost-everywhere
+convergent subsequence of the $L^1$ convergence gives $|g|\leq c$ almost
+everywhere. Hence $c=\|g\|_\infty$, verifying (ii).
+VI.1.9 now supplies the countable representation and the equality of the
+infimum with $\|f\|_1$. The series converges in $L^1$, not necessarily
+pointwise everywhere.
+
+#### Solution VI.1.11 — Which operators are adjoints?
+
+An adjoint is weak-star continuous by VI.1.1. Conversely, if $B$ is
+weak-star continuous, then for fixed $x\in X$ the functional
+$f\mapsto(Bf)(x)$ on $Y^*$ is weak-star continuous. V.1.3 gives a unique
+$Ax\in Y$ with $f(Ax)=(Bf)(x)$. Uniqueness proves linearity of $A$, and
+$$\|Ax\|=\sup_{\|f\|\leq1}|(Bf)(x)|\leq\|B\|\|x\|.$$
+Thus $A$ is bounded and the defining identity gives $A^*=B$.
+
+#### Solution VI.1.12 — Closed sums and the diagonal quotient map
+
+Let $D:X\to X/M\oplus X/N$ be $Dx=(x+M,x+N)$.
+If $M+N$ is closed, $D(X)$ is the kernel of the continuous map
+$(u+M,v+N)\mapsto u-v+(M+N)$, so is closed.
+Conversely, if $s_k=m_k+n_k\to s$, then
+$D(m_k)=(0,s_k+N)\to(0,s+N)$. Closedness of $D(X)$ gives $x\in M$ with
+$x+N=s+N$, proving $s\in M+N$. This proves (a) iff (b).
+The adjoint has range $M^\perp+N^\perp$, since
+$D^*(f,g)=f+g$ under the quotient-dual identifications.
+The closed range theorem for $D$ makes (b), (c), and (d) equivalent.
+
+### §3. Compact operators
+
+#### Solution VI.3.1 — Closed image of a reflexive ball
+
+The ball $B_X$ is weakly compact, and every bounded linear operator is
+weak-to-weak continuous because $f(Ax)=(A^*f)(x)$. Thus $A(B_X)$ is weakly
+compact and hence weakly closed in $Y$. Since norm convergence implies
+weak convergence, it is also norm closed. Compactness of $A$ is not needed.
+
+#### Solution VI.3.2 — The compact-operator ideal
+
+(a) The image of a ball under a sum is contained in the sum of two
+relatively compact sets; scalar multiples preserve relative compactness.
+If $K_n\to K$ in operator norm, approximate $K(B_X)$ within
+$\varepsilon/2$ by $K_n(B_X)$ and cover the latter by finitely many
+$\varepsilon/2$-balls. Thus $K(B_X)$ is totally bounded; completeness of
+$Y$ makes its closure compact. (b) A continuous $A$ sends the compact
+closure of $K(B_X)$ to a compact set, so $AK$ is compact.
+(c) $A(B_Z)\subseteq\|A\|B_X$, whose image under $K$ is relatively
+compact; hence $KA$ is compact.
+
+#### Solution VI.3.3 — Separable closed range
+
+The compact metric space $C=\overline{A(B_X)}$ has a countable dense set,
+obtained by taking finite $1/n$-nets. Since $A(X)=\bigcup_{n\geq1}nA(B_X)$,
+it is contained in the closed linear span of this countable set. Conversely
+$C\subseteq\overline{\operatorname{ran}A}$, so that closed span equals the
+closed range. Rational linear combinations give a countable dense subset.
+
+#### Solution VI.3.4 — A compact operator with closed range
+
+Regard $A$ as a surjection onto the Banach space $R=\operatorname{ran}A$.
+The open mapping theorem gives $c>0$ with $B_R\subseteq A(cB_X)$ (increase
+$c$ to avoid issues about attainment of an infimum). Its right-hand side
+has compact closure, so the closed ball $B_R$ is compact. By Riesz's lemma
+an infinite-dimensional normed space has a sequence of unit vectors with
+pairwise distances greater than $1/2$; its ball cannot be compact.
+Therefore $R$ is finite dimensional.
+
+#### Solution VI.3.5 — An invertible compact operator
+
+If $A$ is invertible and compact, $I=A^{-1}A$ is compact by VI.3.2.
+Its image of the unit ball is the unit ball itself. The Riesz-lemma
+argument in VI.3.4 forces $\dim X<\infty$.
+
+#### Solution VI.3.6 — Uniformly bounded rows of an integral kernel
+
+Let $C^q=\sup_x\int|k(x,y)|^q\,d\mu(y)$. Hölder gives
+$|Kf(x)|\leq C\|f\|_p$, hence $\|Kf\|_p\leq C\mu(X)^{1/p}\|f\|_p$.
+For a bounded sequence in reflexive $L^p$, take a weakly convergent
+subsequence $f_n\rightharpoonup f$. Each row $k(x,\cdot)\in L^q$ tests
+this convergence, so $Kf_n(x)\to Kf(x)$. The uniform bound on
+$|K(f_n-f)(x)|^p$ is an integrable constant because $\mu(X)<\infty$.
+Dominated convergence gives norm convergence, proving compactness.
+
+#### Solution VI.3.7 — A mixed-norm bound
+
+First consider a sigma-finite measure space. Minkowski and Hölder give
+$$\|Kf\|_p\leq\int\|k(\cdot,y)\|_p|f(y)|\,d\mu(y)
+\leq M\|f\|_p.$$
+For a bounded weakly null sequence $g_n\in L^q$, define
+$Hg_n(y)=\int k(x,y)g_n(x)\,d\mu(x)$. For almost every $y$ its value tends
+to zero by weak convergence, and
+$|Hg_n(y)|^q\leq C^q\|k(\cdot,y)\|_p^q$, an integrable majorant.
+Thus $Hg_n\to0$ in $L^q$ by dominated convergence. Reflexivity gives
+compactness of $H$. Fubini, justified by the mixed-norm bound, identifies
+$H=K^*$, and Schauder's theorem makes $K$ compact.
+
+For an arbitrary measure space, the same Minkowski and Hölder estimate
+first gives the displayed bound. Given a bounded sequence $f_n$, choose
+a sigma-finite measurable set $E$ supporting all $f_n$, and a sigma-finite
+measurable set $F$ supporting all $Kf_n$. Such supports exist for every
+$L^p$ vector with $p<\infty$: the sets where its modulus is at least $1/j$
+have finite measure, and a countable union also handles the whole sequence.
+Restrict the kernel to $F\times E$. The preceding proof works unchanged
+between $L^p(E)$ and $L^p(F)$, with mixed-norm bound at most $M$, so this
+restricted operator is compact. Its values at $f_n$ are exactly $Kf_n$
+restricted to $F$, and extension by zero preserves their norms. Hence the
+original image sequence has a norm-convergent subsequence. This proves
+compactness without a global sigma-finiteness hypothesis.
+
+#### Solution VI.3.8 — An operator taking values in continuous functions
+
+Under the usual convention that the positive Borel measure on compact
+$X$ is finite, let $f_n\rightharpoonup f$ be a subsequence of any bounded
+sequence in $L^p$. Evaluation at $x$ composed with $T$ is a bounded linear
+functional, so $Tf_n(x)\to Tf(x)$ for every $x$. Also
+$\|Tf_n-Tf\|_\infty$ is uniformly bounded. Dominated convergence with the
+finite measure gives $\|Af_n-Af\|_p\to0$. Hence $A$ is compact.
+Finiteness, or a substitute integrable domination hypothesis, matters:
+for an unrestricted infinite Borel measure even the displayed definition
+need not map into $L^p$. On a compact interval with infinite measure,
+a nonzero bounded functional $\ell$ on $L^p$ defines
+$Tf=\ell(f)1\in C(X)$, but this constant need not belong to $L^p$.
+
+#### Solution VI.3.9 — Compactness forced by ell-1
+
+A bounded sequence in reflexive $X$ has a weakly convergent subsequence.
+Its $T$-images converge weakly in $\ell^1$ and therefore in norm by Schur's
+theorem V.5.5. Thus $T:X\to\ell^1$ is compact.
+For $T:c_0\to Y$ with $Y$ reflexive, $T^*:Y^*\to\ell^1$ has reflexive
+domain and is compact by the first assertion. Schauder's theorem, which
+identifies compactness of an operator and its adjoint, gives compactness
+of $T$.
+
+#### Solution VI.3.10 — A finite-sum kernel
+
+Write $Kf=\sum_{j=1}^n f_j\ell_j(f)$, where
+$\ell_j(f)=\int g_jf\,d\mu$ and
+$|\ell_j(f)|\leq\|g_j\|_\infty|\mu|(X)\|f\|_\infty$.
+This is bounded and has range in $\operatorname{span}\{f_1,\ldots,f_n\}$,
+so has finite rank. The same proof covers signed and complex regular
+measures of finite variation.
+
+#### Solution VI.3.11 — A continuous kernel
+
+By V.8.6, approximate $k$ uniformly by finite sums
+$k_n(x,y)=\sum_j a_{nj}(x)b_{nj}(y)$. Their operators have finite rank by
+VI.3.10, and
+$\|K-K_n\|\leq|\mu|(X)\|k-k_n\|_\infty\to0$.
+This also proves $Kf$ is continuous, as a uniform limit of continuous
+$K_nf$. The norm-closedness of compact operators gives compactness.
+
+#### Solution VI.3.12 — Compact multiplication operators
+
+For every $\varepsilon>0$, the necessary and sufficient condition is that
+$E_\varepsilon=\{|\phi|\geq\varepsilon\}$ consist, modulo null sets, of
+finitely many atoms. Equivalently $L^p(E_\varepsilon)$ is finite dimensional.
+Indeed on this subspace $\|M_\phi f\|_p\geq\varepsilon\|f\|_p$, including
+$p=\infty$. Compactness would make its unit ball relatively compact via
+the bounded inverse multiplier $1/\phi$, forcing finite dimension.
+The atom characterization follows by constructing infinitely many
+disjoint positive sets if the space is not a union of finitely many atoms;
+their normalized indicators are separated unit vectors.
+Conversely, $M_{\phi\chi_{E_\varepsilon}}$ has finite-dimensional range
+and differs from $M_\phi$ by norm at most $\varepsilon$.
+Thus $M_\phi$ is compact. This includes $\phi=0$ on all nonatomic parts
+and atomic values tending to zero whenever infinitely many atoms occur.
+
+#### Solution VI.3.13 — Composition on an interval
+
+The necessary and sufficient condition is that $\tau$ be constant.
+If constant, $Af=f(\tau(0))1$ has rank one. If not, its image is a
+nondegenerate compact interval $J$. Restriction $C[0,1]\to C(J)$ maps
+the unit ball onto the unit ball: extend a function constantly beyond
+the endpoints of $J$. Composition $C(J)\to C[0,1]$ is an isometry since
+$\tau$ maps onto $J$. Compactness of $A$ would make $B_{C(J)}$ compact,
+contradicting infinite dimensionality. Thus no nonconstant $\tau$ works.
+
+#### Solution VI.3.14 — Compact matrices on c0
+
+The condition is
+$$\lim_{N\to\infty}\sup_{m>N}\sum_n|\alpha_{mn}|=0.$$
+Let $P_N$ truncate the output to its first $N$ coordinates. The matrix
+norm formula gives $\|(I-P_N)A\|=\sup_{m>N}\sum_n|\alpha_{mn}|$.
+If it tends to zero, $P_NA$ are finite-rank norm approximants.
+If $A$ is compact, $P_N\to I$ pointwise and $\|P_N\|\leq1$; convergence
+is uniform on $\overline{A(B)}$ by a finite-net argument. Hence the same
+norm tends to zero, proving necessity.
+
+#### Solution VI.3.15 — Compact matrices on ell-1
+
+The condition is
+$$\lim_{N\to\infty}\sup_n\sum_{m>N}|\alpha_{mn}|=0.$$
+Indeed the expression equals $\|(I-P_N)A\|$ by VI.1.8. Compactness gives
+uniform convergence of $P_N$ on the compact image closure, and the
+converse follows from the finite-rank approximation $P_NA\to A$.
+The given column norm bound is already part of boundedness of $A$.
+
+#### Solution VI.3.16 — Uniform equicontinuity
+
+Uniform equicontinuity implies the pointwise definition immediately.
+Conversely for each $x$ choose $r_x>0$ so that
+$|f(z)-f(x)|<\varepsilon/2$ whenever $d(z,x)<2r_x$, for every $f$.
+Select a finite subcover from the balls $B(x,r_x)$ and let
+$\delta$ be the minimum of their radii. If $d(y,z)<\delta$, choose a
+selected ball containing $y$; both $y,z$ are in its doubled ball, and
+the triangle inequality gives $|f(y)-f(z)|<\varepsilon$ uniformly in $f$.
+
+#### Solution VI.3.17 — Arzelà–Ascoli at infinity
+
+A finite uniform $\varepsilon$-net in $\mathcal F$ gives boundedness,
+equicontinuity by controlling its finitely many continuous centers, and
+uniform vanishing at infinity by taking the union of their finitely many
+compact level sets. Thus total boundedness implies (a)–(c).
+Conversely extend each function by zero to the one-point compactification
+$X_\infty$. Condition (c) is precisely equicontinuity at infinity; (b)
+gives equicontinuity elsewhere, and (a) gives a common bound.
+Arzelà–Ascoli on compact $X_\infty$ makes the extended family relatively
+compact in the supremum norm. Restriction is isometric, so $\mathcal F$
+is totally bounded. If $X$ is already compact, the ordinary theorem applies.
+
+#### Solution VI.3.18 — Finite-rank approximation on C0
+
+The compact image closure $K=\overline{A(B)}$ satisfies VI.3.17.
+For $\varepsilon>0$, choose a compact set outside which every $g\in K$
+has modulus below $\varepsilon$. Cover it by finitely many relatively
+compact open sets $U_j$ with $|g(x)-g(x_j)|<\varepsilon$ on $U_j$ for
+all $g\in K$. Add the outside open set on which all $g$ are small.
+A partition of unity on $X_\infty$ subordinate to this finite cover gives
+compactly supported $\phi_j$ for the $U_j$; use zero as the sample value
+on the outside set. Define $Pg=\sum_jg(x_j)\phi_j$.
+Then $P$ has finite rank, $\|P\|\leq1$, and
+$\sup_{g\in K}\|Pg-g\|\leq\varepsilon$. Thus $PA$ is a finite-rank
+approximant to $A$. Choose $\varepsilon=1/n$ for the desired sequence.
+
+#### Solution VI.3.19 — Strong approximation becomes uniform on compact sets
+
+Put $C=\sup_i\|F_i\|$. Given a finite $\delta$-net $y_1,\ldots,y_m$ for
+$\overline{A(B)}$, choose one index after which
+$\|F_iy_j-y_j\|<\varepsilon/2$ for all $j$. For $y$ within $\delta$ of
+$y_j$, the error is at most $(C+1)\delta+\varepsilon/2$.
+Taking $\delta<\varepsilon/[2(C+1)]$ gives $\|F_iA-A\|<\varepsilon$.
+For each $n$, choose an index with this norm below $1/n$ and call the
+corresponding finite-rank product $A_n$. No countable cofinal subnet is
+required to make these choices.
+
+#### Solution VI.3.20 — Finite-rank approximation on Lp, including Linfinity
+
+For $p<\infty$, use finite disjoint measurable sets $E_j$ of positive
+finite measure and the contraction
+$$Ff=\sum_j\left(\frac1{\mu(E_j)}\int_{E_j}f\,d\mu\right)\chi_{E_j}.$$
+Hölder proves $\|F\|\leq1$. Order these finite partitions by refinement
+and increasing finite-measure support. Simple functions of finite-measure
+support are dense in $L^p$, so this net tends strongly to the identity.
+VI.3.19 applies.
+For $p=\infty$, finite-measure support is insufficient. Instead use all
+finite measurable partitions, including infinite-measure cells. On each
+non-null cell choose a norm-one functional $\ell_j$ on $L^\infty(E_j)$
+with $\ell_j(1)=1$, by Hahn–Banach from the constants. The operator
+$Ff=\sum_j\ell_j(f|_{E_j})\chi_{E_j}$ is a finite-rank contraction fixing
+all functions constant on the cells. A finite family of bounded functions
+can simultaneously be uniformly approximated by such step functions,
+by partitioning their scalar ranges into small cells. Direct the partitions
+by refinement; irrespective of the chosen $\ell_j$, the resulting
+contractions converge strongly to the identity. VI.3.19 again proves the
+claim. Null cells are discarded.
+
+#### Solution VI.3.21 — Partitions of unity on a compact space
+
+(a) The range of $T_\alpha$ is in the span of its finitely many $\phi_j$.
+(b) Positivity of the partition and $\sum\phi_j=1$ give
+$\|T_\alpha f\|\leq\|f\|$, and $T_\alpha1=1$ gives norm one for nonempty
+$X$. (c) Two covers have a common finite refinement by intersections.
+Add, for every point in either sampling set, a refining open neighborhood
+containing that point, with it as sample. This retains both sampling sets
+and gives a common upper bound. Finite indexed covers, allowing repetitions,
+make the indexing convention unambiguous. The relation is a directed
+preorder, which is sufficient to define a net; one may quotient equivalent
+indices if a partial order is desired.
+(d) Cover $X$ by open sets on which $f$ oscillates by less than
+$\varepsilon$. For every refinement and its samples, if $\phi_j(x)>0$,
+then $x,x_j$ belong to one such set. Thus
+$|T_\alpha f(x)-f(x)|\leq\sum_j\phi_j(x)|f(x_j)-f(x)|<\varepsilon$.
+VI.3.19 proves the finite-rank approximation theorem.
+
+### §4. Invariant subspaces
+
+#### Solution VI.4.1 — The graph of an intertwiner
+
+The graph is a closed linear subspace since $T$ is bounded. For every $x$,
+$(A\oplus B)(x,Tx)=(Ax,BTx)=(Ax,TAx)$ by $TA=BT$.
+The latter is again in the graph, proving invariance.
+
+#### Solution VI.4.2 — Annihilators reverse invariance and order
+
+If $TM\subset M$, $f\in M^\perp$, and $m\in M$, then
+$(T^*f)(m)=f(Tm)=0$, so $T^*M^\perp\subset M^\perp$.
+Conversely that property gives $f(Tm)=0$ for every $f\in M^\perp$;
+Hahn–Banach and closedness give $Tm\in{}^\perp(M^\perp)=M$.
+The map reverses inclusion and satisfies
+$$(\overline{\operatorname{span}}\bigcup_iM_i)^\perp=\bigcap_iM_i^\perp,
+\qquad (\bigcap_iM_i)^\perp=
+\overline{\operatorname{span}\bigcup_iM_i^\perp}^{\mathrm{wk}^*}.$$
+The second formula follows by taking preannihilators and using the bipolar
+identity for subspaces. Its closure is weak-star closure; a norm-closed
+join in the full lattice of $X^*$ need not suffice. Thus this is a lattice
+anti-isomorphism onto the weak-star closed invariant subspaces, with joins
+in that lattice interpreted accordingly.
+
+#### Solution VI.4.3 — Three-dimensional diagonal operators
+
+(a) For distinct eigenvalues the Lagrange polynomial
+$p_j(t)=\prod_{i\ne j}(t-\alpha_i)/(\alpha_j-\alpha_i)$ gives the coordinate
+projection $p_j(T)$. Every invariant subspace is invariant under polynomials
+in $T$, hence contains each nonzero coordinate component of each of its
+vectors. It is therefore spanned by a subset of the basis. The converse
+is immediate from diagonality.
+(b) If $\alpha_1=\alpha_2=a\ne b=\alpha_3$, the polynomials
+$(b-t)/(b-a)$ and $(t-a)/(b-a)$ give the two eigenspace projections.
+Thus $M=(M\cap\operatorname{span}\{e_1,e_2\})\oplus(M\cap\mathbb Fe_3)$.
+Every such sum is invariant because $T$ is scalar on each summand.
+
+#### Solution VI.4.4 — Arbitrary finite diagonal operators
+
+For each distinct eigenvalue $\lambda$, let
+$E_\lambda=\operatorname{span}\{e_j:\alpha_j=\lambda\}$.
+Then all invariant subspaces are precisely
+$M=\bigoplus_\lambda M_\lambda$, where each $M_\lambda$ is any subspace
+of $E_\lambda$. Interpolating on the distinct eigenvalues gives polynomial
+spectral projections onto $E_\lambda$, so invariance forces this
+decomposition. Scalar action on each eigenspace proves the converse.
+
+#### Solution VI.4.5 — A single weighted nilpotent chain
+
+The lattice is $\{0\}$ together with the tails
+$\operatorname{span}\{e_k,\ldots,e_d\}$ for $1\leq k\leq d$.
+To prove exhaustiveness, choose in a nonzero invariant $M$ a vector whose
+first nonzero coordinate has the smallest possible index $k$.
+Its vectors $v,Tv,\ldots,T^{d-k}v$ have successive leading coordinates
+$k,k+1,\ldots,d$, each nonzero because the weights are nonzero.
+They form a triangular basis of the entire tail space, so that tail is
+contained in $M$. Minimality of $k$ gives the reverse containment.
+Each tail is visibly invariant.
+
+#### Solution VI.4.6 — Real operators have a small invariant subspace
+
+The complexification of $T$ has an eigenvalue $\lambda$ and eigenvector
+$u+iv$. If $\lambda$ is real, at least one of $u,v$ is a nonzero real
+eigenvector. If $\lambda=a+ib$ with $b\ne0$, then
+$Tu=au-bv$ and $Tv=bu+av$. The real span of $u,v$ is invariant and has
+dimension two (linear dependence would produce a real eigenvector with
+nonreal eigenvalue). Thus there is an invariant subspace of dimension
+one or two, nonzero and proper when $d\geq3$.
+
+#### Solution VI.4.7 — Nonseparability gives an invariant subspace
+
+For $0\ne x\in X$, let $M=\overline{\operatorname{span}}\{T^nx:n\geq0\}$.
+It is nonzero, separable, and invariant: $T$ takes the algebraic span into
+itself and continuity extends this to the closure. Since $X$ is not
+separable, $M\ne X$. Hence $M$ is nontrivial.
+
+#### Solution VI.4.8 — Invariance need not pass to the inverse
+
+On $\ell^2(\mathbb Z)$ take the bilateral shift $Te_n=e_{n+1}$ and
+$M=\overline{\operatorname{span}}\{e_n:n\geq0\}$. The shift is an invertible
+isometry and $TM\subset M$. But $T^{-1}e_0=e_{-1}\notin M$.
+This is a proper inclusion $TM\subsetneq M$, which is why invertibility
+on the ambient space is insufficient.
+
+#### Solution VI.4.9 — Maximal invariant chains of a compact operator
+
+A maximal chain $\mathcal C$ contains 0 and $X$ and is closed under
+intersections and closed spans of subchains: those subspaces are invariant
+and comparable with the whole chain, so maximality includes them.
+Suppose a closed subspace $L$ could be inserted into the chain. Put
+$M=\overline{\operatorname{span}}\{C\in\mathcal C:C\subseteq L\}$ and
+$N=\bigcap\{C\in\mathcal C:L\subseteq C\}$. Then $M,N\in\mathcal C$ and
+$M\subseteq L\subseteq N$, with no chain member strictly between $M,N$.
+If $\dim(N/M)>1$, the operator induced by $K$ on $N/M$ is compact:
+quotient unit vectors have uniformly bounded representatives, and the
+quotient of a relatively compact image is relatively compact.
+In finite dimension over $\mathbb C$ it has a nontrivial invariant subspace
+by an eigenvector; in infinite dimension use Corollary 4.14 (and for the
+zero operator choose any line). Its inverse image inserts a new invariant
+subspace between $M,N$, a contradiction. Thus $\dim(N/M)\leq1$, leaving
+no intermediate $L$ other than an endpoint. The chain is maximal among
+all closed subspaces.
+
+### §5. Weakly compact operators
+
+#### Solution VI.5.1 — Reflexivity and compositions
+
+(a) If $X$ is reflexive, the weakly continuous image $T(B_X)$ of its
+weakly compact ball is compact. If $Y$ is reflexive, the norm closure of
+$T(B_X)$ is a closed convex subset of $\|T\|B_Y$, hence weakly closed
+and weakly compact. (b) For weakly compact $T$, let
+$K=\overline{T(B_X)}$. Weak continuity makes $A(K)$ weakly compact and
+it contains $AT(B_X)$; the norm closure of that convex set is weakly
+closed, so compact. (c) $TB(B_Z)$ lies in $\|B\|T(B_X)$, giving the
+same conclusion. The zero operator cases are immediate.
+
+#### Solution VI.5.2 — The adjoint of an isometric embedding
+
+For $r^*\in R^*$, define $\ell(\Phi r)=r^*(r)$ on the subspace $\Phi(R)$.
+Because $\Phi$ is an isometry, this is well defined and has norm
+$\|r^*\|$. Hahn–Banach extends it to $x^*\in X^*$ with the same norm.
+Then $(\Phi^*x^*)(r)=x^*(\Phi r)=r^*(r)$ for every $r$, proving
+surjectivity. Completeness is not needed for this extension argument.
+
+#### Solution VI.5.3 — Weakly compact operators on c0
+
+(a) From any bounded sequence in $c_0$, take diagonal subsequences so that
+each coordinate converges. Uniform boundedness of the sup norms and the
+summable tails of any test in $\ell^1$ show that all dual pairings converge;
+the subsequence is weakly Cauchy. The partial sums
+$e_1+\cdots+e_n$ are weakly Cauchy, but a weak limit would have every
+coordinate equal to one and thus would not belong to $c_0$.
+(b) By Theorem 5.4 a weakly compact $T:c_0\to c_0$ factors as $AB$ through
+a reflexive space $R$. VI.3.9 says $B:c_0\to R$ is compact. Composition
+with bounded $A$ makes $T$ compact.
+
+#### Solution VI.5.4 — Weakly compact generation
+
+If $T:R\to X$ is bounded with $R$ reflexive and dense range, then
+$K=T(B_R)$ is weakly compact, and its closed linear span contains
+$T(R)$, so equals $X$. Injectivity is not needed in this direction.
+Conversely let weakly compact $K$ generate $X$. The set
+$K'=\{\alpha k:k\in K,\ |\alpha|=1\}\cup\{0\}$ is weakly compact as
+a continuous image of a compact product. Its closed convex hull $W$ is
+weakly compact by V.13.4, bounded, convex, and balanced. Apply Lemma 5.3
+to $W\subset X$. It gives a reflexive Banach space $R$ consisting of
+vectors in $X$, with a bounded injective inclusion $T:R\to X$, and
+$W\subset R$. Thus its range contains $K$ and has dense linear span;
+since the range is itself linear, it is dense in $X$.
+
+#### Solution VI.5.5 — A bounded kernel on a finite measure space
+
+The kernel defines a bounded map $B:L^1\to L^2$, since
+$|Bf(x)|\leq\|k\|_\infty\|f\|_1$ and $\mu(X)<\infty$.
+The inclusion $J:L^2\to L^1$ is bounded by Cauchy–Schwarz, and $K=JB$.
+It therefore factors through reflexive $L^2$, proving weak compactness.
+The map $BJ:L^2\to L^2$ is compact by VI.3.6: its kernel rows have
+$L^2$ norm at most $\|k\|_\infty\mu(X)^{1/2}$.
+Consequently $K^2=J(BJ)B$ is compact. All assertions are unaffected by
+changing the essentially bounded kernel on a product null set, using
+Fubini on this finite measure space.
+
+#### Solution VI.5.6 — Operators into weakly sequentially complete spaces
+
+(a) Write $y_n=T^{**}x_n^{**}\in Y$. For $y^*\in Y^*$,
+$y^*(y_n)=x_n^{**}(T^*y^*)\to x^{**}(T^*y^*)$.
+Thus $y_n$ is weakly Cauchy and has a weak limit $y\in Y$ by the stated
+completeness. Equality of all evaluations gives $T^{**}x^{**}=J_Yy$.
+
+(b) A compact $G_\delta$ subset $K$ of compact Hausdorff $X$ is a zero set
+of a continuous nonnegative function. Indeed write $K=\bigcap U_n$,
+choose continuous $0\leq h_n\leq1$ equal to zero on $K$ and one off $U_n$,
+and use $h=\sum2^{-n}h_n$. The functions
+$\max(0,1-nh)$ decrease pointwise to $\chi_K$. Their integrals converge
+against every finite measure by dominated convergence, so this is a
+weak-star convergent sequence in $C(X)^{**}$. Part (a) implies
+$T^{**}\chi_K\in Y$. Finite unions of compact $G_\delta$ sets have the
+same property. Increasing unions then give $\chi_F$ for the sets in
+$\mathcal F$, again by dominated convergence and (a). Linearity proves
+the assertion for $\mathcal L$.
+
+(c) We give the additional limit argument needed to apply James's theorem.
+Let $\mathcal D$ be the bounded Baire functions obtained from continuous
+functions by successive bounded pointwise sequential limits. Every such
+function defines an element of $C(X)^{**}$ by integration against measures.
+Dominated convergence and (a) imply $T^{**}g\in Y$ for $g\in\mathcal D$;
+the assertion is preserved at every successive limit stage.
+Fix $y^*\in Y^*$ and let $\mu=T^*y^*$. Choose $f_n\in B_{C(X)}$ with
+$\operatorname{Re}\int f_n\,d\mu\to\|\mu\|$. With
+$d\mu=h\,d|\mu|$, $|h|=1$, the inequality
+$|f_n-\bar h|^2\leq2(1-\operatorname{Re}(f_nh))$ gives convergence to
+$\bar h$ in $L^2(|\mu|)$. A subsequence converges $|\mu|$-almost everywhere.
+Define $g$ to be its pointwise limit where that limit exists, and zero
+elsewhere. This is a bounded Baire function with $|g|\leq1$ and belongs
+to the successive-limit class: limsup and liminf of the real and imaginary
+parts are obtained by countable suprema and infima, each a limit of finite
+maxima/minima; the equality sets are obtained by limits of continuous
+scalar cutoffs. These constructions use uniformly bounded functions.
+Thus $T^{**}g\in Y$ and
+$\operatorname{Re}y^*(T^{**}g)=\|T^*y^*\|$.
+
+Put $C=\overline{T(B_{C(X)})}$ in norm. Goldstine's theorem and weak-star
+continuity of $T^{**}$ put $T^{**}g$ in the weak-star closure of $T(B)$.
+Since it lies in $Y$, it belongs to the weak closure there, which equals
+$C$ by convexity and Hahn–Banach separation. Every real continuous linear
+functional on $Y$ is the real part of a complex one when needed, so each
+attains its supremum on $C$ by this construction. James's theorem V.13.3
+makes the closed bounded convex set $C$ weakly compact. This is precisely
+weak compactness of $T$.
+<!-- END SOLUTIONS VI -->

@@ -1928,3 +1928,1287 @@ For additional reading, consult Rudin [1962].
 10. If $G$ is a compact abelian group, show that $G$ is metrizable if and only if $\Gamma$ is countable.
 
 11. Let $\{G_\alpha\}$ be a family of compact abelian groups and $G=\prod_\alpha G_\alpha$. If $\Gamma_\alpha=\widehat{G_\alpha}$, show that the character group of $G$ is $\{\{\gamma_\alpha\}\in\prod_\alpha\Gamma_\alpha:\gamma_\alpha=e\text{ except for at most a finite number of }\alpha\}$.
+<!-- BEGIN SOLUTIONS VII -->
+
+## Exercise Solutions
+
+These are added study solutions. Algebras and spectra are complex unless
+stated otherwise, and unital algebras are nonzero with identity of norm
+one. The analytic tools used below are developed in the
+[complex-analysis supplement](background-complex-analysis.md). Corrections
+to assertions that fail with the printed hypotheses are kept separate
+from the source text.
+
+### §1. Banach algebras
+
+#### Solution VII.1.1 — Renorming separately continuous multiplication
+
+Uniform boundedness applied to $\{L_a:\|a\|\leq1\}$ on $A$ gives
+$\|ax\|\leq C\|a\|\|x\|$: pointwise boundedness follows from continuity
+of $a\mapsto ax$. Thus on $A\oplus_1\mathbb F$,
+$\|L_a(x,\xi)\|\leq\max(C,1)\|a\|(\|x\|+|\xi|)$.
+Testing $(0,1)$ gives $\|L_a\|\geq\|a\|$. The assignment $a\mapsto L_a$
+is injective and linear, and $L_{ab}=L_aL_b$, so its operator norm is an
+equivalent complete submultiplicative norm. If an identity already exists,
+the chapter's additional normalization $\|1\|=1$ can instead be obtained
+using left multiplication on $A$ itself; the unitization construction
+need not normalize a preexisting identity whose original norm was arbitrary.
+
+#### Solution VII.1.2 — Unitization
+
+Expansion of a triple product gives in its first coordinate
+$abc+\alpha bc+\beta ac+\gamma ab+\alpha\beta c+\alpha\gamma b+
+\beta\gamma a$, independent of parenthesization; the second coordinate
+is $\alpha\beta\gamma$. This proves associativity; distributivity and
+scalar compatibility follow from the formulas. The sum norm is complete
+because a Cauchy sequence has Cauchy coordinates. The element $(0,1)$ is
+a two-sided identity of norm one. The embedding $a\mapsto(a,0)$ is linear,
+isometric, multiplicative, and has closed ideal image. Submultiplicativity
+is the estimate already given in the proposition.
+
+#### Solution VII.1.3 — The basic examples
+
+For $C(X),C_b(X),C_0(X),L^\infty$, the pointwise estimate
+$|fg|\leq\|f\|_\infty|g|$ gives submultiplicativity, and the known
+completeness gives Banach algebras. They are commutative. An identity must
+be one wherever a function can be nonzero; bump functions imply it is
+constantly one on $X$. This belongs to $C_0(X)$ exactly when $X$ is compact.
+For $\mathcal B(X)$, composition is associative and
+$\|AB\|\leq\|A\|\|B\|$. Rank-one operators on two independent vectors
+show noncommutativity when $\dim X\geq2$. Compact operators form a closed
+two-sided ideal by VI.3.2. An identity for them must fix every rank-one
+range, hence equal $I_X$, which is compact only in finite dimension.
+
+For $M(G)$, the estimate in (1.10) proves the norm bound; Fubini against
+the finite variation product measure turns both triple convolutions into
+$\iiint f(xyz)\,d\mu(x)d\nu(y)d\eta(z)$, proving associativity.
+Point masses give the identity $\delta_e$ and
+$\delta_x*\delta_y=\delta_{xy}$, so commutativity is equivalent to that
+of $G$. For right Haar measure, Tonelli and right invariance give
+$\|f*g\|_1\leq\|f\|_1\|g\|_1$; the computation in Example 1.11
+identifies this with measure convolution and hence gives associativity.
+Commutativity for $L^1(G)$ also characterizes abelian $G$: approximate
+point masses at $x,y$ by translates of normalized densities on shrinking
+identity neighborhoods; measure convolutions converge against $C_c$ to
+$\delta_{xy}$ and $\delta_{yx}$. An identity exists precisely for discrete
+$G$, as proved in VII.9.1 below. There Haar measure is a positive multiple
+of counting measure and the corresponding scaled point indicator is the
+identity density.
+
+#### Solution VII.1.4 — Translation conventions and convolution
+
+(a) A compactly supported continuous function is uniformly continuous for
+left translations in the supremum norm. To check this directly, choose a
+relatively compact identity neighborhood $V$. For $u\in V$ only points
+in the compact set $\operatorname{supp}\phi\cup\overline V^{-1}
+\operatorname{supp}\phi$ can contribute to $\phi(uz)-\phi(z)$.
+A finite continuity cover there gives
+$\sup_z|\phi(uz)-\phi(z)|\to0$. Substitute $u=xy^{-1}$ and $w=yz$.
+
+(b) As written, the uniform assertion is false for the **right** Haar
+measure chosen in Example 1.11 on a nonunimodular group. On the affine
+group $(a,b)(c,d)=(ac,b+ad)$, $a,c>0$, right Haar measure is
+$dm=da\,db/a$. Then $\|f_y\|_p=a_y^{-1/p}\|f\|_p$ and, for $x=uy$,
+$\|f_x-f_y\|_p=a_y^{-1/p}\|f_u-f\|_p$. Choose a nonzero compactly supported
+$f$ and nonidentity $u$ arbitrarily near $e$ for which $f_u\ne f$, and
+let $a_y\downarrow0$. No uniform neighborhood as printed works.
+With left Haar measure, or for unimodular groups, translations are
+isometries and density of $C_c$ plus (a) proves the assertion. With right
+Haar measure on any group, the map $x\mapsto f_x$ is still norm continuous
+locally, since the modular scaling is locally bounded.
+
+(c) The printed assertion also fails for general right Haar measure.
+On the same affine group let $f(a,b)=\chi_{\{0<a<1,\ 0<b<a\}}$ and $g=1$.
+Then $\int f\,dm=1$, but
+$h(e)=\int f(y^{-1})\,dm(y)=\int f(a,b)\,da\,db/a^2=\infty$.
+For unimodular $G$ the change of variables gives
+$|h(x)|\leq\|f\|_1\|g\|_\infty$, and the $L^1$ continuity of translations
+gives continuity of $h$. This is the valid version with the stated order
+of convolution and the usual unweighted $L^1$ norm.
+
+(d) This part is valid for right Haar measure as given: Tonelli yields
+$$\int\!\int|f(xy^{-1})g(y)|\,dm(y)dm(x)
+=\|f\|_1\|g\|_1.$$
+Thus the defining integral exists for almost every $x$, defines an $L^1$
+class, and has the claimed norm bound.
+
+#### Solution VII.1.5 — Direct sums of algebras
+
+Use coordinatewise multiplication and the supremum norm. Each product
+satisfies $\sup_i\|a_ib_i\|\leq(\sup_i\|a_i\|)(\sup_i\|b_i\|)$.
+A supremum-norm Cauchy net has complete coordinate limits and converges
+uniformly to the resulting bounded family. The families vanishing at
+infinity form a closed subspace: a uniform approximation transfers the
+finite large-coordinate condition with half the tolerance. Their product
+with any bounded family again vanishes at infinity. Thus both direct
+sums are complete submultiplicative algebras.
+
+#### Solution VII.1.6 — Ideals and identities in direct sums
+
+(a) The final observation of VII.1.5 proves the closed ideal property.
+(b) If an identity exists, testing elements supported at a single
+coordinate shows its $i$th coordinate is an identity of $A_i$.
+Conversely the family of coordinate identities is bounded because their
+norms are one under the chapter's convention, and is the product identity.
+(c) For finite $I$ that family also belongs to the zero-sum algebra.
+For infinitely many nonzero factors it cannot belong, since infinitely
+many coordinates have norm one. Without the norm-one identity convention,
+(b) would need the additional uniform boundedness of their norms.
+
+#### Solution VII.1.7 — Bounded functions on a disjoint union
+
+Send $(f,g)$ to the function equal to $f$ on $X$ and $g$ on $Y$.
+The pieces are open and closed, so continuity is equivalent to continuity
+of both restrictions. Boundedness and the norm are given by
+$\max(\|f\|,\|g\|)$. Restriction is the inverse and multiplication is
+pointwise, proving an isometric algebra isomorphism.
+
+#### Solution VII.1.8 — Functions vanishing at infinity on two pieces
+
+Use the same restriction and gluing maps. A level set of the glued
+function is the union of its two level sets, one in each open-and-closed
+piece. It is compact exactly when both are compact. The maps therefore
+restrict to the stated $C_0$ algebras, with the same norm and product.
+
+#### Solution VII.1.9 — Arbitrarily many pieces
+
+Each point has a compact neighborhood in its open component, hence the
+union is locally compact. A compact subset meets only finitely many
+components, since the components form an open cover. Thus if $f\in C_0(X)$,
+each restriction is in $C_0(X_i)$ and only finitely many restrictions can
+have norm at least $\varepsilon$ (use the level $\varepsilon/2$).
+Conversely these conditions make every level set a closed subset of a
+finite union of compact component level sets. Gluing therefore identifies
+$C_0(X)$ with the zero-sum algebra isometrically and multiplicatively.
+
+### §2. Ideals and approximate identities
+
+#### Solution VII.2.1 — The complete ideal lattice
+
+An arbitrary intersection of closed left ideals is a closed left ideal.
+The closure of the linear sum of any family is a left ideal because left
+multiplication is continuous. These are respectively the greatest lower
+bound and least upper bound by their defining containment properties.
+The largest member is $A$, the smallest is $\{0\}$, and the empty meet
+and join take these values respectively. This proves completeness.
+
+#### Solution VII.2.2 — Open sets give closed ideals
+
+Vanishing on $X\setminus U$ is preserved under linear combinations,
+products by arbitrary $C_0(X)$ functions, and uniform limits. Thus $I(U)$
+is a closed ideal. Bump functions show that the union of the nonzero sets
+of its elements is exactly $U$, proving injectivity and reflection of
+inclusion. Intersections give $I(U)\cap I(V)=I(U\cap V)$.
+For unions, approximate a function supported in $U\cup V$ by one with
+compact support there and use a partition of unity subordinate to $U,V$
+on that support to split it into one function in each ideal. Hence
+$I(U\cup V)=\overline{I(U)+I(V)}$, proving the lattice assertion.
+
+#### Solution VII.2.3 — Weak-star closed ideals of Linfinity
+
+If $f\in I$, then $\chi_{\{|f|\geq1/n\}}\in I$ by multiplying $f$ by
+its bounded reciprocal on that set. Bounded pointwise convergence, tested
+against $L^1$, gives $\chi_{\{f\ne0\}}\in I$ by weak-star closedness.
+There is a countable collection of such supports whose union $E$ contains
+all of them modulo null sets: replace the sigma-finite measure by an
+equivalent finite measure and choose finite unions whose measures tend
+to the supremum of all finite-union measures. A support not contained in
+$E$ would increase that supremum. Finite unions of support indicators
+belong to $I$, and monotone convergence gives $\chi_E\in I$.
+The ideal property now includes every bounded function supported in $E$;
+the construction of $E$ excludes any other element. Set $\Delta=X\setminus E$.
+
+#### Solution VII.2.4 — The dual-number algebra
+
+Write its matrices as $\alpha I+\beta N$, where $N^2=0$.
+Products remain in this two-dimensional closed subspace of $M_2$, so the
+operator norm makes it a Banach algebra. The map
+$\alpha I+\beta N\mapsto\alpha$ is a surjective homomorphism onto the
+field with kernel $M$. Since a field has no proper nonzero ideals, $M$
+is maximal.
+
+#### Solution VII.2.5 — Simplicity of matrix algebras
+
+If a two-sided ideal contains a nonzero matrix $A$ with entry
+$a_{ij}\ne0$, then $E_{ki}AE_{jl}=a_{ij}E_{kl}$ belongs to the ideal
+for every $k,l$. Thus it contains every matrix unit and is the entire
+algebra. This proof works over both $\mathbb C$ and $\mathbb R$.
+
+#### Solution VII.2.6 — Modular left ideals
+
+(a) If $u\in I$, then $au\in I$ and $a-au\in I$ for every $a$, so $I=A$.
+(b) Any larger proper left ideal inherits the same modular unit; maximality
+among modular ideals is thus ordinary maximality.
+(c) Apply Zorn to proper left ideals containing $I$. A chain union is
+proper because it cannot contain $u$, by (a); thus a maximal member exists.
+(d) If $x\in I$ and $\|u-x\|<1$, put $v=u-x$. It is another right modular
+unit. The element $1-v$ is invertible in the unitization by its Neumann
+series, so $A(1-v)=A$ while $A(1-v)\subset I$, a contradiction.
+Thus $\operatorname{dist}(u,I)\geq1$; the closure is still a left ideal,
+retains the modular-unit equations, and excludes $u$.
+(e) The closure of a maximal modular left ideal is proper by (d), and
+maximality forces equality.
+
+#### Solution VII.2.7 — Two modular units
+
+(a) The right-unit identity for $v$ gives $v-vu\in I$, and the left-unit
+identity for $u$ gives $u-vu\in I$. Subtraction gives $u-v\in I$.
+(b) Their common coset is both a right and a left identity in $A/I$.
+Conversely any representative of an identity coset satisfies both modular
+identities. Closedness ensures that the quotient is a Banach algebra;
+the identity equivalence itself is algebraic.
+
+#### Solution VII.2.8 — From bounded local units to a net
+
+The forward implication follows by taking $E$ to be the range of the
+approximate identity. The converse needs a finite-set uniformization step;
+choosing a different element for each single $a$ is not by itself a proof.
+Here we explicitly use the bounded local-unit theorem of Wichmann:
+a normed algebra admitting uniformly bounded left approximate units
+for individual elements admits a bounded left approximate identity;
+the corresponding right statement holds as well. This is an additional
+input, not a consequence of directing single elements by inclusion.
+The cited theorem is the substantive result of
+[Wichmann, *Bounded approximate units and bounded approximate identities*](https://doi.org/10.1090/S0002-9939-1973-0324415-9).
+
+Apply its two versions to the given $E$ to obtain a bounded left net
+$u_i$ and a bounded right net $v_j$. Set $w_{ij}=u_i+v_j-v_ju_i$.
+Then
+$$a-aw_{ij}=(a-av_j)(1-u_i),\qquad
+ a-w_{ij}a=(1-v_j)(a-u_ia).$$
+Uniform boundedness of both nets makes both errors tend to zero on the
+product directed set, and
+$\|w_{ij}\|\leq C+D+CD$. Thus $w_{ij}$ is a bounded two-sided approximate
+identity. This solution depends on the stated local-unit theorem; it
+does not reproduce its independent proof.
+
+#### Solution VII.2.9 — Approximate identity for C0
+
+Direct compact subsets $K\subset X$ by inclusion, and choose
+$0\leq e_K\leq1$ compactly supported with $e_K=1$ on $K$.
+For $f\in C_0(X)$ choose $K_0$ containing its $\varepsilon$-level set.
+For all $K\supset K_0$, $|(1-e_K)f|\leq\varepsilon$ everywhere.
+Thus $e_Kf\to f$, and commutativity gives the other side, with norm bound one.
+
+#### Solution VII.2.10 — Finite-dimensional projections
+
+Let $P_F$ project onto the finite-dimensional subspace $F$, directed by
+inclusion. These are compact contractions and $P_Fh\to h$ for every $h$.
+The finite-net argument of VI.3.19 gives $\|(I-P_F)K\|\to0$ for compact
+$K$. Apply it to $K^*$ and take adjoints to get $\|K(I-P_F)\|\to0$.
+Hence $(P_F)$ is a two-sided approximate identity of the compact operators.
+
+#### Solution VII.2.11 — Approximate identity for the group algebra
+
+With right Haar measure, $f_U=m(U)^{-1}\chi_U$ has $L^1$ norm one.
+For $f\in C_c(G)$,
+$$(f*f_U)(x)=\frac1{m(U)}\int_U f(xy^{-1})\,dm(y).$$
+Norm continuity of right translations at the identity gives convergence
+to $f$ in $L^1$. For the other order, change variables in convolution
+using the modular function: it is an average of left translates of $f$
+with the modular weight, and both those translates and that weight tend
+to $f$ and 1 as $y\to e$. Thus $f_U*f\to f$ in $L^1$ as well.
+More explicitly define $c(y)>0$ by $m(yE)=c(y)m(E)$; then
+$(f_U*f)(x)=\int_U f_U(y)c(y)^{-1}f(y^{-1}x)\,dm(y)$.
+The integrand operators $c(y)^{-1}f(y^{-1}\cdot)$ converge in $L^1$ to
+$f$. Both convolution maps are contractions, so density of $C_c$ extends
+the two limits to every $f\in L^1(G)$.
+
+#### Solution VII.2.12 — Poisson approximate identities
+
+Summing the geometric series gives
+$P_r(e^{it})=(1-r^2)/|1-re^{it}|^2\geq0$, with integral one against
+normalized Haar measure because only its constant Fourier term integrates
+to one. For every fixed $\delta>0$, it tends uniformly to zero on
+$\delta\leq|t|\leq\pi$. Split
+$\|P_r*f-f\|_1\leq\int P_r(e^{it})\|f_t-f\|_1\,dm(t)$
+into $|t|<\delta$ and the complement. Translation continuity controls the
+first part and the vanishing mass controls the second. The group is
+abelian, so this proves both sides, with bound one.
+
+#### Solution VII.2.13 — A missing finite-codimension hypothesis
+
+The set $\mathcal K(H)P=\{K\in\mathcal K(H):K=KP\}$ is a closed left
+ideal, being the kernel of the bounded map $K\mapsto K(I-P)$.
+It is modular **if and only if** $I-P$ has finite rank. In that case
+$u=I-P\in\mathcal K(H)$ works since $K-Ku=KP$.
+Conversely if a compact $u$ is a right modular unit, then
+$K(I-u)(I-P)=0$ for every compact $K$. Rank-one $K$ separate vectors, so
+$(I-u)(I-P)=0$. Thus $u$ is the identity on $(I-P)H$, which must be finite
+dimensional for a compact operator. Taking $P=0$ on infinite-dimensional
+$H$ disproves the unqualified assertion. If $P=I$, the ideal is the whole
+algebra and $u=0$ is permitted.
+
+#### Solution VII.2.14 — Minimal left ideals of matrix algebras
+
+Here “minimal” must mean minimal **nonzero** left ideal; otherwise $\{0\}$
+is the trivial answer. For a nonzero row functional $f$, put
+$I_f=\{x\otimes f:x\in\mathbb F^n\}$, with $(x\otimes f)y=f(y)x$.
+This is a left ideal, and any nonzero member generates it by left
+multiplication, so it is minimal. Every nonzero left ideal contains a
+rank-one matrix: choose a nonzero row of one of its matrices and multiply
+on the left by a suitable matrix unit. Thus every minimal nonzero left
+ideal is some $I_f$, depending only on the line spanned by $f$.
+For $n=1$ there is no nonzero proper left ideal.
+
+#### Solution VII.2.15 — Minimal left ideals of compact operators
+
+For any Banach space $X$ and $0\ne f\in X^*$, the space
+$I_f=\{x\otimes f:x\in X\}$ is a closed left ideal, since
+$\|x\otimes f\|=\|x\|\|f\|$. Any nonzero $x\otimes f$ generates all of
+$I_f$ by compact rank-one left multipliers. Conversely, for $0\ne K$
+in a left ideal choose $g\in X^*$ with $g\circ K\ne0$. Multiplication
+by $x\otimes g$ produces $x\otimes(g\circ K)$, so every minimal nonzero
+left ideal has this form. For Hilbert spaces identify $f$ with an inner
+product against a nonzero vector. “Proper” excludes the one-dimensional
+case where this is the whole algebra.
+
+#### Solution VII.2.16 — Maximal modular left ideals of compact operators
+
+They are $M_h=\{K:Kh=0\}$, one for each nonzero vector $h$, with vectors
+on the same line giving the same ideal. A rank-one projection onto
+$\mathbb Ch$ is a modular unit. If a left ideal contains $M_h$ and an
+operator $A$ with $Ah\ne0$, rank-one left multiples of $A$ can prescribe
+arbitrary values at $h$; subtracting them leaves an element of $M_h$.
+Thus the ideal is the whole algebra, proving maximality.
+
+Conversely let $M$ be maximal modular with unit $u$. It is closed by
+VII.2.6. If every rank-one operator were in $M$, finite-rank density would
+give $M=\mathcal K(H)$. Thus some $x\otimes f\notin M$. The map
+$v\mapsto(v\otimes f)+M$ from $H$ to the simple left module
+$\mathcal K(H)/M$ is a nonzero module map. Its kernel is invariant under
+all compact operators and hence zero; its image is the entire module
+by simplicity. Choose $h$ mapping to $u+M$. For every $K$,
+$Kh$ maps to $Ku+M=K+M$, using the modular relation. Injectivity then
+shows $K\in M$ exactly when $Kh=0$. Necessarily $h\ne0$.
+
+### §3. Spectrum and resolvent
+
+#### Solution VII.3.1 — One-sided invertibility of the shift
+
+The backward shift satisfies $S^*S=I$, so is a left inverse. The range of
+$S$ consists of sequences with first coordinate zero, so is not the whole
+space. A right inverse would imply surjectivity, hence cannot exist.
+
+#### Solution VII.3.2 — A nilpotent spectrum
+
+If $a^n=0$ and $\lambda\ne0$, then
+$(\lambda-a)^{-1}=\sum_{j=0}^{n-1}\lambda^{-j-1}a^j$, as direct
+multiplication verifies. But $a$ is not invertible, since otherwise
+$a^n=0$ would be invertible. Thus its spectrum is exactly $\{0\}$.
+
+#### Solution VII.3.3 — Essential range
+
+The element $\phi-\alpha$ is invertible in $L^\infty$ exactly when it is
+bounded away from zero almost everywhere; its inverse is then
+$1/(\phi-\alpha)$. Conversely a bounded inverse gives
+$|\phi-\alpha|\geq1/\|(phi-\alpha)^{-1}\|_\infty$ almost everywhere.
+Failure of this lower bound is precisely essential infimum zero, the
+expression in (b), and equivalently every set in (c) has positive measure.
+Finally the pushforward measure of the disk $B(\alpha,\varepsilon)$ is
+exactly that set's measure. Membership in the support means every such
+neighborhood has positive measure, proving (d).
+
+#### Solution VII.3.4 — Weak analyticity versus weak continuity
+
+On a closed disk contained in $G$, each scalar analytic $x^*f$ is bounded.
+Uniform boundedness on $X^*$ gives a common norm bound $\|f(z)\|\leq M$
+there. Scalar Cauchy estimates on a slightly larger disk then give,
+uniformly over $\|x^*\|\leq1$, a first-order Lipschitz estimate for $x^*f$.
+Taking the supremum proves norm continuity of $f$. Its contour integral
+now exists in $X$; scalar Cauchy's formula and separation imply the
+vector-valued Cauchy formula. Differentiating its kernel uniformly on a
+smaller disk proves norm analyticity.
+The continuous version is false. On $G=\mathbb C$, take pairwise disjoint
+small disks centered at $1/n$, avoiding 0, and continuous bumps $b_n$ equal
+to one at their centers and zero off their disks. Define
+$f(z)=b_n(z)e_n$ on those disks and zero elsewhere in $\ell^2$.
+Every scalar test is continuous at 0 because its $n$th coordinate tends
+to zero, and continuous elsewhere by the locally finite construction.
+But $\|f(1/n)\|=1$ whereas $f(0)=0$.
+
+#### Solution VII.3.5 — Closedness of spectral membership
+
+If $\alpha-a$ were invertible, then for large $n$ the perturbation
+$(\alpha_n-a_n)-(\alpha-a)$ would have norm less than
+$\|(\alpha-a)^{-1}\|^{-1}$. The Neumann-series criterion would make
+$\alpha_n-a_n$ invertible, contradicting $\alpha_n\in\sigma(a_n)$.
+Thus $\alpha\in\sigma(a)$.
+
+#### Solution VII.3.6 — Upper semicontinuity of the spectral radius
+
+The spectral radius formula gives $r(a)=\inf_{n\geq1}\|a^n\|^{1/n}$.
+Each function on the right is continuous, so its infimum is upper
+semicontinuous: choose one $n$ giving a value below a prescribed threshold
+above $r(a)$, and retain that inequality in a neighborhood.
+At a point with $r(a)=0$, upper semicontinuity and nonnegativity squeeze
+$r(b)$ to zero as $b\to a$, proving continuity there.
+
+#### Solution VII.3.7 — Products in opposite orders
+
+Put $c=(\alpha-ab)^{-1}$. Multiplying on either side verifies
+$$(\alpha-ba)(\alpha^{-1}1+\alpha^{-1}bca)=1
+=(\alpha^{-1}1+\alpha^{-1}bca)(\alpha-ba),$$
+using $(\alpha-ab)c=c(\alpha-ab)=1$. Thus nonzero spectral values of
+$ab$ and $ba$ coincide; reverse $a,b$ for the other inclusion.
+For $a=S$, $b=S^*$ on $\ell^2$, $ba=I$ has spectrum $\{1\}$ and
+$ab=I-P_{e_1}$ has spectrum $\{0,1\}$, proving that zero may differ.
+
+### §4. Holomorphic functional calculus
+
+#### Solution VII.4.1 — Functional calculus in C(X)
+
+Apply evaluation at $x$ to the contour definition:
+$$f(g)(x)=\frac1{2\pi i}\int_\Gamma\frac{f(z)}{z-g(x)}\,dz=f(g(x)).$$
+The last equality is scalar Cauchy's formula; $g(X)=\sigma(g)$ lies
+inside the contours. Bounded evaluation commutes with the norm contour
+integral, so this proves the identity as a continuous function.
+
+#### Solution VII.4.2 — Functions of a nilpotent
+
+Let $m$ be the least positive integer with $a^m=0$. Substituting the
+finite resolvent series into Cauchy's formula gives
+$f(a)=\sum_{j=0}^{m-1}f^{(j)}(0)a^j/j!$.
+The elements $1,a,\ldots,a^{m-1}$ are linearly independent: in a purported
+relation, factor its smallest nonzero power; the remaining polynomial
+has nonzero constant coefficient and is invertible by a finite Neumann
+series, contradicting minimality of $m$.
+Thus $f(a)=g(a)$ exactly when their derivatives at zero agree for
+$0\leq j<m$.
+
+#### Solution VII.4.3 — The Jordan criterion
+
+For each eigenvalue $\lambda$, let $m_\lambda$ be the largest size of a
+Jordan block at $\lambda$. On a block $\lambda I+N$, the Taylor formula
+is $f(\lambda I+N)=\sum_{j=0}^{m-1}f^{(j)}(\lambda)N^j/j!$.
+Its successive superdiagonals vanish exactly when all those coefficients
+vanish. Consequently $f(A)=0$ if and only if
+$f^{(j)}(\lambda)=0$ for every eigenvalue and every $0\leq j<m_\lambda$.
+This is equivalently divisibility by the minimal polynomial locally near
+the spectrum.
+
+#### Solution VII.4.4 — Composition of calculi
+
+Choose contours $\Gamma$ around $\sigma(a)$ and $\Delta$ around
+$f(\sigma(a))$ so that $f(\Gamma)$ stays inside $\Delta$ and no denominator
+below vanishes. The algebra-homomorphism property gives
+$$(w-f(a))^{-1}=\left(z\mapsto\frac1{w-f(z)}\right)(a).$$
+Insert its contour formula into that for $g(f(a))$. The integrands are
+continuous on two finite compact contours, so norm integration can be
+interchanged. The inner $w$-integral is
+$(2\pi i)^{-1}\int_\Delta g(w)/(w-f(z))\,dw=g(f(z))$ by Cauchy's formula.
+The remaining integral is $(g\circ f)(a)$. Shrinking the neighborhood
+of $\sigma(a)$ first ensures all these contours exist and proves
+$g\circ f\in\operatorname{Hol}(a)$.
+
+#### Solution VII.4.5 — Invariance under functional calculus
+
+For $x\in M$, every resolvent vector $(z-A)^{-1}x$ on the defining
+contour lies in $M$ by hypothesis. Riemann sums for
+$(2\pi i)^{-1}\int f(z)(z-A)^{-1}x\,dz$ therefore lie in the linear space
+$M$. Its closedness puts their norm limit $f(A)x$ in $M$.
+
+#### Solution VII.4.6 — Banach-space adjoints
+
+Taking a Banach adjoint is a bounded complex linear map on the operator
+space, so commutes with contour integration. Also
+$((z-A)^{-1})^*=(z-A^*)^{-1}$, and the spectra are equal by VI.1.9.
+Apply these facts to the contour formula to obtain $f(A)^*=f(A^*)$.
+
+#### Solution VII.4.7 — Hilbert-space adjoints
+
+Here taking adjoints conjugates scalar coefficients. Conjugating the
+contour formula changes $z$ to $\bar z$, reverses orientation, and also
+changes $1/i$ to $-1/i$; the two signs cancel. The result is the positive
+contour formula for $\widetilde f(A^*)$, where
+$\widetilde f(z)=\overline{f(\bar z)}$. The conjugate spectrum is inside
+that contour, so $f(A)^*=\widetilde f(A^*)$.
+
+#### Solution VII.4.8 — Functions of normal operators are normal
+
+Normality says $A$ commutes with $A^*$. Thus every resolvent of $A$
+commutes with every resolvent of $A^*$ (multiply the commuting invertible
+factors by their inverses). Their contour integrals commute as well.
+By VII.4.7 these integrals include $f(A)$ and $f(A)^*$, proving normality.
+
+#### Solution VII.4.9 — Splitting the spectrum
+
+Choose disjoint neighborhoods of $F_1,F_2$ and let $e$ be the analytic
+function equal to 1 on the first and 0 on the second. Set $P=e(A)$.
+Then $P^2=P$, $X_1=PX$, and $X_2=(I-P)X$ are closed complementary spaces.
+Every operator commuting with $A$ commutes with its resolvents and with
+$P$, proving (a). For $\lambda\notin F_1$, the function equal to
+$(z-\lambda)^{-1}$ near $F_1$ and zero near $F_2$ gives an inverse of
+$A_1-\lambda$ on $X_1$. Thus $\sigma(A_j)\subseteq F_j$.
+The block decomposition has spectrum $\sigma(A_1)\cup\sigma(A_2)$;
+since this equals $F_1\cup F_2$ and the sets are disjoint, both inclusions
+are equalities. Finally $Rx=(Px,(I-P)x)$ is bounded into the $\ell^1$
+sum and has bounded inverse $(x_1,x_2)\mapsto x_1+x_2$; it intertwines
+$A$ and $A_1\oplus A_2$ as required.
+
+#### Solution VII.4.10 — Primary decomposition of a matrix
+
+Apply VII.4.9 repeatedly to the finitely many singleton spectral sets.
+The resulting spectral projections give a direct sum of invariant
+subspaces $X_j$ with spectrum $\{\alpha_j\}$ on each. Choose a basis in
+each subspace and concatenate them. The change-of-basis matrix makes $A$
+similar to their block diagonal sum; $d_j=\dim X_j$ is the total size of
+the Jordan blocks for $\alpha_j$.
+
+#### Solution VII.4.11 — An ideal need not be closed
+
+The condition $f(0)=0$ means $f$ is analytic also near zero. The function
+$g(z)=f(z)/z$, with the removable value $g(0)=f'(0)$, is analytic on a
+neighborhood of $\sigma(a)\cup\{0\}$. The homomorphism property gives
+$f(a)=ag(a)$. Since $a\in I$ and $I$ is an ideal, this product belongs
+to $I$, without taking a limit inside $I$. In the nonunital case perform
+the calculus in the unitization; multiplication of an element of $I$
+by an element of that unitization still lies in $I$.
+
+### §5. Spectra in subalgebras
+
+#### Solution VII.5.1 — Extension to the polynomial hull
+
+By definition of $\widehat K$, every polynomial satisfies
+$\sup_{\widehat K}|p|=\sup_K|p|$. Thus a uniformly Cauchy sequence of
+polynomials on $K$ is uniformly Cauchy on $\widehat K$, defining a unique
+extension there. Equality of norms makes the extension map an isometry;
+products and sums pass to uniform limits. Its image is exactly
+$P(\widehat K)$, since both spaces are completions of the same normed
+polynomial restrictions. This proves the isometric algebra isomorphism.
+
+#### Solution VII.5.2 — Spectra in rational and polynomial algebras
+
+If $\lambda\notin f(K)$ for $f\in R(K)$, approximate $f$ by a rational
+$r$ uniformly closer than $\frac13\min_K|f-\lambda|$.
+Then $(r-\lambda)^{-1}\in R(K)$ and
+$\|(f-r)/(r-\lambda)\|<1$, so a Neumann series in $R(K)$ gives
+$(f-\lambda)^{-1}$. Evaluation shows the reverse spectral inclusion.
+For $P(K)$ identify it with $P(\widehat K)$ by VII.5.1. Every character
+is determined by its value $z$ on the coordinate generator, and
+$|p(z)|\leq\|p\|_K$ places $z$ in $\widehat K$. Conversely such evaluation
+extends continuously to a character. The commutative spectral formula
+therefore gives $\sigma_{P(K)}(f)=\widehat f(\widehat K)$.
+
+#### Solution VII.5.3 — Real spectra cannot acquire holes
+
+A compact subset of the real axis has connected complement in the plane:
+points off it can be joined through the upper or lower half-plane and
+around either end of the compact set. It therefore equals its polynomial
+hull. Theorem 5.4 gives
+$\sigma_A(a)\subseteq\sigma_B(a)\subseteq\widehat{\sigma_A(a)}
+=\sigma_A(a)$, proving equality.
+
+#### Solution VII.5.4 — Filling a chosen collection of holes
+
+Let $K=\sigma_A(a)$ and $L=K\cup\bigcup_kG_{n_k}$, the compact set
+obtained by filling the selected holes. For each unselected hole choose
+one point $\lambda_j$ and let $B$ be the closed unital algebra generated
+by $a$ and all $(a-\lambda_j)^{-1}$. Resolvent continuation (the open-and-
+closed argument in Theorem 5.4) excludes each unselected hole from
+$\sigma_B(a)$. To see that selected holes remain, fix $z$ in one of them.
+Every rational function with poles among the chosen $\lambda_j$ is
+analytic on that hole, and the maximum principle gives
+$|r(z)|\leq\sup_K|r|=r_A(r(a))\leq\|r(a)\|$.
+Hence evaluation at $z$ is a well-defined bounded character on the dense
+rational algebra and extends to $B$. It sends $a$ to $z$, so
+$z\in\sigma_B(a)$. Together with $K\subseteq\sigma_B(a)$ and Theorem 5.4,
+this gives exactly $L$.
+
+#### Solution VII.5.5 — Maximal abelian algebras are inverse closed
+
+If $a\in B$ is invertible in $A$, then $a^{-1}$ commutes with every
+$b\in B$, by multiplying $ab=ba$ by the inverse. Adjoining $a^{-1}$ to
+$B$ therefore still gives an abelian algebra. Maximality forces
+$a^{-1}\in B$. Apply this to $a-\lambda$ for every scalar $\lambda$ to
+obtain equality of spectra.
+
+#### Solution VII.5.6 — Interior components are simply connected
+
+For a plane domain, simple connectedness is equivalent to containing the
+bounded interior of every Jordan curve lying in it. If a Jordan curve
+lies in a component $U$ of $\operatorname{int}K$, every point inside the
+curve belongs to $K$: otherwise a component of $\mathbb C\setminus K$
+inside the curve would be bounded, contradicting polynomial convexity.
+The curve is a positive distance from $\mathbb C\setminus K$; its entire
+inside is open and contained in $K$, hence in $\operatorname{int}K$.
+Its union with the curve is connected and meets $U$, so lies in $U$.
+The plane-domain criterion now proves simple connectedness.
+
+### §6. Operator spectra
+
+#### Solution VII.6.1 — Spectrum and adjoints
+
+For Banach adjoints $(A-\lambda)^*=A^*-\lambda$, and VI.1.9 says an
+operator is invertible exactly when its adjoint is. This proves (a).
+For Hilbert adjoints $(A-\lambda)^*=A^*-\bar\lambda$; taking adjoints of
+a two-sided inverse, and then taking adjoints again for the converse,
+gives (b).
+
+#### Solution VII.6.2 — A qualification for one-sided spectra
+
+A bounded left inverse of $A-\lambda$ always gives a bounded right inverse
+of $A^*-\lambda$ by taking Banach adjoints. Thus
+$\sigma_r(A^*)\subseteq\sigma_l(A)$. Equality holds when $X$ is reflexive:
+a right inverse on the dual can be adjointed and transferred back through
+$X=X^{**}$. On a Hilbert space this yields
+$\sigma_r(A^*)=\overline{\sigma_l(A)}$, where the bar means conjugation.
+
+For arbitrary Banach spaces the stated equality is not valid: a splitting
+on the dual need not descend to the original space. A standard explicit
+counterexample uses the classical fact that $c_0$ is not complemented in
+$\ell^\infty$. Put $X=c_0\oplus_\infty\ell^\infty$ and
+$A(x,y)=(0,z)$ where $z_{2n}=x_n$, $z_{2n-1}=y_n$.
+This is an isometric embedding with noncomplemented range: a projection
+onto its range would, by restricting to the even coordinates of its
+second summand, give a projection $\ell^\infty\to c_0$.
+Thus $A$ has no left inverse by VII.6.5.
+Yet $A^*$ has a bounded right inverse: send
+$(f,\mu)\in\ell^1\oplus_1(\ell^\infty)^*$ to $(0,\nu)$, where
+$\nu(z)=\sum_nf_nz_{2n}+\mu((z_{2n-1})_n)$.
+Evaluation shows $A^*(0,\nu)=(f,\mu)$ and the norm bound is immediate.
+So zero belongs to only one of the two claimed spectra. The counterexample
+uses the noncomplementability theorem as an explicitly identified input.
+
+#### Solution VII.6.3 — Prescribing a Hilbert-space spectrum
+
+Choose a countable dense sequence $(\lambda_n)$ in the nonempty compact
+set $K$. On a countably infinite-dimensional closed summand of $H$, let
+$Ae_n=\lambda_ne_n$. On its orthogonal complement let $A=\lambda_1I$.
+The diagonal inverse is bounded exactly when the scalar lies a positive
+distance from $K$, proving $\sigma(A)=K$. If $\lambda\in K$, choose
+indices with $\lambda_{n_j}\to\lambda$; their unit vectors satisfy
+$\|(A-\lambda)e_{n_j}\|\to0$. Therefore $\sigma_{ap}(A)=K$ as well,
+including nonseparable $H$.
+
+#### Solution VII.6.4 — Prescribing a spectrum on C[0,1]
+
+For every nonempty compact $K$ the answer is yes. Choose disjoint bumps
+$h_n$ supported near $t_n\downarrow0$, with $h_n(t_n)=1$ and
+$\|h_n\|=1$. Their closed span $M$ is isometric to $c_0$, and
+$Pf=\sum_n(f(t_n)-f(0))h_n$ is a bounded projection onto $M$:
+its coefficients tend to zero and $\|P\|\leq2$.
+Choose a dense sequence $\lambda_n\in K$ and use the bounded diagonal
+operator with these values on $M$, together with $\lambda_1I$ on
+$\ker P$. The direct-sum spectrum is $K$ by the diagonal calculation.
+For empty $K$ the answer is no, because a bounded operator on a nonzero
+complex Banach space has nonempty spectrum.
+
+#### Solution VII.6.5 — Left invertibility and a complemented range
+
+If $BA=I$, then $\|Ax\|\geq\|B\|^{-1}\|x\|$, giving injectivity and
+closed range, and $AB$ is a bounded projection onto that range.
+Conversely, if $P$ projects onto the closed range and $A$ is injective,
+the inverse $C:\operatorname{ran}A\to X$ is bounded by the inverse
+mapping theorem. Then $B=CP$ satisfies $BA=I$.
+
+#### Solution VII.6.6 — Right invertibility and a complemented kernel
+
+If $AB=I$, then $A$ is onto and $BA$ is a bounded projection with kernel
+$\ker A$, so $I-BA$ projects onto that kernel. Conversely choose a closed
+complement $N$ of $\ker A$. The restriction $A|_N:N\to X$ is a bounded
+bijection, hence has a bounded inverse. Including its values into $X$
+gives a right inverse of $A$.
+
+#### Solution VII.6.7 — The spectrum of an isometry
+
+Since $\|T\|=1$, the spectrum lies in the closed disk, and
+$\|(T-\lambda)x\|\geq(1-|\lambda|)\|x\|$ for $|\lambda|<1$.
+Thus every interior-disk $T-\lambda$ is bounded below. In a connected
+region of operators bounded below, surjectivity is both open and closed:
+openness follows from a Neumann series at an invertible point; closedness
+follows by the common local lower bound, which makes inverse solutions
+Cauchy as the parameter converges. Hence either every $|\lambda|<1$
+is resolvent or every such $\lambda$ is spectral.
+The former gives $\sigma(T)\subseteq\partial\mathbb D$; the latter,
+by closedness, gives the whole closed disk.
+
+#### Solution VII.6.8 — Diagonal spectra and projections
+
+For $\lambda$ outside $\overline{\{\alpha_n\}}$, reciprocal multiplication
+by $(\alpha_n-\lambda)^{-1}$ is bounded on every $\ell^p$, giving the
+inverse. For $\lambda$ in that closure, unit coordinate vectors give
+approximate eigenvectors. Thus the spectrum is the closure. The equation
+$(\alpha_n-\lambda)x_n=0$ has a nonzero solution exactly when $\lambda$
+is one of the diagonal values, proving the point-spectrum formula.
+For an isolated value $\alpha_k$, integrate the diagonal resolvent around
+a small circle containing no other spectral value. Its $n$th diagonal
+entry integrates to 1 if $\alpha_n=\alpha_k$ and to 0 otherwise by the
+scalar Cauchy integral. The resulting projection is exactly $P_k$.
+
+#### Solution VII.6.9 — Increasing positive shift weights
+
+The norm of $A^m$ is $r^m$: products of $m$ consecutive weights are at
+most $r^m$ and tend to $r^m$ down the sequence. Thus $r(A)=r$.
+Coordinate recursion shows $\ker(A-\lambda)=0$ for all $\lambda$,
+including zero. Fix $0<|\lambda|<r$, and choose $N$ and $c>|\lambda|$
+with $\alpha_n\geq c$ for $n\geq N$. The first $N$ coordinates of $x$
+are bounded by a constant times $\|(A-\lambda)x\|_p$, by finite recursion
+starting at $-\lambda x_1$. On the remaining tail the reverse triangle
+inequality gives a lower bound $c-|\lambda|$, apart from the boundary
+coordinate already controlled. Combining them proves $A-\lambda$ is
+bounded below. For zero use $\alpha_1>0$ directly.
+
+Put $b_1=1$ and $b_n=\lambda^{n-1}/(\alpha_1\cdots\alpha_{n-1})$.
+This sequence decays geometrically on the tail, and
+$\sum b_n((A-\lambda)x)_n=0$ by cancellation.
+Conversely, if $\sum b_ny_n=0$, solve
+$$x_n=\sum_{j>n}\frac{\lambda^{j-n-1}}{\alpha_n\cdots\alpha_{j-1}}y_j.$$
+Geometric tail bounds show $x\in\ell^p$, also for $p=\infty$; the
+condition on $y$ supplies the first-coordinate equation. Thus the range
+is exactly this one-functional kernel, of codimension one. At zero it
+is the kernel of the first coordinate. Every interior point is therefore
+spectral but not approximately spectral. Closedness and the boundary
+approximate-spectrum theorem give
+$\sigma(A)=r\overline{\mathbb D}$ and $\sigma_{ap}(A)=r\partial\mathbb D$.
+
+#### Solution VII.6.10 — Volterra kernels
+
+The product kernel vanishes for $x<y$, since a nonzero integrand requires
+$y\leq t\leq x$. Fubini applies to bounded kernels and integrable vectors
+on a finite interval, proving $V_hV_k=V_{hk}$.
+Induction gives
+$|k^{(n)}(x,y)|\leq\|k\|_\infty^n(x-y)^{n-1}/(n-1)!$ for $y<x$.
+Integrating this estimate in either variable bounds row and column
+integrals by $\|k\|_\infty^n/n!$. The integral-operator bound therefore
+gives $\|V_k^n\|\leq\|k\|_\infty^n/n!$ for all $1\leq p\leq\infty$.
+Taking $n$th roots yields radius zero; nonemptiness gives spectrum $\{0\}$.
+
+#### Solution VII.6.11 — Spectra of multiplication
+
+The spectrum and approximate point spectrum both equal the essential
+range of $\phi$. Outside it, $1/(\phi-\lambda)$ gives a bounded inverse.
+Inside it, choose a positive finite-measure subset of
+$\{|\phi-\lambda|<1/n\}$ and normalize its indicator in $L^p$ (use norm
+one indicators for $p=\infty$). These are approximate eigenvectors.
+The point spectrum consists exactly of $\lambda$ for which
+$\mu\{\phi=\lambda\}>0$: eigenvectors are precisely the nonzero functions
+supported on that set. Sigma-finiteness supplies finite positive subsets
+when needed.
+
+#### Solution VII.6.12 — Spectral mapping for approximate eigenvalues
+
+For $\lambda\in\sigma(A)$, factor
+$f(z)-f(\lambda)=(z-\lambda)g(z)$ analytically, with the derivative at the
+removable point. Then
+$f(A)-f(\lambda)=(A-\lambda)g(A)$, and the factors commute.
+This sends an eigenvector to zero and sends approximate eigenvectors
+for $A-\lambda$ to errors bounded by $\|g(A)\|$ times their original
+errors. Thus both asserted inclusions hold.
+In fact $\sigma_{ap}(f(A))=f(\sigma_{ap}(A))$. For the reverse inclusion,
+fix $\mu\notin f(\sigma_{ap}(A))$ and separate off components near the
+spectrum on which $f-\mu$ vanishes identically. A nonzero spectral
+summand of that kind has a boundary spectral point in $\sigma_{ap}(A)$,
+so none can occur. The remaining zeros near the compact spectrum are
+finite, say $\lambda_j$ with multiplicities $m_j$.
+Factor $f(z)-\mu=g(z)\prod_j(z-\lambda_j)^{m_j}$ with $g$ nonvanishing
+near the spectrum. Every $A-\lambda_j$ is bounded below, and $g(A)$ is
+invertible. Their product is bounded below, so $\mu$ is not approximately
+spectral. The spectral splitting used here is VII.4.9.
+
+#### Solution VII.6.13 — Stabilization of kernels
+
+(a) The spectral projection $P$ at the isolated point splits $X$ into a
+summand on which $N=A-\lambda$ is nilpotent of exact order $n$ and a
+summand on which it is invertible, by the Laurent coefficient formulas.
+The kernels of powers therefore stabilize first at $n$.
+(b) If $\ker N^k=\ker N^{k+1}$ and $N^{k+2}x=0$, then
+$Nx\in\ker N^{k+1}=\ker N^k$, giving $x\in\ker N^{k+1}=\ker N^k$.
+Induction proves stabilization for all higher powers.
+(c) The given matrix has $A^n=0$, $A^{n-1}\ne0$, and
+$\ker A^j=\operatorname{span}\{e_{n-j+1},\ldots,e_n\}$ for $j\leq n$.
+Thus its spectrum is $\{0\}$ and its index is $n$.
+
+#### Solution VII.6.14 — The Volterra resolvent singularity
+
+The Volterra spectrum is $\{0\}$. A removable singularity of its
+resolvent would extend the inverse identity to zero, making $V$ invertible.
+A pole of finite order would, by the spectral decomposition with sole
+spectral point zero, make $V$ nilpotent. But
+$V^n1(x)=x^n/n!\ne0$ for every $n$. The isolated singularity is therefore
+essential. Equivalently its Laurent expansion has infinitely many
+nonzero negative coefficients $V^n$.
+
+#### Solution VII.6.15 — The regular representations
+
+If $a-\lambda$ is invertible, left and right multiplication by its inverse
+invert the corresponding multiplication operators. Conversely, if
+$L_{a-\lambda}$ is bijective, choose $b$ with $(a-\lambda)b=1$.
+Injectivity applied to $(a-\lambda)(b(a-\lambda)-1)=0$ gives
+$b(a-\lambda)=1$. The argument for $R_{a-\lambda}$ reverses the sides.
+Thus both operator spectra equal $\sigma(a)$.
+
+#### Solution VII.6.16 — A nontrivial projection
+
+The relation $E^2=E$ shows, either by a direct two-block inverse or
+polynomial spectral mapping, that the spectrum is contained in $\{0,1\}$.
+Since $E\ne0$, its range contains a nonzero eigenvector for 1; since
+$E\ne I$, the range of $I-E$ contains a nonzero eigenvector for 0.
+Both values therefore occur.
+
+#### Solution VII.6.17 — Summability of all power orbits
+
+(a) implies (b) by the radius formula. If $\|T^m\|=q<1$, writing
+$n=km+j$, $0\leq j<m$, gives
+$\|T^n\|\leq q^k\max_{j<m}\|T^j\|$, proving (c).
+Conversely the linear map $x\mapsto(T^nx)_{n\geq0}$ into $\ell^1(X)$
+is everywhere defined by (c) and has closed graph, since each coordinate
+is continuous. Thus $\sum_n\|T^nx\|\leq C\|x\|$.
+In particular $\|T^j\|\leq C$. For $0\leq k\leq m$,
+$\|T^mx\|\leq C\|T^kx\|$; summing gives
+$(m+1)\|T^mx\|\leq C^2\|x\|$. Choose $m+1>C^2$ to obtain (b), and
+$r(T)^m=r(T^m)\leq\|T^m\|<1$ gives (a).
+
+### §7. Compact-operator spectra
+
+#### Solution VII.7.1 — Attaining distance one
+
+Choose $z\notin M$. In finite-dimensional $M$, a minimizing sequence for
+$\|z-m\|$ is bounded, so has a convergent subsequence and the minimum is
+attained at $m_0$. Let $d=\|z-m_0\|>0$ and $y=(z-m_0)/d$.
+Then $\|y\|=1$ and translation and scaling of the distance give
+$\operatorname{dist}(y,M)=1$.
+
+#### Solution VII.7.2 — Distinct eigenvalues
+
+Apply $\prod_{j\ne k}(A-\lambda_j)$ to a linear relation
+$\sum c_jx_j=0$. Only the $k$th term remains, equal to
+$c_k\prod_{j\ne k}(\lambda_k-\lambda_j)x_k$.
+All factors and $x_k$ are nonzero, so $c_k=0$. This holds for every $k$.
+
+#### Solution VII.7.3 — Compact diagonal sums
+
+The coordinate norm inequality gives $\|A\|\leq\sup_n\|A_n\|$; testing
+vectors supported at one coordinate gives equality. If $A$ is compact,
+coordinate restriction and projection show every $A_n$ is compact.
+If their norms did not tend to zero, choose unit vectors in distinct
+coordinates with image norm at least some $\varepsilon>0$; these images
+are pairwise separated, contradicting compactness. Conversely truncate
+$A$ to the first $N$ coordinates. This finite sum of compact operators is
+compact, and its norm error is $\sup_{n>N}\|A_n\|\to0$.
+The argument includes $p=\infty$ and the $c_0$ direct sum.
+
+#### Solution VII.7.4 — Polynomially compact operators
+
+For a nonzero nonconstant $p$, spectral mapping gives
+$p(\sigma(A))=\sigma(p(A))$. Nonzero spectral values of the compact
+operator $p(A)$ are isolated eigenvalues of finite algebraic multiplicity,
+with only possible accumulation at zero. A convergent sequence of distinct
+points in $\sigma(A)$ must therefore accumulate at a zero of $p$:
+otherwise their polynomial images have a nonzero accumulation value;
+a polynomial has only finitely many preimages of one value.
+Moreover every spectral point with $p(\lambda)\ne0$ is an isolated
+eigenvalue of finite algebraic multiplicity, by restricting to the
+finite-dimensional spectral space of $p(A)$ for $p(\lambda)$ and using
+commutation with $A$. Thus the spectrum is countable, with accumulation
+only among finitely many zeros of $p$. A nonzero constant $p$ forces
+finite-dimensional $X$; $p\equiv0$ gives no restriction at all.
+
+#### Solution VII.7.5 — An entire function of an operator is compact
+
+If $f\not\equiv0$ is nonconstant, its zeros in the compact spectrum are
+finite: an infinite set would have a finite accumulation point, forcing
+$f\equiv0$ by the identity theorem. Apply the argument of VII.7.4 with
+analytic spectral mapping; near any nonzero value of $f$, each fiber in
+a compact neighborhood has finitely many points. The spectrum is countable
+and its only possible accumulation points are zeros of $f$ on the spectrum.
+Outside those zeros its points are isolated eigenvalues of finite
+algebraic multiplicity. A nonzero constant $f$ forces finite dimension,
+while $f\equiv0$ imposes no condition.
+
+#### Solution VII.7.6 — The index at a nonzero compact spectral value
+
+For compact $A$ and $\lambda\ne0$ in its spectrum, the compact spectral
+theorem gives a finite-dimensional generalized eigenspace, with a
+complement on which $A-\lambda$ is invertible. On that eigenspace the
+restriction is nilpotent. Its largest Jordan block has some finite size
+$n$, and the kernel powers stabilize first at $n$. Thus
+$1\leq\nu_A(\lambda)<\infty$, and it equals the order of the resolvent
+pole at $\lambda$.
+
+### §8. Characters and commutative algebras
+
+#### Solution VII.8.1 — The commutator quotient
+
+(a) Every commutator has zero coset, so products commute in the Banach
+quotient. The quotient may be the zero algebra if $J=A$.
+(b) If $A/I$ is commutative, every commutator belongs to $I$; closedness
+and the ideal property give $J\subseteq I$.
+(c) For a nonzero character $h$, its values annihilate commutators and
+$|h(a)|\leq r(a)\leq\|a\|$: otherwise $a-h(a)1$ would be invertible
+but would have zero image. Thus its kernel is closed and contains $J$.
+The formula $\widetilde h(a+J)=h(a)$ is well defined and multiplicative;
+it is unital and contractive, so has norm one.
+(d) Composition with the quotient map is the inverse correspondence.
+Pointwise convergence on all cosets is exactly pointwise convergence on
+all their representatives, so both maps are weak-star continuous.
+Here and below “character” excludes the zero homomorphism; the norm-one
+claim would otherwise be false.
+
+#### Solution VII.8.2 — Maximal modular ideals without an identity
+
+A maximal modular ideal is closed by VII.2.6, and its quotient is a unital
+commutative Banach division algebra. The Gelfand–Mazur theorem identifies
+that quotient with $\mathbb C$, producing the character with that kernel.
+Conversely if $h\ne0$, choose $u$ with $h(u)=1$.
+Then $a-au$ and $a-ua$ belong to $\ker h$, and the quotient is the scalar
+field; hence the kernel is maximal modular. For a fixed kernel its
+quotient identity is fixed, and a complex linear unital isomorphism of
+that one-dimensional quotient with $\mathbb C$ is unique. Thus the
+correspondence is a bijection.
+
+#### Solution VII.8.3 — Norm of a character
+
+Extend $h$ to the unitization by $h_1(a,\alpha)=h(a)+\alpha$.
+The invertibility argument of VII.8.1 gives $|h(a)|\leq\|a\|$, so
+$\|h\|\leq1$. If $\|e_i\|\leq1$ is an approximate identity and
+$h(a)\ne0$, then $h(e_i)h(a)=h(e_ia)\to h(a)$, so $h(e_i)\to1$.
+Consequently $\|h\|\geq1$, proving equality for nonzero characters.
+
+#### Solution VII.8.4 — Local compactness of the character space
+
+The set $\Sigma\cup\{0\}$ is weak-star closed in $B_{A^*}$: the equations
+$h(ab)=h(a)h(b)$ are closed under pointwise limits. It is compact by
+Alaoglu. Removing the closed singleton 0 leaves an open subspace of a
+compact Hausdorff space, which is locally compact.
+
+#### Solution VII.8.5 — Spectrum in the unitization
+
+Characters of $A_1$ either restrict to a nonzero character $h$ on $A$,
+in which case their formula is $h(a)+\alpha$, or vanish on $A$, giving
+$h_\infty(a,\alpha)=\alpha$. The commutative spectral formula therefore
+gives $\sigma_{A_1}(a)=\{h(a):h\in\Sigma\}\cup\{0\}$.
+Restriction identifies the compact character space of $A_1$ with
+$\Sigma\cup\{0\}$ of VII.8.4. This is the one-point compactification
+in the sense of adjoining that point, with complements of compact subsets
+of $\Sigma$ as its neighborhoods. If $\Sigma$ is already compact, the
+adjoined point is isolated; if $\Sigma$ is empty, the space is a singleton.
+Thus one should not require the embedded $\Sigma$ to be dense in these
+degenerate cases. Nonunital radical algebras provide the empty example.
+
+#### Solution VII.8.6 — The nonunital Gelfand transform
+
+The function $h\mapsto h(a)$ is continuous by the weak-star topology and
+extends continuously to $\Sigma\cup\{0\}$ with value zero at 0.
+Its $\varepsilon$-level sets are therefore compact subsets of $\Sigma$,
+so it is in $C_0(\Sigma)$. Linearity and multiplicativity follow pointwise
+from the character equations; $\|\widehat a\|\leq\|a\|$ follows from
+VII.8.3. Its kernel is the intersection of all character kernels, which
+VII.8.2 identifies with the maximal modular ideals.
+
+#### Solution VII.8.7 — The character space of C0(X)
+
+A nonzero character of $C_0(X)$ extends to $C(X_\infty)$ and is evaluation
+at a point of $X_\infty$, by the compact-space character theorem.
+It cannot be evaluation at infinity, whose restriction is zero. Thus all
+characters are exactly $\delta_x$, $x\in X$. The evaluation map is
+continuous and injective. For $x\in U$ choose a compactly supported bump
+$f$ equal to one at $x$ and zero off $U$; the character neighborhood
+$|h(f)-1|<1/2$ has preimage contained in $U$. This proves continuity of
+the inverse. For compact $X$ the same argument applies directly.
+
+#### Solution VII.8.8 — All closed ideals of C0(X)
+
+For a closed ideal $I$ let $U=\bigcup_{g\in I}\{g\ne0\}$. Clearly
+$I\subseteq I(U)$. Given $f\in I(U)$ and $\varepsilon>0$, the compact
+set $K=\{|f|\geq\varepsilon\}$ lies in $U$. Choose finitely many
+$g_j\in I$ nonvanishing collectively on $K$, and put
+$h=\sum_j|g_j|^2\in I$; multiplying by $\bar g_j\in C_0(X)$ is allowed.
+Its minimum on $K$ is positive. Then
+$f h/(h+\delta)\in I$ and converges uniformly to $f$ as $\delta\downarrow0$:
+the error is small on $K$ by its positive minimum and at most
+$\varepsilon$ elsewhere. Hence $f\in I$.
+Thus the map of VII.2.2 is onto the closed ideals. Arbitrary joins are
+closures of sums and correspond to unions; arbitrary meets correspond
+to the interior of intersections of open sets, as required by the open-set
+lattice. The last “ideals” in the exercise must mean **closed** ideals;
+nonclosed ideals, such as $C_c(\mathbb R)$ in $C_0(\mathbb R)$, also exist.
+
+#### Solution VII.8.9 — Modular ideals and compact complements
+
+Let $F=X\setminus U$. If $u$ is a modular identity, then
+$f(x)(1-u(x))=0$ for every $f\in C_0(X)$ and $x\in F$.
+Bump functions give $u=1$ on $F$, so $F$ is a closed subset of the compact
+level set $\{|u|\geq1/2\}$ and is compact.
+Conversely if $F$ is compact, choose $u\in C_c(X)$ equal to one on $F$.
+Then $f-fu$ vanishes on $F$, so $u+I(U)$ is the quotient identity.
+The whole ideal case has zero quotient and can be treated with its zero
+identity convention separately.
+
+#### Solution VII.8.10 — A rational generator
+
+Because constant rational functions are included, the density assumption
+makes the algebra unital. The map $h\mapsto h(a)$ from $\Sigma$ to
+$\sigma(a)$ is continuous and onto by the commutative spectral formula.
+For rational functions $r$ with poles off $\sigma(a)$,
+$h(r(a))=r(h(a))$, since characters preserve inverses.
+Thus two characters with the same value on $a$ agree on the dense rational
+algebra and hence everywhere. The continuous bijection from compact
+$\Sigma$ to Hausdorff $\sigma(a)$ is a homeomorphism.
+
+#### Solution VII.8.11 — The Volterra-generated algebra
+
+Polynomials in $V$ commute, and their norm closure is a unital abelian
+Banach algebra. Its spectrum of $V$ is $\{0\}$ by Theorem 5.4, since
+$\{0\}$ has no holes. Every character therefore sends $V$ to zero and
+$p(V)$ to $p(0)$; density makes the character unique.
+This evaluation is bounded because
+$|p(0)|\leq r(p(V))\leq\|p(V)\|$ and extends to the closure.
+Its kernel is the closure of zero-constant polynomials: for
+$p_n(V)\to a$ with character value zero, subtract $p_n(0)I$.
+That kernel is the only maximal ideal and equals the radical.
+
+#### Solution VII.8.12 — Finitely many generators
+
+The polynomials in commuting $a_1,\ldots,a_n$ form the smallest unital
+algebra containing them, and their closure is the smallest unital Banach
+subalgebra. This proves the generating criterion in the abelian setting
+of this section. The map
+$\tau(h)=(h(a_1),\ldots,h(a_n))$ is continuous and injective, since values
+on polynomials and then on their closure determine a character. Compactness
+makes it a homeomorphism onto its compact image $K\subset\mathbb C^n$.
+For every polynomial,
+$\gamma(p(a_1,\ldots,a_n))(h)=p(\tau(h))$, which is the asserted pullback
+identity. For noncommuting generators one would need noncommutative words
+instead of polynomials in commuting variables.
+
+#### Solution VII.8.13 — The disk algebra
+
+A polynomial sequence Cauchy on the unit circle is Cauchy on the closed
+disk by the maximum modulus principle. Its limit is continuous on the
+closed disk and analytic inside, by locally uniform convergence and
+Cauchy's integral formula. Conversely for such an $f$, $f(rz)\to f(z)$
+uniformly on the closed disk as $r\uparrow1$, and for fixed $r<1$ the
+Taylor polynomials converge uniformly there. Thus the algebra is exactly
+the boundary restrictions of these analytic continuous functions.
+The coordinate has spectrum the closed disk by Theorem 5.4. As it is a
+generator, VII.8.10 identifies the character space with that disk, and
+characters act by evaluation of the unique analytic extension.
+
+#### Solution VII.8.14 — A square-preserving linear functional
+
+Polarizing the hypothesis gives
+$\phi(ab+ba)=2\phi(a)\phi(b)$. Applying this identity twice to
+$2aba=a(ab+ba)+(ab+ba)a-(a^2b+ba^2)$ gives
+$\phi(aba)=\phi(a)^2\phi(b)$.
+Set $u=\phi(ab)$, $v=\phi(ba)$, and $s=\phi(a)\phi(b)$, so $u+v=2s$.
+Expand $(ab-ba)^2$ and apply square preservation and the triple identity:
+$$(u-v)^2=u^2+v^2-2s^2.$$
+Hence $uv=s^2$. Together with $u+v=2s$, this gives $(u-s)^2=0$, so
+$u=v=s$. Therefore $\phi(ab)=\phi(a)\phi(b)$ for all $a,b$, as required.
+The zero functional is allowed here and is also multiplicative.
+
+#### Solution VII.8.15 — Uniqueness of the Banach-algebra norm
+
+Suppose $a_n\to a$ in the first norm and $a_n\to b$ in the second.
+Every character is continuous for both norms by the spectral bound,
+which depends only on algebraic invertibility. Thus $h(a)=h(b)$ for all
+characters. Semisimplicity says their kernels intersect in zero, so
+$a=b$. The identity map between the two Banach spaces has closed graph
+and is bounded by the closed graph theorem. Its inverse is bounded by
+the open mapping theorem, proving equivalence of the norms.
+
+#### Solution VII.8.16 — States of the disk algebra
+
+A functional $\phi$ with $\phi(1)=\|\phi\|=1$ extends by Hahn–Banach to a
+functional of the same norm on $C(\partial\mathbb D)$. Its representing
+measure is a probability measure: equality between its total mass 1 and
+variation norm 1 forces its polar phase to be one almost everywhere.
+The representing probability is unique. Indeed equal integrals on $z^n$
+for $n\geq0$ give equal integrals on $\bar z^n$ by positivity and
+conjugation, hence on all trigonometric polynomials and by density on all
+continuous functions. Restriction is therefore an affine bijection from
+the probabilities on the circle onto $K$. Affine bijections preserve
+extreme points in both directions. Probabilities have exactly the point
+masses as extreme points by V.8.3 and the splitting of any non-point-mass
+probability into two positive pieces. Thus the extreme states are exactly
+$\delta_z$ with $|z|=1$, not the evaluations at interior disk points.
+
+#### Solution VII.8.17 — Two proposed generators
+
+The map $f(x)=e^{\pi ix}$ is a homeomorphism from $[0,1]$ to a semicircle
+$K$, whose complement is connected and whose interior is empty.
+Polynomial approximation on such a compact set (the polynomial form of
+Runge–Mergelyan approximation) gives $P(K)=C(K)$, so its pullback says
+$f$ generates $C[0,1]$. One may avoid that stronger approximation theorem
+here: the semicircle has a neighborhood on which $1/z$ is holomorphic,
+and Runge's theorem with connected complement approximates $1/z$ there
+by polynomials on $K$. Thus the generated algebra contains $\bar z=1/z$
+on $K$; Stone–Weierstrass gives the result.
+For $g(x)=e^{2\pi ix}$, every polynomial in $g$ has equal values at 0
+and 1, as does every uniform limit. The function $x\mapsto x$ does not,
+so $g$ cannot generate the whole algebra.
+
+#### Solution VII.8.18 — The circle has no single polynomial generator
+
+A generator $f$ would separate points, so would embed the circle as a
+Jordan curve $K=f(\partial\mathbb D)$. Its polynomial algebra would be
+all $C(K)$. But a Jordan curve has a nonempty bounded complementary
+component, so its polynomial hull is strictly larger than $K$.
+The coordinate spectrum in $P(K)$ is that hull by VII.5.2, whereas in
+$C(K)$ it is $K$, a contradiction. The coordinate $z$ is a rational
+generator: $z^{-1}=\bar z$ has its pole off the circle, so rational
+functions include all trigonometric polynomials, which are dense by
+Stone–Weierstrass.
+
+### §9. Group algebras and characters
+
+These solutions use the locally compact abelian group convention of §9;
+then left and right Haar measures coincide.
+
+#### Solution VII.9.1 — An identity forces discreteness
+
+Suppose $u\in L^1(G)$ is an identity and let $e_U$ be the normalized
+shrinking-neighborhood approximate identity. Then $u*e_U=e_U$ while
+$u*e_U\to u$ in $L^1$. As measures, $e_Um\to\delta_e$ against $C_c(G)$:
+the integral of a continuous test is an average near $e$.
+The $L^1$ convergence gives $e_Um\to um$ in variation, so $um=\delta_e$.
+Thus $m(\{e\})>0$. Haar invariance gives the same positive atom mass to
+every point. A compact neighborhood has finite measure and therefore
+only finitely many points; a smaller open neighborhood of $e$ excluding
+its other finitely many points is the singleton. Translations show $G$
+is discrete. Conversely the scaled indicator of $\{e\}$ is an identity
+when Haar measure is a multiple of counting measure.
+
+#### Solution VII.9.2 — Weak-star continuity of translation
+
+For $g\in L^1$ a change of variables gives
+$\langle f_x,g\rangle=\langle f,g_{x^{-1}}\rangle$, with the appropriate
+inverse translation under either consistent convention. Norm continuity
+of translations on $L^1$ therefore gives
+$|\langle f_x-f_y,g\rangle|\leq\|f\|_\infty
+\|g_{x^{-1}}-g_{y^{-1}}\|_1\to0$ as $x\to y$.
+This is weak-star continuity for every $L^\infty$ class, without norm
+continuity of that class's translates.
+
+#### Solution VII.9.3 — Other measures on the real line
+
+Any positive constant multiple of Lebesgue measure works and is already
+a different measure if the constant is not one. A nonproportional example
+is $d\mu(t)=e^{-|t|}\,dt$: translation by $h$ has $L^1(\mu)$ operator norm
+at most $e^{|h|}$, since the weight ratio is so bounded. Translation
+convergence holds on $C_c$ by dominated convergence and then on all $L^1$
+by density and the local operator bound.
+For a discontinuous example use counting measure on the Borel sets of
+$\mathbb R$. Translations are isometries on $\ell^1(\mathbb R)$, but the
+indicators of $\{0\}$ and $\{-h\}$ have distance 2 for every $h\ne0$.
+Thus the orbit map is discontinuous at zero in the ordinary topology.
+
+#### Solution VII.9.4 — Norm continuity on C0
+
+For $f\in C_c(G)$, continuity follows from the compact-support uniform
+continuity argument in VII.1.4(a). Approximate an arbitrary $f\in C_0$
+uniformly by a compactly supported continuous function. Since translations
+are isometries for the supremum norm, the two approximation errors are
+uniform in the translation parameter. The triangle inequality proves
+the desired norm continuity.
+
+#### Solution VII.9.5 — Uniformly continuous representatives
+
+Uniform continuity directly gives $\|f_x-f_y\|_\infty\to0$ as $x\to y$.
+The literal converse for a chosen pointwise representative is false:
+changing the zero function at a Haar-null singleton produces a discontinuous
+representative of the same $L^\infty$ class on $\mathbb R$.
+The correct converse is existence of a bounded uniformly continuous
+representative. If the orbit is norm continuous, convolve with a normalized
+$L^1$ approximate identity. Each convolution is bounded and uniformly
+continuous, by $L^1$ translation continuity and the pairing bound, and
+its $L^\infty$ distance to $f$ tends to zero by the orbit-continuity
+estimate. The continuous convolutions are uniformly Cauchy in the actual
+supremum norm: Haar measure has full support, so for continuous functions
+essential supremum equals supremum. Their uniform limit is the required
+uniformly continuous representative.
+
+#### Solution VII.9.6 — The compact-open character topology
+
+Uniform convergence of characters on compact sets implies convergence
+against every $L^1$ function: first truncate its mass to a compact set,
+then use the bound $|\gamma|=1$ on the tail.
+Conversely suppose characters $\gamma_i$ converge against $L^1$ to
+$\gamma_0$. Choose $f\in L^1$ with $\widehat f(\gamma_0)\ne0$.
+The Fourier translation identity expresses $\gamma_i(x)$ (or its inverse,
+depending on the transform convention) as
+$\widehat{f_x}(\gamma_i)/\widehat f(\gamma_i)$.
+For compact $K$, $\{f_x:x\in K\}$ is norm compact in $L^1$ by translation
+continuity. Bounded functionals converging pointwise converge uniformly
+on a norm-compact set by finite nets. Thus the numerators converge
+uniformly on $K$, while the denominators converge to a nonzero value.
+The ratios give uniform convergence of characters on $K$.
+These arguments for nets identify the two topologies, so the stated
+sets form a neighborhood base.
+
+#### Solution VII.9.7 — Discontinuous and measurable characters
+
+Choose a Hamel basis of $\mathbb R$ over $\mathbb Q$ containing $1$ and
+an irrational $b$. Define a $\mathbb Q$-linear map $L$ with $L(1)=0$,
+$L(b)=1$, and arbitrary values, say zero, on other basis vectors.
+Then $\gamma(t)=e^{iL(t)}$ is a homomorphism. It equals one on the dense
+rationals but not at $b$, so is discontinuous.
+If a character is Borel, choose a small arc $V$ about 1 such that
+$VV^{-1}$ is contained in a prescribed identity neighborhood of the circle.
+Finitely many rotations of $V$ cover the circle; their measurable
+preimages cover $[0,1]$, so one preimage has positive Lebesgue measure.
+Its difference set contains an interval about zero by the Steinhaus lemma,
+and its character image lies in $VV^{-1}$. This proves continuity.
+For completeness, the lemma follows because for a finite positive-measure
+set $E$, $\|\chi_{E+h}-\chi_E\|_1\to0$; hence $E\cap(E+h)$ has positive
+measure for all sufficiently small $h$, putting those $h$ in $E-E$.
+
+#### Solution VII.9.8 — Characters span the continuous functions
+
+We justify the needed point separation. On compact abelian $G$, convolution
+by a continuous function is compact on $L^2(G)$, since its continuous
+kernel is uniformly approximable by finite sums of product functions.
+Choose continuous real-symmetric approximate-identity kernels; the
+corresponding operators are self-adjoint and commute with all translations.
+Their nonzero eigenspaces are finite dimensional and translation invariant.
+Commuting unitaries on each such space have a simultaneous orthonormal
+eigenbasis (diagonalize one and iterate on its invariant eigenspaces).
+A common eigenfunction is continuous, since it is in the nonzero range
+of a continuous-kernel operator, and its translation equation makes it
+a scalar multiple of a continuous character, by evaluation at the identity.
+The compact self-adjoint spectral theorem and strong convergence of the
+approximate identity show that characters span a dense subspace of $L^2$.
+If they failed to separate $x,y$, translation by $xy^{-1}$ would fix that
+dense span and hence all $L^2$ functions. A continuous bump separating
+these points contradicts this, using full support of Haar measure.
+Now their span is a unital self-adjoint algebra (products and conjugates
+of characters are characters) separating points. Stone–Weierstrass gives
+uniform density in $C(G)$.
+
+#### Solution VII.9.9 — An orthonormal basis of characters
+
+Normalize Haar measure to mass one. Each character has $L^2$ norm one.
+For a nontrivial character $\eta$, choose $x$ with $\eta(x)\ne1$.
+Translation invariance gives
+$\int\eta=\eta(x)\int\eta$, so the integral is zero.
+Apply this to $\gamma\overline\chi$ to get orthogonality of distinct
+characters. Their span is dense in $C(G)$ by VII.9.8 and $C(G)$ is dense
+in $L^2$ by regularity, so this orthonormal set is complete.
+
+#### Solution VII.9.10 — Metrizability and countably many characters
+
+If $G$ is compact metrizable, $C(G)$ is separable by V.5.2 and hence so
+is $L^2(G)$. An orthonormal set in a separable Hilbert space is countable:
+disjoint small balls around its vectors contain distinct members of a
+countable dense set. VII.9.9 gives countability of $\Gamma$.
+Conversely, enumerate the characters. The evaluation map
+$G\to\mathbb T^{\mathbb N}$ is continuous and injective by VII.9.8.
+It is a homeomorphism onto its compact image in the metrizable product,
+so $G$ is metrizable.
+
+#### Solution VII.9.11 — Characters of a product
+
+A continuous character $\gamma$ has an identity neighborhood mapped into
+an arc containing no nontrivial subgroup of $\mathbb T$, for example
+$\{z:\operatorname{Re}z>0\}$. A basic product neighborhood restricts only
+finitely many coordinates $F$. The entire subgroup whose coordinates in
+$F$ equal the identity lies in that neighborhood, so its character image
+is trivial. Thus $\gamma$ factors through the finite product over $F$.
+On a finite product, evaluate separately on each coordinate subgroup to
+get $\gamma((x_\alpha))=\prod_{\alpha\in F}\gamma_\alpha(x_\alpha)$.
+Conversely each such finite product is a continuous character. This is
+the claimed finite-support direct sum. Both character groups have the
+discrete topology since the underlying product group is compact, so the
+identification is also topological when that topology is included.
+<!-- END SOLUTIONS VII -->

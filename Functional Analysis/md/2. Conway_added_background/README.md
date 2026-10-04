@@ -60,47 +60,54 @@ study solutions, not an official solutions manual or part of the source text.
 - [Chapter IV solutions](chapter-04.md#exercise-solutions): all 71 numbered
   exercises, including lettered subparts, have written solutions or explicit
   counterexamples and corrected formulations.
-- Chapters V–XI: solutions have not yet been written. The next chapter is
-  Chapter V, with 77 numbered exercises. Work stopped after Chapter IV at
-  the learner's request on 2026-10-02; do not continue without a new request.
+- [Chapter V solutions](chapter-05.md#exercise-solutions): 77 numbered exercises.
+- [Chapter VI solutions](chapter-06.md#exercise-solutions): 48 numbered exercises.
+- [Chapter VII solutions](chapter-07.md#exercise-solutions): 101 numbered exercises.
+- [Chapter VIII solutions](chapter-08.md#exercise-solutions): 54 numbered exercises.
+- [Chapter IX solutions](chapter-09.md#exercise-solutions): 127 numbered exercises.
+- Chapters X–XI: 103 exercises remain outside the requested scope. Work stops
+  after Chapter IX; continue only on a new user request.
 
 The revised inventory recognizes both Markdown headings and bold/plain
 exercise headings, as well as repeated section headings across page breaks.
 It currently records 834 numbered exercises across the eleven chapters;
-lettered subparts are not counted separately. The completed first four
-chapters cover 324 of these numbered exercises; 510 remain in Chapters V–XI.
+lettered subparts are not counted separately. The first nine
+chapters cover 731 of these numbered exercises; 103 remain in Chapters X–XI.
 
 The [exercise-solution checkpoint](review/exercise-solutions-checkpoint.json)
 records current exercise/solution counts and validation results. Matching
 counts check coverage of numbered problems, not the correctness or completeness
 of every argument; mathematical content must be assessed separately.
 
-### Resume checkpoint — 2026-10-02
+### Resume checkpoint — 2026-10-04
 
-The latest requested scope is complete through Chapter IV only. This session
-appended 173 responses (III: 102; IV: 71), in English, inside the existing
-`BEGIN SOLUTIONS` / `END SOLUTIONS` convention. No Chapter V–XI solutions
-were started. Resume, only when requested, at Chapter V §1 Exercise 1 and
-continue preserving the original numbered exercise lists and lettered parts.
+The requested scope is complete through Chapter IX. The latest work appended
+407 responses (V: 77; VI: 48; VII: 101; VIII: 54; IX: 127), in English, inside
+`BEGIN SOLUTIONS` / `END SOLUTIONS` markers. Chapters X and XI are unchanged.
+Resume, only when requested, at Chapter X §1 Exercise 1.
 
-Notable qualifications for future review: III.4.11's proposed general sum
-can have a degenerate seminorm; III.9.8 has no order unit on the full matrix
-space; IV.1.20(b)–(d) fail in the stated unrestricted generality; IV.3.7
-requires a nonzero functional; and IV.5.7/IV.5.11 require careful locally
-finite measure conventions. The responses provide proofs, counterexamples,
-or precise corrected formulations rather than silently changing the source.
+Responses distinguish proofs from corrections to false or insufficiently
+qualified assertions. Examples include the Haar-measure convention in VII.1.4,
+the Banach-space adjoint issue in VII.6.2, the nonseparable eigenvalue issue in
+IX.2.11, and the restricted pushforward measures in IX.10.14. IX.1.3 explicitly
+identifies a positive-cone symbol mistranscribed in the exercise, checked
+against PDF page 276. The original exercise text is preserved.
 
-Validation confirmed the exact ordered exercise/solution identifiers for
-Chapters III and IV, local links, markers, and mathematical delimiters. The
-existing full-edition validator still reports source-preservation differences
-in all eleven chapters, and the existing inventory regression suite fails
-its two Chapter I/II preservation subtests. These differences predate this
-solution work and include list-continuation and page-anchor indentation.
-The unchanged-source check against the existing Git version, after removing
-marked additions, passes for the new Chapter III/IV work. Concurrent edits
-to the complex-analysis supplement and its reading links were preserved.
-The checkpoint records these limitations; it does not claim a clean full
-validator run or formal verification of the proofs. The older
+Some responses explicitly use additional foundational results rather than
+reprove them: VII.2.8 uses Wichmann's bounded local-unit theorem, and VII.6.2
+uses the noncomplementability of c0 in l-infinity for its counterexample.
+VIII.5.7 points forward to the closed-ideal theorem in Chapter IX. These are
+stated dependencies, not claims of fully self-contained proofs.
+
+Validation confirms exact ordered exercise/solution identifiers for V–IX,
+local links, markers, and mathematical delimiters. Removing the new solution
+blocks recovers the existing Git version of each of these five chapters
+exactly. The full-edition validator still reports preexisting source-text
+preservation differences in all eleven chapters. The existing regression
+suite likewise fails its two Chapter I/II preservation subtests because of
+preexisting source/list indentation differences. No new structural problem
+was found. The checkpoint records these limitations; structural checks do
+not formally verify the mathematical proofs. The older
 `background-validation.json` is not refreshed by this checkpoint.
 
 ## Contents
